@@ -1,0 +1,27 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">Cantarell Fonts</name>
+  <shortdesc xml:lang="en">Cantarell, a Humanist sans-serif font family</shortdesc>
+  <download-page rdf:resource="http://download.gnome.org/sources/cantarell-fonts/" />
+  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=cantarell-fonts" />
+
+  <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Dave Crossland</foaf:name>
+      <foaf:mbox rdf:resource="mailto:dave@lab6.com" />
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>William Jon McCann</foaf:name>
+      <foaf:mbox rdf:resource="mailto:william.jon.mccann@gmail.com" />
+      <gnome:userid>mccann</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>
