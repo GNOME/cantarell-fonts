@@ -1,4 +1,4 @@
-SUBDIRS = src fontconfig
+SUBDIRS = src ttf fontconfig
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\
