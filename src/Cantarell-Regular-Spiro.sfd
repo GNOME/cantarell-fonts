@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1290783111
+ModificationTime: 1290784164
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 13 8
+WinInfo: 0 13 9
 Grid
 -21 1422 m 25
  1635 1422 l 29
@@ -689,17 +689,17 @@ Encoding: 105 105 4
 Width: 524
 VWidth: 2097
 InSpiro: 1
-Flags: W
-HStem: 0 21G<180 344> 968 20G<180 344> 1232 189<165 359>
-VStem: 165 194<1232 1421> 180 164<0 988>
+Flags: HW
+HStem: -0.793945 21G<173.682 342.837> 968.938 20G<173.682 342.837> 1201.28 170.053<173.682 342.837>
+VStem: 173.682 169.155<-0.793945 988.938 1201.28 1371.33>
 LayerCount: 3
-Fore
+Back
 SplineSet
-165 1421 m 1xf0
- 359 1421 l 1
- 359 1232 l 1
- 165 1232 l 1
- 165 1421 l 1xf0
+165 1421 m 5xf0
+ 359 1421 l 5
+ 359 1232 l 5
+ 165 1232 l 5
+ 165 1421 l 5xf0
   Spiro
     165 1421 v
     359 1421 v
@@ -707,11 +707,11 @@ SplineSet
     165 1232 v
     0 0 z
   EndSpiro
-180 988 m 1xe8
- 344 988 l 1
- 344 0 l 1
- 180 0 l 1
- 180 988 l 1xe8
+180 988 m 5xe8
+ 344 988 l 5
+ 344 0 l 5
+ 180 0 l 5
+ 180 988 l 5xe8
   Spiro
     180 988 v
     344 988 v
@@ -720,7 +720,33 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 1
+Fore
+SplineSet
+173.682 1371.33 m 1
+ 342.837 1371.33 l 1
+ 342.837 1201.28 l 1
+ 173.682 1201.28 l 1
+ 173.682 1371.33 l 1
+  Spiro
+    173.683 1371.33 v
+    342.837 1371.33 v
+    342.837 1201.28 v
+    173.683 1201.28 v
+    0 0 z
+  EndSpiro
+173.682 988.938 m 1
+ 342.837 988.938 l 1
+ 342.837 -0.793945 l 1
+ 173.682 -0.793945 l 1
+ 173.682 988.938 l 1
+  Spiro
+    173.683 988.938 v
+    342.837 988.938 v
+    342.837 -0.792725 v
+    173.683 -0.792725 v
+    0 0 z
+  EndSpiro
+EndSplineSet
 EndChar
 
 StartChar: n
@@ -929,19 +955,18 @@ StartChar: l
 Encoding: 108 108 10
 Width: 564
 VWidth: 2097
-Flags: W
+Flags: HWO
 HStem: 0 21G<200 364> 1491 20G<200 364>
 VStem: 200 164<0 1511>
 LayerCount: 3
 Fore
 SplineSet
-200 1511 m 5
- 364 1511 l 5
- 364 0 l 5
- 200 0 l 5
- 200 1511 l 5
+200 1374 m 5
+ 364 1374 l 5
+ 364 0 l 1
+ 200 0 l 1
+ 200 1374 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: w
@@ -1801,7 +1826,7 @@ StartChar: H
 Encoding: 72 72 29
 Width: 1600
 VWidth: 2097
-Flags: WO
+Flags: W
 HStem: 0 21G<252.869 433.289 1221 1401.42> 637.05 153.45<433.289 1221>
 VStem: 252.869 180.42<0 637.05 790.5 1418.25> 1221 180.42<0 637.05 790.5 1418.25>
 LayerCount: 3
@@ -9558,7 +9583,6 @@ LayerCount: 3
 Fore
 Refer: 23 106 N 1 0 0 1 524 0 2
 Refer: 4 105 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Jcircumflex
@@ -9637,14 +9661,13 @@ StartChar: lacute
 Encoding: 314 314 272
 Width: 564
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21<200 364> 1491 20<200 364> 1633 418
 VStem: 160 574 200 164<0 1511>
 LayerCount: 3
 Fore
 Refer: 148 180 S 1 0 0 1 -114 466 2
 Refer: 10 108 S 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lcommaaccent
@@ -9674,7 +9697,6 @@ LayerCount: 3
 Fore
 Refer: 69 44 S 1 0 0 1 28.5 -292 2
 Refer: 10 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -9696,7 +9718,7 @@ StartChar: lcaron
 Encoding: 318 318 276
 Width: 805
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21.0139<200 364> 1491 20G<583.949 755> 1491.98 20.0132<200 364>
 VStem: 200 164<0 1512> 472 165<1121 1286> 590 165<1346 1511>
 DStem2: 472 1121 637 1121 0.289599 0.957148<47.7838 407.46>
@@ -9710,7 +9732,6 @@ SplineSet
  590 1511 l 5xd4
 EndSplineSet
 Refer: 10 108 N 1 0 0 1.00066 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -9731,14 +9752,13 @@ StartChar: ldot
 Encoding: 320 320 278
 Width: 824
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21<200 364> 628 210<534 744> 1491 20<200 364>
 VStem: 200 164<0 1511> 534 210<628 838>
 LayerCount: 3
 Fore
 Refer: 107 183 S 1 0 0 1 344 0 2
 Refer: 10 108 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Nacute
@@ -10740,7 +10760,7 @@ StartChar: lslash
 Encoding: 322 322 326
 Width: 687
 VWidth: 2097
-Flags: W
+Flags: HW
 HStem: 0 21<230 394> 523 149<90 239> 821 150<457 607> 1491 20<230 394>
 VStem: 90 517 230 164<0 1511>
 DStem2: 90 672 90 523 0.865655 0.50064<0 522.139>
@@ -10754,7 +10774,6 @@ SplineSet
  90 672 l 1xf8
 EndSplineSet
 Refer: 10 108 N 1 0 0 1 30 0 2
-Validated: 5
 EndChar
 
 StartChar: kgreenlandic
