@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1290784164
+ModificationTime: 1290784219
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -689,7 +689,7 @@ Encoding: 105 105 4
 Width: 524
 VWidth: 2097
 InSpiro: 1
-Flags: HW
+Flags: W
 HStem: -0.793945 21G<173.682 342.837> 968.938 20G<173.682 342.837> 1201.28 170.053<173.682 342.837>
 VStem: 173.682 169.155<-0.793945 988.938 1201.28 1371.33>
 LayerCount: 3
@@ -955,9 +955,9 @@ StartChar: l
 Encoding: 108 108 10
 Width: 564
 VWidth: 2097
-Flags: HWO
-HStem: 0 21G<200 364> 1491 20G<200 364>
-VStem: 200 164<0 1511>
+Flags: W
+HStem: 0 21G<200 364> 1354 20G<200 364>
+VStem: 200 164<0 1374>
 LayerCount: 3
 Fore
 SplineSet
@@ -1573,26 +1573,32 @@ StartChar: j
 Encoding: 106 106 23
 Width: 524
 VWidth: 2097
-Flags: HW
-HStem: 968 20G<176 340.072> 1232 189<165 359>
-VStem: 165 194<1232 1421> 178 166<-312.74 988>
+Flags: W
+HStem: 968 20G<176 340.072> 1201.28 170.053<173.682 342.837>
+VStem: 173.682 169.155<-323.367 988 1201.28 1371.33>
 LayerCount: 3
 Fore
 SplineSet
-344 -131 m 6xd0
- 344 -239 347 -440 78 -538 c 5
- 16 -414 l 5
- 195 -330 178 -164 178 -140 c 6
- 176 988 l 5
- 340 988 l 5
- 344 -131 l 6xd0
-165 1421 m 1xe0
- 359 1421 l 1
- 359 1232 l 1
- 165 1232 l 1
- 165 1421 l 1xe0
+173.682 1371.33 m 5
+ 342.837 1371.33 l 5
+ 342.837 1201.28 l 5
+ 173.682 1201.28 l 5
+ 173.682 1371.33 l 5
+  Spiro
+    173.683 1371.33 v
+    342.837 1371.33 v
+    342.837 1201.28 v
+    173.683 1201.28 v
+    0 0 z
+  EndSpiro
+344 -131 m 2
+ 344 -239 347 -440 78 -538 c 1
+ 16 -414 l 1
+ 195 -330 178 -164 178 -140 c 2
+ 176 988 l 1
+ 340 988 l 1
+ 344 -131 l 2
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: x
