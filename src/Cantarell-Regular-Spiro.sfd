@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1290785174
+ModificationTime: 1290785244
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -1608,11 +1608,10 @@ Encoding: 114 114 20
 Width: 801
 VWidth: 2097
 InSpiro: 1
-Flags: W
-HStem: 0 21G<180 344> 867 140<408.785 738.583> 968 20G<180 303.448>
-VStem: 180 164<0 798.667>
+Flags: WO
+HStem: 823.953 160.578<613.392 745.688> 856.249 148.02<426.776 733.614>
 LayerCount: 3
-Fore
+Back
 SplineSet
 585 1007 m 0xd0
  655.518 1009.69 726.612 995.882 791 967 c 1
@@ -1645,7 +1644,49 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 37
+Fore
+SplineSet
+341.1 779.099 m 1x40
+ 415.559 831.129 500.781 856.249 576.138 856.249 c 0x40
+ 628.17 856.249 674.818 845.483 725.952 823.953 c 1
+ 745.688 823.953 l 1
+ 745.688 984.531 l 1x80
+ 702.628 997.988 659.566 1004.27 611.125 1004.27 c 0
+ 514.238 1004.27 416.455 968.385 323.157 893.926 c 1
+ 341.1 779.099 l 1x40
+  Spiro
+    341.1 779.097 v
+    418.304 822.19 o
+    498.337 847.825 o
+    576.138 856.247 o
+    626.691 852.666 o
+    675.997 841.88 o
+    725.953 823.952 v
+    745.689 823.952 v
+    745.689 984.532 v
+    702.473 995.62 o
+    657.928 1002.15 o
+    611.125 1004.27 o
+    514.236 992.231 o
+    417.656 955.576 o
+    323.158 893.925 v
+    0 0 z
+  EndSpiro
+302.525 986.326 m 1
+ 181.418 986.326 l 1
+ 181.418 -0.475586 l 1
+ 350.07 -0.475586 l 1
+ 350.07 868.808 l 1
+ 302.525 986.326 l 1
+  Spiro
+    302.525 986.326 v
+    181.418 986.326 v
+    181.418 -0.475525 v
+    350.071 -0.475525 v
+    350.071 868.807 v
+    0 0 z
+  EndSpiro
+EndSplineSet
 EndChar
 
 StartChar: v
@@ -2116,7 +2157,7 @@ Encoding: 79 79 31
 Width: 1696
 VWidth: 2097
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: -15.6797 152.063<682.548 1074.43> 1281.62 152.063<682.548 1074.43>
 VStem: 205.161 191.98<457.718 959.681> 1359.9 191.98<457.718 959.681>
 LayerCount: 3
@@ -10104,7 +10145,7 @@ StartChar: racute
 Encoding: 341 341 290
 Width: 801
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21<180 344> 867 140<408.785 738.583> 968 20<180 303.448>
 VStem: 180 164<0 798.667>
 DStem2: 242 1225 322 1125 0.766548 0.642187<0 487.092>
@@ -10118,7 +10159,6 @@ SplineSet
  606 1549 l 29x90
 EndSplineSet
 Refer: 20 114 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Rcommaaccent
@@ -10148,7 +10188,6 @@ LayerCount: 3
 Fore
 Refer: 69 44 S 1 0 0 1 -16.5 -292 2
 Refer: 20 114 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Rcaron
@@ -10169,14 +10208,13 @@ StartChar: rcaron
 Encoding: 345 345 294
 Width: 801
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21<180 344> 867 140<408.785 738.583> 968 20<180 303.448> 1124 374 1232 20<458.141 550.5>
 VStem: 180 164<0 798.667> 236.5 538
 LayerCount: 3
 Fore
 Refer: 223 711 N 1 0 0 1 -26.5 0 2
 Refer: 20 114 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Sacute
