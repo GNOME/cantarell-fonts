@@ -1,5 +1,5 @@
 noinst_DATA = \
-	Cantarell-Regular.sfd		\
+	Cantarell-Regular-Combined.sfd		\
 	Cantarell-Bold.sfd		\
 	Cantarell-BoldOblique.sfd	\
 	Cantarell-Oblique.sfd
