@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 33 11 8
+WinInfo: 0 11 8
 Grid
 -21 1422 m 25
  1635 1422 l 29
@@ -762,7 +762,7 @@ StartChar: n
 Encoding: 110 110 5
 Width: 1181
 VWidth: 2097
-Flags: MWO
+Flags: MW
 HStem: 835 150
 VStem: 183 168<0 814.794> 830 166<0 803.509>
 LayerCount: 4
@@ -1017,7 +1017,7 @@ StartChar: b
 Encoding: 98 98 9
 Width: 1188
 VWidth: 2097
-Flags: MWO
+Flags: MW
 HStem: -18.5 138.5<414.279 750.214> 1 21<185 314.529> 853 132<357.297 745.813> 1354 20<185 354>
 VStem: 180 150 900 150
 LayerCount: 4
@@ -1208,8 +1208,8 @@ StartChar: u
 Encoding: 117 117 14
 Width: 1181
 VWidth: 2097
-Flags: W
-HStem: -1 150
+Flags: MWO
+HStem: -1 150 835 150
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Back
@@ -2144,8 +2144,8 @@ StartChar: G
 Encoding: 71 71 28
 Width: 1591
 VWidth: 2097
-Flags: W
-HStem: -19 150.5<733.352 1174.09> 610 140<872 1276>
+Flags: MWO
+HStem: -19 150.5<733.352 1174.09> 610 140<872 1276> 1280 150
 VStem: 215 170<481.266 947.271> 1276 160<210.567 610>
 LayerCount: 4
 Fore
@@ -2272,7 +2272,7 @@ StartChar: g
 Encoding: 103 103 30
 Width: 1176
 VWidth: 2097
-Flags: HMWO
+Flags: HMW
 HStem: -535 150 0 150 835 150
 VStem: 832 164<-245.557 48 150.719 834.029>
 LayerCount: 4
@@ -7980,7 +7980,7 @@ Encoding: 252 252 138
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1235 185<275 460 724 909>
+HStem: -1 150 835 150 1235 185<275 460 724 909>
 VStem: 186 166<180.491 984> 275 185<1235 1420> 724 185<1235 1420> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -8909,7 +8909,7 @@ Encoding: 249 249 181
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150
+HStem: -1 150 835 150
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -8937,7 +8937,7 @@ Encoding: 250 250 182
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150
+HStem: -1 150 835 150
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -8965,7 +8965,7 @@ Encoding: 251 251 183
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1116 374
+HStem: -1 150 835 150 1116 374
 VStem: 186 166<180.491 984> 329 538 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -11094,7 +11094,7 @@ StartChar: Gcircumflex
 Encoding: 284 284 249
 Width: 1591
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 150.5<733.352 1174.09> 610 140<872 1276> 1558 374
 VStem: 215 170<481.266 947.271> 592 538 1276 160<210.567 610>
 LayerCount: 4
@@ -11126,7 +11126,7 @@ StartChar: Gbreve
 Encoding: 286 286 251
 Width: 1591
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 150.5<733.352 1174.09> 610 140<872 1276> 1560 322
 VStem: 215 170<481.266 947.271> 1276 160<210.567 610>
 LayerCount: 4
@@ -11158,7 +11158,7 @@ StartChar: Gdotaccent
 Encoding: 288 288 253
 Width: 1591
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 150.5<733.352 1174.09> 610 140<872 1276> 1619 210<797 1007>
 VStem: 215 170<481.266 947.271> 797 210<1619 1829> 1276 160<210.567 610>
 LayerCount: 4
@@ -11190,7 +11190,7 @@ StartChar: Gcommaaccent
 Encoding: 290 290 255
 Width: 1591
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -531 390<886 908> -19 150.5<733.352 1174.09> 610 140<872 1276>
 VStem: 215 170<481.266 947.271> 728 338 1276 160<210.567 610>
 LayerCount: 4
@@ -12366,7 +12366,7 @@ Encoding: 361 361 306
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1124 306
+HStem: -1 150 835 150 1124 306
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -12410,7 +12410,7 @@ Encoding: 363 363 308
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1204 129<293 891>
+HStem: -1 150 835 150 1204 129<293 891>
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -12454,7 +12454,7 @@ Encoding: 365 365 310
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1126 322
+HStem: -1 150 835 150 1126 322
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -12486,7 +12486,7 @@ Encoding: 367 367 312
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150 1124 91<498.969 684.268> 1482 91<499.068 685.031>
+HStem: -1 150 835 150 1124 91<498.969 684.268> 1482 91<499.068 685.031>
 VStem: 186 166<180.491 984> 373 90<1251.8 1445.46> 720 92<1252.42 1445.24> 831 168<169.206 984>
 LayerCount: 4
 Fore
@@ -13926,7 +13926,7 @@ Encoding: 369 369 349
 Width: 1181
 VWidth: 0
 Flags: W
-HStem: -1 150
+HStem: -1 150 835 150
 VStem: 186 166<180.491 984> 831 168<169.206 984>
 LayerCount: 4
 Fore
