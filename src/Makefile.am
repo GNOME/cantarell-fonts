@@ -1,8 +1,6 @@
 noinst_DATA = \
-	Cantarell-Regular-Combined.sfd		\
-	Cantarell-Bold.sfd		\
-	Cantarell-BoldOblique.sfd	\
-	Cantarell-Oblique.sfd
+	Cantarell-Regular.sfd		\
+	Cantarell-Bold.sfd		
 
 EXTRA_DIST = $(noinst_DATA)
 
