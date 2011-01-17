@@ -16,7 +16,7 @@ AC_CONFIG_FILES([
 Makefile
 fontconfig/Makefile
 src/Makefile
-ttf/Makefile
+otf/Makefile
 ])
 
 AC_OUTPUT

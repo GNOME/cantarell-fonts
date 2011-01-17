@@ -1,7 +1,7 @@
 
 fontdir = $(datadir)/fonts/cantarell
 font_DATA = \
-	Cantarell-Regular.ttf		\
-	Cantarell-Bold.ttf		
+	Cantarell-Regular.otf		\
+	Cantarell-Bold.otf
 
 -include $(top_srcdir)/git.mk
