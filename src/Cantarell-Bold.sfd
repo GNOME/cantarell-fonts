@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1295305653
+ModificationTime: 1295309965
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 8
+WinInfo: 22 11 9
 Grid
 -2048 2164 m 0
  4096 2164 l 0
@@ -73,9 +73,9 @@ StartChar: a
 Encoding: 97 97 0
 Width: 1233
 VWidth: 2097
-Flags: W
-HStem: -20 211<423.604 763.503> 0 21G<860.385 1053> 396 186<432.57 806> 789 218<277.45 753.683>
-VStem: 123 260<234.738 350.579> 806 247<229.777 396 582 734.96>
+Flags: MWO
+HStem: -20 180<413.047 763.503> 0 21G<860.385 1053> 415 186<419.281 806> 789 218<277.45 753.683>
+VStem: 123 260<223.538 373.243> 806 247<229.777 415 601 734.96>
 LayerCount: 2
 Back
 SplineSet
@@ -112,7 +112,7 @@ SplineSet
  841 65 l 1
  763 15 657 -20 538 -20 c 0
  282 -20 123 122 123 273 c 0
- 123 526 448 578 806 582 c 1
+ 123 561.5 448 597 806 601 c 1
  806 616 l 2
  806 698 790 789 566 789 c 0
  506 789 412 779 269 745 c 1
@@ -121,13 +121,12 @@ SplineSet
  213 943 l 2
  340 987 477 1007 597 1007 c 0xbc
 806 255 m 1
- 806 396 l 1
- 782 396 l 2
- 522 396 383 369 383 291 c 0
- 383 246 468 191 590 191 c 0xbc
+ 806 415 l 1
+ 782 415 l 2
+ 522 415 383 413.5 383 291 c 0
+ 383 225.5 468 191 590 191 c 0
  612 191 714 192 806 255 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: d
@@ -164,8 +163,8 @@ StartChar: e
 Encoding: 101 101 2
 Width: 1266
 VWidth: 2097
-Flags: W
-HStem: -20 213<539.42 1015.48> 376 206<395 894> 783 224<498.929 823.477>
+Flags: MWO
+HStem: 0 213<539.42 1015.48> 376 180<395 894> 783 224<498.929 823.477>
 LayerCount: 2
 Back
 SplineSet
