@@ -6,6 +6,7 @@ test -z "$srcdir" && srcdir=.
 
 PKG_NAME="cantarell-fonts"
 REQUIRED_AUTOMAKE_VERSION=1.9
+REQUIRED_PKG_CONFIG_VERSION=0.19.0
 
 (test -f $srcdir/configure.ac \
   && test -d $srcdir/src) || {
@@ -14,12 +15,15 @@ REQUIRED_AUTOMAKE_VERSION=1.9
     exit 1
 }
 
+which gnome-autogen.sh || {
+    echo "You need to install gnome-common from the GNOME CVS"
+    exit 1
+}
+
 (cd $srcdir && autoreconf --force --install) || exit 1
 
 if test x$NOCONFIGURE = x; then
-    echo Running $srcdir/configure $conf_flags "$@" ...
-    $srcdir/configure $conf_flags "$@" \
-        && echo Now type \`make\' to compile. || exit 1
+    . gnome-autogen.sh
 else
     echo Skipping configure process.
 fi
