@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1297336868
+ModificationTime: 1297343205
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 132 12 9
+WinInfo: 84 12 9
 Grid
 -10.2539 694.336 m 25
  798.34 694.336 l 29
@@ -564,28 +564,28 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-473 218 m 1
- 145 218 l 1
- 148 172 164 134 192 104 c 128
- 220 74 265 60 326 60 c 0
- 368 60 412 67 459 82 c 1
- 459 17 l 1
- 410 0 358 -9 304 -9 c 0
- 224 -9 164 12 123 54 c 128
- 82 96 61 156 61 233 c 0
- 61 305 80 365 117 415 c 1
- 156 465 210 490 280 490 c 0
- 378 490 440 446 466 358 c 0
- 474 332 478 302 478 270 c 2
- 478 226 l 1
- 473 218 l 1
-147 281 m 1
- 396 281 l 1
- 396 325 386 360 367 386 c 128
- 348 412 321 425 287 425 c 128
- 253 425 225 416 204 399 c 128
- 183 382 170 362 162 340 c 128
- 154 318 149 299 147 281 c 1
+472 218 m 1
+ 144 218 l 1
+ 147 172 163 134 191 104 c 128
+ 219 74 264 60 325 60 c 0
+ 367 60 411 67 458 82 c 1
+ 458 17 l 1
+ 409 0 357 -9 303 -9 c 0
+ 223 -9 163 12 122 54 c 128
+ 81 96 60 156 60 233 c 0
+ 60 305 79 365 116 415 c 1
+ 155 465 209 490 279 490 c 0
+ 377 490 439 446 465 358 c 0
+ 473 332 477 302 477 270 c 2
+ 477 226 l 1
+ 472 218 l 1
+146 281 m 1
+ 395 281 l 1
+ 395 325 385 360 366 386 c 128
+ 347 412 320 425 286 425 c 128
+ 252 425 224 416 203 399 c 128
+ 182 382 169 362 161 340 c 128
+ 153 318 148 299 146 281 c 1
 EndSplineSet
 Layer: 3
 SplineSet
@@ -609,9 +609,9 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 3
-Width: 581
+Width: 558
 VWidth: 1023
-Flags: HMW
+Flags: HMWO
 HStem: 0 73 408 73
 VStem: 90 83<0 400 452 670> 409 82<0 395>
 LayerCount: 4
@@ -11235,7 +11235,7 @@ EndChar
 
 StartChar: hcircumflex
 Encoding: 293 293 257
-Width: 581
+Width: 558
 VWidth: 0
 Flags: W
 HStem: 0 73 408 73 763 182
@@ -13179,7 +13179,7 @@ EndChar
 
 StartChar: hbar
 Encoding: 295 295 336
-Width: 581
+Width: 558
 VWidth: 1023
 Flags: W
 HStem: 0 73 408 73 558 63<46 331>
@@ -14903,7 +14903,9 @@ StartChar: H18533
 Encoding: 9679 9679 387
 Width: 680
 VWidth: 0
-Flags: HWO
+Flags: W
+HStem: 99 476<242.083 437.917>
+VStem: 102 476<239.083 434.917>
 LayerCount: 4
 Fore
 SplineSet
