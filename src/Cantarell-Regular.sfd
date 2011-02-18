@@ -910,8 +910,8 @@ StartChar: s
 Encoding: 115 115 7
 Width: 496
 VWidth: 1023
-Flags: W
-HStem: -10 68<105.339 323.562> 399 67<288.506 407>
+Flags: MW
+HStem: -10 68<105.339 323.562> 408 67<288.506 407>
 LayerCount: 4
 Back
 SplineSet
@@ -1655,8 +1655,8 @@ StartChar: c
 Encoding: 99 99 18
 Width: 488
 VWidth: 1023
-Flags: W
-HStem: -10 67<221.438 406.127> 423 68<218.402 411.128>
+Flags: MWO
+HStem: -10 67<221.438 406.127> 408 68<218.402 411.128>
 LayerCount: 4
 Fore
 SplineSet
@@ -7644,7 +7644,7 @@ StartChar: ccedilla
 Encoding: 231 231 125
 Width: 488
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<221.438 406.127> 423 68<218.402 411.128>
 VStem: 179 211
 LayerCount: 4
@@ -10810,7 +10810,7 @@ StartChar: cacute
 Encoding: 263 263 231
 Width: 488
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<221.438 406.127> 423 68<218.402 411.128>
 LayerCount: 4
 Fore
@@ -10853,7 +10853,7 @@ StartChar: ccircumflex
 Encoding: 265 265 233
 Width: 488
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<221.438 406.127> 423 68<218.402 411.128> 549 182
 VStem: 139 263
 LayerCount: 4
@@ -10885,7 +10885,7 @@ StartChar: cdotaccent
 Encoding: 267 267 235
 Width: 488
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<221.438 406.127> 423 68<218.402 411.128> 592 103<247 349>
 VStem: 247 102<592 695>
 LayerCount: 4
@@ -12119,7 +12119,7 @@ StartChar: sacute
 Encoding: 347 347 296
 Width: 496
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 68<105.339 323.562> 399 67<288.506 407>
 LayerCount: 4
 Fore
@@ -12162,7 +12162,7 @@ StartChar: scircumflex
 Encoding: 349 349 298
 Width: 496
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 68<105.339 323.562> 399 67<288.506 407> 549 182
 VStem: 133 263
 LayerCount: 4
@@ -12240,7 +12240,7 @@ StartChar: scedilla
 Encoding: 351 351 300
 Width: 496
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 68<105.339 323.562> 399 67<288.506 407>
 VStem: 133 211
 LayerCount: 4
@@ -14595,7 +14595,7 @@ StartChar: uni1E61
 Encoding: 7777 7777 381
 Width: 496
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 68<105.339 323.562> 399 67<288.506 407> 592 103<209 311>
 VStem: 209 102<592 695>
 LayerCount: 4
