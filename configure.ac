@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([cantarell-fonts], [0.0.1],
+AC_INIT([cantarell-fonts], [0.0.3],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=cantarell-fonts])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
