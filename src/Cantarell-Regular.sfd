@@ -7,8 +7,8 @@ Copyright: Copyright (c) 2009-2011 Dave Crossland <dave@lab6.com>
 UComments: "Cantarell is designed by Dave Crossland+AA0ACgAA-dave@lab6.com+AA0ACgAA-http://abattis.org/cantarell/" 
 Version: 001.001
 ItalicAngle: 0
-UnderlinePosition: -113.77
-UnderlineWidth: 56.6406
+UnderlinePosition: -113
+UnderlineWidth: 56
 Ascent: 739
 Descent: 261
 LayerCount: 4
@@ -16,14 +16,13 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
-NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1298911796
+ModificationTime: 1298915060
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -4000,13 +3999,13 @@ StartChar: eight
 Encoding: 56 56 58
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: -10 73<230.774 410.633> 633 70<238.786 398.022>
+Flags: MW
+HStem: 0 73<230.774 410.633> 340 65 620 73<238.786 398.022>
 VStem: 73 85<129.825 268.901> 112 82<480.306 590.868> 442 80<475.656 591.023> 476 86<123.881 267.459>
 LayerCount: 4
 Fore
 SplineSet
-378 622 m 0xd8
+378 622 m 0xec
  359 630 334 633 306 633 c 0
  278 633 252 623 229 604 c 0
  206 585 194 562 194 536 c 0
@@ -4016,18 +4015,18 @@ SplineSet
  384 443 412 464 424 480 c 0
  436 496 442 514 442 534 c 0
  442 554 436 571 424 587 c 0
- 412 603 397 614 378 622 c 0xd8
+ 412 603 397 614 378 622 c 0xec
 434 101 m 0
  462 126 476 157 476 194 c 0
  476 259 436 307 354 338 c 0
  339 344 322 349 303 354 c 1
  258 341 223 320 197 291 c 0
- 171 262 158 231 158 198 c 0xe4
+ 171 262 158 231 158 198 c 0xf2
  158 162 173 130 203 104 c 0
  234 77 272 63 320 63 c 0
  368 63 406 76 434 101 c 0
 469 658 m 0
- 504 628 522 587 522 534 c 0xd8
+ 504 628 522 587 522 534 c 0xec
  522 506 515 480 499 457 c 0
  483 434 458 411 424 387 c 1
  471 366 506 339 528 307 c 0
@@ -4036,11 +4035,11 @@ SplineSet
  475 20 408 -10 320 -10 c 0
  275 -10 234 -2 196 15 c 0
  158 32 128 56 106 87 c 0
- 84 118 73 152 73 191 c 0xe4
+ 84 118 73 152 73 191 c 0xf2
  73 230 86 267 111 303 c 0
  136 339 170 366 212 386 c 1
  160 412 128 451 116 502 c 0
- 113 514 112 528 112 545 c 0xd0
+ 113 514 112 528 112 545 c 0xe8
  112 562 117 580 126 600 c 0
  135 620 149 638 166 653 c 0
  203 686 253 703 318 703 c 0
@@ -4075,8 +4074,8 @@ StartChar: nine
 Encoding: 57 57 59
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: -4 72<137 174.297> 256 68<239.089 398.008>
+Flags: MW
+HStem: 0 73<137 174.297> 256 65<239.089 398.008> 620 73
 VStem: 470 82<394.829 547.695>
 LayerCount: 4
 Fore
@@ -4156,8 +4155,8 @@ StartChar: six
 Encoding: 54 54 60
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: -12 68<246.743 392.767> 624 72<312.016 497>
+Flags: MW
+HStem: 0 73<246.743 392.767> 620 73<312.016 497>
 VStem: 83 81<146.101 314.54>
 LayerCount: 4
 Fore
@@ -4235,8 +4234,8 @@ StartChar: seven
 Encoding: 55 55 61
 Width: 634
 VWidth: 0
-Flags: W
-HStem: 0 21G<150 257.093> 616 78<64 469>
+Flags: MW
+HStem: 0 20<150 257.093> 620 73<64 469>
 LayerCount: 4
 Fore
 SplineSet
@@ -4267,8 +4266,8 @@ StartChar: five
 Encoding: 53 53 62
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: 7 74<98.4865 320.784> 621 73<194 533>
+Flags: MW
+HStem: 0 73<98.4865 320.784> 620 73<194 533>
 VStem: 115 80<431 621> 467 88<140.771 289.085>
 LayerCount: 4
 Fore
@@ -4332,8 +4331,8 @@ StartChar: two
 Encoding: 50 50 63
 Width: 634
 VWidth: 0
-Flags: W
-HStem: 0 73<211 553> 627 72<190.926 386.181>
+Flags: MW
+HStem: 0 73<211 553> 620 73<190.926 386.181>
 LayerCount: 4
 Fore
 SplineSet
@@ -4399,8 +4398,8 @@ StartChar: three
 Encoding: 51 51 64
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: -22 77<133.98 367.562> 334 71<230 346.149> 627 75<174.692 372.029>
+Flags: MW
+HStem: 0 73<133.98 367.562> 334 71<230 346.149> 620 73<174.692 372.029>
 VStem: 422 84<465.729 582.069> 452 84<126.258 262.359>
 LayerCount: 4
 Fore
@@ -4501,8 +4500,8 @@ StartChar: zero
 Encoding: 48 48 66
 Width: 634
 VWidth: 1023
-Flags: W
-HStem: -10 73<244.479 391.192> 628 75<241.293 393.906>
+Flags: MW
+HStem: 0 73<244.479 391.192> 620 73<241.293 393.906>
 VStem: 54 82<203.708 498.348> 498 83<201.979 492.75>
 LayerCount: 4
 Fore
@@ -7963,9 +7962,9 @@ StartChar: edieresis
 Encoding: 235 235 135
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 603 90<149.4 240.4 368.4 459.4>
-VStem: 59.4 84<139 218 281 352> 149.4 91<603 693> 368.4 91<603 693> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 149.4 91<603 693> 368.4 91<603 693> 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 128 168 S 1 0 0 1 11.4 0 2
@@ -8730,9 +8729,9 @@ StartChar: egrave
 Encoding: 232 232 171
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73
-VStem: 59.4 84<139 218 281 352> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 395.4 75<281 374>
 LayerCount: 4
 Fore
 SplineSet
@@ -8758,9 +8757,9 @@ StartChar: eacute
 Encoding: 233 233 172
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73
-VStem: 59.4 84<139 218 281 352> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 395.4 75<281 374>
 LayerCount: 4
 Fore
 SplineSet
@@ -8786,9 +8785,9 @@ StartChar: ecircumflex
 Encoding: 234 234 173
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 512 215
-VStem: 59.4 84<139 218 281 352> 145.4 326 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 145.4 326 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 90 94 N 1 0 0 1 -40.6 -25 2
@@ -11037,9 +11036,9 @@ StartChar: emacron
 Encoding: 275 275 242
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 578 73<135.513 424.295>
-VStem: 59.4 84<139 218 281 352> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 191 175 N 0.713043 0 0 1 36.4 -150 2
@@ -11069,9 +11068,9 @@ StartChar: ebreve
 Encoding: 277 277 244
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 550 157
-VStem: 59.4 84<139 218 281 352> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 222 728 S 1 0 0 1 47.4 0 2
@@ -11101,9 +11100,9 @@ StartChar: edotaccent
 Encoding: 279 279 246
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 592 103<248.4 350.4>
-VStem: 59.4 84<139 218 281 352> 248.4 102<592 695> 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 248.4 102<592 695> 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 224 729 S 1 0 0 1 11.4 -10 2
@@ -11133,9 +11132,9 @@ StartChar: ecaron
 Encoding: 283 283 248
 Width: 523
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 73 217 73 408 73 549 215
-VStem: 59.4 84<139 218 281 352> 141.4 326 395.4 82<281 374>
+VStem: 59.4 75<139 218 281 352> 141.4 326 395.4 75<281 374>
 LayerCount: 4
 Fore
 Refer: 223 711 N 1 0 0 1 46.4 0 2
