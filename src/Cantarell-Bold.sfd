@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1299093417
+ModificationTime: 1299093574
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -1833,7 +1833,7 @@ StartChar: eight
 Encoding: 56 56 58
 Width: 649
 VWidth: 1023
-Flags: HWO
+Flags: WO
 HStem: -10 114<232.886 423.294> 593 110<244.775 408.225>
 VStem: 40 126.001<160.431 278.382> 79 128.001<471.105 558.631> 444 126<467.352 559.72> 482 127<156.571 277.446>
 LayerCount: 3
@@ -2055,7 +2055,7 @@ StartChar: one
 Encoding: 49 49 65
 Width: 594
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 113<77 252 393 561> 674 20G<197.384 393>
 VStem: 252 141<113 573>
 LayerCount: 3
@@ -2070,8 +2070,8 @@ SplineSet
  77 113 l 1
  252 113 l 1
  252 573 l 1
- 97 520 l 1
- 50 621 l 1
+ 120.6 529.5 l 1
+ 73.5996 630.5 l 1
  253 694 l 1
 EndSplineSet
 EndChar
