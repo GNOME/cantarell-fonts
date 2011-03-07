@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1299093574
+ModificationTime: 1299464611
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -47,12 +47,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "http://abattis.org" "http://abattis.org" "Copyright (c) 2009-2011, Dave Crossland <dave@lab6.com>+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "" "" "" "" "Cantarell" 
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 30 10 7
+WinInfo: 10 10 7
 Grid
 -1000 1056.64 m 0
  2000 1056.64 l 0
@@ -74,7 +75,7 @@ StartChar: a
 Encoding: 97 97 0
 Width: 563
 VWidth: 1023
-Flags: MWO
+Flags: MW
 HStem: 0 90 200 65 400 90
 LayerCount: 3
 Back
@@ -162,8 +163,8 @@ StartChar: e
 Encoding: 101 101 2
 Width: 562
 VWidth: 1023
-Flags: MWO
-HStem: 0 90 180 65 400 90
+Flags: MW
+HStem: 0 90 200 65 400 90
 LayerCount: 3
 Back
 SplineSet
@@ -436,7 +437,7 @@ StartChar: l
 Encoding: 108 108 10
 Width: 322
 VWidth: 1023
-Flags: WO
+Flags: W
 HStem: -9.90039 75.2197<141.5 304.592> 673.75 20G<69.3868 189.4>
 VStem: 69 120.145<74.8596 693.75>
 LayerCount: 3
@@ -1599,7 +1600,7 @@ StartChar: U
 Encoding: 85 85 51
 Width: 748
 VWidth: 1023
-Flags: WO
+Flags: W
 HStem: -10 112<278.836 468.093> 674 20G<90 213 535.199 657.199>
 VStem: 90 123<160.884 694> 535.199 123<163.255 694>
 LayerCount: 3
@@ -1833,7 +1834,7 @@ StartChar: eight
 Encoding: 56 56 58
 Width: 649
 VWidth: 1023
-Flags: WO
+Flags: W
 HStem: -10 114<232.886 423.294> 593 110<244.775 408.225>
 VStem: 40 126.001<160.431 278.382> 79 128.001<471.105 558.631> 444 126<467.352 559.72> 482 127<156.571 277.446>
 LayerCount: 3
@@ -2020,7 +2021,7 @@ StartChar: three
 Encoding: 51 51 64
 Width: 660
 VWidth: 1023
-Flags: WO
+Flags: W
 HStem: -22 117<135.565 390.904> 314 111<209 371.798> 587 115<175.419 394.959>
 VStem: 430 130<470.228 555.221> 465 125<154.173 256.482>
 LayerCount: 3
@@ -2055,8 +2056,8 @@ StartChar: one
 Encoding: 49 49 65
 Width: 594
 VWidth: 0
-Flags: HWO
-HStem: 0 113<77 252 393 561> 674 20G<197.384 393>
+Flags: W
+HStem: 0 113<77 252 393 561> 674 20G<196.496 393>
 VStem: 252 141<113 573>
 LayerCount: 3
 Fore
@@ -6781,24 +6782,24 @@ StartChar: tilde
 Encoding: 732 732 220
 Width: 683
 VWidth: 1023
-Flags: W
-HStem: 585 100<397.155 456.17> 674 99<248.976 305.603>
+Flags: WO
+HStem: 320 100<398.855 457.87> 409 99<250.676 307.303>
 LayerCount: 3
 Fore
 SplineSet
-430 685 m 0x80
- 451 685 463 721 484 762 c 1
- 493 779 l 1
- 581 740 l 1
- 572 722 l 2
- 549 674 515 585 430 585 c 1x80
- 339 589 304 674 273 674 c 0
- 252 674 240 637 219 595 c 2
- 210 578 l 1
- 123 617 l 1
- 131 636 l 2
- 154 684 188 773 273 773 c 1x40
- 364 769 398 685 430 685 c 0x80
+431.7 420 m 4x80
+ 452.7 420 464.7 456 485.7 497 c 5
+ 494.7 514 l 5
+ 582.7 475 l 5
+ 573.7 457 l 6
+ 550.7 409 516.7 320 431.7 320 c 5x80
+ 340.7 324 305.7 409 274.7 409 c 4
+ 253.7 409 241.7 372 220.7 330 c 6
+ 211.7 313 l 5
+ 124.7 352 l 5
+ 132.7 371 l 6
+ 155.7 419 189.7 508 274.7 508 c 5x40
+ 365.7 504 399.7 420 431.7 420 c 4x80
 EndSplineSet
 EndChar
 
