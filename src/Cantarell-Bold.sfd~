@@ -22,11 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-<<<<<<< HEAD
 ModificationTime: 1300734209
-=======
-ModificationTime: 1300733774
->>>>>>> ff100599405f08c2731414f86f9d780e9bebb3f4
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -6436,19 +6432,19 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 206
-Width: 680
-VWidth: 0
+Width: 312
+VWidth: 1023
 Flags: W
-HStem: 146.6 380.801<253.344 426.656>
-VStem: 149.6 380.801<250.344 423.656>
+HStem: 274 167<73 240>
+VStem: 73 167<274 441>
 LayerCount: 3
 Fore
 SplineSet
-149.6 337 m 4
- 149.6 442.101 234.899 527.4 340 527.4 c 4
- 445.101 527.4 530.4 442.101 530.4 337 c 4
- 530.4 231.899 445.101 146.6 340 146.6 c 4
- 234.899 146.6 149.6 231.899 149.6 337 c 4
+73 441 m 1
+ 240 441 l 1
+ 240 274 l 1
+ 73 274 l 1
+ 73 441 l 1
 EndSplineSet
 EndChar
 
