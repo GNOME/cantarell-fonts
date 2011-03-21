@@ -1,90 +1,78 @@
-FONTLOG for Cantarell beta release
+FONTLOG for Cantarell GNOME Git
 ===================================
 
 This file provides detailed information on the Cantarell font
 software. This information should be distributed along with the
 Cantarell fonts and any derivative works.
 
-
-
 Font Information
 -------------------------
 
-The Cantarell typeface family was designed during my study of MA
-Typeface Design [1] in the Department of Typography at the University
-of Reading (UK). Its homepage is http://abattis.org/cantarell 
+The Cantarell typeface family was originally designed by Dave
+Crossland as part of his coursework for the MA Typeface Design
+programme at the Department of Typography in the University
+of Reading, England. [1]
+
+Dave was motivated to undertake a study of typeface design because
+he believes it is essential that when we use digital tools, our
+freedom to use, understand, modify and share these tools is 
+respected. Otherwise, when the tool does not work in the way 
+that we need, we will be unable to fix it.
+
+These fonts were developed using only such "libre" software, 
+mainly FontForge [2].
 
 The typeface is designed as a contemporary Humanist sans serif, and
-was developed for on-screen reading; in particular, reading web pages
-on an HTC Dream mobile phone [2].
+was aimed at on-screen reading in a specific use-case: reading web pages
+on an HTC Dream mobile phone [3].
 
-That device runs Google Android [3], and therefore has a web browser
-supporting the exciting new web fonts feature known as @font-face
-[4]. As my very first typeface design, the typeface has many faults,
-yet it achieves the goal of improving readability on this device.
+That device was the first to ship with Google Android [4], and 
+came installed with a web browser that supported the exciting web 
+fonts feature known as @font-face [5]. As Dave's very first typeface 
+design, the typeface has many faults, yet he asserts it achieves 
+his goal of improving readability on this device.
 
-Each font file currently contains 391 glyphs, and fully support the
-following writing systems: Basic Latin, Western European, Catalan,
-Baltic, Turkish, Central European, Dutch and Afrikaans. To date, Pan
-African Latin has only 33% glyph coverage.
+The regular member of the family has had recieved the most focus,
+and a bold and oblique family members have been developed quickly
+to provide better somewhat better results that an operating system's
+automatic obliquing and bolding. 
+
+The Regular font fully supports the following writing systems: 
+Basic Latin, Western European, Catalan, Baltic, Turkish, Central 
+European, Dutch and Afrikaans. To date, Pan African Latin has 
+only 33% glyph coverage.
 
 Since the design is aimed at display on-screen at small sizes, the
 printed output (especially of the bold and oblique) may not work
-well. I hope to publish a set of fonts tuned to the needs of printing
-in the future.
+well. Fonts tuned to the needs of printing will be developed in 
+the future.
 
-This highlights my motivation for undertaking a study of typeface
-design: I believe it is essential that when we use digital tools, our
-freedom to use, understand, modify and share these tools is
-respected. Otherwise, when the tool does not work in the way that we
-need, we will be unable to fix it.
+The fonts were initially published on the 6th of July 2009 on
+Dave Crossland's foundry website [6] under the terms of the GNU
+General Public License version 3. [7] In May 2010 the fonts were 
+republished through Google Web Fonts [8] under the terms of the
+SIL Open Font License version 1.1. [9] In November 2010 the
+project became part of the GNOME project and is now under active
+development by the GNOME design community. [10]
 
-These fonts were developed using only such software, mainly FontForge
-[5].  
-
-If you like this typeface and would like to support its continuing 
-development, you can buy a subscription at £5/month:
-
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6676497
-
-Comments are most welcome – dave@lab6.com
-
-- Dave Crossland, 6th July 2009
+Dave Crossland, 21st March 2011
 
 [1]: http://www.typedesign.reading.ac.uk
-[2]: http://en.wikipedia.org/wiki/HTC_Dream
-[3]: http://en.wikipedia.org/wiki/Android_%28operating_system%29
-[4]: http://openfontlibrary.org/wiki/Web_font_linking_with_%40font-face
-[5]: http://fontforge.sf.net
-[6]: http://www.gnu.org/copyleft/gpl.html
+[2]: http://fontforge.sf.net
+[3]: http://en.wikipedia.org/wiki/HTC_Dream
+[4]: http://en.wikipedia.org/wiki/Android_%28operating_system%29
+[5]: http://openfontlibrary.org/wiki/Web_font_linking_with_%40font-face
+[6]: http://abattis.org/cantarell
+[7]: http://www.gnu.org/licenses/gpl.html
+[8]: http://www.google.com/webfonts
+[9]: http://scripts.sil.org/OFL
+[10]: http://live.gnome.org/CantarellFonts
 
                                   * * * 
 
-This ZIP files contains the TTF fonts you can use on your desktop, and
-the source files you can modify. You may upload these fonts to your 
-website, and for that I include EOT files for compatibility with 
-Microsoft Internet Explorer.
-
-Simply add the following lines to your CSS stylesheets, and place the
-EOT and TTF files in the same directory:
-
-/* Just add the "cantarell" class to HTML elements you wish to use this typeface */
-@font-face {font-family:Cantarell; src:url("Cantarell-Regular.eot");}
-@font-face {font-family:Cantarell; src:url("Cantarell-Oblique.eot"); font-style:italic;}
-@font-face {font-family:Cantarell; src:url("Cantarell-Bold.eot"); font-weight:bold;}
-@font-face {font-family:Cantarell; src:url("Cantarell-BoldOblique.eot"); font-weight:bold; font-style:italic;}
-@font-face {font-family:Cantarell; src:url("Cantarell-Regular.ttf");}
-@font-face {font-family:Cantarell; src:url("Cantarell-Oblique.ttf"); font-style:italic;}
-@font-face {font-family:Cantarell; src:url("Cantarell-Bold.ttf"); font-weight:bold;}
-@font-face {font-family:Cantarell; src:url("Cantarell-BoldOblique.ttf"); font-weight:bold; font-style:italic;}
-.cantarell {font-family:Cantarell, sans-serif; line-height:1.8em;}
-
-NOTE: You can significantly speed up your page loading times by only 
-including the Regular font. Web browsers will generate bold and 
-oblique members of the typeface family from the regular when they are 
-needed. This does not work as well for serif designs, but is fine 
-for a sans serif typeface like Cantarell.
-
+Developer information
+---------------------
+                                  
 The original Spiro source file is the _master_ source, and from it 
 the other files in the family were generated; the regular by 
 converting the Spiro curves to PostScript cubic Bezier curves, and 
@@ -94,29 +82,29 @@ the Bezier curve version. I will soon publish a "Reflection on
 Practice" document on the abattis.org/cantarell website that will 
 explain this process in detail.
 
-The EOT files were generated with http://code.google.com/p/ttf2eot/
-and have no root string restrictions or compression.
-
 ChangeLog
 -------------------------
 
-Here is a list of major and minor changes, most recent first. 
+Please refer to the GNOME Git repository changelog at this URL:
 
-6 July 2009 (Dave Crossland) Cantarell Version 1.001
- - Initial release of font as "Cantarell"
-
-
+http://git.gnome.org/browse/cantarell-fonts/log/
 
 Acknowledgements
 -------------------------
 
-Here is a list of contributors.
+Here is a list of major contributors; all contributors are listed
+in the GNOME Git repository changelogs.
 
-If you make modifications be sure to add your name (N), email (E),
+If you make major modifications be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name
 in alphabetical order.
 
+N: Jakub Steiner
+E: jimmac@gmail.com
+W: http://jimmac.musichall.cz
+D: Designer - many improvements and GNOME standards engineering
+
 N: Dave Crossland
-E: dave@lab6.com
+E: dave@understandinglimited.com
 W: http://abattis.org/cantarell/
 D: Designer - original Latin glyphs
