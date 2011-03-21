@@ -16,13 +16,14 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1299769954
+ModificationTime: 1300732597
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -53,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 324 9 8
+WinInfo: 0 9 6
 Grid
 -10.2539 694.336 m 25
  798.34 694.336 l 29
@@ -3017,18 +3018,18 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 45
-Width: 590
+Width: 400
 VWidth: 1023
-Flags: W
+Flags: HWO
 HStem: 288 67<85 505>
 LayerCount: 4
 Fore
 SplineSet
-85 355 m 1
- 505 355 l 1
- 505 288 l 1
- 85 288 l 1
- 85 355 l 1
+55 355 m 1
+ 345 355 l 1
+ 345 288 l 1
+ 55 288 l 1
+ 55 355 l 1
 EndSplineSet
 Layer: 3
 SplineSet
@@ -14729,7 +14730,7 @@ StartChar: uniFB02
 Encoding: 64258 64258 384
 Width: 635
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21<95.9523 177 471 551> 419 63<25 95 176 337> 651 20<471 551>
 VStem: 95 81<0 419 482 598.575> 433 80<0 671>
 LayerCount: 4
