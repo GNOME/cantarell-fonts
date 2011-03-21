@@ -16,32 +16,31 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
-NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300734110
+ModificationTime: 1300735682
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
-LineGap: 103
+LineGap: 0
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 103
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2TypoAscent: 1058
+OS2TypoAOffset: 0
+OS2TypoDescent: -278
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1058
+OS2WinAOffset: 0
+OS2WinDescent: 278
+OS2WinDOffset: 0
+HheadAscent: 1058
+HheadAOffset: 0
+HheadDescent: -278
+HheadDOffset: 0
 OS2FamilyClass: 2050
 OS2Vendor: 'ABAT'
 MarkAttachClasses: 1
@@ -54,7 +53,9 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 312 13 6
+WinInfo: 324 9 6
+BeginPrivate: 0
+EndPrivate
 Grid
 -10.2539 694.336 m 25
  798.34 694.336 l 29
@@ -3021,7 +3022,8 @@ Encoding: 45 45 45
 Width: 400
 VWidth: 1023
 Flags: HW
-HStem: 288 67<85 505>
+HStem: 288 67<55 345>
+VStem: 55 290<288 355>
 LayerCount: 4
 Fore
 SplineSet
@@ -9888,19 +9890,19 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 206
-Width: 312
-VWidth: 1023
-Flags: WO
-HStem: 294 127<93 220>
-VStem: 93 127<294 421>
+Width: 680
+VWidth: 0
+Flags: W
+HStem: 170.4 333.199<260.61 419.39>
+VStem: 173.4 333.199<257.61 416.39>
 LayerCount: 4
 Fore
 SplineSet
-93 421 m 1
- 220 421 l 1
- 220 294 l 1
- 93 294 l 1
- 93 421 l 1
+173.4 337 m 4
+ 173.4 428.963 248.037 503.6 340 503.6 c 4
+ 431.963 503.6 506.6 428.963 506.6 337 c 4
+ 506.6 245.037 431.963 170.4 340 170.4 c 4
+ 248.037 170.4 173.4 245.037 173.4 337 c 4
 EndSplineSet
 Layer: 3
 SplineSet
@@ -14948,7 +14950,7 @@ StartChar: H18533
 Encoding: 9679 9679 387
 Width: 680
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 99 476<242.083 437.917>
 VStem: 102 476<239.083 434.917>
 LayerCount: 4
