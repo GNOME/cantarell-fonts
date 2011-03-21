@@ -16,14 +16,13 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
-NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300736934
+ModificationTime: 1300737163
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -3022,7 +3021,7 @@ StartChar: hyphen
 Encoding: 45 45 45
 Width: 400
 VWidth: 1023
-Flags: HW
+Flags: W
 HStem: 288 67<55 345>
 VStem: 55 290<288 355>
 LayerCount: 4
@@ -14951,9 +14950,9 @@ StartChar: H18533
 Encoding: 9679 9679 387
 Width: 680
 VWidth: 0
-Flags: HW
-HStem: 99 476<242.083 437.917>
-VStem: 102 476<239.083 434.917>
+Flags: W
+HStem: 99 476<102 578>
+VStem: 102 476<99 575>
 LayerCount: 4
 Back
 SplineSet
