@@ -3,8 +3,8 @@ FontName: Cantarell-Bold
 FullName: Cantarell Bold
 FamilyName: Cantarell
 Weight: Bold
-Copyright: Copyright (c) 2009-2011 Understanding Limited <dave@understandinglimited.com>
-UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://abattis.org/cantarell/" 
+Copyright: Copyright (c) 2009-2011 Dave Crossland <dave@lab6.com>
+UComments: "Cantarell is designed by Dave Crossland+AA0ACgAA-dave@lab6.com+AA0ACgAA-http://abattis.org/cantarell/" 
 Version: 0.05
 ItalicAngle: 0
 UnderlinePosition: -113
@@ -15,36 +15,37 @@ LayerCount: 3
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "temp"  0
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300735766
+ModificationTime: 1300736940
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 0
+LineGap: 103
 VLineGap: 0
-OS2TypoAscent: 1058
-OS2TypoAOffset: 0
-OS2TypoDescent: -286
-OS2TypoDOffset: 0
-OS2TypoLinegap: 0
-OS2WinAscent: 1058
-OS2WinAOffset: 0
-OS2WinDescent: 286
-OS2WinDOffset: 0
-HheadAscent: 1058
-HheadAOffset: 0
-HheadDescent: -286
-HheadDOffset: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 103
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
 OS2FamilyClass: 2050
 OS2Vendor: 'ABAT'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "http://abattis.org" "http://abattis.org" "Copyright (c) 2009-2011, Dave Crossland <dave@lab6.com>+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "" "" "Cantarell" 
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "http://abattis.org" "http://abattis.org" "Copyright (c) 2009-2011, Dave Crossland <dave@lab6.com>+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "" "" "" "" "Cantarell" 
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -52,9 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 330 10 6
-BeginPrivate: 0
-EndPrivate
+WinInfo: 320 10 7
 Grid
 -1000 1056.64 m 0
  2000 1056.64 l 0
@@ -6436,16 +6435,16 @@ Encoding: 8226 8226 206
 Width: 680
 VWidth: 0
 Flags: W
-HStem: 146.6 380.801<253.344 426.656>
-VStem: 149.6 380.801<250.344 423.656>
+HStem: 99 476<242.083 437.917>
+VStem: 102 476<239.083 434.917>
 LayerCount: 3
 Fore
 SplineSet
-149.6 337 m 4
- 149.6 442.101 234.899 527.4 340 527.4 c 4
- 445.101 527.4 530.4 442.101 530.4 337 c 4
- 530.4 231.899 445.101 146.6 340 146.6 c 4
- 234.899 146.6 149.6 231.899 149.6 337 c 4
+578 99 m 1
+ 102 99 l 1
+ 102 575 l 1
+ 578 575 l 1
+ 578 99 l 1
 EndSplineSet
 EndChar
 
