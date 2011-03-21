@@ -15,13 +15,14 @@ LayerCount: 3
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "temp"  0
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1299769960
+ModificationTime: 1300733774
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -6431,19 +6432,19 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 206
-Width: 312
-VWidth: 1023
+Width: 680
+VWidth: 0
 Flags: W
-HStem: 274 167<73 240>
-VStem: 73 167<274 441>
+HStem: 146.6 380.801<253.344 426.656>
+VStem: 149.6 380.801<250.344 423.656>
 LayerCount: 3
 Fore
 SplineSet
-73 441 m 1
- 240 441 l 1
- 240 274 l 1
- 73 274 l 1
- 73 441 l 1
+149.6 337 m 4
+ 149.6 442.101 234.899 527.4 340 527.4 c 4
+ 445.101 527.4 530.4 442.101 530.4 337 c 4
+ 530.4 231.899 445.101 146.6 340 146.6 c 4
+ 234.899 146.6 149.6 231.899 149.6 337 c 4
 EndSplineSet
 EndChar
 
