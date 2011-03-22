@@ -73,14 +73,26 @@ Dave Crossland, 21st March 2011
 Developer information
 ---------------------
                                   
-The original Spiro source file is the _master_ source, and from it 
-the other files in the family were generated; the regular by 
-converting the Spiro curves to PostScript cubic Bezier curves, and 
-then to TrueType quadratic Bezier curves, and the others by 
-performing bold and oblique machine-transformations with FontForge on 
-the Bezier curve version. I will soon publish a "Reflection on 
-Practice" document on the abattis.org/cantarell website that will 
-explain this process in detail.
+The original src/Cantarell-Regular.sfd file has the master sources 
+in a mix of Spiro and Cubic (PostScript) Bezier forms. This _master_ 
+source was used to generate the Cantarell-Bold.sfd which is thus
+a hard fork. 
+
+All changes are made to these drawing files, and when OTF or TTF
+binaries are compiled, they are copied to the Cantarell-*-OTF.sfd
+and Cantarell-*-TTF.sfd files and then a build process applied; 
+this means that there should be a 1:1 match between these files, 
+the OTF and TTF files in the otf/ and ttf/ directories, and the
+output of generating new OTF and TTF files from FontForge. 
+
+The build process is simple; the Spiro and temp layers are removed, 
+in the case of TTF files all layers are converted to Quadratic from
+Cubic, and then all glyphs have the Simplify, Add Extrema, Round 
+to Int, and Correct Direction operations applied. 
+
+In the future a build script will be developed to do this in an
+automated way, which will be important for adding OpenType 
+Layout features through a feature.fea file. 
 
 ChangeLog
 -------------------------
