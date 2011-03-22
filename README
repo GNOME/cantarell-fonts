@@ -8,10 +8,14 @@ Cantarell fonts and any derivative works.
 Font Information
 -------------------------
 
-The Cantarell typeface family was originally designed by Dave
-Crossland as part of his coursework for the MA Typeface Design
-programme at the Department of Typography in the University
-of Reading, England. [1]
+The Cantarell typeface family is a contemporary Humanist 
+sans serif, and is used by the GNOME project for its user
+interface and the Fedora project. 
+
+Cantarell was originally designed by Dave Crossland as part 
+of his coursework for the MA Typeface Design programme at 
+the Department of Typography in the University of Reading, 
+England. [1] 
 
 Dave was motivated to undertake a study of typeface design because
 he believes it is essential that when we use digital tools, our
@@ -19,12 +23,12 @@ freedom to use, understand, modify and share these tools is
 respected. Otherwise, when the tool does not work in the way 
 that we need, we will be unable to fix it.
 
-These fonts were developed using only such "libre" software, 
-mainly FontForge [2].
+These fonts are developed using only such "libre" software, 
+mainly FontForge [2]. 
 
-The typeface is designed as a contemporary Humanist sans serif, and
-was aimed at on-screen reading in a specific use-case: reading web pages
-on an HTC Dream mobile phone [3].
+Cantarell was originally aimed at on-screen reading in a specific 
+use-case and environment: reading web pages on an HTC Dream 
+mobile phone [3].
 
 That device was the first to ship with Google Android [4], and 
 came installed with a web browser that supported the exciting web 
@@ -85,10 +89,12 @@ are used to inform their creation.
 The Cantarell-Regular.sfd file is the _master_ source, and was 
 used to generate the Cantarell-Bold.sfd which is now a hard fork. 
 
-All changes are made to these drawing files. When OTF or TTF
-binaries are compiled, they are copied to the Cantarell-*-OTF.sfd
-and Cantarell-*-TTF.sfd files and then a build process applied; 
-this means that there should be a 1:1 match between these files, 
+All development occurs by making changes to these drawing files. 
+When OTF or TTF binaries are compiled, they are copied to the 
+Cantarell-*-OTF.sfd and Cantarell-*-TTF.sfd files and then a 
+build process applied. 
+
+This means that there should be a 1:1 match between these files, 
 the OTF and TTF files in the otf/ and ttf/ directories, and the
 output of generating new OTF and TTF files from FontForge. 
 
