@@ -74,11 +74,18 @@ Developer information
 ---------------------
                                   
 The original src/Cantarell-Regular.sfd file has the master sources 
-in a mix of Spiro and Cubic (PostScript) Bezier forms. This _master_ 
-source was used to generate the Cantarell-Bold.sfd which is thus
-a hard fork. 
+as Cubic (PostScript) Bezier splines. There are temporary layers 
+and a 'Spiro' layer in this file, containing forms used to create 
+the master Cubic Bezier glyphs; the Spiro layer contains forms in 
+Spiro splines, and much of the original typeface design by Dave
+Crossland was done by drawing in Spiro splines. However today the
+master drawing spline format is Cubic Bezier, and Spiro splines
+are used to inform their creation. 
 
-All changes are made to these drawing files, and when OTF or TTF
+The Cantarell-Regular.sfd file is the _master_ source, and was 
+used to generate the Cantarell-Bold.sfd which is now a hard fork. 
+
+All changes are made to these drawing files. When OTF or TTF
 binaries are compiled, they are copied to the Cantarell-*-OTF.sfd
 and Cantarell-*-TTF.sfd files and then a build process applied; 
 this means that there should be a 1:1 match between these files, 
