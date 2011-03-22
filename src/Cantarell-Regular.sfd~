@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300736934
+ModificationTime: 1300751766
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 324 9 8
+WinInfo: 342 9 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3022,7 +3022,7 @@ StartChar: hyphen
 Encoding: 45 45 45
 Width: 400
 VWidth: 1023
-Flags: HW
+Flags: W
 HStem: 288 67<55 345>
 VStem: 55 290<288 355>
 LayerCount: 4
@@ -9893,17 +9893,29 @@ StartChar: bullet
 Encoding: 8226 8226 206
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 99 476<242.083 437.917>
 VStem: 102 476<239.083 434.917>
 LayerCount: 4
+Back
+SplineSet
+475 205 m 1
+ 205 205 l 1
+ 205 475 l 1
+ 475 475 l 1
+ 475 205 l 1
+EndSplineSet
 Fore
 SplineSet
-578 99 m 1
- 102 99 l 1
- 102 575 l 1
- 578 575 l 1
- 578 99 l 1
+173 337 m 132
+ 173 383 189.333333333 422.333333333 222 455 c 132
+ 254.666666667 487.666666667 294 504 340 504 c 132
+ 386 504 425.333333333 487.666666667 458 455 c 132
+ 490.666666667 422.333333333 507 383 507 337 c 132
+ 507 291 490.666666667 251.666666667 458 219 c 132
+ 425.333333333 186.333333333 386 170 340 170 c 132
+ 294 170 254.666666667 186.333333333 222 219 c 132
+ 189.333333333 251.666666667 173 291 173 337 c 132
 EndSplineSet
 Layer: 3
 SplineSet
@@ -14951,9 +14963,9 @@ StartChar: H18533
 Encoding: 9679 9679 387
 Width: 680
 VWidth: 0
-Flags: HW
-HStem: 99 476<242.083 437.917>
-VStem: 102 476<239.083 434.917>
+Flags: W
+HStem: 99 476<102 578>
+VStem: 102 476<99 575>
 LayerCount: 4
 Back
 SplineSet

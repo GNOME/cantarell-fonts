@@ -4,7 +4,7 @@ FullName: Cantarell Regular
 FamilyName: Cantarell
 Weight: Regular
 Copyright: Copyright (c) 2009-2011 Understanding Limited <dave@understandinglimited.com>
-UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://abattis.org/cantarell/" 
+UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts" 
 Version: 0.05
 ItalicAngle: 0
 UnderlinePosition: -113
@@ -16,15 +16,16 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300737163
+ModificationTime: 1300751766
 PfmFamily: 33
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
@@ -53,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 324 9 8
+WinInfo: 342 9 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -9892,17 +9893,29 @@ StartChar: bullet
 Encoding: 8226 8226 206
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 99 476<242.083 437.917>
 VStem: 102 476<239.083 434.917>
 LayerCount: 4
+Back
+SplineSet
+475 205 m 1
+ 205 205 l 1
+ 205 475 l 1
+ 475 475 l 1
+ 475 205 l 1
+EndSplineSet
 Fore
 SplineSet
-578 99 m 1
- 102 99 l 1
- 102 575 l 1
- 578 575 l 1
- 578 99 l 1
+173 337 m 132
+ 173 383 189.333333333 422.333333333 222 455 c 132
+ 254.666666667 487.666666667 294 504 340 504 c 132
+ 386 504 425.333333333 487.666666667 458 455 c 132
+ 490.666666667 422.333333333 507 383 507 337 c 132
+ 507 291 490.666666667 251.666666667 458 219 c 132
+ 425.333333333 186.333333333 386 170 340 170 c 132
+ 294 170 254.666666667 186.333333333 222 219 c 132
+ 189.333333333 251.666666667 173 291 173 337 c 132
 EndSplineSet
 Layer: 3
 SplineSet

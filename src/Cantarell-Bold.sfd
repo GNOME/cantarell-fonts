@@ -3,8 +3,8 @@ FontName: Cantarell-Bold
 FullName: Cantarell Bold
 FamilyName: Cantarell
 Weight: Bold
-Copyright: Copyright (c) 2009-2011 Dave Crossland <dave@lab6.com>
-UComments: "Cantarell is designed by Dave Crossland+AA0ACgAA-dave@lab6.com+AA0ACgAA-http://abattis.org/cantarell/" 
+Copyright: Copyright (c) 2009-2011 Understanding Limited <dave@understandinglimited.com>
+UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts" 
 Version: 0.05
 ItalicAngle: 0
 UnderlinePosition: -113
@@ -15,13 +15,14 @@ LayerCount: 3
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "temp"  0
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1300737162
+ModificationTime: 1300751825
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -52,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 320 10 7
+WinInfo: 330 10 6
 Grid
 -1000 1056.64 m 0
  2000 1056.64 l 0
@@ -6437,13 +6438,29 @@ Flags: W
 HStem: 99 476<242.083 437.917>
 VStem: 102 476<239.083 434.917>
 LayerCount: 3
+Back
+SplineSet
+173 337 m 132
+ 173 383 189.333333333 422.333333333 222 455 c 132
+ 254.666666667 487.666666667 294 504 340 504 c 132
+ 386 504 425.333333333 487.666666667 458 455 c 132
+ 490.666666667 422.333333333 507 383 507 337 c 132
+ 507 291 490.666666667 251.666666667 458 219 c 132
+ 425.333333333 186.333333333 386 170 340 170 c 132
+ 294 170 254.666666667 186.333333333 222 219 c 132
+ 189.333333333 251.666666667 173 291 173 337 c 132
+EndSplineSet
 Fore
 SplineSet
-578 99 m 1
- 102 99 l 1
- 102 575 l 1
- 578 575 l 1
- 578 99 l 1
+173 337 m 132
+ 173 383 189.333333333 422.333333333 222 455 c 132
+ 254.666666667 487.666666667 294 504 340 504 c 132
+ 386 504 425.333333333 487.666666667 458 455 c 132
+ 490.666666667 422.333333333 507 383 507 337 c 132
+ 507 291 490.666666667 251.666666667 458 219 c 132
+ 425.333333333 186.333333333 386 170 340 170 c 132
+ 294 170 254.666666667 186.333333333 222 219 c 132
+ 189.333333333 251.666666667 173 291 173 337 c 132
 EndSplineSet
 EndChar
 
