@@ -5,7 +5,7 @@ FamilyName: Cantarell
 Weight: Regular
 Copyright: Copyright (c) 2009-2011, Understanding Limited (dave@understandinglimited.com),\nCopyright (c) 2010-2011, Jakub Steiner (jimmac@gmail.com).\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL
 UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts" 
-Version: 0.05
+Version: 0.0.6
 ItalicAngle: 0
 UnderlinePosition: -113
 UnderlineWidth: 56
@@ -16,14 +16,13 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
-NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1301581851
+ModificationTime: 1301942702
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 162 9 6
+WinInfo: 36 9 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1679,7 +1678,7 @@ StartChar: c
 Encoding: 99 99 18
 Width: 467
 VWidth: 1023
-Flags: HMW
+Flags: WO
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764>
 LayerCount: 4
 Fore
@@ -7666,7 +7665,7 @@ StartChar: ccedilla
 Encoding: 231 231 125
 Width: 467
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764>
 VStem: 166.636 211
 LayerCount: 4
@@ -7950,7 +7949,7 @@ StartChar: adieresis
 Encoding: 228 228 134
 Width: 491
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 73 217 73<197 355> 408 73 603 90<88 179 307 398>
 VStem: 88 91<603 693> 307 91<603 693> 345 82<91 224 284 384>
 LayerCount: 4
@@ -7966,7 +7965,7 @@ StartChar: edieresis
 Encoding: 235 235 135
 Width: 523
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 73 217 73 408 73 603 90<119.4 210.4 338.4 429.4>
 VStem: 59.4 75<139 218 281 352> 119.4 91<603 693> 338.4 91<603 693> 395.4 75<281 374>
 LayerCount: 4
@@ -8021,7 +8020,7 @@ StartChar: odieresis
 Encoding: 246 246 137
 Width: 569
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -10 65<201.366 356.188> 426 64<201.263 354.656> 603 90<130 221 349 440>
 VStem: 46 83<136.024 343.789> 130 91<603 693> 349 91<603 693> 427 83<134.537 345.226>
 LayerCount: 4
@@ -8037,7 +8036,7 @@ StartChar: udieresis
 Encoding: 252 252 138
 Width: 521
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 73 408 73 603 90<104 195 323 414>
 VStem: 66 81<88 480> 104 91<603 693> 323 91<603 693> 391 82<83 480>
 LayerCount: 4
@@ -9893,7 +9892,7 @@ StartChar: bullet
 Encoding: 8226 8226 206
 Width: 680
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 170 334<258.051 421.949>
 VStem: 173 334<255.051 418.949>
 LayerCount: 4
@@ -10843,7 +10842,7 @@ StartChar: cacute
 Encoding: 263 263 231
 Width: 467
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764>
 LayerCount: 4
 Fore
@@ -10886,7 +10885,7 @@ StartChar: ccircumflex
 Encoding: 265 265 233
 Width: 467
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764> 549 182
 VStem: 126.636 263
 LayerCount: 4
@@ -10918,7 +10917,7 @@ StartChar: cdotaccent
 Encoding: 267 267 235
 Width: 467
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764> 592 103<234.636 336.636>
 VStem: 234.636 102<592 695>
 LayerCount: 4
@@ -10950,7 +10949,7 @@ StartChar: ccaron
 Encoding: 269 269 237
 Width: 467
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 67<209.074 393.763> 408 68<206.038 398.764> 547 215
 VStem: 111.636 326
 LayerCount: 4
