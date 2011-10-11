@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 756 9 6
+WinInfo: 70 14 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4723,9 +4723,9 @@ StartChar: bracketright
 Encoding: 93 93 71
 Width: 370
 VWidth: 1023
-Flags: W
+Flags: MWO
 HStem: -200 73<24 168> 665 73<24 168>
-VStem: 24 224<-200 -127 665 738> 168 80<-127 665>
+VStem: 24 224<-200 -127 665 738> 168 83<-127 665>
 LayerCount: 4
 Fore
 SplineSet
@@ -9665,8 +9665,8 @@ StartChar: zcaron
 Encoding: 382 382 197
 Width: 526
 VWidth: 0
-Flags: HW
-HStem: 0 63<177 453> 419 63<73 336> 549 215
+Flags: W
+HStem: 0 73<177 453> 408 73<73 336> 549 215
 VStem: 95 326
 LayerCount: 4
 Fore
@@ -12650,8 +12650,8 @@ StartChar: zacute
 Encoding: 378 378 318
 Width: 526
 VWidth: 0
-Flags: HW
-HStem: 0 63<177 453> 419 63<73 336>
+Flags: W
+HStem: 0 73<177 453> 408 73<73 336>
 LayerCount: 4
 Fore
 SplineSet
@@ -13138,9 +13138,9 @@ StartChar: uni0302
 Encoding: 770 770 332
 Width: 0
 VWidth: 1023
-Flags: HWO
+Flags: W
 HStem: 537 215
-VStem: 186 326
+VStem: -391 326
 LayerCount: 4
 Fore
 Refer: 90 94 S 1 0 0 1 -577 0 2
@@ -14988,9 +14988,9 @@ StartChar: circle
 Encoding: 9675 9675 388
 Width: 859
 VWidth: 1023
-Flags: HW
-HStem: -7 65<321.828 538.727> 156 48<378.053 520.642> 609 65<321.096 538.188>
-VStem: 83 65<227.422 439.078> 273 57<252.932 422.361> 711 65<227.422 439.331>
+Flags: W
+HStem: -7 65<321.828 538.727> 609 65<321.096 538.188>
+VStem: 83 65<227.422 439.078> 711 65<227.422 439.331>
 LayerCount: 4
 Fore
 SplineSet
@@ -15053,7 +15053,9 @@ StartChar: uni232B
 Encoding: 9003 9003 390
 Width: 656
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 1.94336 91.3867<315.674 405.618 512.95 602.891> 380.547 91.387<315.674 404.66 515.239 602.891>
+VStem: 602.891 118.322<93.3301 184.022 287.187 380.547>
 LayerCount: 4
 Fore
 SplineSet
@@ -15098,7 +15100,7 @@ StartChar: uni2328
 Encoding: 9000 9000 391
 Width: 625
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 4
 Fore
 SplineSet
