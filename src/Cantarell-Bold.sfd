@@ -15,13 +15,14 @@ LayerCount: 3
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "temp"  0
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1319155059
+ModificationTime: 1323182769
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 10 6
+WinInfo: 300 10 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8331,22 +8332,18 @@ Encoding: 314 314 272
 Width: 355
 VWidth: 0
 Flags: W
-HStem: 0 21G<104 225.298> 718 20G<104 236>
-VStem: 104 132<268.364 738> 104 121<0 469.636>
+HStem: -9.90039 104.22<141.5 304.592> 673.75 20<69.3868 189.4>
+VStem: 69 120.145<102.826 693.75>
 LayerCount: 3
 Fore
 SplineSet
-104 738 m 1xe0
- 236 738 l 1xe0
- 225 0 l 1
- 104 0 l 1xd0
- 104 738 l 1xe0
 398 1009 m 1
  453 914 l 1
  128 750 l 1
  78 837 l 1
  398 1009 l 1
 EndSplineSet
+Refer: 10 108 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Lcommaaccent
@@ -8379,22 +8376,18 @@ Encoding: 316 316 274
 Width: 315
 VWidth: 0
 Flags: W
-HStem: 0 21G<107 228> 718 20G<107 228>
-VStem: 107 121<0 738>
+HStem: -9.90039 104.22<141.5 304.592> 673.75 20<69.3868 189.4>
+VStem: 69 120.145<102.826 693.75>
 LayerCount: 3
 Fore
 SplineSet
-107 738 m 1
- 228 738 l 1
- 228 0 l 1
- 107 0 l 1
- 107 738 l 1
-127 -20 m 5
- 259 -20 l 5
- 165 -250 l 5
- 34 -250 l 5
- 127 -20 l 5
+127 -27 m 5
+ 259 -27 l 5
+ 165 -257 l 5
+ 34 -257 l 5
+ 127 -27 l 5
 EndSplineSet
+Refer: 10 108 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Lcaron
@@ -8427,22 +8420,18 @@ Encoding: 318 318 276
 Width: 433
 VWidth: 0
 Flags: W
-HStem: 0 21G<98 218> 718 20G<98 218 287.026 416>
-VStem: 98 120<0 738>
+HStem: -9.90039 104.22<141.5 304.592> 673.75 20<69.3868 189.4>
+VStem: 69 120.145<102.826 693.75>
 LayerCount: 3
 Fore
 SplineSet
-98 738 m 1
- 218 738 l 1
- 218 0 l 1
- 98 0 l 1
- 98 738 l 1
 293 738 m 1
  416 738 l 1
  346 507 l 1
  224 507 l 1
  293 738 l 1
 EndSplineSet
+Refer: 10 108 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ldot
@@ -8475,22 +8464,18 @@ Encoding: 320 320 278
 Width: 442
 VWidth: 0
 Flags: W
-HStem: 0 21G<98 218> 287 142<261 403> 718 20G<98 218>
-VStem: 98 120<0 738> 261 142<287 429>
+HStem: -9.90039 104.22<141.5 304.592> 287 142<261 403> 673.75 20<69.3868 189.4>
+VStem: 69 120.145<102.826 693.75> 261 142<287 429>
 LayerCount: 3
 Fore
 SplineSet
-98 738 m 1
- 218 738 l 1
- 218 0 l 1
- 98 0 l 1
- 98 738 l 1
 261 429 m 1
  403 429 l 1
  403 287 l 1
  261 287 l 1
  261 429 l 1
 EndSplineSet
+Refer: 10 108 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Nacute
@@ -10170,28 +10155,21 @@ EndChar
 
 StartChar: lslash
 Encoding: 322 322 326
-Width: 375
+Width: 322
 VWidth: 1023
 Flags: W
-HStem: 0 21G<112 232> 469 20G<301.333 336> 718 20G<112 232>
-VStem: 112 120<0 260 429 738>
+HStem: -9.90039 104.22<141.5 304.592> 673.75 20<69.3868 189.4>
+VStem: 69 120.145<102.826 693.75>
 LayerCount: 3
 Fore
 SplineSet
-112 738 m 1
- 232 738 l 1
- 232 429 l 1
- 336 489 l 1
- 336 369 l 1
- 232 315 l 1
- 232 0 l 1
- 112 0 l 1
- 112 260 l 1
- 44 221 l 1
- 44 340 l 1
- 112 377 l 1
- 112 738 l 1
+4.5 193.1 m 5
+ 4.5 312.1 l 5
+ 296.5 461.1 l 5
+ 296.5 341.1 l 5
+ 4.5 193.1 l 5
 EndSplineSet
+Refer: 10 108 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: kgreenlandic
