@@ -16,13 +16,14 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Temp"  1
 Layer: 3 0 "Spiro"  1
+NeedsXUIDChange: 1
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1334148043
+ModificationTime: 1335181037
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 756 27 24
+WinInfo: 0 27 24
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -74,7 +75,7 @@ Grid
   EndSpiro
 EndSplineSet
 TeXData: 1 0 0 250299 125149 83433 441600 -782186 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 459
+BeginChars: 1114112 460
 
 StartChar: a
 Encoding: 97 97 0
@@ -5302,7 +5303,7 @@ StartChar: asciitilde
 Encoding: 126 126 88
 Width: 515
 VWidth: 1023
-Flags: W
+Flags: WO
 HStem: 281.663 60.761<292.178 359.514> 369.675 60.662<149.482 221.825>
 LayerCount: 4
 Fore
@@ -8222,7 +8223,7 @@ StartChar: Otilde
 Encoding: 213 213 161
 Width: 811
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -8 74<323.936 515.1> 626 74<322.638 516.646> 767.663 60.761<480.178 547.514> 855.675 60.662<337.482 409.825>
 VStem: 90 94<222.236 467.906> 654 94<221.325 469.476>
 LayerCount: 4
@@ -9075,7 +9076,7 @@ StartChar: macron
 Encoding: 175 175 191
 Width: 683
 VWidth: 1023
-Flags: W
+Flags: WO
 HStem: 728 73<139 544>
 LayerCount: 4
 Fore
@@ -11593,7 +11594,7 @@ StartChar: obreve
 Encoding: 335 335 288
 Width: 569
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -10 65<204.564 352.779> 426 64<203.067 351.238> 548.923 66.785<230.858 367.48>
 VStem: 46 83<137.066 343.078> 427 83<137.24 343.792>
 LayerCount: 4
@@ -13790,12 +13791,12 @@ StartChar: uni022C
 Encoding: 556 556 359
 Width: 811
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: -8 74<323.936 515.1> 626 74<322.638 516.646> 767.663 60.761<480.178 547.514> 855.675 60.662<337.482 409.825> 985 73<228 633>
 VStem: 90 94<222.236 467.906> 654 94<221.325 469.476>
 LayerCount: 4
 Fore
-Refer: 191 175 N 1 0 0 1 89 257 2
+Refer: 191 175 S 1 0 0 1 89 257 2
 Refer: 161 213 N 1 0 0 1 0 0 3
 Layer: 3
 Refer: 191 175 N 1 0 0 1 98.6724 257.408 2
@@ -16881,6 +16882,18 @@ VStem: 59.4 75<139 218 281 352> 119.4 91<603 693> 338.4 91<603 693> 395.4 75<281
 LayerCount: 4
 Fore
 Refer: 135 235 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni022D
+Encoding: 557 557 459
+Width: 569
+VWidth: 1023
+Flags: HW
+LayerCount: 4
+Fore
+Refer: 191 175 S 1 0 0 1 -73 12 2
+Refer: 88 126 N 1 0 0 1 10 262 2
+Refer: 6 111 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
