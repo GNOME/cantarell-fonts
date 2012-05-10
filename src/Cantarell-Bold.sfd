@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1334148566
+ModificationTime: 1336646972
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -13903,7 +13903,7 @@ StartChar: afii10080
 Encoding: 1086 1086 440
 Width: 608
 VWidth: 1023
-Flags: W
+Flags: WO
 HStem: -10 90<230.691 379.874> 400 90<222.82 374.127>
 VStem: 44.9072 119<168.275 325.09> 441.106 118<159.172 317.512>
 LayerCount: 3
@@ -13961,7 +13961,7 @@ StartChar: afii10084
 Encoding: 1090 1090 444
 Width: 581
 VWidth: 2048
-Flags: W
+Flags: HWO
 HStem: 0 21G<231.2 353.2> 384 110<25 231.2 353.2 556>
 VStem: 231.2 122<0 384>
 LayerCount: 3
@@ -13982,12 +13982,12 @@ Fore
 SplineSet
 353.2 0 m 1
  231.2 0 l 1
- 231.2 384 l 1
- 25 384 l 1
- 25 494 l 1
- 556 494 l 1
- 556 384 l 1
- 353.2 384 l 1
+ 231.2 371 l 1
+ 25 371 l 1
+ 25 481 l 1
+ 556 481 l 1
+ 556 371 l 1
+ 353.2 371 l 1
  353.2 0 l 1
 EndSplineSet
 EndChar
