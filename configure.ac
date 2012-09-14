@@ -12,6 +12,40 @@ AC_PROG_SED
 # Workaround to make aclocal get the right flags
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
+AC_ARG_WITH([configdir],
+            [AC_HELP_STRING([--with-configdir=DIR],
+            [Use DIR to store fontconfig configuration files [default=DATADIR/fontconfig/conf.avail]])],
+            [configdir="$withval"],
+            [configdir=yes])
+
+case "$configdir" in
+no|yes)
+    configdir='${datadir}'/fontconfig/conf.avail
+    ;;
+*)
+    ;;
+esac
+
+CONFIGDIR=${configdir}
+AC_SUBST(CONFIGDIR)
+
+AC_ARG_WITH([fontdir],
+            [AC_HELP_STRING([--with-fontdir=DIR],
+            [Use DIR to store font files [default=DATADIR/fonts/cantarell]])],
+            [fontdir="$withval"],
+            [fontdir=yes])
+
+case "$fontdir" in
+no|yes)
+    fontdir='${datadir}'/fonts/cantarell
+    ;;
+*)
+    ;;
+esac
+
+FONTDIR=${fontdir}
+AC_SUBST(FONTDIR)
+
 AC_CONFIG_FILES([
 Makefile
 fontconfig/Makefile

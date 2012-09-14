@@ -1,4 +1,4 @@
-configdir = $(datadir)/fontconfig/conf.avail/
+configdir = $(CONFIGDIR)
 config_DATA = \
 	31-cantarell.conf
 

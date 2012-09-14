@@ -1,5 +1,5 @@
 
-fontdir = $(datadir)/fonts/cantarell
+fontdir = $(FONTDIR)
 font_DATA = \
 	Cantarell-Regular.otf		\
 	Cantarell-Bold.otf
