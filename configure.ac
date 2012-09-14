@@ -6,6 +6,11 @@ AC_INIT([cantarell-fonts], [0.0.10],
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
 
+AC_ARG_ENABLE(source-rebuild,
+	    AS_HELP_STRING([--disable-source-rebuild], [Do not rebuild from source using fontforge]),,
+	    enable_source_rebuild=yes)
+AM_CONDITIONAL(SOURCE_REBUILD, test x$enable_source_rebuild != xno)
+
 PKG_PROG_PKG_CONFIG([0.19])
 AC_PROG_SED
 
