@@ -10,9 +10,12 @@ SetPref("TTFFoundry", "Cantarell")
 i = 1
 while (i < $argc)
     Open($argv[i], 1)
-    Generate($fontname + ".ttf")
-    PrintSetup (5)
-    PrintFont (0, 0, "", $fontname + "-sample.pdf")
+    SelectAll()
+    Simplify()
+    AddExtrema()
+    RoundToInt()
+    CorrectDirection()
+    Generate($fontname + ".otf")
     Close()
     i++
 endloop
