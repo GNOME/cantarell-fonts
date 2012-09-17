@@ -1,4 +1,4 @@
-SUBDIRS = src otf fontconfig
+SUBDIRS = src otf fontconfig scripts
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\
