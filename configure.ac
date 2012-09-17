@@ -56,6 +56,7 @@ Makefile
 fontconfig/Makefile
 src/Makefile
 otf/Makefile
+scripts/Makefile
 ])
 
 AC_OUTPUT
