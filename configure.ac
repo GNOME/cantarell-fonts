@@ -7,8 +7,8 @@ AC_INIT([cantarell-fonts], [0.0.10.1],
 AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
 
 AC_ARG_ENABLE(source-rebuild,
-	    AS_HELP_STRING([--disable-source-rebuild], [Do not rebuild from source using fontforge]),,
-	    enable_source_rebuild=yes)
+	    AS_HELP_STRING([--enable-source-rebuild], [Rebuild from source using fontforge]),,
+	    enable_source_rebuild=no)
 AM_CONDITIONAL(SOURCE_REBUILD, test x$enable_source_rebuild != xno)
 
 PKG_PROG_PKG_CONFIG([0.19])
@@ -60,3 +60,10 @@ scripts/Makefile
 ])
 
 AC_OUTPUT
+
+echo "
+    $PACKAGE $VERSION
+    ===============
+
+    rebuild via fontforge: ${enable_source_rebuild}
+"
