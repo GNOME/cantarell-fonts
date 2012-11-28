@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1353939612
+ModificationTime: 1354101562
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 24 18
+WinInfo: 8712 24 18
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -86,7 +86,7 @@ Grid
  127.93 -760.742 l 0
 EndSplineSet
 TeXData: 1 0 0 250299 125149 83433 441600 -782188 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 590
+BeginChars: 65536 591
 
 StartChar: a
 Encoding: 97 97 0
@@ -1994,9 +1994,9 @@ StartChar: two
 Encoding: 50 50 63
 Width: 660
 VWidth: 0
-Flags: HW
-HStem: 0 113<238 603> 587 112<168.226 405.085>
-VStem: 464 126<449.13 538.233>
+Flags: W
+HStem: 0 113<222 587> 587 112<152.226 389.085>
+VStem: 448 126<449.13 538.233>
 LayerCount: 3
 Back
 SplineSet
@@ -2073,9 +2073,9 @@ StartChar: one
 Encoding: 49 49 65
 Width: 660
 VWidth: 0
-Flags: HW
-HStem: 0 113<76.7002 251.7 392.7 560.7> 674 20G<196.196 392.7>
-VStem: 251.7 141<113 573>
+Flags: W
+HStem: 0 113<89.7002 264.7 405.7 573.7> 674 20G<209.196 405.7>
+VStem: 264.7 141<113 573>
 LayerCount: 3
 Fore
 SplineSet
@@ -2098,7 +2098,7 @@ StartChar: zero
 Encoding: 48 48 66
 Width: 660
 VWidth: 1023
-Flags: HW
+Flags: W
 HStem: -10 114<253.279 407.14> 588 115<251.172 408.419>
 VStem: 26.5 123<227.02 470.272> 510.5 123<225.789 469.377>
 LayerCount: 3
@@ -11521,7 +11521,7 @@ StartChar: uniFB01
 Encoding: 64257 64257 383
 Width: 703
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 21G<146.72 266.72 508.862 628.862> 379 103<66.7197 146.72 266.72 508.862> 603 106.313<301.6 509.904>
 VStem: 146.72 120<0 379 482 568.662> 508.862 120<0 379 550.104 591.767>
 LayerCount: 3
@@ -16212,6 +16212,18 @@ LayerCount: 3
 Fore
 Refer: 223 711 S 1 0 0 1 119 200 2
 Refer: 29 72 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2236
+Encoding: 8758 8758 590
+Width: 239
+VWidth: 1023
+Flags: WO
+HStem: 80 143<48.96 190.96> 462 143<48.96 190.96>
+VStem: 48.96 142<80 223 462 605>
+LayerCount: 3
+Fore
+Refer: 81 58 S 1 0 0 1 0 100 2
 EndChar
 EndChars
 EndSplineFont
