@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1367999178
+ModificationTime: 1362251645
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -9784,21 +9784,22 @@ EndChar
 
 StartChar: uni0302
 Encoding: 770 770 332
-Width: 0
+Width: 722
 VWidth: 1023
 Flags: W
-HStem: 541 241
-VStem: -384 319
+HStem: 537 215
+VStem: -1028 326
+AnchorPoint: "above" 0 482 mark 0
 LayerCount: 3
 Fore
 SplineSet
--218 782 m 5
- -65 612 l 5
- -139 541 l 5
- -225 636 l 5
- -311 542 l 5
- -384 607 l 5
- -218 782 l 5
+6 782 m 1
+ 160 612 l 1
+ 86 541 l 1
+ -0 636 l 1
+ -86 542 l 1
+ -160 607 l 1
+ 6 782 l 1
 EndSplineSet
 EndChar
 
@@ -16499,245 +16500,6 @@ SplineSet
  544 728 l 1
  139 728 l 1
  139 801 l 1
-EndSplineSet
-EndChar
-StartChar: triagup
-Encoding: 9650 9650 595
-Width: 822
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-732 86 m 1
- 90 86 l 1
- 411 611 l 1
- 732 86 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni25B4
-Encoding: 9652 9652 596
-Width: 542
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-462 96 m 5
- 80 96 l 5
- 271 381 l 5
- 462 96 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni25B6
-Encoding: 9654 9654 597
-Width: 760
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-160 25 m 5
- 160 667 l 5
- 685 346 l 5
- 160 25 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni25B8
-Encoding: 9656 9656 598
-Width: 510
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-135 45 m 5
- 135 427 l 5
- 420 236 l 5
- 135 45 l 5
-EndSplineSet
-EndChar
-
-StartChar: triagdn
-Encoding: 9660 9660 599
-Width: 832
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-95 591 m 5
- 737 591 l 5
- 416 66 l 5
- 95 591 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni25BE
-Encoding: 9662 9662 600
-Width: 542
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-80 356 m 5
- 462 356 l 5
- 271 71 l 5
- 80 356 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni25C0
-Encoding: 9664 9664 601
-Width: 760
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-600 667 m 5
- 600 25 l 5
- 75 346 l 5
- 600 667 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni25C2
-Encoding: 9666 9666 602
-Width: 510
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-375 427 m 5
- 375 45 l 5
- 90 236 l 5
- 375 427 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni2B05
-Encoding: 11013 11013 603
-Width: 861
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-315 249 m 5
- 315 91 l 5
- 60 342 l 5
- 315 593 l 5
- 315 435 l 5
- 781 435 l 5
- 781 249 l 5
- 315 249 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni2B06
-Encoding: 11014 11014 604
-Width: 702
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-258 466 m 5
- 100 466 l 5
- 351 721 l 5
- 602 466 l 5
- 444 466 l 5
- 444 0 l 5
- 258 0 l 5
- 258 466 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni2B07
-Encoding: 11015 11015 605
-Width: 702
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-258 703 m 5
- 444 703 l 5
- 444 237 l 5
- 602 237 l 5
- 351 -18 l 5
- 100 237 l 5
- 258 237 l 5
- 258 703 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni27A1
-Encoding: 10145 10145 606
-Width: 861
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-80 249 m 5
- 80 435 l 5
- 546 435 l 5
- 546 593 l 5
- 801 342 l 5
- 546 91 l 5
- 546 249 l 5
- 80 249 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni23CE
-Encoding: 9166 9166 607
-Width: 857
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-317 458 m 5
- 317 330 l 5
- 585 330 l 5
- 585 650 l 5
- 737 650 l 5
- 737 184 l 5
- 317 184 l 5
- 317 56 l 5
- 80 257 l 5
- 317 458 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni2303
-Encoding: 8963 8963 608
-Width: 690
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-383 694 m 5
- 570 441 l 5
- 502 403 l 5
- 345 619 l 5
- 188 403 l 5
- 120 441 l 5
- 307 694 l 5
- 383 694 l 5
-EndSplineSet
-EndChar
-
-StartChar: uni2304
-Encoding: 8964 8964 609
-Width: 690
-Flags: HW
-LayerCount: 3
-Fore
-SplineSet
-307 0 m 1
- 120 253 l 1
- 188 291 l 1
- 345 75 l 1
- 502 291 l 1
- 570 253 l 1
- 383 0 l 1
- 307 0 l 1
 EndSplineSet
 EndChar
 EndChars
