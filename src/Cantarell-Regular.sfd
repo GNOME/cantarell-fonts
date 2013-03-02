@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1362251628
+ModificationTime: 1362256576
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -18830,6 +18830,9 @@ VWidth: 1023
 Flags: HW
 HStem: 0 21G<90 173> 333 74<15 90 173 305> 621 73<173 491>
 VStem: 90 83<0 333 407 621>
+AnchorPoint: "above" 290 670 basechar 0
+AnchorPoint: "cedilla" 132 0 basechar 0
+AnchorPoint: "below" 290 0 basechar 0
 LayerCount: 4
 Fore
 SplineSet
@@ -18858,6 +18861,9 @@ VWidth: 1023
 Flags: HW
 HStem: 0 21G<60 142> 261 64<6 60 142 296> 416 64<142 341>
 VStem: 60 82<0 261 325 416>
+AnchorPoint: "cedilla" 101 0 basechar 0
+AnchorPoint: "below" 207 0 basechar 0
+AnchorPoint: "above" 207 482 basechar 0
 LayerCount: 4
 Fore
 SplineSet
@@ -18886,32 +18892,73 @@ VWidth: 2048
 Flags: HWO
 HStem: 0 21G<34 156.225 424 507> 674 20G<53 172.089 424 507 758.911 878>
 VStem: 424 83<0 694> 829 68<-164 0>
+AnchorPoint: "below" 480 0 basechar 0
+AnchorPoint: "cedilla" 480 0 basechar 0
+AnchorPoint: "above" 480 670 basechar 0
 LayerCount: 4
+Back
+SplineSet
+29 699 m 1
+ 133 699 l 1
+ 427 360 l 1
+ 117 3 l 1
+ 10 3 l 1
+ 322 367 l 1
+ 29 699 l 1
+439 699 m 1
+ 441 699 l 1
+ 522 699 l 1
+ 524 699 l 1
+ 524 3 l 1
+ 522 3 l 1
+ 441 3 l 1
+ 439 3 l 1
+ 439 699 l 1
+830 699 m 1
+ 934 699 l 1
+ 640 367 l 1
+ 923 38 l 1
+ 914 0 l 1
+ 845 3 l 1
+ 535 360 l 1
+ 830 699 l 1
+886 66 m 1
+ 934 66 l 1
+ 934 -164 l 1
+ 866 -164 l 1
+ 866 0 l 1
+ 886 66 l 1
+EndSplineSet
 Fore
 SplineSet
-157 694 m 1
- 412 356 l 1
- 141 0 l 1
- 34 0 l 1
- 302 363 l 1
- 53 694 l 1
- 157 694 l 1
-507 694 m 1
- 507 0 l 1
- 424 0 l 1
- 424 694 l 1
- 507 694 l 1
-774 694 m 1
- 878 694 l 1
- 629 363 l 1
- 848 66 l 1
- 897 66 l 1
- 897 -164 l 1
- 829 -164 l 1
- 829 0 l 1
- 790 0 l 1
- 519 356 l 1
- 774 694 l 1
+830 699 m 1
+ 934 699 l 1
+ 640 367 l 1
+ 898.915 66 l 1
+ 934 66 l 1
+ 934 -164 l 1
+ 866 -164 l 1
+ 866 0 l 1
+ 866.624 2.05982 l 1
+ 845 3 l 1
+ 535 360 l 1
+ 830 699 l 1
+439 699 m 1
+ 441 699 l 1
+ 522 699 l 1
+ 524 699 l 1
+ 524 3 l 1
+ 522 3 l 1
+ 441 3 l 1
+ 439 3 l 1
+ 439 699 l 1
+29 699 m 1
+ 133 699 l 1
+ 427 360 l 1
+ 117 3 l 1
+ 10 3 l 1
+ 322 367 l 1
+ 29 699 l 1
 EndSplineSet
 EndChar
 
@@ -19306,9 +19353,12 @@ VWidth: 1023
 Flags: HW
 HStem: 0 21<239 322> 674 20<10 120.334 452.456 558>
 VStem: 239 83<0 329>
+AnchorPoint: "above" 284 670 basechar 0
+AnchorPoint: "cedilla" 284 0 basechar 0
+AnchorPoint: "below" 284 0 basechar 0
 LayerCount: 4
 Fore
-Refer: 42 89 N 1 0 0 1 0 0 2
+Refer: 42 89 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni04AF
@@ -19317,6 +19367,9 @@ Width: 507
 VWidth: 1023
 Flags: HW
 HStem: 462 20<22 110.384 397.616 481>
+AnchorPoint: "above" 255 482 basechar 0
+AnchorPoint: "below" 255 -261 basechar 0
+AnchorPoint: "cedilla" 255 -261 basechar 0
 LayerCount: 4
 Fore
 SplineSet
@@ -19340,6 +19393,9 @@ VWidth: 1023
 Flags: HW
 HStem: 0 21G<273 356> 174 67<164 273 356 454> 674 20G<44 154.334 486.456 592>
 VStem: 273 83<0 174 241 329>
+AnchorPoint: "above" 314 670 basechar 0
+AnchorPoint: "cedilla" 314 0 basechar 0
+AnchorPoint: "below" 314 0 basechar 0
 LayerCount: 4
 Fore
 SplineSet
@@ -19369,27 +19425,31 @@ Encoding: 1201 1201 539
 Width: 507
 VWidth: 1023
 Flags: HW
-HStem: -136 67<70 171 276 360> 462 20G<22 110.384 397.616 481>
+HStem: 462 20<60.5 148.884 436.116 519.5>
+AnchorPoint: "cedilla" 255 -261 basechar 0
+AnchorPoint: "below" 255 -261 basechar 0
+AnchorPoint: "above" 255 482 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-405 482 m 1
- 481 482 l 1
- 276 -69 l 1
- 360 -69 l 1
- 360 -136 l 1
- 251 -136 l 1
- 205 -259 l 1
- 120 -259 l 1
- 171 -136 l 1
- 70 -136 l 1
- 70 -69 l 1
- 198 -69 l 1
- 219 -19 l 1
- 22 482 l 1
- 103 482 l 1
- 254 73 l 1
- 405 482 l 1
+394 -69 m 1
+ 394 -136 l 1
+ 292 -136 l 1
+ 292 -259 l 1
+ 215 -259 l 1
+ 215 -136 l 1
+ 103 -136 l 1
+ 103 -69 l 1
+ 215 -69 l 1
+ 215 -19 l 1
+ 20 482 l 1
+ 100 482 l 1
+ 252 73 l 1
+ 402 482 l 1
+ 478 482 l 1
+ 292 -19 l 1
+ 292 -69 l 1
+ 394 -69 l 1
 EndSplineSet
 EndChar
 
