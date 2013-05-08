@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1367928810
+ModificationTime: 1367997729
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -47,12 +47,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "http://live.gnome.org/CantarellFonts+AAoA" "http://abattis.org" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "" "" "Cantarell" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 13 12
+WinInfo: 0 25 20
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -382,13 +383,6 @@ Flags: HMW
 HStem: -10 90<131.439 340.099> 400 90<314.613 433.891>
 VStem: 62.9072 127<318.934 371.287> 354.807 129<108.717 162.947>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 70 26 m 1
@@ -817,7 +811,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 22
-Width: 558
+Width: 549
 VWidth: 1023
 Flags: W
 HStem: 0 21G<62.7266 182.727 377.427 543.127> 472 20G<370.144 535.127> 674 20G<62.7266 182.727>
@@ -834,8 +828,8 @@ SplineSet
  182.727 240 l 1
  182.727 0 l 1
  62.7266 0 l 1
- 62.7266 694 l 5
- 182.727 694 l 5
+ 62.7266 694 l 1
+ 182.727 694 l 1
  182.727 289 l 1
 EndSplineSet
 EndChar
@@ -1750,19 +1744,12 @@ EndChar
 
 StartChar: S
 Encoding: 83 83 55
-Width: 641
+Width: 649
 VWidth: 1023
 Flags: W
 HStem: -10 122<188.829 416.493> 585 114<256.033 470.686>
 VStem: 80 134<460.446 546.205> 461.7 132<150.282 238.042>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 351.154296875 585 m 0
@@ -1774,7 +1761,7 @@ SplineSet
  102 164 l 1
  121 156 l 1
  210.6 123 271.8 112 309.6 112 c 0
- 399.6 112 461.700195312 142 461.700195312 192 c 4
+ 399.6 112 461.700195312 142 461.700195312 192 c 0
  465.099609375 324 80 272 80 493 c 0
  80 606 168.5546875 699 347.354492188 699 c 0
  457.354492188 699 525.185546875 671.389648438 553.354492188 662 c 2
@@ -1893,7 +1880,7 @@ StartChar: nine
 Encoding: 57 57 59
 Width: 660
 VWidth: 1023
-Flags: HWO
+Flags: HW
 HStem: -7 112<115.813 339.617> 236 108<253.242 421.689> 595 109<253.933 408.999>
 VStem: 60 121<405.369 525.662> 487 121<242.525 519.154>
 LayerCount: 3
@@ -1906,23 +1893,19 @@ EndRedoes
 EndUndoRedoHistory
 Fore
 SplineSet
-343 698 m 4
- 456 698 608 654 608 404 c 0
- 608 84 414 -7 189 -7 c 0
- 166 -7 147 -6 126 -4 c 2
- 106 -2 l 1
- 116 110 l 1
- 136 108 l 2
- 153 106 169 105 187 105 c 0
- 395 105 445 187 465 272 c 1
- 419 247 366 236 316 236 c 0
- 164 236 60 330 60 458 c 0
- 60 591 172 698 343 698 c 4
-331 589 m 4
- 251 589 181 530 181 466 c 0
- 181 397 255 344 337 344 c 0
- 420 344 487 398 487 461 c 0
- 487 523 417 589 331 589 c 4
+158 101 m 17
+ 349 101 440 183 464 258 c 1
+ 423 235 372 221 314 221 c 0
+ 159 221 60 318 60 453 c 0
+ 60 592 165 703 341 703 c 0
+ 455 703 607 660 607 411 c 4
+ 607 88 394 -12 169 -12 c 9
+ 158 101 l 17
+336 329 m 0
+ 419 329 486 382 486 456 c 0
+ 486 528 420 595 330 595 c 0
+ 248 595 180 538 180 462 c 0
+ 180 381 255 329 336 329 c 0
 EndSplineSet
 EndChar
 
@@ -1934,25 +1917,28 @@ Flags: HW
 HStem: -12 108<258.381 412.346> 367 108<244.187 417.006> 586 113<336.623 552>
 VStem: 60 121<171.887 304.497> 487 120<166.829 305.096>
 LayerCount: 3
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-478 699 m 0
- 501 699 521 698 542 696 c 2
- 561 694 l 1
- 552 582 l 1
- 532 583 l 2
- 515 585 499 586 481 586 c 0
- 290 586 227 513 203 438 c 1
- 244 461 295 475 353 475 c 0
- 508 475 607 380 607 245 c 0
- 607 106 502 -12 326 -12 c 0
- 212 -12 60 36 60 285 c 0
- 60 608 253 699 478 699 c 0
-331 367 m 0
- 248 367 181 316 181 242 c 0
- 181 170 247 96 337 96 c 0
- 419 96 487 160 487 236 c 0
- 487 317 412 367 331 367 c 0
+509 590 m 21
+ 318 590 227 513 203 438 c 5
+ 244 461 295 475 353 475 c 4
+ 508 475 607 380 607 245 c 4
+ 607 106 502 -12 326 -12 c 4
+ 212 -12 60 36 60 285 c 4
+ 60 608 273 703 498 703 c 13
+ 509 590 l 21
+331 367 m 4
+ 248 367 181 316 181 242 c 4
+ 181 170 247 96 337 96 c 4
+ 419 96 487 160 487 236 c 4
+ 487 317 412 367 331 367 c 4
 EndSplineSet
 EndChar
 
@@ -6002,7 +5988,7 @@ EndChar
 
 StartChar: Scaron
 Encoding: 352 352 199
-Width: 641
+Width: 649
 VWidth: 1023
 Flags: HW
 HStem: -10 122<188.829 415.221> 558 113<466.099 541.492> 582 118<263.165 511.052> 720 240
@@ -8647,7 +8633,7 @@ EndChar
 
 StartChar: Sacute
 Encoding: 346 346 295
-Width: 641
+Width: 649
 VWidth: 1023
 Flags: HW
 HStem: -10 122<188.829 415.221> 558 113<466.099 541.492> 582 118<263.165 511.052> 721 264
@@ -8673,7 +8659,7 @@ EndChar
 
 StartChar: Scircumflex
 Encoding: 348 348 297
-Width: 641
+Width: 649
 VWidth: 1023
 Flags: HW
 HStem: -10 122<188.829 415.221> 558 113<466.099 541.492> 582 118<263.165 511.052> 721 241
@@ -14170,7 +14156,7 @@ EndChar
 
 StartChar: afii10054
 Encoding: 1029 1029 464
-Width: 641
+Width: 649
 VWidth: 1023
 Flags: HW
 HStem: -10 122<188.829 415.221> 558 113<466.099 541.492> 582 118<263.165 511.052>
@@ -16105,7 +16091,7 @@ EndChar
 
 StartChar: uni01E9
 Encoding: 489 489 578
-Width: 558
+Width: 549
 VWidth: 1023
 Flags: W
 HStem: 0 21<62.7266 182.727 377.427 543.127> 472 20<370.144 535.127> 674 20<62.7266 182.727> 717 240
