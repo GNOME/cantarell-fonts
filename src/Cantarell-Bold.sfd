@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1367999178
+ModificationTime: 1368143284
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -5580,19 +5580,26 @@ StartChar: eth
 Encoding: 240 240 186
 Width: 691
 VWidth: 1023
-Flags: W
+Flags: HW
 HStem: -10 106<259.714 410.593> 394 70<245.035 427.604> 680 20G<515 562.605>
 VStem: 63 118<174.094 319.141> 486 118<178.354 353.812>
 LayerCount: 3
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-181 255 m 0
+181 255 m 4
  181 162 253 96 336 96 c 0
  382 96 463 117 481 235 c 0
- 485 267 486 301 486 327 c 2
- 486 346 l 1
- 409 386 360 394 327 394 c 0
- 244 394 181 339 181 255 c 0
+ 485 267 486 281 486 307 c 2
+ 486 326 l 1
+ 409 366 360 374 327 374 c 0
+ 244 374 181 326.399993896 181 255 c 4
 290 711 m 2
  348 697 403 675 452 645 c 1
  551 700 l 1
@@ -5604,8 +5611,8 @@ SplineSet
  63 348 157 464 315 464 c 0
  349 464 399 460 473 431 c 1
  462 463 443 491 412 518 c 1
- 307 465 l 1
- 253 546 l 1
+ 334 477.400390625 l 1
+ 279 557.400390625 l 1
  320 580 l 1
  295 592 269 602 242 610 c 2
  217 618 l 1
