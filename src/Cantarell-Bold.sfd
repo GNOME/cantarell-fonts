@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1369061039
+ModificationTime: 1369061566
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 34 25
+WinInfo: 34 34 25
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -394,13 +394,6 @@ Flags: MW
 HStem: -10 90<131.439 340.099> 400 90<314.613 433.891>
 VStem: 62.9072 127<318.934 371.287> 354.807 129<108.717 162.947>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 70 26 m 1
@@ -485,13 +478,6 @@ SplineSet
  69.8545 0 l 5
  69.8545 738 l 5
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 252.645 94.3193 m 4
@@ -1074,32 +1060,36 @@ StartChar: G
 Encoding: 71 71 28
 Width: 755
 VWidth: 1023
-Flags: HW
+Flags: W
 HStem: -10 114<324.64 534.136> 278 108<369.3 564.6> 586 113<317.604 537.267>
-VStem: 50 124<247.869 448.158> 565 121<130.36 278>
-AnchorPoint: "below" 388 0 basechar 0
-AnchorPoint: "above" 388 670 basechar 0
-AnchorPoint: "cedilla" 364 0 basechar 0
+VStem: 50 124<247.869 448.158> 564.6 121<130.36 278>
 LayerCount: 3
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-686 101 m 1
- 660 73 580 -10 413 -10 c 0
+685.6 101 m 1
+ 659.6 73 580.6 -10 413.399 -10 c 0
  164 -10 50 175 50 346 c 0
- 50 528 179 699 412 699 c 0
- 505 699 585 671 644 638 c 1
- 661 628 l 1
- 610 531 l 1
- 592 541 l 1
- 554 561 486 586 416 586 c 0
- 293 586 174 499 174 351 c 0
- 174 207 283 104 432 104 c 0
- 490 104 534 121 565 145 c 1
- 565 278 l 1
- 369 278 l 1
- 369 386 l 1
- 686 386 l 1
- 686 101 l 1
+ 50 528 178.5 699 411.6 699 c 0
+ 504.3 699 584.6 671 643.6 638 c 1
+ 660.6 628 l 1
+ 609.6 531 l 1
+ 591.6 541 l 1
+ 553.8 561 486.3 586 416.1 586 c 0
+ 292.8 586 174 499 174 351 c 0
+ 174 207 282.899 104 432.3 104 c 0
+ 490.8 104 534 121 564.6 145 c 1
+ 564.6 278 l 1
+ 369.3 278 l 1
+ 369.3 386 l 1
+ 685.6 386 l 1
+ 685.6 101 l 1
 EndSplineSet
 EndChar
 
@@ -1903,13 +1893,6 @@ Flags: W
 HStem: -10 122<188.829 416.493> 585 114<256.033 470.686>
 VStem: 80 134<460.446 546.205> 461.7 132<150.282 238.042>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 351.154296875 585 m 0
@@ -2012,13 +1995,6 @@ Flags: W
 HStem: -10 114<232.886 423.294> 593 110<244.775 408.225>
 VStem: 40 126.001<160.431 278.382> 79 128.001<471.105 558.631> 444 126<467.352 559.72> 482 127<156.571 277.446>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 321 593 m 0xd8
@@ -2051,13 +2027,6 @@ Flags: W
 HStem: -7 112<115.813 339.617> 236 108<253.242 421.689> 595 109<253.933 408.999>
 VStem: 60 121<405.369 525.662> 487 121<242.525 519.154>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 158 101 m 17
@@ -2084,13 +2053,6 @@ Flags: W
 HStem: -12 108<258.381 412.346> 367 108<244.187 417.006> 586 113<336.623 552>
 VStem: 60 121<171.887 304.497> 487 120<166.829 305.096>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 509 590 m 21
@@ -2116,13 +2078,6 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<124 276.981> 576 118<50 477>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 40 694 m 5
@@ -2144,13 +2099,6 @@ Flags: W
 HStem: -10 115<79.8125 404.459> 12 113<82.5133 265.142> 343 115<220.574 404.521> 581 113<218.999 593>
 VStem: 95 123.999<454 581> 488 128<166.877 279.804>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 95 694 m 1xbc
@@ -2199,13 +2147,6 @@ SplineSet
  115.723 582.031 l 5
  96.6797 644.043 l 5
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 98.5 540 m 13
@@ -2233,13 +2174,6 @@ Flags: W
 HStem: -12 117<138.667 398.12> 304 111<209 360.687> 587 115<172.085 394.959>
 VStem: 430 130<467.384 555.221> 465 125<155.561 253.12>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 85 650 m 2xf0
@@ -2275,13 +2209,6 @@ Flags: W
 HStem: 0 113<89.7002 264.7 405.7 573.7> 674 20G<209.196 405.7>
 VStem: 264.7 141<113 573>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 265.7 694 m 5
@@ -2307,13 +2234,6 @@ Flags: W
 HStem: -10 114<253.279 407.14> 588 115<251.172 408.419>
 VStem: 26.5 123<227.02 470.272> 510.5 123<225.789 469.377>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 329.5 588 m 0
@@ -2337,13 +2257,6 @@ Flags: W
 HStem: 0 21G<396 516> 148 113<193.999 381 516 637> 674 20G<336.78 516>
 VStem: 381 135<261 542> 396 120<0 148>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 350 694 m 1xe8
@@ -12658,7 +12571,7 @@ StartChar: uni0497
 Encoding: 1175 1175 493
 Width: 786
 VWidth: 1023
-Flags: HWO
+Flags: HW
 HStem: 0 21G<23 184.5 333 453 601.5 763> 462 20G<31 191.373 333 453 594.627 755>
 VStem: 333 120<0 240 289 482>
 AnchorPoint: "below" 392 0 basechar 0
