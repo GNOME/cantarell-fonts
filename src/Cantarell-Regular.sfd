@@ -871,8 +871,8 @@ StartChar: n
 Encoding: 110 110 5
 Width: 520
 VWidth: 1023
-Flags: HW
-HStem: 0 21G<65 147 384 465> 423 69<197.811 353.727> 462 20G<65 130.421>
+Flags: MW
+HStem: 0 21G<65 147 384 465> 408 73<197.811 353.727>
 VStem: 65 82<0 397.048> 384 81<0 392.318>
 AnchorPoint: "cedilla" 267 0 basechar 0
 AnchorPoint: "below" 267 0 basechar 0
@@ -939,12 +939,12 @@ EndRedoes
 EndUndoRedoHistory
 Fore
 SplineSet
-280 423 m 0xd8
+280 423 m 0
  242 423 196 411 147 388 c 1
  147 0 l 1
  65 0 l 1
  65 482 l 1
- 122 482 l 1xb8
+ 122 482 l 1
  138 444 l 1
  199 476 258 492 309 492 c 0
  360 492 398 477 425 448 c 0
@@ -953,7 +953,7 @@ SplineSet
  384 0 l 1
  384 307 l 2
  384 348 376 378 360 396 c 0
- 344 414 318 423 280 423 c 0xd8
+ 344 414 318 423 280 423 c 0
 EndSplineSet
 UndoRedoHistory
 Layer: 2
@@ -1777,8 +1777,8 @@ StartChar: m
 Encoding: 109 109 17
 Width: 793
 VWidth: 1023
-Flags: HW
-HStem: 0 21G<65 147 354 435 647 728> 426 67<187.728 322.547 479.678 613.977> 462 20G<65 130.421>
+Flags: MW
+HStem: 0 21G<65 147 354 435 647 728> 408 73<187.728 322.547 479.678 613.977>
 VStem: 65 82<0 400.39> 354 81<0 382.34> 647 81<0 390.061>
 AnchorPoint: "cedilla" 390 0 basechar 0
 AnchorPoint: "below" 390 0 basechar 0
@@ -1881,29 +1881,29 @@ EndRedoes
 EndUndoRedoHistory
 Fore
 SplineSet
-647 307 m 2xdc
+647 307 m 2
  647 381 619 426 552 426 c 0
  518 426 477 411 430 383 c 1
  434 369 435 350 435 327 c 2
  435 0 l 1
  354 0 l 1
  354 307 l 2
- 354 381 327 426 259 426 c 0xdc
+ 354 381 327 426 259 426 c 0
  228 426 190 413 147 389 c 1
  147 0 l 1
  65 0 l 1
  65 482 l 1
- 122 482 l 1xbc
+ 122 482 l 1
  138 444 l 1
  171 465 198 477 218 483 c 0
- 242 490 264 493 285 493 c 0xdc
+ 242 490 264 493 285 493 c 0
  342 493 384 466 409 430 c 1
- 452 459 485 476 507 482 c 0xbc
+ 452 459 485 476 507 482 c 0
  532 489 556 493 578 493 c 0
  677 493 728 424 728 327 c 2
  728 0 l 1
  647 0 l 1
- 647 307 l 2xdc
+ 647 307 l 2
 EndSplineSet
 UndoRedoHistory
 Layer: 2
