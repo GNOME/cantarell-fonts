@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1370354656
+ModificationTime: 1371145988
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "http://live.gnome
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 25 21
@@ -1064,13 +1064,6 @@ Flags: MW
 HStem: 0 113<324.64 534.136> 278 108<369.3 564.6> 581 113<317.604 537.267>
 VStem: 50 124<247.869 448.158> 564.6 121<130.36 278>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 685.6 101 m 1
@@ -1197,13 +1190,6 @@ AnchorPoint: "below" 392 0 basechar 0
 AnchorPoint: "above" 392 670 basechar 0
 AnchorPoint: "cedilla" 392 0 basechar 0
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 393 701 m 0
@@ -1725,13 +1711,6 @@ AnchorPoint: "below" 298 0 basechar 0
 AnchorPoint: "above" 298 670 basechar 0
 AnchorPoint: "cedilla" 298 0 basechar 0
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 305 590 m 2xf8
@@ -1816,13 +1795,6 @@ AnchorPoint: "cedilla" 392 0 basechar 0
 AnchorPoint: "above" 392 670 basechar 0
 AnchorPoint: "below" 392 0 basechar 0
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 393 701 m 0
@@ -1886,13 +1858,6 @@ AnchorPoint: "below" 380 0 basechar 0
 AnchorPoint: "above" 380 670 basechar 0
 AnchorPoint: "cedilla" 356 0 basechar 0
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 419 699 m 0
@@ -1921,13 +1886,6 @@ Flags: MW
 HStem: 0 113<188.829 416.493> 581 113<256.033 470.686>
 VStem: 80 134<460.446 546.205> 461.7 132<150.282 238.042>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 351.154296875 585 m 0
@@ -2205,34 +2163,67 @@ StartChar: three
 Encoding: 51 51 64
 Width: 660
 VWidth: 1023
-Flags: W
-HStem: -12 117<138.667 398.12> 304 111<209 360.687> 587 115<172.085 394.959>
-VStem: 430 130<467.384 555.221> 465 125<155.561 253.12>
+Flags: MW
+HStem: 0 113<129.739 403.662> 581 113<122.303 364.394>
+VStem: 468.01 130.793<156.19 266.133>
+AnchorPoint: "aboveright" 285.5 498.336 basechar 0
 LayerCount: 3
+Back
+SplineSet
+85 650 m 6xf0
+ 131 673 214 702 309 702 c 4
+ 459 702 560 629 560 527 c 4xf0
+ 560 466 531 417 483 385 c 5
+ 560 351 590 293 590 226 c 4
+ 590 81 466 -12 275 -12 c 4
+ 208 -12 143 2 77 29 c 6
+ 59 37 l 5
+ 95 140 l 5
+ 113 133 l 6
+ 198 111 217 105 276 105 c 4
+ 378 105 465 145 465 211 c 4xe8
+ 465 254 426 318 232 318 c 6
+ 209 318 l 5
+ 209 429 l 5
+ 232 429 l 6
+ 391 429 430 479 430 514 c 4
+ 430 556 378 587 297 587 c 4
+ 262 587 203 581 130 549 c 6
+ 111 540 l 5
+ 69 642 l 5
+ 85 650 l 6xf0
+EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-85 650 m 2xf0
- 131 673 214 702 309 702 c 0
- 459 702 560 629 560 527 c 0xf0
- 560 466 531 417 483 385 c 1
- 560 351 590 293 590 226 c 4
- 590 81 466 -12 275 -12 c 0
- 208 -12 143 2 77 29 c 2
- 59 37 l 1
- 95 140 l 1
- 113 133 l 2
- 198 111 217 105 276 105 c 0
- 378 105 465 145 465 211 c 4xe8
- 465 254 426 318 232 318 c 2
- 209 318 l 1
- 209 429 l 1
- 232 429 l 2
- 391 429 430 479 430 514 c 0
- 430 556 378 587 297 587 c 0
- 262 587 203 581 130 549 c 2
- 111 540 l 1
- 69 642 l 1
- 85 650 l 2xf0
+549.302734375 641.286132812 m 1
+ 390.369140625 424.092773438 l 1
+ 552 397.600006104 598.802734375 299.197265625 598.802734375 209.608398438 c 0
+ 598.802734375 137.205078125 563 86.599609375 513.41796875 48.474609375 c 0
+ 454.596679688 3.2451171875 383.62890625 -14 286.122070312 -14 c 0
+ 283.735351562 -14 l 0
+ 208.91015625 -14 141.227539062 -1.2099609375 77.822265625 22.7333984375 c 0
+ 56 30.9736328125 l 1
+ 94.3154296875 133.8125 l 1
+ 117.030273438 127.96484375 l 0
+ 184.962890625 110.849609375 250.735351562 103.015625 299.245117188 103.015625 c 0
+ 347.741210938 103.015625 391 115.599998474 415.94921875 130.903320312 c 0
+ 452.63713877 153.40691264 468.009765625 183.600006104 468.009765625 201.603515625 c 0
+ 468.009765625 237.543945312 461.728515625 271.888671875 396 300.599609375 c 0
+ 362.53125 315.21875 324.354492188 321.752929688 246.750976562 321.752929688 c 0
+ 216.924804688 321.752929688 l 1
+ 216.924804688 380.606445312 l 1
+ 364.393554688 581 l 1
+ 122.302734375 581 l 1
+ 122.302734375 694 l 1
+ 549.302734375 694 l 1
+ 549.302734375 641.286132812 l 1
 EndSplineSet
 EndChar
 
