@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1371160836
+ModificationTime: 1371195234
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -1704,26 +1704,33 @@ StartChar: B
 Encoding: 66 66 50
 Width: 669
 VWidth: 1023
-Flags: MW
+Flags: HMW
 HStem: 0 113<203 438.236> 320 78<203 375.177> 581 113<203 398.33>
 VStem: 80 123<113 314 398 590> 433 136<443.934 558.378> 496 123<157.174 266.575>
 AnchorPoint: "below" 298 0 basechar 0
 AnchorPoint: "above" 298 670 basechar 0
 AnchorPoint: "cedilla" 298 0 basechar 0
 LayerCount: 3
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-305 590 m 2xf8
- 203 590 l 1
- 203 398 l 1
- 305 400 433 400 433 503 c 0
- 433 538 417 590 305 590 c 2xf8
-312 320 m 0
- 301 320 289 318 203 314 c 1
+305 584 m 2xf8
+ 203 584 l 1
+ 203 414 l 1
+ 305 416 433 400 433 503 c 0
+ 433 538 417 584 305 584 c 2xf8
+312 310 m 4
+ 301 310 203 310 203 310 c 5
  203 113 l 1
  301 113 l 2
  360 113 496 115 496 212 c 0xf4
- 496 279 424 320 312 320 c 0
+ 496 279 424 310 312 310 c 4
 80 694 m 1
  330 694 l 2
  532 694 569 576 569 517 c 0xf8
