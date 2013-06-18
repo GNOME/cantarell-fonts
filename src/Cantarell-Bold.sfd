@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1371195234
+ModificationTime: 1371553410
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 21
+WinInfo: 50 25 21
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -202,6 +202,13 @@ SplineSet
  397.061 267.328 397.105 270.5 397.105 273.672 c 4
  397.105 402.854 325.931 422.233 278.48 422.233 c 4
 EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
 483 115 m 1
@@ -216,9 +223,9 @@ SplineSet
  185 141 226 98 340 98 c 0
  402 98 483 115 483 115 c 1
 292 388 m 0
- 210 388 175 328 175 268 c 1
- 399 268 l 1
- 399 351 350 388 292 388 c 0
+ 210 388 175 320.900390625 175 280 c 5
+ 399 280 l 5
+ 399 341.900390625 350 388 292 388 c 0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -1711,13 +1718,6 @@ AnchorPoint: "below" 298 0 basechar 0
 AnchorPoint: "above" 298 670 basechar 0
 AnchorPoint: "cedilla" 298 0 basechar 0
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 305 584 m 2xf8
@@ -1726,7 +1726,7 @@ SplineSet
  305 416 433 400 433 503 c 0
  433 538 417 584 305 584 c 2xf8
 312 310 m 4
- 301 310 203 310 203 310 c 5
+ 203 310 l 5
  203 113 l 1
  301 113 l 2
  360 113 496 115 496 212 c 0xf4
@@ -2200,13 +2200,6 @@ SplineSet
  69 642 l 5
  85 650 l 6xf0
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 552.302734375 641.286132812 m 5

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1371160724
+ModificationTime: 1371161471
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -49,7 +49,6 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Dave Crossland" "" "" "http://abattis.org" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AA0ACgAA-This license is copied below, and is also available with a FAQ at:+AA0ACgAA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "" "" "" "Cantarell" 
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
@@ -910,6 +909,13 @@ Flags: MW
 HStem: 0 73<78.3388 296.562> 408 73<261.506 380>
 VStem: 45.7998 85 325.8 85
 LayerCount: 4
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Back
 SplineSet
 288.086 491.699 m 4
@@ -926,6 +932,13 @@ SplineSet
  350.098 221.191 75.1953 184.57 75.1953 346.191 c 4
  75.1953 400.391 119.629 491.699 288.086 491.699 c 4
 EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
 215 58 m 0
