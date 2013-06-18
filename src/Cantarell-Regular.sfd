@@ -5,6 +5,7 @@ FamilyName: Cantarell
 Weight: Regular
 Copyright: Copyright (c) 2009-2011, Understanding Limited (dave@understandinglimited.com),\nCopyright (c) 2010-2012, Jakub Steiner (jimmac@gmail.com).\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL
 UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts" 
+FontLog: "0.0.13+AAoA - many l/rbearking tweaks+AAoA - extra symbols for Shell (bug #657957)+AAoA - balanced shape for s and S+AAoA - balanced shape for 6 and 9+AAoA - balanced 2 and 3+AAoA - improved hhints+AAoA - OT anchors for accents+AAoA - contrast tweaks to bold (b, B, e)+AAoACgAA-0.0.12+AAoA - improved ligatures+AAoA - improve and add missing cyrillics. bug #689220+AAoA - advanced typo glyphs. bug #689184+AAoACgAA-0.0.11+AAoA - use ligature lookup tables+AAoA - make digits monospaced for bold+AAoACgAA-0.0.10.1+AAoA - build related fixes+AAoACgAA-0.0.10+AAoA - generate OTF from SFDs automatically (Fabian Greffrath)+AAoA - install to appropriate system directories (Fabian Greffrath)+AAoA - fix cyrillic metrics+AAoA - improve EE diacritics+AAoACgAA-0.0.9+AAoA - initial support for Cyrillic+AAoA - uppercase Greek+AAoACgAA-0.0.8+AAoA - accented l. #665433+AAoA - extrema & node fixes+AAoA - build related fixes+AAoACgAA-0.0.7+AAoA - ON/OFF glyphs. bug #643120+AAoA - combining circumflex metrics. bug #637066 +AAoA - ] hinting. bug #652834+AAoA - bold: 'a','e','n','s' and 'c' hints.+AAoA - black circle a circle. bug #660442+AAoA - bold: sync accented characters with base glyph.+AAoACgAA-0.0.6+AAoA - bold l+AAoA - fix umlaut positions. bug #646222+AAoA - README fixes+AAoACgAA-0.0.5+AAoA - improved password entry glyph+AAoA - improved hyphen by making narrower +AAoA - improved licensing and FONTLOG metadata +AAoA - improved vertical metrics+AAoACgAA-0.0.4+AAoA - improved hints on numerals and bold letters+AAoA - improved metrics+AAoACgAA-0.0.3+AAoA - create the tarball from the actual git master+AAoA - fixed the fontconfig script not to override the global default+AAoACgAA-0.0.2+AAoA - improved hints, hinting related metrics+AAoA - added black circle glyph for password entries+AAoA - increased size of '^'+AAoACgAA-0.0.1+AAoA - Initial GNOME release of Cantarell.+AAoA - Various improvements by Jakub Steiner" 
 Version: 0.0.13
 ItalicAngle: 0
 UnderlinePosition: -113
@@ -22,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1371161471
+ModificationTime: 1371568199
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 21
+WinInfo: 50 25 21
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -909,13 +910,6 @@ Flags: MW
 HStem: 0 73<78.3388 296.562> 408 73<261.506 380>
 VStem: 45.7998 85 325.8 85
 LayerCount: 4
-UndoRedoHistory
-Layer: 0
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Back
 SplineSet
 288.086 491.699 m 4
@@ -932,13 +926,6 @@ SplineSet
  350.098 221.191 75.1953 184.57 75.1953 346.191 c 4
  75.1953 400.391 119.629 491.699 288.086 491.699 c 4
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 215 58 m 0
@@ -4313,13 +4300,6 @@ Flags: HMW
 HStem: 0 73<298.001 634.001> 621 73<258.52 470.141>
 VStem: 532.001 88<439.511 565.225>
 LayerCount: 4
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 104.5 580.891601562 m 13
@@ -4405,20 +4385,6 @@ HStem: 0 73<133.98 379.244> 350 71 621 73<81 376.574>
 VStem: 459 84.5<130.358 278.711>
 AnchorPoint: "aboveright" 315.5 498.336 basechar 0
 LayerCount: 4
-UndoRedoHistory
-Layer: 0
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 345.741210938 413.5 m 1
@@ -4441,20 +4407,6 @@ SplineSet
  497 669.400024414 l 1
  345.741210938 413.5 l 1
 EndSplineSet
-UndoRedoHistory
-Layer: 2
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
-UndoRedoHistory
-Layer: 3
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Layer: 3
 SplineSet
 455.025390625 537.59765625 m 4
@@ -4486,13 +4438,6 @@ Flags: W
 HStem: 0 73<125.5 288.5 368.5 529.5> 674 20G<223.804 368.5>
 VStem: 288.5 80<73 614>
 LayerCount: 4
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 368.5 694 m 1
