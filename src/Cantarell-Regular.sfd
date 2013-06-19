@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1371568199
+ModificationTime: 1371629567
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 25 21
+WinInfo: 8925 25 21
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -68,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 250299 125149 83433 441600 -782186 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "aboveright"  "'mark'-aboveright" "cedilla"  "'mark'-cedilla" "below"  "'mark'-below" "above"  "'mark'-above" 
-BeginChars: 65536 605
+BeginChars: 65536 607
 
 StartChar: a
 Encoding: 97 97 0
@@ -20586,6 +20586,56 @@ SplineSet
  100 237 l 5
  258 237 l 5
  258 703 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni2303
+Encoding: 8963 8963 605
+Width: 690
+Flags: HW
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+383 694 m 1
+ 570 441 l 1
+ 502 403 l 1
+ 345 619 l 1
+ 188 403 l 1
+ 120 441 l 1
+ 307 694 l 1
+ 383 694 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2304
+Encoding: 8964 8964 606
+Width: 690
+Flags: HW
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+307 0 m 1
+ 120 253 l 1
+ 188 291 l 1
+ 345 75 l 1
+ 502 291 l 1
+ 570 253 l 1
+ 383 0 l 1
+ 307 0 l 1
 EndSplineSet
 EndChar
 EndChars
