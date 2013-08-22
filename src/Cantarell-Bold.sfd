@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1376984739
+ModificationTime: 1377156578
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 330 15 12
+WinInfo: 30 15 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2451,11 +2451,17 @@ EndChar
 StartChar: seven
 Encoding: 55 55 61
 Width: 660
-VWidth: 0
-Flags: W
-HStem: 0 21G<124 276.981> 576 118<50 477>
+Flags: HW
+HStem: 0 21G<181 312 181 181> 576 118
 LayerCount: 3
-Fore
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Back
 SplineSet
 40 694 m 5
  627 694 l 5
@@ -2466,49 +2472,118 @@ SplineSet
  40 576 l 5
  40 694 l 5
 EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+77 694 m 5
+ 584 694 l 5
+ 584 621 l 5
+ 312 0 l 5
+ 181 0 l 5
+ 434 582 l 5
+ 77 582 l 5
+ 77 694 l 5
+EndSplineSet
 EndChar
 
 StartChar: five
 Encoding: 53 53 62
 Width: 660
-VWidth: 1023
-Flags: W
+Flags: HW
 HStem: -10 115<79.8125 404.459> 12 113<82.5133 265.142> 343 115<220.574 404.521> 581 113<218.999 593>
 VStem: 95 123.999<454 581> 488 128<166.877 279.804>
 LayerCount: 3
-Fore
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Back
 SplineSet
-95 694 m 1xbc
+95 694 m 5xbc
  574 694 l 5
  574 581 l 5
- 218.999 581 l 1
- 218.999 454 l 1
- 243.999 456 276 458 309 458 c 0
- 559 458 616 321 616 231 c 0
- 616 135 554 -10 275 -10 c 0xbc
- 200.999 -10 136.999 -3 80 8 c 2
- 60 12 l 1
- 84 125 l 1x7c
- 103.999 121 l 1
- 147.999 112 206.999 105 268 105 c 0
- 449 105 488 177 488 224 c 0
- 488 269 446 343 278 343 c 0
- 244.999 343 192.999 341 116.999 332 c 1
- 95 329 l 1
- 95 694 l 1xbc
+ 218.999 581 l 5
+ 218.999 454 l 5
+ 243.999 456 276 458 309 458 c 4
+ 559 458 616 321 616 231 c 4
+ 616 135 554 -10 275 -10 c 4xbc
+ 200.999 -10 136.999 -3 80 8 c 6
+ 60 12 l 5
+ 84 125 l 5x7c
+ 103.999 121 l 5
+ 147.999 112 206.999 105 268 105 c 4
+ 449 105 488 177 488 224 c 4
+ 488 269 446 343 278 343 c 4
+ 244.999 343 192.999 341 116.999 332 c 5
+ 95 329 l 5
+ 95 694 l 5xbc
+EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+108 694 m 1x7c
+ 537 694 l 1
+ 537 581 l 1
+ 228 581 l 1
+ 228 444 l 1
+ 253 446 285 448 318 448 c 0
+ 528 448 585 321 585 215 c 0
+ 585 135 533 -10 284 -10 c 0
+ 210 -10 152 3 75 29 c 1
+ 107 139 l 1
+ 171 119 226 105 288 105 c 0xbc
+ 438 105 459 177 459 224 c 0
+ 459 269 428 336 290 336 c 0
+ 257 336 205 333 108 321 c 1
+ 108 694 l 1x7c
 EndSplineSet
 EndChar
 
 StartChar: two
 Encoding: 50 50 63
 Width: 660
-VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 113<176.888 541.888> 587 112<107.114 343.973>
 VStem: 402.888 126<449.13 538.233>
 LayerCount: 3
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Back
 SplineSet
+98.5 540 m 13
+ 62.5 639 l 21
+ 111 663.700012207 185.52488013 702.653927902 299.5 703 c 5
+ 466.5 703 573.5 616 573.5 485 c 4
+ 573.5 375.600585938 371.033203125 267.3828125 301.5 203 c 4
+ 274.5 178 237.5 137 229.5 115 c 13
+ 588.5 113 l 29
+ 588.5 0 l 29
+ 64.5 0 l 29
+ 65.5 76.8916015625 l 21
+ 87.5361328125 123.458984375 118.5 181 169.5 233 c 4
+ 267.038085938 337.641601562 435.5 414.275390625 435.5 479 c 4
+ 435.5 537 387.5 589 299.5 589 c 4
+ 229.870117188 589 156 564.700012207 98.5 540 c 13
 96.6797 644.043 m 5
  155.896 673.452 233.834 698.75 313.556 698.75 c 4
  453.259 698.75 540.112 617.007 540.112 520.049 c 4
@@ -2524,22 +2599,28 @@ SplineSet
  115.723 582.031 l 5
  96.6797 644.043 l 5
 EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-98.5 540 m 13
- 62.5 639 l 17
- 111 663.700012207 185.52488013 702.653927902 299.5 703 c 1
- 466.5 703 573.5 616 573.5 485 c 0
- 573.5 375.600585938 371.033203125 267.3828125 301.5 203 c 0
- 274.5 178 237.5 137 229.5 115 c 9
- 588.5 113 l 25
- 588.5 0 l 25
- 64.5 0 l 25
- 65.5 76.8916015625 l 17
- 87.5361328125 123.458984375 118.5 181 169.5 233 c 0
- 267.038085938 337.641601562 435.5 414.275390625 435.5 479 c 0
- 435.5 537 387.5 589 299.5 589 c 0
- 229.870117188 589 156 564.700012207 98.5 540 c 13
+123 533 m 1
+ 87 640 l 1
+ 135 665 213 703 307 703 c 0
+ 474 703 551 616 551 503 c 0
+ 551 366 417 242 286 108 c 1
+ 565 108 l 1
+ 565 0 l 1
+ 88 0 l 1
+ 88 77 l 1
+ 125 112 167 148 219 202 c 0
+ 319 307 428 407 428 495 c 0
+ 428 551 395 586 307 586 c 0
+ 237 586 181 558 123 533 c 1
 EndSplineSet
 EndChar
 
@@ -2607,12 +2688,18 @@ EndChar
 StartChar: one
 Encoding: 49 49 65
 Width: 660
-VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 113<89.7002 264.7 405.7 573.7> 674 20G<209.196 405.7>
 VStem: 264.7 141<113 573>
 LayerCount: 3
-Fore
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Back
 SplineSet
 265.7 694 m 5
  405.7 694 l 5
@@ -2626,6 +2713,28 @@ SplineSet
  133.3 529.5 l 5
  86.2998 630.5 l 5
  265.7 694 l 5
+EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+294 694 m 1
+ 416 694 l 1
+ 416 103 l 1
+ 578 103 l 1
+ 578 0 l 1
+ 118 0 l 1
+ 118 103 l 1
+ 293 103 l 1
+ 293 574 l 1
+ 143 513 l 1
+ 105 609 l 1
+ 294 694 l 1
 EndSplineSet
 EndChar
 
@@ -2655,29 +2764,63 @@ EndChar
 StartChar: four
 Encoding: 52 52 67
 Width: 660
-VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<396 516> 148 113<193.999 381 516 637> 674 20G<336.78 516>
 VStem: 381 135<261 542> 396 120<0 148>
 LayerCount: 3
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Back
+SplineSet
+350 694 m 5xe8
+ 516 694 l 5xe8
+ 516 261 l 5xf0
+ 637 261 l 5
+ 637 148 l 5
+ 516 148 l 5
+ 516 0 l 5
+ 396 0 l 5
+ 396 148 l 5
+ 40 148 l 5
+ 40 225 l 5
+ 350 694 l 5xe8
+381 261 m 5xf0
+ 381 542 l 5
+ 193.999 261 l 5
+ 381 261 l 5xf0
+EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
-350 694 m 1xe8
- 516 694 l 1xe8
- 516 261 l 1xf0
- 637 261 l 1
- 637 148 l 1
- 516 148 l 1
- 516 0 l 1
- 396 0 l 1
- 396 148 l 1
- 40 148 l 1
- 40 225 l 1
- 350 694 l 1xe8
-381 261 m 1xf0
- 381 542 l 1
- 193.999 261 l 1
- 381 261 l 1xf0
+335 694 m 1
+ 501 694 l 1
+ 501 258 l 1
+ 622 258 l 1
+ 622 148 l 1
+ 501 148 l 1
+ 501 0 l 1
+ 378 0 l 1
+ 378 148 l 1
+ 45 148 l 1
+ 45 235 l 1
+ 335 694 l 1
+378 258 m 1
+ 378 530 l 1
+ 378 560 l 1
+ 364 530 l 1
+ 192 258 l 1
+ 378 258 l 1
 EndSplineSet
 EndChar
 
