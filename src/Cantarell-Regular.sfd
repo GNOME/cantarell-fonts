@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1377593752
+ModificationTime: 1377607605
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 17 12
+WinInfo: 186 31 19
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -68,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 250299 125149 83433 441600 -782186 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "aboveright"  "'mark'-aboveright" "cedilla"  "'mark'-cedilla" "below"  "'mark'-below" "above"  "'mark'-above" 
-BeginChars: 65536 607
+BeginChars: 65536 611
 
 StartChar: a
 Encoding: 97 97 0
@@ -2843,7 +2843,7 @@ StartChar: I
 Encoding: 73 73 40
 Width: 283
 VWidth: 1023
-Flags: HW
+Flags: W
 HStem: 0 21G<100 183> 674 20G<100 183>
 VStem: 100 83<0 694>
 AnchorPoint: "cedilla" 142 0 basechar 0
@@ -3413,13 +3413,6 @@ AnchorPoint: "below" 349 0 basechar 0
 AnchorPoint: "cedilla" 349 0 basechar 0
 AnchorPoint: "above" 349 670 basechar 0
 LayerCount: 4
-UndoRedoHistory
-Layer: 0
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Back
 SplineSet
 614 223 m 4
@@ -3440,13 +3433,6 @@ SplineSet
  613 265 l 6
  613 246 614 232 614 223 c 4
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 349 -10 m 0
@@ -20229,7 +20215,9 @@ StartChar: uni0326
 Encoding: 806 806 585
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -250 190<-6 4>
+VStem: -82 164
 AnchorPoint: "below" 0 0 mark 0
 LayerCount: 4
 Fore
@@ -20621,6 +20609,79 @@ SplineSet
  383 0 l 1
  307 0 l 1
 EndSplineSet
+EndChar
+
+StartChar: scommaaccent
+Encoding: 537 537 607
+Width: 465
+VWidth: 0
+HStem: -260 190<224 234> 0 73<78.3388 296.562> 408 73<261.506 380>
+VStem: 45.7998 85 148 164 325.8 85
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+Refer: 585 806 N 1 0 0 1 230 -10 2
+Refer: 7 115 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Scommaaccent
+Encoding: 536 536 608
+Width: 581
+VWidth: 0
+Flags: H
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+Refer: 585 806 N 1 0 0 1 261 -9 2
+Refer: 55 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021A
+Encoding: 538 538 609
+Width: 566
+VWidth: 0
+Flags: H
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+Refer: 585 806 N 1 0 0 1 283 0 2
+Refer: 39 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B
+Encoding: 539 539 610
+Width: 377
+VWidth: 0
+Flags: H
+LayerCount: 4
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+Refer: 585 806 N 1 0 0 1 230 0 2
+Refer: 19 116 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
