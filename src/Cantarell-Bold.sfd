@@ -5,7 +5,7 @@ FamilyName: Cantarell
 Weight: Bold
 Copyright: Copyright (c) 2009-2011, Understanding Limited (dave@understandinglimited.com),\nCopyright (c) 2010-2012, Jakub Steiner (jimmac@gmail.com).\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL
 UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts" 
-Version: 0.0.13
+Version: 0.0.15
 ItalicAngle: 0
 UnderlinePosition: -113
 UnderlineWidth: 56
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1236980653
-ModificationTime: 1378208947
+ModificationTime: 1380017764
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 12
+WinInfo: 30 15 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2748,13 +2748,6 @@ Flags: MW
 HStem: -10 114<232.886 423.294> 581 113<244.775 408.225>
 VStem: 40 126.001<160.431 278.382> 79 128.001<471.105 558.631> 444 126<467.352 559.72> 482 127<156.571 277.446>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 321 593 m 0xd8
@@ -2802,13 +2795,6 @@ SplineSet
  248 595 180 538 180 462 c 4
  180 381 255 329 336 329 c 4
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 162 -12 m 1
@@ -2851,13 +2837,6 @@ SplineSet
  419 96 487 160 487 236 c 4
  487 317 412 367 331 367 c 4
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 503 703 m 1
@@ -2894,13 +2873,6 @@ SplineSet
  40 576 l 5
  40 694 l 5
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 77 694 m 1
@@ -2942,13 +2914,6 @@ SplineSet
  95 329 l 5
  95 694 l 5xbc
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 108 694 m 1xbc
@@ -3007,13 +2972,6 @@ SplineSet
  115.723 582.031 l 5
  96.6797 644.043 l 5
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 123 533 m 1
@@ -3136,13 +3094,6 @@ SplineSet
  86.2998 630.5 l 5
  265.7 694 l 5
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 294 694 m 1
@@ -3168,13 +3119,6 @@ Flags: MW
 HStem: -10 114<253.279 407.14> 581 113<251.172 408.419>
 VStem: 26.5 123<227.02 470.272> 510.5 123<225.789 469.377>
 LayerCount: 3
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 329.5 588 m 0
@@ -3216,13 +3160,6 @@ SplineSet
  193.999 261 l 5
  381 261 l 5xf0
 EndSplineSet
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 335 694 m 1xe0
