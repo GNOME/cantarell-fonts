@@ -15,6 +15,8 @@ while (i < $argc)
     AddExtrema()
     RoundToInt()
     CorrectDirection()
+    ClearHints()
+    Autohint()
     Generate($fontname + ".otf")
     Close()
     i++
