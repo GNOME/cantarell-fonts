@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443825790
+ModificationTime: 1443825854
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -6010,7 +6010,7 @@ StartChar: sterling
 Encoding: 163 163 95
 Width: 634
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 4
 Fore
 SplineSet
@@ -6021,13 +6021,13 @@ SplineSet
  107 389 l 1
  193 389 l 1
  193 458 l 2
- 193 500 197 532 204 555 c 0
- 231 639 318 699 431 699 c 0
- 469 699 506 692 545 680 c 1
- 522 621 l 1
- 493 629 465 632 438 632 c 0
- 390 632 354 617 330 598 c 0
- 300 574 279 541 275 492 c 0
+ 193 500 197 539 204 562 c 0
+ 231 646 318 706 431 706 c 0
+ 469 706 506 699 545 687 c 1
+ 522 628 l 1
+ 493 636 465 639 438 639 c 0
+ 390 639 354 624 330 605 c 0
+ 300 581 279 541 275 492 c 0
  274 477 273 462 273 445 c 2
  273 389 l 1
  532 389 l 1
@@ -6039,7 +6039,6 @@ SplineSet
  74 0 l 1
  74 66 l 1
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 107.422 389.16 m 17
@@ -6104,7 +6103,7 @@ StartChar: cent
 Encoding: 162 162 97
 Width: 498
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Fore
 SplineSet
