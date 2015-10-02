@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443825854
+ModificationTime: 1443825951
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -6010,7 +6010,7 @@ StartChar: sterling
 Encoding: 163 163 95
 Width: 634
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Fore
 SplineSet
@@ -7675,22 +7675,21 @@ EndChar
 StartChar: degree
 Encoding: 176 176 124
 Width: 287
-Flags: MW
+Flags: HMWO
 LayerCount: 4
 Fore
 SplineSet
-206 603 m 0
- 206 637 178 668 144 668 c 0
- 108 668 81 639 81 603 c 0
- 81 567 107 538 143 538 c 0
- 179 538 206 568 206 603 c 0
-37 603 m 0
- 37 663 85 712 144 712 c 0
- 202 712 251 662 251 603 c 0
- 251 544 203 493 144 493 c 0
- 85 493 37 543 37 603 c 0
+201 592 m 0
+ 201 623.452148438 174.911132812 652 144 652 c 0
+ 110.903320312 652 86 625.454101562 86 592 c 0
+ 86 558.434570312 109.990234375 532 143 532 c 0
+ 176.029296875 532 201 559.526367188 201 592 c 0
+32 592 m 0
+ 32 654.68359375 82.15234375 706 144 706 c 0
+ 204.879882812 706 256 653.715820312 256 592 c 0
+ 256 530.368164062 205.94921875 477 144 477 c 0
+ 82.091796875 477 32 529.360351562 32 592 c 0
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 143.555 712.402 m 0
@@ -8161,12 +8160,11 @@ StartChar: Aring
 Encoding: 197 197 145
 Width: 609
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 Refer: 124 176 N 1.20273 0 0 1.14031 133 102 2
 Refer: 32 65 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 3
 Refer: 124 176 N 1.20273 0 0 1.14031 185.447 102.19 2
 Refer: 32 65 N 1 0 0 1 0 0 3
@@ -8656,7 +8654,6 @@ LayerCount: 4
 Fore
 Refer: 578 778 N 1 0 0 1 246 0 2
 Refer: 0 97 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 124 176 S 1 0 0 1 125.212 55.6641 2
 Refer: 0 97 N 1 0 0 1 0 0 3
@@ -10362,11 +10359,10 @@ StartChar: ring
 Encoding: 730 730 221
 Width: 529
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 Refer: 124 176 N 1 0 0 1 140 56 2
-Validated: 1
 Layer: 3
 Refer: 124 176 S 1 0 0 1 139.859 55.6641 2
 EndChar
@@ -12075,7 +12071,6 @@ LayerCount: 4
 Fore
 Refer: 578 778 N 1 0 0 1 349 188 2
 Refer: 51 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 221 730 N 1 0 0 1 111.85 211.914 2
 Refer: 51 85 N 1 0 0 1 0 0 3
@@ -12090,7 +12085,6 @@ LayerCount: 4
 Fore
 Refer: 578 778 N 1 0 0 1 267 0 2
 Refer: 14 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 221 730 S 1 0 0 1 5.64907 0 2
 Refer: 14 117 N 1 0 0 1 0 0 3
