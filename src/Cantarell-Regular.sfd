@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443828700
+ModificationTime: 1443828960
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 448 16 11
+WinInfo: 16 16 11
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 606 608 666 672 692 706]
 OtherBlues 11 [-265 -259]
@@ -1482,7 +1482,7 @@ EndChar
 StartChar: m
 Encoding: 109 109 17
 Width: 797
-Flags: MW
+Flags: HMWO
 AnchorPoint: "cedilla" 390 0 basechar 0
 AnchorPoint: "below" 390 0 basechar 0
 AnchorPoint: "above" 390 482 basechar 0
@@ -1584,8 +1584,7 @@ SplineSet
  70 482 l 1
  128 482 l 1
  144 444 l 1
- 177 465 204 476 224 482 c 0
- 248 489 270 494 291 494 c 0
+ 194.22661384 475.962390625 231.248349954 494 291 494 c 0
  348 494 391 466 416 430 c 1
  465 464 515 494 580 494 c 0
  681 494 732 424 732 327 c 2
@@ -1593,7 +1592,6 @@ SplineSet
  649 0 l 1
  649 307 l 2
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 425.898 360.352 m 1
@@ -14028,12 +14026,11 @@ StartChar: uni1E41
 Encoding: 7745 7745 372
 Width: 797
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 Refer: 573 775 N 1 0 0 1 390 0 2
 Refer: 17 109 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 139.648 -9.76562 2
 Refer: 17 109 S 1 0 0 1 0 0 3
