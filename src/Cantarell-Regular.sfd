@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443870217
+ModificationTime: 1443872168
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -1154,36 +1154,35 @@ EndChar
 
 StartChar: exclam
 Encoding: 33 33 12
-Width: 273
+Width: 300
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 4
 Fore
 SplineSet
-117 694 m 1
- 200 694 l 1
- 200 224 l 1
- 117 224 l 1
- 117 694 l 1
-109 100 m 1
- 209 100 l 1
- 209 0 l 1
- 109 0 l 1
- 109 100 l 1
+108 694 m 1
+ 191 694 l 1
+ 191 224 l 1
+ 108 224 l 5
+ 108 694 l 1
+100 100 m 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 100 100 l 1
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
-109.863 97.6562 m 1
- 207.52 97.6562 l 1
- 207.52 0 l 1
- 109.863 0 l 1
- 109.863 97.6562 l 1
-117.188 693.848 m 1
- 200.195 693.848 l 1
- 200.195 223.633 l 1
- 117.188 223.633 l 1
- 117.188 693.848 l 1
+100.86328125 97.65625 m 1
+ 198.51953125 97.65625 l 1
+ 198.51953125 0 l 1
+ 100.86328125 0 l 1
+ 100.86328125 97.65625 l 1
+108.188476562 693.84765625 m 1
+ 191.1953125 693.84765625 l 1
+ 191.1953125 223.6328125 l 1
+ 108.188476562 223.6328125 l 1
+ 108.188476562 693.84765625 l 1
 EndSplineSet
 EndChar
 
@@ -13664,12 +13663,11 @@ StartChar: exclamdbl
 Encoding: 8252 8252 352
 Width: 634
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 Refer: 12 33 N 1 0 0 1 317 0 2
 Refer: 12 33 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 3
 Refer: 12 33 N 1 0 0 1 317.383 0 2
 Refer: 12 33 N 1 0 0 1 0 0 2
