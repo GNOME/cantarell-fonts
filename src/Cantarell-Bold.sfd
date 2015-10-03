@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443884395
+ModificationTime: 1443902922
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 10
+WinInfo: 480 15 10
 BeginPrivate: 8
 BlueValues 39 [-10 0 481 492 620 622 666 672 692 706]
 OtherBlues 11 [-264 -259]
@@ -14640,9 +14640,9 @@ EndChar
 
 StartChar: uni2236
 Encoding: 8758 8758 565
-Width: 239
+Width: 316
 VWidth: 1023
-Flags: HMW
+Flags: HMWO
 LayerCount: 3
 Fore
 Refer: 81 58 N 1 0 0 1 0 89 2
