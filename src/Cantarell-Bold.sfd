@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443863983
+ModificationTime: 1443864788
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 11
+WinInfo: 0 15 10
 BeginPrivate: 8
 BlueValues 31 [-10 0 481 492 620 622 686 706]
 OtherBlues 11 [-264 -259]
@@ -3403,7 +3403,7 @@ StartChar: dollar
 Encoding: 36 36 79
 Width: 607
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
@@ -3557,39 +3557,38 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 86
-Width: 712
+Width: 737
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-189 599 m 0
- 151 599 142 567 142 534 c 0
- 142 497 150 459 189 459 c 0
- 227 459 237 495 237 532 c 0
- 237 593 209 599 189 599 c 0
-189 686 m 0
- 249 686 334 657 334 533 c 0
- 334 434 271 374 189 374 c 0
- 121 374 54 413 54 534 c 0
- 54 636 119 686 189 686 c 0
-543 237 m 0
- 505 237 495 205 495 172 c 0
- 495 135 504 98 543 98 c 0
- 581 98 591 133 591 170 c 0
- 591 231 563 237 543 237 c 0
-543 324 m 0
- 603 324 678 293 678 171 c 0
- 678 72 621 12 543 12 c 0
- 472 12 399 51 399 172 c 0
- 399 274 470 324 543 324 c 0
-569 694 m 1
- 701 694 l 1
- 162 0 l 1
- 30 0 l 1
- 569 694 l 1
+155 626 m 4
+ 113 626 103 591 103 554 c 4
+ 103 514 112 472 155 472 c 4
+ 197 472 208 512 208 552 c 4
+ 208 619 177 626 155 626 c 4
+155 706 m 4
+ 215 706 300 677 300 553 c 4
+ 300 454 237 394 155 394 c 4
+ 87 394 20 433 20 554 c 4
+ 20 656 85 706 155 706 c 4
+582 222 m 0
+ 540 222 529 186 529 150 c 0
+ 529 109 539 69 582 69 c 0
+ 624 69 635 107 635 148 c 0
+ 635 215 604 222 582 222 c 0
+582 302 m 0
+ 642 302 717 271 717 149 c 0
+ 717 50 660 -10 582 -10 c 0
+ 511 -10 438 29 438 150 c 0
+ 438 252 509 302 582 302 c 0
+575 686 m 1
+ 695 686 l 1
+ 156 0 l 1
+ 36 0 l 1
+ 575 686 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
