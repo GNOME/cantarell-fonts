@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443875948
+ModificationTime: 1443876232
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 30 15 10
+WinInfo: 0 15 10
 BeginPrivate: 8
 BlueValues 39 [-10 0 481 492 620 622 666 672 692 706]
 OtherBlues 11 [-264 -259]
@@ -224,7 +224,7 @@ StartChar: e
 Encoding: 101 101 2
 Width: 562
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "below" 258 0.0999985 basechar 0
 AnchorPoint: "above" 257 482.1 basechar 0
 AnchorPoint: "cedilla" 258 -0.900002 basechar 0
@@ -2822,7 +2822,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 61
 Width: 660
-Flags: HMW
+Flags: HMWO
 LayerCount: 3
 Back
 SplineSet
@@ -2837,16 +2837,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-77 686 m 1
- 584 686 l 1
- 584 613 l 1
+77 692 m 1
+ 584 692 l 1
+ 584 619 l 1
  312 0 l 1
  181 0 l 1
- 434 574 l 1
- 77 574 l 1
- 77 686 l 1
+ 434 580 l 1
+ 77 580 l 1
+ 77 692 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: five
@@ -2877,10 +2876,10 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-108 686 m 1
- 537 686 l 1
- 537 573 l 1
- 228 573 l 1
+108 692 m 1
+ 537 692 l 1
+ 537 579 l 1
+ 228 579 l 1
  228 424 l 1
  253 426 285 428 318 428 c 0
  528 428 585 304 585 198 c 0
@@ -2891,9 +2890,8 @@ SplineSet
  438 105 459 160 459 207 c 0
  459 252 428 316 290 316 c 0
  257 316 205 314 108 302 c 1
- 108 686 l 1
+ 108 692 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two
@@ -3054,20 +3052,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-294 686 m 1
- 416 686 l 1
+294 692 m 1
+ 416 692 l 1
  416 103 l 1
  578 103 l 1
  578 0 l 1
  118 0 l 1
  118 103 l 1
  293 103 l 1
- 293 566 l 1
- 143 505 l 1
- 105 601 l 1
- 294 686 l 1
+ 293 572 l 1
+ 143 511 l 1
+ 105 607 l 1
+ 294 692 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: zero
@@ -3118,8 +3115,8 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-335 686 m 1
- 501 686 l 1
+335 692 m 1
+ 501 692 l 1
  501 258 l 1
  622 258 l 1
  622 148 l 1
@@ -3129,15 +3126,14 @@ SplineSet
  378 148 l 1
  45 148 l 1
  45 235 l 1
- 335 686 l 1
+ 335 692 l 1
 378 258 m 1
- 378 522 l 1
- 378 552 l 1
- 364 522 l 1
+ 378 528 l 1
+ 378 558 l 1
+ 364 528 l 1
  192 258 l 1
  378 258 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: period
