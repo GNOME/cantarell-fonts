@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443877812
+ModificationTime: 1443884395
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 15 10
+WinInfo: 0 15 10
 BeginPrivate: 8
 BlueValues 39 [-10 0 481 492 620 622 666 672 692 706]
 OtherBlues 11 [-264 -259]
@@ -3136,7 +3136,7 @@ EndChar
 
 StartChar: period
 Encoding: 46 46 68
-Width: 239
+Width: 240
 VWidth: 1023
 Flags: HMW
 LayerCount: 3
@@ -3148,7 +3148,6 @@ SplineSet
  50 0 l 1
  50 140 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: comma
@@ -14646,8 +14645,7 @@ VWidth: 1023
 Flags: HMW
 LayerCount: 3
 Fore
-Refer: 81 58 S 1 0 0 1 0 100 2
-Validated: 1
+Refer: 81 58 N 1 0 0 1 0 89 2
 EndChar
 
 StartChar: uni04E9
