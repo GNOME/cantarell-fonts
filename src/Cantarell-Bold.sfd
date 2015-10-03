@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443870439
+ModificationTime: 1443870493
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -3798,35 +3798,34 @@ StartChar: sterling
 Encoding: 163 163 95
 Width: 634
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-173 86 m 1
- 173 303 l 1
- 87 303 l 1
- 87 409 l 1
- 173 409 l 1
- 173 458 l 2
- 173 662 310 719 431 719 c 0
- 473 719 514 711 551 699 c 2
- 572 693 l 1
- 534 597 l 1
- 517 601 l 2
- 493 607 466 612 441 612 c 0
- 317 612 293 537 293 445 c 2
- 293 409 l 1
- 552 409 l 1
- 552 303 l 1
- 293 303 l 1
- 293 86 l 1
- 581 86 l 1
- 581 -20 l 1
- 54 -20 l 1
- 54 86 l 1
- 173 86 l 1
+173 106 m 1
+ 173 304 l 5
+ 87 304 l 5
+ 87 410 l 5
+ 173 410 l 5
+ 173 439 l 6
+ 173 643 310 706 431 706 c 0
+ 473 706 514 698 551 686 c 2
+ 572 680 l 1
+ 534 584 l 1
+ 517 588 l 2
+ 493 594 466 599 441 599 c 0
+ 317 599 293 518 293 426 c 6
+ 293 410 l 5
+ 552 410 l 5
+ 552 304 l 5
+ 293 304 l 5
+ 293 106 l 1
+ 581 106 l 1
+ 581 0 l 1
+ 54 0 l 1
+ 54 106 l 1
+ 173 106 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: exclamdown
@@ -3855,7 +3854,7 @@ StartChar: cent
 Encoding: 162 162 97
 Width: 498
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
