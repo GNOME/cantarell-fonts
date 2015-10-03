@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443865867
+ModificationTime: 1443866139
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -2680,32 +2680,31 @@ EndChar
 
 StartChar: question
 Encoding: 63 63 57
-Width: 486
+Width: 560
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-126 118 m 1
- 256 118 l 5
- 256 1 l 5
- 126 1 l 1
- 126 118 l 1
-442 536 m 0
- 442 328 256 355 256 191 c 2
- 256 171 l 1
- 133 171 l 1
- 133 191 l 2
- 133 407 321 401 321 522 c 0
- 321 556 301 612 187 612 c 0
- 150 612 102 601 76 590 c 2
- 57 583 l 1
- 17 678 l 1
- 34 687 l 2
- 86 713 145 722 201 722 c 0
- 347 722 442 661 442 536 c 0
+153 141 m 1
+ 293 141 l 1
+ 293 1 l 1
+ 153 1 l 1
+ 153 141 l 1
+474 520 m 0
+ 474 312 288 408 288 244 c 6
+ 288 224 l 5
+ 165 224 l 5
+ 165 244 l 6
+ 165 460 353 385 353 506 c 0
+ 353 540 333 596 219 596 c 0
+ 182 596 134 585 108 574 c 2
+ 89 567 l 1
+ 49 662 l 1
+ 66 671 l 2
+ 118 697 177 706 233 706 c 0
+ 379 706 474 645 474 520 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight
@@ -3431,22 +3430,22 @@ EndChar
 
 StartChar: semicolon
 Encoding: 59 59 80
-Width: 262
+Width: 333
 VWidth: 1023
 Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-87 103 m 1
- 218 103 l 1
- 125 -127 l 1
- -6 -127 l 1
- 87 103 l 1
-72 481 m 1
- 212 481 l 1
- 212 341 l 1
- 72 341 l 1
- 72 481 l 1
+114 103 m 5
+ 245 103 l 1
+ 152 -127 l 1
+ 21 -127 l 1
+ 114 103 l 5
+99 481 m 1
+ 239 481 l 1
+ 239 341 l 1
+ 99 341 l 1
+ 99 481 l 1
 EndSplineSet
 EndChar
 
@@ -3454,7 +3453,7 @@ StartChar: colon
 Encoding: 58 58 81
 Width: 316
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
