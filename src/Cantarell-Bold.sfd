@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443870870
+ModificationTime: 1443870941
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -4017,7 +4017,7 @@ StartChar: copyright
 Encoding: 169 169 102
 Width: 859
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
@@ -5269,22 +5269,21 @@ StartChar: ordmasculine
 Encoding: 186 186 150
 Width: 372
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-186 679 m 0
- 152 679 101 662 101 561 c 0
- 101 447 153 428 187 428 c 0
- 221 428 271 447 271 558 c 0
- 271 664 220 679 186 679 c 0
-352 559 m 0
- 352 431 279 355 186 355 c 0
- 103 355 21 404 21 560 c 0
- 21 690 104 754 187 754 c 0
- 253 754 352 721 352 559 c 0
+186 646 m 0
+ 159 646 118 633 118 552 c 0
+ 118 461 160 445 187 445 c 0
+ 214 445 254 460 254 549 c 0
+ 254 634 213 646 186 646 c 0
+319 550 m 0
+ 319 448 260 387 186 387 c 0
+ 120 387 54 426 54 551 c 0
+ 54 655 121 706 187 706 c 0
+ 240 706 319 680 319 550 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -5909,32 +5908,31 @@ StartChar: ordfeminine
 Encoding: 170 170 192
 Width: 374
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-243 485 m 1
- 242 485 l 2
- 178 485 145 476 145 448 c 0
- 145 434 160 414 192 414 c 0
- 211 414 229 424 243 444 c 1
- 243 485 l 1
-243 550 m 1
- 243 569 239 603 186 603 c 0
- 154 603 114 592 106 590 c 2
- 94 586 l 1
- 80 644 l 1
- 90 647 l 1
- 122 659 156 666 191 666 c 0
- 309 666 315 592 315 552 c 2
- 315 359 l 1
- 261 359 l 1
- 254 376 l 1
- 235 360 211 350 185 350 c 0
- 122 350 73 385 73 447 c 0
- 73 531 134 549 243 550 c 1
+243 525 m 1
+ 242 525 l 2
+ 178 525 145 516 145 488 c 0
+ 145 474 160 454 192 454 c 0
+ 211 454 229 464 243 484 c 1
+ 243 525 l 1
+243 590 m 1
+ 243 609 239 643 186 643 c 0
+ 154 643 114 632 106 630 c 2
+ 94 626 l 1
+ 80 684 l 1
+ 90 687 l 1
+ 122 699 156 706 191 706 c 0
+ 309 706 315 632 315 592 c 2
+ 315 399 l 1
+ 261 399 l 1
+ 254 416 l 1
+ 235 400 211 390 185 390 c 4
+ 122 390 73 425 73 487 c 4
+ 73 571 134 589 243 590 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Thorn
