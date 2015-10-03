@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443874837
+ModificationTime: 1443875234
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,9 +55,9 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 30 15 10
+WinInfo: 0 15 10
 BeginPrivate: 8
-BlueValues 31 [-10 0 481 492 620 622 692 706]
+BlueValues 39 [-10 0 481 492 620 622 666 672 692 706]
 OtherBlues 11 [-264 -259]
 FamilyBlues 39 [-10 0 482 494 606 608 666 672 692 706]
 FamilyOtherBlues 11 [-265 -259]
@@ -200,8 +200,8 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-385 686 m 1
- 505 686 l 1
+385 666 m 1
+ 505 666 l 1
  505 0 l 1
  419 0 l 1
  410 26 l 1
@@ -209,7 +209,7 @@ SplineSet
  124 -10 35 86 35 241 c 0
  35 426 172 492 270 492 c 0
  313 492 352 484 385 471 c 1
- 385 686 l 1
+ 385 666 l 1
 298 397 m 0
  218 397 158 359 158 234 c 0
  158 121 222 82 302 82 c 0
@@ -217,7 +217,6 @@ SplineSet
  385 381 l 1
  353 393 324 397 298 397 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: e
@@ -348,8 +347,8 @@ SplineSet
  273 393 233 388 180 366 c 1
  180 0 l 1
  60 0 l 1
- 60 686 l 1
- 180 686 l 1
+ 60 666 l 1
+ 180 666 l 1
  180 458 l 1
  218 474 271 491 327 491 c 0
  494 491 502 348 502 274 c 2
@@ -358,7 +357,6 @@ SplineSet
  382 295 l 2
  382 331 372 393 295 393 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: i
@@ -366,7 +364,7 @@ Encoding: 105 105 4
 Width: 240
 Flags: HMW
 AnchorPoint: "below" 126 0 basechar 0
-AnchorPoint: "above" 118 664.4 basechar 0
+AnchorPoint: "above" 118 670.4 basechar 0
 AnchorPoint: "cedilla" 126 0 basechar 0
 LayerCount: 3
 Back
@@ -384,18 +382,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-60 686 m 1
- 180 686 l 1
- 180 569 l 1
- 60 569 l 1
- 60 686 l 1
+60 692 m 1
+ 180 692 l 1
+ 180 575 l 1
+ 60 575 l 1
+ 60 692 l 1
 60 481 m 1
  180 481 l 1
  180 0 l 1
  60 0 l 1
  60 481 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: n
@@ -579,8 +576,8 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-60 686 m 1
- 180 686 l 1
+60 666 m 1
+ 180 666 l 1
  180 471 l 1
  213 484 252 492 295 492 c 0
  403 492 530 426 530 241 c 0
@@ -588,7 +585,7 @@ SplineSet
  232 -10 188 9 155 26 c 1
  146 0 l 1
  60 0 l 1
- 60 686 l 1
+ 60 666 l 1
 267 397 m 0
  241 397 212 393 180 381 c 1
  180 106 l 1
@@ -596,7 +593,6 @@ SplineSet
  343 82 407 121 407 234 c 0
  407 359 347 397 267 397 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: l
@@ -628,12 +624,11 @@ SplineSet
  291 14 l 1
  274 8 238 -10 183 -10 c 0
  81 -10 60 57 60 125 c 2
- 60 686 l 1
- 178 686 l 1
+ 60 666 l 1
+ 178 666 l 1
  178 160 l 2
  178 113 187 84 234 84 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: w
@@ -924,7 +919,6 @@ SplineSet
  60 481 l 1
  144 481 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: c
@@ -1151,11 +1145,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-180 686 m 1
+180 666 m 1
  180 0 l 1
  60 0 l 1
- 60 686 l 1
- 180 686 l 1
+ 60 666 l 1
+ 180 666 l 1
 376 481 m 1
  522 481 l 1
  336 266 l 1
@@ -1164,7 +1158,6 @@ SplineSet
  193 266 l 1
  376 481 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: j
@@ -1172,7 +1165,7 @@ Encoding: 106 106 23
 Width: 234
 Flags: HMW
 AnchorPoint: "below" 151 -259 basechar 0
-AnchorPoint: "above" 121 659 basechar 0
+AnchorPoint: "above" 121 665 basechar 0
 AnchorPoint: "cedilla" 82 -230 basechar 0
 LayerCount: 3
 Back
@@ -1203,13 +1196,12 @@ SplineSet
  -27 -171 l 2
  51 -132 59 -103 59 4 c 2
  59 481 l 1
-59 686 m 1
- 179 686 l 1
- 179 569 l 1
- 59 569 l 1
- 59 686 l 1
+59 692 m 1
+ 179 692 l 1
+ 179 575 l 1
+ 59 575 l 1
+ 59 692 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: x
@@ -6907,7 +6899,6 @@ LayerCount: 3
 Fore
 Refer: 585 789 N 1 0 0 1 636 0 2
 Refer: 1 100 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -7144,7 +7135,6 @@ LayerCount: 3
 Fore
 Refer: 332 770 N 1 0 0 1 312 188 2
 Refer: 3 104 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Itilde
@@ -7459,7 +7449,6 @@ LayerCount: 3
 Fore
 Refer: 590 806 N 1 0 0 1 302 0 2
 Refer: 22 107 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lacute
@@ -7482,7 +7471,6 @@ LayerCount: 3
 Fore
 Refer: 571 769 N 1 0 0 1 130 188 2
 Refer: 10 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lcommaaccent
@@ -7505,7 +7493,6 @@ LayerCount: 3
 Fore
 Refer: 590 806 N 1 0 0 1 186 0 2
 Refer: 10 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -7528,7 +7515,6 @@ LayerCount: 3
 Fore
 Refer: 585 789 N 1 0 0 1 300 0 2
 Refer: 10 108 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -7570,7 +7556,6 @@ SplineSet
  261 429 l 1
 EndSplineSet
 Refer: 10 108 S 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Nacute
@@ -8325,7 +8310,6 @@ SplineSet
  4 193 l 1
 EndSplineSet
 Refer: 10 108 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: kgreenlandic
@@ -9363,7 +9347,6 @@ LayerCount: 3
 Fore
 Refer: 575 775 N 1 0 0 1 292 188 2
 Refer: 9 98 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E0A
@@ -9408,7 +9391,6 @@ LayerCount: 3
 Fore
 Refer: 575 775 N 1 0 0 1 286 188 2
 Refer: 1 100 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ygrave
@@ -9465,7 +9447,6 @@ LayerCount: 3
 Fore
 Refer: 575 775 N 1 0 0 1 435 0 2
 Refer: 17 109 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E56
@@ -13021,7 +13002,6 @@ AnchorPoint: "below" 126 0 basechar 0
 LayerCount: 3
 Fore
 Refer: 4 105 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: afii10104
@@ -13047,7 +13027,6 @@ AnchorPoint: "below" 151 -261 basechar 0
 LayerCount: 3
 Fore
 Refer: 23 106 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: afii10106
@@ -14426,7 +14405,6 @@ LayerCount: 3
 Fore
 Refer: 579 780 N 1 0 0 1 312 188 2
 Refer: 3 104 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: icaron
@@ -14462,7 +14440,6 @@ LayerCount: 3
 Fore
 Refer: 579 780 N 1 0 0 1 302 188 2
 Refer: 22 107 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ucaron
