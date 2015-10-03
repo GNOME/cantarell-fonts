@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443870244
+ModificationTime: 1443870439
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -3580,7 +3580,7 @@ StartChar: asciitilde
 Encoding: 126 126 88
 Width: 583
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
@@ -3855,33 +3855,32 @@ StartChar: cent
 Encoding: 162 162 97
 Width: 498
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-245 620 m 1
- 245 758 l 1
- 344 758 l 1
- 344 625 l 1
- 386 621 425 607 450 596 c 2
- 467 589 l 1
- 436 494 l 1
- 417 500 l 2
- 385 511 351 518 317 518 c 0
- 218 518 171 462 171 365 c 0
- 171 224 258 196 327 196 c 0
- 355 196 384 201 411 211 c 1
- 430 217 l 1
- 462 125 l 1
- 444 118 l 2
- 413 106 379 96 344 93 c 1
- 344 -52 l 1
- 245 -52 l 1
- 245 95 l 1
- 139 114 53 191 53 348 c 0
- 53 491 121 594 245 620 c 1
+245 621 m 1
+ 245 730 l 1
+ 344 730 l 1
+ 344 626 l 1
+ 386 622 425 608 450 597 c 2
+ 467 590 l 1
+ 436 495 l 1
+ 417 501 l 2
+ 385 512 351 519 317 519 c 0
+ 218 519 171 463 171 366 c 0
+ 171 225 258 197 327 197 c 0
+ 355 197 384 202 411 212 c 1
+ 430 218 l 1
+ 462 126 l 1
+ 444 119 l 2
+ 413 107 379 97 344 94 c 1
+ 344 -27 l 1
+ 245 -27 l 1
+ 245 96 l 1
+ 139 115 53 192 53 349 c 0
+ 53 492 121 595 245 621 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: currency
