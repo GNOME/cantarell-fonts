@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443869840
+ModificationTime: 1443870244
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 10
+WinInfo: 60 15 10
 BeginPrivate: 8
 BlueValues 31 [-10 0 481 492 620 622 686 706]
 OtherBlues 11 [-264 -259]
@@ -529,17 +529,16 @@ StartChar: bar
 Encoding: 124 124 8
 Width: 365
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-124 802 m 1
- 244 802 l 1
- 244 -170 l 1
- 124 -170 l 1
- 124 802 l 1
+124 730 m 1
+ 244 730 l 1
+ 244 -242 l 1
+ 124 -242 l 1
+ 124 730 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: b
@@ -1029,7 +1028,7 @@ EndChar
 StartChar: r
 Encoding: 114 114 20
 Width: 405
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "below" 122 0 basechar 0
 AnchorPoint: "above" 239 482 basechar 0
 AnchorPoint: "cedilla" 122 0 basechar 0
@@ -1601,7 +1600,7 @@ EndChar
 StartChar: A
 Encoding: 65 65 32
 Width: 675
-Flags: MWO
+Flags: MW
 AnchorPoint: "below" 340 0 basechar 0
 AnchorPoint: "above" 340 670 basechar 0
 AnchorPoint: "cedilla" 340 0 basechar 0
@@ -3550,57 +3549,55 @@ StartChar: braceright
 Encoding: 125 125 87
 Width: 393
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-251 529 m 4
- 253 502 255 475 258 450 c 4
- 269 366 313 329 360 321 c 5
- 376 319 l 5
- 376 217 l 5
- 360 215 l 6
- 343 212 326 205 312 195 c 4
- 250 150 258 69 251 1 c 4
- 232 -186 100 -218 54 -221 c 5
- 37 -223 l 5
- 14 -121 l 5
- 36 -118 l 6
- 69 -114 96 -93 112 -69 c 4
- 166 14 108 174 219 268 c 5
- 109 362 167 521 112 605 c 4
- 96 629 69 651 36 655 c 6
- 14 658 l 5
- 37 759 l 5
- 54 758 l 6
- 108 754 233 718 251 529 c 4
+251 500 m 0
+ 253 473 255 446 258 421 c 0
+ 269 337 313 300 360 292 c 1
+ 376 290 l 1
+ 376 188 l 1
+ 360 186 l 2
+ 343 183 326 176 312 166 c 0
+ 250 121 258 40 251 -28 c 0
+ 232 -215 100 -247 54 -250 c 1
+ 37 -252 l 1
+ 14 -150 l 1
+ 36 -147 l 2
+ 69 -143 96 -122 112 -98 c 0
+ 166 -15 108 145 219 239 c 1
+ 109 333 167 492 112 576 c 0
+ 96 600 69 622 36 626 c 2
+ 14 629 l 1
+ 37 730 l 1
+ 54 729 l 2
+ 108 725 233 689 251 500 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asciitilde
 Encoding: 126 126 88
 Width: 583
 VWidth: 1023
-Flags: MW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-368 383 m 0
- 386 383 391 422 397 457 c 2
- 400 476 l 1
- 493 462 l 1
- 489 441 l 1
- 478 386 468 284 371 284 c 1
- 281 288 241 373 215 373 c 0
- 197 373 192 335 186 302 c 2
- 183 282 l 1
- 90 295 l 1
- 94 316 l 2
- 105 371 115 472 212 472 c 1
- 302 468 343 383 368 383 c 0
+384 311 m 4
+ 406 311 412 360 420 402 c 6
+ 423 425 l 5
+ 535 407 l 5
+ 531 382 l 5
+ 518 316 506 192 388 192 c 5
+ 279 196 231 299 199 299 c 4
+ 177 299 171 254 163 214 c 6
+ 160 189 l 5
+ 48 206 l 5
+ 52 231 l 6
+ 65 297 77 419 195 419 c 5
+ 304 415 353 311 384 311 c 4
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: grave
@@ -3717,7 +3714,7 @@ StartChar: braceleft
 Encoding: 123 123 94
 Width: 393
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -3774,28 +3771,27 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-138 450 m 0
- 141 475 142 502 144 529 c 0
- 162 719 288 754 341 758 c 2
- 358 759 l 1
- 382 658 l 1
- 360 655 l 2
- 327 651 299 629 283 605 c 0
- 228 521 286 362 176 268 c 1
- 287 174 229 14 283 -69 c 0
- 299 -93 327 -114 360 -118 c 2
- 382 -121 l 1
- 358 -223 l 1
- 341 -221 l 1
- 295 -218 163 -186 144 1 c 0
- 137 69 145 150 83 195 c 0
- 69 205 53 212 36 215 c 2
- 19 217 l 1
- 19 319 l 1
- 36 321 l 1
- 83 329 127 366 138 450 c 0
+138 421 m 0
+ 141 446 142 473 144 500 c 0
+ 162 690 288 725 341 729 c 2
+ 358 730 l 1
+ 382 629 l 1
+ 360 626 l 2
+ 327 622 299 600 283 576 c 0
+ 228 492 286 333 176 239 c 1
+ 287 145 229 -15 283 -98 c 0
+ 299 -122 327 -143 360 -147 c 2
+ 382 -150 l 1
+ 358 -252 l 1
+ 341 -250 l 1
+ 295 -247 163 -215 144 -28 c 0
+ 137 40 145 121 83 166 c 0
+ 69 176 53 183 36 186 c 2
+ 19 188 l 1
+ 19 290 l 1
+ 36 292 l 1
+ 83 300 127 337 138 421 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: sterling
