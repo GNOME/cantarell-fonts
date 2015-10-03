@@ -1,4 +1,9 @@
-0.0.16
+0.0.17
+ - improved shapes and metrics by Nikolaus Waxweiler:
+  - baseline and bluezone fixes for autohinter to produce valid hints
+  - many glyphs adjusted for baseline and proper hinting.
+  
+  0.0.16
  - add space variations (#735205)
 
 0.0.15
