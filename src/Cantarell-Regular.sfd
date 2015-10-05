@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1443908731
+ModificationTime: 1444081278
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 30 15 8
+WinInfo: 0 27 16
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 606 608 666 672 692 706]
 OtherBlues 11 [-265 -259]
@@ -888,7 +888,9 @@ EndChar
 StartChar: s
 Encoding: 115 115 7
 Width: 465
-Flags: MW
+Flags: MWO
+AnchorPoint: "below" 230 0 basechar 0
+AnchorPoint: "above" 252 482 basechar 0
 LayerCount: 4
 Back
 SplineSet
@@ -930,7 +932,6 @@ SplineSet
  161 232 l 1
  122 250 57 274 57 350 c 0
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 391.70703125 491.176757812 m 0
@@ -1156,7 +1157,7 @@ StartChar: exclam
 Encoding: 33 33 12
 Width: 300
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Fore
 SplineSet
@@ -1935,7 +1936,6 @@ SplineSet
  166 267 l 1
  379 482 l 1
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 385.672 492.188 m 1
@@ -9572,9 +9572,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 570 780 N 1 0 0 1 368 0 2
+Refer: 223 711 N 1 0 0 1 -6 6 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 223 711 S 1 0 0 1 5.37109 0 2
 Refer: 7 115 N 1 0 0 1 0 0 3
@@ -11374,7 +11373,6 @@ LayerCount: 4
 Fore
 Refer: 585 806 N 1 0 0 1 259 0 2
 Refer: 22 107 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 69 44 S 1 0 0 1 133.301 -142.578 2
 Refer: 22 107 N 1 0 0 1 0 0 3
@@ -11786,9 +11784,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 572 769 N 1 0 0 1 368 0 2
+Refer: 572 769 N 1 0 0 1 252 26 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 330.078 756.348 m 29
@@ -11822,9 +11819,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 332 770 S 1 0 0 1 368 0 2
+Refer: 219 710 N 1 0 0 1 -94.5 6 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 219 710 S 1 0 0 1 -82.5195 -20.9961 2
 Refer: 7 115 N 1 0 0 1 0 0 3
@@ -11879,9 +11875,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 579 807 N 1 0 0 1 368 0 2
+Refer: 126 184 N 1 0 0 1 -68 -12.5333 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 126 184 S 1 0 0 1 -54.4434 -0.344727 2
 Refer: 7 115 N 1 0 0 1 0 0 3
@@ -14167,12 +14162,11 @@ StartChar: uni1E61
 Encoding: 7777 7777 381
 Width: 465
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
-Refer: 573 775 N 1 0 0 1 368 0 2
+Refer: 224 729 N 1 0 0 1 -35 -48 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 -27.832 -9.76562 2
 Refer: 7 115 N 1 0 0 1 0 0 3
@@ -18891,7 +18885,6 @@ AnchorPoint: "cedilla" 247 0 basechar 0
 LayerCount: 4
 Fore
 Refer: 7 115 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: afii10103
@@ -19969,7 +19962,6 @@ LayerCount: 4
 Fore
 Refer: 570 780 N 1 0 0 1 259 188 2
 Refer: 22 107 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ucaron
@@ -20986,9 +20978,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 585 806 N 1 0 0 1 351 -10 2
+Refer: 585 806 N 1 0 0 1 230 0 2
 Refer: 7 115 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Scommaaccent
