@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1444391770
+ModificationTime: 1444402294
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 17
+WinInfo: 182 26 17
 BeginPrivate: 9
 BlueValues 31 [-10 0 481 492 620 622 681 706]
 OtherBlues 11 [-264 -259]
@@ -1392,7 +1392,7 @@ SplineSet
  439 681 l 1
  421 594 l 1
  401 599 l 2
- 387 602 355 609 326 609 c 3
+ 387 602 355 609 326 609 c 7
  261 609 220 571 220 525 c 2
  220 481 l 1
  401 481 l 1
@@ -9812,7 +9812,7 @@ SplineSet
  100 481 l 1
  100 521 l 2
  100 574 123 706 297 706 c 3
- 443 706 567 667 583 663 c 9
+ 497 706 583 663 583 663 c 9
  570 563 l 1
  450 563 l 1
  450 594 l 1
@@ -9820,14 +9820,13 @@ SplineSet
  261 609 220 571 220 525 c 2
  220 481 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f i
 EndChar
 
 StartChar: uniFB02
 Encoding: 64258 64258 384
-Width: 702
+Width: 693
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -9874,17 +9873,16 @@ SplineSet
  100 481 l 1
  100 521 l 2
  100 574 123 706 297 706 c 3
- 549 706 573 635 577 596 c 1
- 577 160 l 2
- 577 113 586 84 633 84 c 0
- 652 84 673 88 690 92 c 1
- 690 14 l 1
- 673 8 637 -10 582 -10 c 0
- 480 -10 459 57 459 125 c 2
- 459 596 l 1
- 459 596 391 609 326 609 c 3
+ 549 706 564 635 568 596 c 1
+ 568 160 l 2
+ 568 113 577 84 624 84 c 0
+ 643 84 664 88 681 92 c 1
+ 681 14 l 1
+ 664 8 628 -10 573 -10 c 0
+ 471 -10 450 57 450 125 c 2
+ 450 596 l 1
+ 450 596 391 609 326 609 c 3
 EndSplineSet
-Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f l
 EndChar
@@ -9954,12 +9952,12 @@ SplineSet
  220 481 l 1
  450 481 l 1
  450 521 l 2
- 450 574 491 706 665 706 c 3
- 811 706 917 671 933 663 c 9
+ 450 574 473 706 647 706 c 3
+ 847 706 933 663 933 663 c 9
  920 563 l 1
  800 563 l 1
  800 594 l 1
- 789 600 734 609 688 609 c 3
+ 789 600 722 609 676 609 c 3
  611 609 570 571 570 525 c 2
  570 481 l 1
  920 481 l 1
@@ -9972,7 +9970,6 @@ SplineSet
  450 389 l 1
  220 389 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f uniFB01
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" uniFB00 i
@@ -9981,7 +9978,7 @@ EndChar
 
 StartChar: uniFB04
 Encoding: 64260 64260 386
-Width: 1052
+Width: 1043
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -10035,15 +10032,15 @@ SplineSet
 450 481 m 1
  450 521 l 2
  450 574 473 706 647 706 c 3
- 899 706 923 635 927 596 c 1
- 927 160 l 2
- 927 113 936 84 983 84 c 0
- 1002 84 1023 88 1040 92 c 1
- 1040 14 l 1
- 1023 8 987 -10 932 -10 c 0
- 830 -10 809 57 809 125 c 2
- 809 596 l 1
- 809 596 741 609 676 609 c 3
+ 899 706 914 635 918 596 c 1
+ 918 160 l 2
+ 918 113 927 84 974 84 c 0
+ 993 84 1014 88 1031 92 c 1
+ 1031 14 l 1
+ 1014 8 978 -10 923 -10 c 0
+ 821 -10 800 57 800 125 c 2
+ 800 596 l 1
+ 800 596 741 609 676 609 c 3
  611 609 570 571 570 525 c 2
  570 481 l 1
  751 481 l 1
@@ -10061,7 +10058,7 @@ SplineSet
  100 481 l 1
  100 521 l 2
  100 574 123 706 297 706 c 3
- 322 706 388 698 439 680 c 1
+ 323 706 388 698 439 680 c 1
  421 594 l 1
  401 599 l 2
  387 602 355 609 326 609 c 3
@@ -10069,7 +10066,6 @@ SplineSet
  220 481 l 1
  450 481 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f uniFB02
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" uniFB00 l
