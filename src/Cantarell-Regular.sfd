@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445182496
+ModificationTime: 1445186019
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 27 27 16
+WinInfo: 0 14 7
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 606 608 666 672 692 706]
 OtherBlues 11 [-265 -259]
@@ -2601,7 +2601,7 @@ EndChar
 StartChar: E
 Encoding: 69 69 34
 Width: 551
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "below" 289 0 basechar 0
 AnchorPoint: "cedilla" 289 0 basechar 0
 AnchorPoint: "above" 289 670 basechar 0
@@ -3933,20 +3933,19 @@ LayerCount: 4
 Fore
 SplineSet
 260 64 m 3
- 342 64 446 112 446 188 c 3
- 446 334 67 317 67 517 c 3
+ 342 64 446 118 446 188 c 3
+ 446 318 67 317 67 517 c 3
  67 637 174 706 314 706 c 3
  398 706 453 682 493 662 c 1
  463 597 l 1
  413 617 363 632 314 632 c 3
  215 632 150 587 150 517 c 3
- 150 379 529 402 529 188 c 3
- 529 57 400 -10 260 -10 c 3
+ 150 387 529 388 529 188 c 3
+ 529 68 400 -10 260 -10 c 3
  171 -10 121 10 50 37 c 1
  78 105 l 1
  159 75 212 64 260 64 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 395.879 700.195 m 0
@@ -9477,7 +9476,6 @@ LayerCount: 4
 Fore
 Refer: 570 780 N 1 0 0 1 295 188 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 223 711 S 1 0 0 1 107.422 211.914 2
 Refer: 55 83 N 1 0 0 1 0 0 3
@@ -11675,7 +11673,6 @@ LayerCount: 4
 Fore
 Refer: 572 769 N 1 0 0 1 295 188 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 148 180 S 1 0 0 1 76.1719 190.918 2
 Refer: 55 83 N 1 0 0 1 0 0 3
@@ -11711,7 +11708,6 @@ LayerCount: 4
 Fore
 Refer: 332 770 N 1 0 0 1 295 188 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 219 710 S 1 0 0 1 -4.88281 190.918 2
 Refer: 55 83 N 1 0 0 1 0 0 3
@@ -11741,7 +11737,6 @@ LayerCount: 4
 Fore
 Refer: 579 807 N 1 0 0 1 295 0 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 3
 SplineSet
 322.998 11.8623 m 1
@@ -14002,7 +13997,6 @@ LayerCount: 4
 Fore
 Refer: 573 775 N 1 0 0 1 295 188 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 79.1016 222.656 2
 Refer: 55 83 N 1 0 0 1 0 0 3
@@ -18479,7 +18473,6 @@ AnchorPoint: "below" 300 0 basechar 0
 LayerCount: 4
 Fore
 Refer: 55 83 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: afii10055
@@ -20881,7 +20874,6 @@ LayerCount: 4
 Fore
 Refer: 585 806 N 1 0 0 1 261 -9 2
 Refer: 55 83 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni021A
