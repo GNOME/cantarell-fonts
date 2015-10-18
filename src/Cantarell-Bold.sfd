@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445194015
+ModificationTime: 1445194996
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 8
+WinInfo: 532 14 7
 BeginPrivate: 9
 BlueValues 31 [-10 0 481 492 620 622 681 706]
 OtherBlues 11 [-264 -259]
@@ -6208,7 +6208,7 @@ StartChar: uni203D
 Encoding: 8253 8253 207
 Width: 556
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
@@ -6217,23 +6217,21 @@ SplineSet
  297 1 l 1
  157 1 l 1
  157 140 l 1
-474 518 m 0
- 474 319 283 361 283 211 c 2
- 283 191 l 1
+474 512 m 3
+ 474 303.960419625 283 368.229432887 283 191 c 1
  170 191 l 1
  170 531 l 1
  283 531 l 1
  283 396 l 1
- 318 425 353 460 353 507 c 0
- 353 543 329 596 225 596 c 0
- 196 596 151 592 108 574 c 2
+ 318 425 353 465 353 512 c 3
+ 353 548 333 596 229 596 c 3
+ 200 596 151 592 108 574 c 2
  89 567 l 1
  49 662 l 1
  66 671 l 2
- 112 693 168 706 233 706 c 0
- 346 706 474 668 474 518 c 0
+ 112 693 164 706 229 706 c 3
+ 342 706 474 662 474 512 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quoteleft
@@ -13139,7 +13137,7 @@ StartChar: uni0497
 Encoding: 1175 1175 493
 Width: 786
 VWidth: 1023
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "below" 392 0 basechar 0
 AnchorPoint: "above" 392 482 basechar 0
 AnchorPoint: "cedilla" 392 0 basechar 0

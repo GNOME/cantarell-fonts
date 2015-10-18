@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445194206
+ModificationTime: 1445194964
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 294 14 7
+WinInfo: 532 14 7
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 606 608 666 672 692 706]
 OtherBlues 11 [-265 -259]
@@ -9687,7 +9687,7 @@ StartChar: interrobang
 Encoding: 8253 8253 207
 Width: 510
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 SplineSet
@@ -9696,24 +9696,19 @@ SplineSet
  250 0 l 1
  152 0 l 1
  152 98 l 1
-200 637 m 0
- 153 637 109 624 74 609 c 1
+198 633 m 3
+ 151 633 109 620 74 605 c 1
  49 668 l 1
- 95 690 144 706 196 706 c 0
- 350 706 427 647 428 536 c 0
- 428 483 412 437 380 398 c 1
- 360 376 304 329 283 308 c 0
- 260 285 237 241 237 198 c 2
- 237 191 l 1
+ 95 690 146 706 198 706 c 3
+ 352 706 430 640 430 529 c 3
+ 430 359.72265625 237 356.399376613 237 191 c 1
  164 191 l 1
  164 527 l 1
  237 527 l 1
  237 369 l 1
- 255 384 l 2
- 298 421 347 459 347 522 c 0
- 347 595 282 637 200 637 c 0
+ 284.040483858 408.200403215 347 457.689373175 347 529 c 3
+ 347 602 280 633 198 633 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 206.543 701.66 m 0
@@ -11932,7 +11927,6 @@ LayerCount: 4
 Fore
 Refer: 575 771 N 1 0 0 1 349 188 2
 Refer: 51 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 220 732 N 1 0 0 1 43.9453 156.738 2
 Refer: 51 85 N 1 0 0 1 0 0 3
@@ -11945,9 +11939,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 575 771 N 1 0 0 1 267 0 2
+Refer: 575 771 N 1 0 0 1 262 2 2
 Refer: 14 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 220 732 S 1 0 0 1 -62.2559 -55.1758 2
 Refer: 14 117 N 1 0 0 1 0 0 3
@@ -11962,7 +11955,6 @@ LayerCount: 4
 Fore
 Refer: 576 772 N 1 0 0 1 349 188 2
 Refer: 51 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 192.871 828.613 m 5
@@ -11981,9 +11973,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 576 772 N 1 0 0 1 267 0 2
+Refer: 576 772 N 1 0 0 1 262 2 2
 Refer: 14 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 143.066 650.879 m 5
@@ -12004,7 +11995,6 @@ LayerCount: 4
 Fore
 Refer: 577 774 N 1 0 0 1 349 188 2
 Refer: 51 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 222 728 N 1 0 0 1 111.816 211.919 2
 Refer: 51 85 N 1 0 0 1 0 0 3
@@ -12017,9 +12007,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 577 774 N 1 0 0 1 267 0 2
+Refer: 577 774 N 1 0 0 1 262 2 2
 Refer: 14 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 222 728 S 1 0 0 1 30.0293 0.00554321 2
 Refer: 14 117 N 1 0 0 1 0 0 3
@@ -12032,9 +12021,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 578 778 N 1 0 0 1 349 188 2
+Refer: 578 778 N 1 0 0 1 349 226 2
 Refer: 51 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 221 730 N 1 0 0 1 111.85 211.914 2
 Refer: 51 85 N 1 0 0 1 0 0 3
@@ -12047,9 +12035,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 578 778 N 1 0 0 1 267 0 2
+Refer: 578 778 N 1 0 0 1 262 40 2
 Refer: 14 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 221 730 S 1 0 0 1 5.64907 0 2
 Refer: 14 117 N 1 0 0 1 0 0 3
@@ -12876,7 +12863,7 @@ StartChar: Aogonek
 Encoding: 260 260 340
 Width: 609
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
