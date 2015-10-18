@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445195741
+ModificationTime: 1445196883
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 7
+WinInfo: 14 14 7
 BeginPrivate: 9
 BlueValues 31 [-10 0 481 492 620 622 681 706]
 OtherBlues 11 [-264 -259]
@@ -794,8 +794,8 @@ SplineSet
 144 481 m 1
  157 452 l 1
  190 470 243 492 301 492 c 3
- 394 492 531 436 531 241 c 3
- 531 86 442 -10 285 -10 c 3
+ 394 492 531 433 531 238 c 3
+ 531 83 442 -10 285 -10 c 3
  243 -10 213 -2 180 15 c 1
  180 -259 l 1
  60 -259 l 1
@@ -805,8 +805,8 @@ SplineSet
  242 395 213 391 181 379 c 1
  181 106 l 1
  203 93 230 82 264 82 c 3
- 344 82 408 121 408 234 c 3
- 408 359 348 395 268 395 c 3
+ 344 82 408 125 408 238 c 3
+ 408 363 348 395 268 395 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -846,16 +846,16 @@ SplineSet
  506 -259 l 1
  386 -259 l 1
  386 15 l 1
- 353 -2 323 -10 281 -10 c 7
- 124 -10 35 86 35 241 c 7
- 35 436 172 492 265 492 c 7
+ 353 -2 323 -10 281 -10 c 3
+ 124 -10 35 83 35 238 c 7
+ 35 433 172 492 265 492 c 3
  323 492 376 470 409 452 c 1
-298 395 m 7
- 218 395 158 359 158 234 c 7
- 158 121 222 82 302 82 c 7
+298 395 m 3
+ 218 395 158 363 158 238 c 7
+ 158 125 222 82 302 82 c 3
  336 82 363 93 385 106 c 1
  385 379 l 1
- 353 391 324 395 298 395 c 7
+ 353 391 324 395 298 395 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -3590,21 +3590,20 @@ StartChar: asciitilde
 Encoding: 126 126 88
 Width: 583
 VWidth: 1023
-Flags: HMW
+Flags: HMWO
 LayerCount: 3
 Fore
 SplineSet
-384 311 m 3
+384 311 m 7
  408 311 418 383 423 425 c 1
  535 407 l 1
- 523 331 513 192 388 192 c 3
- 279 192 231 299 199 299 c 3
+ 523 331 508 192 388 192 c 3
+ 288 192 231 299 199 299 c 3
  174 299 165 230 160 189 c 1
  48 206 l 1
- 60 282 69 419 195 419 c 3
- 304 419 353 311 384 311 c 3
+ 60 282 75 419 195 419 c 3
+ 295 419 353 311 384 311 c 7
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: grave
