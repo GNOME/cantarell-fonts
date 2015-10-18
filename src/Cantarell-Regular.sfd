@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445186184
+ModificationTime: 1445187784
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -450,7 +450,6 @@ SplineSet
  408 34 l 1
  365 6 319 -10 271 -10 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 400.055 54.6387 m 1
@@ -855,18 +854,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-280 426 m 3
- 183 426 133 342 133 240 c 3
- 133 138 182 56 280 56 c 3
- 379 56 431 137 431 240 c 3
- 431 343 378 426 280 426 c 3
+280 420 m 3
+ 180 420 131 330 131 240 c 3
+ 131 150 180 64 280 64 c 3
+ 380 64 433 150 433 240 c 7
+ 433 330 380 420 280 420 c 3
 280 -10 m 3
- 132 -10 48 90 48 240 c 3
- 48 391 132 494 280 494 c 3
- 429 494 516 391 516 240 c 3
- 516 90 428 -10 280 -10 c 3
+ 130 -10 48 90 48 240 c 3
+ 48 390 130 494 280 494 c 3
+ 430 494 516 390 516 240 c 7
+ 516 90 430 -10 280 -10 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 70.5176 240.408 m 0
@@ -976,7 +974,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 9
 Width: 556
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "cedilla" 262 0 basechar 0
 AnchorPoint: "below" 262 0 basechar 0
 AnchorPoint: "above" 262 670 basechar 0
@@ -1062,7 +1060,6 @@ SplineSet
  485 384 508 323 508 240 c 3
  508 96 433 -10 285 -10 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 Refer: 1 100 S -1 0 0 1 579.15 0 2
 EndChar
@@ -1341,7 +1338,7 @@ SplineSet
  213 423 187 412 153 393 c 1
  153 75 l 1
  188 60 224 52 261 52 c 3
- 364 52 419 133 419 240 c 3
+ 364 52 419 133 419 240 c 7
  419 348 367 423 262 423 c 3
 153 -261 m 1
  70 -261 l 1
@@ -1350,7 +1347,7 @@ SplineSet
  144 448 l 1
  187 476 232 494 280 494 c 3
  328 494 368 480 402 459 c 0
- 469 416 504 340 504 240 c 3
+ 469 416 504 340 504 240 c 7
  504 157 480 98 434 53 c 0
  390 10 335 -10 269 -10 c 3
  230 -10 191 -5 153 11 c 1
@@ -1458,8 +1455,8 @@ SplineSet
  399 393 l 1
 283 -10 m 3
  217 -10 162 10 118 53 c 0
- 72 98 48 160 48 243 c 3
- 48 343 83 416 150 459 c 0
+ 72 98 48 157 48 240 c 3
+ 48 340 83 416 150 459 c 0
  184 480 224 494 272 494 c 3
  320 494 365 476 408 448 c 1
  423 482 l 1
@@ -1469,7 +1466,6 @@ SplineSet
  399 11 l 1
  361 -5 322 -10 283 -10 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 Refer: 15 112 S -1 0 0 1 582.221 0 2
 EndChar
@@ -1645,20 +1641,18 @@ AnchorPoint: "above" 260 482 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-281 -10 m 3
- 132 -10 48 80 48 233 c 3
- 48 310 72 372 111 419 c 0
- 152 468 214 494 298 494 c 3
- 337 494 379 481 423 462 c 1
- 403 404 l 1
- 366 417 331 423 302 423 c 3
- 187 423 131 360 131 247 c 3
- 131 126 188 56 310 56 c 3
- 337 56 371 62 402 73 c 1
- 421 18 l 1
- 373 -2 330 -10 281 -10 c 3
+280 -10 m 3
+ 130 -10 48 90 48 240 c 3
+ 48 390 130 494 280 494 c 3
+ 330 494 378 484 422 465 c 1
+ 403 403 l 5
+ 366 416 310 420 280 420 c 3
+ 190 420 131 340 131 240 c 3
+ 131 140 190 64 280 64 c 3
+ 310 64 371 69 402 80 c 1
+ 420 15 l 1
+ 372 -5 330 -10 280 -10 c 3
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 290.969 491.211 m 0
@@ -7123,7 +7117,6 @@ SplineSet
  214 69 246 55 287 55 c 0
  386 55 436 137 436 240 c 0
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 508.301 485.84 m 25
@@ -7646,7 +7639,6 @@ LayerCount: 4
 Fore
 Refer: 579 807 N 1 0 0 1 278 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 3
 Refer: 126 184 N 1 0 0 1 -9.27734 -4.94907 2
 Refer: 18 99 N 1 0 0 1 0 0 3
@@ -7968,7 +7960,6 @@ LayerCount: 4
 Fore
 Refer: 574 776 S 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 128 168 S 1 0 0 1 17.5781 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
@@ -8734,7 +8725,6 @@ LayerCount: 4
 Fore
 Refer: 571 768 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 258.301 756.348 m 25
@@ -8755,7 +8745,6 @@ LayerCount: 4
 Fore
 Refer: 572 769 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 344.727 756.348 m 25
@@ -8776,7 +8765,6 @@ LayerCount: 4
 Fore
 Refer: 332 770 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 90 94 N 1 0 0 1 -49.0723 -24.9023 2
 Refer: 6 111 N 1 0 0 1 0 0 3
@@ -8791,7 +8779,6 @@ LayerCount: 4
 Fore
 Refer: 575 771 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 88 126 N 1 0 0 1 -43.457 -46.3867 2
 Refer: 6 111 N 1 0 0 1 0 0 3
@@ -10555,7 +10542,6 @@ LayerCount: 4
 Fore
 Refer: 572 769 N 1 0 0 1 260 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 334.961 756.348 m 29
@@ -10591,7 +10577,6 @@ LayerCount: 4
 Fore
 Refer: 332 770 N 1 0 0 1 260 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 219 710 S 1 0 0 1 -77.356 -20.9961 2
 Refer: 18 99 N 1 0 0 1 0 0 3
@@ -10621,7 +10606,6 @@ LayerCount: 4
 Fore
 Refer: 573 775 N 1 0 0 1 260 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 9.55811 -9.76562 2
 Refer: 18 99 N 1 0 0 1 0 0 3
@@ -10651,7 +10635,6 @@ LayerCount: 4
 Fore
 Refer: 570 780 N 1 0 0 1 260 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 223 711 S 1 0 0 1 10.5346 0 2
 Refer: 18 99 N 1 0 0 1 0 0 3
@@ -10681,7 +10664,6 @@ LayerCount: 4
 Fore
 Refer: 587 789 N 1 0 0 1 576 0 2
 Refer: 1 100 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 3
 SplineSet
 590.332 737.793 m 5
@@ -11562,7 +11544,6 @@ LayerCount: 4
 Fore
 Refer: 576 772 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 122.559 650.879 m 1
@@ -11598,7 +11579,6 @@ LayerCount: 4
 Fore
 Refer: 577 774 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 222 728 N 1 0 0 1 58.5938 0.00554321 2
 Refer: 6 111 N 1 0 0 1 0 0 3
@@ -12837,7 +12817,6 @@ SplineSet
  191 428 141 350 141 243 c 0
  141 135 191 59 297 59 c 0
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
 276.367 620.605 m 1
@@ -12873,7 +12852,6 @@ LayerCount: 4
 Fore
 Refer: 581 779 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 SplineSet
 521.973 756.348 m 29
@@ -13819,7 +13797,6 @@ LayerCount: 4
 Fore
 Refer: 573 775 N 1 0 0 1 262 188 2
 Refer: 9 98 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 55.6577 222.656 2
 Refer: 9 98 N 1 0 0 1 0 0 3
@@ -13879,7 +13856,6 @@ LayerCount: 4
 Fore
 Refer: 573 775 N 1 0 0 1 290 188 2
 Refer: 1 100 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 3
 Refer: 224 729 S 1 0 0 1 -7.81528 222.656 2
 Refer: 1 100 N 1 0 0 1 0 0 3
@@ -16877,7 +16853,6 @@ AnchorPoint: "cedilla" 285 0 basechar 0
 LayerCount: 4
 Fore
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: afii10081
@@ -16953,7 +16928,6 @@ AnchorPoint: "cedilla" 280 0 basechar 0
 LayerCount: 4
 Fore
 Refer: 18 99 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: afii10084
@@ -17940,7 +17914,6 @@ Fore
 Refer: 191 175 N 1 0 0 1 -64 12 2
 Refer: 88 126 N 1 0 0 1 19 262 2
 Refer: 6 111 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: afii10100
@@ -18280,7 +18253,6 @@ LayerCount: 4
 Fore
 Refer: 574 776 N 1 0 0 1 294 0 2
 Refer: 440 1086 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni04EC
@@ -19844,7 +19816,6 @@ LayerCount: 4
 Fore
 Refer: 570 780 N 1 0 0 1 294 0 2
 Refer: 6 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: gcaron
