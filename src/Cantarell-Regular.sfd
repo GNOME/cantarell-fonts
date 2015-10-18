@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1445181252
+ModificationTime: 1445182418
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -2167,7 +2167,7 @@ EndChar
 StartChar: G
 Encoding: 71 71 28
 Width: 709
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -3531,7 +3531,7 @@ EndChar
 StartChar: B
 Encoding: 66 66 50
 Width: 627
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "below" 273 0 basechar 0
 AnchorPoint: "cedilla" 273 0 basechar 0
 AnchorPoint: "above" 273 670 basechar 0
@@ -3563,26 +3563,26 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-440 525 m 3
- 440 597 385 620 301 620 c 2
+440 515 m 3
+ 440 587 390 620 290 620 c 2
  168 620 l 1
  168 405 l 1
- 260 405 l 2
- 383 405 440 446 440 525 c 3
+ 290 405 l 2
+ 370 405 440 436 440 515 c 3
 495 206 m 3
- 495 320 383 332 289 332 c 2
+ 495 320 400 332 290 332 c 2
  168 332 l 1
  168 73 l 1
- 321 73 l 2
- 415 73 495 113 495 206 c 3
-430 381 m 1
- 509 366 577 290 577 199 c 3
- 577 60 460 0 310 0 c 2
+ 290 73 l 2
+ 410 73 495 113 495 206 c 3
+433 381 m 1
+ 512 366 577 301.004587059 577 192 c 3
+ 577 53 460 0 310 0 c 2
  85 0 l 1
  85 694 l 1
  329 694 l 2
- 429 694 520 642 520 530 c 3
- 520 473 486 408 430 381 c 1
+ 429 694 520 638 520 526 c 3
+ 520 452.972607879 489 408 433 381 c 1
 EndSplineSet
 Layer: 3
 SplineSet
