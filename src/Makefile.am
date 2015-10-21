@@ -1,6 +1,6 @@
 noinst_DATA = \
-	Cantarell-Regular.sfd		\
-	Cantarell-Bold.sfd		
+	Cantarell-Regular.sfdir		\
+	Cantarell-Bold.sfdir		
 
 EXTRA_DIST = $(noinst_DATA)
 

@@ -5,7 +5,7 @@ font_DATA = \
 	Cantarell-Bold.otf
 
 if SOURCE_REBUILD
-%.otf: $(top_srcdir)/src/%.sfd
+%.otf: $(top_srcdir)/src/%.sfdir
 	/usr/bin/env fontforge -script $(top_srcdir)/scripts/generate.sh "$^"
 endif
 
