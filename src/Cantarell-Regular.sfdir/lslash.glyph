@@ -1,0 +1,31 @@
+StartChar: lslash
+Encoding: 322 322 326
+Width: 335
+VWidth: 1023
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+AnchorPoint: "above" 115 670 basechar 0
+AnchorPoint: "below" 171 0 basechar 0
+AnchorPoint: "cedilla" 171 0 basechar 0
+AnchorPoint: "aboveright" 275 670 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+44 328 m 1
+ 296 474 l 1
+ 296 401 l 1
+ 44 255 l 1
+ 44 328 l 1
+EndSplineSet
+Refer: 10 108 N 1 0 0 1 15 0 2
+Validated: 5
+Layer: 3
+SplineSet
+43.9453 328.125 m 1
+ 296.387 474.121 l 1
+ 296.387 400.879 l 1
+ 43.9453 255.371 l 1
+ 43.9453 328.125 l 1
+EndSplineSet
+Refer: 10 108 N 1 0 0 1 14.6484 0 2
+EndChar

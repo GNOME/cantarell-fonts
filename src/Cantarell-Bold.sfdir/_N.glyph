@@ -1,0 +1,38 @@
+StartChar: N
+Encoding: 78 78 36
+Width: 766
+Flags: MW
+AnchorPoint: "below" 384 0 basechar 0
+AnchorPoint: "above" 384 668 basechar 0
+AnchorPoint: "cedilla" 384 0 basechar 0
+LayerCount: 3
+Back
+SplineSet
+80 694 m 5
+ 228 694 l 5
+ 563 161 l 5
+ 563 694 l 5
+ 686 694 l 5
+ 686 0 l 5
+ 536 0 l 5
+ 203 534 l 5
+ 203 0 l 5
+ 80 0 l 5
+ 80 694 l 5
+EndSplineSet
+Fore
+SplineSet
+80 692 m 1
+ 228 692 l 1
+ 563 179 l 1
+ 563 692 l 1
+ 686 692 l 1
+ 686 0 l 1
+ 536 0 l 1
+ 203 516 l 1
+ 203 0 l 1
+ 80 0 l 1
+ 80 692 l 1
+EndSplineSet
+Validated: 1
+EndChar

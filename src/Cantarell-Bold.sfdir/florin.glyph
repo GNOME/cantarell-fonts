@@ -1,0 +1,40 @@
+StartChar: florin
+Encoding: 402 402 211
+Width: 480
+VWidth: 1023
+Flags: MW
+AnchorPoint: "cedilla" 126 -261 basechar 0
+AnchorPoint: "above" 255 670 basechar 0
+AnchorPoint: "below" 185 -261 basechar 0
+LayerCount: 3
+Fore
+SplineSet
+56 482 m 1
+ 150 482 l 1
+ 150 515 l 2
+ 150 546 152 583 175 618 c 0
+ 209 671 276 698 357 698 c 0
+ 406 698 452 687 482 678 c 2
+ 500 672 l 1
+ 479 575 l 1
+ 459 580 l 1
+ 423 589 402 591 387 591 c 0
+ 292 591 289 537 289 508 c 2
+ 289 482 l 1
+ 462 482 l 1
+ 462 379 l 1
+ 289 379 l 1
+ 289 -86 l 2
+ 289 -143 275 -264 83 -264 c 0
+ 59 -264 18 -262 -41 -244 c 2
+ -58 -239 l 1
+ -38 -141 l 1
+ -18 -146 l 2
+ -4 -149 26 -157 55 -157 c 0
+ 147 -157 150 -109 150 -77 c 2
+ 150 379 l 1
+ 56 379 l 1
+ 56 482 l 1
+EndSplineSet
+Validated: 1
+EndChar

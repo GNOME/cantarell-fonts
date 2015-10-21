@@ -1,0 +1,30 @@
+StartChar: afii10068
+Encoding: 1075 1075 429
+Width: 411
+Flags: MW
+AnchorPoint: "above" 235 482 basechar 0
+AnchorPoint: "below" 235 0 basechar 0
+AnchorPoint: "cedilla" 129 0 basechar 0
+LayerCount: 4
+Back
+SplineSet
+392 482 m 5
+ 392 421 l 5
+ 170 421 l 4
+ 170 1 l 5
+ 88 1 l 5
+ 88 482 l 5
+ 392 482 l 5
+EndSplineSet
+Fore
+SplineSet
+384 482 m 1
+ 384 412 l 1
+ 148 412 l 1
+ 148 0 l 1
+ 122 -0 96 0 70 0 c 1
+ 70 482 l 1
+ 384 482 l 1
+EndSplineSet
+Validated: 1
+EndChar

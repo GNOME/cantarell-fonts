@@ -1,0 +1,26 @@
+StartChar: i
+Encoding: 105 105 4
+Width: 295
+Flags: HMW
+AnchorPoint: "below" 126 0 basechar 0
+AnchorPoint: "above" 118 659.4 basechar 0
+AnchorPoint: "cedilla" 126 0 basechar 0
+LayerCount: 3
+Back
+SplineSet
+58 694 m 5xf0
+ 192 694 l 5
+ 192 562 l 5
+ 58 562 l 5
+ 58 694 l 5xf0
+65 482 m 5xe8
+ 185 482 l 5
+ 185 0 l 5
+ 65 0 l 5
+ 65 482 l 5xe8
+EndSplineSet
+Fore
+Refer: 575 775 N 1 0 0 1 148 0 2
+Refer: 140 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
