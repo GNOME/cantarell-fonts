@@ -3,7 +3,7 @@ Encoding: 116 116 19
 Width: 426
 Flags: HMW
 AnchorPoint: "below" 260 0 basechar 0
-AnchorPoint: "above" 225 619 basechar 0
+AnchorPoint: "above" 225 630 basechar 0
 AnchorPoint: "cedilla" 260 0 basechar 0
 AnchorPoint: "aboveright" 329 670 basechar 0
 LayerCount: 3
@@ -51,20 +51,20 @@ EndSplineSet
 Fore
 SplineSet
 411 17 m 1
- 377 4 320 -10 274 -10 c 7
+ 377 4 320 -10 274 -10 c 3
  121 -10 100 70 100 155 c 2
  100 389 l 1
  20 389 l 1
  20 481 l 1
  100 481 l 1
- 100 621 l 1
- 220 621 l 1
+ 100 632 l 1
+ 220 632 l 1
  220 481 l 1
  389 481 l 1
  389 389 l 1
  220 389 l 1
  220 158 l 2
- 220 121 235 88 301 88 c 7
+ 220 121 235 88 301 88 c 3
  336 88 374 97 393 102 c 1
  411 17 l 1
 EndSplineSet
