@@ -2,18 +2,18 @@ StartChar: uni0191
 Encoding: 401 401 358
 Width: 609
 VWidth: 1023
-Flags: MW
-AnchorPoint: "above" 346 670 basechar 0
+Flags: HMW
+AnchorPoint: "above" 348 694 basechar 0
 AnchorPoint: "below" 183 -165 basechar 0
 AnchorPoint: "cedilla" 62 -165 basechar 0
 LayerCount: 4
 Fore
 SplineSet
 225 -13 m 2
- 225 -122 169 -179 58 -179 c 0
+ 225 -122 169 -179 58 -179 c 3
  25 -179 -12 -173 -52 -161 c 1
  -40 -101 l 1
- -10 -109 16 -113 38 -113 c 0
+ -10 -109 16 -113 38 -113 c 3
  106 -113 142 -76 142 -10 c 2
  142 694 l 1
  543 694 l 1

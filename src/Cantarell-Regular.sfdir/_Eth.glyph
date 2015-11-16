@@ -2,39 +2,22 @@ StartChar: Eth
 Encoding: 208 208 188
 Width: 783
 VWidth: 1023
-Flags: MW
-AnchorPoint: "above" 402 670 basechar 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+AnchorPoint: "above" 402 693 basechar 0
 AnchorPoint: "below" 402 0 basechar 0
 AnchorPoint: "cedilla" 402 0 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-728 372 m 0
- 728 135 610 6 376 0 c 1
- 164 0 l 1
- 164 321 l 1
- 57 321 l 1
- 57 395 l 1
- 164 395 l 1
- 164 694 l 1
- 357 694 l 2
- 522 694 616 655 683 553 c 0
- 713 506 728 446 728 372 c 0
-247 321 m 1
- 247 73 l 1
- 348 73 l 2
- 388 73 421 76 448 80 c 0
- 524 91 582 139 612 200 c 0
- 633 242 645 297 645 361 c 0
- 645 498 555 598 446 617 c 0
- 430 620 408 621 381 621 c 2
- 247 621 l 1
- 247 395 l 1
- 372 395 l 1
- 372 321 l 1
- 247 321 l 1
+56 311 m 1
+ 56 385 l 25
+ 388 385 l 1
+ 388 311 l 25
+ 56 311 l 1
 EndSplineSet
-Validated: 1
+Refer: 48 68 N 1 0 0 1 79 0 2
+Validated: 5
 Layer: 3
 SplineSet
 57.1289 394.531 m 1

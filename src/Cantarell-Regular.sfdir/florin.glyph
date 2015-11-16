@@ -2,34 +2,34 @@ StartChar: florin
 Encoding: 402 402 211
 Width: 400
 VWidth: 1023
-Flags: MW
-AnchorPoint: "above" 215 670 basechar 0
-AnchorPoint: "below" 173 -261 basechar 0
-AnchorPoint: "cedilla" 65 -261 basechar 0
+Flags: HMW
+AnchorPoint: "above" 215 702 basechar 0
+AnchorPoint: "below" 173 -246 basechar 0
+AnchorPoint: "cedilla" 65 -246 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-26 -211 m 0
- 101 -211 136 -183 136 -109 c 2
+26 -196 m 3
+ 101 -196 136 -168 136 -94 c 2
  136 419 l 1
  53 419 l 1
  53 482 l 1
  136 482 l 1
- 136 535 l 2
- 136 644 192 698 299 698 c 0
- 333 698 371 692 413 679 c 1
- 401 619 l 1
- 371 627 347 631 329 631 c 0
- 255 631 217 601 217 528 c 2
+ 136 567 l 2
+ 136 676 192 730 299 730 c 3
+ 333 730 371 724 413 711 c 1
+ 401 651 l 1
+ 371 659 347 663 329 663 c 3
+ 255 663 217 633 217 560 c 2
  217 482 l 1
  378 482 l 1
  378 419 l 1
  217 419 l 1
- 217 -130 l 2
- 217 -230 154 -278 56 -278 c 0
- 22 -278 -16 -272 -58 -259 c 1
- -46 -200 l 1
- -16 -208 8 -211 26 -211 c 0
+ 217 -115 l 2
+ 217 -215 154 -263 56 -263 c 3
+ 22 -263 -16 -257 -58 -244 c 1
+ -46 -185 l 1
+ -16 -193 8 -196 26 -196 c 3
 EndSplineSet
 Validated: 1
 Layer: 3

@@ -2,16 +2,10 @@ StartChar: uni0326
 Encoding: 806 806 585
 Width: 0
 VWidth: 0
-Flags: MW
-AnchorPoint: "below" 0 0 mark 0
+Flags: HMW
+AnchorPoint: "below" 0 -0 mark 0
 LayerCount: 4
 Fore
-SplineSet
--6 -60 m 1
- 82 -60 l 1
- 4 -250 l 1
- -82 -250 l 1
- -6 -60 l 1
-EndSplineSet
+Refer: 586 787 N 1 0 0 1 -9 -777 2
 Validated: 1
 EndChar

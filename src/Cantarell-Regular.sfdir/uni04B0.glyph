@@ -1,31 +1,20 @@
 StartChar: uni04B0
 Encoding: 1200 1200 538
-Width: 609
+Width: 564
 UnlinkRmOvrlpSave: 1
-Flags: MW
-AnchorPoint: "above" 314 670 basechar 0
-AnchorPoint: "cedilla" 314 0 basechar 0
-AnchorPoint: "below" 314 0 basechar 0
+Flags: HMW
+AnchorPoint: "above" 279 692 basechar 0
+AnchorPoint: "cedilla" 278 0 basechar 0
+AnchorPoint: "below" 278 0 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-354 0 m 1
- 275 0 l 1
- 275 302 l 1
- 275 329 l 1
- 44 694 l 1
- 142 694 l 1
- 319 407 l 1
- 499 694 l 1
- 592 694 l 1
- 354 329 l 1
- 354 304 l 1
- 354 0 l 1
-98 256 m 1
- 98 329 l 1
- 531 329 l 1
- 531 256 l 1
- 98 256 l 1
+63 256 m 1
+ 63 329 l 1
+ 495 329 l 1
+ 495 256 l 1
+ 63 256 l 1
 EndSplineSet
+Refer: 42 89 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
