@@ -6,8 +6,12 @@
 
   <name xml:lang="en">Cantarell Fonts</name>
   <shortdesc xml:lang="en">Cantarell, a Humanist sans-serif font family</shortdesc>
+  <description>The Cantarell font family is a contemporary Humanist sans serif designed for on-screen reading by Dave Crossland.
+
+These fonts were developed using only Free Software, mainly FontForge. Typeface designs are tools too, so therefore these font files are licensed in a way that respects your freedom — you are invited to extend them to meet your needs, such as to add the glyphs missing from your own writing systems, under the terms of the OFL.</description>
   <download-page rdf:resource="http://download.gnome.org/sources/cantarell-fonts/" />
   <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=cantarell-fonts" />
+  <programming-language>FontForge source</programming-language>
 
   <category rdf:resource="http://api.gnome.org/doap-extensions#core" />
 
@@ -22,6 +26,20 @@
       <foaf:name>William Jon McCann</foaf:name>
       <foaf:mbox rdf:resource="mailto:william.jon.mccann@gmail.com" />
       <gnome:userid>mccann</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Jakub Steiner</foaf:name>
+      <foaf:mbox rdf:resource="mailto:jimmac@gmail.com" />
+      <gnome:userid>jimmac</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Nikolaus Waxweiler</foaf:name>
+      <foaf:mbox rdf:resource="mailto:madigens@gmail.com" />
+      <gnome:userid>nwaxweiler</gnome:userid>
     </foaf:Person>
   </maintainer>
 </Project>
