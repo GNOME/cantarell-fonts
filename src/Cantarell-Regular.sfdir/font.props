@@ -47,6 +47,7 @@ HheadDOffset: 0
 OS2FamilyClass: 2050
 OS2Vendor: 'ABAT'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "locl_ROM" { "locl_ROM subtable"  } ['locl' ('latn' <'ROM ' 'MOL ' > ) ]
 Lookup: 260 0 0 "'mark' LGC marks" { "'mark'-ogonek"  "'mark'-aboveright"  "'mark'-cedilla"  "'mark'-above"  "'mark'-below"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -58,7 +59,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 20 13
+WinInfo: 100 20 13
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 615 619 692 706 718 730]
 OtherBlues 11 [-265 -259]
