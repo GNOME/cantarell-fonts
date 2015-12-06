@@ -1,11 +1,9 @@
 StartChar: Dcroat
 Encoding: 272 272 240
-Width: 863
+Width: 713
 VWidth: 1023
-Flags: MW
-AnchorPoint: "below" 432 0 basechar 0
-AnchorPoint: "above" 432 670 basechar 0
-AnchorPoint: "cedilla" 432 0 basechar 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -36,6 +34,6 @@ SplineSet
  413.574 301.27 l 5
 EndSplineSet
 Fore
-Refer: 188 208 N 1 0 0 1 0 0 3
-Validated: 1
+Refer: 188 208 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar

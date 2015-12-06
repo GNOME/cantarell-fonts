@@ -1,11 +1,9 @@
 StartChar: dcroat
-Encoding: 273 273 337
+Encoding: 273 273 336
 Width: 612
 VWidth: 1023
-Flags: MW
-AnchorPoint: "cedilla" 286 0 basechar 0
-AnchorPoint: "above" 286 670 basechar 0
-AnchorPoint: "below" 286 0 basechar 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -36,30 +34,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-588 638 m 1
- 588 535 l 1
- 522 535 l 1
- 522 0 l 1
- 434 0 l 1
- 424 22 l 1
- 377 -1 327 -10 285 -10 c 0
- 175 -10 45 50 45 233 c 0
- 45 402 155 492 300 492 c 0
- 339 492 372 486 402 476 c 1
- 402 535 l 1
- 252 535 l 1
- 252 638 l 1
- 402 638 l 1
- 402 694 l 1
- 522 694 l 1
- 522 638 l 1
- 588 638 l 1
-313 96 m 0
- 347 96 379 104 402 113 c 1
- 402 375 l 1
- 379 382 346 389 312 389 c 0
- 253 389 164 367 164 245 c 0
- 164 122 253 96 313 96 c 0
+245 643 m 29
+ 581 643 l 29
+ 581 540 l 29
+ 245 540 l 29
+ 245 643 l 29
 EndSplineSet
-Validated: 1
+Refer: 1 100 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar

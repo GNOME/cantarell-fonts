@@ -1,5 +1,5 @@
 StartChar: eogonek
-Encoding: 281 281 343
+Encoding: 281 281 342
 Width: 562
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -7,7 +7,19 @@ Flags: HMW
 AnchorPoint: "above" 272 482 basechar 0
 LayerCount: 3
 Fore
-Refer: 581 808 N 1 0 0 1 -151.838 -86.6176 2
+SplineSet
+459 17 m 1
+ 424 0 295 -100 295 -141 c 3
+ 295 -157 308 -170 339 -170 c 3
+ 361 -170 387 -162 387 -162 c 1
+ 405 -247 l 1
+ 393 -251 363 -259 318 -259 c 3
+ 215 -259 183 -205 183 -165 c 3
+ 183 -111 213 -82 226 -69 c 0
+ 268 -27 305 2 307 3 c 1
+ 403 55 l 1
+ 459 17 l 1
+EndSplineSet
 Refer: 2 101 N 1 0 0 1 0 0 3
 Validated: 5
 EndChar

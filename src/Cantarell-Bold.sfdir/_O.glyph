@@ -3,7 +3,7 @@ Encoding: 79 79 31
 Width: 784
 Flags: HMW
 AnchorPoint: "below" 392 -3 basechar 0
-AnchorPoint: "above" 392 675 basechar 0
+AnchorPoint: "above" 392 693 basechar 0
 AnchorPoint: "cedilla" 392 -3 basechar 0
 LayerCount: 3
 Back
@@ -29,7 +29,7 @@ SplineSet
 392 593 m 3
  252 593 173 470 173 350 c 3
  173 230 252 103 392 103 c 3
- 532 103 611 230 611 350 c 7
+ 532 103 611 230 611 350 c 3
  611 470 532 593 392 593 c 3
 EndSplineSet
 Validated: 1

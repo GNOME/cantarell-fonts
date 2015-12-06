@@ -2,8 +2,9 @@ StartChar: E
 Encoding: 69 69 34
 Width: 587
 Flags: MW
+AnchorPoint: "ogonek" 481 0 basechar 0
 AnchorPoint: "below" 314 0 basechar 0
-AnchorPoint: "above" 314 668 basechar 0
+AnchorPoint: "above" 314 692 basechar 0
 AnchorPoint: "cedilla" 314 0 basechar 0
 LayerCount: 3
 Back
@@ -30,7 +31,7 @@ SplineSet
  532 579 l 1
  203 579 l 1
  203 407 l 1
- 496 407 l 1
+ 496 407 l 5
  496 294 l 1
  203 294 l 1
  203 113 l 1

@@ -1,11 +1,24 @@
 StartChar: Aogonek
-Encoding: 260 260 340
+Encoding: 260 260 339
 Width: 675
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 3
 Fore
-Refer: 581 808 N 1 0 0 1 -96.7646 -76.6176 2
-Refer: 32 65 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+658 0 m 1
+ 623 -17 494 -103 494 -144 c 3
+ 494 -160 507 -173 538 -173 c 3
+ 560 -173 586 -165 586 -165 c 1
+ 604 -250 l 1
+ 592 -254 562 -262 517 -262 c 3
+ 414 -262 382 -208 382 -168 c 3
+ 382 -114 412 -85 425 -72 c 0
+ 467 -30 537 17 539 18 c 1
+ 602 0 l 1
+ 658 0 l 1
+EndSplineSet
+Refer: 32 65 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar

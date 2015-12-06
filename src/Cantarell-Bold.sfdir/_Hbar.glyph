@@ -1,40 +1,18 @@
 StartChar: Hbar
-Encoding: 294 294 335
-Width: 861
+Encoding: 294 294 334
+Width: 824
 VWidth: 1023
-Flags: MW
-AnchorPoint: "cedilla" 430 0 basechar 0
-AnchorPoint: "above" 430 670 basechar 0
-AnchorPoint: "below" 430 0 basechar 0
+UnlinkRmOvrlpSave: 1
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
-636 694 m 1
- 759 694 l 1
- 759 625 l 1
- 832 625 l 1
- 832 523 l 1
- 759 523 l 1
- 759 0 l 1
- 636 0 l 1
- 636 301 l 1
- 265 301 l 1
- 265 0 l 1
- 142 0 l 1
- 142 523 l 1
- 68 523 l 1
- 68 625 l 1
- 142 625 l 1
- 142 694 l 1
- 265 694 l 1
- 265 621 l 1
- 636 621 l 1
- 636 694 l 1
-636 415 m 1
- 636 533 l 1
- 265 533 l 1
- 265 415 l 1
- 636 415 l 1
+30 612 m 25
+ 794 612 l 29
+ 794 510 l 29
+ 30 510 l 29
+ 30 612 l 25
 EndSplineSet
-Validated: 1
+Refer: 29 72 N 1 0 0 1 41 0 2
+Validated: 5
 EndChar
