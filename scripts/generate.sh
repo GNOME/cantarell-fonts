@@ -18,6 +18,15 @@ while (i < $argc)
     ClearHints()
     AutoHint()
     Generate($fontname + ".otf")
+    #generate oblique
+    Skew(8)
+    Simplify()
+    AddExtrema()
+    RoundToInt()
+    CorrectDirection()
+    ClearHints()
+    AutoHint()
+    Generate($fontname + "-Oblique.otf")
     Close()
     i++
 endloop
