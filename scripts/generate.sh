@@ -18,6 +18,24 @@ while (i < $argc)
     ClearHints()
     AutoHint()
     Generate($fontname + ".otf")
+    #generate oblique
+    weight=GetTTFName(0x409,2)
+    if($weight=="Regular") 
+      SetTTFName(0x409,2,"Oblique")
+      SetFontNames("Cantarell-Oblique", "", "Cantarell Oblique", "","","")
+    else
+      SetTTFName(0x409,2,"Bold-Oblique")
+      SetFontNames("Cantarell-Bold-Oblique", "", "Cantarell Bold Oblique", "","","")
+    endif
+    UnlinkReference() #workaround for shifting diacritics
+    Skew(8)
+    Simplify()
+    AddExtrema()
+    RoundToInt()
+    CorrectDirection()
+    ClearHints()
+    AutoHint()
+    Generate($fontname + ".otf")
     Close()
     i++
 endloop

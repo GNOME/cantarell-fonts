@@ -2,7 +2,9 @@
 fontdir = $(FONTDIR)
 font_DATA = \
 	Cantarell-Regular.otf		\
-	Cantarell-Bold.otf
+	Cantarell-Oblique.otf		\
+	Cantarell-Bold.otf \
+	Cantarell-Bold-Oblique.otf
 
 if SOURCE_REBUILD
 %.otf: $(top_srcdir)/src/%.sfdir
