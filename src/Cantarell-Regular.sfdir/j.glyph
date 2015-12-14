@@ -1,26 +1,13 @@
 StartChar: j
 Encoding: 106 106 23
-Width: 219
+Width: 218
 Flags: HMW
 AnchorPoint: "cedilla" 48 -232 basechar 0
 AnchorPoint: "below" 110 -261 basechar 0
-AnchorPoint: "above" 110 670 basechar 0
 LayerCount: 4
 Fore
-SplineSet
-69 -78 m 3
- 69 -78 69 482 69 482 c 1
- 152 482 l 1
- 152 -64 l 2
- 152 -185 109 -232 23 -263 c 1
- -10 -202 l 1
- 43 -177 69 -136 69 -78 c 3
-69 671 m 1
- 152 671 l 1
- 152 587 l 1
- 69 587 l 1
- 69 671 l 1
-EndSplineSet
+Refer: 573 775 N 1 0 0 1 111 0 2
+Refer: 323 567 N 1 0 0 1 0 0 3
 Validated: 1
 Layer: 3
 SplineSet
