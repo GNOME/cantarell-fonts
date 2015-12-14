@@ -1,24 +1,23 @@
 StartChar: emdash
 Encoding: 8212 8212 202
-Width: 676
+Width: 1000
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
 SplineSet
 0 355 m 1
- 676 355 l 1
- 676 288 l 1
+ 1000 355 l 1
+ 1000 288 l 1
  0 288 l 1
  0 355 l 1
 EndSplineSet
-Validated: 1
 Layer: 3
 SplineSet
-0 355.469 m 1
- 675.781 355.469 l 1
- 675.781 287.598 l 5
- 0 287.598 l 5
- 0 355.469 l 1
+162 355.46875 m 1
+ 837.78125 355.46875 l 1
+ 837.78125 287.59765625 l 5
+ 162 287.59765625 l 5
+ 162 355.46875 l 1
 EndSplineSet
 EndChar

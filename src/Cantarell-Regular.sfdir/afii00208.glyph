@@ -1,24 +1,17 @@
 StartChar: afii00208
 Encoding: 8213 8213 204
-Width: 781
+Width: 1000
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
-SplineSet
-0 355 m 1
- 781 355 l 1
- 781 288 l 1
- 0 288 l 1
- 0 355 l 1
-EndSplineSet
-Validated: 1
+Refer: 202 8212 N 1 0 0 1 0 0 2
 Layer: 3
 SplineSet
-0 355.469 m 1
- 781.25 355.469 l 1
- 781.25 287.598 l 1
- 0 287.598 l 1
- 0 355.469 l 1
+109.5 355.46875 m 1
+ 890.75 355.46875 l 1
+ 890.75 287.59765625 l 1
+ 109.5 287.59765625 l 1
+ 109.5 355.46875 l 1
 EndSplineSet
 EndChar
