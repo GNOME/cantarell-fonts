@@ -78,31 +78,29 @@ Dave Crossland, 21st March 2011
 Developer information
 ---------------------
                                   
-The original src/Cantarell-Regular.sfd file has the master sources 
-as Cubic (PostScript) Bezier splines. There are temporary layers 
-and a 'Spiro' layer in this file, containing forms used to create 
-the master Cubic Bezier glyphs; the Spiro layer contains forms in 
-Spiro splines, and much of the original typeface design by Dave
-Crossland was done by drawing in Spiro splines. However today the
-master drawing spline format is Cubic Bezier, and Spiro splines
-are used to inform their creation. 
+The original src/Cantarell-Regular.sfdir directory has the master
+sources as Cubic (PostScript) Bezier splines. There are temporary
+layers and a 'Spiro' layer in this file, containing forms used to
+create the master Cubic Bezier glyphs; the Spiro layer contains
+forms in Spiro splines, and much of the original typeface design
+by Dave Crossland was done by drawing in Spiro splines. However
+today the master drawing spline format is Cubic Bezier, and Spiro
+splines are used to inform their creation. 
 
-The Cantarell-Regular.sfd file is the _master_ source, and was 
-used to generate the Cantarell-Bold.sfd which is now a hard fork. 
+The Cantarell-Regular.sfdir directory is the _master_ source, and was 
+used to generate Cantarell-Bold.sfdir which is now a hard fork. 
 
-All development occurs by making changes to these drawing files. 
-When OTF or TTF binaries are compiled, they are copied to the 
-Cantarell-*-OTF.sfd and Cantarell-*-TTF.sfd files and then a 
-build process applied. 
+All development occurs by making changes to these drawing files.
+When OTF binaries are compiled, they are copied to the
+Cantarell-*-OTF.sfd files and then a build process applied. 
 
 This means that there should be a 1:1 match between these files, 
-the OTF and TTF files in the otf/ and ttf/ directories, and the
-output of generating new OTF and TTF files from FontForge. 
+the OTF files in the otf/ directories, and the
+output of generating new OTF files from FontForge. 
 
-The build process is simple; the Spiro and temp layers are removed, 
-in the case of TTF files all layers are converted to Quadratic from
-Cubic, and then all glyphs have the Simplify, Add Extrema, Round 
-to Int, and Correct Direction operations applied. 
+The build process is simple; the Spiro and temp layers are
+removed, and then all glyphs have the Simplify, Add Extrema,
+Round to Int, and Correct Direction operations applied. 
 
 In the future a build script will be developed to do this in an
 automated way, which will be important for adding OpenType 
