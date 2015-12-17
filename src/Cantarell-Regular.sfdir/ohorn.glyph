@@ -1,0 +1,24 @@
+StartChar: ohorn
+Encoding: 417 417 656
+Width: 564
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: W
+AnchorPoint: "below" 280 0 basechar 0
+AnchorPoint: "cedilla" 280 0 basechar 0
+AnchorPoint: "above" 280 482 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+466 616 m 1
+ 540 616 l 1
+ 540 599 l 1
+ 540 578 539 543 527 519 c 0
+ 497 455 432 432 432 432 c 1
+ 380 461 l 1
+ 394 471 440 499 456 537 c 0
+ 465 558 466 597 466 608 c 1
+ 466 616 466 616 466 616 c 1
+EndSplineSet
+Refer: 6 111 N 1 0 0 1 0 0 2
+EndChar
