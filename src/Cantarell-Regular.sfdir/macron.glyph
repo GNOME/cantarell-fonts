@@ -1,24 +1,17 @@
 StartChar: macron
 Encoding: 175 175 191
-Width: 683
+Width: 400
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Fore
-SplineSet
-139 801 m 1
- 544 801 l 1
- 544 728 l 1
- 139 728 l 1
- 139 801 l 1
-EndSplineSet
-Validated: 1
+Refer: 576 772 N 1 0 0 1 200 0 2
 Layer: 3
 SplineSet
-139.16 800.781 m 5
- 544.434 800.781 l 5
- 544.434 728.027 l 5
- 139.16 728.027 l 5
- 139.16 800.781 l 5
+339.16015625 800.78125 m 5
+ 744.43359375 800.78125 l 5
+ 744.43359375 728.02734375 l 5
+ 339.16015625 728.02734375 l 5
+ 339.16015625 800.78125 l 5
 EndSplineSet
 EndChar
