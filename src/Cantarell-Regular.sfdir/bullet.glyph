@@ -2,7 +2,7 @@ StartChar: bullet
 Encoding: 8226 8226 206
 Width: 680
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -14,11 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-340 170 m 0
- 249 170 173 246 173 337 c 0
- 173 428 249 504 340 504 c 0
- 431 504 507 428 507 337 c 0
- 507 246 431 170 340 170 c 0
+340 113 m 3
+ 218 113 116 215 116 337 c 3
+ 116 459 218 561 340 561 c 3
+ 462 561 564 459 564 337 c 3
+ 564 215 462 113 340 113 c 3
 EndSplineSet
 Validated: 1
 Layer: 3
