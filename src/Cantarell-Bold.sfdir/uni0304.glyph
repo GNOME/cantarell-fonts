@@ -3,14 +3,23 @@ Encoding: 772 772 570
 Width: 0
 VWidth: 1023
 Flags: HW
+AnchorPoint: "mark_above" -0 482 mark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 3
+Back
+SplineSet
+-142 617 m 5
+ 142 617 l 5
+ 142 553 l 5
+ -142 553 l 5
+ -142 617 l 5
+EndSplineSet
 Fore
 SplineSet
--151 560 m 5
- -151 655 l 5
- 151 655 l 5
- 151 560 l 5
- -151 560 l 5
+-151 560 m 1
+ -151 655 l 1
+ 151 655 l 1
+ 151 560 l 1
+ -151 560 l 1
 EndSplineSet
 EndChar

@@ -9,19 +9,19 @@ AnchorPoint: "cedilla" 314 0 basechar 0
 LayerCount: 3
 Back
 SplineSet
-80 0 m 5
- 80 694 l 5
- 542 694 l 5
- 542 581 l 5
- 203 581 l 5
- 203 414 l 5
- 516 414 l 5
- 516 301 l 5
- 203 301 l 5
- 203 113 l 5
- 542 113 l 5
- 542 0 l 5
- 80 0 l 5
+85 0 m 1
+ 85 694 l 1
+ 491 694 l 1
+ 491 620 l 1
+ 168 620 l 1
+ 168 406 l 1
+ 464 406 l 1
+ 464 332 l 1
+ 168 332 l 1
+ 168 74 l 1
+ 491 74 l 1
+ 491 0 l 1
+ 85 0 l 1
 EndSplineSet
 Fore
 SplineSet
@@ -31,7 +31,7 @@ SplineSet
  532 579 l 1
  203 579 l 1
  203 407 l 1
- 496 407 l 5
+ 496 407 l 1
  496 294 l 1
  203 294 l 1
  203 113 l 1
@@ -39,5 +39,4 @@ SplineSet
  532 0 l 1
  80 0 l 1
 EndSplineSet
-Validated: 1
 EndChar

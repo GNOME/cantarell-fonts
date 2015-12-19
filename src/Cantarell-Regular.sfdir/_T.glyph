@@ -7,6 +7,18 @@ AnchorPoint: "cedilla" 283 0 basechar 0
 AnchorPoint: "below" 283 0 basechar 0
 AnchorPoint: "above" 283 692 basechar 0
 LayerCount: 4
+Back
+SplineSet
+10 692 m 1
+ 589 692 l 1
+ 589 579 l 1
+ 361 579 l 1
+ 361 0 l 1
+ 238 0 l 1
+ 238 579 l 1
+ 10 579 l 1
+ 10 692 l 1
+EndSplineSet
 Fore
 SplineSet
 10 692 m 1

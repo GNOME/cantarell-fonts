@@ -6,6 +6,14 @@ Flags: MW
 AnchorPoint: "below" 148 0 basechar 0
 AnchorPoint: "above" 148 482 basechar 0
 LayerCount: 3
+Back
+SplineSet
+70 482 m 1
+ 150 482 l 1
+ 150 0 l 5
+ 70 0 l 5
+ 70 482 l 1
+EndSplineSet
 Fore
 SplineSet
 88 482 m 1

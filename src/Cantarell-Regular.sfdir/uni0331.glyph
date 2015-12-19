@@ -5,6 +5,14 @@ VWidth: 1023
 Flags: HMW
 AnchorPoint: "below" 0 0 mark 0
 LayerCount: 4
+Back
+SplineSet
+-151 -182 m 1
+ -151 -87 l 1
+ 151 -87 l 1
+ 151 -182 l 1
+ -151 -182 l 1
+EndSplineSet
 Fore
 Refer: 576 772 S 1 0 0 1 3 -705 2
 EndChar

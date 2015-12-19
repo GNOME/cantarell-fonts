@@ -3,26 +3,22 @@ Encoding: 99 99 18
 Width: 499
 Flags: HMW
 AnchorPoint: "below" 266 2 basechar 0
-AnchorPoint: "above" 257 482 basechar 0
+AnchorPoint: "above" 252 482 basechar 0
 AnchorPoint: "cedilla" 270 2 basechar 0
 LayerCount: 3
 Back
 SplineSet
-45 231 m 4
- 45 427 182 491 313 491 c 4
- 367 491 415 481 460 461 c 6
- 478 454 l 5
- 446 358 l 5
- 427 365 l 6
- 395 376 361 382 324 382 c 4
- 243 382 163 355 163 246 c 4
- 163 138 231 96 334 96 c 4
- 365 96 394 101 421 111 c 5
- 440 118 l 5
- 473 25 l 5
- 455 19 l 6
- 401 -2 348 -10 303 -10 c 4
- 180 -10 45 43 45 231 c 4
+280 -10 m 3
+ 130 -10 48 90 48 240 c 3
+ 48 390 130 494 280 494 c 3
+ 330 494 378 484 422 465 c 1
+ 403 403 l 1
+ 366 416 310 420 280 420 c 3
+ 190 420 131 340 131 240 c 3
+ 131 140 190 64 280 64 c 3
+ 310 64 371 69 402 80 c 1
+ 420 15 l 1
+ 372 -5 330 -10 280 -10 c 3
 EndSplineSet
 Fore
 SplineSet

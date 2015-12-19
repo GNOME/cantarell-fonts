@@ -4,6 +4,14 @@ Width: 400
 VWidth: 0
 Flags: HMW
 LayerCount: 4
+Back
+SplineSet
+200 530 m 259
+ 161 530 126 565 126 604 c 259
+ 126 643 161 678 200 678 c 259
+ 239 678 274 643 274 604 c 259
+ 274 565 239 530 200 530 c 259
+EndSplineSet
 Fore
 Refer: 573 775 S 1 0 0 1 200.001 0 2
 Layer: 3

@@ -7,6 +7,16 @@ AnchorPoint: "mark_above" 0 598 basemark 0
 AnchorPoint: "mark_above" 0 482 mark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 4
+Back
+SplineSet
+-185 655 m 1
+ -98 699 l 1
+ -89 677 -58 628 0 628 c 3
+ 58 628 89 677 98 699 c 1
+ 185 655 l 1
+ 169 589 87 530 0 530 c 3
+ -88 530 -168 586 -185 655 c 1
+EndSplineSet
 Fore
 SplineSet
 0 597 m 3

@@ -3,9 +3,32 @@ Encoding: 194 194 143
 Width: 675
 VWidth: 0
 Flags: HMW
+AnchorPoint: "mark_above" 335 939 basemark 0
 LayerCount: 3
+Back
+SplineSet
+304 928 m 1
+ 442 791 l 1
+ 399 747 l 1
+ 304 845 l 25
+ 209 747 l 25
+ 166 791 l 1
+ 304 928 l 1
+592 0 m 1
+ 561 0 530 0 499 0 c 1
+ 433 202 l 1
+ 169 202 l 1
+ 103 0 l 1
+ 17 0 l 1
+ 252 692 l 1
+ 356 692 l 5
+ 592 0 l 1
+301 606 m 1
+ 193 276 l 1
+ 409 276 l 1
+ 301 606 l 1
+EndSplineSet
 Fore
-Refer: 331 770 N 1 0 0 1 336 209 2
+Refer: 331 770 S 1 0 0 1 336 209 2
 Refer: 32 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar

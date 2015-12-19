@@ -3,8 +3,22 @@ Encoding: 776 776 573
 Width: 0
 VWidth: 0
 Flags: HW
+AnchorPoint: "mark_above" 0 675 basemark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 3
+Back
+SplineSet
+92 530 m 0
+ 64 530 39 555 39 583 c 0
+ 39 611 64 636 92 636 c 0
+ 120 636 145 611 145 583 c 0
+ 145 555 120 530 92 530 c 0
+-92 530 m 0
+ -120 530 -145 555 -145 583 c 0
+ -145 611 -120 636 -92 636 c 0
+ -64 636 -39 611 -39 583 c 0
+ -39 555 -64 530 -92 530 c 0
+EndSplineSet
 Fore
 SplineSet
 -109 530 m 259

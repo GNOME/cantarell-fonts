@@ -6,6 +6,14 @@ Flags: HMW
 AnchorPoint: "mark_above" 0 482 mark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 4
+Back
+SplineSet
+-151 560 m 1
+ -151 655 l 1
+ 151 655 l 1
+ 151 560 l 1
+ -151 560 l 1
+EndSplineSet
 Fore
 SplineSet
 -142 617 m 5
