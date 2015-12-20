@@ -1,11 +1,8 @@
 StartChar: Thorn
 Encoding: 222 222 193
-Width: 665
+Width: 631
 VWidth: 1023
-Flags: MW
-AnchorPoint: "cedilla" 141 0 basechar 0
-AnchorPoint: "above" 310 692 basechar 0
-AnchorPoint: "below" 310 0 basechar 0
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -29,24 +26,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-305 472 m 0
- 270 472 237 471 203 469 c 1
- 203 254 l 1
- 245 252 273 251 290 251 c 2
- 305 251 l 2
- 400 251 497 261 497 367 c 0
- 497 459 405 472 305 472 c 0
-80 694 m 1
- 203 694 l 1
- 203 566 l 1
- 245 569 287 571 331 571 c 0
- 496 571 622 532 622 377 c 0
- 622 299 590 189 463 155 c 1
- 427 146 367 139 272 139 c 0
- 249 139 226 140 203 141 c 1
+80 692 m 1
+ 203 692 l 1
+ 203 594 l 1
+ 325 594 l 2
+ 415 594 591 580 591 389 c 3
+ 591 173 387 172 217 172 c 2
+ 203 172 l 1
  203 0 l 1
  80 0 l 1
- 80 694 l 1
+ 80 692 l 1
+203 481 m 1
+ 203 285 l 1
+ 280 285 l 2
+ 380 285 465 296 465 389 c 3
+ 465 474 390 481 300 481 c 2
+ 203 481 l 1
 EndSplineSet
 Validated: 1
 EndChar
