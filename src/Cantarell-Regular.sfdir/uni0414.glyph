@@ -1,10 +1,7 @@
 StartChar: uni0414
 Encoding: 1044 1044 398
 Width: 734
-Flags: MW
-AnchorPoint: "above" 380 670 basechar 0
-AnchorPoint: "cedilla" 620 -160 basechar 0
-AnchorPoint: "below" 380 -160 basechar 0
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -35,8 +32,8 @@ SplineSet
 20 76 m 1
  69 77 104 90 126 118 c 0
  161 162 164 242 164 352 c 2
- 164 694 l 1
- 635 694 l 1
+ 164 692 l 1
+ 635 692 l 1
  635 76 l 1
  714 76 l 1
  714 -159 l 1
@@ -49,8 +46,8 @@ SplineSet
 244 315 m 2
  244 209 233 125 196 73 c 1
  555 73 l 1
- 555 619 l 1
- 244 619 l 1
+ 555 617 l 1
+ 244 617 l 1
  244 315 l 2
 EndSplineSet
 Validated: 1

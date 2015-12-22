@@ -1,8 +1,7 @@
 StartChar: uni042C
 Encoding: 1068 1068 422
 Width: 580
-Flags: MW
-AnchorPoint: "above" 300 670 basechar 0
+Flags: HMW
 AnchorPoint: "below" 300 0 basechar 0
 AnchorPoint: "cedilla" 300 0 basechar 0
 LayerCount: 4
@@ -26,8 +25,8 @@ EndSplineSet
 Fore
 SplineSet
 80 0 m 1
- 80 694 l 1
- 163 694 l 1
+ 80 692 l 1
+ 163 692 l 1
  163 404 l 1
  191 406 220 407 246 407 c 0
  304 407 375 400 411 388 c 0
