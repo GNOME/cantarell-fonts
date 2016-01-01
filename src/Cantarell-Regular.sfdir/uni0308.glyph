@@ -3,7 +3,7 @@ Encoding: 776 776 574
 Width: 0
 VWidth: 0
 Flags: HMW
-AnchorPoint: "mark_above" 0 635 basemark 0
+AnchorPoint: "mark_above" 0 645 basemark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 4
 Back
@@ -21,16 +21,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-92 530 m 0
- 64 530 39 555 39 583 c 0
- 39 611 64 636 92 636 c 0
- 120 636 145 611 145 583 c 0
- 145 555 120 530 92 530 c 0
--92 530 m 0
- -120 530 -145 555 -145 583 c 0
- -145 611 -120 636 -92 636 c 0
- -64 636 -39 611 -39 583 c 0
- -39 555 -64 530 -92 530 c 0
+92 540 m 4
+ 64 540 39 565 39 593 c 4
+ 39 621 64 646 92 646 c 4
+ 120 646 145 621 145 593 c 4
+ 145 565 120 540 92 540 c 4
+-92 540 m 4
+ -120 540 -145 565 -145 593 c 4
+ -145 621 -120 646 -92 646 c 4
+ -64 646 -39 621 -39 593 c 4
+ -39 565 -64 540 -92 540 c 4
 EndSplineSet
 Validated: 1
 EndChar

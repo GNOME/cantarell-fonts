@@ -1,8 +1,8 @@
 StartChar: uni049B
 Encoding: 1179 1179 529
-Width: 473
-VWidth: 1023
-Flags: MW
+Width: 491
+UnlinkRmOvrlpSave: 1
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -25,22 +25,14 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-60 482 m 1
- 140 482 l 1
- 140 0 l 1
- 60 0 l 1
- 60 482 l 1
-361 482 m 1
- 449 482 l 1
- 239 275 l 1
- 413 60 l 1
- 462 60 l 1
- 462 -146 l 1
- 394 -146 l 1
- 394 0 l 1
- 366 0 l 1
- 148 267 l 1
- 361 482 l 1
+403 0 m 1
+ 403 73 l 1
+ 480 73 l 1
+ 480 0 l 1
+ 472 -149 l 1
+ 403 -149 l 1
+ 403 0 l 1
 EndSplineSet
-Validated: 1
+Refer: 436 1082 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
