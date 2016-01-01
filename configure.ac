@@ -1,14 +1,14 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([cantarell-fonts], [0.0.18.1],
+AC_INIT([cantarell-fonts], [0.0.20],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=cantarell-fonts])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
 
 AC_ARG_ENABLE(source-rebuild,
 	    AS_HELP_STRING([--enable-source-rebuild], [Rebuild from source using fontforge]),,
-	    enable_source_rebuild=no)
+	    enable_source_rebuild=yes)
 AM_CONDITIONAL(SOURCE_REBUILD, test x$enable_source_rebuild != xno)
 
 PKG_PROG_PKG_CONFIG([0.19])
