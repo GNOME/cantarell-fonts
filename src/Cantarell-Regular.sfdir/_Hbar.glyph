@@ -1,5 +1,5 @@
 StartChar: Hbar
-Encoding: 294 294 335
+Encoding: 294 294 334
 Width: 721
 VWidth: 1023
 UnlinkRmOvrlpSave: 1
@@ -7,7 +7,7 @@ Flags: HMW
 AnchorPoint: "above" 360 692 basechar 0
 AnchorPoint: "cedilla" 360 0 basechar 0
 AnchorPoint: "below" 360 0 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 30 612 m 25
@@ -31,21 +31,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-30 526 m 29
- 30 590 l 29
- 691 590 l 29
- 691 526 l 29
- 30 526 l 29
+30 526 m 25
+ 30 592 l 29
+ 691 592 l 29
+ 691 526 l 25
+ 30 526 l 25
 EndSplineSet
 Refer: 29 72 N 1 0 0 1 0 0 2
 Validated: 5
-Layer: 3
-SplineSet
-74.2188 620.605 m 5
- 757.812 620.605 l 5
- 757.812 553.223 l 5
- 74.2188 553.223 l 5
- 74.2188 620.605 l 5
-EndSplineSet
-Refer: 29 72 S 1 0 0 1 0 0 2
 EndChar

@@ -1,11 +1,11 @@
 StartChar: M
 Encoding: 77 77 44
 Width: 845
-Flags: MW
+Flags: HMW
 AnchorPoint: "cedilla" 423 0 basechar 0
 AnchorPoint: "below" 423 0 basechar 0
 AnchorPoint: "above" 423 692 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 80 692 m 1
@@ -25,11 +25,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-85 694 m 1
- 202 694 l 1
+85 692 m 1
+ 202 692 l 1
  424 273 l 1
- 651 694 l 1
- 760 694 l 1
+ 651 692 l 1
+ 760 692 l 1
  760 0 l 1
  677 0 l 1
  677 575 l 1
@@ -38,27 +38,7 @@ SplineSet
  168 575 l 1
  168 0 l 1
  85 0 l 1
- 85 694 l 1
+ 85 692 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-146.602 693.848 m 5
- 263.789 693.848 l 5
- 517.695 213.379 l 5
- 454.219 213.379 l 5
- 712.52 693.848 l 5
- 822.383 693.848 l 5
- 822.383 0 l 5
- 739.375 0 l 5
- 739.375 666.504 l 5
- 791.621 666.504 l 5
- 525.996 198.73 l 5
- 442.988 198.73 l 5
- 177.476 666.504 l 5
- 229.609 666.504 l 5
- 229.609 0 l 5
- 146.602 0 l 5
- 146.602 693.848 l 5
-EndSplineSet
 EndChar

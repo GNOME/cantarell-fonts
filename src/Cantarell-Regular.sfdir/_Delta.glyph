@@ -1,8 +1,8 @@
 StartChar: Delta
-Encoding: 8710 8710 801
+Encoding: 8710 8710 797
 Width: 620
-Flags: HW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 389 692 m 1
@@ -19,16 +19,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-360 694 m 5
+360 694 m 1
  570 63 l 1
  570 1 l 1
  50 1 l 1
  50 63 l 1
- 263 694 l 5
- 360 694 l 5
+ 263 694 l 1
+ 360 694 l 1
 140 72 m 1
  482 72 l 1
- 310 602 l 5
+ 310 602 l 1
  140 72 l 1
 EndSplineSet
 Validated: 1

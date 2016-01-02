@@ -1,9 +1,10 @@
 StartChar: uni1ECC
-Encoding: 7884 7884 748
+Encoding: 7884 7884 744
 Width: 762
 VWidth: 0
+Flags: HM
 AnchorPoint: "above" 381 692 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 384 -213 m 259
@@ -23,7 +24,7 @@ SplineSet
  611 470 532 593 392 593 c 3
 EndSplineSet
 Fore
-Refer: 648 803 N 1 0 0 1 383 0 2
+Refer: 644 803 N 1 0 0 1 383 0 2
 Refer: 31 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar

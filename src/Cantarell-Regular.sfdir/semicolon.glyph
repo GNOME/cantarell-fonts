@@ -1,8 +1,8 @@
 StartChar: semicolon
 Encoding: 59 59 80
 Width: 265
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 137 144 m 3
@@ -35,18 +35,4 @@ SplineSet
  192 400 167 374 132 374 c 259
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-81.65625 83.0078125 m 1
- 169.546875 83.0078125 l 1
- 92.3984375 -107.421875 l 1
- 4.5078125 -107.421875 l 1
- 81.65625 83.0078125 l 1
-71.890625 484.86328125 m 1
- 174.4296875 484.86328125 l 1
- 174.4296875 382.32421875 l 1
- 71.890625 382.32421875 l 1
- 71.890625 484.86328125 l 1
--424.69140625 410.15625 m 1024
-EndSplineSet
 EndChar

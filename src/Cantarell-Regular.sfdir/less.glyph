@@ -3,7 +3,7 @@ Encoding: 60 60 92
 Width: 523
 VWidth: 1023
 Flags: MW
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 487 583 m 1
@@ -17,26 +17,14 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-475 551 m 5
- 475 475 l 5
- 134 303 l 5
- 475 139 l 5
- 475 59 l 5
- 49 260 l 5
- 49 341 l 5
- 475 551 l 5
+475 551 m 1
+ 475 475 l 1
+ 134 303 l 1
+ 475 139 l 1
+ 475 59 l 1
+ 49 260 l 1
+ 49 341 l 1
+ 475 551 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-475.098 550.781 m 5
- 48.8281 340.82 l 5
- 48.8281 260.254 l 5
- 475.098 58.5938 l 5
- 475.098 139.16 l 5
- 83.9844 327.148 l 5
- 83.9844 278.32 l 5
- 475.098 475.098 l 5
- 475.098 550.781 l 5
-EndSplineSet
 EndChar

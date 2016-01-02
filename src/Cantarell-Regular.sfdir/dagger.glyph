@@ -1,8 +1,8 @@
 StartChar: dagger
 Encoding: 8224 8224 214
 Width: 364
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 270 459 m 1
@@ -22,8 +22,8 @@ EndSplineSet
 Fore
 SplineSet
 211 537 m 1
- 218 -71 l 5
- 143 -71 l 5
+ 218 -71 l 1
+ 143 -71 l 1
  150 537 l 1
  27 532 l 1
  27 596 l 1
@@ -36,20 +36,4 @@ SplineSet
  211 537 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-194.824 72.2656 m 9
- 194.824 574.219 l 1
- 83.0078 569.336 l 1
- 83.0078 623.047 l 1
- 194.824 618.164 l 1
- 194.824 737.793 l 1
- 264.648 737.793 l 1
- 264.648 618.164 l 1
- 376.953 623.047 l 1
- 376.953 569.336 l 1
- 264.648 574.219 l 1
- 264.648 72.2656 l 17
- 194.824 72.2656 l 9
-EndSplineSet
 EndChar

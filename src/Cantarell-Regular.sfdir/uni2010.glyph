@@ -1,9 +1,9 @@
 StartChar: uni2010
-Encoding: 8208 8208 790
+Encoding: 8208 8208 786
 Width: 316
 VWidth: 1023
-Flags: HW
-LayerCount: 4
+Flags: HMW
+LayerCount: 2
 Back
 SplineSet
 50 375 m 1
@@ -14,11 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-50 355 m 1
- 266 355 l 5
- 266 288 l 5
- 50 288 l 1
- 50 355 l 1
+50 359 m 1
+ 266 359 l 1
+ 266 286 l 1
+ 50 286 l 1
+ 50 359 l 1
 EndSplineSet
 Validated: 1
 EndChar

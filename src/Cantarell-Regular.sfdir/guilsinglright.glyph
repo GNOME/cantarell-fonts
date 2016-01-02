@@ -2,8 +2,8 @@ StartChar: guilsinglright
 Encoding: 8250 8250 213
 Width: 295
 VWidth: 1023
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 40 451 m 1
@@ -25,15 +25,4 @@ SplineSet
  40 427 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-40.4140625 482.421875 m 1
- 130.74609375 482.421875 l 1
- 255.2578125 304.19921875 l 1
- 131.234375 125.9765625 l 1
- 40.4140625 125.9765625 l 1
- 181.52734375 313.4765625 l 1
- 181.52734375 294.43359375 l 1
- 40.4140625 482.421875 l 1
-EndSplineSet
 EndChar

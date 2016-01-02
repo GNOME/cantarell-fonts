@@ -1,9 +1,9 @@
 StartChar: lessequal
-Encoding: 8804 8804 794
+Encoding: 8804 8804 790
 Width: 683
 VWidth: 1023
-Flags: HW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 596 635 m 5
@@ -22,19 +22,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-576 612 m 5
- 576 532 l 5
- 192 364 l 5
- 576 200 l 5
- 576 120 l 5
- 107 321 l 5
- 107 402 l 5
- 576 612 l 5
-576 73 m 5
- 576 0 l 5
- 107 0 l 5
- 107 73 l 5
- 576 73 l 5
+576 612 m 1
+ 576 532 l 1
+ 192 364 l 1
+ 576 200 l 1
+ 576 120 l 1
+ 107 321 l 1
+ 107 402 l 1
+ 576 612 l 1
+576 73 m 1
+ 576 0 l 1
+ 107 0 l 1
+ 107 73 l 1
+ 576 73 l 1
 EndSplineSet
 Validated: 1
 EndChar

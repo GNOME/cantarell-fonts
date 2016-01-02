@@ -1,9 +1,9 @@
 StartChar: uni0402
-Encoding: 1026 1026 498
+Encoding: 1026 1026 494
 Width: 695
-Flags: HMW
+Flags: MW
 AnchorPoint: "below" 320 -78 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 528 496 m 0
@@ -29,11 +29,9 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-400 0 m 1
- 372 0 l 1
+372 0 m 1
  372 73 l 1
- 417 73 429 74 442 76 c 0
- 511 83 572 124 572 199 c 3
+ 481 73 572 96 572 199 c 3
  572 306 500 340 390 340 c 3
  328 340 297 328 265 320 c 1
  265 0 l 1
@@ -46,9 +44,8 @@ SplineSet
  265 619 l 1
  265 398 l 1
  293 405 342 416 398 416 c 3
- 436 416 481 411 517 397 c 0
- 591 368 655 314 655 198 c 3
- 655 52 532 1 400 0 c 1
+ 541 416 655 353 655 198 c 3
+ 655 39 519 0 372 0 c 1
 EndSplineSet
 Validated: 1
 EndChar

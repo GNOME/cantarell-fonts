@@ -1,5 +1,5 @@
 StartChar: dcroat
-Encoding: 273 273 337
+Encoding: 273 273 336
 Width: 561
 VWidth: 1023
 UnlinkRmOvrlpSave: 1
@@ -7,7 +7,7 @@ Flags: HMW
 AnchorPoint: "above" 440 717 basechar 0
 AnchorPoint: "below" 296 0 basechar 0
 AnchorPoint: "cedilla" 296 0 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 245 643 m 25
@@ -34,21 +34,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-277 555 m 1
+277 553 m 5
  277 619 l 1
  561 619 l 1
- 561 555 l 1
- 277 555 l 1
+ 561 553 l 5
+ 277 553 l 5
 EndSplineSet
 Refer: 1 100 N 1 0 0 1 0 0 2
 Validated: 5
-Layer: 3
-SplineSet
-276.367 620.605 m 1
- 560.547 620.605 l 1
- 560.547 557.617 l 1
- 276.367 557.617 l 1
- 276.367 620.605 l 1
-EndSplineSet
-Refer: 1 100 N 1 0 0 1 0 0 2
 EndChar

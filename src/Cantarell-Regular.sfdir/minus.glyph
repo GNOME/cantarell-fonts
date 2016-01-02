@@ -1,9 +1,9 @@
 StartChar: minus
-Encoding: 8722 8722 793
+Encoding: 8722 8722 789
 Width: 683
 VWidth: 1023
-Flags: HW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 632 375 m 1
@@ -14,11 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-623 391 m 5
+623 391 m 1
  623 318 l 1
  61 318 l 1
- 61 391 l 5
- 623 391 l 5
+ 61 391 l 1
+ 623 391 l 1
 EndSplineSet
 Validated: 1
 EndChar

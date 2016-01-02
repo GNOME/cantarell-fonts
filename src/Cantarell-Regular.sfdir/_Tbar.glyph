@@ -1,5 +1,5 @@
 StartChar: Tbar
-Encoding: 358 358 333
+Encoding: 358 358 332
 Width: 566
 VWidth: 1023
 UnlinkRmOvrlpSave: 1
@@ -7,7 +7,7 @@ Flags: HMW
 AnchorPoint: "above" 283 692 basechar 0
 AnchorPoint: "below" 283 0 basechar 0
 AnchorPoint: "cedilla" 283 0 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 51 388 m 25
@@ -27,21 +27,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-92 368 m 1
- 499 368 l 1
- 499 294 l 1
- 92 294 l 1
- 92 368 l 1
+82 368 m 5
+ 489 368 l 5
+ 489 302 l 5
+ 82 302 l 5
+ 82 368 l 5
 EndSplineSet
 Refer: 39 84 N 1 0 0 1 0 0 2
 Validated: 5
-Layer: 3
-SplineSet
-124.023 367.676 m 1
- 530.762 367.676 l 1
- 530.762 294.434 l 1
- 124.023 294.434 l 1
- 124.023 367.676 l 1
-EndSplineSet
-Refer: 39 84 N 1 0 0 1 0 0 2
 EndChar

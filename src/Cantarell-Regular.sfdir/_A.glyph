@@ -6,7 +6,7 @@ AnchorPoint: "ogonek" 526 0 basechar 0
 AnchorPoint: "cedilla" 548 0 basechar 0
 AnchorPoint: "below" 304 0 basechar 0
 AnchorPoint: "above" 304 692 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 277 692 m 1
@@ -27,8 +27,8 @@ Fore
 SplineSet
 592 0 m 1
  561 0 530 0 499 0 c 1
- 433 202 l 1
- 169 202 l 1
+ 432 203 l 1
+ 170 203 l 1
  103 0 l 1
  17 0 l 1
  252 692 l 1
@@ -40,20 +40,4 @@ SplineSet
  301 606 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-343.298 612.891 m 1
- 225.576 274.414 l 1
- 461.26 274.414 l 1
- 343.298 612.891 l 1
-300.059 693.848 m 1
- 394.297 693.848 l 1
- 640.879 0 l 1
- 556.895 0 l 1
- 486.616 201.66 l 1
- 200.273 201.66 l 1
- 130.137 0 l 1
- 53.4766 0 l 1
- 300.059 693.848 l 1
-EndSplineSet
 EndChar

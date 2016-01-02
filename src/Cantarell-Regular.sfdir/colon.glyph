@@ -1,8 +1,8 @@
 StartChar: colon
 Encoding: 58 58 81
 Width: 250
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 137 338 m 259
@@ -30,17 +30,4 @@ SplineSet
  180 16 155 -10 120 -10 c 259
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-68.890625 484.86328125 m 1
- 171.4296875 484.86328125 l 1
- 171.4296875 382.32421875 l 1
- 68.890625 382.32421875 l 1
- 68.890625 484.86328125 l 1
-68.890625 102.5390625 m 1
- 171.4296875 102.5390625 l 1
- 171.4296875 0 l 1
- 68.890625 0 l 1
- 68.890625 102.5390625 l 1
-EndSplineSet
 EndChar

@@ -1,11 +1,11 @@
 StartChar: uni0302
-Encoding: 770 770 332
+Encoding: 770 770 331
 Width: 0
 VWidth: 1023
-Flags: HMW
+Flags: MW
 AnchorPoint: "mark_above" 0 717 basemark 0
 AnchorPoint: "above" 0 482 mark 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 -145 598 m 1
@@ -28,6 +28,4 @@ SplineSet
  0 717 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-Refer: 90 94 S 1 0 0 1 0 0 2
 EndChar

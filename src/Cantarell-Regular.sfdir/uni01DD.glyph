@@ -1,12 +1,12 @@
 StartChar: uni01DD
-Encoding: 477 477 589
+Encoding: 477 477 585
 Width: 511
-Flags: HMW
+Flags: MW
 AnchorPoint: "ogonek" 408 17 basechar 0
 AnchorPoint: "cedilla" 272 0 basechar 0
 AnchorPoint: "below" 272 0 basechar 0
 AnchorPoint: "above" 272 482 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 80 366 m 1
@@ -26,21 +26,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-246 -10 m 7
- 119 -10 48 75 48 214 c 6
- 48 258 l 5
- 53 266 l 5
- 384 266 l 5
- 382 380 324 426 200 426 c 7
- 158 426 132 420 85 405 c 5
- 67 467 l 5
- 116 484 168 494 222 494 c 7
- 379 494 463 407 463 251 c 7
- 463 109 386 -10 246 -10 c 7
-130 203 m 5
- 130 124 164 58 239 58 c 7
- 332 58 373 126 382 203 c 5
- 130 203 l 5
+246 -10 m 3
+ 119 -10 48 75 48 214 c 2
+ 48 258 l 1
+ 53 266 l 1
+ 384 266 l 1
+ 382 380 324 426 200 426 c 3
+ 158 426 132 420 85 405 c 1
+ 67 467 l 1
+ 116 484 168 494 222 494 c 3
+ 379 494 463 407 463 251 c 3
+ 463 109 386 -10 246 -10 c 3
+130 203 m 1
+ 130 124 164 58 239 58 c 3
+ 332 58 373 126 382 203 c 1
+ 130 203 l 1
 EndSplineSet
 Validated: 1
 EndChar

@@ -5,7 +5,7 @@ Flags: HMW
 AnchorPoint: "ogonek" 134 0 basechar 0
 AnchorPoint: "cedilla" 110 0 basechar 0
 AnchorPoint: "below" 110 0 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 148 530 m 259
@@ -20,20 +20,7 @@ SplineSet
  88 482 l 1
 EndSplineSet
 Fore
-Refer: 573 775 N 1 0 0 1 110 0 2
+Refer: 569 775 N 1 0 0 1 110 0 2
 Refer: 140 305 N 1 0 0 1 0 0 3
 Validated: 1
-Layer: 3
-SplineSet
-89.8057 669.595 m 1
- 172.4 669.595 l 1
- 172.4 586.562 l 1
- 89.8057 586.562 l 1
- 89.8057 669.595 l 1
-89.8057 482.88 m 1
- 172.4 482.88 l 1
- 172.4 -0.387695 l 1
- 89.8057 -0.387695 l 1
- 89.8057 482.88 l 1
-EndSplineSet
 EndChar

@@ -13,11 +13,9 @@ UnderlineWidth: 50
 Ascent: 730
 Descent: 270
 InvalidEm: 0
-LayerCount: 4
+LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-Layer: 2 0 "Temp" 1
-Layer: 3 0 "Spiro" 1
 PreferredKerning: 4
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
@@ -25,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1451686804
+ModificationTime: 1451746507
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -62,14 +60,14 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 595 17 14
+WinInfo: 51 17 14
 BeginPrivate: 6
 BlueValues 39 [-10 0 482 494 615 619 692 706 718 730]
 OtherBlues 11 [-265 -259]
 StdHW 4 [73]
 StdVW 4 [83]
-StemSnapH 13 [20 63 67 73]
-StemSnapV 7 [83 88]
+StemSnapH 10 [64 66 73]
+StemSnapV 4 [83]
 EndPrivate
 TeXData: 1 0 0 250299 125149 83433 441600 -782186 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "mark_above" "'mkmk' Mark to Mark lookup 1-1" "horn" "'mark'-horn" "ogonek" "'mark'-ogonek" "aboveright" "'mark'-aboveright" "cedilla" "'mark'-cedilla" "below" "'mark'-below" "above" "'mark'-above" 

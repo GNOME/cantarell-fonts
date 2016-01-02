@@ -2,8 +2,8 @@ StartChar: hyphen
 Encoding: 45 45 45
 Width: 400
 VWidth: 1023
-Flags: MW
-LayerCount: 4
+Flags: HMW
+LayerCount: 2
 Back
 SplineSet
 50 375 m 1
@@ -14,19 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-55 355 m 5
- 345 355 l 5
- 345 288 l 5
- 55 288 l 5
- 55 355 l 5
+55 359 m 1
+ 345 359 l 1
+ 345 286 l 5
+ 55 286 l 1
+ 55 359 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-85.4492 355.469 m 1
- 505.371 355.469 l 1
- 505.371 287.598 l 1
- 85.4492 287.598 l 1
- 85.4492 355.469 l 1
-EndSplineSet
 EndChar

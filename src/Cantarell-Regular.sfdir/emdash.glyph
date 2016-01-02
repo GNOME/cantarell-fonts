@@ -3,7 +3,7 @@ Encoding: 8212 8212 202
 Width: 1000
 VWidth: 1023
 Flags: HMW
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 50 375 m 1
@@ -14,19 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-50 355 m 1
- 950 355 l 5
- 950 288 l 5
- 50 288 l 1
- 50 355 l 1
+50 359 m 5
+ 950 359 l 5
+ 950 286 l 1
+ 50 286 l 1
+ 50 359 l 5
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-162 355.46875 m 1
- 837.78125 355.46875 l 1
- 837.78125 287.59765625 l 5
- 162 287.59765625 l 5
- 162 355.46875 l 1
-EndSplineSet
 EndChar

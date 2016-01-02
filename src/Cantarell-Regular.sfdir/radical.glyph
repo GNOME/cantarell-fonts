@@ -1,8 +1,8 @@
 StartChar: radical
-Encoding: 8730 8730 806
+Encoding: 8730 8730 802
 Width: 625
-Flags: HW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 270 344 m 5
@@ -18,16 +18,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-232 317 m 5
- 318 59 l 5
- 497 783 l 5
- 575 770 l 5
- 366 -59 l 5
- 279 -59 l 5
- 180 213 l 5
- 77 169 l 5
- 50 238 l 5
- 232 317 l 5
+232 317 m 1
+ 318 59 l 1
+ 497 783 l 1
+ 575 770 l 1
+ 366 -59 l 1
+ 279 -59 l 1
+ 180 213 l 1
+ 77 169 l 1
+ 50 238 l 1
+ 232 317 l 1
 EndSplineSet
 Validated: 1
 EndChar

@@ -2,11 +2,11 @@ StartChar: T
 Encoding: 84 84 39
 Width: 566
 VWidth: 1023
-Flags: HMW
+Flags: MW
 AnchorPoint: "cedilla" 283 0 basechar 0
 AnchorPoint: "below" 283 0 basechar 0
 AnchorPoint: "above" 283 692 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 10 692 m 1
@@ -32,17 +32,4 @@ SplineSet
  10 692 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-356.445 0 m 5
- 273.438 0 l 5
- 273.438 680.176 l 5
- 356.445 680.176 l 5
- 356.445 0 l 5
-41.5039 693.848 m 5
- 588.379 693.848 l 5
- 588.379 620.605 l 5
- 41.5039 620.605 l 5
- 41.5039 693.848 l 5
-EndSplineSet
 EndChar

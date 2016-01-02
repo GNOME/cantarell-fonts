@@ -1,8 +1,8 @@
 StartChar: exclam
 Encoding: 33 33 12
 Width: 232
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 166 192 m 5
@@ -30,17 +30,4 @@ SplineSet
  162 10 142 -10 111 -10 c 259
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-137.86328125 97.65625 m 1
- 235.51953125 97.65625 l 1
- 235.51953125 0 l 1
- 137.86328125 0 l 1
- 137.86328125 97.65625 l 1
-145.188476562 693.84765625 m 1
- 228.1953125 693.84765625 l 1
- 228.1953125 223.6328125 l 1
- 145.188476562 223.6328125 l 1
- 145.188476562 693.84765625 l 1
-EndSplineSet
 EndChar

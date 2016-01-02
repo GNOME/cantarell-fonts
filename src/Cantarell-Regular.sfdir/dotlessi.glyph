@@ -2,10 +2,10 @@ StartChar: dotlessi
 Encoding: 305 305 140
 Width: 220
 VWidth: 1023
-Flags: HMW
+Flags: MW
 AnchorPoint: "below" 110 0 basechar 0
 AnchorPoint: "above" 110 482 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 88 482 m 1
@@ -18,17 +18,9 @@ Fore
 SplineSet
 70 482 m 1
  150 482 l 1
- 150 0 l 5
- 70 0 l 5
+ 150 0 l 1
+ 70 0 l 1
  70 482 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-69.890625 482.421875 m 1
- 149.96875 482.421875 l 1
- 149.96875 0 l 1
- 69.890625 0 l 1
- 69.890625 482.421875 l 1
-EndSplineSet
 EndChar

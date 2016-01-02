@@ -1,9 +1,9 @@
 StartChar: minute
-Encoding: 8242 8242 354
+Encoding: 8242 8242 351
 Width: 164
 VWidth: 0
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 20 647 m 21
@@ -20,14 +20,12 @@ SplineSet
 114 665 m 0
  114 661 114 657 113 653 c 0
  112 650 112 647 111 643 c 1
- 61 482 l 5
- 20 489 l 5
+ 61 482 l 1
+ 20 489 l 1
  28 657 l 1
  29 661 29 665 30 669 c 0
  34 692 46 706 67 706 c 3
  97 706 114 688 114 665 c 0
 EndSplineSet
 Validated: 1
-Layer: 3
-Refer: 84 39 N 1 0 0 1 -22 0 3
 EndChar

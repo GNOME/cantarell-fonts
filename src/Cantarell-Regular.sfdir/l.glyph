@@ -1,10 +1,10 @@
 StartChar: l
 Encoding: 108 108 10
 Width: 284
-Flags: HMW
+Flags: MW
 AnchorPoint: "aboveright" 253 647 basechar 0
 AnchorPoint: "above" 114 718 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 237 84 m 3
@@ -23,19 +23,11 @@ SplineSet
  236 65 244 67 257 70 c 1
  274 14 l 1
  257 4 224 -10 177 -10 c 3
- 112 -10 70 37 70 105 c 5
- 70 718 l 5
+ 112 -10 70 37 70 105 c 1
+ 70 718 l 1
  153 718 l 1
  153 134 l 2
  153 97 155 65 217 65 c 3
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-100.65625 670.8984375 m 5
- 180.734375 670.8984375 l 5
- 180.734375 0 l 1
- 100.65625 0 l 1
- 100.65625 670.8984375 l 5
-EndSplineSet
 EndChar

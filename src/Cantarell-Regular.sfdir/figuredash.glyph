@@ -1,9 +1,9 @@
 StartChar: figuredash
-Encoding: 8210 8210 816
+Encoding: 8210 8210 812
 Width: 600
 VWidth: 1023
-Flags: HW
-LayerCount: 4
+Flags: HMW
+LayerCount: 2
 Back
 SplineSet
 50 375 m 5
@@ -14,11 +14,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-50 355 m 1
- 550 355 l 1
- 550 288 l 1
- 50 288 l 1
- 50 355 l 1
+50 359 m 5
+ 550 359 l 5
+ 550 286 l 1
+ 50 286 l 1
+ 50 359 l 5
 EndSplineSet
 Validated: 1
 EndChar

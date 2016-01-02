@@ -1,13 +1,13 @@
 StartChar: uhorn
-Encoding: 432 432 653
+Encoding: 432 432 649
 Width: 543
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: MW
 AnchorPoint: "below" 262 0 basechar 0
 AnchorPoint: "cedilla" 262 0 basechar 0
 AnchorPoint: "above" 265 482 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 489 632 m 1
@@ -33,25 +33,25 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-517 616 m 1
- 591 616 l 1
- 591 600 l 1
- 591 579 590 543 578 519 c 0
- 548 455 473 430 473 430 c 1
- 473 0 l 1
- 411 0 l 1
- 395 32 l 1
- 334 0 280 -10 229 -10 c 0
- 125 -10 70 51 70 153 c 2
+517 608 m 1
+ 591 608 l 1
+ 591 592 l 2
+ 591 571 590 535 578 511 c 0
+ 551 453 487 434 475 431 c 1
+ 475 0 l 1
+ 418 0 l 1
+ 399 39 l 1
+ 337 7 281 -10 229 -10 c 0
+ 127 -10 70 55 70 157 c 2
  70 482 l 1
  153 482 l 1
- 153 173 l 2
- 153 93 180 57 258 57 c 0
- 296 57 341 69 390 92 c 1
- 390 482 l 1
- 458 482 487 491 507 538 c 0
- 516 559 517 597 517 608 c 1
- 517 616 l 1
+ 153 177 l 2
+ 153 96 179 61 259 61 c 0
+ 299 61 343 73 392 96 c 1
+ 392 482 l 1
+ 453 482 485 490 507 529 c 0
+ 516 550 517 589 517 600 c 2
+ 517 608 l 1
 EndSplineSet
 Validated: 1
 EndChar

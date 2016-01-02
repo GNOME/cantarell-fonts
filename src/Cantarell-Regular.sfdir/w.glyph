@@ -5,7 +5,7 @@ Flags: MW
 AnchorPoint: "cedilla" 404 0 basechar 0
 AnchorPoint: "below" 404 0 basechar 0
 AnchorPoint: "above" 404 482 basechar 0
-LayerCount: 4
+LayerCount: 2
 Back
 SplineSet
 362 481 m 1
@@ -45,24 +45,4 @@ SplineSet
  27 482 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-20.8555 482.422 m 21
- 106.305 482.422 l 13
- 254.254 24.9023 l 21
- 220.562 24.9023 l 5
- 366.07 482.422 l 13
- 444.684 482.422 l 21
- 585.309 24.9023 l 5
- 551.617 24.9023 l 13
- 699.566 482.422 l 29
- 785.016 482.422 l 29
- 608.746 0 l 29
- 528.18 0 l 29
- 386.09 441.895 l 21
- 419.293 441.895 l 5
- 272.809 0 l 13
- 197.125 0 l 29
- 20.8555 482.422 l 21
-EndSplineSet
 EndChar

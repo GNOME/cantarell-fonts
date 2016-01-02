@@ -2,8 +2,8 @@ StartChar: plus
 Encoding: 43 43 76
 Width: 683
 VWidth: 1023
-Flags: HMW
-LayerCount: 4
+Flags: MW
+LayerCount: 2
 Back
 SplineSet
 308 622 m 1
@@ -32,22 +32,9 @@ SplineSet
  306 73 l 1
  306 318 l 1
  61 318 l 1
- 61 391 l 5
+ 61 391 l 1
  306 391 l 1
  306 635 l 1
 EndSplineSet
 Validated: 1
-Layer: 3
-SplineSet
-305.664 602.051 m 1
- 377.93 602.051 l 1
- 377.93 40.5273 l 1
- 305.664 40.5273 l 1
- 305.664 602.051 l 1
-61.0352 354.98 m 1
- 622.559 354.98 l 1
- 622.559 287.598 l 1
- 61.0352 287.598 l 1
- 61.0352 354.98 l 1
-EndSplineSet
 EndChar
