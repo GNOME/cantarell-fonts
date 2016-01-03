@@ -1,27 +1,11 @@
 StartChar: H
 Encoding: 72 72 29
 Width: 740
-Flags: HMW
+Flags: MW
 AnchorPoint: "below" 370 0 basechar 0
 AnchorPoint: "above" 367 692 basechar 0
 AnchorPoint: "cedilla" 370 0 basechar 0
-LayerCount: 3
-Back
-SplineSet
-553 694 m 1
- 636 694 l 1
- 636 0 l 1
- 553 0 l 1
- 553 332 l 1
- 168 332 l 1
- 168 0 l 1
- 85 0 l 1
- 85 694 l 1
- 168 694 l 1
- 168 406 l 1
- 553 406 l 1
- 553 694 l 1
-EndSplineSet
+LayerCount: 2
 Fore
 SplineSet
 537 692 m 1

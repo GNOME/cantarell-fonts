@@ -2,7 +2,7 @@ StartChar: comma
 Encoding: 44 44 69
 Width: 284
 Flags: HMW
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 132 110 m 263
@@ -15,14 +15,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-137 144 m 3
- 189 144 214 101 214 45 c 3
- 214 11 204 -20 183 -50 c 128
- 162 -80 134 -113 98 -149 c 1
- 54 -121 l 1
- 115 -7 l 1
- 85 1 60 30 60 67 c 3
- 60 111 93 144 137 144 c 3
+216 44 m 259
+ 216 -34 152 -100 99 -153 c 257
+ 55 -124 l 257
+ 116 -9 l 257
+ 84 1 60 30 60 66 c 259
+ 60 113 96 144 138 144 c 259
+ 185 144 216 108 216 44 c 259
 EndSplineSet
 Validated: 1
 EndChar

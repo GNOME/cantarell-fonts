@@ -2,11 +2,9 @@ StartChar: uni0438
 Encoding: 1080 1080 431
 Width: 575
 VWidth: 1023
-Flags: MW
-AnchorPoint: "below" 286 0 basechar 0
+Flags: HMW
 AnchorPoint: "above" 286 482 basechar 0
-AnchorPoint: "cedilla" 286 0 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 70 482 m 1
@@ -27,7 +25,7 @@ SplineSet
  183 482 l 1
  183 155 l 1
  370 482 l 1
- 413 482 469 482 512 482 c 1
+ 512 482 l 1
  512 0 l 1
  392 0 l 1
  392 327 l 1

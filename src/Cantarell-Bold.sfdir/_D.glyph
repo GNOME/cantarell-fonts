@@ -5,36 +5,22 @@ Flags: HMW
 AnchorPoint: "below" 344 0 basechar 0
 AnchorPoint: "above" 324 692 basechar 0
 AnchorPoint: "cedilla" 352 0 basechar 0
-LayerCount: 3
-Back
-SplineSet
-168 73 m 1
- 323 73 l 2
- 494 73 564 206 564 346 c 3
- 564 486 490 620 323 620 c 2
- 168 620 l 1
- 168 73 l 1
-329 0 m 2
- 85 0 l 1
- 85 694 l 1
- 329 694 l 2
- 535 694 647 546 647 346 c 3
- 647 146 536 0 329 0 c 2
-EndSplineSet
+LayerCount: 2
 Fore
 SplineSet
-360 579 m 2
- 203 579 l 1
- 203 113 l 1
- 360 113 l 2
- 500 113 558 230 558 350 c 3
- 558 470 500 579 360 579 c 2
-314 692 m 2
- 607 692 681 550 681 350 c 3
- 681 150 608 0 314 0 c 2
+690 371 m 3
+ 690 180 597 59 437 14 c 0
+ 375 1 333 0 254 0 c 2
  80 0 l 1
  80 692 l 1
- 314 692 l 2
+ 316 692 l 2
+ 544 692 690 583 690 371 c 3
+319 579 m 2
+ 203 579 l 1
+ 203 113 l 1
+ 286 113 l 2
+ 460 113 567 176 567 354 c 3
+ 567 504 478 579 319 579 c 2
 EndSplineSet
 Validated: 1
 EndChar

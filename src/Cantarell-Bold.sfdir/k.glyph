@@ -5,7 +5,7 @@ Flags: HMW
 AnchorPoint: "below" 276 0 basechar 0
 AnchorPoint: "above" 120 717 basechar 0
 AnchorPoint: "cedilla" 440 0 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 75 718 m 1
@@ -23,11 +23,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-180 718 m 1
- 180 0 l 1
+183 718 m 1
+ 183 0 l 1
  60 0 l 1
  60 718 l 1
- 180 718 l 1
+ 183 718 l 1
 376 481 m 1
  522 481 l 1
  336 266 l 1

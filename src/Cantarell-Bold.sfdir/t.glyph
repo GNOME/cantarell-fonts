@@ -4,9 +4,9 @@ Width: 426
 Flags: HMW
 AnchorPoint: "below" 241 0 basechar 0
 AnchorPoint: "above" 159 632 basechar 0
-AnchorPoint: "cedilla" 257.5 0 basechar 0
+AnchorPoint: "cedilla" 258 0 basechar 0
 AnchorPoint: "aboveright" 346 634 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 236 -10 m 3
@@ -37,14 +37,14 @@ SplineSet
  20 481 l 1
  100 481 l 1
  100 632 l 1
- 220 632 l 1
- 220 481 l 1
+ 223 632 l 1
+ 223 481 l 1
  389 481 l 1
  389 389 l 1
- 220 389 l 1
- 220 158 l 2
- 220 121 235 88 301 88 c 3
- 336 88 374 97 393 102 c 1
+ 223 389 l 1
+ 223 158 l 2
+ 223 121 238 88 304 88 c 3
+ 338 88 375 97 393 102 c 1
  411 17 l 1
 EndSplineSet
 Validated: 1

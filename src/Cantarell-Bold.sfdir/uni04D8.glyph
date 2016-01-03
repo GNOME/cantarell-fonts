@@ -1,13 +1,12 @@
 StartChar: uni04D8
 Encoding: 1240 1240 517
-Width: 864
+Width: 784
 VWidth: 1023
-Flags: MW
-AnchorPoint: "cedilla" 418 0 basechar 0
-AnchorPoint: "above" 418 670 basechar 0
-AnchorPoint: "below" 418 0 basechar 0
-LayerCount: 3
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+AnchorPoint: "above" 388 693 basechar 0
+LayerCount: 2
 Fore
-Refer: 584 399 N 1 0 0 1 0 0 3
-Validated: 1
+Refer: 584 399 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar

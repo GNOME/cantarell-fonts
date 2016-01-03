@@ -5,7 +5,7 @@ VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "above" 272 482 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 444 17 m 1
@@ -37,8 +37,8 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-459 17 m 1
- 424 0 295 -100 295 -141 c 3
+467 20 m 1
+ 430 3 295 -106 295 -141 c 3
  295 -157 308 -170 339 -170 c 3
  361 -170 387 -162 387 -162 c 1
  405 -247 l 1
@@ -47,7 +47,7 @@ SplineSet
  183 -111 213 -82 226 -69 c 0
  268 -27 305 2 307 3 c 1
  403 55 l 1
- 459 17 l 1
+ 467 20 l 1
 EndSplineSet
 Refer: 2 101 N 1 0 0 1 0 0 3
 Validated: 5

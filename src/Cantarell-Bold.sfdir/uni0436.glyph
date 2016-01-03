@@ -1,12 +1,9 @@
 StartChar: uni0436
 Encoding: 1078 1078 429
-Width: 786
-VWidth: 1023
-Flags: MW
-AnchorPoint: "below" 392 0 basechar 0
-AnchorPoint: "above" 392 482 basechar 0
-AnchorPoint: "cedilla" 392 0 basechar 0
-LayerCount: 3
+Width: 734
+Flags: HMW
+AnchorPoint: "above" 370 482 basechar 0
+LayerCount: 2
 Back
 SplineSet
 330 0 m 1
@@ -39,25 +36,33 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-453 0 m 1
- 333 0 l 1
- 333 240 l 1
- 171 0 l 1
- 23 0 l 1
- 219 271 l 1
- 31 482 l 1
- 175 482 l 1
- 333 289 l 1
- 333 482 l 1
- 453 482 l 1
- 453 289 l 1
- 611 482 l 1
- 755 482 l 1
- 567 271 l 1
- 763 0 l 1
- 615 0 l 1
- 453 240 l 1
- 453 0 l 1
+429 0 m 1
+ 306 0 l 1
+ 306 199 l 1
+ 229 190 184 137 132 0 c 1
+ 7 0 l 1
+ 51 117 98 209 194 252 c 1
+ 153 281 146 313 115 352 c 0
+ 107 361 93 382 68 382 c 2
+ 32 382 l 1
+ 32 492 l 1
+ 69 492 l 2
+ 119 492 149 474 194 430 c 0
+ 235 390 265 325 306 306 c 1
+ 306 482 l 1
+ 429 482 l 1
+ 429 306 l 1
+ 471 325 499 390 540 430 c 1
+ 579 472 614 492 665 492 c 2
+ 702 492 l 1
+ 702 382 l 1
+ 666 382 l 2
+ 642 382 630 366 619 352 c 0
+ 590 312 579 280 540 252 c 1
+ 637 208 683 117 727 -0 c 1
+ 602 0 l 1
+ 550 138 505 190 429 199 c 1
+ 429 0 l 1
 EndSplineSet
 Validated: 1
 EndChar

@@ -1,11 +1,8 @@
 StartChar: uni0425
 Encoding: 1061 1061 412
-Width: 692
+Width: 672
 Flags: MW
-AnchorPoint: "cedilla" 347 0 basechar 0
-AnchorPoint: "above" 347 670 basechar 0
-AnchorPoint: "below" 347 0 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 487 694 m 1
@@ -23,20 +20,6 @@ SplineSet
  487 694 l 1
 EndSplineSet
 Fore
-SplineSet
-346 463 m 1
- 503 692 l 1
- 642 692 l 1
- 416 361 l 1
- 662 0 l 1
- 521 0 l 1
- 346 258 l 1
- 171 0 l 1
- 30 0 l 1
- 276 361 l 1
- 50 692 l 1
- 189 692 l 1
- 346 463 l 1
-EndSplineSet
+Refer: 41 88 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar

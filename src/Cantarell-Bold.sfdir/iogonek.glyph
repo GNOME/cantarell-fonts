@@ -4,7 +4,7 @@ Width: 295
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: HMW
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 135 -19 m 1
@@ -30,7 +30,19 @@ SplineSet
  70 482 l 1
 EndSplineSet
 Fore
-Refer: 578 808 N 1 0 0 1 147 0 2
+SplineSet
+208 -43 m 1
+ 173 -60 58 -103 58 -144 c 3
+ 58 -160 71 -173 102 -173 c 3
+ 124 -173 150 -165 150 -165 c 1
+ 168 -250 l 1
+ 156 -254 126 -262 81 -262 c 3
+ -22 -262 -54 -208 -54 -168 c 3
+ -54 -114 -24 -85 -11 -72 c 0
+ 27 -36 88 0 88 0 c 1
+ 208 0 l 1
+ 208 -43 l 1
+EndSplineSet
 Refer: 4 105 N 1 0 0 1 0 0 3
 Validated: 5
 EndChar

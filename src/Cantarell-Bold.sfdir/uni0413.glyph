@@ -1,11 +1,9 @@
 StartChar: uni0413
 Encoding: 1043 1043 394
 Width: 548
-Flags: MW
-AnchorPoint: "below" 307 0 basechar 0
-AnchorPoint: "above" 307 670 basechar 0
-AnchorPoint: "cedilla" 139 0 basechar 0
-LayerCount: 3
+Flags: HMW
+AnchorPoint: "above" 303 692 basechar 0
+LayerCount: 2
 Back
 SplineSet
 80 0 m 1
@@ -18,13 +16,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-203 581 m 1
+203 579 m 1
  203 0 l 1
  80 0 l 1
  80 692 l 1
  528 692 l 1
- 528 581 l 1
- 203 581 l 1
+ 528 579 l 1
+ 203 579 l 1
 EndSplineSet
 Validated: 1
 EndChar

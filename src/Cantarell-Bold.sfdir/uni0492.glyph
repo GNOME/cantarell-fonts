@@ -1,12 +1,10 @@
 StartChar: uni0492
 Encoding: 1170 1170 487
-Width: 631
-VWidth: 1023
-Flags: MW
-AnchorPoint: "cedilla" 149 0 basechar 0
-AnchorPoint: "above" 317 670 basechar 0
-AnchorPoint: "below" 317 0 basechar 0
-LayerCount: 3
+Width: 487
+VWidth: 2048
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+LayerCount: 2
 Back
 SplineSet
 183 304 m 1
@@ -27,21 +25,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-374 313 m 1
- 213 313 l 1
- 213 0 l 1
- 90 0 l 1
- 90 313 l 1
- 15 313 l 1
- 15 427 l 1
- 90 427 l 1
- 90 694 l 1
- 571 694 l 1
- 571 581 l 1
- 224 581 l 1
- 224 427 l 1
- 374 427 l 1
- 374 313 l 1
+15 275 m 1
+ 15 370 l 1
+ 347 370 l 1
+ 347 275 l 1
+ 15 275 l 1
 EndSplineSet
-Validated: 1
+Refer: 394 1043 N 1 0 0 1 5 0 2
+Validated: 5
 EndChar

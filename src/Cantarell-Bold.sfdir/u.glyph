@@ -5,40 +5,24 @@ Flags: HMW
 AnchorPoint: "horn" 454 440 basechar 0
 AnchorPoint: "ogonek" 437 0 basechar 0
 AnchorPoint: "below" 282 0 basechar 0
-AnchorPoint: "above" 272 481.2 basechar 0
+AnchorPoint: "above" 272 481 basechar 0
 AnchorPoint: "cedilla" 282 0 basechar 0
-LayerCount: 3
-Back
-SplineSet
-153 173 m 2
- 153 93 180 57 258 57 c 3
- 296 57 341 69 390 92 c 1
- 390 482 l 1
- 473 482 l 1
- 473 0 l 1
- 411 0 l 1
- 395 32 l 1
- 334 0 280 -10 229 -10 c 3
- 125 -10 70 51 70 153 c 2
- 70 482 l 1
- 153 482 l 1
- 153 173 l 2
-EndSplineSet
+LayerCount: 2
 Fore
 SplineSet
-391 0 m 1
- 375 32 l 1
- 343 10 296 -10 230 -10 c 3
- 63 -10 55 123 55 207 c 2
- 55 481 l 1
- 175 481 l 1
- 175 186 l 2
- 175 150 185 88 262 88 c 3
- 284 88 324 93 367 115 c 1
- 367 481 l 1
- 487 481 l 1
- 487 0 l 1
- 391 0 l 1
+237 -10 m 3
+ 96 -10 60 78 60 211 c 2
+ 60 481 l 1
+ 183 481 l 1
+ 183 194 l 2
+ 183 136 208 94 272 94 c 3
+ 307 94 340 104 372 123 c 1
+ 372 481 l 1
+ 495 481 l 1
+ 495 0 l 1
+ 411 0 l 1
+ 392 35 l 1
+ 339 7 306 -10 237 -10 c 3
 EndSplineSet
 Validated: 1
 EndChar

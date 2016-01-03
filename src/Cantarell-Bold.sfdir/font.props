@@ -13,17 +13,16 @@ UnderlineWidth: 50
 Ascent: 730
 Descent: 270
 InvalidEm: 0
-LayerCount: 3
+LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-Layer: 2 0 "temp" 0
 XUID: [1021 472 1916768597 5236576]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1451686798
+ModificationTime: 1451848694
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -42,6 +41,8 @@ HheadAscent: 964
 HheadAOffset: 0
 HheadDescent: -293
 HheadDOffset: 0
+OS2CapHeight: 692
+OS2XHeight: 481
 OS2FamilyClass: 2050
 OS2Vendor: 'ABAT'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -58,17 +59,18 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 68 17 14
-BeginPrivate: 9
-BlueValues 39 [-10 0 481 492 632 634 692 706 718 730]
+WinInfo: 408 17 14
+BeginPrivate: 10
+BlueValues 31 [-10 0 481 492 692 706 718 730]
 OtherBlues 11 [-264 -259]
-FamilyBlues 39 [-10 0 482 494 615 619 692 706 718 730]
+FamilyBlues 31 [-10 0 482 494 692 706 718 730]
 FamilyOtherBlues 11 [-265 -259]
 StdHW 5 [113]
 StdVW 5 [123]
-StemSnapH 19 [90 98 103 107 113]
-StemSnapV 9 [121 123]
+StemSnapH 19 [92 95 102 107 113]
+StemSnapV 9 [120 123]
 BlueFuzz 1 1
+BlueScale 6 0.0625
 EndPrivate
 Grid
 257.5 1239 m 0

@@ -2,11 +2,11 @@ StartChar: florin
 Encoding: 402 402 211
 Width: 480
 VWidth: 1023
-Flags: MW
+Flags: HMW
 AnchorPoint: "cedilla" 126 -261 basechar 0
-AnchorPoint: "above" 255 670 basechar 0
+AnchorPoint: "above" 255 702 basechar 0
 AnchorPoint: "below" 185 -261 basechar 0
-LayerCount: 3
+LayerCount: 2
 Back
 SplineSet
 26 -196 m 3
@@ -35,15 +35,14 @@ Fore
 SplineSet
 56 482 m 1
  150 482 l 1
- 150 515 l 2
- 150 546 152 583 175 618 c 0
- 209 671 276 698 357 698 c 0
- 406 698 452 687 482 678 c 2
- 500 672 l 1
- 479 575 l 1
- 459 580 l 1
- 423 589 402 591 387 591 c 0
- 292 591 289 537 289 508 c 2
+ 150 547 l 2
+ 150 668 234 730 357 730 c 3
+ 406 730 452 719 482 710 c 2
+ 500 704 l 1
+ 479 607 l 1
+ 459 612 l 1
+ 423 621 402 623 387 623 c 3
+ 292 623 289 569 289 540 c 2
  289 482 l 1
  462 482 l 1
  462 379 l 1
