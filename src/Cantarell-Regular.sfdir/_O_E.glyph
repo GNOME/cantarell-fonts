@@ -1,27 +1,29 @@
 StartChar: OE
 Encoding: 338 338 118
-Width: 937
+Width: 883
 VWidth: 1023
 UnlinkRmOvrlpSave: 1
 Flags: HMW
-AnchorPoint: "below" 471 0 basechar 0
-AnchorPoint: "above" 471 692 basechar 0
-AnchorPoint: "cedilla" 471 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-381 64 m 3
- 413 64 443 69 471 77 c 1
- 471 0 l 1
- 444 -7 414 -10 381 -10 c 3
- 181 -10 55 146 55 346 c 3
- 55 546 181 706 381 706 c 3
- 413 706 443 701 471 692 c 1
- 471 617 l 1
- 443 627 413 632 381 632 c 3
- 241 632 138 506 138 346 c 3
- 138 186 241 64 381 64 c 3
+417 619 m 1
+ 225 619 138 503 138 346 c 3
+ 138 187 225 73 417 73 c 1
+ 417 619 l 1
+381 0 m 2
+ 181 0 55 152 55 346 c 3
+ 55 538 181 692 381 692 c 2
+ 823 692 l 1
+ 823 619 l 1
+ 500 619 l 1
+ 500 405 l 1
+ 796 405 l 1
+ 796 332 l 1
+ 500 332 l 1
+ 500 73 l 1
+ 823 73 l 1
+ 823 0 l 1
+ 381 0 l 2
 EndSplineSet
-Refer: 34 69 N 1 0 0 1 386 0 2
-Validated: 5
 EndChar
