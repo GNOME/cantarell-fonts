@@ -7,8 +7,10 @@ font_DATA = \
 	Cantarell-Bold-Oblique.otf
 
 if SOURCE_REBUILD
-%.otf: $(top_srcdir)/src/%.sfdir
+$(filter-out %-Oblique.otf,$(font_DATA)): %.otf: $(top_srcdir)/src/%.sfdir
 	/usr/bin/env fontforge -script $(top_srcdir)/scripts/generate.sh "$^"
+
+$(filter %-Oblique.otf,$(font_DATA)): %.otf: ;
 endif
 
 EXTRA_DIST = $(font_DATA)
