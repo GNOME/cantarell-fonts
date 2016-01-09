@@ -1,5 +1,5 @@
-FONTLOG for Cantarell GNOME 0.0.5
-=================================
+FONTLOG for Cantarell GNOME
+===========================
 
 This file provides detailed information on the Cantarell font
 software. This information should be distributed along with the
@@ -36,17 +36,6 @@ fonts feature known as @font-face [5]. As Dave's very first typeface
 design, the typeface has many faults, yet he asserts it achieves 
 his goal of improving readability on this device.
 
-The regular member of the family has had recieved the most focus, and a bold
-family has been developed quickly to provide better somewhat better results
-that an operating system's automatic bolding. In the case of oblique, we
-decided to rely on the system generated variant for now. An actual italics
-variant is planned.
-
-The Regular font fully supports the following writing systems: 
-Basic Latin, Western European, Catalan, Baltic, Turkish, Central 
-European, Dutch and Afrikaans. To date, Pan African Latin has 
-only 33% glyph coverage.
-
 Since the design is aimed at display on-screen at small sizes, the
 printed output (especially of the bold and oblique) may not work
 well. Fonts tuned to the needs of printing will be developed in 
@@ -79,32 +68,13 @@ Developer information
 ---------------------
                                   
 The original src/Cantarell-Regular.sfdir directory has the master
-sources as Cubic (PostScript) Bezier splines. There are temporary
-layers and a 'Spiro' layer in this file, containing forms used to
-create the master Cubic Bezier glyphs; the Spiro layer contains
-forms in Spiro splines, and much of the original typeface design
-by Dave Crossland was done by drawing in Spiro splines. However
-today the master drawing spline format is Cubic Bezier, and Spiro
-splines are used to inform their creation. 
+sources as Cubic (PostScript) Bezier splines. It was used to generate
+Cantarell-Bold.sfdir which is now a hard fork and the bold master. Many
+glyphs were imported back from Pooja Saxena's Cambay.
 
-The Cantarell-Regular.sfdir directory is the _master_ source, and was 
-used to generate Cantarell-Bold.sfdir which is now a hard fork. 
-
-All development occurs by making changes to these drawing files.
-When OTF binaries are compiled, they are copied to the
-Cantarell-*-OTF.sfd files and then a build process applied. 
-
-This means that there should be a 1:1 match between these files, 
-the OTF files in the otf/ directories, and the
-output of generating new OTF files from FontForge. 
-
-The build process is simple; the Spiro and temp layers are
-removed, and then all glyphs have the Simplify, Add Extrema,
-Round to Int, and Correct Direction operations applied. 
-
-In the future a build script will be developed to do this in an
-automated way, which will be important for adding OpenType 
-Layout features through a feature.fea file. 
+All development occurs by making changes to these drawing files. Produce
+.otf font files with "make" at the command line. It will automatically
+generate obliqued variants of the masters.
 
 ChangeLog
 -------------------------
