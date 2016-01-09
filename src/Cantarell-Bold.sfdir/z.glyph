@@ -1,7 +1,7 @@
 StartChar: z
 Encoding: 122 122 25
 Width: 476
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "below" 244 0 basechar 0
 AnchorPoint: "above" 241 482 basechar 0
 AnchorPoint: "cedilla" 252 0 basechar 0
@@ -12,13 +12,12 @@ SplineSet
  45 481 l 1
  435 481 l 1
  435 416 l 1
- 211 107 l 1
- 444 107 l 1
+ 207 103 l 5
+ 444 103 l 1
  444 0 l 1
  45 0 l 1
  45 62 l 1
  261 374 l 1
  45 374 l 1
 EndSplineSet
-Validated: 1
 EndChar

@@ -1,40 +1,24 @@
 StartChar: r
 Encoding: 114 114 20
-Width: 400
-Flags: MW
+Width: 404
+Flags: HMW
 AnchorPoint: "below" 121 0 basechar 0
 AnchorPoint: "above" 219 482 basechar 0
 AnchorPoint: "cedilla" 122 0 basechar 0
 LayerCount: 2
-Back
-SplineSet
-60 482 m 1
- 60 0 l 1
- 183 0 l 1
- 183 373 l 1
- 207.0625 382 233.05 387 260 387 c 3
- 301 387 335 378 364 361 c 1
- 370 363 l 1
- 394 473 l 1
- 366 486 337 492 305 492 c 3
- 255.0625 492 207.083333333 478 164 449 c 1
- 146 482 l 1
- 60 482 l 1
-EndSplineSet
 Fore
 SplineSet
-160 449 m 1
- 201 475 252 492 302 492 c 3
- 332 492 362 486 390 473 c 1
- 367 381 l 1
- 359 381 l 1
- 353 385 321 390 290 390 c 3
- 251 390 213 382 180 372 c 1
- 180 0 l 1
- 60 0 l 1
- 60 481 l 1
- 144 481 l 1
- 160 449 l 1
+60 481 m 5
+ 60 0 l 5
+ 180 0 l 5
+ 180 376 l 5
+ 205 385 232 390 260 390 c 7
+ 301 390 335 381 364 364 c 5
+ 370 366 l 5
+ 394 476 l 5
+ 366 489 336 495 305 495 c 7
+ 254 495 206 481 161 452 c 5
+ 146 481 l 5
+ 60 481 l 5
 EndSplineSet
-Validated: 1
 EndChar
