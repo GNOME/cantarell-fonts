@@ -1,6 +1,6 @@
 StartChar: uni00AD
 Encoding: 173 173 110
-Width: 524
+Width: 560
 VWidth: 1023
 Flags: HMW
 LayerCount: 2
@@ -13,12 +13,5 @@ SplineSet
  107 391 l 1
 EndSplineSet
 Fore
-SplineSet
-87 381 m 1
- 437 381 l 1
- 437 268 l 1
- 87 268 l 1
- 87 381 l 1
-EndSplineSet
-Validated: 1
+Refer: 45 45 N 1 0 0 1 0 0 2
 EndChar

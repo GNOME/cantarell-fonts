@@ -1,26 +1,25 @@
 StartChar: U
 Encoding: 85 85 51
-Width: 682
-Flags: MW
-AnchorPoint: "horn" 592 601 basechar 0
-AnchorPoint: "ogonek" 478 0 basechar 0
-AnchorPoint: "below" 340 0 basechar 0
-AnchorPoint: "cedilla" 340 0 basechar 0
-AnchorPoint: "above" 340 692 basechar 0
+Width: 681
+Flags: HMW
+AnchorPoint: "horn" 591 601 basechar 0
+AnchorPoint: "ogonek" 477 0 basechar 0
+AnchorPoint: "below" 339 0 basechar 0
+AnchorPoint: "cedilla" 339 0 basechar 0
+AnchorPoint: "above" 339 692 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-341 -10 m 259
- 154 -10 76 81 76 268 c 2
- 76 692 l 1
- 158 692 l 1
- 158 247 l 2
- 158 126 218 63 341 63 c 3
- 464 63 524 128 524 247 c 2
- 524 692 l 1
- 607 692 l 1
- 607 268 l 2
- 607 81 528 -10 341 -10 c 259
+340 -10 m 259
+ 153 -10 75 81 75 268 c 2
+ 75 692 l 1
+ 157 692 l 1
+ 157 247 l 2
+ 157 126 217 63 340 63 c 3
+ 463 63 523 128 523 247 c 2
+ 523 692 l 1
+ 606 692 l 1
+ 606 268 l 2
+ 606 81 527 -10 340 -10 c 259
 EndSplineSet
-Validated: 1
 EndChar
