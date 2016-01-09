@@ -2,7 +2,7 @@ StartChar: uniFB02
 Encoding: 64258 64258 381
 Width: 685
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -32,8 +32,8 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-326 633 m 3
- 261 633 220 595 220 549 c 2
+346 633 m 7
+ 268.735849057 633 220 595 220 549 c 2
  220 481 l 1
  401 481 l 1
  401 389 l 1
@@ -45,8 +45,8 @@ SplineSet
  20 481 l 1
  100 481 l 1
  100 545 l 2
- 100 598 123 730 297 730 c 3
- 549 730 564 659 568 620 c 1
+ 100 598 125.335025381 730 317 730 c 7
+ 550.402214022 730 564.295202952 659 568 620 c 1
  568 160 l 2
  568 113 577 84 624 84 c 0
  643 84 664 88 681 92 c 1
@@ -54,9 +54,9 @@ SplineSet
  664 8 628 -10 573 -10 c 0
  471 -10 450 57 450 125 c 2
  450 620 l 1
- 450 620 391 633 326 633 c 3
+ 450 620 400.516129032 633 346 633 c 7
 EndSplineSet
-Validated: 1
+Validated: 524289
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f l
 EndChar

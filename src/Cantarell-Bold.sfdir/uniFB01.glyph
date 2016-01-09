@@ -2,7 +2,7 @@ StartChar: uniFB01
 Encoding: 64257 64257 380
 Width: 619
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -53,6 +53,7 @@ SplineSet
  273 633 220 595 220 549 c 6
  220 481 l 5
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f i
 EndChar
