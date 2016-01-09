@@ -1,27 +1,27 @@
 StartChar: P
 Encoding: 80 80 49
-Width: 631
+Width: 616
 Flags: HMW
-AnchorPoint: "below" 300 0 basechar 0
-AnchorPoint: "above" 292 692 basechar 0
-AnchorPoint: "cedilla" 141 0 basechar 0
+AnchorPoint: "below" 290 0 basechar 0
+AnchorPoint: "above" 282 692 basechar 0
+AnchorPoint: "cedilla" 131 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-260 269 m 2
- 203 269 l 1
- 203 0 l 1
- 80 0 l 1
- 80 692 l 1
- 309 692 l 2
- 500 692 596 624 596 487 c 3
- 596 306 445 269 260 269 c 2
-470 482 m 3
- 470 567 388 579 296 579 c 2
- 203 579 l 1
- 203 382 l 1
- 265 382 l 1
- 373 382 470 389 470 482 c 3
+250 269 m 2
+ 193 269 l 1
+ 193 0 l 1
+ 70 0 l 1
+ 70 692 l 1
+ 299 692 l 2
+ 490 692 586 624 586 487 c 3
+ 586 306 435 269 250 269 c 2
+460 482 m 3
+ 460 567 378 579 286 579 c 2
+ 193 579 l 1
+ 193 382 l 1
+ 255 382 l 1
+ 363 382 460 389 460 482 c 3
 EndSplineSet
 Validated: 1
 EndChar

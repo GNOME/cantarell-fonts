@@ -1,29 +1,29 @@
 StartChar: e
 Encoding: 101 101 2
-Width: 518
+Width: 513
 VWidth: 1023
 Flags: HMW
-AnchorPoint: "ogonek" 395 3 basechar 0
-AnchorPoint: "below" 268 0 basechar 0
-AnchorPoint: "above" 263 481 basechar 0
-AnchorPoint: "cedilla" 258 -1 basechar 0
+AnchorPoint: "ogonek" 390 3 basechar 0
+AnchorPoint: "below" 263 0 basechar 0
+AnchorPoint: "above" 258 481 basechar 0
+AnchorPoint: "cedilla" 253 -1 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-263 492 m 3
- 414 492 491 404 491 247 c 2
- 491 200 l 1
- 160 200 l 1
- 167 125 219 87 311 87 c 3
- 360 87 405 92 446 102 c 1
- 467 20 l 1
- 412 1 355 -10 295 -10 c 3
- 133 -10 37 85 37 241 c 3
- 37 380 126 492 263 492 c 3
-163 285 m 1
- 371 285 l 1
- 371 362 333 397 265 397 c 3
- 204 397 166 353 163 285 c 1
+258 492 m 3
+ 409 492 486 404 486 247 c 2
+ 486 200 l 1
+ 155 200 l 1
+ 162 125 214 87 306 87 c 3
+ 355 87 400 92 441 102 c 1
+ 462 20 l 1
+ 407 1 350 -10 290 -10 c 3
+ 128 -10 32 85 32 241 c 3
+ 32 380 121 492 258 492 c 3
+158 285 m 1
+ 366 285 l 1
+ 366 362 328 397 260 397 c 3
+ 199 397 161 353 158 285 c 1
 EndSplineSet
 Validated: 1
 EndChar

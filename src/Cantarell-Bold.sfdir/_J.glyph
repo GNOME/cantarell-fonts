@@ -1,26 +1,26 @@
 StartChar: J
 Encoding: 74 74 46
-Width: 477
-Flags: MW
-AnchorPoint: "below" 222 0 basechar 0
-AnchorPoint: "above" 343 692 basechar 0
-AnchorPoint: "cedilla" 162 0 basechar 0
+Width: 430
+Flags: HMW
+AnchorPoint: "below" 202 0 basechar 0
+AnchorPoint: "above" 323 692 basechar 0
+AnchorPoint: "cedilla" 142 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-287 253 m 2
- 287 692 l 1
- 410 692 l 1
- 410 253 l 2
- 410 178 392 116 357 66 c 0
- 322 16 253 -9 150 -9 c 3
- 114 -9 80 -4 47 4 c 1
- 30 10 l 1
- 49 118 l 1
- 71 113 l 2
- 90 108 112 105 136 105 c 3
- 199 105 239 120 258 149 c 0
- 277 178 287 213 287 253 c 2
+267 253 m 2
+ 267 692 l 1
+ 390 692 l 1
+ 390 253 l 2
+ 390 178 372 116 337 66 c 0
+ 302 16 233 -9 130 -9 c 3
+ 94 -9 60 -4 27 4 c 1
+ 10 10 l 1
+ 29 118 l 1
+ 51 113 l 2
+ 70 108 92 105 116 105 c 3
+ 179 105 219 120 238 149 c 0
+ 257 178 267 213 267 253 c 2
 EndSplineSet
 Validated: 1
 EndChar

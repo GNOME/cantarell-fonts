@@ -1,24 +1,24 @@
 StartChar: O
 Encoding: 79 79 31
-Width: 784
+Width: 768
 Flags: HMW
-AnchorPoint: "horn" 558 634 basechar 0
-AnchorPoint: "below" 384 -3 basechar 0
-AnchorPoint: "above" 388 693 basechar 0
-AnchorPoint: "cedilla" 392 -3 basechar 0
+AnchorPoint: "horn" 550 634 basechar 0
+AnchorPoint: "below" 376 -3 basechar 0
+AnchorPoint: "above" 380 693 basechar 0
+AnchorPoint: "cedilla" 384 -3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-392 706 m 259
- 598 706 736 563 736 355 c 259
- 736 143 598 -10 388 -10 c 3
- 184 -10 48 138 48 348 c 3
- 48 557 186 706 392 706 c 259
-387 591 m 3
- 253 591 175 496 175 356 c 3
- 175 214 258 107 396 107 c 3
- 532 107 609 206 609 348 c 3
- 609 491 524 591 387 591 c 3
+384 706 m 259
+ 590 706 728 563 728 355 c 259
+ 728 143 590 -10 380 -10 c 3
+ 176 -10 40 138 40 348 c 3
+ 40 557 178 706 384 706 c 259
+379 591 m 3
+ 245 591 167 496 167 356 c 3
+ 167 214 250 107 388 107 c 3
+ 524 107 601 206 601 348 c 3
+ 601 491 516 591 379 591 c 3
 EndSplineSet
 Validated: 1
 EndChar
