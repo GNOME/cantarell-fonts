@@ -1,48 +1,28 @@
 StartChar: w
 Encoding: 119 119 11
-Width: 804
+GlifName: w
+Width: 800
 Flags: HMW
-AnchorPoint: "below" 404 -1 basechar 0
-AnchorPoint: "above" 404 481 basechar 0
-AnchorPoint: "cedilla" 404 -1 basechar 0
+AnchorPoint: "below" 402 -1 basechar 0
+AnchorPoint: "above" 402 481 basechar 0
+AnchorPoint: "cedilla" 402 -1 basechar 0
 LayerCount: 2
-Back
-SplineSet
-7 482 m 1
- 91 482 l 1
- 217 96 l 1
- 220 78 l 1
- 223 96 l 1
- 349 482 l 1
- 429 482 l 1
- 549 96 l 1
- 552 78 l 1
- 555 96 l 1
- 681 482 l 1
- 765 482 l 1
- 599 0 l 1
- 506 0 l 1
- 385 374 l 1
- 261 0 l 1
- 171 0 l 1
- 7 482 l 1
-EndSplineSet
 Fore
 SplineSet
-342 481 m 1
- 462 481 l 1
- 561 127 l 1
- 670 481 l 1
- 799 481 l 1
- 615 0 l 1
- 500 0 l 1
- 402 343 l 1
- 304 0 l 1
- 189 0 l 1
- 5 481 l 1
- 134 481 l 1
- 243 127 l 1
- 342 481 l 1
+230 125 m 1
+ 334 481 l 5
+ 468 481 l 5
+ 571 125 l 1
+ 671 481 l 5
+ 800 481 l 5
+ 625 0 l 1
+ 510 0 l 1
+ 402 337 l 1
+ 291 0 l 1
+ 174 0 l 1
+ 0 481 l 5
+ 130 481 l 5
+ 230 125 l 1
 EndSplineSet
 Validated: 1
 EndChar

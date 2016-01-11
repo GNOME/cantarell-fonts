@@ -1,51 +1,54 @@
 StartChar: t
 Encoding: 116 116 19
-Width: 407
+GlifName: t
+Width: 441
 Flags: HMW
-AnchorPoint: "below" 231 0 basechar 0
-AnchorPoint: "above" 149 632 basechar 0
-AnchorPoint: "cedilla" 248 0 basechar 0
-AnchorPoint: "aboveright" 336 634 basechar 0
+AnchorPoint: "below" 241 0 basechar 0
+AnchorPoint: "above" 159 632 basechar 0
+AnchorPoint: "cedilla" 258 0 basechar 0
+AnchorPoint: "aboveright" 346 634 basechar 0
 LayerCount: 2
 Back
 SplineSet
-226 -10 m 3
- 126 -10 91 48 91 150 c 2
- 91 414 l 1
- 10 414 l 1
- 10 482 l 1
- 91 482 l 1
- 91 615 l 1
- 174 619 l 1
- 174 482 l 1
- 332 482 l 1
- 332 414 l 1
- 174 414 l 1
- 174 156 l 2
- 174 92 188 59 250 59 c 3
- 279 59 302 67 315 70 c 1
- 332 9 l 1
- 295 -3 260 -10 226 -10 c 3
+305 88 m 4
+ 252 88 225 112 225 159 c 6
+ 225 392 l 5
+ 394 392 l 5
+ 394 488 l 5
+ 225 488 l 5
+ 225 627 l 5
+ 103 627 l 5
+ 103 488 l 5
+ 21 488 l 5
+ 21 392 l 5
+ 103 392 l 5
+ 103 156 l 6
+ 103 104 115 63 138 33 c 132
+ 161 3 208 -11 278 -11 c 4
+ 298 -11 319 -9 340 -4 c 132
+ 361 1 385 9 415 17 c 5
+ 399 103 l 5
+ 361 93 330 88 305 88 c 4
 EndSplineSet
 Fore
 SplineSet
-401 17 m 1
- 367 4 310 -10 264 -10 c 3
- 111 -10 90 70 90 155 c 2
- 90 389 l 1
- 10 389 l 1
- 10 481 l 1
- 90 481 l 1
- 90 632 l 1
- 213 632 l 1
- 213 481 l 1
- 379 481 l 1
- 379 389 l 1
- 213 389 l 1
- 213 158 l 2
- 213 121 228 88 294 88 c 3
- 328 88 365 97 383 102 c 1
- 401 17 l 1
+411 17 m 1
+ 377 4 320 -10 274 -10 c 3
+ 121 -10 100 70 100 155 c 2
+ 100 385 l 1
+ 20 385 l 1
+ 20 481 l 1
+ 100 481 l 1
+ 100 632 l 1
+ 223 632 l 1
+ 223 481 l 1
+ 389 481 l 1
+ 389 385 l 1
+ 223 385 l 1
+ 223 158 l 2
+ 223 121 238 88 304 88 c 3
+ 338 88 375 97 393 102 c 1
+ 411 17 l 1
 EndSplineSet
 Validated: 1
 EndChar

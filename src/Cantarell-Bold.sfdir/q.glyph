@@ -1,10 +1,11 @@
 StartChar: q
 Encoding: 113 113 16
-Width: 563
+GlifName: q
+Width: 575
 Flags: HMW
-AnchorPoint: "below" 300 -261 basechar 0
-AnchorPoint: "above" 295 482.333 basechar 0
-AnchorPoint: "cedilla" 291 -261 basechar 0
+AnchorPoint: "below" 306 -261 basechar 0
+AnchorPoint: "above" 301 482.333 basechar 0
+AnchorPoint: "cedilla" 297 -261 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -27,22 +28,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-403 449 m 1
- 419 481 l 1
- 503 481 l 1
- 503 -259 l 1
- 383 -259 l 1
- 383 15 l 1
- 350 -2 320 -10 278 -10 c 3
- 121 -10 32 83 32 238 c 3
- 32 433 169 492 262 492 c 3
- 320 492 370 467 403 449 c 1
-295 395 m 3
- 215 395 155 363 155 238 c 3
- 155 125 219 82 299 82 c 3
- 333 82 360 93 382 106 c 1
- 382 376 l 1
- 350 388 321 395 295 395 c 3
+409 449 m 1
+ 425 481 l 1
+ 509 481 l 1
+ 509 -259 l 1
+ 389 -259 l 1
+ 389 15 l 1
+ 356 -2 326 -10 284 -10 c 3
+ 127 -10 38 83 38 238 c 3
+ 38 433 175 492 268 492 c 3
+ 326 492 376 467 409 449 c 1
+301 395 m 3
+ 221 395 161 363 161 238 c 3
+ 161 125 225 82 305 82 c 3
+ 339 82 366 93 388 106 c 1
+ 388 376 l 1
+ 356 388 327 395 301 395 c 3
 EndSplineSet
 Validated: 1
 EndChar

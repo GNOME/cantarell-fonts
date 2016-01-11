@@ -1,27 +1,28 @@
 StartChar: P
 Encoding: 80 80 49
-Width: 616
+GlifName: P_
+Width: 591
 Flags: HMW
-AnchorPoint: "below" 290 0 basechar 0
-AnchorPoint: "above" 282 692 basechar 0
-AnchorPoint: "cedilla" 131 0 basechar 0
+AnchorPoint: "below" 255 0 basechar 0
+AnchorPoint: "above" 247 692 basechar 0
+AnchorPoint: "cedilla" 96 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-250 269 m 2
- 193 269 l 1
- 193 0 l 1
- 70 0 l 1
- 70 692 l 1
- 299 692 l 2
- 490 692 586 624 586 487 c 3
- 586 306 435 269 250 269 c 2
-460 482 m 3
- 460 567 378 579 286 579 c 2
- 193 579 l 1
- 193 382 l 1
- 255 382 l 1
- 363 382 460 389 460 482 c 3
+215 269 m 2
+ 158 269 l 1
+ 158 0 l 1
+ 35 0 l 1
+ 35 692 l 1
+ 264 692 l 2
+ 455 692 551 624 551 487 c 3
+ 551 306 400 269 215 269 c 2
+425 482 m 3
+ 425 567 343 579 251 579 c 2
+ 158 579 l 1
+ 158 382 l 1
+ 220 382 l 1
+ 328 382 425 389 425 482 c 3
 EndSplineSet
 Validated: 1
 EndChar

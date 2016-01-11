@@ -1,34 +1,35 @@
 StartChar: l
 Encoding: 108 108 10
-Width: 295
+GlifName: l
+Width: 304
 Flags: HMW
-AnchorPoint: "below" 152 0 basechar 0
-AnchorPoint: "aboveright" 290 634 basechar 0
-AnchorPoint: "above" 119 718 basechar 0
+AnchorPoint: "below" 159 0 basechar 0
+AnchorPoint: "aboveright" 297 634 basechar 0
+AnchorPoint: "above" 126 718 basechar 0
 LayerCount: 2
 Back
 SplineSet
-214 65 m 3
- 233 65 241 67 254 70 c 5
- 271 14 l 5
- 254 4 221 -10 174 -10 c 3
- 111 -10 70 37 70 105 c 1
- 70 718 l 1
- 150 718 l 1
- 150 134 l 2
- 150 97 152 65 214 65 c 3
+221 65 m 3
+ 240 65 248 67 261 70 c 5
+ 278 14 l 5
+ 261 4 228 -10 181 -10 c 3
+ 118 -10 77 37 77 105 c 1
+ 77 718 l 1
+ 157 718 l 1
+ 157 134 l 2
+ 157 97 159 65 221 65 c 3
 EndSplineSet
 Fore
 SplineSet
-239 84 m 3
- 256 84 271 87 271 87 c 1
- 291 14 l 1
- 291 14 238 -10 183 -10 c 3
- 81 -10 60 57 60 125 c 2
- 60 718 l 1
- 183 718 l 1
- 183 160 l 2
- 183 113 192 84 239 84 c 3
+246 84 m 3
+ 263 84 278 87 278 87 c 1
+ 298 14 l 1
+ 298 14 245 -10 190 -10 c 3
+ 88 -10 67 57 67 125 c 2
+ 67 718 l 1
+ 190 718 l 1
+ 190 160 l 2
+ 190 113 199 84 246 84 c 3
 EndSplineSet
 Validated: 1
 EndChar

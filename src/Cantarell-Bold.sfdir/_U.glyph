@@ -1,26 +1,27 @@
 StartChar: U
 Encoding: 85 85 51
-Width: 692
+GlifName: U_
+Width: 708
 Flags: HMW
-AnchorPoint: "horn" 595 633 basechar 0
-AnchorPoint: "ogonek" 531 0 basechar 0
-AnchorPoint: "below" 353 0 basechar 0
-AnchorPoint: "above" 347 692 basechar 0
-AnchorPoint: "cedilla" 353 0 basechar 0
+AnchorPoint: "horn" 603 633 basechar 0
+AnchorPoint: "ogonek" 539 0 basechar 0
+AnchorPoint: "below" 361 0 basechar 0
+AnchorPoint: "above" 355 692 basechar 0
+AnchorPoint: "cedilla" 361 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-345 -10 m 3
- 153 -10 60 75 60 254 c 2
- 60 692 l 1
- 183 692 l 1
- 183 260 l 2
- 183 155 239 105 345 105 c 3
- 454 105 507 151 507 260 c 2
- 507 692 l 1
- 632 692 l 1
- 632 254 l 2
- 632 74 539 -10 345 -10 c 3
+353 -10 m 3
+ 161 -10 68 75 68 254 c 2
+ 68 692 l 1
+ 191 692 l 1
+ 191 260 l 2
+ 191 155 247 105 353 105 c 3
+ 462 105 515 151 515 260 c 2
+ 515 692 l 1
+ 640 692 l 1
+ 640 254 l 2
+ 640 74 547 -10 353 -10 c 3
 EndSplineSet
 Validated: 1
 EndChar

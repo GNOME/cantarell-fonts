@@ -1,34 +1,35 @@
 StartChar: T
 Encoding: 84 84 39
-Width: 599
-Flags: MW
-AnchorPoint: "below" 300 0 basechar 0
-AnchorPoint: "above" 298 692 basechar 0
-AnchorPoint: "cedilla" 300 0 basechar 0
+GlifName: T_
+Width: 579
+Flags: HMW
+AnchorPoint: "below" 290 0 basechar 0
+AnchorPoint: "above" 288 692 basechar 0
+AnchorPoint: "cedilla" 290 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-10 692 m 1
- 556 692 l 1
- 556 619 l 1
- 324 619 l 1
- 324 0 l 1
- 296 -0 269 0 241 0 c 1
- 241 619 l 1
- 10 619 l 1
- 10 692 l 1
+-70 692 m 1
+ 476 692 l 1
+ 476 619 l 1
+ 244 619 l 1
+ 244 0 l 1
+ 216 0 189 0 161 0 c 1
+ 161 619 l 1
+ -70 619 l 1
+ -70 692 l 1
 EndSplineSet
 Fore
 SplineSet
-10 692 m 1
- 589 692 l 1
- 589 579 l 1
- 361 579 l 1
- 361 0 l 1
- 238 0 l 1
- 238 579 l 1
- 10 579 l 1
- 10 692 l 1
+0 692 m 1
+ 579 692 l 1
+ 579 579 l 1
+ 351 579 l 1
+ 351 0 l 1
+ 228 0 l 1
+ 228 579 l 1
+ 0 579 l 1
+ 0 692 l 1
 EndSplineSet
 Validated: 1
 EndChar
