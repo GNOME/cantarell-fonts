@@ -1,5 +1,6 @@
 noinst_DATA = \
-	generate.sh
+	generate.sh \
+	test-coverage.py
 
 EXTRA_DIST = $(noinst_DATA)
 
