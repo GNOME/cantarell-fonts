@@ -1,7 +1,7 @@
 StartChar: m
 Encoding: 109 109 17
 Width: 797
-Flags: MW
+Flags: HMW
 AnchorPoint: "cedilla" 390 0 basechar 0
 AnchorPoint: "below" 390 0 basechar 0
 AnchorPoint: "above" 390 482 basechar 0
@@ -11,9 +11,9 @@ SplineSet
 584 494 m 3
  684 494 739 429 739 329 c 2
  739 0 l 1
- 654 0 l 1
- 654 309 l 2
- 654 389 623 428 559 428 c 3
+ 656 0 l 1
+ 656 309 l 2
+ 656 389 624 428 559 428 c 3
  528 428 489 414 442 385 c 1
  445 376 446 357 446 329 c 2
  446 0 l 1
@@ -30,5 +30,4 @@ SplineSet
  352 494 395 468 420 432 c 1
  468 467 511 494 584 494 c 3
 EndSplineSet
-Validated: 1
 EndChar

@@ -1,15 +1,15 @@
 StartChar: n
 Encoding: 110 110 5
 Width: 538
-Flags: MW
+Flags: HMW
 AnchorPoint: "cedilla" 267 0 basechar 0
 AnchorPoint: "below" 267 0 basechar 0
 AnchorPoint: "above" 267 482 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-394 310 m 2
- 394 391 368 425 288 425 c 3
+393 310 m 2
+ 393 391 367 425 288 425 c 3
  247 425 202 414 154 391 c 1
  154 0 l 1
  71 0 l 1
@@ -19,8 +19,7 @@ SplineSet
  204 479 262 495 318 495 c 3
  421 495 476 433 476 330 c 2
  476 0 l 1
- 394 0 l 1
- 394 310 l 2
+ 393 0 l 1
+ 393 310 l 2
 EndSplineSet
-Validated: 1
 EndChar

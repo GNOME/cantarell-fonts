@@ -5,7 +5,7 @@ Width: 253
 VWidth: 1023
 Flags: HMW
 AnchorPoint: "below" 127 0 basechar 0
-AnchorPoint: "above" 127 482 basechar 0
+AnchorPoint: "above" 127 481 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -17,11 +17,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-67 482 m 1
- 187 482 l 1
+67 481 m 5
+ 187 481 l 1
  187 0 l 1
  67 0 l 1
- 67 482 l 1
+ 67 481 l 5
 EndSplineSet
 Validated: 1
 EndChar

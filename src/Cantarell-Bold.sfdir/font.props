@@ -6,7 +6,7 @@ Weight: Bold
 Copyright: Copyright (c) 2009--2016, The Cantarell Authors\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL
 UComments: "Cantarell was originally designed by Dave Crossland and is developed by the GNOME community+AA0ACgAA-dave@understandinglimited.com+AA0ACgAA-http://live.gnome.org/CantarellFonts"
 FontLog: "See Cantarell Regular."
-Version: 0.0.19
+Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1452773292
+ModificationTime: 1453734242
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -60,8 +60,8 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 8 2
-BeginPrivate: 10
+WinInfo: 32 8 14
+BeginPrivate: 11
 BlueValues 31 [-10 0 481 492 692 706 718 730]
 OtherBlues 11 [-264 -259]
 FamilyBlues 31 [-10 0 482 494 692 706 718 730]
@@ -72,6 +72,7 @@ StemSnapH 22 [92 95 96 102 107 113]
 StemSnapV 9 [120 123]
 BlueFuzz 1 1
 BlueScale 6 0.0536
+BlueShift 1 7
 EndPrivate
 Grid
 257.5 1239 m 0
