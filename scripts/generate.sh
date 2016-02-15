@@ -10,7 +10,6 @@ SetPref("TTFFoundry", "Cantarell")
 i = 1
 while (i < $argc)
     Open($argv[i])
-    SetFontNames("", "", "", "", "", "@PACKAGE_VERSION@")
 
     if (Validate(1))
       Error($argv[i] + " did not pass validation. Tolerate no technical flaws in the source! Run 'Validate' in FontForge to see and fix what's wrong. The generated files might not validate completely due to the way FontForge scripting seems to work..")

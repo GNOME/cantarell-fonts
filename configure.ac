@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([cantarell-fonts], [0.00021],
+AC_INIT([cantarell-fonts], [0.0.22],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=cantarell-fonts])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
@@ -57,7 +57,6 @@ fontconfig/Makefile
 src/Makefile
 otf/Makefile
 scripts/Makefile
-scripts/generate.sh
 ])
 
 AC_OUTPUT
