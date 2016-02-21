@@ -3,7 +3,7 @@ Encoding: 770 770 331
 Width: 0
 VWidth: 1023
 Flags: HMW
-AnchorPoint: "mark_above" 0 718 basemark 0
+AnchorPoint: "mark_above" 0 700 basemark 0
 AnchorPoint: "above" 0 482 mark 0
 LayerCount: 2
 Back
@@ -19,13 +19,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-0 718 m 1
+0 718 m 5
  138 580 l 1
  95 536 l 1
  0 635 l 25
  -95 536 l 25
  -138 580 l 1
- 0 718 l 1
+ 0 718 l 5
 EndSplineSet
 Validated: 1
 EndChar

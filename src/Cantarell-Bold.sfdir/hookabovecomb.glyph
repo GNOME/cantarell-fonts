@@ -3,8 +3,9 @@ Encoding: 777 777 667
 GlifName: hookabovecomb
 Width: 0
 VWidth: 0
-Flags: MW
-AnchorPoint: "above" 0 466 mark 0
+Flags: HMW
+AnchorPoint: "mark_above" -0 481 mark 0
+AnchorPoint: "above" 0 481 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -22,17 +23,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-5 730 m 3
- 61 730 110 701 110 640 c 3
- 110 596 97 586 82 572 c 0
- 66 557 49 542 49 526 c 1
- -45 526 l 1
- -45 576 -21 590 0 608 c 0
- 15 623 21 630 21 634 c 3
- 21 644 17 650 5 650 c 3
- -15 650 -43 641 -63 626 c 1
- -92 700 l 1
- -63 717 -36 730 5 730 c 3
+-8 730 m 3
+ 42 730 85 707 85 655 c 3
+ 85 583 6 526 6 526 c 1
+ -45 580 l 1
+ -45 580 -6 612 -6 636 c 3
+ -6 651 -18 654 -25 654 c 3
+ -34 654 -49 647 -59 641 c 1
+ -89 705 l 1
+ -70 719 -36 730 -8 730 c 3
 EndSplineSet
 Validated: 1
 EndChar
