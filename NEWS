@@ -1,3 +1,8 @@
+0.0.23
+ - reworked anchors for correct accent rendering under
+   harfbuzz 1.2.0
+ - more anchor and combined glyph work
+
 0.0.22
  - improvements to the generation script
  - bold: double quotes alignment
