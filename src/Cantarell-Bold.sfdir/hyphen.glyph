@@ -1,23 +1,23 @@
 StartChar: hyphen
 Encoding: 45 45 45
 GlifName: hyphen
-Width: 560
+Width: 400
 VWidth: 1023
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-55 355 m 5
- 345 355 l 5
- 345 288 l 5
- 55 288 l 5
- 55 355 l 5
+-25 355 m 5
+ 265 355 l 5
+ 265 288 l 5
+ -25 288 l 5
+ -25 355 l 5
 EndSplineSet
 Fore
 SplineSet
 50 375 m 1
- 510 375 l 1
- 510 268 l 1
+ 350 375 l 1
+ 350 268 l 1
  50 268 l 1
  50 375 l 1
 EndSplineSet
