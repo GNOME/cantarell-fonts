@@ -1,6 +1,8 @@
 StartChar: d
 Encoding: 100 100 1
+GlifName: d
 Width: 551
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "aboveright" 551 669 basechar 0
 AnchorPoint: "cedilla" 290 0 basechar 0
@@ -9,22 +11,23 @@ AnchorPoint: "above" 439 718 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-274 -10 m 3
- 127 -10 48 91 48 239 c 3
- 48 389 138 494 286 494 c 3
- 331 494 369 486 400 471 c 1
- 400 718 l 5
- 483 718 l 5
+271 -10 m 7
+ 125 -10 48 92 48 239 c 7
+ 48 396 121 495 249 495 c 7
+ 302 495 356 479 411 447 c 5
+ 403 391 l 5
+ 359 417 317 430 279 430 c 7
+ 174 430 134 354 134 244 c 7
+ 134 121 177 56 292 56 c 7
+ 342 56 368 69 403 92 c 5
+ 410 40 l 5
+ 369 12 335 -10 271 -10 c 7
+401 34 m 1
+ 401 718 l 1
+ 483 718 l 1
  483 0 l 1
  425 0 l 1
- 411 34 l 1
- 365 4 320 -10 274 -10 c 3
-291 60 m 3
- 342 60 365 70 400 89 c 1
- 400 407 l 1
- 369 420 333 427 292 427 c 3
- 184 427 133 351 133 244 c 3
- 133 136 185 60 291 60 c 3
+ 401 34 l 1
 EndSplineSet
-Validated: 1
+Validated: 5
 EndChar

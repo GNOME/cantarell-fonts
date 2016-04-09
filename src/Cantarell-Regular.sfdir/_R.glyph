@@ -1,5 +1,6 @@
 StartChar: R
 Encoding: 82 82 47
+GlifName: R_
 Width: 623
 Flags: HMW
 AnchorPoint: "cedilla" 127 0 basechar 0
@@ -34,17 +35,16 @@ SplineSet
  168 0 l 1
  85 0 l 1
  85 692 l 1
- 303 692 l 2
- 463 692 545 609 545 490 c 3
+ 339 692 l 2
+ 476 692 545 609 545 490 c 3
  545 399 481 321 386 295 c 1
  583 0 l 1
  487 0 l 1
-257 358 m 3
- 368 358 462 366 462 490 c 3
- 462 600 379 619 258 619 c 2
+310 358 m 2
+ 392 358 462 386 462 490 c 3
+ 462 600 400 619 310 619 c 2
  168 619 l 1
  168 358 l 1
- 257 358 l 3
+ 310 358 l 2
 EndSplineSet
-Validated: 1
 EndChar

@@ -1,6 +1,8 @@
 StartChar: k
 Encoding: 107 107 22
-Width: 504
+GlifName: k
+Width: 484
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "cedilla" 397 0 basechar 0
 AnchorPoint: "below" 259 0 basechar 0
@@ -8,18 +10,21 @@ AnchorPoint: "above" 117 718 basechar 0
 LayerCount: 2
 Back
 SplineSet
-180 718 m 1
- 180 0 l 1
- 60 0 l 1
- 60 718 l 1
- 180 718 l 1
-376 481 m 1
- 522 481 l 1
- 336 266 l 1
- 541 0 l 1
- 394 0 l 1
- 193 266 l 1
- 376 481 l 1
+75 718 m 5
+ 158 718 l 5
+ 158 0 l 5
+ 75 0 l 5
+ 75 718 l 5
+484 0 m 5
+ 396 0 l 5
+ 234 253 l 5
+ 286 308 l 5
+ 484 0 l 5
+118 111 m 5
+ 79 171 l 5
+ 372 482 l 5
+ 465 482 l 5
+ 118 111 l 5
 EndSplineSet
 Fore
 SplineSet
@@ -28,13 +33,15 @@ SplineSet
  158 0 l 1
  75 0 l 1
  75 718 l 1
-371 482 m 1
- 474 482 l 1
- 269 267 l 1
+118 111 m 1
+ 79 171 l 1
+ 372 482 l 1
+ 465 482 l 1
+ 293 298 l 1
  484 0 l 1
- 381 0 l 5
- 166 267 l 1
- 371 482 l 1
+ 396 0 l 1
+ 241 242 l 1
+ 118 111 l 1
 EndSplineSet
-Validated: 1
+Validated: 5
 EndChar

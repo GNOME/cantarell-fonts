@@ -1,5 +1,6 @@
 StartChar: U
 Encoding: 85 85 51
+GlifName: U_
 Width: 681
 Flags: HMW
 AnchorPoint: "horn" 591 601 basechar 0
@@ -11,16 +12,16 @@ LayerCount: 2
 Fore
 SplineSet
 340 -10 m 259
- 153 -10 75 81 75 268 c 2
+ 143 -10 75 115 75 278 c 2
  75 692 l 1
  157 692 l 1
- 157 247 l 2
- 157 126 217 63 340 63 c 3
- 463 63 523 128 523 247 c 2
+ 157 257 l 2
+ 157 161 207 63 340 63 c 3
+ 473 63 523 163 523 257 c 2
  523 692 l 1
  606 692 l 1
- 606 268 l 2
- 606 81 527 -10 340 -10 c 259
+ 606 278 l 2
+ 606 115 537 -10 340 -10 c 259
 EndSplineSet
 Validated: 1
 EndChar

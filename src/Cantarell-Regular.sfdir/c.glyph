@@ -1,7 +1,8 @@
 StartChar: c
 Encoding: 99 99 18
+GlifName: c
 Width: 456
-Flags: MW
+Flags: HMW
 AnchorPoint: "cedilla" 278 0 basechar 0
 AnchorPoint: "below" 260 0 basechar 0
 AnchorPoint: "above" 260 482 basechar 0
@@ -9,16 +10,16 @@ LayerCount: 2
 Fore
 SplineSet
 284 -10 m 3
- 132 -10 48 83 48 236 c 3
- 48 389 138 494 301 494 c 3
- 342 494 384 485 425 467 c 1
- 405 406 l 1
- 375 419 342 425 305 425 c 3
- 189 425 131 364 131 251 c 3
- 131 121 193 58 312 58 c 3
- 344 58 375 64 405 75 c 1
- 424 18 l 1
- 375 -1 328 -10 284 -10 c 3
+ 132 -10 48 87 48 242 c 3
+ 48 393 130 494 281 494 c 3
+ 327 494 376 482 422 458 c 1
+ 405 402 l 1
+ 371 418 334 425 292 425 c 3
+ 185 425 131 360 131 242 c 3
+ 131 117 187 58 294 58 c 3
+ 353 58 401 87 414 95 c 1
+ 431 38 l 1
+ 412 20 354 -10 284 -10 c 3
 EndSplineSet
 Validated: 1
 EndChar

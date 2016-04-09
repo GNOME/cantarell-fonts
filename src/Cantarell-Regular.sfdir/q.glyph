@@ -1,29 +1,32 @@
 StartChar: q
 Encoding: 113 113 16
+GlifName: q
 Width: 552
-Flags: MW
+UnlinkRmOvrlpSave: 1
+Flags: HMW
 AnchorPoint: "cedilla" 300 -261 basechar 0
 AnchorPoint: "below" 300 -261 basechar 0
 AnchorPoint: "above" 300 482 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-286 -10 m 3
- 142 -10 48 100 48 249 c 3
- 48 392 126 494 276 494 c 259
- 324 494 369 480 411 451 c 1
+271 -10 m 3
+ 125 -10 48 92 48 239 c 3
+ 48 396 121 495 249 495 c 3
+ 302 495 356 479 411 447 c 1
+ 403 391 l 1
+ 359 417 317 430 279 430 c 3
+ 174 430 134 354 134 244 c 3
+ 134 121 177 56 292 56 c 3
+ 342 56 368 69 403 92 c 1
+ 410 40 l 1
+ 369 12 335 -10 271 -10 c 3
+401 448 m 1
  425 482 l 1
- 484 482 l 1
- 484 -264 l 1
- 401 -264 l 1
- 401 14 l 1
- 365 -2 327 -10 286 -10 c 3
-401 396 m 1
- 368 417 343 425 292 425 c 3
- 185 425 133 349 133 240 c 3
- 133 136 189 56 293 56 c 3
- 334 56 370 64 401 79 c 1
- 401 396 l 1
+ 483 482 l 1
+ 483 -248 l 1
+ 401 -248 l 1
+ 401 448 l 1
 EndSplineSet
-Validated: 1
+Validated: 5
 EndChar

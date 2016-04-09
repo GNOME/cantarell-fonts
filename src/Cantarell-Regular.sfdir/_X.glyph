@@ -1,5 +1,6 @@
 StartChar: X
 Encoding: 88 88 41
+GlifName: X_
 Width: 619
 Flags: HMW
 AnchorPoint: "cedilla" 310 0 basechar 0
@@ -24,19 +25,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-487 692 m 1
- 582 692 l 1
- 363 362 l 1
- 609 0 l 1
- 502 0 l 1
- 307 290 l 1
- 112 0 l 1
- 10 0 l 1
- 260 360 l 1
- 39 692 l 1
- 140 692 l 1
- 316 431 l 1
- 487 692 l 1
+39 692 m 5
+ 134 692 l 5
+ 310 425 l 5
+ 487 692 l 5
+ 582 692 l 5
+ 358 366 l 5
+ 609 0 l 5
+ 514 0 l 5
+ 310 307 l 5
+ 105 0 l 5
+ 10 0 l 5
+ 263 366 l 5
+ 39 692 l 5
 EndSplineSet
-Validated: 1
 EndChar

@@ -1,9 +1,10 @@
 StartChar: y
 Encoding: 121 121 26
+GlifName: y
 Width: 517
-Flags: MW
-AnchorPoint: "cedilla" 256 -261 basechar 0
-AnchorPoint: "below" 256 -261 basechar 0
+Flags: HMW
+AnchorPoint: "cedilla" 256 -250 basechar 0
+AnchorPoint: "below" 256 -250 basechar 0
 AnchorPoint: "above" 256 482 basechar 0
 LayerCount: 2
 Back
@@ -22,8 +23,8 @@ Fore
 SplineSet
 408 482 m 1
  487 482 l 1
- 211 -259 l 1
- 127 -259 l 1
+ 211 -248 l 1
+ 127 -248 l 1
  219 -25 l 1
  25 482 l 1
  112 482 l 1

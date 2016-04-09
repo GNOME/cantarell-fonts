@@ -1,7 +1,8 @@
 StartChar: u
 Encoding: 117 117 14
+GlifName: u
 Width: 543
-Flags: MW
+Flags: HMW
 AnchorPoint: "horn" 461 445 basechar 0
 AnchorPoint: "ogonek" 438 0 basechar 0
 AnchorPoint: "cedilla" 262 0 basechar 0
@@ -11,7 +12,7 @@ LayerCount: 2
 Fore
 SplineSet
 153 177 m 2
- 153 96 179 61 259 61 c 3
+ 153 96 179 61 259 61 c 7
  299 61 343 73 392 96 c 1
  392 482 l 1
  475 482 l 1
