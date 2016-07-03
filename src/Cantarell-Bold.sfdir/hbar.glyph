@@ -1,7 +1,7 @@
 StartChar: hbar
 Encoding: 295 295 335
 GlifName: hbar
-Width: 576
+Width: 577
 VWidth: 1023
 UnlinkRmOvrlpSave: 1
 Flags: HMW
@@ -29,12 +29,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--1 638 m 1
- 316 638 l 1
- 316 543 l 1
- -1 543 l 1
- -1 638 l 1
+0 638 m 1
+ 317 638 l 1
+ 317 543 l 1
+ 0 543 l 1
+ 0 638 l 1
 EndSplineSet
 Refer: 3 104 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar

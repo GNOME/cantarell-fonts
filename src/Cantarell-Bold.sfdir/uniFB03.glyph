@@ -1,9 +1,9 @@
 StartChar: uniFB03
 Encoding: 64259 64259 382
 GlifName: uniF_B_03
-Width: 969
+Width: 1000
 VWidth: 0
-Flags: HMW
+Flags: HM
 LayerCount: 2
 Back
 SplineSet
@@ -42,47 +42,6 @@ SplineSet
  178 419 l 1
 EndSplineSet
 Fore
-SplineSet
-220 385 m 5
- 220 0 l 5
- 100 0 l 5
- 100 385 l 5
- 20 385 l 5
- 20 481 l 5
- 100 481 l 5
- 100 545 l 6
- 100 598 123 730 297 730 c 7
- 323 730 363 728 422 710 c 6
- 439 704 l 5
- 421 618 l 5
- 401 623 l 6
- 387 626 355 633 326 633 c 7
- 261 633 220 595 220 549 c 6
- 220 481 l 5
- 450 481 l 5
- 450 545 l 6
- 450 598 473 730 647 730 c 7
- 785 730 859 694 888 676 c 4
- 909 662 923 639 923 614 c 7
- 923 575 888 540 849 540 c 7
- 810 540 775 575 775 614 c 7
- 775 617 776 621 776 624 c 4
- 752 629 710 633 676 633 c 7
- 611 633 570 595 570 549 c 6
- 570 481 l 5
- 910 481 l 5
- 910 0 l 5
- 790 0 l 5
- 790 385 l 5
- 570 385 l 5
- 570 0 l 5
- 450 0 l 5
- 450 385 l 5
- 220 385 l 5
-EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f uniFB01
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" uniFB00 i
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0-1" f f i
 EndChar

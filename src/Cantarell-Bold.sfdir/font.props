@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1236980653
-ModificationTime: 1456488478
+ModificationTime: 1467581130
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -46,7 +46,6 @@ OS2CapHeight: 692
 OS2XHeight: 481
 OS2FamilyClass: 2050
 OS2Vendor: 'ABAT'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "locl_ROM" { "locl_ROM subtable"  } ['locl' ('latn' <'ROM ' 'MOL ' > ) ]
 Lookup: 260 0 0 "'mark' LGC marks" { "'mark'-horn"  "'mark'-ogonek"  "'mark'-aboveright"  "'mark'-cedilla"  "'mark'-above"  "'mark'-below"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -60,7 +59,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 8 2
+WinInfo: 40 8 6
 BeginPrivate: 11
 BlueValues 31 [-10 0 481 492 692 706 718 730]
 OtherBlues 11 [-264 -259]
@@ -74,26 +73,6 @@ BlueFuzz 1 1
 BlueScale 6 0.0536
 BlueShift 1 7
 EndPrivate
-Grid
-257.5 1239 m 0
- 257.5 -761 l 1024
--10 694 m 25
- 798 694 l 1049
--233 671 m 1
- 625 671 l 1025
--231 482 m 1
- 633 482 l 1025
--1000 1057 m 0
- 2000 1057 l 1024
--1000 738 m 0
- 2000 738 l 1024
--1000 694 m 0
- 2000 694 l 1024
-321 1239 m 0
- 321 -761 l 1024
-128 1239 m 0
- 128 -761 l 1024
-EndSplineSet
 TeXData: 1 0 0 250299 125149 83433 441600 -782188 83433 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "horn" "'mark'-horn" "mark_above" "'mkmk' Mark to Mark lookup 1-1" "ogonek" "'mark'-ogonek" "below" "'mark'-below" "above" "'mark'-above" "cedilla" "'mark'-cedilla" "aboveright" "'mark'-aboveright" 
+AnchorClass2: "horn" "'mark'-horn" "mark_above" "'mkmk' Mark to Mark lookup 1-1" "ogonek" "'mark'-ogonek" "below" "'mark'-below" "above" "'mark'-above" "cedilla" "'mark'-cedilla" "aboveright" "'mark'-aboveright"
 EndSplineFont

@@ -2,26 +2,12 @@ StartChar: K
 Encoding: 75 75 43
 GlifName: K_
 Width: 637
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "below" 320 0 basechar 0
 AnchorPoint: "above" 319 693 basechar 0
 AnchorPoint: "cedilla" 320 0 basechar 0
 LayerCount: 2
-Back
-SplineSet
-65 694 m 1
- 148 694 l 1
- 148 0 l 1
- 65 0 l 1
- 65 694 l 1
-453 694 m 1
- 557 694 l 1
- 264 363 l 1
- 576 0 l 1
- 469 0 l 1
- 159 356 l 1
- 453 694 l 1
-EndSplineSet
 Fore
 SplineSet
 193 692 m 1
@@ -29,13 +15,15 @@ SplineSet
  70 0 l 1
  70 692 l 1
  193 692 l 1
-203 358 m 1
+180 330 m 1
  477 692 l 1
  617 692 l 1
- 345 358 l 1
+ 345 359 l 1
  637 0 l 1
  491 0 l 1
- 203 358 l 1
+ 272 271 l 1
+ 180 158 l 1
+ 180 330 l 1
 EndSplineSet
-Validated: 1
+Validated: 5
 EndChar

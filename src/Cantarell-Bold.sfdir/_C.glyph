@@ -3,6 +3,7 @@ Encoding: 67 67 54
 GlifName: C_
 Width: 671
 Flags: HMW
+AnchorPoint: "horn" 550 634 basechar 0
 AnchorPoint: "below" 341 0 basechar 0
 AnchorPoint: "above" 369 693 basechar 0
 AnchorPoint: "cedilla" 346 0 basechar 0
@@ -10,20 +11,15 @@ LayerCount: 2
 Fore
 SplineSet
 40 352 m 3
- 40 567 191 706 407 706 c 3
- 478 706 544 693 607 667 c 1
- 628 659 l 1
- 586 561 l 1
- 567 568 l 2
- 508 588 477 593 409 593 c 3
- 261 593 163 494 163 352 c 3
- 163 197 268 103 427 103 c 3
- 468 103 519 114 578 137 c 1
- 596 145 l 1
- 636 44 l 1
- 619 37 l 1
- 540 6 468 -10 405 -10 c 3
- 185 -10 40 135 40 352 c 3
+ 40 567 177 706 397 706 c 3
+ 471 706 558 693 628 649 c 1
+ 594 540 l 1
+ 530 584 459 593 382 593 c 3
+ 240 593 163 494 163 352 c 3
+ 163 197 256 103 396 103 c 3
+ 448 103 536 119 602 151 c 1
+ 636 42 l 1
+ 553 9 456 -10 385 -10 c 3
+ 177 -10 40 135 40 352 c 3
 EndSplineSet
-Validated: 1
 EndChar

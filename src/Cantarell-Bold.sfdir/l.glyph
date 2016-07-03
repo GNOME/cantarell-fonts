@@ -1,35 +1,22 @@
 StartChar: l
 Encoding: 108 108 10
 GlifName: l
-Width: 304
+Width: 305
 Flags: HMW
-AnchorPoint: "below" 159 0 basechar 0
-AnchorPoint: "aboveright" 297 634 basechar 0
-AnchorPoint: "above" 126 718 basechar 0
+AnchorPoint: "below" 160 0 basechar 0
+AnchorPoint: "aboveright" 298 634 basechar 0
+AnchorPoint: "above" 127 718 basechar 0
 LayerCount: 2
-Back
-SplineSet
-221 65 m 3
- 240 65 248 67 261 70 c 5
- 278 14 l 5
- 261 4 228 -10 181 -10 c 3
- 118 -10 77 37 77 105 c 1
- 77 718 l 1
- 157 718 l 1
- 157 134 l 2
- 157 97 159 65 221 65 c 3
-EndSplineSet
 Fore
 SplineSet
-246 84 m 3
- 263 84 278 87 278 87 c 1
- 298 14 l 1
- 298 14 245 -10 190 -10 c 3
- 88 -10 67 57 67 125 c 2
- 67 718 l 1
- 190 718 l 1
- 190 160 l 2
- 190 113 199 84 246 84 c 3
+237 89 m 7
+ 252 89 265 92 265 92 c 5
+ 289 0 l 5
+ 289 0 256 -10 221 -10 c 7
+ 94 -10 68 77 68 165 c 6
+ 68 718 l 5
+ 191 718 l 5
+ 191 190 l 6
+ 191 128 198 89 237 89 c 7
 EndSplineSet
-Validated: 1
 EndChar

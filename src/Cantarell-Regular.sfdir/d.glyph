@@ -1,7 +1,7 @@
 StartChar: d
 Encoding: 100 100 1
 GlifName: d
-Width: 551
+Width: 555
 UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "aboveright" 551 669 basechar 0
@@ -12,12 +12,12 @@ LayerCount: 2
 Fore
 SplineSet
 261 -10 m 3
- 122 -10 48 112 48 239 c 7
- 48 376 111 495 249 495 c 3
- 292 495 356 479 411 447 c 1
+ 122 -10 48 112 48 239 c 3
+ 48 376 114 495 259 495 c 3
+ 299 495 359 479 411 447 c 1
  403 391 l 1
- 355 413 310 425 269 425 c 3
- 161 425 134 331 134 244 c 7
+ 359 413 317 425 279 425 c 3
+ 163 425 134 331 134 244 c 3
  134 141 174 56 282 56 c 3
  337 56 365 70 403 96 c 1
  410 40 l 1
@@ -29,5 +29,4 @@ SplineSet
  425 0 l 1
  401 34 l 1
 EndSplineSet
-Validated: 5
 EndChar
