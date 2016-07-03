@@ -2,8 +2,8 @@ StartChar: G
 Encoding: 71 71 28
 GlifName: G_
 Width: 701
-Flags: HMW
-AnchorPoint: "horn" 605 611 basechar 0
+Flags: HMWO
+AnchorPoint: "horn" 605 617 basechar 0
 AnchorPoint: "below" 375 0 basechar 0
 AnchorPoint: "cedilla" 351 0 basechar 0
 AnchorPoint: "above" 374 692 basechar 0
@@ -24,20 +24,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-576 582 m 1
- 528 615 455 633 391 633 c 3
- 231 633 138 507 138 346 c 3
- 138 185 231 63 391 63 c 3
+576 588 m 1
+ 531 617 462 633 401 633 c 3
+ 215 633 138 507 138 346 c 3
+ 138 165 231 63 391 63 c 3
  459 63 506 81 536 99 c 1
- 536 272 l 5
- 341 272 l 5
- 341 345 l 5
- 619 345 l 5
+ 536 292 l 1
+ 341 292 l 1
+ 341 365 l 1
+ 619 365 l 1
  619 68 l 1
  589 35 500 -10 391 -10 c 3
- 191 -10 55 146 55 346 c 3
- 55 546 191 706 391 706 c 3
- 495 706 572 673 608 651 c 1
- 576 582 l 1
+ 191 -10 55 126 55 346 c 3
+ 55 546 175 706 401 706 c 3
+ 500 706 574 677 608 657 c 1
+ 576 588 l 1
 EndSplineSet
 EndChar
