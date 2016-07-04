@@ -1,12 +1,10 @@
 StartChar: uni0191
 Encoding: 401 401 355
 GlifName: uni0191
-Width: 574
+Width: 553
 VWidth: 1023
+UnlinkRmOvrlpSave: 1
 Flags: HMW
-AnchorPoint: "below" 125 -165 basechar 0
-AnchorPoint: "above" 308 670 basechar 0
-AnchorPoint: "cedilla" -26 -165 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -28,23 +26,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--140 -153 m 1
- -120 -55 l 1
- -100 -60 l 2
- -86 -64 -56 -72 -27 -72 c 0
- 47 -72 65 -33 65 11 c 2
- 65 694 l 1
- 539 694 l 1
- 539 581 l 1
- 200 581 l 1
- 200 414 l 1
- 510 414 l 1
- 510 301 l 1
- 200 301 l 1
- 200 8 l 2
- 200 -123 113 -178 -2 -178 c 0
- -43 -178 -83 -171 -123 -159 c 2
- -140 -153 l 1
+14 -166 m 3
+ 61 -166 70 -127 70 -65 c 2
+ 70 0 l 1
+ 193 0 l 1
+ 193 -90 l 2
+ 193 -178 165 -265 30 -265 c 3
+ -5 -265 -38 -255 -38 -255 c 1
+ -14 -163 l 1
+ -14 -163 -1 -166 14 -166 c 3
 EndSplineSet
-Validated: 1
+Refer: 35 70 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar

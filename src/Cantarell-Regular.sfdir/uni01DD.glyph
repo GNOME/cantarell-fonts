@@ -1,47 +1,30 @@
 StartChar: uni01DD
 Encoding: 477 477 585
 GlifName: uni01D_D_
-Width: 511
+Width: 515
 Flags: HMW
-AnchorPoint: "ogonek" 408 17 basechar 0
-AnchorPoint: "cedilla" 272 0 basechar 0
-AnchorPoint: "below" 272 0 basechar 0
-AnchorPoint: "above" 272 482 basechar 0
+AnchorPoint: "horn" 426 445 basechar 0
+AnchorPoint: "ogonek" 410 17 basechar 0
+AnchorPoint: "cedilla" 274 0 basechar 0
+AnchorPoint: "below" 274 0 basechar 0
+AnchorPoint: "above" 274 482 basechar 0
 LayerCount: 2
-Back
-SplineSet
-80 366 m 1
- 80 469 l 1
- 137 483 183 490 255 490 c 0
- 463 490 518 366 518 254 c 0
- 518 69 407 -11 262 -11 c 0
- 105 -11 44 133 44 235 c 2
- 44 297 l 1
- 389 297 l 1
- 378 340 337 383 223 383 c 0
- 161 383 80 366 80 366 c 1
-271 93 m 0
- 353 93 388 153 388 213 c 1
- 164 213 l 1
- 164 130 213 93 271 93 c 0
-EndSplineSet
 Fore
 SplineSet
-246 -10 m 3
- 119 -10 48 75 48 214 c 2
- 48 258 l 1
- 53 266 l 1
- 384 266 l 1
- 382 380 324 426 200 426 c 3
- 158 426 132 420 85 405 c 1
- 67 467 l 1
- 116 484 168 494 222 494 c 3
- 379 494 463 407 463 251 c 3
- 463 109 386 -10 246 -10 c 3
-130 203 m 1
- 130 124 164 58 239 58 c 3
- 332 58 373 126 382 203 c 1
- 130 203 l 1
+220 428 m 3
+ 155 428 92 404 80 394 c 1
+ 56 456 l 1
+ 76 472 147 494 230 494 c 3
+ 383 494 467 403 467 242 c 3
+ 467 99 391 -10 248 -10 c 3
+ 124 -10 48 70 48 200 c 2
+ 48 266 l 1
+ 383 266 l 1
+ 383 354 338 428 220 428 c 3
+381 200 m 1
+ 131 200 l 1
+ 131 116 161 56 249 56 c 3
+ 328 56 381 124 381 200 c 1
 EndSplineSet
 Validated: 1
 EndChar
