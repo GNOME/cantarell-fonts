@@ -3,27 +3,43 @@ Encoding: 75 75 43
 GlifName: K_
 Width: 643
 UnlinkRmOvrlpSave: 1
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "below" 320 0 basechar 0
 AnchorPoint: "above" 319 693 basechar 0
 AnchorPoint: "cedilla" 320 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+85 692 m 5
+ 168 692 l 5
+ 168 0 l 5
+ 85 0 l 5
+ 85 692 l 5
+145 203 m 5
+ 145 321 l 5
+ 471 692 l 5
+ 570 692 l 5
+ 336 424 l 5
+ 596 0 l 5
+ 502 0 l 5
+ 280 360 l 5
+ 145 203 l 5
+EndSplineSet
 Fore
 SplineSet
-193 692 m 1
- 193 0 l 1
- 70 0 l 1
- 70 692 l 1
- 193 692 l 1
-180 330 m 1
- 477 692 l 1
- 617 692 l 1
- 345 359 l 1
- 637 0 l 1
- 491 0 l 1
- 272 271 l 1
- 180 158 l 1
- 180 330 l 1
+193 692 m 5
+ 193 0 l 5
+ 70 0 l 5
+ 70 692 l 5
+ 193 692 l 5
+180 336 m 5
+ 471 692 l 5
+ 617 692 l 5
+ 387 410 l 5
+ 637 0 l 5
+ 491 0 l 5
+ 301 309 l 5
+ 180 158 l 5
+ 180 336 l 5
 EndSplineSet
-Validated: 5
 EndChar
