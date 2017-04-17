@@ -1,11 +1,11 @@
 StartChar: D
 Encoding: 68 68 48
 GlifName: D_
-Width: 710
+Width: 692
 Flags: HMW
-AnchorPoint: "cedilla" 337 0 basechar 0
-AnchorPoint: "below" 337 0 basechar 0
-AnchorPoint: "above" 315 692 basechar 0
+AnchorPoint: "cedilla" 327 0 basechar 0
+AnchorPoint: "below" 327 0 basechar 0
+AnchorPoint: "above" 305 692 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -25,17 +25,17 @@ EndSplineSet
 Fore
 SplineSet
 168 73 m 1
- 323 73 l 2
- 494 73 564 206 564 346 c 3
- 564 485 490 619 323 619 c 2
+ 313 73 l 2
+ 484 73 554 206 554 346 c 3
+ 554 485 480 619 313 619 c 2
  168 619 l 1
  168 73 l 1
-329 0 m 2
+319 0 m 2
  85 0 l 1
  85 692 l 1
- 329 692 l 2
- 535 692 647 544 647 346 c 3
- 647 146 536 0 329 0 c 2
+ 319 692 l 2
+ 525 692 637 544 637 346 c 3
+ 637 146 526 0 319 0 c 2
 EndSplineSet
 Validated: 1
 EndChar

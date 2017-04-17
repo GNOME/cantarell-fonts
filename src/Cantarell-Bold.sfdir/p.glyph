@@ -4,9 +4,9 @@ GlifName: p
 Width: 578
 UnlinkRmOvrlpSave: 1
 Flags: HMW
-AnchorPoint: "below" 289 -261 basechar 0
+AnchorPoint: "below" 289 -200 basechar 0
 AnchorPoint: "above" 281 482 basechar 0
-AnchorPoint: "cedilla" 303 -261 basechar 0
+AnchorPoint: "cedilla" 303 -200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21,12 +21,12 @@ SplineSet
  540 97 455 -10 311 -10 c 3
  259 -10 208 6 156 38 c 1
  187 121 l 1
-190 -259 m 1
- 67 -259 l 1
+190 -198 m 5
+ 67 -198 l 5
  67 481 l 1
  144 481 l 1
  190 420 l 1
- 190 -259 l 1
+ 190 -198 l 5
 EndSplineSet
 Validated: 5
 EndChar
