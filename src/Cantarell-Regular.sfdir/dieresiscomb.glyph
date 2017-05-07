@@ -1,0 +1,36 @@
+StartChar: dieresiscomb
+Encoding: 776 776 570
+GlifName: uni0308
+Width: 0
+VWidth: 0
+Flags: HMW
+AnchorPoint: "mark_above" 0 666 basemark 0
+AnchorPoint: "above" 0 482 mark 0
+LayerCount: 2
+Back
+SplineSet
+-109 530 m 259
+ -148 530 -183 565 -183 604 c 259
+ -183 643 -148 678 -109 678 c 259
+ -70 678 -35 643 -35 604 c 259
+ -35 565 -70 530 -109 530 c 259
+108 530 m 259
+ 69 530 34 565 34 604 c 259
+ 34 643 69 678 108 678 c 259
+ 147 678 182 643 182 604 c 259
+ 182 565 147 530 108 530 c 259
+EndSplineSet
+Fore
+SplineSet
+92 560 m 3
+ 63 560 38 585 38 614 c 7
+ 38 643 63 668 92 668 c 3
+ 121 668 146 643 146 614 c 3
+ 146 585 121 560 92 560 c 3
+-92 560 m 3
+ -121 560 -146 585 -146 614 c 3
+ -146 643 -121 668 -92 668 c 3
+ -63 668 -38 643 -38 614 c 3
+ -38 585 -63 560 -92 560 c 3
+EndSplineSet
+EndChar

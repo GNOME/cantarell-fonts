@@ -1,0 +1,43 @@
+StartChar: Obarred-cy
+Encoding: 1256 1256 562
+GlifName: uni04E_8
+Width: 762
+UnlinkRmOvrlpSave: 1
+Flags: HMW
+AnchorPoint: "above" 380 692 basechar 0
+AnchorPoint: "below" 378 0 basechar 0
+AnchorPoint: "cedilla" 378 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+393 694 m 0
+ 584 694 734 561 734 347 c 0
+ 734 132 587 -14 389 -14 c 0
+ 220 -14 50 102 50 338 c 0
+ 50 555 199 694 393 694 c 0
+388 581 m 0
+ 299 581 206 529 182 409 c 1
+ 601 409 l 1
+ 574 531 475 581 388 581 c 0
+180 296 m 1
+ 200 173 288 98 396 98 c 0
+ 488 98 588 157 605 296 c 1
+ 180 296 l 1
+EndSplineSet
+Fore
+SplineSet
+381 706 m 3
+ 581 706 707 546 707 346 c 3
+ 707 146 581 -10 381 -10 c 3
+ 181 -10 55 146 55 346 c 3
+ 55 546 181 706 381 706 c 3
+140 312 m 1
+ 153 168 251 63 381 63 c 3
+ 511 63 609 168 622 312 c 1
+ 140 312 l 1
+140 385 m 1
+ 622 385 l 1
+ 607 527 509 633 381 633 c 3
+ 253 633 155 527 140 385 c 1
+EndSplineSet
+EndChar
