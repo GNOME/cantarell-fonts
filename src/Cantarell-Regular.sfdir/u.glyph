@@ -1,29 +1,32 @@
 StartChar: u
 Encoding: 117 117 14
 GlifName: u
-Width: 529
+Width: 557
+UnlinkRmOvrlpSave: 1
 Flags: HMW
-AnchorPoint: "horn" 453 445 basechar 0
-AnchorPoint: "ogonek" 430 0 basechar 0
-AnchorPoint: "cedilla" 254 0 basechar 0
-AnchorPoint: "below" 254 0 basechar 0
-AnchorPoint: "above" 257 482 basechar 0
+AnchorPoint: "horn" 458 445 basechar 0
+AnchorPoint: "ogonek" 435 0 basechar 0
+AnchorPoint: "cedilla" 259 0 basechar 0
+AnchorPoint: "below" 259 0 basechar 0
+AnchorPoint: "above" 262 482 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-145 177 m 2
- 145 96 171 61 251 61 c 7
- 291 61 335 73 384 96 c 1
- 384 482 l 1
- 467 482 l 1
- 467 0 l 1
- 410 0 l 1
- 391 39 l 1
- 329 7 273 -10 221 -10 c 3
- 119 -10 62 55 62 157 c 2
- 62 482 l 1
- 145 482 l 1
- 145 177 l 2
+398 102 m 1
+ 398 482 l 1
+ 481 482 l 1
+ 481 0 l 1
+ 424 0 l 1
+ 406 46 l 1
+ 398 102 l 1
+406 46 m 1
+ 348 7 290 -12 234 -12 c 3
+ 131 -12 76 50 76 153 c 2
+ 76 482 l 1
+ 159 482 l 1
+ 159 173 l 2
+ 159 92 185 58 264 58 c 3
+ 305 58 350 72 398 102 c 1
+ 406 46 l 1
 EndSplineSet
-Validated: 1
 EndChar

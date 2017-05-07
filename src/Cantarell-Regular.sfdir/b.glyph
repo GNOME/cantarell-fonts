@@ -1,39 +1,31 @@
 StartChar: b
 Encoding: 98 98 9
 GlifName: b
-Width: 555
+Width: 564
 UnlinkRmOvrlpSave: 1
 Flags: HMW
-AnchorPoint: "cedilla" 255 0 basechar 0
-AnchorPoint: "below" 255 0 basechar 0
-AnchorPoint: "above" 108 718 basechar 0
+AnchorPoint: "cedilla" 264 0 basechar 0
+AnchorPoint: "below" 264 0 basechar 0
+AnchorPoint: "above" 117 718 basechar 0
 LayerCount: 2
-Back
-SplineSet
-286 425 m 3
- 245 425 200 414 152 391 c 1
- 144 447 l 1
- 202 479 260 495 316 495 c 1024
-EndSplineSet
 Fore
 SplineSet
-294 -10 m 3
- 225 -10 189 8 145 40 c 1
- 152 96 l 1
- 190 70 218 56 273 56 c 3
- 381 56 421 141 421 244 c 3
- 421 331 394 425 286 425 c 3
- 245 425 200 413 152 391 c 1
- 144 447 l 1
- 199 479 263 495 306 495 c 3
- 444 495 507 376 507 239 c 3
- 507 112 433 -10 294 -10 c 3
-154 34 m 1
- 130 0 l 1
- 71 0 l 1
- 71 718 l 1
- 154 718 l 1
- 154 34 l 1
+303 -12 m 3
+ 234 -12 198 7 154 40 c 1
+ 161 96 l 1
+ 199 69 227 54 282 54 c 3
+ 390 54 430 140 430 244 c 3
+ 430 331 403 424 295 424 c 3
+ 254 424 209 419 161 391 c 1
+ 153 447 l 1
+ 208 485 272 494 315 494 c 3
+ 453 494 516 375 516 239 c 3
+ 516 111 442 -12 303 -12 c 3
+163 34 m 1
+ 139 0 l 1
+ 80 0 l 1
+ 80 718 l 1
+ 163 718 l 1
+ 163 34 l 1
 EndSplineSet
-Validated: 5
 EndChar

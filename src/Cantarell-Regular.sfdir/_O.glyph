@@ -1,38 +1,37 @@
 StartChar: O
 Encoding: 79 79 31
 GlifName: O_
-Width: 762
+Width: 752
 Flags: HMW
-AnchorPoint: "horn" 595 601 basechar 0
-AnchorPoint: "cedilla" 383 0 basechar 0
-AnchorPoint: "below" 383 0 basechar 0
-AnchorPoint: "above" 381 692 basechar 0
+AnchorPoint: "horn" 590 601 basechar 0
+AnchorPoint: "cedilla" 378 0 basechar 0
+AnchorPoint: "below" 378 0 basechar 0
+AnchorPoint: "above" 376 692 basechar 0
 LayerCount: 2
 Back
 SplineSet
-392 706 m 3
- 592 706 734 550 734 350 c 3
- 734 150 592 -10 392 -10 c 3
- 192 -10 50 150 50 350 c 3
- 50 550 192 706 392 706 c 3
-392 593 m 3
- 252 593 173 470 173 350 c 3
- 173 230 252 103 392 103 c 3
- 532 103 611 230 611 350 c 3
- 611 470 532 593 392 593 c 3
+387 706 m 3
+ 587 706 729 550 729 350 c 3
+ 729 150 587 -10 387 -10 c 3
+ 187 -10 45 150 45 350 c 3
+ 45 550 187 706 387 706 c 3
+387 593 m 3
+ 247 593 168 470 168 350 c 3
+ 168 230 247 103 387 103 c 3
+ 527 103 606 230 606 350 c 3
+ 606 470 527 593 387 593 c 3
 EndSplineSet
 Fore
 SplineSet
-381 706 m 7
- 581 706 707 546 707 346 c 7
- 707 146 581 -10 381 -10 c 7
- 181 -10 55 146 55 346 c 7
- 55 546 181 706 381 706 c 7
-381 63 m 7
- 541 63 624 185 624 346 c 7
- 624 507 541 633 381 633 c 7
- 221 633 138 507 138 346 c 7
- 138 185 221 63 381 63 c 7
+376 704 m 3
+ 573 704 697 544 697 344 c 3
+ 697 144 573 -12 376 -12 c 3
+ 179 -12 55 144 55 344 c 3
+ 55 544 179 704 376 704 c 3
+376 61 m 3
+ 532 61 614 183 614 344 c 3
+ 614 505 532 631 376 631 c 3
+ 220 631 138 505 138 344 c 3
+ 138 183 220 61 376 61 c 3
 EndSplineSet
-Validated: 1
 EndChar

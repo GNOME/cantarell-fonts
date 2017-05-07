@@ -1,38 +1,42 @@
 StartChar: kgreenlandic
 Encoding: 312 312 327
 GlifName: kgreenlandic
-Width: 504
-Flags: HMW
+Width: 500
+VWidth: 0
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
-377 271 m 1
- 600 482 l 1
- 736 482 l 1
- 505 256 l 1
- 762 0 l 1
- 611 0 l 1
- 377 223 l 1
- 377 0 l 1
- 257 0 l 1
- 257 482 l 1
- 377 482 l 1
- 377 271 l 1
+81 482 m 257
+ 164 482 l 257
+ 164 0 l 257
+ 81 0 l 257
+ 81 482 l 257
+132 122 m 257
+ 85 181 l 257
+ 370 482 l 257
+ 471 482 l 257
+ 132 122 l 257
+490 0 m 257
+ 399 0 l 257
+ 226 268 l 257
+ 283 328 l 257
+ 490 0 l 257
 EndSplineSet
 Fore
 SplineSet
-75 482 m 1
- 158 482 l 1
- 158 0 l 1
- 75 0 l 1
- 75 482 l 1
-379 482 m 1
- 474 482 l 1
- 264 257 l 1
- 484 0 l 1
- 384 0 l 1
- 166 257 l 1
- 379 482 l 1
+490 0 m 5
+ 399 0 l 5
+ 244 241 l 5
+ 164 156 l 5
+ 164 0 l 5
+ 81 0 l 5
+ 81 482 l 5
+ 164 482 l 5
+ 164 264 l 5
+ 370 482 l 5
+ 471 482 l 5
+ 300 301 l 5
+ 490 0 l 5
 EndSplineSet
-Validated: 1
 EndChar
