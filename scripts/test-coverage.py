@@ -47,7 +47,7 @@ for charset in charset_list:
     # Font can contain multiple cmaps that map unicode code points (U+0020) to
     # glyph names ("space"), we want the code points from all Unicode cmaps and
     # flatten them into a (unique) set.
-    codepoints = [[y[0] for y in x.cmap.items()] 
+    codepoints = [[y[0] for y in x.cmap.items()]
                   for x in font['cmap'].tables if x.isUnicode()]
     codepoints_set = frozenset([item for sublist in codepoints
                                for item in sublist])
@@ -57,7 +57,7 @@ for charset in charset_list:
       font_filename = os.path.basename(font_file)
       charset_filename = charset.rpartition("/")[-1]
       print("\n" + font_filename + " is missing from " + charset_filename + ":")
-      
+
       for m in missing_codepoints:
         print("U+" + format(m, "04X") + " " + charset_table[m])
 
