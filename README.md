@@ -1,12 +1,10 @@
-README for Cantarell GNOME
-==========================
+# Cantarell
 
 This file provides detailed information on the Cantarell font software. This
 information should be distributed along with the Cantarell fonts and any
 derivative works.
 
-Font Information
-----------------
+## Font Information
 
 The Cantarell typeface family is a contemporary Humanist sans serif, and is
 used by the GNOME project for its user interface. 
@@ -49,8 +47,7 @@ widely supported UFO format has a limited feature set. See below.
 
 [1]: http://www.typedesign.reading.ac.uk
 
-Developer information
----------------------
+## Developer information
                                   
 The master file is `src/Cantarell.glyphs`. To contribute, you need to either:
 1) Use the proprietary and Mac-only Glyphs.app.
@@ -59,8 +56,7 @@ You can then open the masters in `master_ufo` with any design app that supports
 it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it
 using 1).
 
-Acknowledgements
-----------------
+## Acknowledgements
 
 Here is a list of major contributors; all contributors are listed in the GNOME
 Git repository changelogs.
@@ -70,31 +66,31 @@ web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
 N: Dave Crossland
-E: dave@understandinglimited.com
-W: http://abattis.org/cantarell/
+E: <dave@understandinglimited.com>
+W: http://understandingfonts.com/who/dave-crossland/
 D: Designer, original Latin glyphs.
 
 N: Valek Filippov
-E: frob@gnome.org
+E: <frob@gnome.org>
 W: https://plus.google.com/108983215764171548842/about
 D: Designer, original Cyrillic glyphs.
 
 N: Erik Hartenian
-E: infinality@infinality.net
-W: http://infinality.net
+E: <infinality@infinality.net>
+W: -
 D: Connoisseur of fine font renderding.
 
 N: Pooja Saxena
-E: anexasajoop@gmail.com
+E: <anexasajoop@gmail.com>
 W: http://www.poojasaxena.in
 D: Designer, new glyphs and many improvements to weight and metric balance.
 
 N: Jakub Steiner
-E: jimmac@gmail.com
+E: <jimmac@gmail.com>
 W: http://jimmac.musichall.cz
 D: Designer, many improvements and GNOME standards engineering.
 
 N: Nikolaus Waxweiler
-E: madigens@gmail.com
+E: <madigens@gmail.com>
 W: -
 D: Designer, general clean up and increased language coverage, later on complete redesign.
