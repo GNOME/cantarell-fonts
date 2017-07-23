@@ -1,0 +1,462 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+
+# GSUB 
+
+
+lookup locl_ROM {
+  lookupflag 0;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} locl_ROM;
+
+feature locl {
+
+ script latn;
+     language MOL  exclude_dflt;
+      lookup locl_ROM;
+     language ROM  exclude_dflt;
+      lookup locl_ROM;
+} locl;
+
+# GPOS 
+
+
+lookup markLGCmarks {
+  lookupflag 0;
+  markClass [\horncomb ] <anchor -102 371> @horn;
+  pos base [\o ] <anchor 438 440> mark @horn;
+  pos base [\u ] <anchor 456 440> mark @horn;
+  pos base [\G \O \C ] <anchor 550 634> mark @horn;
+  pos base [\A ] <anchor 325 692> mark @horn;
+  pos base [\U ] <anchor 604 633> mark @horn;
+  markClass [\ogonekcomb ] <anchor 0 -0> @ogonek;
+  pos base [\a ] <anchor 394 0> mark @ogonek;
+  pos base [\e ] <anchor 396 3> mark @ogonek;
+  pos base [\i ] <anchor 147 0> mark @ogonek;
+  pos base [\u ] <anchor 439 0> mark @ogonek;
+  pos base [\A ] <anchor 583 0> mark @ogonek;
+  pos base [\E ] <anchor 471 0> mark @ogonek;
+  pos base [\I ] <anchor 140 0> mark @ogonek;
+  pos base [\U ] <anchor 540 0> mark @ogonek;
+  pos base [\ae ] <anchor 396 0> mark @ogonek;
+  pos base [\Ereversed ] <anchor 86 0> mark @ogonek;
+  pos base [\dottedCircle ] <anchor 408 82> mark @ogonek;
+  markClass [\commaaboverightcomb ] <anchor 0 634> @aboveright;
+  pos base [\d ] <anchor 564 634> mark @aboveright;
+  pos base [\l ] <anchor 297 634> mark @aboveright;
+  pos base [\t ] <anchor 346 634> mark @aboveright;
+  pos base [\L ] <anchor 370 634> mark @aboveright;
+  pos base [\dottedCircle ] <anchor 446 426> mark @aboveright;
+  markClass [\cedillacomb ] <anchor 0 0> @cedilla;
+  pos base [\a ] <anchor 275 0> mark @cedilla;
+  pos base [\d ] <anchor 259 0> mark @cedilla;
+  pos base [\e ] <anchor 259 -1> mark @cedilla;
+  pos base [\h ] <anchor 319 0> mark @cedilla;
+  pos base [\i ] <anchor 126 0> mark @cedilla;
+  pos base [\n \B ] <anchor 288 0> mark @cedilla;
+  pos base [\o ] <anchor 288 -1> mark @cedilla;
+  pos base [\s ] <anchor 215 0> mark @cedilla;
+  pos base [\b ] <anchor 291 0> mark @cedilla;
+  pos base [\w ] <anchor 408 -1> mark @cedilla;
+  pos base [\u ] <anchor 284 0> mark @cedilla;
+  pos base [\p ] <anchor 303 -200> mark @cedilla;
+  pos base [\q ] <anchor 299 -200> mark @cedilla;
+  pos base [\m ] <anchor 429 0> mark @cedilla;
+  pos base [\c ] <anchor 271 2> mark @cedilla;
+  pos base [\t ] <anchor 258 0> mark @cedilla;
+  pos base [\r ] <anchor 128 0> mark @cedilla;
+  pos base [\v ] <anchor 254 0> mark @cedilla;
+  pos base [\k ] <anchor 447 0> mark @cedilla;
+  pos base [\j ] <anchor 82 -230> mark @cedilla;
+  pos base [\x ] <anchor 241 -1> mark @cedilla;
+  pos base [\z \Ereversed ] <anchor 253 0> mark @cedilla;
+  pos base [\f ] <anchor 159 -0> mark @cedilla;
+  pos base [\G \O ] <anchor 384 -3> mark @cedilla;
+  pos base [\H ] <anchor 360 0> mark @cedilla;
+  pos base [\g ] <anchor 298 -207> mark @cedilla;
+  pos base [\A ] <anchor 329 0> mark @cedilla;
+  pos base [\L ] <anchor 280 0> mark @cedilla;
+  pos base [\E ] <anchor 304 0> mark @cedilla;
+  pos base [\F \I ] <anchor 132 0> mark @cedilla;
+  pos base [\N ] <anchor 374 0> mark @cedilla;
+  pos base [\V ] <anchor 324 0> mark @cedilla;
+  pos base [\Z ] <anchor 312 0> mark @cedilla;
+  pos base [\T ] <anchor 296 0> mark @cedilla;
+  pos base [\X ] <anchor 333 0> mark @cedilla;
+  pos base [\Y ] <anchor 321 0> mark @cedilla;
+  pos base [\K ] <anchor 320 0> mark @cedilla;
+  pos base [\M ] <anchor 420 0> mark @cedilla;
+  pos base [\J ] <anchor 142 0> mark @cedilla;
+  pos base [\R ] <anchor 131 0> mark @cedilla;
+  pos base [\D ] <anchor 342 0> mark @cedilla;
+  pos base [\P ] <anchor 96 0> mark @cedilla;
+  pos base [\U ] <anchor 362 0> mark @cedilla;
+  pos base [\Q ] <anchor 392 -3> mark @cedilla;
+  pos base [\W ] <anchor 532 0> mark @cedilla;
+  pos base [\C ] <anchor 346 0> mark @cedilla;
+  pos base [\S ] <anchor 369 0> mark @cedilla;
+  pos base [\ae ] <anchor 277 0> mark @cedilla;
+  pos base [\AE ] <anchor 501 0> mark @cedilla;
+  pos base [\eng ] <anchor 300 -168> mark @cedilla;
+  pos base [\jdotless ] <anchor 54 -178> mark @cedilla;
+  pos base [\Eng ] <anchor 382 -178> mark @cedilla;
+  pos base [\kgreenlandic ] <anchor 444 0> mark @cedilla;
+  pos base [\El-cy ] <anchor 340 0> mark @cedilla;
+  pos base [\obarred-cy ] <anchor 285 0> mark @cedilla;
+  pos base [\Obarred-cy ] <anchor 378 0> mark @cedilla;
+  pos base [\dottedCircle ] <anchor 246 2> mark @cedilla;
+  markClass [\circumflexcomb \gravecomb \acutecomb \tildecomb \macroncomb \brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb \caroncomb \commaabovecomb ] <anchor 0 482> @above;
+  markClass [\hookabovecomb ] <anchor 0 481> @above;
+  pos base [\a ] <anchor 238 481> mark @above;
+  pos base [\d ] <anchor 453 718> mark @above;
+  pos base [\e ] <anchor 264 481> mark @above;
+  pos base [\h ] <anchor 129 718> mark @above;
+  pos base [\n ] <anchor 288 482> mark @above;
+  pos base [\o ] <anchor 282 482> mark @above;
+  pos base [\s ] <anchor 218 482> mark @above;
+  pos base [\b ] <anchor 120 718> mark @above;
+  pos base [\l ] <anchor 126 718> mark @above;
+  pos base [\w ] <anchor 408 482> mark @above;
+  pos base [\u ] <anchor 274 482> mark @above;
+  pos base [\p \obarred-cy \eturned ] <anchor 281 482> mark @above;
+  pos base [\q ] <anchor 303 482> mark @above;
+  pos base [\m ] <anchor 434 482> mark @above;
+  pos base [\c ] <anchor 253 482> mark @above;
+  pos base [\t ] <anchor 159 632> mark @above;
+  pos base [\r ] <anchor 225 482> mark @above;
+  pos base [\v ] <anchor 254 482> mark @above;
+  pos base [\k ] <anchor 127 718> mark @above;
+  pos base [\x \z \ereversed-cy ] <anchor 242 482> mark @above;
+  pos base [\y ] <anchor 284 482> mark @above;
+  pos base [\f ] <anchor 261 718> mark @above;
+  pos base [\G \C ] <anchor 369 692> mark @above;
+  pos base [\H ] <anchor 357 692> mark @above;
+  pos base [\g ] <anchor 283 481> mark @above;
+  pos base [\O \Obarred-cy ] <anchor 380 692> mark @above;
+  pos base [\A ] <anchor 325 692> mark @above;
+  pos base [\L ] <anchor 130 692> mark @above;
+  pos base [\E ] <anchor 298 692> mark @above;
+  pos base [\F \Ge-cy ] <anchor 293 692> mark @above;
+  pos base [\N ] <anchor 374 692> mark @above;
+  pos base [\V ] <anchor 326 692> mark @above;
+  pos base [\Z \Rdotbelow ] <anchor 305 692> mark @above;
+  pos base [\T ] <anchor 294 692> mark @above;
+  pos base [\I ] <anchor 132 692> mark @above;
+  pos base [\X \J ] <anchor 323 692> mark @above;
+  pos base [\Y ] <anchor 320 692> mark @above;
+  pos base [\K ] <anchor 319 692> mark @above;
+  pos base [\M ] <anchor 419 692> mark @above;
+  pos base [\R ] <anchor 295 692> mark @above;
+  pos base [\D ] <anchor 314 692> mark @above;
+  pos base [\P ] <anchor 247 692> mark @above;
+  pos base [\B ] <anchor 271 692> mark @above;
+  pos base [\U ] <anchor 356 692> mark @above;
+  pos base [\Q ] <anchor 387 692> mark @above;
+  pos base [\W ] <anchor 510 692> mark @above;
+  pos base [\S ] <anchor 309 692> mark @above;
+  pos base [\ae ] <anchor 414 482> mark @above;
+  pos base [\germandbls ] <anchor 231 671> mark @above;
+  pos base [\oslash \fita-cy ] <anchor 280 482> mark @above;
+  pos base [\oe ] <anchor 472 482> mark @above;
+  pos base [\AE ] <anchor 501 692> mark @above;
+  pos base [\Udieresis ] <anchor 356 897> mark @above;
+  pos base [\udieresis ] <anchor 274 685> mark @above;
+  pos base [\idotless \jdotless ] <anchor 127 481> mark @above;
+  pos base [\Acircumflex ] <anchor 318 940> mark @above;
+  pos base [\Aring ] <anchor 320 940> mark @above;
+  pos base [\Ecircumflex ] <anchor 298 940> mark @above;
+  pos base [\Ocircumflex ] <anchor 380 940> mark @above;
+  pos base [\acircumflex ] <anchor 247 710> mark @above;
+  pos base [\aring ] <anchor 248 710> mark @above;
+  pos base [\ecircumflex ] <anchor 264 710> mark @above;
+  pos base [\ocircumflex ] <anchor 290 710> mark @above;
+  pos base [\Oslash ] <anchor 390 692> mark @above;
+  pos base [\Abreve ] <anchor 316 877> mark @above;
+  pos base [\abreve ] <anchor 248 680> mark @above;
+  pos base [\eng ] <anchor 300 482> mark @above;
+  pos base [\Eng ] <anchor 382 692> mark @above;
+  pos base [\kgreenlandic ] <anchor 306 482> mark @above;
+  pos base [\aogonek ] <anchor 246 482> mark @above;
+  pos base [\eogonek ] <anchor 272 482> mark @above;
+  pos base [\uogonek ] <anchor 262 482> mark @above;
+  pos base [\A-cy \Adotbelow ] <anchor 336 691> mark @above;
+  pos base [\Ie-cy \Edotbelow ] <anchor 308 692> mark @above;
+  pos base [\Zhe-cy ] <anchor 460 692> mark @above;
+  pos base [\Ze-cy ] <anchor 263 692> mark @above;
+  pos base [\Ii-cy ] <anchor 358 692> mark @above;
+  pos base [\Ka-cy ] <anchor 315 692> mark @above;
+  pos base [\El-cy ] <anchor 440 670> mark @above;
+  pos base [\O-cy \Schwa-cy \Ohorn \Odotbelow ] <anchor 388 693> mark @above;
+  pos base [\U-cy ] <anchor 318 692> mark @above;
+  pos base [\Tse-cy \Uhorn ] <anchor 354 692> mark @above;
+  pos base [\Che-cy ] <anchor 292 692> mark @above;
+  pos base [\Hardsign-cy ] <anchor 221 692> mark @above;
+  pos base [\Yeru-cy ] <anchor 384 692> mark @above;
+  pos base [\Iu-cy ] <anchor 446 692> mark @above;
+  pos base [\Ia-cy ] <anchor 303 692> mark @above;
+  pos base [\a-cy \schwa-cy \adotbelow ] <anchor 249 481> mark @above;
+  pos base [\ge-cy ] <anchor 217 482> mark @above;
+  pos base [\ie-cy \edotbelow ] <anchor 263 481> mark @above;
+  pos base [\zhe-cy ] <anchor 363 482> mark @above;
+  pos base [\ze-cy ] <anchor 211 481> mark @above;
+  pos base [\ii-cy ] <anchor 289 482> mark @above;
+  pos base [\ka-cy ] <anchor 266 482> mark @above;
+  pos base [\o-cy ] <anchor 276 482> mark @above;
+  pos base [\u-cy ] <anchor 278 482> mark @above;
+  pos base [\tse-cy ] <anchor 290 482> mark @above;
+  pos base [\che-cy ] <anchor 291 482> mark @above;
+  pos base [\hardsign-cy ] <anchor 194 482> mark @above;
+  pos base [\yeru-cy ] <anchor 347 482> mark @above;
+  pos base [\softsign-cy ] <anchor 120 482> mark @above;
+  pos base [\iu-cy ] <anchor 395 482> mark @above;
+  pos base [\ia-cy \dottedCircle ] <anchor 248 482> mark @above;
+  pos base [\I-cy ] <anchor 142 692> mark @above;
+  pos base [\e-cy ] <anchor 256 482> mark @above;
+  pos base [\Ustrait-cy ] <anchor 321 692> mark @above;
+  pos base [\ustrait-cy ] <anchor 264 482> mark @above;
+  pos base [\Ereversed ] <anchor 259 692> mark @above;
+  pos base [\ohorn \odotbelow ] <anchor 283 482> mark @above;
+  pos base [\uhorn ] <anchor 282 481> mark @above;
+  pos base [\Ldotbelow ] <anchor 140 692> mark @above;
+  pos base [\ldotbelow ] <anchor 119 718> mark @above;
+  pos base [\rdotbelow ] <anchor 219 482> mark @above;
+  pos base [\Fita-cy ] <anchor 381 692> mark @above;
+  markClass [\circumflexbelowcomb \tildebelowcomb \macronbelowcomb \commaaccentcomb \dotbelowcomb \dieresisbelowcomb \brevebelowcomb ] <anchor 0 0> @below;
+  pos base [\a ] <anchor 250 0> mark @below;
+  pos base [\d \b ] <anchor 275 0> mark @below;
+  pos base [\e ] <anchor 269 0> mark @below;
+  pos base [\h ] <anchor 294 0> mark @below;
+  pos base [\i ] <anchor 147 0> mark @below;
+  pos base [\n \obarred-cy ] <anchor 285 0> mark @below;
+  pos base [\o \F ] <anchor 288 0> mark @below;
+  pos base [\s ] <anchor 234 0> mark @below;
+  pos base [\l ] <anchor 159 0> mark @below;
+  pos base [\w ] <anchor 408 -1> mark @below;
+  pos base [\u ] <anchor 284 0> mark @below;
+  pos base [\p ] <anchor 289 -200> mark @below;
+  pos base [\q ] <anchor 308 -200> mark @below;
+  pos base [\m ] <anchor 429 0> mark @below;
+  pos base [\c ] <anchor 267 2> mark @below;
+  pos base [\t \x ] <anchor 241 0> mark @below;
+  pos base [\r \idotless ] <anchor 127 0> mark @below;
+  pos base [\v ] <anchor 254 0> mark @below;
+  pos base [\k ] <anchor 283 0> mark @below;
+  pos base [\j ] <anchor 131 -259> mark @below;
+  pos base [\z ] <anchor 245 0> mark @below;
+  pos base [\y ] <anchor 310 -200> mark @below;
+  pos base [\f ] <anchor 161 0> mark @below;
+  pos base [\G \O ] <anchor 376 -3> mark @below;
+  pos base [\H ] <anchor 360 0> mark @below;
+  pos base [\g ] <anchor 298 -207> mark @below;
+  pos base [\A ] <anchor 327 0> mark @below;
+  pos base [\L ] <anchor 292 0> mark @below;
+  pos base [\E \Z ] <anchor 302 0> mark @below;
+  pos base [\N ] <anchor 374 0> mark @below;
+  pos base [\V ] <anchor 324 0> mark @below;
+  pos base [\T ] <anchor 296 0> mark @below;
+  pos base [\I ] <anchor 132 0> mark @below;
+  pos base [\X ] <anchor 322 0> mark @below;
+  pos base [\Y ] <anchor 313 0> mark @below;
+  pos base [\K ] <anchor 320 0> mark @below;
+  pos base [\M ] <anchor 424 0> mark @below;
+  pos base [\J ] <anchor 202 0> mark @below;
+  pos base [\R ] <anchor 300 0> mark @below;
+  pos base [\D ] <anchor 334 0> mark @below;
+  pos base [\P \Ereversed ] <anchor 255 0> mark @below;
+  pos base [\B ] <anchor 286 0> mark @below;
+  pos base [\U ] <anchor 362 0> mark @below;
+  pos base [\Q ] <anchor 392 -3> mark @below;
+  pos base [\W ] <anchor 500 0> mark @below;
+  pos base [\C ] <anchor 341 0> mark @below;
+  pos base [\S ] <anchor 319 0> mark @below;
+  pos base [\ae ] <anchor 252 0> mark @below;
+  pos base [\germandbls ] <anchor 237 0> mark @below;
+  pos base [\AE ] <anchor 501 0> mark @below;
+  pos base [\eng ] <anchor 300 -168> mark @below;
+  pos base [\jdotless ] <anchor 127 -207> mark @below;
+  pos base [\Eng ] <anchor 382 -178> mark @below;
+  pos base [\kgreenlandic ] <anchor 306 0> mark @below;
+  pos base [\El-cy ] <anchor 340 0> mark @below;
+  pos base [\Obarred-cy ] <anchor 378 0> mark @below;
+  pos base [\dottedCircle ] <anchor 246 0> mark @below;
+} markLGCmarks;
+
+lookup mkmkMarktoMarklookup1 {
+  lookupflag 0;
+  markClass [\gravecomb \acutecomb \tildecomb \macroncomb \caroncomb ] <anchor 0 482> @mark_above;
+  markClass [\hookabovecomb ] <anchor -0 481> @mark_above;
+  pos mark [\circumflexcomb ] <anchor 0 710> mark @mark_above;
+  pos mark [\tildecomb ] <anchor 0 699> mark @mark_above;
+  pos mark [\brevecomb ] <anchor 0 657> mark @mark_above;
+  pos mark [\dotaccentcomb ] <anchor 0 686> mark @mark_above;
+  pos mark [\dieresiscomb ] <anchor 0 685> mark @mark_above;
+  pos mark [\ringcomb ] <anchor -0 706> mark @mark_above;
+} mkmkMarktoMarklookup1;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markLGCmarks;
+
+ script cyrl;
+     language dflt ;
+      lookup markLGCmarks;
+
+ script latn;
+     language dflt ;
+      lookup markLGCmarks;
+} mark;
+
+feature mkmk {
+
+ script DFLT;
+     language dflt ;
+      lookup mkmkMarktoMarklookup1;
+
+ script cyrl;
+     language dflt ;
+      lookup mkmkMarktoMarklookup1;
+
+ script grek;
+     language dflt ;
+      lookup mkmkMarktoMarklookup1;
+
+ script latn;
+     language dflt ;
+      lookup mkmkMarktoMarklookup1;
+} mkmk;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\a \d \e \h \i \n \o \s \bar \b \l \w \exclam \space \u \p \q \m \c \t \r \v \k \j 
+	\x \z \y \f \G \H \g \O \A \L \E \F \N \V \Z \T \I \X \Y \K \M \hyphen \J \R \D \P \B \U \Q \W \C \S \at 
+	\question \eight \nine \six \seven \five \two \three \one \zero \four \period \comma 
+	\bracketleft \bracketright \parenleft \parenright \slash \backslash \plus 
+	\asterisk \numbersign \dollar \semicolon \colon \equal \quotedbl \quotesingle 
+	\underscore \percent \braceright \asciitilde \grave \asciicircum \ampersand 
+	\less \greater \braceleft \sterling \exclamdown \cent \currency \yen \brokenbar 
+	\section \copyright \guillemetleft \guillemetright \registered \paragraph 
+	\periodcentered \questiondown \micro \softhyphen \plusminus \ae \germandbls 
+	\multiply \divide \oslash \nbspace \OE \oe \AE \onequarter \onehalf 
+	\threequarters \degree \ccedilla \cedilla \Ccedilla \dieresis \Adieresis 
+	\Edieresis \Idieresis \Odieresis \Udieresis \adieresis \edieresis \idieresis 
+	\odieresis \udieresis \ydieresis \idotless \Agrave \Aacute \Acircumflex \Atilde 
+	\Aring \twosuperior \threesuperior \acute \onesuperior \ordmasculine \Egrave 
+	\Eacute \Ecircumflex \Icircumflex \Igrave \Iacute \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Ugrave \Uacute \Ucircumflex \Yacute \agrave \aacute 
+	\acircumflex \atilde \aring \egrave \eacute \ecircumflex \igrave \iacute 
+	\icircumflex \ograve \oacute \ocircumflex \otilde \ugrave \uacute \ucircumflex 
+	\yacute \ntilde \eth \thorn \Eth \Oslash \logicalnot \macron \ordfeminine \Thorn 
+	\quotedblleft \quotedblright \Ydieresis \zcaron \Zcaron \Scaron \scaron \euro 
+	\emdash \endash \horizontalbar \ellipsis \bullet \interrobang \quoteleft 
+	\quoteright \fraction \florin \guilsinglleft \guilsinglright \dagger 
+	\daggerdbl \quotesinglbase \quotedblbase \perthousand \circumflex \tilde \ring 
+	\breve \caron \dotaccent \trademark \Amacron \amacron \Abreve \abreve \Cacute 
+	\cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron 
+	\Dcaron \dcaron \Dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
+	\edotaccent \Ecaron \ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve 
+	\Gdotaccent \gdotaccent \Gcommaaccent \Hcircumflex \hcircumflex \Itilde 
+	\itilde \Imacron \imacron \Ibreve \ibreve \Idotaccent \IJ \ij \Jcircumflex 
+	\jcircumflex \Kcommaaccent \kcommaaccent \Lacute \lacute \Lcommaaccent 
+	\lcommaaccent \Lcaron \lcaron \Ldot \ldot \Nacute \nacute \Ncommaaccent 
+	\ncommaaccent \Ncaron \ncaron \Omacron \omacron \Obreve \obreve \Racute \racute 
+	\Rcommaaccent \rcommaaccent \Rcaron \rcaron \Sacute \sacute \Scircumflex 
+	\scircumflex \Scedilla \scedilla \Tcedilla \tcedilla \Tcaron \tcaron \Utilde 
+	\utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring \Wcircumflex 
+	\wcircumflex \Ycircumflex \ycircumflex \Zacute \zacute \Zdotaccent \zdotaccent 
+	\gcommaaccent \eng \jdotless \Eng \Lslash \lslash \kgreenlandic \napostrophe 
+	\ogonek \hungarumlaut \Tbar \tbar \Hbar \hbar \dcroat \Ohungarumlaut 
+	\ohungarumlaut \Aogonek \aogonek \Eogonek \eogonek \Iogonek \iogonek \Uogonek 
+	\uogonek \Uhungarumlaut \uhungarumlaut \exclamdouble \paragraphreversed 
+	\minute \second \tripleprime \primeReversed \Fhook \Otildemacron \tdotaccent 
+	\Tdotaccent \Bdotaccent \bdotaccent \Ddotaccent \Wgrave \Wacute \ddotaccent 
+	\Ygrave \Fdotaccent \fdotaccent \Mdotaccent \mdotaccent \Pdotaccent \wgrave 
+	\pdotaccent \wacute \Sdotaccent \ygrave \Wdieresis \wdieresis \sdotaccent 
+	\uniFB00 \fi \fl \uniFB03 \uniFB04 \otildemacron \blackCircle 
+	\mediumVerticalBar \whiteCircle \deleteLeftKey \keyboard 
+	\mediumBlackSmallSquare \A-cy \Be-cy \Ve-cy \Ge-cy \De-cy \Ie-cy \Zhe-cy \Ze-cy 
+	\Ii-cy \Iishort-cy \Ka-cy \El-cy \Em-cy \En-cy \O-cy \Pe-cy \Er-cy \Es-cy \Te-cy 
+	\U-cy \Ef-cy \Ha-cy \Tse-cy \Che-cy \Sha-cy \Shcha-cy \Hardsign-cy \Yeru-cy 
+	\Softsign-cy \Ereversed-cy \Iu-cy \Ia-cy \a-cy \be-cy \ve-cy \ge-cy \de-cy \ie-cy 
+	\zhe-cy \ze-cy \ii-cy \iishort-cy \ka-cy \el-cy \em-cy \en-cy \o-cy \pe-cy \er-cy 
+	\es-cy \te-cy \u-cy \ef-cy \ha-cy \tse-cy \che-cy \sha-cy \shcha-cy \hardsign-cy 
+	\yeru-cy \softsign-cy \ereversed-cy \iu-cy \ia-cy \io-cy \Io-cy \Iegrave-cy 
+	\Dje-cy \Gje-cy \E-cy \Dze-cy \I-cy \Yi-cy \Je-cy \Lje-cy \Nje-cy \Tshe-cy \Kje-cy 
+	\Iigrave-cy \Ushort-cy \Dzhe-cy \iegrave-cy \dje-cy \gje-cy \e-cy \dze-cy \i-cy 
+	\yi-cy \je-cy \lje-cy \nje-cy \tshe-cy \kje-cy \iigrave-cy \ushort-cy \dzhe-cy 
+	\Ghestroke-cy \ghestroke-cy \Zhedescender-cy \zhedescender-cy 
+	\Zedescender-cy \zedescender-cy \Kadescender-cy \kadescender-cy 
+	\Kabashkir-cy \kabashkir-cy \Endescender-cy \endescender-cy \Esdescender-cy 
+	\esdescender-cy \Ustrait-cy \ustrait-cy \Ustraitstroke-cy \ustraitstroke-cy 
+	\Hadescender-cy \hadescender-cy \Shha-cy \shha-cy \Zhebreve-cy \zhebreve-cy 
+	\Abreve-cy \abreve-cy \Adieresis-cy \adieresis-cy \Iebreve-cy \iebreve-cy 
+	\Schwa-cy \schwa-cy \Schwadieresis-cy \schwadieresis-cy \Zhedieresis-cy 
+	\zhedieresis-cy \Zedieresis-cy \zedieresis-cy \Imacron-cy \imacron-cy 
+	\Idieresis-cy \idieresis-cy \Odieresis-cy \odieresis-cy \Edieresis-cy 
+	\edieresis-cy \Umacron-cy \umacron-cy \Udieresis-cy \udieresis-cy 
+	\Uhungarumlaut-cy \uhungarumlaut-cy \Chedieresis-cy \chedieresis-cy 
+	\Yerudieresis-cy \yerudieresis-cy \gacute \acaron \ocaron \gcaron \hcaron 
+	\icaron \jcaron \kcaron \ucaron \zcircumflex \Zcircumflex \Gacute \Kcaron 
+	\Gcaron \Ucaron \Ocaron \Icaron \Acaron \Hcaron \ratio \obarred-cy \Obarred-cy 
+	\Obarreddieresis-cy \obarreddieresis-cy \eturned \Schwa \Ereversed 
+	\returnsymbol \upBlackTriangle \upBlackSmallTriangle \rightBlackTriangle 
+	\rightBlackSmallTriangle \downBlackTriangle \downBlackSmallTriangle 
+	\leftBlackTriangle \leftBlackSmallTriangle \rightTriangleBlackArrow 
+	\leftBlackArrow \upBlackArrow \downBlackArrow \control \downArrowHead 
+	\Scommaaccent \scommaaccent \Tcommaaccent \tcommaaccent \emquad \enquad 
+	\enspace \emspace \threeperemspace \fourperemspace \sixperemspace 
+	\punctuationspace \thinspace \hairspace \leftArrow \upArrow \rightArrow 
+	\downArrow \blank \Ytilde \ytilde \Etilde \etilde \Aringacute \aringacute 
+	\AEacute \aeacute \Oslashacute \oslashacute \DZcaron \Dzcaron \dzcaron \LJ \Lj 
+	\lj \NJ \Nj \nj \DZ \Dz \dz \figurespace \pi \literSign \Ohm \estimated \partialdiff 
+	\increment \product \summation \minus \divisionslash \bulletoperator \radical 
+	\infinity \integral \approxequal \notequal \lessequal \greaterequal \lozenge 
+	\dottedCircle \rupeeIndian \hyphentwo \Ohorn \ohorn \Uhorn \uhorn 
+	\Udieresismacron \udieresismacron \Udieresisacute \udieresisacute 
+	\Udieresiscaron \udieresiscaron \Udieresisgrave \udieresisgrave \schwa 
+	\Ddotbelow \ddotbelow \Dlinebelow \dlinebelow \Gmacron \gmacron \Hdotbelow 
+	\hdotbelow \Hbrevebelow \hbrevebelow \Ldotbelow \ldotbelow \Ldotbelowmacron 
+	\ldotbelowmacron \Llinebelow \llinebelow \Ndotaccent \ndotaccent \Ndotbelow 
+	\ndotbelow \Nlinebelow \nlinebelow \Rdotbelow \rdotbelow \Rdotbelowmacron 
+	\rdotbelowmacron \Rlinebelow \rlinebelow \Sdotbelow \sdotbelow \Tdotbelow 
+	\tdotbelow \Tlinebelow \tlinebelow \Ydotaccent \ydotaccent \Zdotbelow 
+	\zdotbelow \tdieresis \Ahookabove \ahookabove \Acircumflexacute 
+	\acircumflexacute \Acircumflexgrave \acircumflexgrave \Acircumflexhookabove 
+	\acircumflexhookabove \Acircumflextilde \acircumflextilde \Abreveacute 
+	\abreveacute \Abrevegrave \abrevegrave \Abrevehookabove \abrevehookabove 
+	\Abrevetilde \abrevetilde \Adotbelow \adotbelow \Abrevedotbelow 
+	\abrevedotbelow \Edotbelow \edotbelow \Ehookabove \ehookabove 
+	\Ecircumflexacute \ecircumflexacute \Ecircumflexgrave \ecircumflexgrave 
+	\Ecircumflexhookabove \ecircumflexhookabove \Ecircumflextilde 
+	\ecircumflextilde \Ecircumflexdotbelow \ecircumflexdotbelow \Ihookabove 
+	\ihookabove \Idotbelow \idotbelow \Odotbelow \odotbelow \Ohookabove 
+	\ohookabove \Ocircumflexacute \ocircumflexacute \Ocircumflexgrave 
+	\ocircumflexgrave \Ocircumflexhookabove \ocircumflexhookabove 
+	\Ocircumflextilde \ocircumflextilde \Ocircumflexdotbelow 
+	\ocircumflexdotbelow \Ohornacute \ohornacute \Ohorngrave \ohorngrave 
+	\Ohornhookabove \ohornhookabove \Ohorntilde \ohorntilde \Ohorndotbelow 
+	\ohorndotbelow \Udotbelow \udotbelow \Uhookabove \uhookabove \Uhornacute 
+	\uhornacute \Uhorngrave \uhorngrave \Uhornhookabove \uhornhookabove 
+	\Uhorntilde \uhorntilde \Uhorndotbelow \uhorndotbelow \Ydotbelow \ydotbelow 
+	\Yhookabove \yhookabove \zerowidthspace \zerowidthnonjoiner \figuredash 
+	\ruble \Mdotbelow \mdotbelow \Acircumflexdotbelow \acircumflexdotbelow 
+	\zerowidthjoiner \Yat-cy \yat-cy \Fita-cy \fita-cy \Izhitsa-cy \izhitsa-cy 
+	\Gheupturn-cy \gheupturn-cy \Palochka-cy \Aie-cy \aie-cy \Germandbls 
+	\palochka-cy \chedescender-cy \Chedescender-cy ];
+@GDEF_Mark = [\circumflexcomb \gravecomb \acutecomb \tildecomb \macroncomb 
+	\brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb 
+	\caroncomb \cedillacomb \ogonekcomb \circumflexbelowcomb \tildebelowcomb 
+	\macronbelowcomb \commaaboverightcomb \commaabovecomb \commaaccentcomb 
+	\hookabovecomb \horncomb \dotbelowcomb \dieresisbelowcomb \brevebelowcomb ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+

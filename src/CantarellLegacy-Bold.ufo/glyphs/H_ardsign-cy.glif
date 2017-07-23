@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hardsign-cy" format="2">
+  <advance width="698"/>
+  <unicode hex="042A"/>
+  <anchor x="221.0" y="692.0" name="above"/>
+  <outline>
+    <contour>
+      <point x="280.0" y="692.0" type="line"/>
+      <point x="280.0" y="579.0" type="line"/>
+      <point x="25.0" y="579.0" type="line"/>
+      <point x="25.0" y="692.0" type="line"/>
+    </contour>
+    <component base="Softsign-cy" xOffset="97.0"/>
+  </outline>
+</glyph>

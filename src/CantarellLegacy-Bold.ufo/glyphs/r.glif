@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r" format="2">
+  <advance width="406"/>
+  <unicode hex="0072"/>
+  <anchor x="127.0" y="0.0" name="below"/>
+  <anchor x="225.0" y="482.0" name="above"/>
+  <anchor x="128.0" y="0.0" name="cedilla"/>
+  <outline>
+    <contour>
+      <point x="66.0" y="481.0" type="line"/>
+      <point x="152.0" y="481.0" type="line"/>
+      <point x="167.0" y="430.0" type="line"/>
+      <point x="212.0" y="471.0"/>
+      <point x="260.0" y="492.0"/>
+      <point x="311.0" y="492.0" type="curve" smooth="yes"/>
+      <point x="342.0" y="492.0"/>
+      <point x="372.0" y="486.0"/>
+      <point x="400.0" y="473.0" type="curve"/>
+      <point x="375.0" y="358.0" type="line"/>
+      <point x="348.0" y="376.0"/>
+      <point x="307.0" y="387.0"/>
+      <point x="276.0" y="387.0" type="curve" smooth="yes"/>
+      <point x="244.0" y="387.0"/>
+      <point x="214.0" y="374.0"/>
+      <point x="186.0" y="350.0" type="curve"/>
+      <point x="186.0" y="0.0" type="line"/>
+      <point x="66.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
