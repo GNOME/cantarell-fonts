@@ -16,7 +16,21 @@ foreach font : legacy_fonts
   custom_target(font.format('otf'),
     input : join_paths('src', font.format('ufo')),
     output : font.format('otf'),
-    command : [python3, fontmake_wrapper, fontmake, psautohint, '@INPUT@'],
-    install : true,
-    install_dir : '/tmp')
+    command : [python3, fontmake_wrapper, fontmake, psautohint, '@INPUT@'])
 endforeach
+
+cantarell_binaries = ['Cantarell-Thin.otf',
+                      'Cantarell-Light.otf',
+                      'Cantarell-Regular.otf',
+                      'Cantarell-Bold.otf',
+                      'Cantarell-Black.otf']
+
+custom_target('Cantarell',
+              input : join_paths('src', 'Cantarell.glyphs'),
+              output : cantarell_binaries,
+              command : [python3, fontmake_wrapper, fontmake, psautohint, '@INPUT@'],
+              install : true,
+              install_dir : fontsdir)
+
+install_data(join_paths('fontconfig', '31-cantarell.conf'),
+             install_dir : fontconfigdir)
