@@ -76,32 +76,11 @@ If you make major modifications be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
-N: Dave Crossland
-E: <dave@understandinglimited.com>
-W: http://understandingfonts.com/who/dave-crossland/
-D: Designer, original Latin glyphs.
-
-N: Valek Filippov
-E: <frob@gnome.org>
-W: https://plus.google.com/108983215764171548842/about
-D: Designer, original Cyrillic glyphs.
-
-N: Erik Hartenian
-E: <infinality@infinality.net>
-W: -
-D: Connoisseur of fine font renderding.
-
-N: Pooja Saxena
-E: <anexasajoop@gmail.com>
-W: http://www.poojasaxena.in
-D: Designer, new glyphs and many improvements to weight and metric balance.
-
-N: Jakub Steiner
-E: <jimmac@gmail.com>
-W: http://jimmac.musichall.cz
-D: Designer, many improvements and GNOME standards engineering.
-
-N: Nikolaus Waxweiler
-E: <madigens@gmail.com>
-W: -
-D: Designer, general clean up and increased language coverage, later on complete redesign.
+Name | Email | Web Address | Description
+--- | --- | --- | ---
+Dave Crossland | <dave@understandinglimited.com> | http://understandingfonts.com/who/dave-crossland/ | Designer, original Latin glyphs.
+Valek Filippov | <frob@gnome.org> | https://plus.google.com/108983215764171548842/about | Designer, original Cyrillic glyphs.
+Erik Hartenian | <infinality@infinality.net> | - | Connoisseur of fine font renderding.
+Pooja Saxena | <anexasajoop@gmail.com> | http://www.poojasaxena.in | Designer, new glyphs and many improvements to weight and metric balance.
+Jakub Steiner | <jimmac@gmail.com> | http://jimmac.musichall.cz | Designer, many improvements and GNOME standards engineering.
+Nikolaus Waxweiler | <madigens@gmail.com> | - | Designer, general clean up and increased language coverage, later on complete redesign.
