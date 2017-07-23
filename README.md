@@ -4,6 +4,17 @@ This file provides detailed information on the Cantarell font software. This
 information should be distributed along with the Cantarell fonts and any
 derivative works.
 
+## Build instructions
+
+```
+pip3 install fontmake --user
+pip3 install -e git+https://github.com/khaledhosny/psautohint#egg=psautohint --user
+
+meson build
+cd build
+ninja install
+```
+
 ## Font Information
 
 The Cantarell typeface family is a contemporary Humanist sans serif, and is
