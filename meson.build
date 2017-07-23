@@ -1,8 +1,16 @@
 project('Cantarell', version : '0.30')
 
 datadir = join_paths(get_option('prefix'), get_option('datadir'))
-fontsdir = join_paths(datadir, 'fonts', 'cantarell')
-fontconfigdir = join_paths(datadir, 'fontconfig', 'conf.avail')
+
+fontsdir = get_option('fontsdir')
+if fontsdir == ''
+  fontsdir = join_paths(datadir, 'fonts', 'cantarell')
+endif
+
+fontconfigdir = get_option('fontconfigdir')
+if fontconfigdir == ''
+  fontconfigdir = join_paths(datadir, 'fontconfig', 'conf.avail')
+endif
 
 python3 = import('python3').find_python()
 fontmake = find_program('fontmake')
