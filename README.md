@@ -70,11 +70,8 @@ using 1).
 ## Acknowledgements
 
 Here is a list of major contributors; all contributors are listed in the GNOME
-Git repository changelogs.
-
-If you make major modifications be sure to add your name (N), email (E),
-web-address (W) and description (D). This list is sorted by last name in
-alphabetical order.
+Git repository changelogs. Please add yourself if you make major changes. This
+list is sorted by last name in alphabetical order.
 
 Name | Email | Web Address | Description
 --- | --- | --- | ---
