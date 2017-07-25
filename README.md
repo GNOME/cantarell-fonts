@@ -9,6 +9,7 @@ derivative works.
 ```
 pip3 install fontmake --user
 pip3 install -e git+https://github.com/khaledhosny/psautohint#egg=psautohint --user
+# Add both programs to your PATH.
 
 meson build
 cd build
