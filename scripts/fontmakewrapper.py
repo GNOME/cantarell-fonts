@@ -7,7 +7,10 @@
 # file for the install command to work properly. Also, autohint the binaries
 # while we're at it.
 
-import os, glob, argparse, subprocess
+import os
+import glob
+import argparse
+import subprocess
 
 parser = argparse.ArgumentParser()
 parser.add_argument("fontmake", type=str, help="The path to fontmake.")
@@ -17,28 +20,17 @@ args = parser.parse_args()
 
 fontname = os.path.basename(args.font_source).split(".")[0]
 
-if args.font_source.endswith(".ufo"):
-    fontmake_cmd_switch = "-u"
-    interpolate = ""
-elif args.font_source.endswith(".glyphs"):
-    fontmake_cmd_switch = "-g"
-    interpolate = "-i"
-else:
-    raise(ValueError, "This script currently only handles UFO and Glyphs sources.")
+if not args.font_source.endswith(".glyphs"):
+    raise(ValueError,
+          "This script currently only handles Glyphs sources.")
 
-subprocess.run([args.fontmake, fontmake_cmd_switch, args.font_source, interpolate, "-o", "otf"])
+subprocess.run([args.fontmake, "-g", args.font_source, "-i", "-o", "otf"])
 
-if not interpolate: # We're looking at a single-master UFO.
-    font_original_path = os.path.join(os.getcwd(), "master_otf", fontname + ".otf")
-    font_new_path = os.path.join(os.getcwd(), fontname + ".otf")
+font_binaries_glob = os.path.join(
+    os.getcwd(), "instance_otf", fontname) + "*otf"
+font_binaries = glob.glob(font_binaries_glob)
 
-    os.rename(font_original_path, font_new_path)
-
-    subprocess.run([args.psautohint, font_new_path])
-else: # A .glyphs file with potentially multiple instances.
-    font_binaries_glob = os.path.join(os.getcwd(), "instance_otf", fontname) + "*otf"
-    font_binaries = glob.glob(font_binaries_glob)
-    for font in font_binaries:
-        moved_font = os.path.join(os.getcwd(), os.path.basename(font))
-        os.rename(font, os.path.join(os.getcwd(), moved_font))
-        subprocess.run([args.psautohint, moved_font])
+for font in font_binaries:
+    moved_font = os.path.join(os.getcwd(), os.path.basename(font))
+    os.rename(font, os.path.join(os.getcwd(), moved_font))
+    subprocess.run([args.psautohint, moved_font])
