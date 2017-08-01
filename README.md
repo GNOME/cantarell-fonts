@@ -43,19 +43,8 @@ as FontForge.
 Given the decaying state of FontForge (arcane user interface, heaps of quirky
 and buggy behavior) and the very early development status of alternatives such
 as TruFont, Nikolaus Waxweiler started redrawing Cantarell in the proprietary
-and Mac-only Glyphs.app.
-
-Taking inspiration from Source Sans Pro, the redesign was a thin and a black
-master, with all other weights inbetween interpolated. Using proprietary
-plugins like SpeedPunk and RMX Tools resulted in much higher quality outlines.
-The open-source HT Letterspacer plugin made good and consistent spacing almost
-trivial. The original character of Cantarell was however ironed out in the
-process, for better or worse.
-
-There was one victim of the redesign: participation. As the design process
-continues, the master file is in the proprietary, but documented .glyphs
-format, which no open-source design application can read. This is because the
-widely supported UFO format has a limited feature set. See below.
+and Mac-only Glyphs.app under mentorship from Jacques Le Bailly ("Baron von
+Fonthausen").
 
 [1]: http://www.typedesign.reading.ac.uk
 
