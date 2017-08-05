@@ -1,5 +1,8 @@
 {
 .appVersion = "1045";
+DisplayStrings = (
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+);
 copyright = "Copyright (c) 2009--2017 The Cantarell Authors";
 customParameters = (
 {
@@ -573,7 +576,7 @@ unicode = 004C;
 },
 {
 glyphname = M;
-lastChange = "2017-08-05 08:54:10 +0000";
+lastChange = "2017-08-05 15:44:39 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -583,7 +586,7 @@ closed = 1;
 nodes = (
 "192 0 LINE",
 "192 629 LINE",
-"149 622 LINE",
+"149 629 LINE",
 "440 136 LINE",
 "454 136 LINE",
 "744 645 LINE",
@@ -593,7 +596,7 @@ nodes = (
 "784 694 LINE",
 "685 694 LINE",
 "421 230 LINE",
-"479 232 LINE",
+"479 230 LINE",
 "206 694 LINE",
 "109 694 LINE",
 "109 0 LINE"
@@ -801,7 +804,7 @@ unicode = 0052;
 },
 {
 glyphname = S;
-lastChange = "2017-08-05 08:54:45 +0000";
+lastChange = "2017-08-05 15:45:49 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -813,7 +816,7 @@ nodes = (
 "534 69 OFFCURVE",
 "534 203 CURVE SMOOTH",
 "534 461 OFFCURVE",
-"154 346 OFFCURVE",
+"154 342 OFFCURVE",
 "154 514 CURVE SMOOTH",
 "154 585 OFFCURVE",
 "221 631 OFFCURVE",
@@ -829,7 +832,7 @@ nodes = (
 "69 627 OFFCURVE",
 "69 500 CURVE SMOOTH",
 "69 262 OFFCURVE",
-"449 372 OFFCURVE",
+"449 376 OFFCURVE",
 "449 187 CURVE SMOOTH",
 "449 114 OFFCURVE",
 "390 63 OFFCURVE",
@@ -921,7 +924,7 @@ unicode = 0055;
 },
 {
 glyphname = V;
-lastChange = "2017-08-03 20:10:03 +0000";
+lastChange = "2017-08-05 15:43:38 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -931,10 +934,10 @@ closed = 1;
 nodes = (
 "378 0 LINE",
 "620 694 LINE",
-"523 694 LINE",
-"305 9 LINE",
-"356 9 LINE",
-"137 694 LINE",
+"525 694 LINE",
+"307 9 LINE",
+"352 9 LINE",
+"133 694 LINE",
 "33 694 LINE",
 "275 0 LINE"
 );
@@ -948,7 +951,7 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2017-08-05 08:52:45 +0000";
+lastChange = "2017-08-05 15:40:58 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -964,12 +967,12 @@ nodes = (
 "990 694 LINE",
 "903 694 LINE",
 "715 19 LINE",
-"773 19 LINE",
-"579 694 LINE",
+"769 19 LINE",
+"575 694 LINE",
 "479 694 LINE",
 "268 19 LINE",
-"329 19 LINE",
-"139 694 LINE",
+"325 19 LINE",
+"135 694 LINE",
 "35 694 LINE",
 "253 0 LINE"
 );
@@ -983,7 +986,7 @@ unicode = 0057;
 },
 {
 glyphname = X;
-lastChange = "2017-08-05 08:27:02 +0000";
+lastChange = "2017-08-05 16:06:08 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -992,21 +995,21 @@ paths = (
 closed = 1;
 nodes = (
 "131 0 LINE",
-"348 331 LINE",
-"599 694 LINE",
+"346 333 LINE",
+"594 694 LINE",
 "497 694 LINE",
-"299 393 LINE",
-"29 0 LINE"
+"299 390 LINE",
+"34 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"625 0 LINE",
-"350 395 LINE",
+"620 0 LINE",
+"347 394 LINE",
 "159 694 LINE",
-"49 694 LINE",
-"297 329 LINE",
+"54 694 LINE",
+"288 346 LINE",
 "515 0 LINE"
 );
 }
@@ -1019,7 +1022,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2017-08-03 20:15:41 +0000";
+lastChange = "2017-08-05 16:07:19 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -1030,10 +1033,10 @@ nodes = (
 "336 0 LINE",
 "336 329 LINE",
 "572 694 LINE",
-"479 694 LINE",
-"290 392 LINE",
-"310 392 LINE",
-"127 694 LINE",
+"481 694 LINE",
+"292 392 LINE",
+"303 392 LINE",
+"121 694 LINE",
 "24 694 LINE",
 "253 329 LINE",
 "253 0 LINE"
@@ -1048,7 +1051,7 @@ unicode = 0059;
 },
 {
 glyphname = Z;
-lastChange = "2017-08-05 09:00:52 +0000";
+lastChange = "2017-08-05 16:07:59 +0000";
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -1058,12 +1061,12 @@ closed = 1;
 nodes = (
 "601 0 LINE",
 "601 72 LINE",
-"158 72 LINE",
+"159 72 LINE",
 "588 642 LINE",
 "588 694 LINE",
 "57 694 LINE",
 "57 622 LINE",
-"464 622 LINE",
+"472 622 LINE",
 "43 53 LINE",
 "43 0 LINE"
 );
