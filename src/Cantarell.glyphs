@@ -1,5 +1,8 @@
 {
 .appVersion = "1055";
+DisplayStrings = (
+O/Oogonek/Uogonek
+);
 classes = (
 {
 automatic = 1;
@@ -2371,7 +2374,7 @@ unicode = 012A;
 },
 {
 glyphname = Iogonek;
-lastChange = "2017-08-13 18:32:20 +0000";
+lastChange = "2017-08-19 18:30:08 +0000";
 layers = (
 {
 components = (
@@ -2379,8 +2382,8 @@ components = (
 name = I;
 },
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, -77, 0}";
+name = ogonekcomb.narrow;
+transform = "{1, 0, 0, 1, -53, 0}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -3102,7 +3105,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2017-08-17 20:02:36 +0000";
+lastChange = "2017-08-19 18:38:24 +0000";
 layers = (
 {
 anchors = (
@@ -3124,7 +3127,7 @@ position = "{391, 347}";
 },
 {
 name = ogonek;
-position = "{444, 10}";
+position = "{503, 10}";
 },
 {
 name = top;
@@ -3816,7 +3819,7 @@ unicode = 1E50;
 },
 {
 glyphname = Oogonek;
-lastChange = "2017-08-13 18:32:20 +0000";
+lastChange = "2017-08-19 18:38:24 +0000";
 layers = (
 {
 components = (
@@ -3824,8 +3827,8 @@ components = (
 name = O;
 },
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, 193, 0}";
+name = ogonekcomb.U;
+transform = "{1, 0, 0, 1, 252, 0}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -18425,7 +18428,7 @@ width = 550;
 },
 {
 glyphname = ogonekcomb.narrow;
-lastChange = "2017-08-16 20:05:23 +0000";
+lastChange = "2017-08-19 18:31:12 +0000";
 layers = (
 {
 anchors = (
@@ -18439,24 +18442,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"191 -254 OFFCURVE",
+"193 -254 OFFCURVE",
 "221 -247 OFFCURVE",
-"240 -235 CURVE",
+"240 -237 CURVE",
 "235 -189 LINE",
-"220 -194 OFFCURVE",
-"204 -197 OFFCURVE",
+"222 -194 OFFCURVE",
+"205 -197 OFFCURVE",
 "194 -197 CURVE SMOOTH",
-"165 -197 OFFCURVE",
-"154 -170 OFFCURVE",
-"154 -138 CURVE SMOOTH",
-"154 -84 OFFCURVE",
-"184 -29 OFFCURVE",
+"170 -197 OFFCURVE",
+"154 -180 OFFCURVE",
+"154 -144 CURVE SMOOTH",
+"154 -89 OFFCURVE",
+"190 -25 OFFCURVE",
 "245 0 CURVE",
-"212 9 LINE",
-"141 -16 OFFCURVE",
-"83 -87 OFFCURVE",
-"83 -158 CURVE SMOOTH",
-"83 -214 OFFCURVE",
+"176 9 LINE",
+"120 -24 OFFCURVE",
+"83 -98 OFFCURVE",
+"83 -160 CURVE SMOOTH",
+"83 -222 OFFCURVE",
 "120 -254 OFFCURVE",
 "170 -254 CURVE SMOOTH"
 );
