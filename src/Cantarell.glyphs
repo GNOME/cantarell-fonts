@@ -1,8 +1,5 @@
 {
 .appVersion = "1055";
-DisplayStrings = (
-O/Oogonek/Uogonek
-);
 classes = (
 {
 automatic = 1;
@@ -9045,7 +9042,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-08-13 18:32:20 +0000";
+lastChange = "2017-08-19 18:40:23 +0000";
 layers = (
 {
 anchors = (
@@ -9063,7 +9060,7 @@ position = "{284, 241}";
 },
 {
 name = ogonek;
-position = "{331, 10}";
+position = "{373, 10}";
 },
 {
 name = top;
@@ -9679,7 +9676,7 @@ unicode = 1E51;
 },
 {
 glyphname = oogonek;
-lastChange = "2017-08-13 18:32:20 +0000";
+lastChange = "2017-08-19 18:40:23 +0000";
 layers = (
 {
 components = (
@@ -9687,8 +9684,8 @@ components = (
 name = o;
 },
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, 80, 0}";
+name = ogonekcomb.U;
+transform = "{1, 0, 0, 1, 122, 0}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
