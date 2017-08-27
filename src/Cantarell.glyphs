@@ -1,5 +1,8 @@
 {
 .appVersion = "1056";
+DisplayStrings = (
+fz
+);
 classes = (
 {
 automatic = 1;
@@ -11870,7 +11873,7 @@ unicode = 1EF9;
 },
 {
 glyphname = z;
-lastChange = "2017-08-27 15:57:17 +0000";
+lastChange = "2017-08-27 21:29:40 +0000";
 layers = (
 {
 anchors = (
@@ -11889,14 +11892,14 @@ paths = (
 closed = 1;
 nodes = (
 "427 0 LINE",
-"427 70 LINE",
-"115 70 LINE",
+"427 67 LINE",
+"115 67 LINE",
 "127 49 LINE",
 "415 433 LINE",
 "415 482 LINE",
 "37 482 LINE",
-"37 412 LINE",
-"336 412 LINE",
+"37 415 LINE",
+"336 415 LINE",
 "324 433 LINE",
 "37 49 LINE",
 "37 0 LINE"
