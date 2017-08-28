@@ -19,7 +19,7 @@
 *,Number,*,0.8,*,superior,
 
 # Punctuation
-*,Punctuation,Other,1.4,*,*,
+*,Punctuation,Other,1,*,*,
 *,Punctuation,Parenthesis,1.2,*,*,
 *,Punctuation,Quote,1.2,*,*,
 *,Punctuation,Dash,1,*,*,
