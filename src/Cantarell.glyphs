@@ -1,5 +1,8 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+_
+);
 classes = (
 {
 automatic = 1;
@@ -43129,10 +43132,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"523 -72 LINE",
 "523 0 LINE",
-"523 72 LINE",
-"85 72 LINE",
-"85 0 LINE"
+"85 0 LINE",
+"85 -72 LINE"
 );
 }
 );
@@ -43144,10 +43147,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"520 -135 LINE",
 "520 0 LINE",
-"520 135 LINE",
-"62 135 LINE",
-"62 0 LINE"
+"62 0 LINE",
+"62 -135 LINE"
 );
 }
 );
@@ -43159,10 +43162,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"540 -17 LINE",
 "540 0 LINE",
-"540 17 LINE",
-"102 17 LINE",
-"102 0 LINE"
+"102 0 LINE",
+"102 -17 LINE"
 );
 }
 );
