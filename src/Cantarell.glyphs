@@ -1,8 +1,8 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"kkk\012KKK\012HHH",
-"kraft bonkers haken hockey fallbacks\012kraft bonkers haken hockey fallbacks\012kraft bonkers haken hockey fallbacks\012\012VKraftkern\012VKraftkern\012VKraftkern\012\012KRAFT FALLBACKS HAKEN HOCKEY\012KRAFT FALLBACKS HAKEN HOCKEY\012KRAFT FALLBACKS HAKEN HOCKEY"
+"kkk\012KKK\012lll\012aaaoe",
+"Solutions\012Solutions\012Solutions"
 );
 classes = (
 {
@@ -14945,14 +14945,14 @@ nodes = (
 "185 500 OFFCURVE",
 "101 477 OFFCURVE",
 "37 438 CURVE",
-"75 321 LINE",
-"127 345 OFFCURVE",
-"183 359 OFFCURVE",
-"227 359 CURVE SMOOTH",
-"288 359 OFFCURVE",
-"323 331 OFFCURVE",
-"323 282 CURVE SMOOTH",
-"323 129 LINE",
+"75 323 LINE",
+"127 347 OFFCURVE",
+"183 361 OFFCURVE",
+"227 361 CURVE SMOOTH",
+"288 361 OFFCURVE",
+"327 333 OFFCURVE",
+"327 282 CURVE SMOOTH",
+"327 129 LINE",
 "371 0 LINE"
 );
 },
@@ -14972,8 +14972,8 @@ nodes = (
 "204 192 OFFCURVE",
 "249 206 OFFCURVE",
 "358 205 CURVE",
-"358 299 LINE",
-"152 300 OFFCURVE",
+"358 301 LINE",
+"152 302 OFFCURVE",
 "30 236 OFFCURVE",
 "30 126 CURVE SMOOTH",
 "30 44 OFFCURVE",
@@ -21933,23 +21933,23 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{165, 0}";
+position = "{164, 0}";
 },
 {
 name = center;
-position = "{144, 381}";
+position = "{143, 381}";
 },
 {
 name = periodcentered;
-position = "{295, 353}";
+position = "{294, 353}";
 },
 {
 name = top;
-position = "{122, 739}";
+position = "{121, 739}";
 },
 {
 name = topright;
-position = "{252, 482}";
+position = "{251, 482}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -21957,26 +21957,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"228 -6 OFFCURVE",
-"253 1 OFFCURVE",
-"276 14 CURVE",
-"258 69 LINE",
-"247 62 OFFCURVE",
-"230 57 OFFCURVE",
-"214 57 CURVE SMOOTH",
-"182 57 OFFCURVE",
-"161 81 OFFCURVE",
-"161 118 CURVE SMOOTH",
-"161 739 LINE",
-"81 739 LINE",
-"81 108 LINE SMOOTH",
-"81 41 OFFCURVE",
-"131 -6 OFFCURVE",
-"201 -6 CURVE SMOOTH"
+"227 -6 OFFCURVE",
+"252 1 OFFCURVE",
+"275 14 CURVE",
+"257 69 LINE",
+"246 62 OFFCURVE",
+"229 57 OFFCURVE",
+"213 57 CURVE SMOOTH",
+"181 57 OFFCURVE",
+"160 81 OFFCURVE",
+"160 118 CURVE SMOOTH",
+"160 739 LINE",
+"80 739 LINE",
+"80 108 LINE SMOOTH",
+"80 41 OFFCURVE",
+"130 -6 OFFCURVE",
+"200 -6 CURVE SMOOTH"
 );
 }
 );
-width = 283;
+width = 282;
 },
 {
 anchors = (
@@ -22007,15 +22007,15 @@ paths = (
 closed = 1;
 nodes = (
 "285 -8 OFFCURVE",
-"326 2 OFFCURVE",
-"352 21 CURVE",
-"313 137 LINE",
-"305 132 OFFCURVE",
-"295 129 OFFCURVE",
-"282 129 CURVE SMOOTH",
-"241 129 OFFCURVE",
-"221 153 OFFCURVE",
-"221 201 CURVE SMOOTH",
+"323 0 OFFCURVE",
+"349 19 CURVE",
+"313 132 LINE",
+"302 126 OFFCURVE",
+"288 122 OFFCURVE",
+"275 122 CURVE SMOOTH",
+"241 122 OFFCURVE",
+"221 148 OFFCURVE",
+"221 191 CURVE SMOOTH",
 "221 739 LINE",
 "51 739 LINE",
 "51 182 LINE SMOOTH",
@@ -22025,29 +22025,29 @@ nodes = (
 );
 }
 );
-width = 342;
+width = 339;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{148, 0}";
+position = "{150, 0}";
 },
 {
 name = center;
-position = "{131, 393}";
+position = "{133, 393}";
 },
 {
 name = periodcentered;
-position = "{278, 353}";
+position = "{280, 353}";
 },
 {
 name = top;
-position = "{109, 739}";
+position = "{111, 739}";
 },
 {
 name = topright;
-position = "{206, 480}";
+position = "{208, 480}";
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -22055,26 +22055,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"192 -2 OFFCURVE",
-"211 3 OFFCURVE",
-"224 11 CURVE",
-"219 25 LINE",
-"208 18 OFFCURVE",
-"193 14 OFFCURVE",
-"179 14 CURVE SMOOTH",
-"141 14 OFFCURVE",
-"118 43 OFFCURVE",
-"118 87 CURVE SMOOTH",
-"118 739 LINE",
-"98 739 LINE",
-"98 83 LINE SMOOTH",
-"98 32 OFFCURVE",
-"128 -2 OFFCURVE",
-"174 -2 CURVE SMOOTH"
+"194 -2 OFFCURVE",
+"213 3 OFFCURVE",
+"226 11 CURVE",
+"221 25 LINE",
+"210 18 OFFCURVE",
+"195 14 OFFCURVE",
+"181 14 CURVE SMOOTH",
+"143 14 OFFCURVE",
+"120 43 OFFCURVE",
+"120 87 CURVE SMOOTH",
+"120 739 LINE",
+"100 739 LINE",
+"100 83 LINE SMOOTH",
+"100 32 OFFCURVE",
+"130 -2 OFFCURVE",
+"176 -2 CURVE SMOOTH"
 );
 }
 );
-width = 240;
+width = 245;
 }
 );
 note = l;
