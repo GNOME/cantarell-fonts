@@ -1,7 +1,8 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-_
+"kkk\012KKK\012HHH",
+"kraft bonkers haken hockey fallbacks\012kraft bonkers haken hockey fallbacks\012kraft bonkers haken hockey fallbacks\012\012VKraftkern\012VKraftkern\012VKraftkern\012\012KRAFT FALLBACKS HAKEN HOCKEY\012KRAFT FALLBACKS HAKEN HOCKEY\012KRAFT FALLBACKS HAKEN HOCKEY"
 );
 classes = (
 {
@@ -6100,12 +6101,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"617 0 LINE",
-"273 380 LINE",
-"272 358 LINE",
+"613 0 LINE",
+"280 380 LINE",
+"283 358 LINE",
 "598 694 LINE",
 "497 694 LINE",
-"180 361 LINE",
+"191 361 LINE",
 "503 0 LINE"
 );
 },
@@ -6119,7 +6120,7 @@ nodes = (
 );
 }
 );
-width = 657;
+width = 636;
 },
 {
 anchors = (
@@ -6137,26 +6138,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"731 0 LINE",
-"447 392 LINE",
-"443 358 LINE",
-"720 694 LINE",
-"514 694 LINE",
-"245 361 LINE",
-"495 0 LINE"
+"724 0 LINE",
+"457 394 LINE",
+"460 360 LINE",
+"705 694 LINE",
+"496 694 LINE",
+"259 363 LINE",
+"492 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"255 0 LINE",
-"255 694 LINE",
-"77 694 LINE",
-"77 0 LINE"
+"257 0 LINE",
+"257 694 LINE",
+"79 694 LINE",
+"79 0 LINE"
 );
 }
 );
-width = 743;
+width = 722;
 },
 {
 anchors = (
@@ -6175,11 +6176,11 @@ paths = (
 closed = 1;
 nodes = (
 "544 0 LINE",
-"161 367 LINE",
-"161 357 LINE",
-"516 694 LINE",
-"487 694 LINE",
-"142 361 LINE",
+"168 366 LINE",
+"168 356 LINE",
+"530 694 LINE",
+"501 694 LINE",
+"149 360 LINE",
 "514 0 LINE"
 );
 },
@@ -6193,7 +6194,7 @@ nodes = (
 );
 }
 );
-width = 604;
+width = 587;
 }
 );
 note = K;
@@ -21703,27 +21704,27 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"494 0 LINE",
-"227 287 LINE",
-"227 238 LINE",
-"483 482 LINE",
+"498 0 LINE",
+"250 286 LINE",
+"241 237 LINE",
+"476 482 LINE",
 "381 482 LINE",
-"152 258 LINE",
+"168 257 LINE",
 "392 0 LINE"
 );
 }
 );
-width = 516;
+width = 503;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{313, 0}";
+position = "{315, 0}";
 },
 {
 name = top;
-position = "{313, 490}";
+position = "{315, 490}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
@@ -21740,17 +21741,17 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"599 0 LINE",
-"392 295 LINE",
-"392 238 LINE",
-"598 490 LINE",
-"384 490 LINE",
-"211 259 LINE",
-"392 0 LINE"
+"609 0 LINE",
+"427 295 LINE",
+"411 238 LINE",
+"580 490 LINE",
+"381 490 LINE",
+"237 259 LINE",
+"389 0 LINE"
 );
 }
 );
-width = 602;
+width = 596;
 },
 {
 anchors = (
@@ -21778,16 +21779,16 @@ nodes = (
 closed = 1;
 nodes = (
 "424 0 LINE",
-"130 267 LINE",
-"129 249 LINE",
+"143 267 LINE",
+"141 249 LINE",
 "412 480 LINE",
 "385 480 LINE",
-"112 257 LINE",
+"124 257 LINE",
 "395 0 LINE"
 );
 }
 );
-width = 463;
+width = 447;
 }
 );
 note = k;
