@@ -1,5 +1,8 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+_
+);
 classes = (
 {
 automatic = 1;
@@ -40719,14 +40722,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-85 0 LINE",
-"389 694 LINE",
+"-88 0 LINE",
+"383 694 LINE",
 "246 694 LINE",
 "-210 0 LINE"
 );
 }
 );
-width = 189;
+width = 173;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -40786,7 +40789,7 @@ transform = "{1, 0, 0, 1, 344, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 533;
+width = 517;
 }
 );
 leftMetricsKey = one.numr;
@@ -40841,11 +40844,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = two.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 888;
+width = 872;
 }
 );
 leftMetricsKey = one.numr;
@@ -40900,11 +40903,11 @@ transform = "{1, 0, 0, 1, 399, 0}";
 },
 {
 name = three.dnom;
-transform = "{1, 0, 0, 1, 588, 0}";
+transform = "{1, 0, 0, 1, 572, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 936;
+width = 920;
 }
 );
 leftMetricsKey = zero.numr;
@@ -40959,11 +40962,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = three.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 881;
+width = 865;
 }
 );
 leftMetricsKey = one.numr;
@@ -41018,11 +41021,11 @@ transform = "{1, 0, 0, 1, 355, 0}";
 },
 {
 name = three.dnom;
-transform = "{1, 0, 0, 1, 544, 0}";
+transform = "{1, 0, 0, 1, 528, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 892;
+width = 876;
 }
 );
 leftMetricsKey = two.numr;
@@ -41077,11 +41080,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = four.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 928;
+width = 912;
 }
 );
 leftMetricsKey = one.numr;
@@ -41136,11 +41139,11 @@ transform = "{1, 0, 0, 1, 348, 0}";
 },
 {
 name = four.dnom;
-transform = "{1, 0, 0, 1, 537, 0}";
+transform = "{1, 0, 0, 1, 521, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 932;
+width = 916;
 }
 );
 leftMetricsKey = three.numr;
@@ -41195,11 +41198,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = five.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 886;
+width = 870;
 }
 );
 leftMetricsKey = one.numr;
@@ -41254,11 +41257,11 @@ transform = "{1, 0, 0, 1, 355, 0}";
 },
 {
 name = five.dnom;
-transform = "{1, 0, 0, 1, 544, 0}";
+transform = "{1, 0, 0, 1, 528, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 897;
+width = 881;
 }
 );
 leftMetricsKey = two.numr;
@@ -41313,11 +41316,11 @@ transform = "{1, 0, 0, 1, 348, 0}";
 },
 {
 name = five.dnom;
-transform = "{1, 0, 0, 1, 537, 0}";
+transform = "{1, 0, 0, 1, 521, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 890;
+width = 874;
 }
 );
 leftMetricsKey = three.numr;
@@ -41372,11 +41375,11 @@ transform = "{1, 0, 0, 1, 395, 0}";
 },
 {
 name = five.dnom;
-transform = "{1, 0, 0, 1, 584, 0}";
+transform = "{1, 0, 0, 1, 568, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 937;
+width = 921;
 }
 );
 leftMetricsKey = four.numr;
@@ -41431,11 +41434,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = six.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 904;
+width = 888;
 }
 );
 leftMetricsKey = one.numr;
@@ -41490,11 +41493,11 @@ transform = "{1, 0, 0, 1, 353, 0}";
 },
 {
 name = six.dnom;
-transform = "{1, 0, 0, 1, 542, 0}";
+transform = "{1, 0, 0, 1, 526, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 913;
+width = 897;
 }
 );
 leftMetricsKey = five.numr;
@@ -41549,11 +41552,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = seven.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 868;
+width = 852;
 }
 );
 leftMetricsKey = one.numr;
@@ -41608,11 +41611,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 906;
+width = 890;
 }
 );
 leftMetricsKey = one.numr;
@@ -41667,11 +41670,11 @@ transform = "{1, 0, 0, 1, 348, 0}";
 },
 {
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 537, 0}";
+transform = "{1, 0, 0, 1, 521, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 910;
+width = 894;
 }
 );
 leftMetricsKey = three.numr;
@@ -41726,11 +41729,11 @@ transform = "{1, 0, 0, 1, 353, 0}";
 },
 {
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 542, 0}";
+transform = "{1, 0, 0, 1, 526, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 915;
+width = 899;
 }
 );
 leftMetricsKey = five.numr;
@@ -41785,11 +41788,11 @@ transform = "{1, 0, 0, 1, 335, 0}";
 },
 {
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 524, 0}";
+transform = "{1, 0, 0, 1, 508, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 897;
+width = 881;
 }
 );
 leftMetricsKey = seven.numr;
@@ -41844,11 +41847,11 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = nine.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 905;
+width = 889;
 }
 );
 leftMetricsKey = one.numr;
@@ -41911,15 +41914,15 @@ transform = "{1, 0, 0, 1, 344, 0}";
 },
 {
 name = one.dnom;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 517, 0}";
 },
 {
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 877, 0}";
+transform = "{1, 0, 0, 1, 861, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 1276;
+width = 1260;
 }
 );
 leftMetricsKey = one.numr;
@@ -43129,10 +43132,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"523 -72 LINE",
+"523 -69 LINE",
 "523 0 LINE",
 "85 0 LINE",
-"85 -72 LINE"
+"85 -69 LINE"
 );
 }
 );
@@ -43144,14 +43147,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"520 -135 LINE",
-"520 0 LINE",
+"512 -148 LINE",
+"512 0 LINE",
 "62 0 LINE",
-"62 -135 LINE"
+"62 -148 LINE"
 );
 }
 );
-width = 582;
+width = 574;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -43159,14 +43162,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"540 -17 LINE",
-"540 0 LINE",
+"530 -17 LINE",
+"530 0 LINE",
 "102 0 LINE",
 "102 -17 LINE"
 );
 }
 );
-width = 642;
+width = 632;
 }
 );
 unicode = 005F;
@@ -47830,7 +47833,7 @@ name = fraction;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 189;
+width = 173;
 },
 {
 components = (
