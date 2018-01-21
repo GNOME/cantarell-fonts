@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"NNN\012HHH\012\012HHHOOOHOHOHO\012HHHOOOHOHOHO\012HHHOOOHOHOHO"
+"Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.\012\012Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.\012\012Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box."
 );
 classes = (
 {
@@ -44993,11 +44993,11 @@ width = 220;
 },
 {
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 150;
+width = 160;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 190;
+width = 200;
 }
 );
 widthMetricsKey = space;
@@ -45026,15 +45026,15 @@ glyphname = space;
 layers = (
 {
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 210;
+width = 220;
 },
 {
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 150;
+width = 160;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 190;
+width = 200;
 }
 );
 note = space;
@@ -45049,11 +45049,11 @@ width = 220;
 },
 {
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 150;
+width = 160;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 190;
+width = 200;
 }
 );
 widthMetricsKey = space;
@@ -64094,7 +64094,6 @@ width = 432;
 );
 instances = (
 {
-exports = 0;
 interpolationWeight = 20;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 1;
@@ -64103,7 +64102,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 interpolationWeight = 40;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 0.66667;
@@ -64120,6 +64118,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Disable Masters";
@@ -64136,7 +64135,6 @@ instanceInterpolations = {
 name = "Regular Interpolated";
 },
 {
-exports = 0;
 interpolationWeight = 126;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 0.51111;
@@ -64148,7 +64146,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 interpolationWeight = 170;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 1;
