@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.\012\012Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.\012\012Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box."
+"task/rightArrow setup"
 );
 classes = (
 {
@@ -10,7 +10,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2009--2017 The Cantarell Authors";
+copyright = "Copyright © 2009—2017 The Cantarell Authors";
 customParameters = (
 {
 name = vendorID;
@@ -51370,10 +51370,16 @@ nodes = (
 "626 329 LINE",
 "358 590 LINE",
 "304 535 LINE",
-"491 355 LINE",
+"425 418 LINE SMOOTH",
+"447 397 OFFCURVE",
+"469 376 OFFCURVE",
+"511 355 CURVE",
 "73 355 LINE",
 "73 288 LINE",
-"490 288 LINE",
+"510 288 LINE",
+"481 275 OFFCURVE",
+"462 261 OFFCURVE",
+"432 231 CURVE SMOOTH",
 "304 105 LINE",
 "355 54 LINE"
 );
@@ -51391,10 +51397,16 @@ nodes = (
 "633 320 LINE",
 "322 620 LINE",
 "207 510 LINE",
-"345 381 LINE",
+"324 425 LINE SMOOTH",
+"342 412 OFFCURVE",
+"370 400 OFFCURVE",
+"426 381 CURVE",
 "29 381 LINE",
 "29 246 LINE",
-"347 246 LINE",
+"426 246 LINE",
+"382 232 OFFCURVE",
+"341 214 OFFCURVE",
+"324 201 CURVE SMOOTH",
 "211 115 LINE",
 "315 7 LINE"
 );
@@ -51412,10 +51424,16 @@ nodes = (
 "606 334 LINE",
 "362 571 LINE",
 "350 557 LINE",
-"572 340 LINE",
+"548 363 LINE SMOOTH",
+"555 356 OFFCURVE",
+"563 348 OFFCURVE",
+"572 340 CURVE",
 "82 340 LINE",
 "82 323 LINE",
 "572 323 LINE",
+"564 315 OFFCURVE",
+"556 307 OFFCURVE",
+"548 299 CURVE SMOOTH",
 "348 101 LINE",
 "360 88 LINE"
 );
@@ -64193,6 +64211,6 @@ tH = "67";
 };
 };
 };
-versionMajor = 2;
-versionMinor = 1;
+versionMajor = 1;
+versionMinor = 0;
 }
