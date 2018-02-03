@@ -7,11 +7,6 @@ if fontsdir == ''
   fontsdir = join_paths(datadir, 'fonts', 'cantarell')
 endif
 
-fontconfigdir = get_option('fontconfigdir')
-if fontconfigdir == ''
-  fontconfigdir = join_paths(datadir, 'fontconfig', 'conf.avail')
-endif
-
 python3 = import('python3').find_python()
 fontmake = find_program('fontmake')
 fontmake_wrapper = join_paths(meson.current_source_dir(), 'scripts', 'fm.py')

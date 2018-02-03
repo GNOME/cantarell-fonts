@@ -1,6 +1,2 @@
 option('fontsdir', type : 'string',
        description : 'The directory the fonts should be copied to.')
-
-option('fontconfigdir', type : 'string',
-       description : 'The directory where the fontconfig configuration files reside')
-
