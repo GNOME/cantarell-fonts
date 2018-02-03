@@ -18,13 +18,15 @@ parser.add_argument("font_source", help="The path to the font source.")
 parser.add_argument("output_dir", help="The full target output path.")
 args = parser.parse_args()
 
-subprocess.run([
-    args.fontmake, "-g", args.font_source, "-i", "-o", "otf", "--verbose",
-    "WARNING"
-])
+source = Path(args.font_source).resolve()
+output_dir = Path(args.output_dir)
 
-for otf in Path("./instance_otf").glob("*.otf"):
+subprocess.run([
+    args.fontmake, "-g", source, "-i", "-o", "otf", "--verbose",
+    "WARNING"
+], cwd=output_dir)
+
+for otf in (output_dir / "instance_otf").glob("*.otf"):
     subprocess.run([args.psautohint, "-qq", str(otf)])
-    output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True)
     otf.rename(output_dir / otf.name)
