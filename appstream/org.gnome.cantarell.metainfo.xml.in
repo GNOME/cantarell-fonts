@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="font">
+  <id>org.gnome.cantarell</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>OFL-1.1</project_license>
+  <_name>Cantarell</_name>
+  <summary>Humanist sans serif font</summary>
+  <description>
+    <_p>
+      The Cantarell font family is a contemporary Humanist sans serif
+      designed for on-screen reading. The fonts were originally designed
+      by Dave Crossland.
+    </_p>
+  </description>
+  <url type="homepage">https://wiki.gnome.org/Projects/CantarellFonts</url>
+  <provides>
+    <font>Cantarell Thin</font>
+    <font>Cantarell Light</font>
+    <font>Cantarell Regular</font>
+    <font>Cantarell Bold</font>
+    <font>Cantarell Extra Bold</font>
+  </provides>
+</component>
