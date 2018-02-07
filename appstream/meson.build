@@ -5,5 +5,5 @@ appdata_file = i18n.merge_file(
   output: 'org.gnome.cantarell.metainfo.xml',
   po_dir: './',
   install: true,
-  install_dir: join_paths(get_option('datadir'), 'appdata'),
+  install_dir: appdatadir,
 )

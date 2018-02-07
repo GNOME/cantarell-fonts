@@ -1,6 +1,7 @@
 project('Cantarell', version : '0.100')
 
 datadir = join_paths(get_option('prefix'), get_option('datadir'))
+appdatadir = join_paths(datadir, 'appdata')
 
 fontsdir = get_option('fontsdir')
 if fontsdir == ''
