@@ -1,4 +1,4 @@
-project('Cantarell', version : '0.100')
+project('cantarell-fonts', version : '0.100')
 
 datadir = join_paths(get_option('prefix'), get_option('datadir'))
 appdatadir = join_paths(datadir, 'appdata')
