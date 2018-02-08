@@ -1,5 +1,5 @@
 if useprebuilt == false
-  custom_target('Cantarell',
+  custom_target('cantarell-fonts',
                 input : 'Cantarell.glyphs',
                 output : [
                   'Cantarell-Thin.otf',
