@@ -23578,7 +23578,7 @@ position = "{285, 241}";
 },
 {
 name = ogonek;
-position = "{380, 10}";
+position = "{370, 10}";
 },
 {
 name = top;
@@ -23640,7 +23640,7 @@ position = "{282, 245}";
 },
 {
 name = ogonek;
-position = "{383, 10}";
+position = "{368, 10}";
 },
 {
 name = top;
@@ -25009,7 +25009,7 @@ piece = {
 Group = 1;
 Tallness = 22;
 };
-transform = "{1, 0, 0, 1, -52, -1}";
+transform = "{1, 0, 0, 1, -62, -1}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -25026,7 +25026,7 @@ piece = {
 Group = 1;
 Tallness = 20;
 };
-transform = "{1, 0, 0, 1, -77, -1}";
+transform = "{1, 0, 0, 1, -92, -1}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
@@ -61611,12 +61611,12 @@ nodes = (
 "306 -227 OFFCURVE",
 "273 -191 OFFCURVE",
 "273 -141 CURVE SMOOTH",
-"273 -81 OFFCURVE",
-"324 -19 OFFCURVE",
+"273 -79 OFFCURVE",
+"324 -18 OFFCURVE",
 "407 20 CURVE",
-"398 27 LINE",
-"309 -10 OFFCURVE",
-"254 -76 OFFCURVE",
+"398 25 LINE",
+"307 -14 OFFCURVE",
+"254 -77 OFFCURVE",
 "254 -145 CURVE SMOOTH",
 "254 -204 OFFCURVE",
 "292 -243 OFFCURVE",
@@ -61648,12 +61648,12 @@ nodes = (
 "357 -198 OFFCURVE",
 "332 -168 OFFCURVE",
 "332 -126 CURVE SMOOTH",
-"332 -65 OFFCURVE",
-"381 -6 OFFCURVE",
-"454 24 CURVE",
-"414 36 LINE",
-"322 5 OFFCURVE",
-"261 -65 OFFCURVE",
+"332 -63 OFFCURVE",
+"384 -5 OFFCURVE",
+"461 27 CURVE",
+"428 36 LINE",
+"319 -7 OFFCURVE",
+"261 -68 OFFCURVE",
 "261 -141 CURVE SMOOTH",
 "261 -207 OFFCURVE",
 "306 -252 OFFCURVE",
@@ -61681,16 +61681,16 @@ nodes = (
 "488 -140 LINE",
 "474 -147 OFFCURVE",
 "455 -150 OFFCURVE",
-"448 -150 CURVE SMOOTH",
-"423 -150 OFFCURVE",
-"402 -127 OFFCURVE",
-"402 -99 CURVE SMOOTH",
-"402 -54 OFFCURVE",
+"447 -150 CURVE SMOOTH",
+"426 -150 OFFCURVE",
+"402 -130 OFFCURVE",
+"402 -96 CURVE SMOOTH",
+"402 -55 OFFCURVE",
 "438 -10 OFFCURVE",
 "507 31 CURVE",
 "440 38 LINE",
-"328 18 OFFCURVE",
-"259 -48 OFFCURVE",
+"316 -7 OFFCURVE",
+"259 -61 OFFCURVE",
 "259 -134 CURVE SMOOTH",
 "259 -206 OFFCURVE",
 "309 -256 OFFCURVE",
