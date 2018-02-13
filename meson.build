@@ -14,8 +14,9 @@ if useprebuilt == false
   fontmake = find_program('fontmake')
   fontmake_wrapper = join_paths(meson.current_source_dir(), 'scripts', 'fm.py')
   psautohint = find_program('psautohint')
+  subdir('src')
+else
+  subdir('prebuilt')
 endif
 
-subdir('src')
-subdir('prebuilt')
 subdir('appstream')
