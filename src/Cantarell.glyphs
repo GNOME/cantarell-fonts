@@ -48265,81 +48265,93 @@ unicode = 20A9;
 glyphname = yen;
 layers = (
 {
-components = (
-{
-name = Y;
-transform = "{1, 0, 0, 1, 29, 0}";
-}
-);
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
 paths = (
 {
 closed = 1;
 nodes = (
-"501 138 LINE",
-"501 198 LINE",
-"189 198 LINE",
-"189 138 LINE"
+"534 128 LINE",
+"534 188 LINE",
+"182 188 LINE",
+"182 128 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"501 278 LINE",
-"501 338 LINE",
-"189 338 LINE",
-"189 278 LINE"
+"534 278 LINE",
+"534 338 LINE",
+"182 338 LINE",
+"182 278 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"397 0 LINE",
+"397 309 LINE",
+"637 694 LINE",
+"546 694 LINE",
+"353 372 LINE",
+"364 372 LINE",
+"166 694 LINE",
+"69 694 LINE",
+"314 309 LINE",
+"314 0 LINE"
 );
 }
 );
 width = 706;
 },
 {
-components = (
-{
-name = Y;
-transform = "{1, 0, 0, 1, 19, 0}";
-}
-);
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
 paths = (
 {
 closed = 1;
 nodes = (
-"571 68 LINE",
-"571 188 LINE",
-"159 188 LINE",
-"159 68 LINE"
+"573 65 LINE",
+"573 185 LINE",
+"160 185 LINE",
+"160 65 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"571 238 LINE",
-"571 358 LINE",
-"159 358 LINE",
-"159 238 LINE"
+"573 238 LINE",
+"573 358 LINE",
+"160 358 LINE",
+"160 238 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"453 0 LINE",
+"453 297 LINE",
+"707 694 LINE",
+"513 694 LINE",
+"361 410 LINE",
+"383 410 LINE",
+"219 694 LINE",
+"15 694 LINE",
+"280 301 LINE",
+"280 0 LINE"
 );
 }
 );
 width = 722;
 },
 {
-components = (
-{
-name = Y;
-transform = "{1, 0, 0, 1, 37, 0}";
-}
-);
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
 paths = (
 {
 closed = 1;
 nodes = (
-"489 180 LINE",
-"489 197 LINE",
-"177 197 LINE",
-"177 180 LINE"
+"489 170 LINE",
+"489 187 LINE",
+"177 187 LINE",
+"177 170 LINE"
 );
 },
 {
@@ -48349,6 +48361,21 @@ nodes = (
 "489 337 LINE",
 "177 337 LINE",
 "177 320 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"338 0 LINE",
+"338 333 LINE",
+"570 694 LINE",
+"547 694 LINE",
+"325 344 LINE",
+"333 344 LINE",
+"110 694 LINE",
+"84 694 LINE",
+"317 333 LINE",
+"317 0 LINE"
 );
 }
 );
