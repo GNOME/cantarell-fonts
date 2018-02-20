@@ -13644,11 +13644,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{523, 0}";
+position = "{521, 0}";
 },
 {
 name = top;
-position = "{523, 694}";
+position = "{521, 694}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
@@ -13656,22 +13656,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"347 0 LINE",
-"539 653 LINE",
-"502 653 LINE",
-"708 0 LINE",
-"788 0 LINE",
-"1004 694 LINE",
-"921 694 LINE",
-"729 39 LINE",
-"774 39 LINE",
-"575 689 LINE",
-"477 689 LINE",
-"288 39 LINE",
-"331 39 LINE",
-"141 694 LINE",
-"45 694 LINE",
-"267 0 LINE"
+"345 0 LINE",
+"537 653 LINE",
+"500 653 LINE",
+"706 0 LINE",
+"786 0 LINE",
+"1002 694 LINE",
+"919 694 LINE",
+"727 39 LINE",
+"772 39 LINE",
+"573 689 LINE",
+"475 689 LINE",
+"286 39 LINE",
+"329 39 LINE",
+"142 694 LINE",
+"46 694 LINE",
+"265 0 LINE"
 );
 }
 );
@@ -13681,11 +13681,11 @@ width = 1050;
 anchors = (
 {
 name = bottom;
-position = "{519, 0}";
+position = "{513, 0}";
 },
 {
 name = top;
-position = "{519, 694}";
+position = "{513, 694}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
@@ -13693,26 +13693,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"402 0 LINE",
-"536 602 LINE",
-"486 602 LINE",
-"644 0 LINE",
-"822 0 LINE",
-"1036 694 LINE",
-"861 694 LINE",
-"696 85 LINE",
-"777 85 LINE",
-"633 690 LINE",
-"411 690 LINE",
-"281 105 LINE",
-"350 105 LINE",
-"203 694 LINE",
+"404 0 LINE",
+"546 602 LINE",
+"466 602 LINE",
+"630 0 LINE",
+"815 0 LINE",
+"1029 694 LINE",
+"854 694 LINE",
+"693 85 LINE",
+"760 109 LINE",
+"611 690 LINE",
+"422 690 LINE",
+"290 105 LINE",
+"342 105 LINE",
+"198 694 LINE",
 "3 694 LINE",
-"224 0 LINE"
+"214 0 LINE"
 );
 }
 );
-width = 1039;
+width = 1032;
 },
 {
 anchors = (
@@ -29795,18 +29795,18 @@ closed = 1;
 nodes = (
 "333 0 LINE",
 "435 382 LINE",
-"386 382 LINE",
-"502 0 LINE",
+"385 382 LINE",
+"501 0 LINE",
 "673 0 LINE",
 "851 490 LINE",
 "682 490 LINE",
 "562 86 LINE",
-"621 86 LINE",
-"506 488 LINE",
+"620 86 LINE",
+"505 488 LINE",
 "342 488 LINE",
 "236 76 LINE",
-"291 76 LINE",
-"184 490 LINE",
+"289 76 LINE",
+"179 490 LINE",
 "-8 490 LINE",
 "172 0 LINE"
 );
