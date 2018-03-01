@@ -64756,12 +64756,46 @@ nodes = (
 width = 472;
 },
 {
+anchors = (
+{
+name = _center;
+position = "{228, 298}";
+}
+);
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"378 266 LINE",
+"378 331 LINE",
+"78 331 LINE",
+"78 266 LINE"
+);
+}
+);
+width = 468;
 },
 {
+anchors = (
+{
+name = _center;
+position = "{215, 298}";
+}
+);
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"410 238 LINE",
+"410 358 LINE",
+"19 358 LINE",
+"19 238 LINE"
+);
+}
+);
+width = 458;
 }
 );
 }
