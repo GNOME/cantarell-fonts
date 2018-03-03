@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-w
+"HKH\012HKH\012HKH\012\012nrnoro\012nrnoro\012nrnoro\012g/jdotless j"
 );
 classes = (
 {
@@ -55,7 +55,7 @@ value = (
 "{694, 10}",
 "{482, 10}",
 "{0, -10}",
-"{-217, -10}"
+"{-217, -12}"
 );
 }
 );
@@ -258,7 +258,7 @@ alignmentZones = (
 "{694, 10}",
 "{490, 10}",
 "{0, -10}",
-"{-217, -10}"
+"{-217, -15}"
 );
 ascender = 739;
 capHeight = 694;
@@ -64580,6 +64580,7 @@ width = 432;
 );
 instances = (
 {
+exports = 0;
 interpolationWeight = 20;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 1;
@@ -64588,6 +64589,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+exports = 0;
 interpolationWeight = 40;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 0.66667;
@@ -64597,6 +64599,7 @@ name = Light;
 weightClass = Light;
 },
 {
+exports = 0;
 interpolationWeight = 80;
 instanceInterpolations = {
 "F333AEC5-BB61-4D5E-9EDD-6124322D28F2" = 1;
@@ -64604,7 +64607,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Disable Masters";
@@ -64621,6 +64623,7 @@ instanceInterpolations = {
 name = "Regular Interpolated";
 },
 {
+exports = 0;
 interpolationWeight = 126;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 0.51111;
@@ -64632,6 +64635,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 interpolationWeight = 170;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 1;
