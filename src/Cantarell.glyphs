@@ -42798,18 +42798,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"121 -148 LINE",
-"163 -54 OFFCURVE",
-"185 32 OFFCURVE",
-"185 103 CURVE",
-"102 103 LINE",
-"102 42 OFFCURVE",
-"89 -51 OFFCURVE",
-"58 -148 CURVE"
+"124 -174 LINE",
+"160 -84 OFFCURVE",
+"181 20 OFFCURVE",
+"181 107 CURVE",
+"98 107 LINE",
+"98 17 OFFCURVE",
+"84 -88 OFFCURVE",
+"61 -174 CURVE"
 );
 }
 );
-width = 247;
+width = 246;
 },
 {
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
@@ -42817,18 +42817,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"160 -148 LINE",
-"200 -60 OFFCURVE",
-"224 37 OFFCURVE",
-"224 113 CURVE",
-"71 113 LINE",
-"71 52 OFFCURVE",
-"58 -51 OFFCURVE",
-"27 -148 CURVE"
+"160 -178 LINE",
+"211 -67 OFFCURVE",
+"241 41 OFFCURVE",
+"241 113 CURVE",
+"69 113 LINE",
+"69 15 OFFCURVE",
+"53 -94 OFFCURVE",
+"27 -178 CURVE"
 );
 }
 );
-width = 255;
+width = 264;
 },
 {
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -42836,18 +42836,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"88 -130 LINE",
-"120 -59 OFFCURVE",
-"136 21 OFFCURVE",
-"136 103 CURVE",
-"113 103 LINE",
-"113 25 OFFCURVE",
-"97 -62 OFFCURVE",
-"69 -130 CURVE"
+"83 -167 LINE",
+"109 -96 OFFCURVE",
+"125 4 OFFCURVE",
+"125 103 CURVE",
+"102 103 LINE",
+"102 4 OFFCURVE",
+"88 -96 OFFCURVE",
+"64 -167 CURVE"
 );
 }
 );
-width = 217;
+width = 200;
 }
 );
 unicode = 002C;
@@ -43550,43 +43550,43 @@ layers = (
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, -8, 0}";
+transform = "{1, 0, 0, 1, -10, 0}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, -5, 364}";
+transform = "{1, 0, 0, 1, -2, 364}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 251;
+width = 250;
 },
 {
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, -12, 0}";
+transform = "{1, 0, 0, 1, -11, 0}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, -10, 284}";
+transform = "{1, 0, 0, 1, 1, 284}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 259;
+width = 267;
 },
 {
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, -12, 0}";
+transform = "{1, 0, 0, 1, -4, 0}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, -3, 440}";
+transform = "{1, 0, 0, 1, -11, 440}";
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 217;
+width = 203;
 }
 );
 unicode = 003B;
