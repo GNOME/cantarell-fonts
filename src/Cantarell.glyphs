@@ -123,27 +123,27 @@ name = ordn;
 },
 {
 automatic = 1;
-code = "sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012";
+code = "sub zero.osf by zero;\012sub one.osf by one;\012sub two.osf by two;\012sub three.osf by three;\012sub four.osf by four;\012sub five.osf by five;\012sub six.osf by six;\012sub seven.osf by seven;\012sub eight.osf by eight;\012sub nine.osf by nine;\012";
 name = lnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub bulletoperator by bulletoperator.lf;\012sub commercialMinusSign by commercialMinusSign.lf;\012sub divisionslash by divisionslash.lf;\012sub equivalence by equivalence.lf;\012sub notidentical by notidentical.lf;\012sub plus by plus.lf;\012sub minus by minus.lf;\012sub multiply by multiply.lf;\012sub divide by divide.lf;\012sub equal by equal.lf;\012sub notequal by notequal.lf;\012sub greater by greater.lf;\012sub less by less.lf;\012sub greaterequal by greaterequal.lf;\012sub lessequal by lessequal.lf;\012sub plusminus by plusminus.lf;\012sub approxequal by approxequal.lf;\012sub logicalnot by logicalnot.lf;\012sub zero.tosf by zero.osf;\012sub one.tosf by one.osf;\012sub two.tosf by two.osf;\012sub three.tosf by three.osf;\012sub four.tosf by four.osf;\012sub five.tosf by five.osf;\012sub six.tosf by six.osf;\012sub seven.tosf by seven.osf;\012sub eight.tosf by eight.osf;\012sub nine.tosf by nine.osf;\012";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub zero.tosf by zero.osf;\012sub one.tosf by one.osf;\012sub two.tosf by two.osf;\012sub three.tosf by three.osf;\012sub four.tosf by four.osf;\012sub five.tosf by five.osf;\012sub six.tosf by six.osf;\012sub seven.tosf by seven.osf;\012sub eight.tosf by eight.osf;\012sub nine.tosf by nine.osf;\012";
 name = pnum;
 },
 {
 automatic = 1;
-code = "sub zero.lf by zero;\012sub one.lf by one;\012sub two.lf by two;\012sub three.lf by three;\012sub four.lf by four;\012sub five.lf by five;\012sub six.lf by six;\012sub seven.lf by seven;\012sub eight.lf by eight;\012sub nine.lf by nine;\012sub bulletoperator.lf by bulletoperator;\012sub commercialMinusSign.lf by commercialMinusSign;\012sub divisionslash.lf by divisionslash;\012sub equivalence.lf by equivalence;\012sub notidentical.lf by notidentical;\012sub plus.lf by plus;\012sub minus.lf by minus;\012sub multiply.lf by multiply;\012sub divide.lf by divide;\012sub equal.lf by equal;\012sub notequal.lf by notequal;\012sub greater.lf by greater;\012sub less.lf by less;\012sub greaterequal.lf by greaterequal;\012sub lessequal.lf by lessequal;\012sub plusminus.lf by plusminus;\012sub approxequal.lf by approxequal;\012sub logicalnot.lf by logicalnot;\012sub zero.osf by zero.tosf;\012sub one.osf by one.tosf;\012sub two.osf by two.tosf;\012sub three.osf by three.tosf;\012sub four.osf by four.tosf;\012sub five.osf by five.tosf;\012sub six.osf by six.tosf;\012sub seven.osf by seven.tosf;\012sub eight.osf by eight.tosf;\012sub nine.osf by nine.tosf;\012sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub zero.osf by zero.tosf;\012sub one.osf by one.tosf;\012sub two.osf by two.tosf;\012sub three.osf by three.tosf;\012sub four.osf by four.tosf;\012sub five.osf by five.tosf;\012sub six.osf by six.tosf;\012sub seven.osf by seven.tosf;\012sub eight.osf by eight.tosf;\012sub nine.osf by nine.tosf;\012";
 name = tnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.tosf;\012sub one by one.tosf;\012sub two by two.tosf;\012sub three by three.tosf;\012sub four by four.tosf;\012sub five by five.tosf;\012sub six by six.tosf;\012sub seven by seven.tosf;\012sub eight by eight.tosf;\012sub nine by nine.tosf;\012sub zero.lf by zero.osf;\012sub one.lf by one.osf;\012sub two.lf by two.osf;\012sub three.lf by three.osf;\012sub four.lf by four.osf;\012sub five.lf by five.osf;\012sub six.lf by six.osf;\012sub seven.lf by seven.osf;\012sub eight.lf by eight.osf;\012sub nine.lf by nine.osf;\012";
+code = "sub zero.tf by zero.tosf;\012sub one.tf by one.tosf;\012sub two.tf by two.tosf;\012sub three.tf by three.tosf;\012sub four.tf by four.tosf;\012sub five.tf by five.tosf;\012sub six.tf by six.tosf;\012sub seven.tf by seven.tosf;\012sub eight.tf by eight.tosf;\012sub nine.tf by nine.tosf;\012sub zero by zero.osf;\012sub one by one.osf;\012sub two by two.osf;\012sub three by three.osf;\012sub four by four.osf;\012sub five by five.osf;\012sub six by six.osf;\012sub seven by seven.osf;\012sub eight by eight.osf;\012sub nine by nine.osf;\012";
 name = onum;
 },
 {
 automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;\012sub dieresiscomb by dieresiscomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub ringcomb by ringcomb.case;\012sub ringcomb_acutecomb by ringcomb_acutecomb.case;\012sub tildecomb by tildecomb.case;\012sub macroncomb by macroncomb.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub strokeshortcomb by strokeshortcomb.case;\012sub slashshortcomb by slashshortcomb.case;\012sub slashlongcomb by slashlongcomb.case;\012sub macroncomb.narrow by macroncomb.narrow.case;\012sub ogonekcomb.tall by ogonekcomb.tall.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub bulletoperator by bulletoperator.lf;\012sub commercialMinusSign by commercialMinusSign.lf;\012sub divisionslash by divisionslash.lf;\012sub equivalence by equivalence.lf;\012sub notidentical by notidentical.lf;\012sub plus by plus.lf;\012sub minus by minus.lf;\012sub multiply by multiply.lf;\012sub divide by divide.lf;\012sub equal by equal.lf;\012sub notequal by notequal.lf;\012sub greater by greater.lf;\012sub less by less.lf;\012sub greaterequal by greaterequal.lf;\012sub lessequal by lessequal.lf;\012sub plusminus by plusminus.lf;\012sub approxequal by approxequal.lf;\012sub logicalnot by logicalnot.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tf by zero.lf;\012sub one.tf by one.lf;\012sub two.tf by two.lf;\012sub three.tf by three.lf;\012sub four.tf by four.lf;\012sub five.tf by five.lf;\012sub six.tf by six.lf;\012sub seven.tf by seven.lf;\012sub eight.tf by eight.lf;\012sub nine.tf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;\012sub dieresiscomb by dieresiscomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub ringcomb by ringcomb.case;\012sub ringcomb_acutecomb by ringcomb_acutecomb.case;\012sub tildecomb by tildecomb.case;\012sub macroncomb by macroncomb.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub strokeshortcomb by strokeshortcomb.case;\012sub slashshortcomb by slashshortcomb.case;\012sub slashlongcomb by slashlongcomb.case;\012sub macroncomb.narrow by macroncomb.narrow.case;\012sub ogonekcomb.tall by ogonekcomb.tall.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tf by zero.lf;\012sub one.tf by one.lf;\012sub two.tf by two.lf;\012sub three.tf by three.lf;\012sub four.tf by four.lf;\012sub five.tf by five.lf;\012sub six.tf by six.lf;\012sub seven.tf by seven.lf;\012sub eight.tf by eight.lf;\012sub nine.tf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
 name = case;
 },
 {
@@ -31834,33 +31834,33 @@ layers = (
 {
 components = (
 {
-name = zero.tf;
+name = zero.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 601;
 },
 {
 components = (
 {
-name = zero.tf;
+name = zero.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 638;
 },
 {
 components = (
 {
-name = zero.tf;
+name = zero.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 640;
 }
 );
-leftMetricsKey = zero.tf;
-rightMetricsKey = zero.tf;
+leftMetricsKey = zero.lf;
+rightMetricsKey = zero.lf;
 unicode = 0030;
 },
 {
@@ -31869,33 +31869,33 @@ layers = (
 {
 components = (
 {
-name = one.tf;
+name = one.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 378;
 },
 {
 components = (
 {
-name = one.tf;
+name = one.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 449;
 },
 {
 components = (
 {
-name = one.tf;
+name = one.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 493;
 }
 );
-leftMetricsKey = one.tf;
-rightMetricsKey = one.tf;
+leftMetricsKey = one.lf;
+rightMetricsKey = one.lf;
 unicode = 0031;
 },
 {
@@ -31904,33 +31904,33 @@ layers = (
 {
 components = (
 {
-name = two.tf;
+name = two.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 508;
 },
 {
 components = (
 {
-name = two.tf;
+name = two.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 541;
 },
 {
 components = (
 {
-name = two.tf;
+name = two.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 554;
 }
 );
-leftMetricsKey = two.tf;
-rightMetricsKey = two.tf;
+leftMetricsKey = two.lf;
+rightMetricsKey = two.lf;
 unicode = 0032;
 },
 {
@@ -31939,33 +31939,33 @@ layers = (
 {
 components = (
 {
-name = three.tf;
+name = three.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 566;
 },
 {
 components = (
 {
-name = three.tf;
+name = three.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 583;
 },
 {
 components = (
 {
-name = three.tf;
+name = three.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 564;
 }
 );
-leftMetricsKey = three.tf;
-rightMetricsKey = three.tf;
+leftMetricsKey = three.lf;
+rightMetricsKey = three.lf;
 unicode = 0033;
 },
 {
@@ -31974,33 +31974,33 @@ layers = (
 {
 components = (
 {
-name = four.tf;
+name = four.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 568;
 },
 {
 components = (
 {
-name = four.tf;
+name = four.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 597;
 },
 {
 components = (
 {
-name = four.tf;
+name = four.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 622;
 }
 );
-leftMetricsKey = four.tf;
-rightMetricsKey = four.tf;
+leftMetricsKey = four.lf;
+rightMetricsKey = four.lf;
 unicode = 0034;
 },
 {
@@ -32009,33 +32009,33 @@ layers = (
 {
 components = (
 {
-name = five.tf;
+name = five.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 542;
 },
 {
 components = (
 {
-name = five.tf;
+name = five.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 562;
 },
 {
 components = (
 {
-name = five.tf;
+name = five.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 566;
 }
 );
-leftMetricsKey = five.tf;
-rightMetricsKey = five.tf;
+leftMetricsKey = five.lf;
+rightMetricsKey = five.lf;
 unicode = 0035;
 },
 {
@@ -32044,33 +32044,33 @@ layers = (
 {
 components = (
 {
-name = six.tf;
+name = six.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 586;
 },
 {
 components = (
 {
-name = six.tf;
+name = six.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 603;
 },
 {
 components = (
 {
-name = six.tf;
+name = six.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 598;
 }
 );
-leftMetricsKey = six.tf;
-rightMetricsKey = six.tf;
+leftMetricsKey = six.lf;
+rightMetricsKey = six.lf;
 unicode = 0036;
 },
 {
@@ -32079,33 +32079,33 @@ layers = (
 {
 components = (
 {
-name = seven.tf;
+name = seven.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 521;
 },
 {
 components = (
 {
-name = seven.tf;
+name = seven.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 547;
 },
 {
 components = (
 {
-name = seven.tf;
+name = seven.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 531;
 }
 );
-leftMetricsKey = seven.tf;
-rightMetricsKey = seven.tf;
+leftMetricsKey = seven.lf;
+rightMetricsKey = seven.lf;
 unicode = 0037;
 },
 {
@@ -32114,33 +32114,33 @@ layers = (
 {
 components = (
 {
-name = eight.tf;
+name = eight.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 582;
 },
 {
 components = (
 {
-name = eight.tf;
+name = eight.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 596;
 },
 {
 components = (
 {
-name = eight.tf;
+name = eight.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 603;
 }
 );
-leftMetricsKey = eight.tf;
-rightMetricsKey = eight.tf;
+leftMetricsKey = eight.lf;
+rightMetricsKey = eight.lf;
 unicode = 0038;
 },
 {
@@ -32149,33 +32149,33 @@ layers = (
 {
 components = (
 {
-name = nine.tf;
+name = nine.lf;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 585;
 },
 {
 components = (
 {
-name = nine.tf;
+name = nine.lf;
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
+width = 604;
 },
 {
 components = (
 {
-name = nine.tf;
+name = nine.lf;
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
+width = 600;
 }
 );
-leftMetricsKey = nine.tf;
-rightMetricsKey = nine.tf;
+leftMetricsKey = nine.lf;
+rightMetricsKey = nine.lf;
 unicode = 0039;
 },
 {
@@ -33308,32 +33308,41 @@ layers = (
 {
 components = (
 {
-name = zero.zero;
-transform = "{1, 0, 0, 1, 4, 0}";
+name = zero.lf;
+},
+{
+name = _slash.zero;
+transform = "{1, 0, 0, 1, 86, 109}";
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 588;
+width = 601;
 },
 {
 components = (
 {
-name = zero.zero;
-transform = "{1, 0, 0, 1, 9, 0}";
+name = zero.lf;
+},
+{
+name = _slash.zero;
+transform = "{1, 0, 0, 1, 96, 109}";
 }
 );
 layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 619;
+width = 638;
 },
 {
 components = (
 {
-name = zero.zero;
-transform = "{1, 0, 0, 1, 14, 0}";
+name = zero.lf;
+},
+{
+name = _slash.zero;
+transform = "{1, 0, 0, 1, 99, 104}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 598;
+width = 640;
 }
 );
 leftMetricsKey = zero.lf;
@@ -37810,45 +37819,33 @@ layers = (
 {
 components = (
 {
-name = zero;
-},
-{
-name = _slash.zero;
-transform = "{1, 0, 0, 1, 67, 109}";
-}
-);
-layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
-width = 580;
-},
-{
-components = (
-{
-name = zero;
-},
-{
-name = _slash.zero;
-transform = "{1, 0, 0, 1, 69, 104}";
-}
-);
-layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 580;
-},
-{
-components = (
-{
-name = zero;
-},
-{
-name = _slash.zero;
-transform = "{1, 0, 0, 1, 75, 109}";
+name = zero.lf.zero;
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
-width = 580;
+width = 601;
+},
+{
+components = (
+{
+name = zero.lf.zero;
 }
 );
-leftMetricsKey = zero;
-rightMetricsKey = zero;
+layerId = "F333AEC5-BB61-4D5E-9EDD-6124322D28F2";
+width = 638;
+},
+{
+components = (
+{
+name = zero.lf.zero;
+}
+);
+layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
+width = 640;
+}
+);
+leftMetricsKey = zero.lf.zero;
+rightMetricsKey = zero.lf.zero;
 },
 {
 glyphname = zero.subs;
