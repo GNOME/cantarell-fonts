@@ -7,8 +7,8 @@ Build instructions
 ------------------
 
 ```
-pip3 install fontmake --user
-pip3 install -e git+https://github.com/khaledhosny/psautohint#egg=psautohint --user
+pip3 install --user fontmake
+pip3 install --user git+https://github.com/adobe-type-tools/psautohint.git@v1.1.0#egg=psautohint
 # Add both programs to your PATH.
 
 meson build
@@ -16,12 +16,12 @@ cd build
 ninja install
 ```
 
-Font Information
-----------------
+History
+-------
 
 The Cantarell typeface family is a contemporary Humanist sans serif, and is used by the GNOME project for its user interface.
 
-Cantarell was originally designed by Dave Crossland as part of his coursework for the MA Typeface Design program at the Department of Typography in the University of Reading, England. [1](http://www.typedesign.reading.ac.uk)
+Cantarell was originally designed by Dave Crossland as part of his coursework for the MA Typeface Design program at the [Department of Typography in the University of Reading, England](http://www.typedesign.reading.ac.uk).
 
 After the GNOME project adopted the typeface in November 2010, minor modifications and slight expansions were made to it over the years. Pooja Saxena initially worked on the typeface as a participant of the GNOME outreach program and later developed her own Devanagari typeface Cambay, which included a redesigned latin version of Cantarell. It was backported to the GNOME branch of Cantarell by Nikolaus Waxweiler, who also performed other janitorial tasks on it.
 
@@ -35,7 +35,7 @@ Developer information
 The master file is `src/Cantarell.glyphs`. To contribute, you need to either:
 
 -	Use the proprietary and Mac-only Glyphs.app...
--	...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it using 1).
+-	...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
 
 Acknowledgements
 ----------------
@@ -43,7 +43,7 @@ Acknowledgements
 Here is a list of major contributors; all contributors are listed in the GNOME Git repository changelogs. Please add yourself if you make major changes. This list is sorted by last name in alphabetical order.
 
 | Name               | Email                         | Web Address                                         | Description                                                                             |
-|--------------------|-------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------|
+| ------------------ | ----------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Dave Crossland     | dave@understandinglimited.com | http://understandingfonts.com/who/dave-crossland/   | Designer, original Latin glyphs.                                                        |
 | Valek Filippov     | frob@gnome.org                | https://plus.google.com/108983215764171548842/about | Designer, original Cyrillic glyphs.                                                     |
 | Erik Hartenian     | infinality@infinality.net     | \-                                                  | Connoisseur of fine font renderding.                                                    |
