@@ -43121,11 +43121,10 @@ width = 499;
 components = (
 {
 name = quotesingle;
-transform = "{1, 0, 0, 1, -8, 0}";
 },
 {
 name = quotesingle;
-transform = "{1, 0, 0, 1, 142, 0}";
+transform = "{1, 0, 0, 1, 150, 0}";
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -44625,25 +44624,24 @@ width = 466;
 components = (
 {
 name = quoteleft;
-transform = "{1, 0, 0, 1, 253, 0}";
+transform = "{1, 0, 0, 1, 264, 0}";
 },
 {
 name = quoteleft;
-transform = "{1, 0, 0, 1, 8, 0}";
+transform = "{1, 0, 0, 1, 19, 0}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 535;
+width = 545;
 },
 {
 components = (
 {
 name = quoteleft;
-transform = "{1, 0, 0, 1, 136, 0}";
+transform = "{1, 0, 0, 1, 146, 0}";
 },
 {
 name = quoteleft;
-transform = "{1, 0, 0, 1, -10, 0}";
 }
 );
 layerId = "0B2E441B-685E-400D-9B9B-E078DEED62EF";
@@ -44716,11 +44714,11 @@ width = 283;
 components = (
 {
 name = _typoquote;
-transform = "{-1, 0, 0, -1, 329, 585}";
+transform = "{-1, 0, 0, -1, 339, 585}";
 }
 );
 layerId = "51C2DFEF-3776-4D13-9284-96485B799B57";
-width = 281;
+width = 300;
 },
 {
 components = (
