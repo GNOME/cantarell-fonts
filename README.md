@@ -16,6 +16,15 @@ cd build
 ninja install
 ```
 
+Contributing
+------------
+
+The master file is `src/Cantarell.glyphs`. To contribute, you need to:
+
+-	Use the proprietary and Mac-only Glyphs.app...
+-	...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
+-	...or wait for glyphsLib 2.3.0 to be released, which will finally contain code to roundtrip between Glyphs files and UFOs, at which point I'll switch over and you'll be able to use any UFO editor you'd like. Rejoice!
+
 History
 -------
 
@@ -28,15 +37,6 @@ After the GNOME project adopted the typeface in November 2010, minor modificatio
 The overall quality of the design was however far from good, given that the regular and bold face were worked on seperately and without consistency and had low quality outlines, and the oblique variants were simply slanted uprights without much correction. The GNOME design team also requested lighter weights. Up to this point, the work on Cantarell was mainly done with libre tools such as FontForge.
 
 Given the decaying state of FontForge (arcane user interface, heaps of quirky and buggy behavior) and the very early development status of alternatives such as TruFont, Nikolaus Waxweiler started redrawing Cantarell in the proprietary and Mac-only Glyphs.app under mentorship from Jacques Le Bailly ("Baron von Fonthausen"). Later, Alexei Vanyashin and Eben Sorkin reviewed the design.
-
-Developer information
----------------------
-
-The master file is `src/Cantarell.glyphs`. To contribute, you need to:
-
--	Use the proprietary and Mac-only Glyphs.app...
--	...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
--	...or wait for glyphsLib 2.3.0 to be released, which will finally contain code to roundtrip between Glyphs files and UFOs, at which point I'll switch over and you'll be able to use any UFO editor you'd like. Rejoice!
 
 Acknowledgements
 ----------------
