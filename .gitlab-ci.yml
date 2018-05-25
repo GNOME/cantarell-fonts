@@ -8,5 +8,5 @@ build:
     - ninja -C build dist
   artifacts:
     paths:
-      - build/meson-dist/*
+      - build/meson-dist
     expire_in: 7 days
