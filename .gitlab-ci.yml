@@ -2,7 +2,7 @@ image: registry.gitlab.gnome.org/gnome/gnome-runtime-images/base:latest
 
 build:
   script:
-    - dnf install -y python3-devel gcc redhat-rpm-config meson ninja
+    - dnf install -y python3-devel gcc redhat-rpm-config meson
     - pip3 install fontmake git+https://github.com/adobe-type-tools/psautohint.git@v1.1.0#egg=psautohint
     - meson build
     - ninja -C build dist
