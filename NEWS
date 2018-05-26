@@ -1,3 +1,13 @@
+0.0.25
+ - outline and spacing on C,G.
+ - improved terminals on numerous glyphs
+ - weight/stem width fixes (k,G)
+ - port imrpovements from regular to bold
+ - improved metrics
+ - fixes to f-ligatures
+ - shape fixes to some numerals
+ - fixes to anchors > composited glyphs
+
 0.0.24
  - asymmetric k for bold, fix stem width
  - sync bold hyphen metrics with regular
