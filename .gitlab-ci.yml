@@ -4,9 +4,11 @@ build:
   script:
     - dnf install -y libappstream-glib-devel gettext
     - pip3 install fontmake psautohint meson ninja
-    - meson build
+    - meson build -Dfontsdir=/tmp/cantarell-fonts
     - ninja -C build dist
+    - ninja -C build install
   artifacts:
     paths:
       - build/meson-dist
+      - /tmp/cantarell-fonts
     expire_in: 7 days
