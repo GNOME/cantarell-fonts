@@ -2,8 +2,8 @@ image: registry.gitlab.gnome.org/gnome/gnome-runtime-images/base:latest
 
 build:
   script:
-    - dnf install -y python3-devel gcc redhat-rpm-config meson libappstream-glib-devel
-    - pip3 install fontmake git+https://github.com/adobe-type-tools/psautohint.git@v1.1.0#egg=psautohint
+    - dnf install -y libappstream-glib-devel
+    - pip3 install fontmake psautohint meson ninja
     - meson build
     - ninja -C build dist
   artifacts:
