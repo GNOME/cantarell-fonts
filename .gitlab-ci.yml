@@ -4,8 +4,7 @@ build:
   script:
     - dnf install -y libappstream-glib-devel gettext
     - pip3 install fontmake psautohint meson ninja
-    - export MESON_INSTALL_PREFIX="."
-    - meson build -Dfontsdir=prebuilt
+    - MESON_INSTALL_PREFIX="." meson build -Dfontsdir=prebuilt
     - ninja -C build install
 
     # Make a dist package with prebuilt binaries.
