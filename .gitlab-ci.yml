@@ -12,6 +12,8 @@ build:
     - git add meson_options.txt
     - cp /usr/local/prebuilt/*.otf prebuilt
     - git add prebuilt/*.otf
+    - git config --global user.email "you@example.com"
+    - git config --global user.name "Your Name"
     - git commit -m "Make package with prebuilt binaries, ninja will dist them."
     - ninja -C build dist
   artifacts:
