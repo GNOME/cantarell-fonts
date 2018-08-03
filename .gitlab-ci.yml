@@ -4,8 +4,8 @@ build:
   script:
     - dnf install -y libappstream-glib-devel gettext
     - pip3 install fontmake psautohint meson ninja
-    - MESON_INSTALL_PREFIX="." meson build -Dfontsdir=prebuilt
-    - ninja -C build install
+    - meson build -Dfontsdir=prebuilt
+    - MESON_INSTALL_PREFIX="." ninja -C build install
 
     # Make a dist package with prebuilt binaries.
     - python3 scripts/flip-prebuilt-on.py meson_options.txt
