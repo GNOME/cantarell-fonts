@@ -4,13 +4,13 @@ build:
   script:
     - dnf install -y libappstream-glib-devel gettext
     - pip3 install fontmake psautohint meson ninja
-    - meson build -Dfontsdir=prebuilt
+    - meson build
     - ninja -C build install
 
     # Make a dist package with prebuilt binaries.
     - python3 scripts/flip-prebuilt-on.py meson_options.txt
     - git add meson_options.txt
-    - cp /usr/local/prebuilt/*.otf prebuilt
+    - cp /usr/local/share/fonts/cantarell/*.otf prebuilt
     - git add prebuilt/*.otf
     - git config --global user.email "you@example.com"
     - git config --global user.name "Your Name"
@@ -19,4 +19,5 @@ build:
   artifacts:
     paths:
       - build/meson-dist
+      - prebuilt/*.otf
     expire_in: 7 days
