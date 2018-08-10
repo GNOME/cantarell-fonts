@@ -23,9 +23,10 @@ output_dir = Path(args.output_dir)
 subprocess.run(
     [
         args.fontmake,
-        "-g",
+        "-m",
         source,
         "-i",
+        r"^((?!Interpolated).)*$",  # Generate all instances except the ones for testing.
         "-o",
         "otf",
         "--verbose",
