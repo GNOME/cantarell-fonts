@@ -19,4 +19,7 @@ else
   subdir('prebuilt')
 endif
 
-subdir('appstream')
+buildappstream = get_option('buildappstream')
+if buildappstream == true
+ subdir('appstream')
+endif

@@ -7,13 +7,15 @@ Build instructions
 ------------------
 
 ```
-pip3 install --user fontmake
-pip3 install --user git+https://github.com/adobe-type-tools/psautohint.git@v1.1.0#egg=psautohint
-# Add both programs to your PATH.
+python3 -m venv venv
+. venv/bin/activate  # Unixoids...
+venv/Scripts/activate  # ...or on Windows cmd.exe or PowerShell
+
+pip3 install meson ninja  # Unless already present on system.
+pip3 install fontmake psautohint
 
 meson build
-cd build
-ninja install
+ninja -C build install
 ```
 
 Contributing
