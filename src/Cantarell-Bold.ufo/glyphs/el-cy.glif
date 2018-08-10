@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="el-cy" format="2">
+	<unicode hex="043B"/>
+	<advance width="602"/>
+	<outline>
+		<contour>
+			<point x="96" y="-17" type="curve" smooth="yes"/>
+			<point x="207" y="-17"/>
+			<point x="273" y="90"/>
+			<point x="273" y="200" type="curve" smooth="yes"/>
+			<point x="273" y="351" type="line"/>
+			<point x="382" y="351" type="line"/>
+			<point x="382" y="0" type="line"/>
+			<point x="548" y="0" type="line"/>
+			<point x="548" y="491" type="line"/>
+			<point x="120" y="491" type="line"/>
+			<point x="120" y="194" type="line" smooth="yes"/>
+			<point x="120" y="176"/>
+			<point x="108" y="115"/>
+			<point x="66" y="115" type="curve" smooth="yes"/>
+			<point x="58" y="115"/>
+			<point x="37" y="122"/>
+			<point x="23" y="131" type="curve"/>
+			<point x="-4" y="15" type="line"/>
+			<point x="21" y="-5"/>
+			<point x="57" y="-17"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>70</integer>
+				<key>weight</key>
+				<integer>-10</integer>
+				<key>width</key>
+				<integer>80</integer>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

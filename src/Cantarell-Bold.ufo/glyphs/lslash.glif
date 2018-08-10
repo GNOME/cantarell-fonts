@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash" format="2">
+	<unicode hex="0142"/>
+	<advance width="310"/>
+	<outline>
+		<component base="l"/>
+		<component base="slashshortcomb" xOffset="-70" yOffset="119"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+</glyph>

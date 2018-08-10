@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb_acutecomb" format="2">
+	<outline>
+		<component base="tildecomb.loclVIET"/>
+		<component base="acutecomb.loclVIET" yOffset="115"/>
+	</outline>
+	<anchor name="_top" x="300" y="517"/>
+	<anchor name="top" x="300" y="822"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>-1</integer>
+			</array>
+		</dict>
+	</lib>
+</glyph>

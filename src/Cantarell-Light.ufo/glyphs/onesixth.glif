@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onesixth" format="2">
+	<unicode hex="2159"/>
+	<advance width="1008"/>
+	<outline>
+		<component base="one.numr"/>
+		<component base="fraction" xOffset="276"/>
+		<component base="six.dnom" xOffset="576"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>one.numr</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>one.numr</string>
+		</dict>
+	</lib>
+</glyph>

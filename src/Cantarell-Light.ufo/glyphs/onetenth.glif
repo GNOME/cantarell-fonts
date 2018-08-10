@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onetenth" format="2">
+	<unicode hex="2152"/>
+	<advance width="1301"/>
+	<outline>
+		<component base="one.numr"/>
+		<component base="fraction" xOffset="276"/>
+		<component base="one.dnom" xOffset="576"/>
+		<component base="zero.dnom" xOffset="852"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>one.numr</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>one.numr</string>
+		</dict>
+	</lib>
+</glyph>

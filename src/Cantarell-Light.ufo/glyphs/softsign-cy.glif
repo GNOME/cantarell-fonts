@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="softsign-cy" format="2">
+	<unicode hex="044C"/>
+	<advance width="469"/>
+	<outline>
+		<contour>
+			<point x="88" y="0" type="line"/>
+			<point x="248" y="0" type="line" smooth="yes"/>
+			<point x="359" y="0"/>
+			<point x="426" y="56"/>
+			<point x="426" y="150" type="curve" smooth="yes"/>
+			<point x="426" y="241"/>
+			<point x="365" y="301"/>
+			<point x="274" y="301" type="curve" smooth="yes"/>
+			<point x="101" y="301" type="line"/>
+			<point x="101" y="284" type="line"/>
+			<point x="267" y="284" type="line" smooth="yes"/>
+			<point x="348" y="284"/>
+			<point x="404" y="228"/>
+			<point x="404" y="145" type="curve" smooth="yes"/>
+			<point x="404" y="65"/>
+			<point x="349" y="17"/>
+			<point x="257" y="17" type="curve" smooth="yes"/>
+			<point x="109" y="17" type="line"/>
+			<point x="109" y="480" type="line"/>
+			<point x="88" y="480" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>RMXScaler</key>
+			<dict>
+				<key>height</key>
+				<integer>70</integer>
+				<key>width</key>
+				<integer>80</integer>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

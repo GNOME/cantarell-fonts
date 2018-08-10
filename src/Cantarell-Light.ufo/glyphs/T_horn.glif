@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="2">
+	<unicode hex="00DE"/>
+	<advance width="572"/>
+	<outline>
+		<contour>
+			<point x="110" y="0" type="line"/>
+			<point x="131" y="0" type="line"/>
+			<point x="131" y="694" type="line"/>
+			<point x="110" y="694" type="line"/>
+		</contour>
+		<contour>
+			<point x="125" y="148" type="line"/>
+			<point x="286" y="148" type="line" smooth="yes"/>
+			<point x="428" y="148"/>
+			<point x="512" y="228"/>
+			<point x="512" y="357" type="curve" smooth="yes"/>
+			<point x="512" y="489"/>
+			<point x="424" y="574"/>
+			<point x="292" y="574" type="curve" smooth="yes"/>
+			<point x="125" y="574" type="line"/>
+			<point x="125" y="556" type="line"/>
+			<point x="286" y="556" type="line" smooth="yes"/>
+			<point x="408" y="556"/>
+			<point x="490" y="477"/>
+			<point x="490" y="355" type="curve" smooth="yes"/>
+			<point x="490" y="238"/>
+			<point x="416" y="166"/>
+			<point x="292" y="166" type="curve" smooth="yes"/>
+			<point x="125" y="166" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>P</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>P</string>
+		</dict>
+	</lib>
+</glyph>

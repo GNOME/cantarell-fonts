@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fiveeighths" format="2">
+	<unicode hex="215D"/>
+	<advance width="1131"/>
+	<outline>
+		<component base="five.numr"/>
+		<component base="fraction" xOffset="400"/>
+		<component base="eight.dnom" xOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>five.numr</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>five.numr</string>
+		</dict>
+	</lib>
+</glyph>

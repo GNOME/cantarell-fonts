@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.tf.zero" format="2">
+	<advance width="580"/>
+	<outline>
+		<component base="zero.tf"/>
+		<component base="_slash.zero" xOffset="67" yOffset="109"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>zero.tf</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>zero.tf</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</lib>
+</glyph>
