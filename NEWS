@@ -1,6 +1,31 @@
+0.110
+ - Space everything a little bit tighter.
+ - Scale down whiteCircle and blackCircle by 50%, makes password dots smaller.
+ - Tweak feet of one.lf slightly for a more even appearance.
+ - Revise lcaron, dcaron and tcaron for collision-free rendering even at bold 
+   weight. Will need kerning later. 
+ - Add draft of Cyrillic (GF Cyrillic Plus set), to be improved.
+ - Equalize advance width of period, comma, colon, semicolon.
+ - Build packages with prebuilt fonts baked in.
+ - New contributed AppStream metadata translations for Slovakian, Slovenian,
+   Russian and Chinese (China).
+
+0.101
+ - Countless detail updates to various glyphs
+ - Added contributed AppStream metdata translations for Polish, French,
+   Indonesian, Galician, Occitan, Chinese (Taiwan), Spanish, Catalan, Croatian,
+   German, Dutch, Turkish, Serbian, Serbian (Latin), Hungarian, Korean, Czech,
+   Lithuanian, Danish, Italian, Romanian, Punjabi, Latvian, Swedish, Icelandic,
+   Greek
+
 0.100
  - Redesigned from scratch to interpolate cleanly from thin to extra bold.
    Currently targets the Google Fonts Latin Core and Pro glyph sets.
+ - Added contributed AppStream metdata translations for Brazilian Portugese,
+   Friulian and Finnish.
+
+0.0.25
+ - Can't remember.
 
 0.0.24
  - asymmetric k for bold, fix stem width
