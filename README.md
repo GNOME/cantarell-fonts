@@ -12,7 +12,7 @@ python3 -m venv venv
 venv/Scripts/activate  # ...or on Windows cmd.exe or PowerShell
 
 pip3 install meson ninja  # Unless already present on system.
-pip3 install fontmake psautohint "glyphslib>=3.0.3"
+pip3 install "fontmake>=1.6.1" psautohint "glyphslib>=3.0.3"
 
 meson build
 ninja -C build install
