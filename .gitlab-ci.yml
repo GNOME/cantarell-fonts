@@ -2,7 +2,7 @@ image: registry.gitlab.gnome.org/gnome/gnome-runtime-images/base:latest
 
 build:
   script:
-    - dnf install -y libappstream-glib-devel gettext
+    - dnf install -y libappstream-glib-devel gettext gcc redhat-rpm-config
     - pip3 install fontmake psautohint meson ninja
     - meson build
     - ninja -C build install
