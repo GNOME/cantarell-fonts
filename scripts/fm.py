@@ -1,10 +1,15 @@
 #!/bin/env python3
 #
-# This wrapper works around fontmake's limitation (at the time of this writing)
-# of not being able to specify the output directory for the generated font
-# binaries. The Meson build system's custom target function has fixed
-# expectations about where files must show up. Also, autohint the binaries
-# while we're at it.
+# This wrapper works around the Meson build system's fixed expectations about
+# where files must show up. Also, autohint the binaries while we're at it.
+#
+# XXX: Parallelize build process. Currently tricky because launching fontmake
+# multiple times with the -i parameter set to an instance name will generate the
+# master UFOs multiple times, overwriting each other and crashing. One could
+# maybe generate the master UFOs and then interpolate concurrently from them,
+# but fontmaking from UFOs may result in differences in the binary output due
+# to... the way fontmake etc. works. Maybe wait until using UFOs and Designspace
+# files exclusively.
 
 from pathlib import Path
 import argparse
