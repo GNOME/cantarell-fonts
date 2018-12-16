@@ -82141,6 +82141,12 @@ width = 534;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 interpolationWeight = 20;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 1;
@@ -82149,6 +82155,12 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 interpolationWeight = 40;
 instanceInterpolations = {
 "0B2E441B-685E-400D-9B9B-E078DEED62EF" = 0.66667;
@@ -82158,6 +82170,12 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 interpolationWeight = 80;
 instanceInterpolations = {
 "F333AEC5-BB61-4D5E-9EDD-6124322D28F2" = 1;
@@ -82172,6 +82190,10 @@ name = "Disable Masters";
 value = (
 Regular
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 80;
@@ -82182,6 +82204,12 @@ instanceInterpolations = {
 name = "Regular Interpolated";
 },
 {
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 interpolationWeight = 126;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 0.51111;
@@ -82193,6 +82221,12 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 interpolationWeight = 170;
 instanceInterpolations = {
 "51C2DFEF-3776-4D13-9284-96485B799B57" = 1;
