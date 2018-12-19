@@ -13,7 +13,7 @@ fontmake==1.8.0
 fontmath==0.4.9           # via mutatormath
 fonttools[lxml,ufo,unicode]==3.34.2  # via booleanoperations, compreffor, cu2qu, defcon, fontmake, fontmath, glyphslib, mutatormath, psautohint, ufo2ft
 fs==2.1.2                 # via fonttools
-glyphslib==3.1.4          # via fontmake
+glyphslib==3.1.4
 lxml==4.2.5               # via fonttools
 mutatormath==2.1.2        # via fontmake
 psautohint==1.9.1
