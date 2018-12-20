@@ -1,6 +1,6 @@
 custom_target(
     'cantarell-fonts',
-    input: 'Cantarell.glyphs',
+    input: 'Cantarell.designspace',
     output: [
         'Cantarell-Thin.otf',
         'Cantarell-Light.otf',

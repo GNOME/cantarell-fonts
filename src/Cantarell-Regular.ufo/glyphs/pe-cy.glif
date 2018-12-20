@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pe-cy" format="2">
+  <advance width="566.0"/>
+  <unicode hex="043F"/>
+  <anchor x="543.0" y="0.0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="83.0" y="0.0" type="line"/>
+      <point x="161.0" y="0.0" type="line"/>
+      <point x="161.0" y="415.0" type="line"/>
+      <point x="405.0" y="415.0" type="line"/>
+      <point x="405.0" y="0.0" type="line"/>
+      <point x="483.0" y="0.0" type="line"/>
+      <point x="483.0" y="482.0" type="line"/>
+      <point x="83.0" y="482.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>70</integer>
+        <key>weight</key>
+        <integer>-3</integer>
+        <key>width</key>
+        <integer>79</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

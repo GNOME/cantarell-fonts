@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ge-cy" format="2">
+  <advance width="401.0"/>
+  <unicode hex="0433"/>
+  <anchor x="143.0" y="0.0" name="bottomright"/>
+  <anchor x="205.0" y="480.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="88.0" y="0.0" type="line"/>
+      <point x="109.0" y="0.0" type="line"/>
+      <point x="109.0" y="463.0" type="line"/>
+      <point x="389.0" y="463.0" type="line"/>
+      <point x="389.0" y="480.0" type="line"/>
+      <point x="88.0" y="480.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>71</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
