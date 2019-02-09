@@ -18,7 +18,7 @@ import subprocess
 parser = argparse.ArgumentParser()
 parser.add_argument("fontmake", type=str, help="The path to fontmake.")
 parser.add_argument("psautohint", type=str, help="The path to psautohint.")
-parser.add_argument("font_source", help="The path to the font source.")
+parser.add_argument("font_source", help="The path to the Designspace file.")
 parser.add_argument("output_dir", help="The full target output path.")
 args = parser.parse_args()
 
@@ -36,6 +36,7 @@ subprocess.run(
         "otf",
         "--verbose",
         "WARNING",
+        "--subset",
         "--expand-features-to-instances",
         "--output-dir",
         args.output_dir,
