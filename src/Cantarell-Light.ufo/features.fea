@@ -493,3 +493,12 @@ sub six by six.ss01;
 sub nine by nine.ss01;
 
 } ss01;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [A AE B C D E Eogonek F G H I J K L M N O OE P Q R S Schwa T U V W X Y Z a ae b c d e f g h i idotless jdotless k l m n o oslash oe p q r s t u v w x y z Ge-cy Ie-cy Zhe-cy Ze-cy Ii-cy Ka-cy En-cy O-cy Pe-cy Es-cy Te-cy U-cy Ha-cy Che-cy Hardsign-cy Yeru-cy Ereversed-cy Iu-cy Ia-cy Ustrait-cy a-cy ge-cy ie-cy zhe-cy ze-cy ii-cy ka-cy en-cy o-cy pe-cy es-cy te-cy u-cy ha-cy che-cy yeru-cy e-cy ereversed-cy tshe-cy iu-cy ia-cy ustrait-cy zero.lf zero.osf zero.tf zero.tosf zero.dnom euro peso], # Base
+    , # Liga
+    [dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dotaccentcomb gravecomb acutecomb acutecomb_dotaccentcomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb verticallineabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb verticallinebelowcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case macroncomb.narrow.case ogonekcomb.tall.case dieresiscomb.loclVIET dotaccentcomb.loclVIET gravecomb.loclVIET acutecomb.loclVIET circumflexcomb.loclVIET caroncomb.loclVIET brevecomb.loclVIET tildecomb.loclVIET macroncomb.loclVIET hookabovecomb.loclVIET macroncomb.narrow ogonekcomb.narrow macronbelowcomb.narrow ogonekcomb.tall brevecomb-cy descender-cy brevecomb-cy.case descender-cy.case descender-cy.strait brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case], # Mark
+    ;
+} GDEF;
