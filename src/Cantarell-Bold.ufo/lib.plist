@@ -537,7 +537,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1141</string>
+    <string>1192</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.Family Alignment Zones</key>
@@ -549,7 +549,7 @@
       <string>{-217, -12}</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1326,9 +1326,6 @@
       <string>nine.tosf</string>
       <string>zero.tosf.zero</string>
       <string>zero.zero</string>
-      <string>zero.subs</string>
-      <string>one.subs</string>
-      <string>two.subs</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -1339,6 +1336,9 @@
       <string>seveninferior</string>
       <string>eightinferior</string>
       <string>nineinferior</string>
+      <string>zero.subs</string>
+      <string>one.subs</string>
+      <string>two.subs</string>
       <string>three.subs</string>
       <string>four.subs</string>
       <string>five.subs</string>
@@ -1683,10 +1683,10 @@
       <string>circumflexcomb_gravecomb.case</string>
       <string>circumflexcomb_hookabovecomb.case</string>
       <string>circumflexcomb_tildecomb.case</string>
-      <string>descenderreversed-cy</string>
+      <string>_descenderreversed-cy</string>
       <string>_bar-cy</string>
       <string>_descender-cy.case.straight</string>
-      <string>descenderreverse-cy.case</string>
+      <string>_descenderreverse-cy.case</string>
       <string>_bottomhook</string>
       <string>_o.numero</string>
       <string>_slash.zero</string>
@@ -2127,6 +2127,10 @@
       <string>_barcy</string>
       <key>_descender-cy.case.straight</key>
       <string>_descendercy.case.straight</string>
+      <key>_descenderreverse-cy.case</key>
+      <string>descenderreversecy.case</string>
+      <key>_descenderreversed-cy</key>
+      <string>descenderreversedcy</string>
       <key>a-cy</key>
       <string>uni0430</string>
       <key>abreve-cy</key>
@@ -2285,10 +2289,6 @@
       <string>descendercy.case</string>
       <key>descender-cy.strait</key>
       <string>descendercy.strait</string>
-      <key>descenderreverse-cy.case</key>
-      <string>descenderreversecy.case</string>
-      <key>descenderreversed-cy</key>
-      <string>descenderreversedcy</string>
       <key>dieresisbelowcomb</key>
       <string>uni0324</string>
       <key>dieresiscomb</key>
