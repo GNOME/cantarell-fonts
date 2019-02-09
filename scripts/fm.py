@@ -36,6 +36,7 @@ subprocess.run(
         "otf",
         "--verbose",
         "WARNING",
+        "--expand-features-to-instances",
         "--output-dir",
         args.output_dir,
     ]
