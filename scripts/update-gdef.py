@@ -6,15 +6,17 @@ glyphs with anchors.
 """
 
 from pathlib import Path
+from typing import Any, Dict, List
 
 import defcon
+import glyphsLib.builder.constants
+import glyphsLib.glyphdata
 import ufo2ft.filters
 
-import glyphsLib.builder.constants
 
-
-# Lifted from glyphsLib and adapted to only recognize Letters as bases.
-def _build_gdef(ufo):
+# Lifted from glyphsLib and adapted to only recognize Letters as bases and not
+# insert a "# automatic".
+def _build_gdef(ufo) -> List[str]:
     """Build a GDEF table statement (GlyphClassDef and LigatureCaretByPos).
 
     Building GlyphClassDef requires anchor propagation or user care to work as
@@ -34,9 +36,8 @@ def _build_gdef(ufo):
     * https://github.com/googlei18n/glyphsLib/issues/85
     * https://github.com/googlei18n/glyphsLib/pull/100#issuecomment-275430289
     """
-    from glyphsLib import glyphdata
-
-    bases, ligatures, marks, carets = set(), set(), set(), {}
+    bases, ligatures, marks = set(), set(), set()
+    carets: Dict[str, Any] = {}  # glyph names to anchor objects
     category_key = glyphsLib.builder.constants.GLYPHLIB_PREFIX + "category"
     subCategory_key = glyphsLib.builder.constants.GLYPHLIB_PREFIX + "subCategory"
 
@@ -51,7 +52,7 @@ def _build_gdef(ufo):
 
         # First check glyph.lib for category/subCategory overrides. Otherwise,
         # use global values from GlyphData.
-        glyphinfo = glyphdata.get_glyph(glyph.name)
+        glyphinfo = glyphsLib.glyphdata.get_glyph(glyph.name)
         category = glyph.lib.get(category_key) or glyphinfo.category
         subCategory = glyph.lib.get(subCategory_key) or glyphinfo.subCategory
 
@@ -65,7 +66,7 @@ def _build_gdef(ufo):
             bases.add(glyph.name)
 
     if not any((bases, ligatures, marks, carets)):
-        return None
+        return []
 
     def fmt(g):
         if g:
@@ -75,7 +76,6 @@ def _build_gdef(ufo):
 
     lines = [
         "table GDEF {",
-        "  # automatic",
         "  GlyphClassDef",
         f"    {fmt(bases)}, # Base",
         f"    {fmt(ligatures)}, # Liga",
@@ -87,18 +87,30 @@ def _build_gdef(ufo):
         lines.append(f"  LigatureCaretByPos {glyph} {caretPos_joined};")
     lines.append("} GDEF;")
 
-    return "\n".join(lines)
+    return lines
 
 
+# Anchors have to be propagated before we can construct the GDEF table.
 if __name__ == "__main__":
-    main_source_path = Path(__file__).parent.parent / "src" / "Cantarell-Regular.ufo"
-    main_source = defcon.Font(main_source_path)
+    source_directory = Path(__file__).parent.parent / "src"
 
+    # The list of glyph names for anchor propagation is stored in the main UFO
+    # (main == whatever has info=1 set in the Designspace).
+    main_source_path = source_directory / "Cantarell-Regular.ufo"
+    main_source = defcon.Font(main_source_path)
     pre_filter, _ = ufo2ft.filters.loadFilters(main_source)
     for pf in pre_filter:
-        pf(font=main_source)
+        pf(font=main_source)  # Run propagation filters on main UFO
 
-    gdef_table = _build_gdef(main_source)
+    # Generate GDEF definition string from processed, in-memory UFO
+    gdef_table_lines = [f"{l}\n" for l in _build_gdef(main_source)]
 
-    with open(Path(__file__).parent.parent / "src" / "gdef.fea", "w") as fp:
-        print(gdef_table, file=fp)
+    # Update features.fea in all UFOs.
+    for feature_file in source_directory.glob("*.ufo/features.fea"):
+        with open(feature_file) as fp:
+            file_contents = fp.readlines()
+        gdef_start = file_contents.index("table GDEF {\n")
+        gdef_end = file_contents.index("} GDEF;\n") + 1
+        file_contents[gdef_start:gdef_end] = gdef_table_lines
+        with open(feature_file, "w+") as fp:
+            fp.write("".join(file_contents))
