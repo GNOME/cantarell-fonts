@@ -5,14 +5,15 @@
 #    pip-compile --output-file requirements-dev.txt requirements-dev.in
 #
 appdirs==1.4.3
-attrs==18.2.0             # via ufolib2
+attrs==18.2.0
 booleanoperations==0.8.2
+cattrs==0.9.0
 compreffor==0.4.6.post1
 cu2qu==1.6.5
 defcon[lxml]==0.6.0
 fontmake==1.9.1
 fontmath==0.4.9
-fonttools[lxml,ufo,unicode]==3.37.3
+fonttools[lxml,ufo,unicode]==3.38.0
 fs==2.3.0
 glyphslib==3.2.0
 lxml==4.3.1
@@ -21,5 +22,6 @@ psautohint==1.9.1
 pyclipper==1.1.0.post1
 pytz==2018.9
 six==1.12.0
+statmake==0.1.0
 ufo2ft==2.7.0
 ufolib2==0.3.0

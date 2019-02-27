@@ -5,13 +5,15 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 appdirs==1.4.3            # via fs
+attrs==18.2.0             # via cattrs, statmake
 booleanoperations==0.8.2  # via fontmake, ufo2ft
+cattrs==0.9.0             # via statmake
 compreffor==0.4.6.post1   # via ufo2ft
 cu2qu==1.6.5              # via fontmake, ufo2ft
 defcon[lxml]==0.6.0       # via fontmake, glyphslib, mutatormath, ufo2ft
 fontmake==1.9.1
 fontmath==0.4.9           # via mutatormath
-fonttools[lxml,ufo,unicode]==3.37.3  # via booleanoperations, compreffor, cu2qu, defcon, fontmake, fontmath, glyphslib, mutatormath, psautohint, ufo2ft
+fonttools[lxml,ufo,unicode]==3.38.0  # via booleanoperations, compreffor, cu2qu, defcon, fontmake, fontmath, glyphslib, mutatormath, psautohint, statmake, ufo2ft
 fs==2.3.0                 # via fonttools
 glyphslib==3.2.0          # via fontmake
 lxml==4.3.1               # via fonttools
@@ -20,4 +22,5 @@ psautohint==1.9.1
 pyclipper==1.1.0.post1    # via booleanoperations
 pytz==2018.9              # via fs
 six==1.12.0               # via fs
+statmake==0.1.0
 ufo2ft==2.7.0             # via fontmake
