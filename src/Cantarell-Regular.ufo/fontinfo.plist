@@ -16,12 +16,30 @@
     <array/>
     <key>italicAngle</key>
     <real>-0.0</real>
+    <key>openTypeGaspRangeRecords</key>
+    <array>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+          <integer>2</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>65535</integer>
+      </dict>
+    </array>
     <key>openTypeHeadCreated</key>
     <string>2009/03/13 21:44:13</string>
     <key>openTypeNameDesigner</key>
     <string>Dave Crossland, Nikolaus Waxweiler, Jacques Le Bailly, Eben Sorkin, Alexei Vanyashin</string>
     <key>openTypeNameDesignerURL</key>
     <string>http://abattis.org</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://abattis.org</string>
     <key>openTypeOS2Panose</key>
@@ -41,6 +59,8 @@
     <array>
       <integer>3</integer>
     </array>
+    <key>openTypeOS2Type</key>
+    <array/>
     <key>openTypeOS2VendorID</key>
     <string>ABAT</string>
     <key>postscriptBlueScale</key>
