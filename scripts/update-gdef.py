@@ -1,4 +1,4 @@
-"""Update the shared GDEF definition feature file.
+"""Update the GDEF definition in the feature file.
 
 We want our own because Glyphs has the habit of propagating anchors on
 _everything_, even symbols that happen to contain components of latin
@@ -8,7 +8,7 @@ glyphs with anchors.
 from pathlib import Path
 from typing import Any, Dict, List
 
-import defcon
+import ufoLib2
 import glyphsLib.builder.constants
 import glyphsLib.glyphdata
 import ufo2ft.filters
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     # The list of glyph names for anchor propagation is stored in the main UFO
     # (main == whatever has info=1 set in the Designspace).
     main_source_path = source_directory / "Cantarell-Regular.ufo"
-    main_source = defcon.Font(main_source_path)
+    main_source = ufoLib2.Font.open(main_source_path)
     pre_filter, _ = ufo2ft.filters.loadFilters(main_source)
     for pf in pre_filter:
         pf(font=main_source)  # Run propagation filters on main UFO
