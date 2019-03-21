@@ -20,10 +20,9 @@ def generate_and_write_instance(
     # 3. Generate instance UFO.
     instance = instantiator.generate_instance(instance_descriptor)
     file_stem = f"{instance.info.familyName}-{instance.info.styleName}".replace(" ", "")
-    instance.save(output_dir / f"{file_stem}.ufo")
 
     # 4. Compile and write instance OTF to disk.
-    instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True)
+    instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, inplace=True)
     output_path = output_dir / f"{file_stem}.otf"
     instance_font.save(output_path)
 
