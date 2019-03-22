@@ -2,12 +2,12 @@
 <glyph name="macroncomb_gravecomb" format="2">
   <outline>
     <component base="macroncomb.loclVIET"/>
-    <component base="gravecomb" xOffset="54.0" yOffset="69.0"/>
+    <component base="gravecomb" xOffset="54" yOffset="69"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>475.0</real>
+      <integer>475</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

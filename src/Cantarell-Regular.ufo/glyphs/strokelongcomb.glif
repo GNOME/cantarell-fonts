@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="strokelongcomb" format="2">
   <unicode hex="0336"/>
-  <anchor x="445.0" y="342.0" name="_center"/>
+  <anchor x="445" y="342" name="_center"/>
   <outline>
     <contour>
-      <point x="88.0" y="312.0" type="line"/>
-      <point x="801.0" y="312.0" type="line"/>
-      <point x="801.0" y="372.0" type="line"/>
-      <point x="88.0" y="372.0" type="line"/>
+      <point x="88" y="312" type="line"/>
+      <point x="801" y="312" type="line"/>
+      <point x="801" y="372" type="line"/>
+      <point x="88" y="372" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>889.0</real>
+      <integer>889</integer>
     </dict>
   </lib>
 </glyph>

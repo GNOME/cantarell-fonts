@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb.case" format="2">
-  <anchor x="199.0" y="694.0" name="_top"/>
-  <anchor x="199.0" y="912.0" name="top"/>
-  <anchor x="389.0" y="861.0" name="top_viet"/>
+  <anchor x="199" y="694" name="_top"/>
+  <anchor x="199" y="912" name="top"/>
+  <anchor x="389" y="861" name="top_viet"/>
   <outline>
-    <component base="circumflexcomb" yOffset="200.0"/>
+    <component base="circumflexcomb" yOffset="200"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>420.0</real>
+      <integer>420</integer>
     </dict>
   </lib>
 </glyph>

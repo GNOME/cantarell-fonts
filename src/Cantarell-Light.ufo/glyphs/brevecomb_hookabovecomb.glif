@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_hookabovecomb" format="2">
   <outline>
-    <component base="brevecomb.loclVIET" xOffset="-17.0"/>
-    <component base="hookabovecomb.loclVIET" xOffset="43.0" yOffset="80.0"/>
+    <component base="brevecomb.loclVIET" xOffset="-17"/>
+    <component base="hookabovecomb.loclVIET" xOffset="43" yOffset="80"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>377.0</real>
+      <integer>377</integer>
     </dict>
   </lib>
 </glyph>

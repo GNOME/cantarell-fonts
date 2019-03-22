@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb.loclVIET" format="2">
-  <anchor x="83.0" y="482.0" name="_top"/>
-  <anchor x="117.0" y="662.0" name="top"/>
-  <anchor x="41.0" y="627.0" name="top_dot"/>
+  <anchor x="83" y="482" name="_top"/>
+  <anchor x="117" y="662" name="top"/>
+  <anchor x="41" y="627" name="top_dot"/>
   <outline>
     <contour>
-      <point x="86.0" y="562.0" type="line"/>
-      <point x="220.0" y="691.0" type="line"/>
-      <point x="159.0" y="744.0" type="line"/>
-      <point x="50.0" y="592.0" type="line"/>
+      <point x="86" y="562" type="line"/>
+      <point x="220" y="691" type="line"/>
+      <point x="159" y="744" type="line"/>
+      <point x="50" y="592" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -21,7 +21,7 @@
         <integer>95</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>264.0</real>
+      <integer>264</integer>
     </dict>
   </lib>
 </glyph>

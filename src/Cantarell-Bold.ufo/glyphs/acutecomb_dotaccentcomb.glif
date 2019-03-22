@@ -2,12 +2,12 @@
 <glyph name="acutecomb_dotaccentcomb" format="2">
   <outline>
     <component base="acutecomb.loclVIET"/>
-    <component base="dotaccentcomb.loclVIET" xOffset="-133.0" yOffset="168.0"/>
+    <component base="dotaccentcomb.loclVIET" xOffset="-133" yOffset="168"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>284.0</real>
+      <integer>284</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

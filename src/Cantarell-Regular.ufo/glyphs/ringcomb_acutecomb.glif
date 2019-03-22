@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringcomb_acutecomb" format="2">
-  <anchor x="153.0" y="482.0" name="_top"/>
+  <anchor x="153" y="482" name="_top"/>
   <outline>
-    <component base="ringcomb" xOffset="-20.0"/>
-    <component base="acutecomb" xOffset="119.0" yOffset="130.0"/>
+    <component base="ringcomb" xOffset="-20"/>
+    <component base="acutecomb" xOffset="119" yOffset="130"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>408.0</real>
+      <integer>408</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

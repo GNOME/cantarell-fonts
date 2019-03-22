@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_acutecomb" format="2">
   <outline>
-    <component base="brevecomb.loclVIET" xOffset="-35.0"/>
-    <component base="acutecomb.loclVIET" xOffset="90.0" yOffset="98.0"/>
+    <component base="brevecomb.loclVIET" xOffset="-35"/>
+    <component base="acutecomb.loclVIET" xOffset="90" yOffset="98"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>359.0</real>
+      <integer>359</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,12 +2,12 @@
 <glyph name="circumflexcomb_acutecomb" format="2">
   <outline>
     <component base="circumflexcomb.loclVIET"/>
-    <component base="acutecomb.loclVIET" xOffset="238.0" yOffset="81.0"/>
+    <component base="acutecomb.loclVIET" xOffset="238" yOffset="81"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>386.0</real>
+      <integer>386</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

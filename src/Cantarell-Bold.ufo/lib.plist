@@ -555,13 +555,13 @@
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramArea</key>
@@ -571,9 +571,9 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramOver</key>
     <string>0</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <real>170.0</real>
+    <integer>170</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
-    <real>100.0</real>
+    <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterID</key>
     <string>51C2DFEF-3776-4D13-9284-96485B799B57</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -585,11 +585,11 @@
     <key>com.schriftgestaltung.weight</key>
     <string>Bold</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <real>170.0</real>
+    <integer>170</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
-    <real>100.0</real>
+    <integer>100</integer>
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>

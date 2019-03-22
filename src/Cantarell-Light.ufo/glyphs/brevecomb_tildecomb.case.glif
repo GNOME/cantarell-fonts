@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_tildecomb.case" format="2">
   <outline>
-    <component base="brevecomb.loclVIET" yxScale="0.06993" xOffset="-23.0" yOffset="200.0"/>
-    <component base="tildecomb.loclVIET" yxScale="0.06993" xOffset="-54.0" yOffset="318.0"/>
+    <component base="brevecomb.loclVIET" yxScale="0.06993" xOffset="-23" yOffset="200"/>
+    <component base="tildecomb.loclVIET" yxScale="0.06993" xOffset="-54" yOffset="318"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>452.0</real>
+      <integer>452</integer>
     </dict>
   </lib>
 </glyph>

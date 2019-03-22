@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hookabovecomb" format="2">
   <unicode hex="0309"/>
-  <anchor x="154.0" y="490.0" name="_top"/>
-  <anchor x="146.0" y="798.0" name="top"/>
+  <anchor x="154" y="490" name="_top"/>
+  <anchor x="146" y="798" name="top"/>
   <outline>
     <contour>
-      <point x="127.0" y="545.0" type="line"/>
-      <point x="216.0" y="581.0"/>
-      <point x="269.0" y="642.0"/>
-      <point x="269.0" y="709.0" type="curve" smooth="yes"/>
-      <point x="269.0" y="773.0"/>
-      <point x="219.0" y="815.0"/>
-      <point x="143.0" y="815.0" type="curve" smooth="yes"/>
-      <point x="104.0" y="815.0"/>
-      <point x="61.0" y="804.0"/>
-      <point x="17.0" y="783.0" type="curve"/>
-      <point x="56.0" y="681.0" type="line"/>
-      <point x="75.0" y="691.0"/>
-      <point x="92.0" y="696.0"/>
-      <point x="107.0" y="696.0" type="curve" smooth="yes"/>
-      <point x="127.0" y="696.0"/>
-      <point x="140.0" y="686.0"/>
-      <point x="140.0" y="671.0" type="curve" smooth="yes"/>
-      <point x="140.0" y="650.0"/>
-      <point x="126.0" y="633.0"/>
-      <point x="99.0" y="622.0" type="curve"/>
+      <point x="127" y="545" type="line"/>
+      <point x="216" y="581"/>
+      <point x="269" y="642"/>
+      <point x="269" y="709" type="curve" smooth="yes"/>
+      <point x="269" y="773"/>
+      <point x="219" y="815"/>
+      <point x="143" y="815" type="curve" smooth="yes"/>
+      <point x="104" y="815"/>
+      <point x="61" y="804"/>
+      <point x="17" y="783" type="curve"/>
+      <point x="56" y="681" type="line"/>
+      <point x="75" y="691"/>
+      <point x="92" y="696"/>
+      <point x="107" y="696" type="curve" smooth="yes"/>
+      <point x="127" y="696"/>
+      <point x="140" y="686"/>
+      <point x="140" y="671" type="curve" smooth="yes"/>
+      <point x="140" y="650"/>
+      <point x="126" y="633"/>
+      <point x="99" y="622" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>324.0</real>
+      <integer>324</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb_dotaccentcomb" format="2">
-  <advance width="413.0"/>
   <outline>
     <component base="caroncomb.loclVIET"/>
-    <component base="dotaccentcomb.loclVIET" xOffset="64.0" yOffset="195.0"/>
+    <component base="dotaccentcomb.loclVIET" xOffset="64" yOffset="195"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>413</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb_caroncomb" format="2">
-  <advance width="448.0"/>
   <outline>
     <component base="dieresiscomb.loclVIET"/>
-    <component base="caroncomb" xOffset="41.0" yOffset="122.0"/>
+    <component base="caroncomb" xOffset="41" yOffset="122"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>448</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

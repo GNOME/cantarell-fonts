@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedillacomb" format="2">
   <unicode hex="0327"/>
-  <anchor x="147.0" y="0.0" name="_bottom"/>
-  <anchor x="256.0" y="-260.0" name="bottom"/>
+  <anchor x="147" y="0" name="_bottom"/>
+  <anchor x="256" y="-260" name="bottom"/>
   <outline>
     <contour>
-      <point x="148.0" y="-256.0" type="curve" smooth="yes"/>
-      <point x="230.0" y="-256.0"/>
-      <point x="277.0" y="-220.0"/>
-      <point x="277.0" y="-157.0" type="curve" smooth="yes"/>
-      <point x="277.0" y="-102.0"/>
-      <point x="239.0" y="-70.0"/>
-      <point x="163.0" y="-59.0" type="curve"/>
-      <point x="174.0" y="5.0" type="line"/>
-      <point x="116.0" y="5.0" type="line"/>
-      <point x="96.0" y="-102.0" type="line"/>
-      <point x="164.0" y="-105.0"/>
-      <point x="204.0" y="-127.0"/>
-      <point x="204.0" y="-161.0" type="curve" smooth="yes"/>
-      <point x="204.0" y="-186.0"/>
-      <point x="184.0" y="-200.0"/>
-      <point x="147.0" y="-200.0" type="curve" smooth="yes"/>
-      <point x="122.0" y="-200.0"/>
-      <point x="90.0" y="-194.0"/>
-      <point x="66.0" y="-183.0" type="curve"/>
-      <point x="49.0" y="-232.0" type="line"/>
-      <point x="77.0" y="-248.0"/>
-      <point x="110.0" y="-256.0"/>
+      <point x="148" y="-256" type="curve" smooth="yes"/>
+      <point x="230" y="-256"/>
+      <point x="277" y="-220"/>
+      <point x="277" y="-157" type="curve" smooth="yes"/>
+      <point x="277" y="-102"/>
+      <point x="239" y="-70"/>
+      <point x="163" y="-59" type="curve"/>
+      <point x="174" y="5" type="line"/>
+      <point x="116" y="5" type="line"/>
+      <point x="96" y="-102" type="line"/>
+      <point x="164" y="-105"/>
+      <point x="204" y="-127"/>
+      <point x="204" y="-161" type="curve" smooth="yes"/>
+      <point x="204" y="-186"/>
+      <point x="184" y="-200"/>
+      <point x="147" y="-200" type="curve" smooth="yes"/>
+      <point x="122" y="-200"/>
+      <point x="90" y="-194"/>
+      <point x="66" y="-183" type="curve"/>
+      <point x="49" y="-232" type="line"/>
+      <point x="77" y="-248"/>
+      <point x="110" y="-256"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>332.0</real>
+      <integer>332</integer>
     </dict>
   </lib>
 </glyph>

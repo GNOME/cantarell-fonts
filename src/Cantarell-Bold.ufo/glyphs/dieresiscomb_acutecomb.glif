@@ -2,12 +2,12 @@
 <glyph name="dieresiscomb_acutecomb" format="2">
   <outline>
     <component base="dieresiscomb.loclVIET"/>
-    <component base="acutecomb" xOffset="160.0" yOffset="186.0"/>
+    <component base="acutecomb" xOffset="160" yOffset="186"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>512.0</real>
+      <integer>512</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

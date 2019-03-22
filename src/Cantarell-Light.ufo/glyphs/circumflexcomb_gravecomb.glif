@@ -2,12 +2,12 @@
 <glyph name="circumflexcomb_gravecomb" format="2">
   <outline>
     <component base="circumflexcomb.loclVIET"/>
-    <component base="gravecomb.loclVIET" xOffset="115.0" yOffset="74.0"/>
+    <component base="gravecomb.loclVIET" xOffset="115" yOffset="74"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>362.0</real>
+      <integer>362</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb" format="2">
   <unicode hex="0300"/>
-  <anchor x="184.0" y="480.0" name="_top"/>
-  <anchor x="142.0" y="711.0" name="top"/>
-  <anchor x="234.0" y="576.0" name="top_dot"/>
+  <anchor x="184" y="480" name="_top"/>
+  <anchor x="142" y="711" name="top"/>
+  <anchor x="234" y="576" name="top_dot"/>
   <outline>
     <contour>
-      <point x="180.0" y="577.0" type="line"/>
-      <point x="188.0" y="584.0" type="line"/>
-      <point x="94.0" y="722.0" type="line"/>
-      <point x="76.0" y="709.0" type="line"/>
+      <point x="180" y="577" type="line"/>
+      <point x="188" y="584" type="line"/>
+      <point x="94" y="722" type="line"/>
+      <point x="76" y="709" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>242.0</real>
+      <integer>242</integer>
     </dict>
   </lib>
 </glyph>

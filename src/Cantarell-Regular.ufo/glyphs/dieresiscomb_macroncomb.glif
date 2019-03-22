@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb_macroncomb" format="2">
-  <advance width="448.0"/>
   <outline>
     <component base="dieresiscomb.loclVIET"/>
-    <component base="macroncomb" xOffset="-21.0" yOffset="122.0"/>
+    <component base="macroncomb" xOffset="-21" yOffset="122"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>448</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

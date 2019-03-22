@@ -2,12 +2,12 @@
 <glyph name="dieresiscomb_gravecomb" format="2">
   <outline>
     <component base="dieresiscomb.loclVIET"/>
-    <component base="gravecomb" xOffset="35.0" yOffset="79.0"/>
+    <component base="gravecomb" xOffset="35" yOffset="79"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>438.0</real>
+      <integer>438</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>1</integer>

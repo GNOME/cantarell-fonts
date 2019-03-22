@@ -1332,19 +1332,19 @@
       <string>{-217, -12}</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramArea</key>
@@ -1354,9 +1354,9 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramOver</key>
     <string>0</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <real>80.0</real>
+    <integer>80</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
-    <real>100.0</real>
+    <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterID</key>
     <string>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -1368,11 +1368,11 @@
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <real>80.0</real>
+    <integer>80</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
-    <real>100.0</real>
+    <integer>100</integer>
     <key>height</key>
     <integer>6</integer>
     <key>public.glyphOrder</key>

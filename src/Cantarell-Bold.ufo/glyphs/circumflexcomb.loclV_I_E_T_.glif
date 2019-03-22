@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb.loclVIET" format="2">
-  <anchor x="204.0" y="490.0" name="_top"/>
-  <anchor x="204.0" y="630.0" name="top"/>
-  <anchor x="381.0" y="612.0" name="top_viet"/>
+  <anchor x="204" y="490" name="_top"/>
+  <anchor x="204" y="630" name="top"/>
+  <anchor x="381" y="612" name="top_viet"/>
   <outline>
     <contour>
-      <point x="20.0" y="571.0" type="line"/>
-      <point x="89.0" y="512.0" type="line"/>
-      <point x="198.0" y="581.0" type="line"/>
-      <point x="302.0" y="511.0" type="line"/>
-      <point x="398.0" y="602.0" type="line"/>
-      <point x="251.0" y="714.0" type="line"/>
-      <point x="166.0" y="714.0" type="line"/>
+      <point x="20" y="571" type="line"/>
+      <point x="89" y="512" type="line"/>
+      <point x="198" y="581" type="line"/>
+      <point x="302" y="511" type="line"/>
+      <point x="398" y="602" type="line"/>
+      <point x="251" y="714" type="line"/>
+      <point x="166" y="714" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,7 +22,7 @@
         <integer>80</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>413.0</real>
+      <integer>413</integer>
     </dict>
   </lib>
 </glyph>

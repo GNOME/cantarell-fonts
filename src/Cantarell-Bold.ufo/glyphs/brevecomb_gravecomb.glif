@@ -2,12 +2,12 @@
 <glyph name="brevecomb_gravecomb" format="2">
   <outline>
     <component base="brevecomb.loclVIET"/>
-    <component base="gravecomb.loclVIET" xOffset="49.0" yOffset="141.0"/>
+    <component base="gravecomb.loclVIET" xOffset="49" yOffset="141"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>600.0</real>
+      <integer>600</integer>
     </dict>
   </lib>
 </glyph>

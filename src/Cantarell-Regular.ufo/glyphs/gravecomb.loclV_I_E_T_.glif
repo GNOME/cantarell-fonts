@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb.loclVIET" format="2">
-  <anchor x="170.0" y="482.0" name="_top"/>
-  <anchor x="146.0" y="662.0" name="top"/>
+  <anchor x="170" y="482" name="_top"/>
+  <anchor x="146" y="662" name="top"/>
   <outline>
     <contour>
-      <point x="174.0" y="564.0" type="line"/>
-      <point x="208.0" y="597.0" type="line"/>
-      <point x="91.0" y="743.0" type="line"/>
-      <point x="33.0" y="687.0" type="line"/>
+      <point x="174" y="564" type="line"/>
+      <point x="208" y="597" type="line"/>
+      <point x="91" y="743" type="line"/>
+      <point x="33" y="687" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,7 +20,7 @@
         <integer>95</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>263.0</real>
+      <integer>263</integer>
     </dict>
   </lib>
 </glyph>

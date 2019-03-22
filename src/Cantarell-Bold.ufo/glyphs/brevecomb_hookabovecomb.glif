@@ -2,12 +2,12 @@
 <glyph name="brevecomb_hookabovecomb" format="2">
   <outline>
     <component base="brevecomb.loclVIET"/>
-    <component base="hookabovecomb.loclVIET" xOffset="72.0" yOffset="140.0"/>
+    <component base="hookabovecomb.loclVIET" xOffset="72" yOffset="140"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>601.0</real>
+      <integer>601</integer>
     </dict>
   </lib>
 </glyph>

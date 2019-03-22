@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_hookabovecomb" format="2">
   <outline>
-    <component base="circumflexcomb.loclVIET" xOffset="-23.0"/>
-    <component base="hookabovecomb.loclVIET" xOffset="164.0" yOffset="81.0"/>
+    <component base="circumflexcomb.loclVIET" xOffset="-23"/>
+    <component base="hookabovecomb.loclVIET" xOffset="164" yOffset="81"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>441.0</real>
+      <integer>441</integer>
     </dict>
   </lib>
 </glyph>
