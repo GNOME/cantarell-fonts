@@ -1,3 +1,7 @@
-fontmake>=1.9.1
+attrs>=18.2
+fontMath>=0.5.0
+fontTools>=3.39.0
 psautohint>=1.8.0
 statmake
+ufoLib2>=0.3.2.post2
+-e git+git://github.com/googlei18n/ufo2ft@99531b06e94f70c1958adcaef4913f5ab89d0d1b#egg=ufo2ft

@@ -11,7 +11,7 @@ import ufo2ft
 import instantiator
 
 
-def generate_and_write_instance(
+def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
     instance_descriptor: fontTools.designspaceLib.InstanceDescriptor,
     output_dir: Path,
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     for index, instance in enumerate(designspace.instances):
         processes.append(
             pool.apply_async(
-                generate_and_write_instance,
+                generate_and_write_autohinted_instance,
                 args=(generator, instance, args.output_dir, args.psautohint),
             )
         )
