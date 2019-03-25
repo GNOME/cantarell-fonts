@@ -50,10 +50,6 @@ if __name__ == "__main__":
     ]
 
     # 2. Prepare masters.
-    # XXX: varLib rounds with fontTools.misc.fixedTools.otRound, fontMath rounds with
-    # fontTools.misc.py23.round3. This leads to off-by-one coordinates between
-    # instances and a variable font.
-    # https://github.com/robotools/fontMath/issues/148
     generator = instantiator.Instantiator.from_designspace(
         designspace, round_geometry=True
     )
