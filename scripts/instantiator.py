@@ -1,6 +1,20 @@
 #!/bin/env python3
 #
-# This code is based on ufoProcessor code, see LICENSE_ufoProcessor.
+# This code is based on ufoProcessor code, see LICENSE_ufoProcessor, and is itself
+# MIT-licensed.
+
+"""Module for generating static font instances.
+
+It is an alternative to mutatorMath (used internally by fontmake) and ufoProcessor. The
+aim is to be a minimal implementation that is focussed on using ufoLib2 for font data
+abstraction, varLib for instance computation and fontMath as a font data shell for
+instance computation directly and exclusively.
+
+At the time of this writing, varLib lacks support for anisotropic (x, y) locations and
+extrapolation.
+
+See the `scripts/make-static-fonts.py` script for how to use it.
+"""
 
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Set, Tuple, Union
@@ -23,6 +37,9 @@ fontMath.mathFunctions.setRoundIntegerFunction(fontTools.misc.fixedTools.otRound
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
 class Instantiator:
+    """Data class that holds all necessary information to generate a static
+    font instance object at an arbitary location within the design space."""
+
     copy_feature_text: str
     copy_groups: Mapping[str, List[str]]
     copy_info: ufoLib2.objects.Info
@@ -39,6 +56,7 @@ class Instantiator:
         designspace: designspaceLib.DesignSpaceDocument,
         round_geometry: bool = True,
     ):
+        """Instantiates a new data class from a Designspace object."""
         if designspace.default is None:
             raise ValueError(
                 "Can't generate UFOs from this designspace: no default font."
@@ -103,18 +121,10 @@ class Instantiator:
             round_geometry,
         )
 
-    def generate_instance(self, instance: designspaceLib.InstanceDescriptor):
-        """Generate a font object for this instance.
-
-        Difference to original ufoProcessor method:
-        - Removed exception eating
-        - Deleted fontParts specific code paths and workarounds(?)
-        - No kerningGroupConversionRenameMaps because ufoLib2 doesn't have that (not
-        relevant for UFO3)
-        - Removed InstanceDescriptor.glyphs handling, no muting, no instance-specific
-        masters
-        - No anisotropic locations (not currently supported by varLib)
-        """
+    def generate_instance(
+        self, instance: designspaceLib.InstanceDescriptor
+    ) -> ufoLib2.Font:
+        """Generate a font object for an InstanceDescriptor."""
         font = ufoLib2.Font()
 
         location = instance.location
