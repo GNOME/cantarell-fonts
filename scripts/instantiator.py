@@ -7,6 +7,7 @@ from typing import Any, Dict, List, Mapping, Set, Tuple, Union
 
 import attr
 import fontMath
+import fontTools.misc.fixedTools
 import fontTools.designspaceLib as designspaceLib
 import fontTools.ufoLib as ufoLib
 import fontTools.varLib as varLib
@@ -14,6 +15,8 @@ import ufoLib2
 
 FontMathObject = Union[fontMath.MathGlyph, fontMath.MathInfo, fontMath.MathKerning]
 Location = Mapping[str, float]
+
+fontMath.mathFunctions.setRoundIntegerFunction(fontTools.misc.fixedTools.otRound)
 
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
