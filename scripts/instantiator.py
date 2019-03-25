@@ -49,6 +49,7 @@ class Instantiator:
     info_mutator: "Variator"
     kerning_mutator: "Variator"
     round_geometry: bool
+    skip_export_glyphs: List[str]
 
     @classmethod
     def from_designspace(
@@ -109,6 +110,12 @@ class Instantiator:
             default_source.font.lib,
         )
 
+        # The list of glyphs not to export and decompose where used as a component is
+        # supposed to be taken from the Designspace when a Designspace is used as the
+        # starting point of the compilation process. It should be exported to all
+        # instance libs, where the ufo2ft compilation functions will pick it up.
+        skip_export_glyphs = designspace.lib.get("public.skipExportGlyphs", [])
+
         return cls(
             copy_feature_text,
             copy_groups,
@@ -119,6 +126,7 @@ class Instantiator:
             info_mutator,
             kerning_mutator,
             round_geometry,
+            skip_export_glyphs,
         )
 
     def generate_instance(
@@ -154,6 +162,7 @@ class Instantiator:
                 setattr(font.info, attribute, getattr(self.copy_info, attribute))
         for key, value in self.copy_lib.items():
             font.lib[key] = value
+        font.lib["public.skipExportGlyphs"] = self.skip_export_glyphs
         for key, value in self.copy_groups.items():
             font.groups[key] = value
         font.features.text = self.copy_feature_text
