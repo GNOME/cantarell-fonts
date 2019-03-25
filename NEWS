@@ -1,198 +1,197 @@
 0.111
- - Fix the wrongly assigned OS/2 weight class values that e.g. led to Extra Bold
-   being selected when Bold was requested.
+- Fix the wrongly assigned OS/2 weight class values that e.g. led to Extra Bold
+  being selected when Bold was requested.
 
 0.110
- - Space everything a little bit tighter.
- - Scale down whiteCircle and blackCircle by 50%, makes password dots smaller.
- - Tweak feet of one.lf slightly for a more even appearance.
- - Revise lcaron, dcaron and tcaron for collision-free rendering even at bold 
-   weight. Will need kerning later. 
- - Add draft of Cyrillic (GF Cyrillic Plus set), to be improved.
- - Equalize advance width of period, comma, colon, semicolon.
- - Build packages with prebuilt fonts baked in.
- - New contributed AppStream metadata translations for Slovak (Dušan Kazik),
-   Slovenian (Matej Urbančič), Russian (Stas Solovey) and Chinese China
-   (Dingzhong Chen).
+- Space everything a little bit tighter.
+- Scale down whiteCircle and blackCircle by 50%, makes password dots smaller.
+- Tweak feet of one.lf slightly for a more even appearance.
+- Revise lcaron, dcaron and tcaron for collision-free rendering even at bold
+  weight. Will need kerning later.
+- Add draft of Cyrillic (GF Cyrillic Plus set), to be improved.
+- Equalize advance width of period, comma, colon, semicolon.
+- Build packages with prebuilt fonts baked in.
+- New contributed AppStream metadata translations for Slovak (Dušan Kazik),
+  Slovenian (Matej Urbančič), Russian (Stas Solovey) and Chinese China
+  (Dingzhong Chen).
 
 0.101
- - Countless detail updates to various glyphs
- - Added contributed AppStream metdata translations for Polish (Piotr Drąg),
-   French (Claude Paroz), Indonesian (Kukuh Syafaat), Galician (Fran Dieguez),
-   Occitan (Cédric Valmary), Chinese Taiwan (Cheng-Chia Tseng), Spanish (Daniel
-   Mustieles), Catalan (Adolfo Jayme), Croatian (gogo), German (Tim Sabsch),
-   Dutch (Nathan Follens), Turkish (Emin Tufan Çetin), Serbian (Марко Костић),
-   Serbian Latin (Marko Kostić), Hungarian (Gabor Kelemen), Korean (DaeHyun
-   Sung), Czech (Marek Černocký), Lithuanian (Aurimas Černius), Danish (Ask
-   Hjorth Larsen), Italian (Gianvito Cavasoli), Romanian (Daniel Șerbănescu),
-   Punjabi (A S Alam), Latvian (Rūdolfs Mazurs), Swedish (Anders Jonsson),
-   Icelandic (Sveinn í Felli), Greek (Efstathios Iosifidis)
+- Countless detail updates to various glyphs
+- Added contributed AppStream metdata translations for Polish (Piotr Drąg),
+  French (Claude Paroz), Indonesian (Kukuh Syafaat), Galician (Fran Dieguez),
+  Occitan (Cédric Valmary), Chinese Taiwan (Cheng-Chia Tseng), Spanish (Daniel
+  Mustieles), Catalan (Adolfo Jayme), Croatian (gogo), German (Tim Sabsch),
+  Dutch (Nathan Follens), Turkish (Emin Tufan Çetin), Serbian (Марко Костић),
+  Serbian Latin (Marko Kostić), Hungarian (Gabor Kelemen), Korean (DaeHyun
+  Sung), Czech (Marek Černocký), Lithuanian (Aurimas Černius), Danish (Ask
+  Hjorth Larsen), Italian (Gianvito Cavasoli), Romanian (Daniel Șerbănescu),
+  Punjabi (A S Alam), Latvian (Rūdolfs Mazurs), Swedish (Anders Jonsson),
+  Icelandic (Sveinn í Felli), Greek (Efstathios Iosifidis)
 
 0.100
- - Redesigned from scratch to interpolate cleanly from thin to extra bold.
-   Currently targets the Google Fonts Latin Core and Pro glyph sets.
- - Added contributed AppStream metdata translations for Brazilian Portugese
-   (Rafael Fontenelle), Friulian (Fabio Tomat) and Finnish (Jiri Grönroos).
+- Redesigned from scratch to interpolate cleanly from thin to extra bold.
+  Currently targets the Google Fonts Latin Core and Pro glyph sets.
+- Added contributed AppStream metdata translations for Brazilian Portugese
+  (Rafael Fontenelle), Friulian (Fabio Tomat) and Finnish (Jiri Grönroos).
 
 0.0.25
- - Can't remember.
+- Can't remember.
 
 0.0.24
- - asymmetric k for bold, fix stem width
- - sync bold hyphen metrics with regular
+- asymmetric k for bold, fix stem width
+- sync bold hyphen metrics with regular
 
 0.0.23
- - reworked anchors for correct accent rendering under
-   harfbuzz 1.2.0
- - more anchor and combined glyph work
+- reworked anchors for correct accent rendering under harfbuzz 1.2.0
+- more anchor and combined glyph work
 
 0.0.22
- - improvements to the generation script
- - bold: double quotes alignment
- - rehint font with adobe toolkit
- 
+- improvements to the generation script
+- bold: double quotes alignment
+- rehint font with adobe toolkit
+
 0.0.21
- - bold: latin and cyrillic respace
- - bold: adapt f ligatures for the new i
- - redular: adjust spacing of Thorn, ß, ẞ
- - bold: improvements form Cambay
- - bold: match width of numerals to regular
- - numerals - improved spacing
+- bold: latin and cyrillic respace
+- bold: adapt f ligatures for the new i
+- redular: adjust spacing of Thorn, ß, ẞ
+- bold: improvements form Cambay
+- bold: match width of numerals to regular
+- numerals- improved spacing
 
 0.0.20.1
- - fix composited glyph issues
- - fix parallel build issue
+- fix composited glyph issues
+- fix parallel build issue
 
 0.0.20
- - Cyrillic improvements
- - x-height hinting tweaks
- - sync bold to regular
- - OE and oe ligatures
- - ratio respaced
- - capital sharp s for German
+- Cyrillic improvements
+- x-height hinting tweaks
+- sync bold to regular
+- OE and oe ligatures
+- ratio respaced
+- capital sharp s for German
 
 0.0.19
- - generate oblique version
- - more diacritics work; full Latin 4 coverage
- - tabular figures
- - fold over work done on Cambay (Pooja Saxena)
+- generate oblique version
+- more diacritics work; full Latin 4 coverage
+- tabular figures
+- fold over work done on Cambay (Pooja Saxena)
 
 0.0.18.1
- - improved terminals on a,e,r,s,S,l,2
- - fix validation errors
+- improved terminals on a,e,r,s,S,l,2
+- fix validation errors
 
 0.0.18
- - respaced t
- - bold accents fixes
- - consistent stem width and various Improvements on E, H, B and S
- - harmonized o and c
- - improved capitals
- - superscript 123 fixes
- - extra glyps for gtk+ (arrows, openbox)
- - respaced 4 and 7
- 
+- respaced t
+- bold accents fixes
+- consistent stem width and various Improvements on E, H, B and S
+- harmonized o and c
+- improved capitals
+- superscript 123 fixes
+- extra glyps for gtk+ (arrows, openbox)
+- respaced 4 and 7
+
 0.0.17.2
- - rebuild accented glyphs for bold
+- rebuild accented glyphs for bold
 
 0.0.17.1
- - accent fixes
- - revert ijbdklh to snap to caps height
- - proper weight of f ligatures for bold
- - respaced ligatures
+- accent fixes
+- revert ijbdklh to snap to caps height
+- proper weight of f ligatures for bold
+- respaced ligatures
 
 0.0.17
- - improved shapes and metrics by Nikolaus Waxweiler:
-  - baseline and bluezone fixes for autohinter to produce valid hints
-  - many glyphs adjusted for baseline and proper hinting.
-  
-  0.0.16
- - add space variations (#735205)
+- improved shapes and metrics by Nikolaus Waxweiler:
+- baseline and bluezone fixes for autohinter to produce valid hints
+- many glyphs adjusted for baseline and proper hinting.
+
+0.0.16
+- add space variations (#735205)
 
 0.0.15
- - improved spacing for cyrillics (#703588)
- - fixed hinting on numerals (704084)
- - bold outlines improved (#706358)
- - improved cyrillics (#706358)
- - improved outlines and spacing (#703115)
- - missing romanian accent glyphs (#705004)
- - uppercase U shape improvements (#702955)
+- improved spacing for cyrillics (#703588)
+- fixed hinting on numerals (704084)
+- bold outlines improved (#706358)
+- improved cyrillics (#706358)
+- improved outlines and spacing (#703115)
+- missing romanian accent glyphs (#705004)
+- uppercase U shape improvements (#702955)
 
 0.0.14
- - Large improvement to shapes of latin and extended latin glyphs (Pooja Saxena)
- - Improvements to the numeral shapes (Pooja)
- - Greatly improved horizontal metrics of regular weight (Pooja)
- - Corrected maths (Pooja)
- - Corrected outlines & metrics of Cyrillics (Pooja)
+- Large improvement to shapes of latin and extended latin glyphs (Pooja Saxena)
+- Improvements to the numeral shapes (Pooja)
+- Greatly improved horizontal metrics of regular weight (Pooja)
+- Corrected maths (Pooja)
+- Corrected outlines & metrics of Cyrillics (Pooja)
 
 0.0.13
- - many l/rbearking tweaks
- - extra symbols for Shell (bug #657957)
- - balanced shape for s and S
- - balanced shape for 6 and 9
- - balanced 2 and 3
- - improved hhints
- - OT anchors for accents
- - contrast tweaks to bold (b, B, e)
+- many l/rbearking tweaks
+- extra symbols for Shell (bug #657957)
+- balanced shape for s and S
+- balanced shape for 6 and 9
+- balanced 2 and 3
+- improved hhints
+- OT anchors for accents
+- contrast tweaks to bold (b, B, e)
 
 0.0.12
- - improved ligatures
- - improve and add missing cyrillics. bug #689220
- - advanced typo glyphs. bug #689184
+- improved ligatures
+- improve and add missing cyrillics. bug #689220
+- advanced typo glyphs. bug #689184
 
 0.0.11
- - use ligature lookup tables
- - make digits monospaced for bold
+- use ligature lookup tables
+- make digits monospaced for bold
 
 0.0.10.1
- - build related fixes
+- build related fixes
 
 0.0.10
- - generate OTF from SFDs automatically (Fabian Greffrath)
- - install to appropriate system directories (Fabian Greffrath)
- - fix cyrillic metrics
- - improve EE diacritics
+- generate OTF from SFDs automatically (Fabian Greffrath)
+- install to appropriate system directories (Fabian Greffrath)
+- fix cyrillic metrics
+- improve EE diacritics
 
 0.0.9
- - initial support for Cyrillic
- - uppercase Greek
+- initial support for Cyrillic
+- uppercase Greek
 
 0.0.8
- - accented l. #665433
- - extrema & node fixes
- - build related fixes
+- accented l. #665433
+- extrema & node fixes
+- build related fixes
 
 0.0.7
- - ON/OFF glyphs. bug #643120
- - combining circumflex metrics. bug #637066 
- - ] hinting. bug #652834
- - bold: 'a','e','n','s' and 'c' hints.
- - black circle a circle. bug #660442
- - bold: sync accented characters with base glyph.
+- ON/OFF glyphs. bug #643120
+- combining circumflex metrics. bug #637066
+- ] hinting. bug #652834
+- bold: 'a','e','n','s' and 'c' hints.
+- black circle a circle. bug #660442
+- bold: sync accented characters with base glyph.
 
 0.0.6
- - bold l
- - fix umlaut positions. bug #646222
- - README fixes
+- bold l
+- fix umlaut positions. bug #646222
+- README fixes
 
 0.0.5
- - improved password entry glyph
- - improved hyphen by making narrower 
- - improved licensing and FONTLOG metadata 
- - improved vertical metrics
+- improved password entry glyph
+- improved hyphen by making narrower
+- improved licensing and FONTLOG metadata
+- improved vertical metrics
 
 0.0.4
- - improved hints on numerals and bold letters
- - improved metrics
+- improved hints on numerals and bold letters
+- improved metrics
 
 0.0.3
- - create the tarball from the actual git master
- - fixed the fontconfig script not to override the global default
+- create the tarball from the actual git master
+- fixed the fontconfig script not to override the global default
 
 0.0.2
- - improved hints, hinting related metrics
- - added black circle glyph for password entries
- - increased size of '^'
+- improved hints, hinting related metrics
+- added black circle glyph for password entries
+- increased size of '^'
 
 0.0.1
- - Initial GNOME release of Cantarell.
- - Various improvements by Jakub Steiner
+- Initial GNOME release of Cantarell.
+- Various improvements by Jakub Steiner

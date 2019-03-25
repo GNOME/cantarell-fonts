@@ -23,9 +23,9 @@ Contributing
 
 The master file is `src/Cantarell.glyphs`. To contribute, you need to:
 
--	Use the proprietary and Mac-only Glyphs.app...
--	...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
--	...or wait for glyphsLib 2.3.0 to be released, which will finally contain code to roundtrip between Glyphs files and UFOs, at which point I'll switch over and you'll be able to use any UFO editor you'd like. Rejoice!
+- Use the proprietary and Mac-only Glyphs.app...
+- ...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
+- ...or wait for glyphsLib 2.3.0 to be released, which will finally contain code to roundtrip between Glyphs files and UFOs, at which point I'll switch over and you'll be able to use any UFO editor you'd like. Rejoice!
 
 History
 -------
