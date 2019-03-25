@@ -57,7 +57,7 @@ if __name__ == "__main__":
     # (Fork one process per instance)
     processes = []
     pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
-    for index, instance in enumerate(designspace.instances):
+    for instance in designspace.instances:
         processes.append(
             pool.apply_async(
                 generate_and_write_autohinted_instance,

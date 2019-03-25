@@ -278,7 +278,7 @@ def swapGlyphNames(font, oldName, newName, swapNameExtension="_______________swa
     # In font swap the glyphs oldName and newName.
     # Also swap the names in components in order to preserve appearance.
     # Also swap the names in font groups.
-    if not oldName in font or not newName in font:
+    if oldName not in font or newName not in font:
         return
     swapName = oldName + swapNameExtension
     # park the old glyph
