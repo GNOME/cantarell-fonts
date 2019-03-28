@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
--e git+git://github.com/googlei18n/ufo2ft@99531b06e94f70c1958adcaef4913f5ab89d0d1b#egg=ufo2ft
+-e git+git://github.com/googlei18n/ufo2ft@915b986558e87bee288765d9218cc1cd4ebf7f4c#egg=ufo2ft
 appdirs==1.4.3            # via fs
 attrs==18.2.0
 booleanoperations==0.8.2
@@ -15,7 +15,7 @@ defcon==0.6.0
 fontmath==0.5.0
 fonttools[lxml,ufo,unicode]==3.39.0
 fs==2.4.4                 # via fonttools
-lxml==4.3.2               # via fonttools
+lxml==4.3.3               # via fonttools
 psautohint==1.9.1
 pyclipper==1.1.0.post1    # via booleanoperations
 pytz==2018.9              # via fs

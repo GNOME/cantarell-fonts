@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements-dev.txt requirements-dev.in
 #
--e git+git://github.com/googlei18n/ufo2ft@99531b06e94f70c1958adcaef4913f5ab89d0d1b#egg=ufo2ft
+-e git+git://github.com/googlei18n/ufo2ft@915b986558e87bee288765d9218cc1cd4ebf7f4c#egg=ufo2ft
 appdirs==1.4.3
 astroid==2.2.5            # via pylint
 attrs==18.2.0
@@ -19,7 +19,7 @@ fs==2.4.4
 glyphslib==3.3.0
 isort==4.3.16             # via pylint
 lazy-object-proxy==1.3.1  # via astroid
-lxml==4.3.2
+lxml==4.3.3
 mccabe==0.6.1             # via pylint
 mypy-extensions==0.4.1    # via mypy
 mypy==0.670
