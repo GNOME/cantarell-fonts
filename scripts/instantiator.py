@@ -50,6 +50,7 @@ class Instantiator:
     kerning_mutator: "Variator"
     round_geometry: bool
     skip_export_glyphs: List[str]
+    weight_width_axes: Mapping[str, designspaceLib.AxisDescriptor]
 
     @classmethod
     def from_designspace(
@@ -73,9 +74,12 @@ class Instantiator:
         # Construct Variators
         axis_bounds: Dict[str, Tuple[float, float, float]] = {}
         axis_by_name: Dict[str, designspaceLib.AxisDescriptor] = {}
+        weight_width_axes = {}
         for axis in designspace.axes:
             axis_by_name[axis.name] = axis
             axis_bounds[axis.name] = (axis.minimum, axis.default, axis.maximum)
+            if axis.tag in ("wght", "wdth"):
+                weight_width_axes[axis.tag] = axis
 
         masters_info = collect_info_masters(designspace)
         info_mutator = Variator.from_masters(masters_info, axis_by_name, axis_bounds)
@@ -127,6 +131,7 @@ class Instantiator:
             kerning_mutator,
             round_geometry,
             skip_export_glyphs,
+            weight_width_axes,
         )
 
     def generate_instance(
@@ -178,6 +183,24 @@ class Instantiator:
             font.info.styleMapFamilyName = instance.styleMapFamilyName
         if instance.styleMapStyleName:
             font.info.styleMapStyleName = instance.styleMapStyleName
+
+        # If the masters haven't set the OS/2 weight and width class, use the
+        # user-space values ("input") of the axis mapping in the Designspace file for
+        # weight and width axes, if they exist.
+        if info_instance.openTypeOS2WeightClass is None:
+            if "wght" in self.weight_width_axes:
+                weight_axis = self.weight_width_axes["wght"]
+                weight_axis_instance_location = instance.location[weight_axis.name]
+                font.info.openTypeOS2WeightClass = fontTools.misc.fixedTools.otRound(
+                    weight_axis.map_backward(weight_axis_instance_location)
+                )
+        if info_instance.openTypeOS2WidthClass is None:
+            if "wdth" in self.weight_width_axes:
+                width_axis = self.weight_width_axes["wdth"]
+                width_axis_instance_location = instance.location[width_axis.name]
+                font.info.openTypeOS2WidthClass = fontTools.misc.fixedTools.otRound(
+                    width_axis.map_backward(width_axis_instance_location)
+                )
 
         # Glyphs
         for glyph_name, glyph_mutator in self.glyph_mutators.items():
