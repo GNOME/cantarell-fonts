@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="800" default="400">
+      <map input="100" output="20"/>
+      <map input="300" output="40"/>
+      <map input="400" output="80"/>
+      <map input="700" output="126"/>
+      <map input="800" output="170"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Cantarell-Light.ufo" name="Cantarell Light" familyname="Cantarell" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+      </location>
+    </source>
+    <source filename="Cantarell-Regular.ufo" name="Cantarell Regular" familyname="Cantarell" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+    </source>
+    <source filename="Cantarell-Bold.ufo" name="Cantarell Bold" familyname="Cantarell" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Cantarell Thin" familyname="Cantarell" stylename="Thin" filename="instance_ufos/Cantarell-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B2E441B-685E-400D-9B9B-E078DEED62EF</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cantarell Light" familyname="Cantarell" stylename="Light" filename="instance_ufos/Cantarell-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B2E441B-685E-400D-9B9B-E078DEED62EF</key>
+            <real>0.66667</real>
+            <key>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cantarell Regular" familyname="Cantarell" stylename="Regular" filename="instance_ufos/Cantarell-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cantarell Regular Interpolated" familyname="Cantarell" stylename="Regular Interpolated" filename="instance_ufos/Cantarell-RegularInterpolated.ufo">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Disable Masters</string>
+              <array>
+                <string>Regular</string>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <false/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B2E441B-685E-400D-9B9B-E078DEED62EF</key>
+            <real>0.6</real>
+            <key>51C2DFEF-3776-4D13-9284-96485B799B57</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cantarell Bold" familyname="Cantarell" stylename="Bold" filename="instance_ufos/Cantarell-Bold.ufo" stylemapfamilyname="Cantarell" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="126"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>51C2DFEF-3776-4D13-9284-96485B799B57</key>
+            <real>0.51111</real>
+            <key>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</key>
+            <real>0.48889</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cantarell Extra Bold" familyname="Cantarell" stylename="Extra Bold" filename="instance_ufos/Cantarell-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>51C2DFEF-3776-4D13-9284-96485B799B57</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0B2E441B-685E-400D-9B9B-E078DEED62EF</key>
+        <dict>
+          <key>HH</key>
+          <string>19</string>
+          <key>HV</key>
+          <string>22</string>
+          <key>OH</key>
+          <string>19</string>
+          <key>OV</key>
+          <string>22</string>
+          <key>nV</key>
+          <string>21</string>
+          <key>nd</key>
+          <string>14</string>
+          <key>oH</key>
+          <string>18</string>
+          <key>oV</key>
+          <string>21</string>
+          <key>tH</key>
+          <string>17</string>
+        </dict>
+        <key>51C2DFEF-3776-4D13-9284-96485B799B57</key>
+        <dict>
+          <key>HH</key>
+          <string>156</string>
+          <key>HV</key>
+          <string>176</string>
+          <key>OH</key>
+          <string>150</string>
+          <key>OV</key>
+          <string>180</string>
+          <key>nV</key>
+          <string>173</string>
+          <key>nd</key>
+          <string>125</string>
+          <key>oH</key>
+          <string>144</string>
+          <key>oV</key>
+          <string>176</string>
+          <key>tH</key>
+          <string>135</string>
+        </dict>
+        <key>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</key>
+        <dict>
+          <key>HH</key>
+          <string>72</string>
+          <key>HV</key>
+          <string>83</string>
+          <key>OH</key>
+          <string>73</string>
+          <key>OV</key>
+          <string>85</string>
+          <key>nV</key>
+          <string>80</string>
+          <key>nd</key>
+          <string>55</string>
+          <key>oH</key>
+          <string>70</string>
+          <key>oV</key>
+          <string>80</string>
+          <key>tH</key>
+          <string>67</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_bar-cy</string>
+        <string>_bottomhook</string>
+        <string>_commaaccent</string>
+        <string>_currencyvstem</string>
+        <string>_descender-cy.case.straight</string>
+        <string>_descenderreverse-cy.case</string>
+        <string>_descenderreversed-cy</string>
+        <string>_o.numero</string>
+        <string>_slash.zero</string>
+        <string>_slash.zero.osf</string>
+        <string>_typoquote</string>
+        <string>hryvnia</string>
+        <string>tenge</string>
+        <string>tugrik</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

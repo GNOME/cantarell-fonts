@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb_acutecomb.case" format="2">
+  <anchor x="161" y="694" name="_top"/>
+  <outline>
+    <contour>
+      <point x="221" y="833" type="line"/>
+      <point x="447" y="910" type="line"/>
+      <point x="374" y="1059" type="line"/>
+      <point x="171" y="936" type="line"/>
+    </contour>
+    <component base="ringcomb.case" xOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>461</integer>
+    </dict>
+  </lib>
+</glyph>

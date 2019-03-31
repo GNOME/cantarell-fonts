@@ -1,6 +1,6 @@
 custom_target(
-    'cantarell-fonts',
-    input: 'Cantarell.glyphs',
+    'cantarell-static-fonts',
+    input: 'Cantarell.designspace',
     output: [
         'Cantarell-Thin.otf',
         'Cantarell-Light.otf',
@@ -8,7 +8,22 @@ custom_target(
         'Cantarell-Bold.otf',
         'Cantarell-ExtraBold.otf',
     ],
-    command: [python3, fontmake_wrapper, fontmake, psautohint, '@INPUT@', '@OUTDIR@'],
+    command: [python3, make_static_fonts, '@INPUT@', psautohint, '@OUTDIR@'],
+    install: true,
+    install_dir: fontsdir,
+)
+
+custom_target(
+    'cantarell-variable-font',
+    input: 'Cantarell.designspace',
+    output: 'Cantarell.ttf',
+    command: [
+        python3,
+        make_variable_font,
+        '@INPUT@',
+        join_paths(meson.current_source_dir(), 'Cantarell.stylespace'),
+        '@OUTPUT@'
+    ],
     install: true,
     install_dir: fontsdir,
 )
