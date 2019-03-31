@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
+  <advance width="272"/>
+  <unicode hex="003B"/>
+  <outline>
+    <component base="comma" xOffset="-3"/>
+    <component base="period" xOffset="-5" yOffset="364"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>period</string>
+    </dict>
+  </lib>
+</glyph>

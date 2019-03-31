@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ka-cy" format="2">
+  <advance width="441"/>
+  <unicode hex="043A"/>
+  <anchor x="440" y="0" name="bottomright"/>
+  <anchor x="225" y="480" name="top"/>
+  <outline>
+    <contour>
+      <point x="401" y="0" type="line"/>
+      <point x="425" y="0" type="line"/>
+      <point x="245" y="260" type="line"/>
+      <point x="245" y="251" type="line"/>
+      <point x="413" y="480" type="line"/>
+      <point x="390" y="480" type="line"/>
+      <point x="226" y="254" type="line"/>
+    </contour>
+    <contour>
+      <point x="88" y="0" type="line"/>
+      <point x="107" y="0" type="line"/>
+      <point x="107" y="480" type="line"/>
+      <point x="88" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="245" type="line"/>
+      <point x="239" y="245" type="line"/>
+      <point x="239" y="262" type="line"/>
+      <point x="96" y="262" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>70</integer>
+        <key>weight</key>
+        <integer>-1</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

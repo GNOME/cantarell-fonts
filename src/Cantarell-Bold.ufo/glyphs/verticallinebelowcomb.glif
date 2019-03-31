@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallinebelowcomb" format="2">
+  <unicode hex="0329"/>
+  <anchor x="113" y="0" name="_bottom"/>
+  <anchor x="113" y="-244" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="45" y="-244" type="line"/>
+      <point x="180" y="-244" type="line"/>
+      <point x="170" y="-40" type="line"/>
+      <point x="54" y="-40" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>224</integer>
+    </dict>
+  </lib>
+</glyph>
