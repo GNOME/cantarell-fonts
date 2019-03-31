@@ -21,11 +21,26 @@ ninja -C build install
 Contributing
 ------------
 
-The master file is `src/Cantarell.glyphs`. To contribute, you need to:
+Cantarell consists of three masters: Thin (Cantarell-Light.ufo), Regular (Cantarell-Regular.ufo) and Extra Bold (Cantarell-ExtraBold.ufo). The file that ties them together and defines where the masters and instances stand is Cantarell.designspace.
 
-- Use the proprietary and Mac-only Glyphs.app...
-- ...or generate UFOs from it by using `fontmake -g src/Cantarell.glyphs -o ufo`. You can then open the masters in `master_ufo` with any design app that supports it. Send the contribution to Nikolaus Waxweiler somehow so he can consider it.
-- ...or wait for glyphsLib 2.3.0 to be released, which will finally contain code to roundtrip between Glyphs files and UFOs, at which point I'll switch over and you'll be able to use any UFO editor you'd like. Rejoice!
+If you want to contribute, you should be familiar with font design applications. You will also unfortunately have to learn about the innards of the UFO format as you go, to know what is changing... FontForge, TruFont and RoboFont can open the UFO v3 masters directly, Glyphs is tied to UFO v2 at the time of this writing.
+
+To use Glyphs, do:
+
+```
+# (activate the venv from above if you haven't done so)
+
+pip3 install -r requirements-dev.txt
+ufo2glyphs src/Cantarell.designspace
+```
+
+Edit the .glyphs file and round-trip back:
+
+```
+glyphs2ufo src/Cantarell.glyphs
+```
+
+Note that this will result in noise that will have to be trimmed... Send a MR and we'll sort it out togeher.
 
 History
 -------
