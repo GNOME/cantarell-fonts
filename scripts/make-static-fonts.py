@@ -21,6 +21,9 @@ def generate_and_write_autohinted_instance(
     instance = instantiator.generate_instance(instance_descriptor)
     file_stem = f"{instance.info.familyName}-{instance.info.styleName}".replace(" ", "")
 
+    # 3.5. Optionally write instance UFO to disk, for debugging.
+    # instance.save(output_dir / f"{file_stem}.ufo", overwrite=True)
+
     # 4. Compile and write instance OTF to disk.
     instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, inplace=True)
     output_path = output_dir / f"{file_stem}.otf"
