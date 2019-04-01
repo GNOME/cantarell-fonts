@@ -16,7 +16,7 @@ custom_target(
 custom_target(
     'cantarell-variable-font',
     input: 'Cantarell.designspace',
-    output: 'Cantarell.ttf',
+    output: 'Cantarell-VF.ttf',
     command: [
         python3,
         make_variable_font,
