@@ -66,10 +66,13 @@ class Instantiator:
 
         glyph_names: Set[str] = set()
         for source in designspace.sources:
-            if not Path(source.path).exists():
-                raise ValueError(f"Source at path '{source.path}' not found.")
-            source.font = ufoLib2.Font.open(source.path, lazy=False)
-            glyph_names.update(source.font.keys())
+            if source.font is not None:
+                glyph_names.update(source.font.keys())
+            else:
+                if not Path(source.path).exists():
+                    raise ValueError(f"Source at path '{source.path}' not found.")
+                source.font = ufoLib2.Font.open(source.path, lazy=False)
+                glyph_names.update(source.font.keys())
 
         # Construct Variators
         axis_bounds: Dict[str, Tuple[float, float, float]] = {}
