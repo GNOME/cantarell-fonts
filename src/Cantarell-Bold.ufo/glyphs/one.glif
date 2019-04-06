@@ -1,16 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one" format="2">
-  <advance width="492"/>
+  <advance width="405"/>
   <unicode hex="0031"/>
   <outline>
-    <component base="one.lf"/>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="694" type="line"/>
+      <point x="238" y="694" type="line"/>
+      <point x="-1" y="556" type="line"/>
+      <point x="64" y="432" type="line"/>
+      <point x="222" y="514" type="line"/>
+      <point x="168" y="569" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>one.lf</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>one.lf</string>
-    </dict>
-  </lib>
 </glyph>

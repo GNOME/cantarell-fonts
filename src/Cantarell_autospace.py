@@ -10,7 +10,7 @@
 *,Letter,Lowercase,0.7,m.sups,.sups,
 
 # Numbers
-*,Number,Decimal Digit,1.2,one,*,
+*,Number,Decimal Digit,1.25,one,*,
 *,Number,Decimal Digit,1.2,zero.osf,.osf,
 *,Number,Fraction,1.3,*,*,
 *,Number,*,1.0,*,.dnom,
