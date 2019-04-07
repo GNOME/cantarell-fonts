@@ -177,6 +177,16 @@ sub N o period by numero;
 
 feature pnum {
 # automatic
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
 sub bulletoperator.tf by bulletoperator;
 sub commercialMinusSign.tf by commercialMinusSign;
 sub divisionslash.tf by divisionslash;
@@ -200,6 +210,16 @@ sub logicalnot.tf by logicalnot;
 
 feature tnum {
 # automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
 sub bulletoperator by bulletoperator.tf;
 sub commercialMinusSign by commercialMinusSign.tf;
 sub divisionslash by divisionslash.tf;
