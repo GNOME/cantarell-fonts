@@ -396,36 +396,6 @@ sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
 sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
 sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
 sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
-sub zero.osf by zero.lf;
-sub one.osf by one.lf;
-sub two.osf by two.lf;
-sub three.osf by three.lf;
-sub four.osf by four.lf;
-sub five.osf by five.lf;
-sub six.osf by six.lf;
-sub seven.osf by seven.lf;
-sub eight.osf by eight.lf;
-sub nine.osf by nine.lf;
-sub zero.tf by zero.lf;
-sub one.tf by one.lf;
-sub two.tf by two.lf;
-sub three.tf by three.lf;
-sub four.tf by four.lf;
-sub five.tf by five.lf;
-sub six.tf by six.lf;
-sub seven.tf by seven.lf;
-sub eight.tf by eight.lf;
-sub nine.tf by nine.lf;
-sub zero.tosf by zero.lf;
-sub one.tosf by one.lf;
-sub two.tosf by two.lf;
-sub three.tosf by three.lf;
-sub four.tosf by four.lf;
-sub five.tosf by five.lf;
-sub six.tosf by six.lf;
-sub seven.tosf by seven.lf;
-sub eight.tosf by eight.lf;
-sub nine.tosf by nine.lf;
 
 } case;
 
@@ -441,7 +411,6 @@ sub f l by fl;
 
 feature zero {
 # automatic
-sub zero.lf by zero.lf.zero;
 sub zero.osf by zero.osf.zero;
 sub zero.tf by zero.tf.zero;
 sub zero.tosf by zero.tosf.zero;

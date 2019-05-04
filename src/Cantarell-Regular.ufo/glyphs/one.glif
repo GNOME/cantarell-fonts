@@ -3,14 +3,21 @@
   <advance width="451"/>
   <unicode hex="0031"/>
   <outline>
-    <component base="one.lf"/>
+    <contour>
+      <point x="198" y="55" type="line"/>
+      <point x="282" y="55" type="line"/>
+      <point x="282" y="694" type="line"/>
+      <point x="231" y="694" type="line"/>
+      <point x="42" y="571" type="line"/>
+      <point x="73" y="515" type="line"/>
+      <point x="228" y="610" type="line"/>
+      <point x="198" y="635" type="line"/>
+    </contour>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="416" y="71" type="line"/>
+      <point x="61" y="71" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>one.lf</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>one.lf</string>
-    </dict>
-  </lib>
 </glyph>
