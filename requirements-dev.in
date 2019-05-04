@@ -1,6 +1,6 @@
 -r requirements.txt
 
-glyphsLib>=3.3.0
+-e git+https://github.com/googlefonts/glyphsLib.git@9c12dc70c8d13f08d92b824e6710f6e3bb5037bb#egg=glyphsLib
 
 mypy
 pylint

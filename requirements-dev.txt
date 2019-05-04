@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements-dev.txt requirements-dev.in
 #
--e git+git://github.com/googlei18n/ufo2ft@915b986558e87bee288765d9218cc1cd4ebf7f4c#egg=ufo2ft
+-e git+https://github.com/googlefonts/glyphsLib.git@9c12dc70c8d13f08d92b824e6710f6e3bb5037bb#egg=glyphsLib
 appdirs==1.4.3
 astroid==2.2.5            # via pylint
 attrs==18.2.0
@@ -16,7 +16,6 @@ defcon==0.6.0
 fontmath==0.5.0
 fonttools[lxml,ufo,unicode]==3.39.0
 fs==2.4.4
-glyphslib==3.3.0
 isort==4.3.16             # via pylint
 lazy-object-proxy==1.3.1  # via astroid
 lxml==4.3.3
@@ -30,5 +29,6 @@ pytz==2018.9
 six==1.12.0
 statmake==0.1.1
 typed-ast==1.3.1          # via astroid, mypy
+ufo2ft==2.8.0b1
 ufolib2==0.3.2.post2
 wrapt==1.11.1             # via astroid
