@@ -84,25 +84,6 @@ lookup ccmp_Other_3 {
 	sub tildecomb macroncomb by tildecomb_macroncomb;
 } ccmp_Other_3;
 
-lookup ccmp_Other_4 {
-	lookupflag 0;
-	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
-	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;
-	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
-	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
-	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
-	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
-	sub macroncomb acutecomb by macroncomb_acutecomb;
-	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;
-	sub macroncomb gravecomb by macroncomb_gravecomb;
-	sub ringcomb acutecomb by ringcomb_acutecomb;
-	sub ringcomb.case acutecomb.case by ringcomb_acutecomb.case;
-	sub tildecomb acutecomb by tildecomb_acutecomb;
-	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
-	sub tildecomb macroncomb by tildecomb_macroncomb;
-} ccmp_Other_4;
-
 lookup ccmp_latn_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -123,27 +104,8 @@ lookup ccmp_latn_1 {
 	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
 } ccmp_latn_1;
 
-lookup ccmp_latn_2 {
-	lookupflag 0;
-	sub brevecomb acutecomb by brevecomb_acutecomb;
-	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;
-	sub brevecomb gravecomb by brevecomb_gravecomb;
-	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;
-	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
-	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;
-	sub brevecomb tildecomb by brevecomb_tildecomb;
-	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;
-	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;
-	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;
-	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
-	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;
-	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
-} ccmp_latn_2;
-
 script latn;
+lookup ccmp_latn_1;
 
 } ccmp;
 

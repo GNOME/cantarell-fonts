@@ -1325,9 +1325,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1192</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <string>1230</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Family Alignment Zones</key>
     <array>
       <string>{739, 10}</string>
@@ -3720,6 +3718,23 @@
       <key>zhedieresis-cy</key>
       <string>uni04DD</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>_bar-cy</string>
+      <string>_bottomhook</string>
+      <string>_commaaccent</string>
+      <string>_currencyvstem</string>
+      <string>_descender-cy.case.straight</string>
+      <string>_descenderreverse-cy.case</string>
+      <string>_descenderreversed-cy</string>
+      <string>_o.numero</string>
+      <string>_slash.zero</string>
+      <string>_slash.zero.osf</string>
+      <string>_typoquote</string>
+      <string>hryvnia</string>
+      <string>tenge</string>
+      <string>tugrik</string>
+    </array>
     <key>width</key>
     <integer>30</integer>
   </dict>
