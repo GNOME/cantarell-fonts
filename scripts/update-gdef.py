@@ -33,8 +33,8 @@ def _build_gdef(ufo) -> List[str]:
 
     See:
 
-    * https://github.com/googlei18n/glyphsLib/issues/85
-    * https://github.com/googlei18n/glyphsLib/pull/100#issuecomment-275430289
+    * https://github.com/googlefonts/glyphsLib/issues/85
+    * https://github.com/googlefonts/glyphsLib/pull/100#issuecomment-275430289
     """
     bases, ligatures, marks = set(), set(), set()
     carets: Dict[str, Any] = {}  # glyph names to anchor objects
