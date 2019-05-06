@@ -40,6 +40,7 @@ class Instantiator:
     """Data class that holds all necessary information to generate a static
     font instance object at an arbitary location within the design space."""
 
+    axis_bounds: Dict[str, Tuple[float, float, float]]  # Design space!
     copy_feature_text: str
     copy_groups: Mapping[str, List[str]]
     copy_info: ufoLib2.objects.Info
@@ -73,27 +74,29 @@ class Instantiator:
             glyph_names.update(source.font.keys())
 
         # Construct Variators
-        axis_bounds: Dict[str, Tuple[float, float, float]] = {}
-        axis_by_name: Dict[str, designspaceLib.AxisDescriptor] = {}
+        axis_bounds: Dict[str, Tuple[float, float, float]] = {}  # Design space!
+        axis_order: List[str] = []
         weight_width_axes = {}
         for axis in designspace.axes:
-            axis_by_name[axis.name] = axis
-            axis_bounds[axis.name] = (axis.minimum, axis.default, axis.maximum)
+            axis_order.append(axis.name)
+            axis_bounds[axis.name] = (
+                axis.map_forward(axis.minimum),
+                axis.map_forward(axis.default),
+                axis.map_forward(axis.maximum),
+            )
             if axis.tag in ("wght", "wdth"):
                 weight_width_axes[axis.tag] = axis
 
-        masters_info = collect_info_masters(designspace)
-        info_mutator = Variator.from_masters(masters_info, axis_by_name, axis_bounds)
+        masters_info = collect_info_masters(designspace, axis_bounds)
+        info_mutator = Variator.from_masters(masters_info, axis_order)
 
-        masters_kerning = collect_kerning_masters(designspace)
-        kerning_mutator = Variator.from_masters(
-            masters_kerning, axis_by_name, axis_bounds
-        )
+        masters_kerning = collect_kerning_masters(designspace, axis_bounds)
+        kerning_mutator = Variator.from_masters(masters_kerning, axis_order)
 
         glyph_mutators: Dict[str, Variator] = {}
         for glyph_name in glyph_names:
-            items = collect_glyph_masters(designspace, glyph_name)
-            mutator = Variator.from_masters(items, axis_by_name, axis_bounds)
+            items = collect_glyph_masters(designspace, glyph_name, axis_bounds)
+            mutator = Variator.from_masters(items, axis_order)
             glyph_mutators[glyph_name] = mutator
 
         # Construct defaults to copy over
@@ -122,6 +125,7 @@ class Instantiator:
         skip_export_glyphs = designspace.lib.get("public.skipExportGlyphs", [])
 
         return cls(
+            axis_bounds,
             copy_feature_text,
             copy_groups,
             copy_info,
@@ -148,14 +152,15 @@ class Instantiator:
                 f"{instance.styleName}: Anisotropic location "
                 f"{instance.location} not supported by varLib."
             )
+        location_normalized = normalize_design_location(location, self.axis_bounds)
 
         # Kerning
         if instance.kerning:
-            kerning_instance = self.kerning_mutator.instance_at(location)
+            kerning_instance = self.kerning_mutator.instance_at(location_normalized)
             kerning_instance.extractKerning(font)
 
         # Info
-        info_instance = self.info_mutator.instance_at(location)
+        info_instance = self.info_mutator.instance_at(location_normalized)
         if self.round_geometry:
             info_instance = info_instance.round()
         info_instance.extractInfo(font.info)
@@ -205,15 +210,20 @@ class Instantiator:
 
         # Glyphs
         for glyph_name, glyph_mutator in self.glyph_mutators.items():
-            font.newGlyph(glyph_name)
+            glyph = font.newGlyph(glyph_name)
             neutral = glyph_mutator.neutral_master()
 
-            glyph_instance = glyph_mutator.instance_at(location)
+            glyph_instance = glyph_mutator.instance_at(location_normalized)
             if self.round_geometry:
                 glyph_instance = glyph_instance.round()
-            glyph_instance.extractGlyph(font[glyph_name], onlyGeometry=True)
-            font[glyph_name].width = glyph_instance.width
-            font[glyph_name].unicodes = neutral.unicodes
+            glyph_instance.extractGlyph(glyph, onlyGeometry=True)
+            glyph.width = glyph_instance.width
+            glyph.unicodes = neutral.unicodes
+
+            # XXX: What to do about a glyphs lib key? Any useful data that should be
+            # copied from master to all instances? `public.verticalOrigin`, does it
+            # interpolate? `public.postscript.hints`?
+            glyph.lib.clear()
 
         # Process rules
         glyph_names_list = self.glyph_mutators.keys()
@@ -236,30 +246,34 @@ def anisotropic(location: Location) -> bool:
     return False
 
 
-def normalize_design_location(design_location: Location, axes, axis_bounds) -> Location:
+def normalize_design_location(
+    design_space_location: Location,
+    design_space_axis_bounds: Dict[str, Tuple[float, float, float]],
+) -> Location:
     return varLib.models.normalizeLocation(
-        {
-            axis_name: axes[axis_name].map_backward(value)
-            for axis_name, value in design_location.items()
-        },
-        axis_bounds,
+        design_space_location, design_space_axis_bounds
     )
 
 
-def collect_info_masters(designspace) -> List[Tuple[Location, FontMathObject]]:
+def collect_info_masters(
+    designspace, axis_bounds
+) -> List[Tuple[Location, FontMathObject]]:
     """Return master Info objects wrapped by MathInfo."""
     locations_and_masters = []
     for source in designspace.sources:
         if source.layerName is not None:
             continue
+        normalized_location = normalize_design_location(source.location, axis_bounds)
         locations_and_masters.append(
-            (source.location, fontMath.MathInfo(source.font.info))
+            (normalized_location, fontMath.MathInfo(source.font.info))
         )
 
     return locations_and_masters
 
 
-def collect_kerning_masters(designspace) -> List[Tuple[Location, FontMathObject]]:
+def collect_kerning_masters(
+    designspace, axis_bounds
+) -> List[Tuple[Location, FontMathObject]]:
     """Return master kerning objects wrapped by MathKerning."""
     locations_and_masters = []
     for source in designspace.sources:
@@ -267,9 +281,12 @@ def collect_kerning_masters(designspace) -> List[Tuple[Location, FontMathObject]
             continue  # No kerning in source layers.
         if not source.muteKerning:
             # This assumes that groups of all sources are the same.
+            normalized_location = normalize_design_location(
+                source.location, axis_bounds
+            )
             locations_and_masters.append(
                 (
-                    source.location,
+                    normalized_location,
                     fontMath.MathKerning(source.font.kerning, source.font.groups),
                 )
             )
@@ -278,7 +295,7 @@ def collect_kerning_masters(designspace) -> List[Tuple[Location, FontMathObject]
 
 
 def collect_glyph_masters(
-    designspace, glyph_name
+    designspace, glyph_name, axis_bounds
 ) -> List[Tuple[Location, FontMathObject]]:
     """Return master glyph objects for glyph_name wrapped by MathGlyph."""
     locations_and_masters = []
@@ -300,8 +317,9 @@ def collect_glyph_masters(
             continue
 
         source_glyph = source_layer[glyph_name]
+        normalized_location = normalize_design_location(source.location, axis_bounds)
         locations_and_masters.append(
-            (source.location, fontMath.MathGlyph(source_glyph))
+            (normalized_location, fontMath.MathGlyph(source_glyph))
         )
 
     return locations_and_masters
@@ -397,30 +415,21 @@ class Variator:
     into an actual UFO object.
     """
 
-    axes: Dict[str, designspaceLib.AxisDescriptor]
-    axis_bounds: Dict[str, Tuple[float, float, float]]
     masters: List[FontMathObject]
     model: varLib.models.VariationModel
 
     @classmethod
     def from_masters(
-        cls,
-        items: List[Tuple[Location, FontMathObject]],
-        axes: Dict[str, designspaceLib.AxisDescriptor],
-        axis_bounds: Dict[str, Tuple[float, float, float]],
+        cls, items: List[Tuple[Location, FontMathObject]], axis_order: List[str]
     ):
-        item_locations_normalized = []
         masters = []
-        for design_location, master in items:
-            item_locations_normalized.append(
-                normalize_design_location(design_location, axes, axis_bounds)
-            )
+        master_locations = []
+        for normalized_location, master in items:
+            master_locations.append(normalized_location)
             masters.append(master)
-        model = varLib.models.VariationModel(
-            item_locations_normalized, list(axes.keys())
-        )
+        model = varLib.models.VariationModel(master_locations, axis_order)
 
-        return cls(axes, axis_bounds, masters, model)
+        return cls(masters, model)
 
     def get(self, key) -> FontMathObject:
         if key in self.model.locations:
@@ -434,8 +443,5 @@ class Variator:
             raise ValueError("Can't find the neutral master.")
         return neutral
 
-    def instance_at(self, design_location: Location) -> FontMathObject:
-        return self.model.interpolateFromMasters(
-            normalize_design_location(design_location, self.axes, self.axis_bounds),
-            self.masters,
-        )
+    def instance_at(self, normalized_location: Location) -> FontMathObject:
+        return self.model.interpolateFromMasters(normalized_location, self.masters)
