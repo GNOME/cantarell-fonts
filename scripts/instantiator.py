@@ -211,19 +211,15 @@ class Instantiator:
         # Glyphs
         for glyph_name, glyph_mutator in self.glyph_mutators.items():
             glyph = font.newGlyph(glyph_name)
-            neutral = glyph_mutator.neutral_master()
 
             glyph_instance = glyph_mutator.instance_at(location_normalized)
             if self.round_geometry:
                 glyph_instance = glyph_instance.round()
-            glyph_instance.extractGlyph(glyph, onlyGeometry=True)
-            glyph.width = glyph_instance.width
-            glyph.unicodes = neutral.unicodes
 
-            # XXX: What to do about a glyphs lib key? Any useful data that should be
-            # copied from master to all instances? `public.verticalOrigin`, does it
-            # interpolate? `public.postscript.hints`?
-            glyph.lib.clear()
+            # onlyGeometry=True does not set name and unicodes, in ufoLib2 we can't
+            # modify a glyph's name. Copy unicodes.
+            glyph_instance.extractGlyph(glyph, onlyGeometry=True)
+            glyph.unicodes = glyph_instance.unicodes
 
         # Process rules
         glyph_names_list = self.glyph_mutators.keys()
@@ -317,6 +313,12 @@ def collect_glyph_masters(
             continue
 
         source_glyph = source_layer[glyph_name]
+
+        # XXX: What to do about a glyphs lib key? Any useful data that should be
+        # copied from master to all instances? `public.verticalOrigin`, does it
+        # interpolate? `public.postscript.hints`?
+        source_glyph.lib.clear()
+
         normalized_location = normalize_design_location(source.location, axis_bounds)
         locations_and_masters.append(
             (normalized_location, fontMath.MathGlyph(source_glyph))
@@ -406,9 +408,9 @@ def swapGlyphNames(font, oldName, newName, swapNameExtension="_______________swa
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
 class Variator:
-    """A middle-man class that ingests a mapping of locations to masters plus
-    axis definitions and uses varLib to spit out interpolated instances at
-    specified locations.
+    """A middle-man class that ingests a mapping of normalized locations to
+    masters plus axis definitions and uses varLib to spit out interpolated
+    instances at specified normalized locations.
 
     fontMath objects stand in for the actual master objects from the
     UFO. Upon generating an instance, these objects have to be extracted
@@ -430,18 +432,6 @@ class Variator:
         model = varLib.models.VariationModel(master_locations, axis_order)
 
         return cls(masters, model)
-
-    def get(self, key) -> FontMathObject:
-        if key in self.model.locations:
-            i = self.model.locations.index(key)
-            return self.masters[i]
-        return None
-
-    def neutral_master(self) -> FontMathObject:
-        neutral = self.get({})
-        if neutral is None:
-            raise ValueError("Can't find the neutral master.")
-        return neutral
 
     def instance_at(self, normalized_location: Location) -> FontMathObject:
         return self.model.interpolateFromMasters(normalized_location, self.masters)
