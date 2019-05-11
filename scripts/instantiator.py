@@ -99,8 +99,7 @@ class Instantiator:
         glyph_name_to_unicodes: Dict[str, List[int]] = {}
         for glyph_name in glyph_names:
             items = collect_glyph_masters(designspace, glyph_name, axis_bounds)
-            mutator = Variator.from_masters(items, axis_order)
-            glyph_mutators[glyph_name] = mutator
+            glyph_mutators[glyph_name] = Variator.from_masters(items, axis_order)
             glyph_name_to_unicodes[glyph_name] = default_font[glyph_name].unicodes
 
         # Construct defaults to copy over
