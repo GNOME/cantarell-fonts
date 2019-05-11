@@ -47,6 +47,7 @@ class Instantiator:
     copy_lib: Mapping[str, Any]
     designspace_rules: List[designspaceLib.RuleDescriptor]
     glyph_mutators: Mapping[str, "Variator"]
+    glyph_name_to_unicodes: Dict[str, List[int]]
     info_mutator: "Variator"
     kerning_mutator: "Variator"
     round_geometry: bool
@@ -93,11 +94,14 @@ class Instantiator:
         masters_kerning = collect_kerning_masters(designspace, axis_bounds)
         kerning_mutator = Variator.from_masters(masters_kerning, axis_order)
 
+        default_font = designspace.findDefault().font
         glyph_mutators: Dict[str, Variator] = {}
+        glyph_name_to_unicodes: Dict[str, List[int]] = {}
         for glyph_name in glyph_names:
             items = collect_glyph_masters(designspace, glyph_name, axis_bounds)
             mutator = Variator.from_masters(items, axis_order)
             glyph_mutators[glyph_name] = mutator
+            glyph_name_to_unicodes[glyph_name] = default_font[glyph_name].unicodes
 
         # Construct defaults to copy over
         copy_feature_text: str = default_font.features.text
@@ -119,6 +123,7 @@ class Instantiator:
             copy_lib,
             designspace.rules,
             glyph_mutators,
+            glyph_name_to_unicodes,
             info_mutator,
             kerning_mutator,
             round_geometry,
@@ -204,9 +209,9 @@ class Instantiator:
                 glyph_instance = glyph_instance.round()
 
             # onlyGeometry=True does not set name and unicodes, in ufoLib2 we can't
-            # modify a glyph's name. Copy unicodes.
+            # modify a glyph's name. Copy unicodes from default font.
             glyph_instance.extractGlyph(glyph, onlyGeometry=True)
-            glyph.unicodes = glyph_instance.unicodes
+            glyph.unicodes = self.glyph_name_to_unicodes[glyph_name]
 
         # Process rules
         glyph_names_list = self.glyph_mutators.keys()
