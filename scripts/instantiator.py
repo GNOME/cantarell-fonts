@@ -100,23 +100,10 @@ class Instantiator:
             glyph_mutators[glyph_name] = mutator
 
         # Construct defaults to copy over
-        default_source = designspace.findDefault()
-        copy_feature_text: str = next(
-            (s.font.features.text for s in designspace.sources if s.copyFeatures),
-            default_source.font.features.text,
-        )
-        copy_groups: Mapping[str, List[str]] = next(
-            (s.font.groups for s in designspace.sources if s.copyGroups),
-            default_source.font.groups,
-        )
-        copy_info: ufoLib2.objects.Info = next(
-            (s.font.info for s in designspace.sources if s.copyInfo),
-            default_source.font.info,
-        )
-        copy_lib: Mapping[str, Any] = next(
-            (s.font.lib for s in designspace.sources if s.copyLib),
-            default_source.font.lib,
-        )
+        copy_feature_text: str = default_font.features.text
+        copy_groups: Mapping[str, List[str]] = default_font.groups
+        copy_info: ufoLib2.objects.Info = default_font.info
+        copy_lib: Mapping[str, Any] = default_font.lib
 
         # The list of glyphs not to export and decompose where used as a component is
         # supposed to be taken from the Designspace when a Designspace is used as the
