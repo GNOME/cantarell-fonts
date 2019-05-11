@@ -42,6 +42,26 @@
         <dimension name="Weight" xvalue="80"/>
       </location>
     </instance>
+    <instance stylename="Regular Interpolated For Testing">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Disable Masters</string>
+              <array>
+                <string>Regular</string>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <false/>
+        </dict>
+      </lib>
+    </instance>
     <instance stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="126"/>
