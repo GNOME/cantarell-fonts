@@ -1,4 +1,4 @@
-"""Update the glyph name list for anchor propagation.
+"""Update the glyph name list for anchor propagation in all masters.
 
 We rely on Glyphs-style anchor propagation to get mark-to-base and mark-
 to-mark anchoring for composites. Contrary to Glyphs behavior, we want
@@ -50,3 +50,15 @@ propagate_anchors_filter = next(
 propagate_anchors_filter["include"] = sorted(letters_and_marks)
 
 main_source.save()
+
+# Mirror the ufo2ft filters to the other sources so that building them independently
+# before merging them into a variable font produces identical results.
+for other_source_path in (Path(__file__).parent.parent / "src").glob("*.ufo"):
+    if other_source_path == main_source_path:
+        continue
+
+    other_source = ufoLib2.Font.open(other_source_path)
+    other_source.lib["com.github.googlei18n.ufo2ft.filters"] = main_source.lib[
+        "com.github.googlei18n.ufo2ft.filters"
+    ]
+    other_source.save()
