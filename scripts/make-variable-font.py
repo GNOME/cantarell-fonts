@@ -35,6 +35,18 @@ designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(designspace_
 for source in designspace.sources:
     source.font = ufoLib2.Font.open(designspace_path.parent / source.filename)
 
+    # 1.5. Apply ufo2ft filters to masters before compiling them -- in ufo2ft up to and
+    # including 2.8.0, filters were applied in compileInterpolatableOTFsFromDS, but not
+    # compileInterpolatableTTFsFromDS. Do it manually to be sure...
+    pre_filter, post_filter = ufo2ft.filters.loadFilters(source.font)
+    for pf in pre_filter:
+        pf(font=source.font)
+    for pf in post_filter:
+        pf(font=source.font)
+
+    # ... and then delete the key so they aren't re-applied.
+    del source.font.lib["com.github.googlei18n.ufo2ft.filters"]
+
 designspace.instances = [
     s for s in designspace.instances if s.lib.get("com.schriftgestaltung.export", True)
 ]
