@@ -32,32 +32,16 @@ output_path = args.output_path.resolve()
 
 # 1. Load Designspace and filter out instances that are marked as non-exportable.
 designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(designspace_path)
-for source in designspace.sources:
-    source.font = ufoLib2.Font.open(designspace_path.parent / source.filename)
-
-    # 1.5. Apply ufo2ft filters to masters before compiling them -- in ufo2ft up to and
-    # including 2.8.0, filters were applied in compileInterpolatableOTFsFromDS, but not
-    # compileInterpolatableTTFsFromDS. Do it manually to be sure...
-    pre_filter, post_filter = ufo2ft.filters.loadFilters(source.font)
-    for pf in pre_filter:
-        pf(font=source.font)
-    for pf in post_filter:
-        pf(font=source.font)
-
-    # ... and then delete the key so they aren't re-applied.
-    del source.font.lib["com.github.googlei18n.ufo2ft.filters"]
+designspace.loadSourceFonts(ufoLib2.Font.open)
 
 designspace.instances = [
     s for s in designspace.instances if s.lib.get("com.schriftgestaltung.export", True)
 ]
 
-# 2. Compile interpolatable master TTFs.
-ufo2ft.compileInterpolatableTTFsFromDS(designspace, inplace=True)
+# 2. Compile variable TTF from the masters.
+varfont = ufo2ft.compileVariableTTF(designspace, inplace=True)
 
-# 3. Combine masters into a variable TTF.
-varfont, _, _ = fontTools.varLib.build(designspace)
-
-# 4. Generate STAT table.
+# 3. Generate STAT table.
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
 statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
 

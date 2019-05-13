@@ -66,12 +66,10 @@ class Instantiator:
                 "Can't generate UFOs from this designspace: no default font."
             )
 
+        designspace.loadSourceFonts(ufoLib2.Font.open)
+
         glyph_names: Set[str] = set()
         for source in designspace.sources:
-            if source.font is None:
-                if not Path(source.path).exists():
-                    raise ValueError(f"Source at path '{source.path}' not found.")
-                source.font = ufoLib2.Font.open(source.path, lazy=False)
             glyph_names.update(source.font.keys())
 
         # Construct Variators
