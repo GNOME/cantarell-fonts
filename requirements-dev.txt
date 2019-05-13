@@ -7,17 +7,17 @@
 -e git+https://github.com/googlefonts/glyphsLib.git@9c12dc70c8d13f08d92b824e6710f6e3bb5037bb#egg=glyphsLib
 appdirs==1.4.3
 astroid==2.2.5            # via pylint
-attrs==18.2.0
+attrs==19.1.0
 booleanoperations==0.8.2
 cattrs==0.9.0
 compreffor==0.4.6.post1
 cu2qu==1.6.5
 defcon==0.6.0
 fontmath==0.5.0
-fonttools[lxml,ufo,unicode]==3.41.0
+fonttools[lxml,ufo,unicode]==3.41.2
 fs==2.4.5
-isort==4.3.18             # via pylint
-lazy-object-proxy==1.3.1  # via astroid
+isort==4.3.19             # via pylint
+lazy-object-proxy==1.4.1  # via astroid
 lxml==4.3.3
 mccabe==0.6.1             # via pylint
 mypy-extensions==0.4.1    # via mypy
@@ -27,8 +27,8 @@ pyclipper==1.1.0.post1
 pylint==2.3.1
 pytz==2019.1
 six==1.12.0
-statmake==0.1.1
+statmake==0.1.2
 typed-ast==1.3.5          # via astroid, mypy
-ufo2ft==2.8.0b1
+ufo2ft==2.9.0b1
 ufolib2==0.3.2.post2
 wrapt==1.11.1             # via astroid

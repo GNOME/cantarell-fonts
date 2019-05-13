@@ -5,20 +5,20 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 appdirs==1.4.3            # via fs
-attrs==18.2.0
+attrs==19.1.0
 booleanoperations==0.8.2  # via ufo2ft
 cattrs==0.9.0             # via statmake
 compreffor==0.4.6.post1   # via ufo2ft
 cu2qu==1.6.5              # via ufo2ft
 defcon==0.6.0             # via ufo2ft
 fontmath==0.5.0
-fonttools[lxml,ufo,unicode]==3.41.0
+fonttools[lxml,ufo,unicode]==3.41.2
 fs==2.4.5                 # via fonttools
 lxml==4.3.3               # via fonttools
 psautohint==1.9.2
 pyclipper==1.1.0.post1    # via booleanoperations
 pytz==2019.1              # via fs
 six==1.12.0               # via fs
-statmake==0.1.1
-ufo2ft==2.8.0b1
+statmake==0.1.2
+ufo2ft==2.9.0b1
 ufolib2==0.3.2.post2
