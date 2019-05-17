@@ -34,6 +34,19 @@ Location = Mapping[str, float]
 # to reduce differences between the variable and static instances.
 fontMath.mathFunctions.setRoundIntegerFunction(fontTools.misc.fixedTools.otRound)
 
+# For mapping `wdth` axis user values to the OS2 table's width class field.
+WDTH_VALUE_TO_OS2_WIDTH_CLASS = {
+    50: 1,
+    62.5: 2,
+    75: 3,
+    87.5: 4,
+    100: 5,
+    112.5: 6,
+    125: 7,
+    150: 8,
+    200: 9,
+}
+
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
 class Instantiator:
@@ -193,9 +206,13 @@ class Instantiator:
             if "wdth" in self.weight_width_axes:
                 width_axis = self.weight_width_axes["wdth"]
                 width_axis_instance_location = instance.location[width_axis.name]
-                font.info.openTypeOS2WidthClass = fontTools.misc.fixedTools.otRound(
-                    width_axis.map_backward(width_axis_instance_location)
+                width_value = width_axis.map_backward(width_axis_instance_location)
+                width_class = int(
+                    varLib.models.piecewiseLinearMap(
+                        width_value, WDTH_VALUE_TO_OS2_WIDTH_CLASS
+                    )
                 )
+                font.info.openTypeOS2WidthClass = width_class
 
         # Glyphs
         for glyph_name, glyph_mutator in self.glyph_mutators.items():
