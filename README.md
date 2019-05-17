@@ -21,7 +21,7 @@ ninja -C build install
 Contributing
 ------------
 
-Cantarell consists of three masters: Thin (Cantarell-Light.ufo), Regular (Cantarell-Regular.ufo) and Extra Bold (Cantarell-ExtraBold.ufo). The file that ties them together and defines where the masters and instances stand is Cantarell.designspace.
+Cantarell consists of three masters: Thin (Cantarell-Light.ufo), Regular (Cantarell-Regular.ufo) and Extra Bold (Cantarell-Bold.ufo). The file that ties them together and defines where the masters and instances stand is Cantarell.designspace.
 
 If you want to contribute, you should be familiar with font design applications. You will also unfortunately have to learn about the innards of the UFO format as you go, to know what is changing... FontForge, TruFont and RoboFont can open the UFO v3 masters directly, Glyphs is tied to UFO v2 at the time of this writing.
 
