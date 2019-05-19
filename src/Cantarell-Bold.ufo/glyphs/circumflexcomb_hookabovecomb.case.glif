@@ -1,11 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_hookabovecomb.case" format="2">
   <outline>
-    <component base="circumflexcomb.loclVIET" yxScale="0.06993" xOffset="-51" yOffset="200"/>
-    <component base="hookabovecomb.loclVIET" yxScale="0.06993" xOffset="186" yOffset="341"/>
+    <component base="circumflexcomb.loclVIET" xOffset="-51" yOffset="200"/>
+    <component base="hookabovecomb.loclVIET" xOffset="177" yOffset="322"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hookabovecomb.loclVIET</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>541</integer>
     </dict>

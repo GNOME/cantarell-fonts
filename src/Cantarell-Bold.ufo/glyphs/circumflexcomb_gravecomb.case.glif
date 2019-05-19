@@ -1,11 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_gravecomb.case" format="2">
   <outline>
-    <component base="circumflexcomb.loclVIET" yxScale="0.06993" xOffset="-51" yOffset="200"/>
-    <component base="gravecomb.loclVIET" yxScale="0.06993" xOffset="131" yOffset="341"/>
+    <component base="circumflexcomb.loclVIET" xOffset="-51" yOffset="200"/>
+    <component base="gravecomb.loclVIET" xOffset="154" yOffset="323"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>gravecomb.loclVIET</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>470</integer>
     </dict>
