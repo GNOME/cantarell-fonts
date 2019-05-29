@@ -1,26 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N" format="2">
-  <advance width="758"/>
+  <advance width="750"/>
   <unicode hex="004E"/>
   <note>
 N
 </note>
-  <anchor x="379" y="0" name="bottom"/>
-  <anchor x="379" y="694" name="top"/>
+  <anchor x="375" y="0" name="bottom"/>
+  <anchor x="375" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="96" y="0" type="line"/>
-      <point x="174" y="0" type="line"/>
-      <point x="174" y="605" type="line"/>
-      <point x="159" y="605" type="line"/>
-      <point x="570" y="0" type="line"/>
-      <point x="662" y="0" type="line"/>
-      <point x="662" y="694" type="line"/>
-      <point x="584" y="694" type="line"/>
-      <point x="584" y="87" type="line"/>
-      <point x="600" y="87" type="line"/>
-      <point x="191" y="694" type="line"/>
-      <point x="96" y="694" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="170" y="605" type="line"/>
+      <point x="155" y="605" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="658" y="0" type="line"/>
+      <point x="658" y="694" type="line"/>
+      <point x="580" y="694" type="line"/>
+      <point x="580" y="87" type="line"/>
+      <point x="596" y="87" type="line"/>
+      <point x="187" y="694" type="line"/>
+      <point x="92" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

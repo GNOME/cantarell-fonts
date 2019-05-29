@@ -43,6 +43,8 @@ feature tnum;
 feature onum;
 feature case;
 feature zero;
+feature salt;
+feature ss01;
 
 } aalt;
 
@@ -420,3 +422,15 @@ sub zero.tosf by zero.tosf.zero;
 sub zero by zero.zero;
 
 } zero;
+
+feature salt {
+# automatic
+sub l by l.ss01;
+
+} salt;
+
+feature ss01 {
+# automatic
+sub l by l.ss01;
+
+} ss01;

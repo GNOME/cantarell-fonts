@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.ss01" format="2">
+  <advance width="192"/>
+  <note>
+l
+</note>
+  <anchor x="136" y="0" name="bottom"/>
+  <anchor x="119" y="383" name="center"/>
+  <anchor x="238" y="353" name="periodcentered"/>
+  <anchor x="97" y="739" name="top"/>
+  <anchor x="209" y="480" name="topright"/>
+  <outline>
+    <contour>
+      <point x="86" y="0" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="106" y="739" type="line"/>
+      <point x="86" y="739" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>
