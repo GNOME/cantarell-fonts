@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a" format="2">
-  <advance width="528"/>
+  <advance width="530"/>
   <unicode hex="0061"/>
   <note>
 a
@@ -51,4 +51,10 @@ a
       <point x="89" y="-10"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
 </glyph>

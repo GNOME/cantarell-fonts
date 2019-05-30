@@ -1,38 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E" format="2">
-  <advance width="584"/>
+  <advance width="580"/>
   <unicode hex="0045"/>
   <note>
 E
 </note>
-  <anchor x="305" y="0" name="bottom"/>
-  <anchor x="510" y="10" name="ogonek"/>
-  <anchor x="325" y="694" name="top"/>
-  <anchor x="7" y="694" name="topleft"/>
+  <anchor x="301" y="0" name="bottom"/>
+  <anchor x="506" y="10" name="ogonek"/>
+  <anchor x="321" y="694" name="top"/>
+  <anchor x="3" y="694" name="topleft"/>
   <outline>
     <contour>
-      <point x="96" y="0" type="line"/>
-      <point x="179" y="0" type="line"/>
-      <point x="179" y="694" type="line"/>
-      <point x="96" y="694" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="175" y="694" type="line"/>
+      <point x="92" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="136" y="0" type="line"/>
-      <point x="532" y="0" type="line"/>
-      <point x="532" y="72" type="line"/>
-      <point x="136" y="72" type="line"/>
+      <point x="132" y="0" type="line"/>
+      <point x="528" y="0" type="line"/>
+      <point x="528" y="72" type="line"/>
+      <point x="132" y="72" type="line"/>
     </contour>
     <contour>
-      <point x="136" y="323" type="line"/>
-      <point x="505" y="323" type="line"/>
-      <point x="505" y="395" type="line"/>
-      <point x="136" y="395" type="line"/>
+      <point x="132" y="323" type="line"/>
+      <point x="501" y="323" type="line"/>
+      <point x="501" y="395" type="line"/>
+      <point x="132" y="395" type="line"/>
     </contour>
     <contour>
-      <point x="136" y="622" type="line"/>
-      <point x="532" y="622" type="line"/>
-      <point x="532" y="694" type="line"/>
-      <point x="136" y="694" type="line"/>
+      <point x="132" y="622" type="line"/>
+      <point x="528" y="622" type="line"/>
+      <point x="528" y="694" type="line"/>
+      <point x="132" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

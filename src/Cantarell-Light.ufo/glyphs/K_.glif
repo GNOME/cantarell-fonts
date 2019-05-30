@@ -1,27 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="K" format="2">
-  <advance width="552"/>
+  <advance width="546"/>
   <unicode hex="004B"/>
   <note>
 K
 </note>
-  <anchor x="283" y="0" name="bottom"/>
-  <anchor x="283" y="694" name="top"/>
+  <anchor x="277" y="0" name="bottom"/>
+  <anchor x="277" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="497" y="0" type="line"/>
-      <point x="527" y="0" type="line"/>
-      <point x="151" y="366" type="line"/>
-      <point x="151" y="356" type="line"/>
-      <point x="513" y="694" type="line"/>
-      <point x="484" y="694" type="line"/>
-      <point x="132" y="360" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="521" y="0" type="line"/>
+      <point x="145" y="366" type="line"/>
+      <point x="145" y="356" type="line"/>
+      <point x="507" y="694" type="line"/>
+      <point x="478" y="694" type="line"/>
+      <point x="126" y="360" type="line"/>
     </contour>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="130" y="0" type="line"/>
-      <point x="130" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
+      <point x="104" y="0" type="line"/>
+      <point x="124" y="0" type="line"/>
+      <point x="124" y="694" type="line"/>
+      <point x="104" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>
