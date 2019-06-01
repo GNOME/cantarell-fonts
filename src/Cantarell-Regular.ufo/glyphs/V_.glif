@@ -1,22 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="V" format="2">
-  <advance width="637"/>
+  <advance width="607"/>
   <unicode hex="0056"/>
   <note>
 V
 </note>
-  <anchor x="319" y="0" name="bottom"/>
-  <anchor x="319" y="694" name="top"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="304" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="278" y="0" type="line"/>
-      <point x="359" y="0" type="line"/>
-      <point x="612" y="694" type="line"/>
-      <point x="528" y="694" type="line"/>
-      <point x="297" y="29" type="line"/>
-      <point x="347" y="29" type="line"/>
-      <point x="120" y="694" type="line"/>
-      <point x="25" y="694" type="line"/>
+      <point x="263" y="0" type="line"/>
+      <point x="344" y="0" type="line"/>
+      <point x="597" y="694" type="line"/>
+      <point x="513" y="694" type="line"/>
+      <point x="282" y="29" type="line"/>
+      <point x="332" y="29" type="line"/>
+      <point x="105" y="694" type="line"/>
+      <point x="10" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

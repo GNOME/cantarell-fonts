@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i" format="2">
-  <advance width="287"/>
+  <advance width="281"/>
   <unicode hex="0069"/>
   <note>
 i
 </note>
-  <anchor x="155" y="0" name="bottom"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb"/>
+    <component base="dotaccentcomb" xOffset="-3"/>
   </outline>
 </glyph>

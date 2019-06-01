@@ -1,19 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless" format="2">
-  <advance width="201"/>
+  <advance width="197"/>
   <unicode hex="0131"/>
   <note>
 dotlessi
 </note>
-  <anchor x="100" y="0" name="bottom"/>
-  <anchor x="105" y="10" name="ogonek"/>
-  <anchor x="102" y="480" name="top"/>
+  <anchor x="98" y="0" name="bottom"/>
+  <anchor x="103" y="10" name="ogonek"/>
+  <anchor x="100" y="480" name="top"/>
   <outline>
     <contour>
-      <point x="90" y="0" type="line"/>
-      <point x="111" y="0" type="line"/>
-      <point x="111" y="480" type="line"/>
-      <point x="90" y="480" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="109" y="480" type="line"/>
+      <point x="88" y="480" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|n</string>
+    </dict>
+  </lib>
 </glyph>
