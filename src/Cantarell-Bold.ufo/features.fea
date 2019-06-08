@@ -287,16 +287,6 @@ sub lessequal.tf by lessequal;
 sub plusminus.tf by plusminus;
 sub approxequal.tf by approxequal;
 sub logicalnot.tf by logicalnot;
-sub zero.tosf by zero.osf;
-sub one.tosf by one.osf;
-sub two.tosf by two.osf;
-sub three.tosf by three.osf;
-sub four.tosf by four.osf;
-sub five.tosf by five.osf;
-sub six.tosf by six.osf;
-sub seven.tosf by seven.osf;
-sub eight.tosf by eight.osf;
-sub nine.tosf by nine.osf;
 
 } pnum;
 
@@ -330,31 +320,11 @@ sub lessequal by lessequal.tf;
 sub plusminus by plusminus.tf;
 sub approxequal by approxequal.tf;
 sub logicalnot by logicalnot.tf;
-sub zero.osf by zero.tosf;
-sub one.osf by one.tosf;
-sub two.osf by two.tosf;
-sub three.osf by three.tosf;
-sub four.osf by four.tosf;
-sub five.osf by five.tosf;
-sub six.osf by six.tosf;
-sub seven.osf by seven.tosf;
-sub eight.osf by eight.tosf;
-sub nine.osf by nine.tosf;
 
 } tnum;
 
 feature onum {
 # automatic
-sub zero.tf by zero.tosf;
-sub one.tf by one.tosf;
-sub two.tf by two.tosf;
-sub three.tf by three.tosf;
-sub four.tf by four.tosf;
-sub five.tf by five.tosf;
-sub six.tf by six.tosf;
-sub seven.tf by seven.tosf;
-sub eight.tf by eight.tosf;
-sub nine.tf by nine.tosf;
 sub zero by zero.osf;
 sub one by one.osf;
 sub two by two.osf;
@@ -418,7 +388,6 @@ feature zero {
 # automatic
 sub zero.osf by zero.osf.zero;
 sub zero.tf by zero.tf.zero;
-sub zero.tosf by zero.tosf.zero;
 sub zero by zero.zero;
 
 } zero;
