@@ -3,6 +3,12 @@
   <advance width="367"/>
   <unicode hex="005D"/>
   <outline>
-    <component base="bracketleft" xScale="-1" xOffset="368"/>
+    <component base="bracketleft" xScale="-1" xOffset="367"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>bracketleft</string>
+    </dict>
+  </lib>
 </glyph>

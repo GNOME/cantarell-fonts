@@ -1,25 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.dnom" format="2">
-  <advance width="339"/>
+  <advance width="300"/>
   <note>
 one
 </note>
   <outline>
     <contour>
-      <point x="151" y="53" type="line"/>
-      <point x="226" y="53" type="line"/>
-      <point x="226" y="472" type="line"/>
-      <point x="181" y="472" type="line"/>
-      <point x="34" y="385" type="line"/>
-      <point x="62" y="333" type="line"/>
-      <point x="176" y="395" type="line"/>
-      <point x="151" y="418" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="0" type="line"/>
-      <point x="316" y="0" type="line"/>
-      <point x="316" y="64" type="line"/>
-      <point x="50" y="64" type="line"/>
+      <point x="144" y="-1" type="line"/>
+      <point x="217" y="-1" type="line"/>
+      <point x="217" y="416" type="line"/>
+      <point x="171" y="416" type="line"/>
+      <point x="24" y="331" type="line"/>
+      <point x="55" y="278" type="line"/>
+      <point x="169" y="340" type="line"/>
+      <point x="144" y="356" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,11 +21,11 @@ one
       <key>RMXScaler</key>
       <dict>
         <key>height</key>
-        <integer>68</integer>
+        <integer>60</integer>
         <key>weight</key>
         <integer>-7</integer>
         <key>width</key>
-        <integer>74</integer>
+        <integer>63</integer>
       </dict>
     </dict>
   </lib>
