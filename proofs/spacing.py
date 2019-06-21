@@ -16,7 +16,7 @@ ul_text = "Aaron Abraham Adam Aeneas Agfa Ahoy Aileen Akbar Alanon Americanism A
 
 misc_text = """Raptor's Blackbird micro-ATX POWER9 System Is Ready To Take Flight This Week
 Written by Michael Larabel in Hardware on 19 May 2019 at 08:00 AM EDT. 19 Comments
-The Raptor Blackbird supports up to 8-core 160W Sforza POWER9 CPUs, two DDR4 ECC modules, one PCI Express 4.0 x16 slot (and one PCIe 4.0 x8), dual Gigabit Ethernet, 4 x SATA 3.0 ports, four USB 3.0 ports, and other standard connectivity. 
+The Raptor Blackbird supports up to 8-core 160W Sforza POWER9 CPUs, two DDR4 ECC modules, one PCI Express 4.0 x16 slot (and one PCIe 4.0 x8), dual Gigabit Ethernet, 4 x SATA 3.0 ports, four USB 3.0 ports, and other standard connectivity.
 As I mentioned in my talk at Scale 17x
 NetBSD 8.1 RC1 Released With MDS Mitigations, Option To Turn Off SMT/HT, Driver Updates
 RadeonSI Primitive Culling Lands In Mesa 19.2
@@ -33,7 +33,39 @@ The Many Changes & Additions To Find With The Linux 5.2 Kernel
 The Performance Impact Of MDS / Zombieload Plus The Overall Cost Now Of Spectre/Meltdown/L1TF/MDS
 GeForce GTX 650 vs. GTX 1650 Performance For Linux Gaming, Performance-Per-Watt
 GCC 9 vs. Clang 8 C/C++ Compiler Performance On AMD Threadripper, Intel Core i9
-In the development branch (leading up to 3.34 this autumn) supported in GTK 4 from a 3.30.x version."""
+In the development branch (leading up to 3.34 this autumn) supported in GTK 4 from a 3.30.x version.
+Radeon ROCm 2.5 Released With rocThrust, AMD Infinity Fabric Link Support
+Ubuntu Touch Nearing Updated Unity 8 + Mir, But Not Yet Full Wayland
+AMD GCN Back-End In GCC Compiler Adds "-march=gfx906" Option For Vega 20
+RPM 4.15 With Better Performance & New Features Will Make It Into Fedora 31
+FreeBSD 11.3 Beta 3 Arrives With Various Fixes, Correct Battery Life Reporting
+Git 2.22 Released With Improvements Around Merge Handling, Other Small Enhancements
+WineD3D Optimistic In Their Yet To Be Proven Vulkan Backend, DXVK "Dead End"
+NVIDIA Firmware Blobs Get Updated To Help Some Pascal GPUs With Nouveau
+A Last Call To Celebrate Phoronix's 15th Birthday By Going Premium
+A Look At How The Linux Performance Has Evolved Since The AMD EPYC Launch
+LLVM/Clang 9.0 Merges Support For Intel "Cooperlake" CPU Target
+Mesa 19.2 RADV Driver Now Fully Supports EXT_sample_locations For Possible AA Benefits
+SUSE Reworking Btrfs File-System's Locking Code
+Amlogic Video Decode Driver Revised A Ninth Time In Pursuit Of The Linux Kernel
+Proton 4.2-6  Brings DXVK 1.2.1 Rebuild, Updated FAudio, Other Fixes
+LLVM's New Fortran Compiler Previously Called "f18" Will Take The Name Of Flang
+RHEL 7.7 Beta Comes With MDS/Zombieload Mitigations
+Google Stadia's E3 Event Reveals New Details For This Linux+Vulkan Gaming Service
+Benchmarking Five ~$30 USD Solid-State Drives Under Ubuntu Linux
+Mesa 19.2 Now Exposes The NVIDIA-Led EGL_EXT_platform_device Support
+GNOME 3.34's Mutter Adds Mouse Accessibility Support For X11/Wayland
+Benchmarks Of The Various Kernel Flavors Of Clear Linux
+Ubuntu Moving Ahead With Compressing Their Kernel Image Using LZ4
+QtCoAP Added To Qt 5.13 To Increase Its Relevance For Internet of Things
+KDE Has Made Much Progress On Usability/Productivity, But They're Still Aiming For More
+Debian's Anti-Harassment Team Continues Battling Community Issues In 2019
+Alyssa Rosenzweig Joins Collabora To Work On Panfrost Graphics Stack
+Intel Core i5 8400 vs. i5 9400F Meltdown/Spectre/L1TF/MDS Mitigation Impact
+AMD Sends In 2nd Round Of AMDGPU Radeon Driver Updates For Linux 5.3 - No Navi Yet
+Purism Talks Up The Librem 5 Smartphone Boot Speed, Price Increase Coming
+Mesa 19.1-RC5 Is Out With A Handful Of RADV & Intel/Iris Changes
+ATI R300 Gallium3D Driver Seeing A Big Performance Fix After Being Regressed For Years"""
 
 cantarell = installFont("/tmp/Cantarell-VF.ttf")
 
@@ -46,15 +78,18 @@ boxHeight = pageHeight - border * 2
 
 newPage(format)
 font(cantarell)
+fontVariations(wght=400)
 fontSize(12)
 textBox(basic_test, (border, border, boxWidth, boxHeight))
 
 newPage(format)
 font(cantarell)
+fontVariations(wght=400)
 fontSize(12)
 textBox(lc_text + "\n\n" + uc_text, (border, border, boxWidth, boxHeight))
 
 newPage(format)
 font(cantarell)
+fontVariations(wght=400)
 fontSize(12)
 textBox(ul_text+ "\n\n" + misc_text, (border, border, boxWidth, boxHeight))
