@@ -41,6 +41,17 @@
       <location>
         <dimension name="Weight" xvalue="80"/>
       </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>ShowInterpolation</string>
+              <string>-</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
     <instance stylename="Regular Interpolated For Testing">
       <location>
@@ -55,6 +66,10 @@
               <array>
                 <string>Regular</string>
               </array>
+            </array>
+            <array>
+              <string>ShowInterpolation</string>
+              <string>-</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
