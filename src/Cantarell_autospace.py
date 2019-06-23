@@ -20,9 +20,12 @@
 
 # Punctuation
 *,Punctuation,Other,1,*,*,
+*,Punctuation,Other,1.1,*,exclam,
+*,Punctuation,Other,0.9,*,period,
 *,Punctuation,Parenthesis,1.2,*,*,
 *,Punctuation,Quote,1.2,*,*,
-*,Punctuation,Dash,1,*,*,
+*,Punctuation,Quote,1,*,quote,
+*,Punctuation,Dash,0.8,*,*,
 *,Punctuation,*,1,*,slash,
 *,Punctuation,*,1.2,*,*,
 

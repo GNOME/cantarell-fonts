@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblbase" format="2">
-  <advance width="373"/>
+  <advance width="342"/>
   <unicode hex="201E"/>
   <outline>
-    <component base="_typoquote" xOffset="122"/>
-    <component base="_typoquote" xOffset="-18"/>
+    <component base="_typoquote" xOffset="108"/>
+    <component base="_typoquote" xOffset="-38"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quoteright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>quoteright</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

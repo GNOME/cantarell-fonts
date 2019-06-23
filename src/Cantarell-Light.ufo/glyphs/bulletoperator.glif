@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bulletoperator" format="2">
-  <advance width="338"/>
+  <advance width="196"/>
   <unicode hex="2219"/>
   <outline>
-    <component base="period" xScale="1.25716" yScale="1.25716" xOffset="26" yOffset="330"/>
+    <component base="period" yOffset="330"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>period</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,6 +3,14 @@
   <advance width="293"/>
   <unicode hex="005C"/>
   <outline>
-    <component base="slash" xScale="-1" xOffset="302"/>
+    <component base="slash" xScale="-1" xOffset="293"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|slash</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>slash</string>
+    </dict>
+  </lib>
 </glyph>

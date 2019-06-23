@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bar" format="2">
-  <advance width="307"/>
+  <advance width="227"/>
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="144" y="-157" type="line"/>
-      <point x="163" y="-157" type="line"/>
-      <point x="163" y="739" type="line"/>
-      <point x="144" y="739" type="line"/>
+      <point x="104" y="-180" type="line"/>
+      <point x="123" y="-180" type="line"/>
+      <point x="123" y="739" type="line"/>
+      <point x="104" y="739" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

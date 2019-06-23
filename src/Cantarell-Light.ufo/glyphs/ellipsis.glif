@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis" format="2">
-  <advance width="630"/>
+  <advance width="1000"/>
   <unicode hex="2026"/>
   <outline>
-    <component base="period" xOffset="400"/>
-    <component base="period" xOffset="200"/>
-    <component base="period"/>
+    <component base="period" xOffset="736"/>
+    <component base="period" xOffset="402" yOffset="-1"/>
+    <component base="period" xOffset="68"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

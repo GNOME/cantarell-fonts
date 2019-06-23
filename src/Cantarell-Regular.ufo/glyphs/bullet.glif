@@ -3,6 +3,19 @@
   <advance width="377"/>
   <unicode hex="2022"/>
   <outline>
-    <component base="period" xScale="2" yScale="2" xOffset="-84" yOffset="162"/>
+    <contour>
+      <point x="188" y="222" type="curve" smooth="yes"/>
+      <point x="264" y="222"/>
+      <point x="316" y="276"/>
+      <point x="316" y="350" type="curve" smooth="yes"/>
+      <point x="316" y="424"/>
+      <point x="264" y="478"/>
+      <point x="188" y="478" type="curve" smooth="yes"/>
+      <point x="112" y="478"/>
+      <point x="60" y="424"/>
+      <point x="60" y="350" type="curve" smooth="yes"/>
+      <point x="60" y="276"/>
+      <point x="112" y="222"/>
+    </contour>
   </outline>
 </glyph>
