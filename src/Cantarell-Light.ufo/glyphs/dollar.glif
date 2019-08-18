@@ -1,20 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dollar" format="2">
-  <advance width="615"/>
+  <advance width="580"/>
   <unicode hex="0024"/>
   <outline>
-    <component base="S" xOffset="23"/>
-    <component base="_currencyvstem" xOffset="-94"/>
-    <component base="_currencyvstem" xOffset="-95" yOffset="-840"/>
+    <contour>
+      <point x="283" y="-1" type="curve" smooth="yes"/>
+      <point x="418" y="-1"/>
+      <point x="505" y="74"/>
+      <point x="505" y="181" type="curve" smooth="yes"/>
+      <point x="505" y="411"/>
+      <point x="106" y="312"/>
+      <point x="106" y="528" type="curve" smooth="yes"/>
+      <point x="106" y="620"/>
+      <point x="178" y="675"/>
+      <point x="302" y="675" type="curve" smooth="yes"/>
+      <point x="358" y="675"/>
+      <point x="417" y="663"/>
+      <point x="468" y="637" type="curve"/>
+      <point x="475" y="655" type="line"/>
+      <point x="424" y="683"/>
+      <point x="363" y="694"/>
+      <point x="306" y="694" type="curve" smooth="yes"/>
+      <point x="168" y="694"/>
+      <point x="84" y="629"/>
+      <point x="84" y="524" type="curve" smooth="yes"/>
+      <point x="84" y="295"/>
+      <point x="483" y="389"/>
+      <point x="483" y="176" type="curve" smooth="yes"/>
+      <point x="483" y="83"/>
+      <point x="407" y="18"/>
+      <point x="287" y="18" type="curve" smooth="yes"/>
+      <point x="222" y="18"/>
+      <point x="152" y="36"/>
+      <point x="83" y="69" type="curve"/>
+      <point x="76" y="50" type="line"/>
+      <point x="142" y="17"/>
+      <point x="217" y="-1"/>
+    </contour>
+    <contour>
+      <point x="292" y="677" type="line"/>
+      <point x="310" y="677" type="line"/>
+      <point x="310" y="813" type="line"/>
+      <point x="292" y="813" type="line"/>
+    </contour>
+    <contour>
+      <point x="292" y="-120" type="line"/>
+      <point x="310" y="-120" type="line"/>
+      <point x="310" y="9" type="line"/>
+      <point x="292" y="9" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
     </dict>
   </lib>
 </glyph>
