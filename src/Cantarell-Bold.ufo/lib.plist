@@ -2165,8 +2165,8 @@
       <string>lessequal</string>
       <string>plusminus</string>
       <string>approxequal</string>
-      <string>logicalnot</string>
       <string>asciitilde</string>
+      <string>logicalnot</string>
       <string>asciicircum</string>
       <string>emptyset</string>
       <string>infinity</string>
@@ -2181,24 +2181,6 @@
       <string>percent</string>
       <string>perthousand</string>
       <string>ratio</string>
-      <string>bulletoperator.tf</string>
-      <string>commercialMinusSign.tf</string>
-      <string>divisionslash.tf</string>
-      <string>equivalence.tf</string>
-      <string>notidentical.tf</string>
-      <string>plus.tf</string>
-      <string>minus.tf</string>
-      <string>multiply.tf</string>
-      <string>divide.tf</string>
-      <string>equal.tf</string>
-      <string>notequal.tf</string>
-      <string>greater.tf</string>
-      <string>less.tf</string>
-      <string>greaterequal.tf</string>
-      <string>lessequal.tf</string>
-      <string>plusminus.tf</string>
-      <string>approxequal.tf</string>
-      <string>logicalnot.tf</string>
       <string>upArrow</string>
       <string>rightArrow</string>
       <string>downArrow</string>
@@ -2352,7 +2334,6 @@
       <string>_descender-cy.case.straight</string>
       <string>_descenderreverse-cy.case</string>
       <string>_bottomhook</string>
-      <string>_o.numero</string>
       <string>_slash.zero</string>
       <string>_typoquote</string>
       <string>_commaaccent</string>
@@ -2876,8 +2857,6 @@
       <key>breveinvertedcomb.case</key>
       <string>uni0311.case</string>
       <key>bulletoperator</key>
-      <string>uni2219</string>
-      <key>bulletoperator.tf</key>
       <string>uni2219.tf</string>
       <key>caroncomb</key>
       <string>uni030C</string>
@@ -2936,8 +2915,6 @@
       <key>commaturnedmod</key>
       <string>uni02BB</string>
       <key>commercialMinusSign</key>
-      <string>uni2052</string>
-      <key>commercialMinusSign.tf</key>
       <string>uni2052.tf</string>
       <key>dblgravecomb</key>
       <string>uni030F</string>
@@ -2970,8 +2947,6 @@
       <key>dieresiscomb_macroncomb</key>
       <string>uni03080304</string>
       <key>divisionslash</key>
-      <string>uni2215</string>
-      <key>divisionslash.tf</key>
       <string>uni2215.tf</string>
       <key>dje-cy</key>
       <string>uni0452</string>
@@ -3246,8 +3221,6 @@
       <key>nlinebelow</key>
       <string>uni1E49</string>
       <key>notidentical</key>
-      <string>uni2262</string>
-      <key>notidentical.tf</key>
       <string>uni2262.tf</string>
       <key>numero</key>
       <string>uni2116</string>
@@ -3589,7 +3562,6 @@
       <string>_descender-cy.case.straight</string>
       <string>_descenderreverse-cy.case</string>
       <string>_descenderreversed-cy</string>
-      <string>_o.numero</string>
       <string>_slash.zero</string>
       <string>_slash.zero.osf</string>
       <string>_typoquote</string>

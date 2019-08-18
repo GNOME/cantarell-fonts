@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="divisionslash" format="2">
-  <advance width="170"/>
+  <advance width="580"/>
   <unicode hex="2215"/>
   <outline>
-    <component base="fraction"/>
+    <contour>
+      <point x="109" y="0" type="line"/>
+      <point x="182" y="0" type="line"/>
+      <point x="472" y="694" type="line"/>
+      <point x="393" y="694" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

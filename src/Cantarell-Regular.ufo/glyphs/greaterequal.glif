@@ -1,23 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greaterequal" format="2">
-  <advance width="645"/>
+  <advance width="580"/>
   <unicode hex="2265"/>
   <outline>
     <contour>
-      <point x="94" y="168" type="line"/>
-      <point x="565" y="349" type="line"/>
-      <point x="565" y="408" type="line"/>
-      <point x="94" y="596" type="line"/>
-      <point x="94" y="523" type="line"/>
-      <point x="504" y="370" type="line"/>
-      <point x="503" y="392" type="line"/>
-      <point x="94" y="234" type="line"/>
+      <point x="63" y="168" type="line"/>
+      <point x="517" y="349" type="line"/>
+      <point x="517" y="411" type="line"/>
+      <point x="63" y="600" type="line"/>
+      <point x="63" y="521" type="line"/>
+      <point x="450" y="370" type="line"/>
+      <point x="449" y="396" type="line"/>
+      <point x="63" y="240" type="line"/>
     </contour>
     <contour>
-      <point x="100" y="31" type="line"/>
-      <point x="565" y="31" type="line"/>
-      <point x="565" y="96" type="line"/>
-      <point x="100" y="96" type="line"/>
+      <point x="68" y="32" type="line"/>
+      <point x="517" y="32" type="line"/>
+      <point x="517" y="100" type="line"/>
+      <point x="68" y="100" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

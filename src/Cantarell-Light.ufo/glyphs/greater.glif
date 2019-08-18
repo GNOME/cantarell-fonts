@@ -1,17 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greater" format="2">
-  <advance width="594"/>
+  <advance width="580"/>
   <unicode hex="003E"/>
   <outline>
     <contour>
-      <point x="85" y="74" type="line"/>
-      <point x="511" y="308" type="line"/>
-      <point x="511" y="332" type="line"/>
-      <point x="85" y="567" type="line"/>
-      <point x="85" y="547" type="line"/>
-      <point x="506" y="314" type="line"/>
-      <point x="506" y="325" type="line"/>
-      <point x="85" y="93" type="line"/>
+      <point x="95" y="44" type="line"/>
+      <point x="485" y="298" type="line"/>
+      <point x="485" y="322" type="line"/>
+      <point x="95" y="577" type="line"/>
+      <point x="95" y="557" type="line"/>
+      <point x="479" y="304" type="line"/>
+      <point x="479" y="315" type="line"/>
+      <point x="95" y="63" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

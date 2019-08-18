@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal" format="2">
-  <advance width="715"/>
+  <advance width="580"/>
   <unicode hex="003D"/>
   <outline>
-    <contour>
-      <point x="125" y="406" type="line"/>
-      <point x="590" y="406" type="line"/>
-      <point x="590" y="475" type="line"/>
-      <point x="125" y="475" type="line"/>
-    </contour>
-    <contour>
-      <point x="125" y="166" type="line"/>
-      <point x="590" y="166" type="line"/>
-      <point x="590" y="235" type="line"/>
-      <point x="125" y="235" type="line"/>
-    </contour>
+    <component base="minus" yOffset="114"/>
+    <component base="minus" yOffset="-129"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,31 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="notidentical" format="2">
-  <advance width="620"/>
+  <advance width="600"/>
   <unicode hex="2262"/>
   <outline>
     <contour>
-      <point x="154" y="-85" type="line"/>
-      <point x="557" y="699" type="line"/>
-      <point x="469" y="748" type="line"/>
+      <point x="152" y="-85" type="line"/>
+      <point x="536" y="699" type="line"/>
+      <point x="450" y="748" type="line"/>
       <point x="69" y="-39" type="line"/>
     </contour>
     <contour>
-      <point x="62" y="462" type="line"/>
-      <point x="558" y="462" type="line"/>
-      <point x="558" y="597" type="line"/>
-      <point x="62" y="597" type="line"/>
+      <point x="60" y="462" type="line"/>
+      <point x="540" y="462" type="line"/>
+      <point x="540" y="597" type="line"/>
+      <point x="60" y="597" type="line"/>
     </contour>
     <contour>
-      <point x="62" y="82" type="line"/>
-      <point x="558" y="82" type="line"/>
-      <point x="558" y="217" type="line"/>
-      <point x="62" y="217" type="line"/>
+      <point x="60" y="82" type="line"/>
+      <point x="540" y="82" type="line"/>
+      <point x="540" y="217" type="line"/>
+      <point x="60" y="217" type="line"/>
     </contour>
     <contour>
-      <point x="62" y="272" type="line"/>
-      <point x="558" y="272" type="line"/>
-      <point x="558" y="407" type="line"/>
-      <point x="62" y="407" type="line"/>
+      <point x="60" y="272" type="line"/>
+      <point x="540" y="272" type="line"/>
+      <point x="540" y="407" type="line"/>
+      <point x="60" y="407" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>
