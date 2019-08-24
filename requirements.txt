@@ -12,14 +12,14 @@ compreffor==0.4.6.post1   # via ufo2ft
 cu2qu==1.6.5              # via ufo2ft
 defcon==0.6.0             # via ufo2ft
 fontmath==0.5.0
-fonttools[lxml,ufo,unicode]==3.44.0
+fonttools[lxml,ufo,unicode]==4.0.0
 fs==2.4.10                # via fonttools
 lxml==4.4.1               # via fonttools
 psautohint==1.9.4
 pyclipper==1.1.0.post1    # via booleanoperations
 pytz==2019.2              # via fs
 six==1.12.0               # via fs
-statmake==0.1.2
+statmake==0.1.4
 ufo2ft==2.9.1
 ufolib2==0.4.0
 unicodedata2==12.0.0      # via fonttools
