@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraight-cy" format="2">
-  <advance width="534"/>
+  <advance width="535"/>
   <unicode hex="04AF"/>
   <anchor x="270" y="-53" name="center"/>
   <outline>
@@ -12,4 +12,12 @@
     </contour>
     <component base="v"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
 </glyph>
