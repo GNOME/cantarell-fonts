@@ -4,6 +4,22 @@
   <unicode hex="1E65"/>
   <outline>
     <component base="s"/>
-    <component base="acutecomb_dotaccentcomb" xOffset="151"/>
+    <component base="acutecomb.loclVIET" xOffset="151"/>
+    <component base="dotaccentcomb.loclVIET" xOffset="63" yOffset="97"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotaccentcomb.loclVIET</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

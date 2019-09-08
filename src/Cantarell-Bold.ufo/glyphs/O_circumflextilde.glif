@@ -4,6 +4,22 @@
   <unicode hex="1ED6"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb_tildecomb.case" xOffset="205" yOffset="4"/>
+    <component base="circumflexcomb.loclVIET" xOffset="174" yOffset="204"/>
+    <component base="tildecomb.loclVIET" xOffset="160" yOffset="344"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>tildecomb.loclVIET</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

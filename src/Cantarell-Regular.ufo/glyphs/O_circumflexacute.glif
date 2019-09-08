@@ -4,6 +4,22 @@
   <unicode hex="1ED0"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb_acutecomb.case" xOffset="248" yOffset="12"/>
+    <component base="circumflexcomb.loclVIET" xOffset="189" yOffset="212"/>
+    <component base="acutecomb.loclVIET" xOffset="427" yOffset="293"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb.loclVIET</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

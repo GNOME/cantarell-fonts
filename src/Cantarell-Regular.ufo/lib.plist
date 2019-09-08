@@ -1788,9 +1788,6 @@
       <string>zdotaccent</string>
       <string>zdotbelow</string>
       <string>l.ss01</string>
-      <string>f_f</string>
-      <string>f_f_i</string>
-      <string>f_f_l</string>
       <string>fi</string>
       <string>fl</string>
       <string>ordfeminine</string>
@@ -2222,31 +2219,18 @@
       <string>verticallinelowmod</string>
       <string>verticallinemod</string>
       <string>dieresiscomb</string>
-      <string>dieresiscomb_gravecomb</string>
-      <string>dieresiscomb_acutecomb</string>
-      <string>dieresiscomb_caroncomb</string>
-      <string>dieresiscomb_macroncomb</string>
       <string>dotaccentcomb</string>
-      <string>dotaccentcomb_macroncomb</string>
       <string>gravecomb</string>
       <string>acutecomb</string>
-      <string>acutecomb_dotaccentcomb</string>
       <string>hungarumlautcomb</string>
       <string>caroncomb.alt</string>
       <string>circumflexcomb</string>
       <string>caroncomb</string>
-      <string>caroncomb_dotaccentcomb</string>
       <string>brevecomb</string>
       <string>ringcomb</string>
       <string>ringcomb_acutecomb</string>
       <string>tildecomb</string>
-      <string>tildecomb_dieresiscomb</string>
-      <string>tildecomb_acutecomb</string>
-      <string>tildecomb_macroncomb</string>
       <string>macroncomb</string>
-      <string>macroncomb_dieresiscomb</string>
-      <string>macroncomb_gravecomb</string>
-      <string>macroncomb_acutecomb</string>
       <string>hookabovecomb</string>
       <string>verticallineabovecomb</string>
       <string>dblgravecomb</string>
@@ -2317,22 +2301,6 @@
       <string>brevecomb-cy.case</string>
       <string>descender-cy.case</string>
       <string>descender-cy.strait</string>
-      <string>brevecomb_acutecomb</string>
-      <string>brevecomb_gravecomb</string>
-      <string>brevecomb_hookabovecomb</string>
-      <string>brevecomb_tildecomb</string>
-      <string>circumflexcomb_acutecomb</string>
-      <string>circumflexcomb_gravecomb</string>
-      <string>circumflexcomb_hookabovecomb</string>
-      <string>circumflexcomb_tildecomb</string>
-      <string>brevecomb_acutecomb.case</string>
-      <string>brevecomb_gravecomb.case</string>
-      <string>brevecomb_hookabovecomb.case</string>
-      <string>brevecomb_tildecomb.case</string>
-      <string>circumflexcomb_acutecomb.case</string>
-      <string>circumflexcomb_gravecomb.case</string>
-      <string>circumflexcomb_hookabovecomb.case</string>
-      <string>circumflexcomb_tildecomb.case</string>
       <string>_descenderreversed-cy</string>
       <string>_bar-cy</string>
       <string>_descender-cy.case.straight</string>
@@ -2806,8 +2774,6 @@
       <string>uni1EA9</string>
       <key>acircumflextilde</key>
       <string>uni1EAB</string>
-      <key>acutecomb_dotaccentcomb</key>
-      <string>uni03010307</string>
       <key>adblgrave</key>
       <string>uni0201</string>
       <key>adieresis-cy</key>
@@ -2840,22 +2806,6 @@
       <string>uni0306.case</string>
       <key>brevecomb.loclVIET</key>
       <string>uni0306.loclVIET</string>
-      <key>brevecomb_acutecomb</key>
-      <string>uni03060301</string>
-      <key>brevecomb_acutecomb.case</key>
-      <string>uni03060301.case</string>
-      <key>brevecomb_gravecomb</key>
-      <string>uni03060300</string>
-      <key>brevecomb_gravecomb.case</key>
-      <string>uni03060300.case</string>
-      <key>brevecomb_hookabovecomb</key>
-      <string>uni03060309</string>
-      <key>brevecomb_hookabovecomb.case</key>
-      <string>uni03060309.case</string>
-      <key>brevecomb_tildecomb</key>
-      <string>uni03060303</string>
-      <key>brevecomb_tildecomb.case</key>
-      <string>uni03060303.case</string>
       <key>breveinvertedcomb</key>
       <string>uni0311</string>
       <key>breveinvertedcomb.case</key>
@@ -2870,8 +2820,6 @@
       <string>uni030C.case</string>
       <key>caroncomb.loclVIET</key>
       <string>uni030C.loclVIET</string>
-      <key>caroncomb_dotaccentcomb</key>
-      <string>uni030C0307</string>
       <key>ccedillaacute</key>
       <string>uni1E09</string>
       <key>cedi</key>
@@ -2894,22 +2842,6 @@
       <string>uni0302.case</string>
       <key>circumflexcomb.loclVIET</key>
       <string>uni0302.loclVIET</string>
-      <key>circumflexcomb_acutecomb</key>
-      <string>uni03020301</string>
-      <key>circumflexcomb_acutecomb.case</key>
-      <string>uni03020301.case</string>
-      <key>circumflexcomb_gravecomb</key>
-      <string>uni03020300</string>
-      <key>circumflexcomb_gravecomb.case</key>
-      <string>uni03020300.case</string>
-      <key>circumflexcomb_hookabovecomb</key>
-      <string>uni03020309</string>
-      <key>circumflexcomb_hookabovecomb.case</key>
-      <string>uni03020309.case</string>
-      <key>circumflexcomb_tildecomb</key>
-      <string>uni03020303</string>
-      <key>circumflexcomb_tildecomb.case</key>
-      <string>uni03020303.case</string>
       <key>colonsign</key>
       <string>colonmonetary</string>
       <key>commaaccentcomb</key>
@@ -2942,14 +2874,6 @@
       <string>uni0308.case</string>
       <key>dieresiscomb.loclVIET</key>
       <string>uni0308.loclVIET</string>
-      <key>dieresiscomb_acutecomb</key>
-      <string>uni03080301</string>
-      <key>dieresiscomb_caroncomb</key>
-      <string>uni0308030C</string>
-      <key>dieresiscomb_gravecomb</key>
-      <string>uni03080300</string>
-      <key>dieresiscomb_macroncomb</key>
-      <string>uni03080304</string>
       <key>divisionslash</key>
       <string>uni2215.tf</string>
       <key>dje-cy</key>
@@ -2962,8 +2886,6 @@
       <string>uni0307.case</string>
       <key>dotaccentcomb.loclVIET</key>
       <string>uni0307.loclVIET</string>
-      <key>dotaccentcomb_macroncomb</key>
-      <string>uni03070304</string>
       <key>doubleprimemod</key>
       <string>uni02BA</string>
       <key>downArrow</key>
@@ -3194,12 +3116,6 @@
       <string>uni0304.narrow</string>
       <key>macroncomb.narrow.case</key>
       <string>uni0304.narrow.case</string>
-      <key>macroncomb_acutecomb</key>
-      <string>uni03040301</string>
-      <key>macroncomb_dieresiscomb</key>
-      <string>uni03040308</string>
-      <key>macroncomb_gravecomb</key>
-      <string>uni03040300</string>
       <key>manat</key>
       <string>uni20BC</string>
       <key>mdotbelow</key>
@@ -3426,10 +3342,6 @@
       <string>uni2004</string>
       <key>threesuperior</key>
       <string>uni00B3</string>
-      <key>tildecomb_dieresiscomb</key>
-      <string>uni03030308</string>
-      <key>tildecomb_macroncomb</key>
-      <string>uni03030304</string>
       <key>tlinebelow</key>
       <string>uni1E6F</string>
       <key>tripleprime</key>

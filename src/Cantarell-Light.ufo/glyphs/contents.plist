@@ -734,8 +734,6 @@
     <string>acutecomb.case.glif</string>
     <key>acutecomb.loclVIET</key>
     <string>acutecomb.loclV_I_E_T_.glif</string>
-    <key>acutecomb_dotaccentcomb</key>
-    <string>acutecomb_dotaccentcomb.glif</string>
     <key>adblgrave</key>
     <string>adblgrave.glif</string>
     <key>adieresis</key>
@@ -814,22 +812,6 @@
     <string>brevecomb.case.glif</string>
     <key>brevecomb.loclVIET</key>
     <string>brevecomb.loclV_I_E_T_.glif</string>
-    <key>brevecomb_acutecomb</key>
-    <string>brevecomb_acutecomb.glif</string>
-    <key>brevecomb_acutecomb.case</key>
-    <string>brevecomb_acutecomb.case.glif</string>
-    <key>brevecomb_gravecomb</key>
-    <string>brevecomb_gravecomb.glif</string>
-    <key>brevecomb_gravecomb.case</key>
-    <string>brevecomb_gravecomb.case.glif</string>
-    <key>brevecomb_hookabovecomb</key>
-    <string>brevecomb_hookabovecomb.glif</string>
-    <key>brevecomb_hookabovecomb.case</key>
-    <string>brevecomb_hookabovecomb.case.glif</string>
-    <key>brevecomb_tildecomb</key>
-    <string>brevecomb_tildecomb.glif</string>
-    <key>brevecomb_tildecomb.case</key>
-    <string>brevecomb_tildecomb.case.glif</string>
     <key>breveinvertedcomb</key>
     <string>breveinvertedcomb.glif</string>
     <key>breveinvertedcomb.case</key>
@@ -854,8 +836,6 @@
     <string>caroncomb.case.glif</string>
     <key>caroncomb.loclVIET</key>
     <string>caroncomb.loclV_I_E_T_.glif</string>
-    <key>caroncomb_dotaccentcomb</key>
-    <string>caroncomb_dotaccentcomb.glif</string>
     <key>ccaron</key>
     <string>ccaron.glif</string>
     <key>ccedilla</key>
@@ -892,22 +872,6 @@
     <string>circumflexcomb.case.glif</string>
     <key>circumflexcomb.loclVIET</key>
     <string>circumflexcomb.loclV_I_E_T_.glif</string>
-    <key>circumflexcomb_acutecomb</key>
-    <string>circumflexcomb_acutecomb.glif</string>
-    <key>circumflexcomb_acutecomb.case</key>
-    <string>circumflexcomb_acutecomb.case.glif</string>
-    <key>circumflexcomb_gravecomb</key>
-    <string>circumflexcomb_gravecomb.glif</string>
-    <key>circumflexcomb_gravecomb.case</key>
-    <string>circumflexcomb_gravecomb.case.glif</string>
-    <key>circumflexcomb_hookabovecomb</key>
-    <string>circumflexcomb_hookabovecomb.glif</string>
-    <key>circumflexcomb_hookabovecomb.case</key>
-    <string>circumflexcomb_hookabovecomb.case.glif</string>
-    <key>circumflexcomb_tildecomb</key>
-    <string>circumflexcomb_tildecomb.glif</string>
-    <key>circumflexcomb_tildecomb.case</key>
-    <string>circumflexcomb_tildecomb.case.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonsign</key>
@@ -962,14 +926,6 @@
     <string>dieresiscomb.case.glif</string>
     <key>dieresiscomb.loclVIET</key>
     <string>dieresiscomb.loclV_I_E_T_.glif</string>
-    <key>dieresiscomb_acutecomb</key>
-    <string>dieresiscomb_acutecomb.glif</string>
-    <key>dieresiscomb_caroncomb</key>
-    <string>dieresiscomb_caroncomb.glif</string>
-    <key>dieresiscomb_gravecomb</key>
-    <string>dieresiscomb_gravecomb.glif</string>
-    <key>dieresiscomb_macroncomb</key>
-    <string>dieresiscomb_macroncomb.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>divisionslash</key>
@@ -990,8 +946,6 @@
     <string>dotaccentcomb.case.glif</string>
     <key>dotaccentcomb.loclVIET</key>
     <string>dotaccentcomb.loclV_I_E_T_.glif</string>
-    <key>dotaccentcomb_macroncomb</key>
-    <string>dotaccentcomb_macroncomb.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
     <key>doubleprimemod</key>
@@ -1116,12 +1070,6 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
-    <key>f_f</key>
-    <string>f_f.glif</string>
-    <key>f_f_i</key>
-    <string>f_f_i.glif</string>
-    <key>f_f_l</key>
-    <string>f_f_l.glif</string>
     <key>fi</key>
     <string>fi.glif</string>
     <key>figuredash</key>
@@ -1418,12 +1366,6 @@
     <string>macroncomb.narrow.glif</string>
     <key>macroncomb.narrow.case</key>
     <string>macroncomb.narrow.case.glif</string>
-    <key>macroncomb_acutecomb</key>
-    <string>macroncomb_acutecomb.glif</string>
-    <key>macroncomb_dieresiscomb</key>
-    <string>macroncomb_dieresiscomb.glif</string>
-    <key>macroncomb_gravecomb</key>
-    <string>macroncomb_gravecomb.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>mdotbelow</key>
@@ -1868,12 +1810,6 @@
     <string>tildecomb.case.glif</string>
     <key>tildecomb.loclVIET</key>
     <string>tildecomb.loclV_I_E_T_.glif</string>
-    <key>tildecomb_acutecomb</key>
-    <string>tildecomb_acutecomb.glif</string>
-    <key>tildecomb_dieresiscomb</key>
-    <string>tildecomb_dieresiscomb.glif</string>
-    <key>tildecomb_macroncomb</key>
-    <string>tildecomb_macroncomb.glif</string>
     <key>tlinebelow</key>
     <string>tlinebelow.glif</string>
     <key>trademark</key>
