@@ -1,32 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="won" format="2">
-  <advance width="1180"/>
+  <advance width="580"/>
   <unicode hex="20A9"/>
   <outline>
     <contour>
-      <point x="94" y="252" type="line"/>
-      <point x="266" y="252" type="line"/>
-      <point x="266" y="312" type="line"/>
-      <point x="94" y="312" type="line"/>
+      <point x="129" y="0" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="304" y="649" type="line"/>
+      <point x="271" y="649" type="line"/>
+      <point x="381" y="0" type="line"/>
+      <point x="452" y="0" type="line"/>
+      <point x="565" y="694" type="line"/>
+      <point x="496" y="694" type="line"/>
+      <point x="403" y="38" type="line"/>
+      <point x="435" y="38" type="line"/>
+      <point x="330" y="684" type="line"/>
+      <point x="253" y="684" type="line"/>
+      <point x="154" y="38" type="line"/>
+      <point x="180" y="38" type="line"/>
+      <point x="93" y="694" type="line"/>
+      <point x="14" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="94" y="392" type="line"/>
-      <point x="616" y="392" type="line"/>
-      <point x="616" y="452" type="line"/>
-      <point x="94" y="452" type="line"/>
+      <point x="0" y="404" type="line"/>
+      <point x="580" y="404" type="line"/>
+      <point x="580" y="468" type="line"/>
+      <point x="0" y="468" type="line"/>
     </contour>
     <contour>
-      <point x="1084" y="252" type="line"/>
-      <point x="1084" y="312" type="line"/>
-      <point x="912" y="312" type="line"/>
-      <point x="912" y="252" type="line"/>
+      <point x="0" y="227" type="line"/>
+      <point x="112" y="227" type="line"/>
+      <point x="112" y="294" type="line"/>
+      <point x="0" y="294" type="line"/>
     </contour>
     <contour>
-      <point x="1084" y="392" type="line"/>
-      <point x="1084" y="452" type="line"/>
-      <point x="592" y="452" type="line"/>
-      <point x="592" y="392" type="line"/>
+      <point x="468" y="227" type="line"/>
+      <point x="580" y="227" type="line"/>
+      <point x="580" y="294" type="line"/>
+      <point x="468" y="294" type="line"/>
     </contour>
-    <component base="W" xOffset="76"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

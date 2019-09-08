@@ -1,35 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="liraTurkish" format="2">
-  <advance width="650"/>
+  <advance width="580"/>
   <unicode hex="20BA"/>
   <outline>
     <contour>
-      <point x="232" y="0" type="line"/>
-      <point x="437" y="0"/>
-      <point x="573" y="132"/>
-      <point x="573" y="330" type="curve"/>
-      <point x="493" y="330" type="line"/>
-      <point x="493" y="174"/>
-      <point x="393" y="70"/>
-      <point x="242" y="70" type="curve"/>
+      <point x="143" y="0" type="line"/>
+      <point x="220" y="0" type="line" smooth="yes"/>
+      <point x="398" y="0"/>
+      <point x="518" y="133"/>
+      <point x="518" y="330" type="curve"/>
+      <point x="439" y="330" type="line"/>
+      <point x="439" y="174"/>
+      <point x="352" y="70"/>
+      <point x="220" y="70" type="curve"/>
+      <point x="220" y="694" type="line"/>
+      <point x="143" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="165" y="0" type="line"/>
-      <point x="242" y="0" type="line"/>
-      <point x="242" y="694" type="line"/>
-      <point x="165" y="694" type="line"/>
+      <point x="87" y="392" type="line"/>
+      <point x="390" y="561" type="line"/>
+      <point x="361" y="615" type="line"/>
+      <point x="58" y="446" type="line"/>
     </contour>
     <contour>
-      <point x="101" y="393" type="line"/>
-      <point x="406" y="571" type="line"/>
-      <point x="378" y="625" type="line"/>
-      <point x="75" y="446" type="line"/>
-    </contour>
-    <contour>
-      <point x="116" y="252" type="line"/>
-      <point x="406" y="421" type="line"/>
-      <point x="378" y="475" type="line"/>
-      <point x="90" y="305" type="line"/>
+      <point x="102" y="220" type="line"/>
+      <point x="392" y="382" type="line"/>
+      <point x="363" y="436" type="line"/>
+      <point x="73" y="274" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>
