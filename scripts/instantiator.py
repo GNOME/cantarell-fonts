@@ -40,7 +40,6 @@ import attr
 import fontMath
 import fontTools.designspaceLib as designspaceLib
 import fontTools.misc.fixedTools
-import fontTools.ufoLib as ufoLib
 import fontTools.varLib as varLib
 import ufoLib2
 
@@ -76,6 +75,78 @@ WDTH_VALUE_TO_OS2_WIDTH_CLASS = {
     200: 9,
 }
 
+# Font info fields that are not interpolated and should be copied from the
+# default font to the instance.
+#
+# fontMath at the time of this writing handles the following attributes:
+# https://github.com/robotools/fontMath/blob/0.5.0/Lib/fontMath/mathInfo.py#L360-L422
+#
+# From the attributes that are left, we skip instance-specific ones on purpose:
+# - guidelines
+# - postscriptFontName
+# - styleMapFamilyName
+# - styleMapStyleName
+# - styleName
+# - openTypeNameCompatibleFullName
+# - openTypeNamePreferredFamilyName
+# - openTypeNamePreferredSubfamilyName
+# - openTypeNameUniqueID
+# - openTypeNameWWSFamilyName
+# - openTypeNameWWSSubfamilyName
+# - openTypeOS2Panose
+# - postscriptFullName
+# - postscriptUniqueID
+# - woffMetadataUniqueID
+#
+# Some, we skip because they are deprecated:
+# - macintoshFONDFamilyID
+# - macintoshFONDName
+# - year
+#
+# This means we implicitly require the `stylename` attribute in the Designspace
+# `<instance>` element.
+UFO_INFO_ATTRIBUTES_TO_COPY_TO_INSTANCES = {
+    "copyright",
+    "familyName",
+    "note",
+    "openTypeGaspRangeRecords",
+    "openTypeHeadCreated",
+    "openTypeHeadFlags",
+    "openTypeNameDescription",
+    "openTypeNameDesigner",
+    "openTypeNameDesignerURL",
+    "openTypeNameLicense",
+    "openTypeNameLicenseURL",
+    "openTypeNameManufacturer",
+    "openTypeNameManufacturerURL",
+    "openTypeNameRecords",
+    "openTypeNameSampleText",
+    "openTypeNameVersion",
+    "openTypeOS2CodePageRanges",
+    "openTypeOS2FamilyClass",
+    "openTypeOS2Selection",
+    "openTypeOS2Type",
+    "openTypeOS2UnicodeRanges",
+    "openTypeOS2VendorID",
+    "postscriptDefaultCharacter",
+    "postscriptForceBold",
+    "postscriptIsFixedPitch",
+    "postscriptWindowsCharacterSet",
+    "trademark",
+    "versionMajor",
+    "versionMinor",
+    "woffMajorVersion",
+    "woffMetadataCopyright",
+    "woffMetadataCredits",
+    "woffMetadataDescription",
+    "woffMetadataExtensions",
+    "woffMetadataLicense",
+    "woffMetadataLicensee",
+    "woffMetadataTrademark",
+    "woffMetadataVendor",
+    "woffMinorVersion",
+}
+
 
 # Custom exception for this module
 class InstantiatorError(Exception):
@@ -89,7 +160,7 @@ class Instantiator:
 
     axis_bounds: AxisBounds  # Design space!
     copy_feature_text: str
-    copy_groups: Mapping[str, List[str]]
+    copy_nonkerning_groups: Mapping[str, List[str]]
     copy_info: ufoLib2.objects.Info
     copy_lib: Mapping[str, Any]
     default_design_location: Location
@@ -157,7 +228,11 @@ class Instantiator:
 
         # Construct defaults to copy over
         copy_feature_text: str = default_font.features.text
-        copy_groups: Mapping[str, List[str]] = default_font.groups
+        copy_nonkerning_groups: Mapping[str, List[str]] = {
+            key: glyph_names
+            for key, glyph_names in default_font.groups.items()
+            if not key.startswith(("public.kern1.", "public.kern2."))
+        }  # Kerning groups are taken care of by the kerning Variator.
         copy_info: ufoLib2.objects.Info = default_font.info
         copy_lib: Mapping[str, Any] = default_font.lib
 
@@ -170,7 +245,7 @@ class Instantiator:
         return cls(
             axis_bounds,
             copy_feature_text,
-            copy_groups,
+            copy_nonkerning_groups,
             copy_info,
             copy_lib,
             designspace.default.location,
@@ -214,8 +289,9 @@ class Instantiator:
         # Info
         self._generate_instance_info(instance, location_normalized, location, font)
 
-        # Groups
-        for key, glyph_names in self.copy_groups.items():
+        # Non-kerning groups. Kerning groups have been taken care of by the kerning
+        # instance.
+        for key, glyph_names in self.copy_nonkerning_groups.items():
             font.groups[key] = [name for name in glyph_names]
 
         # Features
@@ -292,9 +368,7 @@ class Instantiator:
         info_instance.extractInfo(font.info)
 
         # Copy non-interpolating metadata from the default font.
-        for attribute in ufoLib.fontInfoAttributesVersion3:
-            if hasattr(info_instance, attribute):
-                continue  # Skip interpolated info attributes.
+        for attribute in UFO_INFO_ATTRIBUTES_TO_COPY_TO_INSTANCES:
             if hasattr(self.copy_info, attribute):
                 setattr(
                     font.info,
@@ -305,7 +379,15 @@ class Instantiator:
         # TODO: multilingual names to replace possibly existing name records.
         if instance.familyName:
             font.info.familyName = instance.familyName
-        if instance.styleName:
+        if instance.styleName is None:
+            logger.warning(
+                "The given instance or instance at location %s is missing the "
+                "stylename attribute, which is required. Copying over the styleName "
+                "from the default font, which is probably wrong.",
+                location,
+            )
+            font.info.styleName = self.copy_info.styleName
+        else:
             font.info.styleName = instance.styleName
         if instance.postScriptFontName:
             font.info.postscriptFontName = instance.postScriptFontName
