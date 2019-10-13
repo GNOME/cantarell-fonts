@@ -4,13 +4,21 @@
   <unicode hex="27E9"/>
   <outline>
     <contour>
-      <point x="47" y="-10" type="line"/>
-      <point x="126" y="-10" type="line"/>
-      <point x="287" y="371" type="line"/>
-      <point x="125" y="739" type="line"/>
-      <point x="40" y="739" type="line"/>
-      <point x="218" y="345" type="line"/>
-      <point x="218" y="392" type="line"/>
+      <point x="45" y="-10" type="line"/>
+      <point x="130" y="-10" type="line"/>
+      <point x="290" y="370" type="line"/>
+      <point x="129" y="739" type="line"/>
+      <point x="38" y="739" type="line"/>
+      <point x="216" y="344" type="line"/>
+      <point x="216" y="391" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|leftanglebracket-math</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|leftanglebracket-math</string>
+    </dict>
+  </lib>
 </glyph>
