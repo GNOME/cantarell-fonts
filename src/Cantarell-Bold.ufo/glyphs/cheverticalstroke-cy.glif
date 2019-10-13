@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cheverticalstroke-cy" format="2">
-  <advance width="557"/>
+  <advance width="565"/>
   <unicode hex="04B9"/>
   <outline>
     <contour>
@@ -34,4 +34,10 @@
       <point x="218" y="418" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
 </glyph>

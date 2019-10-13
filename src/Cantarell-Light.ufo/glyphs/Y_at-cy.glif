@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yat-cy" format="2">
-  <advance width="688"/>
+  <advance width="689"/>
   <unicode hex="0462"/>
   <outline>
     <contour>
@@ -32,4 +32,10 @@
       <point x="43" y="564" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Softsign-cy</string>
+    </dict>
+  </lib>
 </glyph>

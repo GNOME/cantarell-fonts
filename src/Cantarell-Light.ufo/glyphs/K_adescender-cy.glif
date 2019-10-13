@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kadescender-cy" format="2">
-  <advance width="684"/>
+  <advance width="678"/>
   <unicode hex="049A"/>
   <outline>
-    <component base="Ka-cy"/>
-    <component base="descender-cy.case" xOffset="493"/>
+    <component base="Ka-cy" xOffset="-6"/>
+    <component base="descender-cy.case" xOffset="481"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

@@ -1,29 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="El-cy" format="2">
-  <advance width="716"/>
+  <advance width="721"/>
   <unicode hex="041B"/>
   <outline>
     <contour>
-      <point x="108" y="-10" type="curve" smooth="yes"/>
-      <point x="210" y="-10"/>
-      <point x="259" y="75"/>
-      <point x="259" y="252" type="curve" smooth="yes"/>
-      <point x="259" y="624" type="line"/>
-      <point x="531" y="624" type="line"/>
-      <point x="531" y="0" type="line"/>
-      <point x="612" y="0" type="line"/>
-      <point x="612" y="694" type="line"/>
-      <point x="180" y="694" type="line"/>
-      <point x="180" y="252" type="line" smooth="yes"/>
-      <point x="180" y="120"/>
-      <point x="154" y="62"/>
-      <point x="95" y="62" type="curve" smooth="yes"/>
-      <point x="74" y="62"/>
-      <point x="47" y="69"/>
-      <point x="24" y="83" type="curve"/>
-      <point x="2" y="19" type="line"/>
-      <point x="31" y="1"/>
-      <point x="71" y="-10"/>
+      <point x="125" y="-10" type="curve" smooth="yes"/>
+      <point x="227" y="-10"/>
+      <point x="276" y="75"/>
+      <point x="276" y="252" type="curve" smooth="yes"/>
+      <point x="276" y="624" type="line"/>
+      <point x="548" y="624" type="line"/>
+      <point x="548" y="0" type="line"/>
+      <point x="629" y="0" type="line"/>
+      <point x="629" y="694" type="line"/>
+      <point x="197" y="694" type="line"/>
+      <point x="197" y="252" type="line" smooth="yes"/>
+      <point x="197" y="120"/>
+      <point x="171" y="62"/>
+      <point x="112" y="62" type="curve" smooth="yes"/>
+      <point x="91" y="62"/>
+      <point x="64" y="69"/>
+      <point x="41" y="83" type="curve"/>
+      <point x="19" y="19" type="line"/>
+      <point x="48" y="1"/>
+      <point x="88" y="-10"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

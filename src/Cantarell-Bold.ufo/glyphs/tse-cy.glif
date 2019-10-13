@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tse-cy" format="2">
-  <advance width="641"/>
+  <advance width="657"/>
   <unicode hex="0446"/>
   <outline>
     <contour>
-      <point x="483" y="-136" type="line"/>
-      <point x="639" y="-136" type="line"/>
-      <point x="639" y="133" type="line"/>
-      <point x="220" y="133" type="line"/>
-      <point x="220" y="490" type="line"/>
-      <point x="54" y="490" type="line"/>
-      <point x="54" y="0" type="line"/>
-      <point x="483" y="0" type="line"/>
+      <point x="491" y="-136" type="line"/>
+      <point x="647" y="-136" type="line"/>
+      <point x="647" y="133" type="line"/>
+      <point x="228" y="133" type="line"/>
+      <point x="228" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="491" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="357" y="71" type="line"/>
-      <point x="523" y="71" type="line"/>
-      <point x="523" y="490" type="line"/>
-      <point x="357" y="490" type="line"/>
+      <point x="365" y="71" type="line"/>
+      <point x="531" y="71" type="line"/>
+      <point x="531" y="490" type="line"/>
+      <point x="365" y="490" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,6 +31,8 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
     </dict>
   </lib>
 </glyph>

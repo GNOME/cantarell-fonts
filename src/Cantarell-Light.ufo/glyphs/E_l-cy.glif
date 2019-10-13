@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="El-cy" format="2">
-  <advance width="685"/>
+  <advance width="679"/>
   <unicode hex="041B"/>
   <outline>
     <contour>
@@ -26,4 +26,10 @@
       <point x="85" y="-6"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

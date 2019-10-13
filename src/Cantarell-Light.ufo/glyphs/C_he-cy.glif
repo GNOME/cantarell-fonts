@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Che-cy" format="2">
-  <advance width="616"/>
+  <advance width="610"/>
   <unicode hex="0427"/>
   <anchor x="532" y="0" name="bottomright"/>
   <anchor x="309" y="694" name="top"/>
@@ -30,4 +30,10 @@
       <point x="485" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

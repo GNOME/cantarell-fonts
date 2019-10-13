@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shcha-cy" format="2">
-  <advance width="822"/>
+  <advance width="826"/>
   <unicode hex="0449"/>
   <outline>
     <contour>
@@ -35,6 +35,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy</string>
     </dict>
   </lib>
 </glyph>

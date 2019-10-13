@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gheupturn-cy" format="2">
-  <advance width="440"/>
+  <advance width="451"/>
   <unicode hex="0491"/>
   <outline>
     <contour>
@@ -14,4 +14,12 @@
       <point x="83" y="482" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
+    </dict>
+  </lib>
 </glyph>

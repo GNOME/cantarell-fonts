@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shcha-cy" format="2">
-  <advance width="898"/>
+  <advance width="914"/>
   <unicode hex="0449"/>
   <outline>
     <contour>
-      <point x="740" y="-135" type="line"/>
-      <point x="896" y="-135" type="line"/>
-      <point x="896" y="133" type="line"/>
-      <point x="214" y="133" type="line"/>
-      <point x="214" y="490" type="line"/>
-      <point x="54" y="490" type="line"/>
-      <point x="54" y="0" type="line"/>
-      <point x="740" y="0" type="line"/>
+      <point x="748" y="-135" type="line"/>
+      <point x="904" y="-135" type="line"/>
+      <point x="904" y="133" type="line"/>
+      <point x="222" y="133" type="line"/>
+      <point x="222" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="748" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="347" y="68" type="line"/>
-      <point x="507" y="68" type="line"/>
-      <point x="507" y="490" type="line"/>
-      <point x="347" y="490" type="line"/>
+      <point x="355" y="68" type="line"/>
+      <point x="515" y="68" type="line"/>
+      <point x="515" y="490" type="line"/>
+      <point x="355" y="490" type="line"/>
     </contour>
     <contour>
-      <point x="643" y="68" type="line"/>
-      <point x="802" y="68" type="line"/>
-      <point x="802" y="490" type="line"/>
-      <point x="643" y="490" type="line"/>
+      <point x="651" y="68" type="line"/>
+      <point x="810" y="68" type="line"/>
+      <point x="810" y="490" type="line"/>
+      <point x="651" y="490" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,6 +37,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy</string>
     </dict>
   </lib>
 </glyph>

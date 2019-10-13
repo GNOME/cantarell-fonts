@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nje-cy" format="2">
-  <advance width="837"/>
+  <advance width="835"/>
   <unicode hex="045A"/>
   <outline>
     <contour>
@@ -42,4 +42,12 @@
       <point x="451" y="67" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy</string>
+    </dict>
+  </lib>
 </glyph>

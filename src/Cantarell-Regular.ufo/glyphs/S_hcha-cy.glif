@@ -1,29 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Shcha-cy" format="2">
-  <advance width="1068"/>
+  <advance width="1045"/>
   <unicode hex="0429"/>
   <outline>
     <contour>
-      <point x="953" y="-178" type="line"/>
-      <point x="1029" y="-178" type="line"/>
-      <point x="1029" y="71" type="line"/>
-      <point x="186" y="71" type="line"/>
-      <point x="186" y="694" type="line"/>
-      <point x="104" y="694" type="line"/>
-      <point x="104" y="0" type="line"/>
-      <point x="953" y="0" type="line"/>
+      <point x="941" y="-178" type="line"/>
+      <point x="1017" y="-178" type="line"/>
+      <point x="1017" y="71" type="line"/>
+      <point x="174" y="71" type="line"/>
+      <point x="174" y="694" type="line"/>
+      <point x="92" y="694" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="941" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="470" y="30" type="line"/>
-      <point x="552" y="30" type="line"/>
-      <point x="552" y="694" type="line"/>
-      <point x="470" y="694" type="line"/>
+      <point x="458" y="30" type="line"/>
+      <point x="540" y="30" type="line"/>
+      <point x="540" y="694" type="line"/>
+      <point x="458" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="836" y="30" type="line"/>
-      <point x="918" y="30" type="line"/>
-      <point x="918" y="694" type="line"/>
-      <point x="836" y="694" type="line"/>
+      <point x="824" y="30" type="line"/>
+      <point x="906" y="30" type="line"/>
+      <point x="906" y="694" type="line"/>
+      <point x="824" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Tse-cy</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Schwa" format="2">
-  <advance width="755"/>
+  <advance width="729"/>
   <unicode hex="018F"/>
   <anchor x="369" y="0" name="bottom"/>
   <anchor x="369" y="694" name="top"/>
@@ -48,6 +48,8 @@
         <key>width</key>
         <integer>150</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
     </dict>
   </lib>
 </glyph>

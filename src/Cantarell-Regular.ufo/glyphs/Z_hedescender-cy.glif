@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedescender-cy" format="2">
-  <advance width="1039"/>
+  <advance width="1003"/>
   <unicode hex="0496"/>
   <outline>
-    <component base="Zhe-cy" xOffset="13"/>
-    <component base="descender-cy.case" xOffset="817"/>
+    <component base="Zhe-cy"/>
+    <component base="descender-cy.case" xOffset="799"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Zhe-cy</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

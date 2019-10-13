@@ -1,31 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Be-cy" format="2">
-  <advance width="605"/>
+  <advance width="599"/>
   <unicode hex="0411"/>
   <outline>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="318" y="0" type="line" smooth="yes"/>
-      <point x="463" y="0"/>
-      <point x="546" y="71"/>
-      <point x="546" y="195" type="curve" smooth="yes"/>
-      <point x="546" y="317"/>
-      <point x="471" y="393"/>
-      <point x="352" y="393" type="curve" smooth="yes"/>
-      <point x="124" y="393" type="line"/>
-      <point x="124" y="376" type="line"/>
-      <point x="342" y="376" type="line" smooth="yes"/>
-      <point x="454" y="376"/>
-      <point x="524" y="305"/>
-      <point x="524" y="191" type="curve" smooth="yes"/>
-      <point x="524" y="78"/>
-      <point x="456" y="18"/>
-      <point x="329" y="18" type="curve" smooth="yes"/>
-      <point x="132" y="18" type="line"/>
-      <point x="132" y="676" type="line"/>
-      <point x="476" y="676" type="line"/>
-      <point x="476" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
+      <point x="104" y="0" type="line"/>
+      <point x="312" y="0" type="line" smooth="yes"/>
+      <point x="457" y="0"/>
+      <point x="540" y="71"/>
+      <point x="540" y="195" type="curve" smooth="yes"/>
+      <point x="540" y="317"/>
+      <point x="465" y="393"/>
+      <point x="346" y="393" type="curve" smooth="yes"/>
+      <point x="118" y="393" type="line"/>
+      <point x="118" y="376" type="line"/>
+      <point x="336" y="376" type="line" smooth="yes"/>
+      <point x="448" y="376"/>
+      <point x="518" y="305"/>
+      <point x="518" y="191" type="curve" smooth="yes"/>
+      <point x="518" y="78"/>
+      <point x="450" y="18"/>
+      <point x="323" y="18" type="curve" smooth="yes"/>
+      <point x="126" y="18" type="line"/>
+      <point x="126" y="676" type="line"/>
+      <point x="470" y="676" type="line"/>
+      <point x="470" y="694" type="line"/>
+      <point x="104" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>
