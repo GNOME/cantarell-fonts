@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.osf" format="2">
-  <advance width="398"/>
+  <advance width="423"/>
   <outline>
     <contour>
-      <point x="220" y="-5" type="line"/>
-      <point x="297" y="-5" type="line"/>
-      <point x="297" y="594" type="line"/>
-      <point x="249" y="594" type="line"/>
-      <point x="2" y="466" type="line"/>
-      <point x="32" y="409" type="line"/>
-      <point x="244" y="510" type="line"/>
-      <point x="220" y="535" type="line"/>
+      <point x="225" y="-5" type="line"/>
+      <point x="302" y="-5" type="line"/>
+      <point x="302" y="594" type="line"/>
+      <point x="254" y="594" type="line"/>
+      <point x="7" y="466" type="line"/>
+      <point x="37" y="409" type="line"/>
+      <point x="249" y="510" type="line"/>
+      <point x="225" y="535" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>one</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>one</string>
+    </dict>
+  </lib>
 </glyph>
