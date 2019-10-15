@@ -1,25 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghestroke-cy" format="2">
-  <advance width="607"/>
+  <advance width="576"/>
   <unicode hex="0492"/>
   <outline>
     <contour>
-      <point x="118" y="0" type="line"/>
-      <point x="294" y="0" type="line"/>
-      <point x="294" y="542" type="line"/>
-      <point x="593" y="542" type="line"/>
-      <point x="593" y="694" type="line"/>
-      <point x="118" y="694" type="line"/>
+      <point x="87" y="0" type="line"/>
+      <point x="263" y="0" type="line"/>
+      <point x="263" y="542" type="line"/>
+      <point x="562" y="542" type="line"/>
+      <point x="562" y="694" type="line"/>
+      <point x="87" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="15" y="267" type="line"/>
-      <point x="446" y="267" type="line"/>
-      <point x="446" y="387" type="line"/>
-      <point x="15" y="387" type="line"/>
+      <point x="-16" y="267" type="line"/>
+      <point x="415" y="267" type="line"/>
+      <point x="415" y="387" type="line"/>
+      <point x="-16" y="387" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Eth</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Ge-cy</string>
     </dict>

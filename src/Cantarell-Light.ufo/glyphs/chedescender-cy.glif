@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescender-cy" format="2">
-  <advance width="496"/>
+  <advance width="492"/>
   <unicode hex="04B7"/>
   <outline>
     <component base="che-cy"/>
@@ -10,6 +10,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

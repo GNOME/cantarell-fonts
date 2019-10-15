@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tse-cy" format="2">
-  <advance width="681"/>
+  <advance width="661"/>
   <unicode hex="0426"/>
   <outline>
     <contour>
-      <point x="621" y="-175" type="line"/>
-      <point x="642" y="-175" type="line"/>
-      <point x="642" y="19" type="line"/>
+      <point x="609" y="-175" type="line"/>
+      <point x="630" y="-175" type="line"/>
+      <point x="630" y="19" type="line"/>
       <point x="126" y="19" type="line"/>
       <point x="126" y="694" type="line"/>
       <point x="104" y="694" type="line"/>
       <point x="104" y="0" type="line"/>
-      <point x="621" y="0" type="line"/>
+      <point x="609" y="0" type="line"/>
     </contour>
     <contour>
       <point x="533" y="10" type="line"/>
@@ -24,6 +24,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
     </dict>
   </lib>
 </glyph>

@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hadescender-cy" format="2">
-  <advance width="503"/>
+  <advance width="497"/>
   <unicode hex="04B3"/>
   <outline>
     <component base="ha-cy"/>
-    <component base="descender-cy" xOffset="289"/>
+    <component base="descender-cy" xOffset="287"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ha-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
