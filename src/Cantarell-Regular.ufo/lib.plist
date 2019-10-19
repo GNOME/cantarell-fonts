@@ -1245,7 +1245,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1230</string>
+    <string>1268</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Family Alignment Zones</key>
     <array>
       <string>{739, 10}</string>
@@ -1985,6 +1985,7 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>zero.zero</string>
       <string>zero.osf</string>
       <string>one.osf</string>
       <string>two.osf</string>
@@ -2007,7 +2008,6 @@
       <string>eight.tf</string>
       <string>nine.tf</string>
       <string>zero.tf.zero</string>
-      <string>zero.zero</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -2249,19 +2249,19 @@
       <string>strokelongcomb</string>
       <string>slashshortcomb</string>
       <string>slashlongcomb</string>
-      <string>acute</string>
-      <string>breve</string>
-      <string>caron</string>
-      <string>cedilla</string>
-      <string>circumflex</string>
       <string>dieresis</string>
       <string>dotaccent</string>
       <string>grave</string>
+      <string>acute</string>
       <string>hungarumlaut</string>
-      <string>macron</string>
-      <string>ogonek</string>
+      <string>circumflex</string>
+      <string>caron</string>
+      <string>breve</string>
       <string>ring</string>
       <string>tilde</string>
+      <string>macron</string>
+      <string>cedilla</string>
+      <string>ogonek</string>
       <string>dieresiscomb.case</string>
       <string>dotaccentcomb.case</string>
       <string>gravecomb.case</string>
