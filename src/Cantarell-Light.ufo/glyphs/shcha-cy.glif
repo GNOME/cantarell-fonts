@@ -1,30 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shcha-cy" format="2">
-  <advance width="751"/>
+  <advance width="749"/>
   <unicode hex="0449"/>
   <outline>
-    <contour>
-      <point x="695" y="-121" type="line"/>
-      <point x="714" y="-121" type="line"/>
-      <point x="714" y="17" type="line"/>
-      <point x="109" y="17" type="line"/>
-      <point x="109" y="480" type="line"/>
-      <point x="88" y="480" type="line"/>
-      <point x="88" y="0" type="line"/>
-      <point x="695" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="365" y="9" type="line"/>
-      <point x="386" y="9" type="line"/>
-      <point x="386" y="480" type="line"/>
-      <point x="365" y="480" type="line"/>
-    </contour>
-    <contour>
-      <point x="631" y="9" type="line"/>
-      <point x="652" y="9" type="line"/>
-      <point x="652" y="480" type="line"/>
-      <point x="631" y="480" type="line"/>
-    </contour>
+    <component base="sha-cy"/>
+    <component base="descender-cy" xOffset="585"/>
   </outline>
   <lib>
     <dict>
@@ -39,6 +19,11 @@
       <string>en-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>tse-cy</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

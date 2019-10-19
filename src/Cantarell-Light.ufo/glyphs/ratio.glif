@@ -1,8 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ratio" format="2">
-  <advance width="314"/>
+  <advance width="196"/>
   <unicode hex="2236"/>
   <outline>
-    <component base="colon" xOffset="48" yOffset="100"/>
+    <component base="colon" yOffset="100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>colon</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>colon</string>
+    </dict>
+  </lib>
 </glyph>
