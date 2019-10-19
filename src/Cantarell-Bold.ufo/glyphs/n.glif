@@ -9,13 +9,6 @@ n
   <anchor x="304" y="490" name="top"/>
   <outline>
     <contour>
-      <point x="62" y="0" type="line"/>
-      <point x="235" y="0" type="line"/>
-      <point x="235" y="376" type="line"/>
-      <point x="187" y="490" type="line"/>
-      <point x="62" y="490" type="line"/>
-    </contour>
-    <contour>
       <point x="374" y="0" type="line"/>
       <point x="547" y="0" type="line"/>
       <point x="547" y="284" type="line" smooth="yes"/>
@@ -32,6 +25,13 @@ n
       <point x="353" y="346"/>
       <point x="374" y="320"/>
       <point x="374" y="265" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="235" y="376" type="line"/>
+      <point x="187" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
     </contour>
   </outline>
 </glyph>

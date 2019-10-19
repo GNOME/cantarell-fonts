@@ -9,13 +9,6 @@ p
   <anchor x="296" y="490" name="top"/>
   <outline>
     <contour>
-      <point x="62" y="-217" type="line"/>
-      <point x="227" y="-217" type="line"/>
-      <point x="227" y="370" type="line"/>
-      <point x="177" y="490" type="line"/>
-      <point x="62" y="490" type="line"/>
-    </contour>
-    <contour>
       <point x="336" y="-10" type="curve" smooth="yes"/>
       <point x="465" y="-10"/>
       <point x="562" y="101"/>
@@ -42,6 +35,13 @@ p
       <point x="175" y="88" type="line"/>
       <point x="208" y="26"/>
       <point x="264" y="-10"/>
+    </contour>
+    <contour>
+      <point x="62" y="-217" type="line"/>
+      <point x="227" y="-217" type="line"/>
+      <point x="227" y="370" type="line"/>
+      <point x="177" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
     </contour>
   </outline>
   <lib>

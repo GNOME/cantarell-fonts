@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cheverticalstroke-cy" format="2">
-  <advance width="500"/>
+  <advance width="512"/>
   <unicode hex="04B9"/>
   <outline>
     <contour>
@@ -22,16 +22,16 @@
       <point x="117" y="181"/>
     </contour>
     <contour>
-      <point x="392" y="0" type="line"/>
-      <point x="412" y="0" type="line"/>
-      <point x="412" y="480" type="line"/>
-      <point x="392" y="480" type="line"/>
-    </contour>
-    <contour>
       <point x="218" y="51" type="line"/>
       <point x="237" y="51" type="line"/>
       <point x="237" y="351" type="line"/>
       <point x="218" y="351" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="480" type="line"/>
+      <point x="392" y="480" type="line"/>
     </contour>
   </outline>
   <lib>
