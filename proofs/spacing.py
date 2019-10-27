@@ -4,9 +4,16 @@ HHOHHOOHOO HHAHHOOAOO HHBHHOOBOO HHCHHOOCOO HHDHHOODOO HHEHHOOEOO HHFHHOOFOO HHG
 
 080N0N 010N1N 020N2N 030N3N 040N4N 050N5N 060N6N 070N7N 090N9N
 
-nn.nnoo.oo nn,nnoo,oo nn:nnoo:oo nn;nnoo;oo nn…nnoo…oo nn!nnoo!oo nn¡nnoo¡oo nn?nnoo?oo nn¿nnoo¿oo nn•nnoo•oo nn*nnoo*oo nn#nnoo#oo nn/nnoo/oo nn\nnoo\oo nn(nnoo(oo nn)nnoo)oo nn{nnoo{oo nn}nnoo}oo nn[nnoo[oo nn]nnoo]oo nn-nnoo-oo nn_nnoo_oo nn‚nnoo‚oo nn„nnoo„oo nn“nnoo“oo nn”nnoo”oo nn‘nnoo‘oo nn’nnoo’oo nn«nnoo«oo nn»nnoo»oo nn‹nnoo‹oo nn›nnoo›oo nn"nnoo"oo nn'nnoo'oo
+ nn0nnnn1nnnn2nnnn3nnnn4nnnn5nnnn6nnnn7nnnn8nnnn9nn
 
-NN.NNOO.OO NN,NNOO,OO NN:NNOO:OO NN;NNOO;OO NN…NNOO…OO NN!NNOO!OO NN¡NNOO¡OO NN?NNOO?OO NN¿NNOO¿OO NN•NNOO•OO NN*NNOO*OO NN#NNOO#OO NN/NNOO/OO NN\NNOO\OO NN(NNOO(OO NN)NNOO)OO NN{NNOO{OO NN}NNOO}OO NN[NNOO[OO NN]NNOO]OO NN-NNOO-OO NN_NNOO_OO NN‚NNOO‚OO NN„NNOO„OO NN“NNOO“OO NN”NNOO”OO NN‘NNOO‘OO NN’NNOO’OO NN«NNOO«OO NN»NNOO»OO NN‹NNOO‹OO NN›NNOO›OO NN"NNOO"OO NN'NNOO'OO"""
+oo0oooo1oooo2oooo3oooo4oooo5oooo6oooo7oooo8oooo9oo
+
+NN0NNNN1NNNN2NNNN3NNNN4NNNN5NNNN6NNNN7NNNN8NNNN9NN
+
+OO0OOOO1OOOO2OOOO3OOOO4OOOO5OOOO6OOOO7OOOO8OOOO9OO
+
+000000100200300400500600700800900 
+"""
 
 lc_text = "lynx tuft frogs, dolphins abduct by proxy the ever awkward klutz, dud, dummkopf, jinx snubnose filmgoer, orphan sgt. renfruw grudgek reyfus, md. sikh psych if halt tympany jewelry sri heh! twyer vs jojo pneu fylfot alcaaba son of nonplussed halfbreed bubbly playboy guggenheim daddy coccyx sgraffito effect, vacuum dirndle impossible attempt to disvalue, muzzle the afghan czech czar and exninja, bob bixby dvorak wood dhurrie savvy, dizzy eye aeon circumcision uvula scrungy picnic luxurious special type carbohydrate ovoid adzuki kumquat bomb? afterglows gold girl pygmy gnome lb. ankhs acme aggroupment akmed brouhha tv wt. ujjain ms. oz abacus mnemonics bhikku khaki bwana aorta embolism vivid owls often kvetch otherwise, wysiwyg densfort wright you’ve absorbed rhythm, put obstacle kyaks krieg kern wurst subject enmity equity coquet quorum pique tzetse hepzibah sulfhydryl briefcase ajax ehler kafka fjord elfship halfdressed jugful eggcup hummingbirds swingdevil bagpipe legwork reproachful hunchback archknave baghdad wejh rijswijk rajbansi rajput ajdir okay weekday obfuscate subpoena liebknecht marcgravia ecbolic arcticward dickcissel pincpinc boldface maidkin adjective adcraft adman dwarfness applejack darkbrown kiln palzy always farmland flimflam unbossy nonlineal stepbrother lapdog stopgap sx countdown basketball beaujolais vb. flowchart aztec lazy bozo syrup tarzan annoying dyke yucky hawg gagzhukz cuzco squire when hiho mayhem nietzsche szasz gumdrop milk emplotment ambidextrously lacquer byway ecclesiastes stubchen hobgoblins crabmill aqua hawaii blvd. subquality byzantine empire debt obvious cervantes jekabzeel anecdote flicflac mechanicville bedbug couldn’t i’ve it’s they’ll they’d dpt. headquarter burkhardt xerxes atkins govt. ebenezer lg. lhama amtrak amway fixity axmen quumbabda upjohn hrumpf"
 
@@ -78,18 +85,18 @@ boxHeight = pageHeight - border * 2
 
 newPage(format)
 font(cantarell)
-fontVariations(wght=400)
-fontSize(12)
+fontVariations(wght=100)
+fontSize(20)
 textBox(basic_test, (border, border, boxWidth, boxHeight))
 
 newPage(format)
 font(cantarell)
-fontVariations(wght=400)
-fontSize(12)
+fontVariations(wght=100)
+fontSize(13)
 textBox(lc_text + "\n\n" + uc_text, (border, border, boxWidth, boxHeight))
 
 newPage(format)
 font(cantarell)
-fontVariations(wght=400)
-fontSize(12)
+fontVariations(wght=100)
+fontSize(13)
 textBox(ul_text+ "\n\n" + misc_text, (border, border, boxWidth, boxHeight))
