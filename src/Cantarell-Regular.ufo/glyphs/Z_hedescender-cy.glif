@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedescender-cy" format="2">
-  <advance width="988"/>
+  <advance width="985"/>
   <unicode hex="0496"/>
   <outline>
     <component base="Zhe-cy"/>
@@ -12,6 +12,8 @@
       <string>Zhe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Tse-cy</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=Zhe-cy+10</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
