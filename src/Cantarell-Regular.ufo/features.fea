@@ -4,17 +4,17 @@
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
+
 languagesystem latn dflt;
-languagesystem cyrl dflt;
-languagesystem latn NLD;
-languagesystem latn CAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn KAZ;
+languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn CRT;
 languagesystem latn AZE;
-languagesystem cyrl TAT;
+languagesystem latn NLD;
+languagesystem latn CAT;
 
 
 # Prefix: GDEF
@@ -76,35 +76,39 @@ lookup ccmp_Other_3 {
 
 feature locl {
 # automatic
-script latn;
-language NLD;
-sub iacute j' by jacute;
-sub Iacute J' by Jacute;
-language CAT;
-sub l periodcentered' l by periodcentered.loclCAT;
-sub L periodcentered' L by periodcentered.loclCAT.case;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
+lookup locl_latn_0 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language AZE;
+	sub i by idotaccent;
+} locl_latn_0;
 
-script cyrl;
-language TAT;
-sub i by idotaccent;
+lookup locl_latn_1 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_1;
 
 } locl;
 
@@ -296,6 +300,7 @@ sub descender-cy by descender-cy.case;
 
 feature liga {
 # automatic
+lookupflag IgnoreMarks;
 sub f i by fi;
 sub f l by fl;
 
@@ -303,9 +308,9 @@ sub f l by fl;
 
 feature zero {
 # automatic
+sub zero by zero.zero;
 sub zero.osf by zero.osf.zero;
 sub zero.tf by zero.tf.zero;
-sub zero by zero.zero;
 
 } zero;
 

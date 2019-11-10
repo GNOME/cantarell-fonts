@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave" format="2">
-  <advance width="242"/>
+  <advance width="500"/>
   <unicode hex="0060"/>
   <outline>
-    <component base="gravecomb" xOffset="3"/>
+    <component base="gravecomb" xOffset="118"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>enspace</string>
+    </dict>
+  </lib>
 </glyph>

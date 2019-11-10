@@ -1,29 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="A" format="2">
-  <advance width="639"/>
+  <advance width="630"/>
   <unicode hex="0041"/>
   <note>
 A
 </note>
-  <anchor x="326" y="0" name="bottom"/>
-  <anchor x="588" y="10" name="ogonek"/>
-  <anchor x="329" y="694" name="top"/>
+  <anchor x="322" y="0" name="bottom"/>
+  <anchor x="584" y="10" name="ogonek"/>
+  <anchor x="325" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="44" y="0" type="line"/>
-      <point x="66" y="0" type="line"/>
-      <point x="329" y="676" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="62" y="0" type="line"/>
       <point x="325" y="676" type="line"/>
-      <point x="570" y="0" type="line"/>
-      <point x="594" y="0" type="line"/>
-      <point x="340" y="694" type="line"/>
-      <point x="317" y="694" type="line"/>
+      <point x="321" y="676" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="336" y="694" type="line"/>
+      <point x="313" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="153" y="249" type="line"/>
-      <point x="493" y="249" type="line"/>
-      <point x="487" y="268" type="line"/>
-      <point x="158" y="268" type="line"/>
+      <point x="149" y="249" type="line"/>
+      <point x="489" y="249" type="line"/>
+      <point x="483" y="268" type="line"/>
+      <point x="154" y="268" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>
