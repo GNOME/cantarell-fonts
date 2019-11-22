@@ -362,7 +362,6 @@
           <string>acutecomb</string>
           <string>acutecomb.case</string>
           <string>acutecomb.loclVIET</string>
-          <string>acutecomb_dotaccentcomb</string>
           <string>adblgrave</string>
           <string>adieresis</string>
           <string>adieresis-cy</string>
@@ -387,14 +386,6 @@
           <string>brevecomb-cy.case</string>
           <string>brevecomb.case</string>
           <string>brevecomb.loclVIET</string>
-          <string>brevecomb_acutecomb</string>
-          <string>brevecomb_acutecomb.case</string>
-          <string>brevecomb_gravecomb</string>
-          <string>brevecomb_gravecomb.case</string>
-          <string>brevecomb_hookabovecomb</string>
-          <string>brevecomb_hookabovecomb.case</string>
-          <string>brevecomb_tildecomb</string>
-          <string>brevecomb_tildecomb.case</string>
           <string>breveinvertedcomb</string>
           <string>breveinvertedcomb.case</string>
           <string>c</string>
@@ -404,7 +395,6 @@
           <string>caroncomb.alt</string>
           <string>caroncomb.case</string>
           <string>caroncomb.loclVIET</string>
-          <string>caroncomb_dotaccentcomb</string>
           <string>ccaron</string>
           <string>ccedilla</string>
           <string>ccedillaacute</string>
@@ -420,14 +410,6 @@
           <string>circumflexcomb</string>
           <string>circumflexcomb.case</string>
           <string>circumflexcomb.loclVIET</string>
-          <string>circumflexcomb_acutecomb</string>
-          <string>circumflexcomb_acutecomb.case</string>
-          <string>circumflexcomb_gravecomb</string>
-          <string>circumflexcomb_gravecomb.case</string>
-          <string>circumflexcomb_hookabovecomb</string>
-          <string>circumflexcomb_hookabovecomb.case</string>
-          <string>circumflexcomb_tildecomb</string>
-          <string>circumflexcomb_tildecomb.case</string>
           <string>commaaccentcomb</string>
           <string>commaturnedabovecomb</string>
           <string>commaturnedmod</string>
@@ -445,16 +427,11 @@
           <string>dieresiscomb</string>
           <string>dieresiscomb.case</string>
           <string>dieresiscomb.loclVIET</string>
-          <string>dieresiscomb_acutecomb</string>
-          <string>dieresiscomb_caroncomb</string>
-          <string>dieresiscomb_gravecomb</string>
-          <string>dieresiscomb_macroncomb</string>
           <string>dje-cy</string>
           <string>dlinebelow</string>
           <string>dotaccentcomb</string>
           <string>dotaccentcomb.case</string>
           <string>dotaccentcomb.loclVIET</string>
-          <string>dotaccentcomb_macroncomb</string>
           <string>dotbelowcomb</string>
           <string>doubleprimemod</string>
           <string>dze-cy</string>
@@ -576,6 +553,7 @@
           <string>kgreenlandic</string>
           <string>kje-cy</string>
           <string>l</string>
+          <string>l.ss01</string>
           <string>lacute</string>
           <string>lcaron</string>
           <string>lcommaaccent</string>
@@ -591,9 +569,6 @@
           <string>macroncomb.loclVIET</string>
           <string>macroncomb.narrow</string>
           <string>macroncomb.narrow.case</string>
-          <string>macroncomb_acutecomb</string>
-          <string>macroncomb_dieresiscomb</string>
-          <string>macroncomb_gravecomb</string>
           <string>mdotbelow</string>
           <string>n</string>
           <string>nacute</string>
@@ -708,9 +683,6 @@
           <string>tildecomb</string>
           <string>tildecomb.case</string>
           <string>tildecomb.loclVIET</string>
-          <string>tildecomb_acutecomb</string>
-          <string>tildecomb_dieresiscomb</string>
-          <string>tildecomb_macroncomb</string>
           <string>tlinebelow</string>
           <string>tse-cy</string>
           <string>tshe-cy</string>
