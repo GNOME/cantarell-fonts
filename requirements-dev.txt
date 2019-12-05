@@ -25,10 +25,11 @@ pyclipper==1.1.0.post3
 pylint==2.4.4
 pytz==2019.3
 six==1.13.0
+skia-pathops==0.2.0.post2
 statmake==0.2.0
 typed-ast==1.4.0          # via astroid, mypy
 typing-extensions==3.7.4.1  # via mypy
-ufo2ft==2.11.0
+ufo2ft==2.11.1
 ufolib2==0.5.1
 unicodedata2==12.1.0      # via fonttools
 wrapt==1.11.2             # via astroid

@@ -25,7 +25,7 @@ def generate_and_write_autohinted_instance(
     # instance.save(output_dir / f"{file_stem}.ufo", overwrite=True)
 
     # 4. Compile and write instance OTF to disk.
-    instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, inplace=True)
+    instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, overlapsBackend="pathops", inplace=True)
     output_path = output_dir / f"{file_stem}.otf"
     instance_font.save(output_path)
 
