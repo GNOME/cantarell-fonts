@@ -38,8 +38,8 @@ designspace.instances = [
     s for s in designspace.instances if s.lib.get("com.schriftgestaltung.export", True)
 ]
 
-# 2. Compile variable TTF from the masters.
-varfont = ufo2ft.compileVariableTTF(designspace, inplace=True)
+# 2. Compile variable OTF from the masters.
+varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True)
 
 # 3. Generate STAT table.
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
