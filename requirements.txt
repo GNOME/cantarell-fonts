@@ -11,13 +11,16 @@ cattrs==0.9.0             # via statmake
 compreffor==0.5.0         # via ufo2ft
 cu2qu==1.6.6              # via ufo2ft
 fontmath==0.5.2
-fonttools[ufo]==4.2.0
+fonttools[ufo]==4.2.2
 fs==2.4.11                # via fonttools
-psautohint==1.9.4
+psautohint==2.0.0
 pyclipper==1.1.0.post3    # via booleanoperations
 pytz==2019.3              # via fs
 six==1.13.0               # via fs
-skia-pathops==0.2.0.post2
+skia-pathops==0.2.1
 statmake==0.2.0
 ufo2ft==2.11.1
 ufolib2==0.5.1
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
