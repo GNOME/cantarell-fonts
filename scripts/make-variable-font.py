@@ -6,6 +6,7 @@
 # sequentially.
 
 import argparse
+import subprocess
 from pathlib import Path
 
 import fontTools.designspaceLib
@@ -22,12 +23,16 @@ parser.add_argument(
 parser.add_argument(
     "stylespace_path", type=Path, help="The path to the Stylespace file."
 )
+parser.add_argument(
+    "psautohint_path", type=Path, help="The path to psautohint."
+)
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
 
 designspace_path = args.designspace_path.resolve()
 stylespace_path = args.stylespace_path.resolve()
 output_path = args.output_path.resolve()
+psautohint_path = args.psautohint_path.resolve()
 
 
 # 1. Load Designspace and filter out instances that are marked as non-exportable.
@@ -45,5 +50,8 @@ varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True)
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
 statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
 
-
+# External tools after this point.
 varfont.save(output_path)
+
+# 4. Autohint
+subprocess.run([psautohint_path, str(output_path)])
