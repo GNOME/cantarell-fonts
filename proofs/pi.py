@@ -2,7 +2,7 @@ from pathlib import Path
 
 pi_text = (Path(__file__).parent / "pi.txt").read_text()
 
-cantarell = installFont("/tmp/Cantarell-VF.ttf")
+cantarell = installFont("/tmp/Cantarell-VF.otf")
 
 paper_format = "A4Landscape"
 border = 25
