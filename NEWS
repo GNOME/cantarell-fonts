@@ -1,9 +1,11 @@
-Next version:
-- Added variable font, TrueType flavor. No hinting for now.
+0.200:
+- Respacing of uppercase letters in the regular master and complete thin and
+  extra bold masters. Uppercase letters space better next to lowercase letters
+  now. Cyrillics are more consistently spaced.
+- Tweak numerals some. Especially the "one".
+- Various tweaks to various shapes, especially symbols.
+- Added variable font, CFF2 flavor.
 - Static fonts use same rounding method as varLib uses for the variable font.
-- Set the UseTypoMetrics flag. This is recommended by the OpenType
-  specification but will result in line-height spacing problems in various
-  places, as the typo line height is generally ignored. May be reverted.
 - Fixed Ustraight-cy (U+04AE), ustraight-cy (U+04AF), Ustraightstroke-cy
   (U+04B0), ustraightstroke-cy (U+04B1), they didn't have a proper production
   name before and may not have been properly accessible.
