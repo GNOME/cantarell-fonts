@@ -22,6 +22,7 @@ custom_target(
         make_variable_font,
         '@INPUT@',
         join_paths(meson.current_source_dir(), 'Cantarell.stylespace'),
+        psautohint,
         '@OUTPUT@'
     ],
     install: true,
