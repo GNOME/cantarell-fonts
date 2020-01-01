@@ -1,9 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash" format="2">
-  <advance width="278"/>
+  <advance width="328"/>
   <unicode hex="0142"/>
   <outline>
-    <component base="l"/>
-    <component base="slashshortcomb" xOffset="-37" yOffset="100"/>
+    <component base="l" xOffset="21"/>
+    <component base="slashshortcomb" xOffset="-16" yOffset="100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>
