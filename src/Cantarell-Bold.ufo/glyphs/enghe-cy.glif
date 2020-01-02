@@ -1,31 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="enghe-cy" format="2">
-  <advance width="716"/>
+  <advance width="734"/>
   <unicode hex="04A5"/>
   <outline>
     <contour>
-      <point x="375" y="0" type="line"/>
-      <point x="543" y="0" type="line"/>
-      <point x="543" y="490" type="line"/>
-      <point x="375" y="490" type="line"/>
+      <point x="382" y="0" type="line"/>
+      <point x="550" y="0" type="line"/>
+      <point x="550" y="357" type="line"/>
+      <point x="724" y="357" type="line"/>
+      <point x="724" y="490" type="line"/>
+      <point x="382" y="490" type="line"/>
     </contour>
     <contour>
-      <point x="55" y="0" type="line"/>
-      <point x="223" y="0" type="line"/>
-      <point x="223" y="490" type="line"/>
-      <point x="55" y="490" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="230" y="0" type="line"/>
+      <point x="230" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
     </contour>
     <contour>
-      <point x="205" y="179" type="line"/>
-      <point x="393" y="179" type="line"/>
-      <point x="393" y="314" type="line"/>
-      <point x="205" y="314" type="line"/>
-    </contour>
-    <contour>
-      <point x="505" y="357" type="line"/>
-      <point x="717" y="357" type="line"/>
-      <point x="717" y="490" type="line"/>
-      <point x="505" y="490" type="line"/>
+      <point x="212" y="179" type="line"/>
+      <point x="400" y="179" type="line"/>
+      <point x="400" y="314" type="line"/>
+      <point x="212" y="314" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
+    </dict>
+  </lib>
 </glyph>

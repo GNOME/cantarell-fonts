@@ -1,28 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kip" format="2">
-  <advance width="712"/>
+  <advance width="580"/>
   <unicode hex="20AD"/>
   <outline>
     <contour>
-      <point x="72" y="329" type="line"/>
-      <point x="604" y="329" type="line"/>
-      <point x="604" y="389" type="line"/>
-      <point x="72" y="389" type="line"/>
-    </contour>
-    <contour>
-      <point x="540" y="0" type="line"/>
-      <point x="642" y="0" type="line"/>
-      <point x="309" y="380" type="line"/>
-      <point x="315" y="358" type="line"/>
-      <point x="630" y="694" type="line"/>
+      <point x="441" y="0" type="line"/>
+      <point x="543" y="0" type="line"/>
+      <point x="269" y="380" type="line"/>
+      <point x="275" y="358" type="line"/>
       <point x="534" y="694" type="line"/>
-      <point x="228" y="361" type="line"/>
+      <point x="438" y="694" type="line"/>
+      <point x="186" y="361" type="line"/>
     </contour>
     <contour>
-      <point x="148" y="0" type="line"/>
-      <point x="231" y="0" type="line"/>
-      <point x="231" y="694" type="line"/>
-      <point x="148" y="694" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="189" y="0" type="line"/>
+      <point x="189" y="694" type="line"/>
+      <point x="106" y="694" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="329" type="line"/>
+      <point x="512" y="329" type="line"/>
+      <point x="512" y="389" type="line"/>
+      <point x="43" y="389" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,22 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upArrow" format="2">
-  <advance width="640"/>
+  <advance width="616"/>
   <unicode hex="2191"/>
-  <note>
-arrowup
-</note>
   <outline>
     <contour>
-      <point x="311" y="44" type="line"/>
-      <point x="330" y="44" type="line"/>
-      <point x="330" y="561" type="line"/>
-      <point x="547" y="326" type="line"/>
-      <point x="561" y="339" type="line"/>
-      <point x="322" y="598" type="line"/>
-      <point x="319" y="598" type="line"/>
-      <point x="79" y="337" type="line"/>
-      <point x="92" y="324" type="line"/>
-      <point x="311" y="562" type="line"/>
+      <point x="299" y="44" type="line"/>
+      <point x="318" y="44" type="line"/>
+      <point x="318" y="561" type="line"/>
+      <point x="535" y="326" type="line"/>
+      <point x="549" y="339" type="line"/>
+      <point x="310" y="598" type="line"/>
+      <point x="307" y="598" type="line"/>
+      <point x="67" y="337" type="line"/>
+      <point x="80" y="324" type="line"/>
+      <point x="299" y="562" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

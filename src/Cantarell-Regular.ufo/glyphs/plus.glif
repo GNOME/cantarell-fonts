@@ -1,19 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus" format="2">
-  <advance width="642"/>
+  <advance width="580"/>
   <unicode hex="002B"/>
   <outline>
     <contour>
-      <point x="289" y="62" type="line"/>
-      <point x="359" y="62" type="line"/>
-      <point x="359" y="590" type="line"/>
-      <point x="289" y="590" type="line"/>
+      <point x="252" y="99" type="line"/>
+      <point x="328" y="99" type="line"/>
+      <point x="328" y="569" type="line"/>
+      <point x="252" y="569" type="line"/>
     </contour>
     <contour>
-      <point x="69" y="296" type="line"/>
-      <point x="573" y="296" type="line"/>
-      <point x="573" y="365" type="line"/>
-      <point x="69" y="365" type="line"/>
+      <point x="55" y="297" type="line"/>
+      <point x="525" y="297" type="line"/>
+      <point x="525" y="371" type="line"/>
+      <point x="55" y="371" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

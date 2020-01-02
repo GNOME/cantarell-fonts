@@ -1,18 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="franc" format="2">
-  <advance width="666"/>
+  <advance width="580"/>
   <unicode hex="20A3"/>
   <outline>
-    <component base="F" xOffset="49"/>
-    <component base="strokeshortcomb.case" xOffset="-1" yOffset="-131"/>
+    <contour>
+      <point x="131" y="0" type="line"/>
+      <point x="214" y="0" type="line"/>
+      <point x="214" y="322" type="line"/>
+      <point x="492" y="322" type="line"/>
+      <point x="492" y="394" type="line"/>
+      <point x="214" y="394" type="line"/>
+      <point x="214" y="622" type="line"/>
+      <point x="518" y="622" type="line"/>
+      <point x="518" y="694" type="line"/>
+      <point x="131" y="694" type="line"/>
+    </contour>
+    <contour>
+      <point x="53" y="147" type="line"/>
+      <point x="348" y="147" type="line"/>
+      <point x="348" y="212" type="line"/>
+      <point x="53" y="212" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
     </dict>
   </lib>
 </glyph>

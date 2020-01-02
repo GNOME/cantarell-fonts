@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macron" format="2">
-  <advance width="475"/>
+  <advance width="500"/>
   <unicode hex="00AF"/>
   <outline>
-    <component base="macroncomb" xOffset="-12"/>
+    <component base="macroncomb" xOffset="8"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>enspace</string>
+    </dict>
+  </lib>
 </glyph>

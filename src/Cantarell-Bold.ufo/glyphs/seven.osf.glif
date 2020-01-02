@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.osf" format="2">
-  <advance width="528"/>
+  <advance width="532"/>
   <outline>
     <contour>
-      <point x="67" y="-100" type="line"/>
-      <point x="244" y="-100" type="line"/>
-      <point x="521" y="493" type="line"/>
-      <point x="521" y="594" type="line"/>
-      <point x="9" y="594" type="line"/>
-      <point x="9" y="449" type="line"/>
-      <point x="372" y="449" type="line"/>
-      <point x="346" y="490" type="line"/>
+      <point x="70" y="-100" type="line"/>
+      <point x="247" y="-100" type="line"/>
+      <point x="524" y="493" type="line"/>
+      <point x="524" y="594" type="line"/>
+      <point x="12" y="594" type="line"/>
+      <point x="12" y="449" type="line"/>
+      <point x="375" y="449" type="line"/>
+      <point x="349" y="490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seven</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seven</string>
+    </dict>
+  </lib>
 </glyph>

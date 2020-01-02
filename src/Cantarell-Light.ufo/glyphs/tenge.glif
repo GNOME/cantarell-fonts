@@ -1,7 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tenge" format="2">
-  <advance width="600"/>
+  <advance width="580"/>
   <unicode hex="20B8"/>
   <outline>
+    <contour>
+      <point x="280" y="0" type="line"/>
+      <point x="301" y="0" type="line"/>
+      <point x="300" y="520" type="line"/>
+      <point x="527" y="520" type="line"/>
+      <point x="527" y="537" type="line"/>
+      <point x="55" y="537" type="line"/>
+      <point x="55" y="520" type="line"/>
+      <point x="281" y="520" type="line"/>
+    </contour>
+    <contour>
+      <point x="54" y="677" type="line"/>
+      <point x="526" y="677" type="line"/>
+      <point x="526" y="694" type="line"/>
+      <point x="54" y="694" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

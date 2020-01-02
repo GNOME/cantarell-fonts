@@ -1,34 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="U" format="2">
-  <advance width="709"/>
+  <advance width="720"/>
   <unicode hex="0055"/>
-  <note>
-U
-</note>
-  <anchor x="355" y="0" name="bottom"/>
-  <anchor x="451" y="10" name="ogonek"/>
-  <anchor x="355" y="694" name="top"/>
-  <anchor x="658" y="694" name="topright"/>
+  <anchor x="360" y="0" name="bottom"/>
+  <anchor x="456" y="10" name="ogonek"/>
+  <anchor x="360" y="694" name="top"/>
+  <anchor x="663" y="694" name="topright"/>
   <outline>
     <contour>
-      <point x="347" y="-10" type="curve" smooth="yes"/>
-      <point x="536" y="-10"/>
-      <point x="658" y="107"/>
-      <point x="658" y="287" type="curve" smooth="yes"/>
-      <point x="658" y="694" type="line"/>
-      <point x="487" y="694" type="line"/>
-      <point x="487" y="267" type="line" smooth="yes"/>
-      <point x="487" y="187"/>
-      <point x="442" y="140"/>
-      <point x="366" y="140" type="curve" smooth="yes"/>
-      <point x="277" y="140"/>
-      <point x="225" y="195"/>
-      <point x="225" y="287" type="curve" smooth="yes"/>
-      <point x="225" y="694" type="line"/>
-      <point x="52" y="694" type="line"/>
-      <point x="52" y="277" type="line" smooth="yes"/>
-      <point x="52" y="98"/>
-      <point x="163" y="-10"/>
+      <point x="352" y="-10" type="curve" smooth="yes"/>
+      <point x="541" y="-10"/>
+      <point x="663" y="107"/>
+      <point x="663" y="287" type="curve" smooth="yes"/>
+      <point x="663" y="694" type="line"/>
+      <point x="492" y="694" type="line"/>
+      <point x="492" y="267" type="line" smooth="yes"/>
+      <point x="492" y="187"/>
+      <point x="447" y="140"/>
+      <point x="371" y="140" type="curve" smooth="yes"/>
+      <point x="282" y="140"/>
+      <point x="230" y="195"/>
+      <point x="230" y="287" type="curve" smooth="yes"/>
+      <point x="230" y="694" type="line"/>
+      <point x="57" y="694" type="line"/>
+      <point x="57" y="277" type="line" smooth="yes"/>
+      <point x="57" y="98"/>
+      <point x="168" y="-10"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

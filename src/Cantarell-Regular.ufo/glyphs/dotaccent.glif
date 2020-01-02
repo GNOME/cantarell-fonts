@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
-  <advance width="266"/>
+  <advance width="500"/>
   <unicode hex="02D9"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="-3"/>
+    <component base="dotaccentcomb" xOffset="117"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>enspace</string>
+    </dict>
+  </lib>
 </glyph>

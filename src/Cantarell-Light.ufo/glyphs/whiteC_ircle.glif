@@ -2,9 +2,6 @@
 <glyph name="whiteCircle" format="2">
   <advance width="662"/>
   <unicode hex="25CB"/>
-  <note>
-circle
-</note>
   <outline>
     <contour>
       <point x="329" y="109" type="curve" smooth="yes"/>
@@ -35,4 +32,12 @@ circle
       <point x="461" y="127"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>blackCircle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>blackCircle</string>
+    </dict>
+  </lib>
 </glyph>

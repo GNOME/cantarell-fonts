@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Endescender-cy" format="2">
-  <advance width="714"/>
+  <advance width="728"/>
   <unicode hex="04A2"/>
   <outline>
     <component base="En-cy"/>
-    <component base="descender-cy.case" xOffset="523"/>
+    <component base="descender-cy.case" xOffset="529"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Tse-cy</string>
     </dict>
   </lib>
 </glyph>

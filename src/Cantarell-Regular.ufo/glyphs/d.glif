@@ -2,21 +2,11 @@
 <glyph name="d" format="2">
   <advance width="570"/>
   <unicode hex="0064"/>
-  <note>
-d
-</note>
   <anchor x="287" y="0" name="bottom"/>
   <anchor x="412" y="598" name="center"/>
   <anchor x="287" y="482" name="top"/>
   <anchor x="591" y="482" name="topright"/>
   <outline>
-    <contour>
-      <point x="431" y="0" type="line"/>
-      <point x="487" y="0" type="line"/>
-      <point x="487" y="739" type="line"/>
-      <point x="407" y="739" type="line"/>
-      <point x="407" y="56" type="line"/>
-    </contour>
     <contour>
       <point x="267" y="-10" type="curve" smooth="yes"/>
       <point x="348" y="-10"/>
@@ -45,5 +35,20 @@ d
       <point x="52" y="89"/>
       <point x="138" y="-10"/>
     </contour>
+    <contour>
+      <point x="431" y="0" type="line"/>
+      <point x="487" y="0" type="line"/>
+      <point x="487" y="739" type="line"/>
+      <point x="407" y="739" type="line"/>
+      <point x="407" y="56" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|n</string>
+    </dict>
+  </lib>
 </glyph>

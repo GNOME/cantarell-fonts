@@ -1,9 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocircumflexgrave" format="2">
-  <advance width="782"/>
+  <advance width="760"/>
   <unicode hex="1ED2"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb_gravecomb.case" xOffset="225" yOffset="12"/>
+    <component base="circumflexcomb.loclVIET" xOffset="189" yOffset="212"/>
+    <component base="gravecomb.loclVIET" xOffset="340" yOffset="293"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>gravecomb.loclVIET</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -2,6 +2,7 @@
 <glyph name="sha-cy" format="2">
   <advance width="807"/>
   <unicode hex="0448"/>
+  <anchor x="717" y="0" name="bottomright"/>
   <outline>
     <contour>
       <point x="83" y="0" type="line"/>
@@ -29,6 +30,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|en-cy</string>
     </dict>
   </lib>
 </glyph>

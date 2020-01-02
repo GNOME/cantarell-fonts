@@ -1,21 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dzhe-cy" format="2">
-  <advance width="700"/>
+  <advance width="726"/>
   <unicode hex="040F"/>
   <outline>
     <contour>
-      <point x="345" y="-175" type="line"/>
-      <point x="366" y="-175" type="line"/>
-      <point x="366" y="0" type="line"/>
-      <point x="590" y="0" type="line"/>
-      <point x="590" y="694" type="line"/>
-      <point x="569" y="694" type="line"/>
-      <point x="569" y="19" type="line"/>
-      <point x="132" y="19" type="line"/>
-      <point x="132" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
-      <point x="110" y="0" type="line"/>
-      <point x="345" y="0" type="line"/>
+      <point x="358" y="-175" type="line"/>
+      <point x="379" y="-175" type="line"/>
+      <point x="379" y="0" type="line"/>
+      <point x="603" y="0" type="line"/>
+      <point x="603" y="694" type="line"/>
+      <point x="582" y="694" type="line"/>
+      <point x="582" y="19" type="line"/>
+      <point x="145" y="19" type="line"/>
+      <point x="145" y="694" type="line"/>
+      <point x="123" y="694" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="358" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

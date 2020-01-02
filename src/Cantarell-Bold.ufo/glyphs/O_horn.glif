@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohorn" format="2">
-  <advance width="842"/>
+  <advance width="864"/>
   <unicode hex="01A0"/>
   <outline>
     <component base="O"/>
-    <component base="horncomb" xOffset="555" yOffset="212"/>
+    <component base="horncomb" xOffset="566" yOffset="212"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=+82</string>
     </dict>

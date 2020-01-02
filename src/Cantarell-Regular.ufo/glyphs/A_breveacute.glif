@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abreveacute" format="2">
-  <advance width="677"/>
+  <advance width="626"/>
   <unicode hex="1EAE"/>
   <outline>
     <component base="A"/>
-    <component base="brevecomb_acutecomb.case" xOffset="164" yOffset="12"/>
+    <component base="brevecomb.loclVIET" xOffset="106" yOffset="212"/>
+    <component base="acutecomb.loclVIET" xOffset="231" yOffset="310"/>
   </outline>
 </glyph>

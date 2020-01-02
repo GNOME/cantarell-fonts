@@ -1,38 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kabashkir-cy" format="2">
-  <advance width="752"/>
+  <advance width="749"/>
   <unicode hex="04A0"/>
   <outline>
     <contour>
-      <point x="24" y="622" type="line"/>
-      <point x="282" y="622" type="line"/>
-      <point x="282" y="694" type="line"/>
-      <point x="24" y="694" type="line"/>
+      <point x="640" y="0" type="line"/>
+      <point x="735" y="0" type="line"/>
+      <point x="477" y="380" type="line"/>
+      <point x="482" y="358" type="line"/>
+      <point x="722" y="694" type="line"/>
+      <point x="634" y="694" type="line"/>
+      <point x="393" y="361" type="line"/>
     </contour>
     <contour>
-      <point x="635" y="0" type="line"/>
-      <point x="730" y="0" type="line"/>
-      <point x="472" y="380" type="line"/>
-      <point x="477" y="358" type="line"/>
-      <point x="717" y="694" type="line"/>
-      <point x="629" y="694" type="line"/>
-      <point x="388" y="361" type="line"/>
+      <point x="205" y="0" type="line"/>
+      <point x="287" y="0" type="line"/>
+      <point x="287" y="694" type="line"/>
+      <point x="29" y="694" type="line"/>
+      <point x="29" y="622" type="line"/>
+      <point x="205" y="622" type="line"/>
     </contour>
     <contour>
-      <point x="200" y="0" type="line"/>
-      <point x="282" y="0" type="line"/>
-      <point x="282" y="694" type="line"/>
-      <point x="200" y="694" type="line"/>
-    </contour>
-    <contour>
-      <point x="233" y="323" type="line"/>
-      <point x="438" y="323" type="line"/>
-      <point x="438" y="395" type="line"/>
-      <point x="233" y="395" type="line"/>
+      <point x="238" y="323" type="line"/>
+      <point x="443" y="323" type="line"/>
+      <point x="443" y="395" type="line"/>
+      <point x="238" y="395" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|Ge-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Ka-cy</string>
     </dict>

@@ -1,20 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I" format="2">
-  <advance width="291"/>
+  <advance width="267"/>
   <unicode hex="0049"/>
-  <note>
-I
-</note>
-  <anchor x="146" y="0" name="bottom"/>
-  <anchor x="165" y="10" name="ogonek"/>
-  <anchor x="146" y="694" name="top"/>
-  <anchor x="15" y="694" name="topleft"/>
+  <anchor x="134" y="0" name="bottom"/>
+  <anchor x="153" y="10" name="ogonek"/>
+  <anchor x="134" y="694" name="top"/>
+  <anchor x="3" y="694" name="topleft"/>
   <outline>
     <contour>
-      <point x="104" y="0" type="line"/>
-      <point x="187" y="0" type="line"/>
-      <point x="187" y="694" type="line"/>
-      <point x="104" y="694" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="175" y="694" type="line"/>
+      <point x="92" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

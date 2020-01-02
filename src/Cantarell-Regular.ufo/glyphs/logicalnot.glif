@@ -1,19 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="logicalnot" format="2">
-  <advance width="681"/>
+  <advance width="580"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="80" y="328" type="line"/>
-      <point x="556" y="328" type="line"/>
-      <point x="556" y="395" type="line"/>
-      <point x="80" y="395" type="line"/>
+      <point x="55" y="297" type="line"/>
+      <point x="525" y="297" type="line"/>
+      <point x="525" y="371" type="line"/>
+      <point x="55" y="371" type="line"/>
     </contour>
     <contour>
-      <point x="476" y="152" type="line"/>
-      <point x="556" y="152" type="line"/>
-      <point x="556" y="353" type="line"/>
-      <point x="476" y="353" type="line"/>
+      <point x="449" y="99" type="line"/>
+      <point x="525" y="99" type="line"/>
+      <point x="525" y="323" type="line"/>
+      <point x="449" y="323" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

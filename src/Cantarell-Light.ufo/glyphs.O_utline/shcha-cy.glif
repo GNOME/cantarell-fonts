@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shcha-cy" format="2">
+  <advance width="751"/>
+  <unicode hex="0449"/>
+  <outline>
+    <contour>
+      <point x="695" y="-121" type="line"/>
+      <point x="714" y="-121" type="line"/>
+      <point x="714" y="17" type="line"/>
+      <point x="109" y="17" type="line"/>
+      <point x="109" y="480" type="line"/>
+      <point x="88" y="480" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="695" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="365" y="9" type="line"/>
+      <point x="386" y="9" type="line"/>
+      <point x="386" y="480" type="line"/>
+      <point x="365" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="631" y="9" type="line"/>
+      <point x="652" y="9" type="line"/>
+      <point x="652" y="480" type="line"/>
+      <point x="631" y="480" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>70</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde" format="2">
-  <advance width="466"/>
+  <advance width="501"/>
   <unicode hex="1EB5"/>
   <outline>
     <component base="a"/>
-    <component base="brevecomb_tildecomb" xOffset="-23"/>
+    <component base="brevecomb.loclVIET" xOffset="23"/>
+    <component base="tildecomb.loclVIET" xOffset="-6" yOffset="80"/>
   </outline>
 </glyph>

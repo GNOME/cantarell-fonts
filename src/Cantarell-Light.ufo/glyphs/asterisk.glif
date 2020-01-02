@@ -1,43 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asterisk" format="2">
-  <advance width="461"/>
+  <advance width="479"/>
   <unicode hex="002A"/>
   <outline>
     <contour>
-      <point x="232" y="488" type="line"/>
-      <point x="409" y="585" type="line"/>
-      <point x="397" y="603" type="line"/>
-      <point x="226" y="497" type="line"/>
+      <point x="408" y="369" type="line"/>
+      <point x="420" y="387" type="line"/>
+      <point x="241" y="494" type="line"/>
+      <point x="234" y="484" type="line"/>
     </contour>
     <contour>
-      <point x="62" y="372" type="line"/>
-      <point x="232" y="487" type="line"/>
-      <point x="226" y="497" type="line"/>
-      <point x="50" y="390" type="line"/>
+      <point x="71" y="372" type="line"/>
+      <point x="241" y="487" type="line"/>
+      <point x="235" y="497" type="line"/>
+      <point x="59" y="390" type="line"/>
     </contour>
     <contour>
-      <point x="216" y="283" type="line"/>
-      <point x="237" y="283" type="line"/>
-      <point x="234" y="487" type="line"/>
-      <point x="220" y="487" type="line"/>
+      <point x="225" y="283" type="line"/>
+      <point x="246" y="283" type="line"/>
+      <point x="243" y="487" type="line"/>
+      <point x="229" y="487" type="line"/>
     </contour>
     <contour>
-      <point x="225" y="484" type="line"/>
-      <point x="230" y="494" type="line"/>
-      <point x="63" y="608" type="line"/>
-      <point x="51" y="590" type="line"/>
+      <point x="234" y="484" type="line"/>
+      <point x="239" y="494" type="line"/>
+      <point x="72" y="608" type="line"/>
+      <point x="60" y="590" type="line"/>
     </contour>
     <contour>
-      <point x="399" y="369" type="line"/>
-      <point x="411" y="387" type="line"/>
-      <point x="232" y="494" type="line"/>
-      <point x="225" y="484" type="line"/>
+      <point x="229" y="487" type="line"/>
+      <point x="243" y="487" type="line"/>
+      <point x="246" y="694" type="line"/>
+      <point x="225" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="220" y="487" type="line"/>
-      <point x="234" y="487" type="line"/>
-      <point x="237" y="694" type="line"/>
-      <point x="216" y="694" type="line"/>
+      <point x="241" y="488" type="line"/>
+      <point x="418" y="585" type="line"/>
+      <point x="406" y="603" type="line"/>
+      <point x="235" y="497" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

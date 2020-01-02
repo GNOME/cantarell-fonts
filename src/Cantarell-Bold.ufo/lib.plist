@@ -360,7 +360,6 @@
           <string>acutecomb</string>
           <string>acutecomb.case</string>
           <string>acutecomb.loclVIET</string>
-          <string>acutecomb_dotaccentcomb</string>
           <string>adblgrave</string>
           <string>adieresis</string>
           <string>adieresis-cy</string>
@@ -385,14 +384,6 @@
           <string>brevecomb-cy.case</string>
           <string>brevecomb.case</string>
           <string>brevecomb.loclVIET</string>
-          <string>brevecomb_acutecomb</string>
-          <string>brevecomb_acutecomb.case</string>
-          <string>brevecomb_gravecomb</string>
-          <string>brevecomb_gravecomb.case</string>
-          <string>brevecomb_hookabovecomb</string>
-          <string>brevecomb_hookabovecomb.case</string>
-          <string>brevecomb_tildecomb</string>
-          <string>brevecomb_tildecomb.case</string>
           <string>breveinvertedcomb</string>
           <string>breveinvertedcomb.case</string>
           <string>c</string>
@@ -402,7 +393,6 @@
           <string>caroncomb.alt</string>
           <string>caroncomb.case</string>
           <string>caroncomb.loclVIET</string>
-          <string>caroncomb_dotaccentcomb</string>
           <string>ccaron</string>
           <string>ccedilla</string>
           <string>ccedillaacute</string>
@@ -418,14 +408,6 @@
           <string>circumflexcomb</string>
           <string>circumflexcomb.case</string>
           <string>circumflexcomb.loclVIET</string>
-          <string>circumflexcomb_acutecomb</string>
-          <string>circumflexcomb_acutecomb.case</string>
-          <string>circumflexcomb_gravecomb</string>
-          <string>circumflexcomb_gravecomb.case</string>
-          <string>circumflexcomb_hookabovecomb</string>
-          <string>circumflexcomb_hookabovecomb.case</string>
-          <string>circumflexcomb_tildecomb</string>
-          <string>circumflexcomb_tildecomb.case</string>
           <string>commaaccentcomb</string>
           <string>commaturnedabovecomb</string>
           <string>commaturnedmod</string>
@@ -443,16 +425,11 @@
           <string>dieresiscomb</string>
           <string>dieresiscomb.case</string>
           <string>dieresiscomb.loclVIET</string>
-          <string>dieresiscomb_acutecomb</string>
-          <string>dieresiscomb_caroncomb</string>
-          <string>dieresiscomb_gravecomb</string>
-          <string>dieresiscomb_macroncomb</string>
           <string>dje-cy</string>
           <string>dlinebelow</string>
           <string>dotaccentcomb</string>
           <string>dotaccentcomb.case</string>
           <string>dotaccentcomb.loclVIET</string>
-          <string>dotaccentcomb_macroncomb</string>
           <string>dotbelowcomb</string>
           <string>doubleprimemod</string>
           <string>dze-cy</string>
@@ -574,6 +551,7 @@
           <string>kgreenlandic</string>
           <string>kje-cy</string>
           <string>l</string>
+          <string>l.ss01</string>
           <string>lacute</string>
           <string>lcaron</string>
           <string>lcommaaccent</string>
@@ -589,9 +567,6 @@
           <string>macroncomb.loclVIET</string>
           <string>macroncomb.narrow</string>
           <string>macroncomb.narrow.case</string>
-          <string>macroncomb_acutecomb</string>
-          <string>macroncomb_dieresiscomb</string>
-          <string>macroncomb_gravecomb</string>
           <string>mdotbelow</string>
           <string>n</string>
           <string>nacute</string>
@@ -706,9 +681,6 @@
           <string>tildecomb</string>
           <string>tildecomb.case</string>
           <string>tildecomb.loclVIET</string>
-          <string>tildecomb_acutecomb</string>
-          <string>tildecomb_dieresiscomb</string>
-          <string>tildecomb_macroncomb</string>
           <string>tlinebelow</string>
           <string>tse-cy</string>
           <string>tshe-cy</string>
@@ -791,7 +763,7 @@
         <key>name</key>
         <string>propagateAnchors</string>
         <key>pre</key>
-        <true/>
+        <integer>1</integer>
       </dict>
     </array>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.Schwa</key>
@@ -874,14 +846,6 @@
         <string>eight.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.eight.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>eight.osf</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.el-cy</key>
     <dict>
       <key>RMXScaler</key>
@@ -930,14 +894,6 @@
         <string>five.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.five.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>five.osf</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.four.dnom</key>
     <dict>
       <key>RMXScaler</key>
@@ -952,14 +908,6 @@
       <dict>
         <key>source</key>
         <string>four.lf</string>
-      </dict>
-    </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.four.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>four.osf</string>
       </dict>
     </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.ge-cy</key>
@@ -1058,20 +1006,12 @@
         <string>nine.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.nine.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>nine</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.one.dnom</key>
     <dict>
       <key>RMXScaler</key>
       <dict>
         <key>source</key>
-        <string>one.lf</string>
+        <string>one</string>
       </dict>
     </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.one.tf</key>
@@ -1080,14 +1020,6 @@
       <dict>
         <key>source</key>
         <string>one.lf</string>
-      </dict>
-    </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.one.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>one.osf</string>
       </dict>
     </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.ordfeminine</key>
@@ -1130,14 +1062,6 @@
         <string>seven.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.seven.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>seven.osf</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.sha-cy</key>
     <dict>
       <key>RMXScaler</key>
@@ -1168,14 +1092,6 @@
       <dict>
         <key>source</key>
         <string>six.lf</string>
-      </dict>
-    </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.six.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>six</string>
       </dict>
     </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.softsign-cy</key>
@@ -1210,14 +1126,6 @@
         <string>three.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.three.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>three.osf</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.tildecomb.loclVIET</key>
     <dict>
       <key>RMXScaler</key>
@@ -1248,14 +1156,6 @@
       <dict>
         <key>source</key>
         <string>two.lf</string>
-      </dict>
-    </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.two.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>two.osf</string>
       </dict>
     </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.ve-cy</key>
@@ -1306,14 +1206,6 @@
         <string>zero.lf</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.zero.tosf</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>zero.osf</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.zhe-cy</key>
     <dict>
       <key>RMXScaler</key>
@@ -1323,7 +1215,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1230</string>
+    <string>1271</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Family Alignment Zones</key>
     <array>
       <string>{739, 10}</string>
@@ -1333,7 +1225,7 @@
       <string>{-217, -12}</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <true/>
+    <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1349,7 +1241,7 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramArea</key>
-    <string>260</string>
+    <string>300</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramDepth</key>
     <string>16</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.paramOver</key>
@@ -1863,9 +1755,7 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
-      <string>f_f</string>
-      <string>f_f_i</string>
-      <string>f_f_l</string>
+      <string>l.ss01</string>
       <string>fi</string>
       <string>fl</string>
       <string>ordfeminine</string>
@@ -2063,6 +1953,7 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>zero.zero</string>
       <string>zero.osf</string>
       <string>one.osf</string>
       <string>two.osf</string>
@@ -2085,18 +1976,6 @@
       <string>eight.tf</string>
       <string>nine.tf</string>
       <string>zero.tf.zero</string>
-      <string>zero.tosf</string>
-      <string>one.tosf</string>
-      <string>two.tosf</string>
-      <string>three.tosf</string>
-      <string>four.tosf</string>
-      <string>five.tosf</string>
-      <string>six.tosf</string>
-      <string>seven.tosf</string>
-      <string>eight.tosf</string>
-      <string>nine.tosf</string>
-      <string>zero.tosf.zero</string>
-      <string>zero.zero</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -2182,13 +2061,9 @@
       <string>bracketleft</string>
       <string>bracketright</string>
       <string>hyphen</string>
-      <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
       <string>figuredash</string>
-      <string>horizontalbar</string>
-      <string>hyphentwo</string>
-      <string>nonbreakinghyphen</string>
       <string>underscore</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
@@ -2206,9 +2081,7 @@
       <string>quotesingle</string>
       <string>leftanglebracket-math</string>
       <string>rightanglebracket-math</string>
-      <string>emquad</string>
       <string>emspace</string>
-      <string>enquad</string>
       <string>enspace</string>
       <string>figurespace</string>
       <string>fourperemspace</string>
@@ -2216,7 +2089,6 @@
       <string>punctuationspace</string>
       <string>sixperemspace</string>
       <string>space</string>
-      <string>nbspace</string>
       <string>thinspace</string>
       <string>threeperemspace</string>
       <string>zerowidthspace</string>
@@ -2230,6 +2102,7 @@
       <string>florin</string>
       <string>franc</string>
       <string>guarani</string>
+      <string>hryvnia</string>
       <string>kip</string>
       <string>lira</string>
       <string>liraTurkish</string>
@@ -2240,11 +2113,10 @@
       <string>ruble</string>
       <string>rupeeIndian</string>
       <string>sterling</string>
-      <string>won</string>
-      <string>yen</string>
-      <string>hryvnia</string>
       <string>tenge</string>
       <string>tugrik</string>
+      <string>won</string>
+      <string>yen</string>
       <string>bulletoperator</string>
       <string>commercialMinusSign</string>
       <string>divisionslash</string>
@@ -2262,8 +2134,8 @@
       <string>lessequal</string>
       <string>plusminus</string>
       <string>approxequal</string>
-      <string>logicalnot</string>
       <string>asciitilde</string>
+      <string>logicalnot</string>
       <string>asciicircum</string>
       <string>emptyset</string>
       <string>infinity</string>
@@ -2278,24 +2150,6 @@
       <string>percent</string>
       <string>perthousand</string>
       <string>ratio</string>
-      <string>bulletoperator.tf</string>
-      <string>commercialMinusSign.tf</string>
-      <string>divisionslash.tf</string>
-      <string>equivalence.tf</string>
-      <string>notidentical.tf</string>
-      <string>plus.tf</string>
-      <string>minus.tf</string>
-      <string>multiply.tf</string>
-      <string>divide.tf</string>
-      <string>equal.tf</string>
-      <string>notequal.tf</string>
-      <string>greater.tf</string>
-      <string>less.tf</string>
-      <string>greaterequal.tf</string>
-      <string>lessequal.tf</string>
-      <string>plusminus.tf</string>
-      <string>approxequal.tf</string>
-      <string>logicalnot.tf</string>
       <string>upArrow</string>
       <string>rightArrow</string>
       <string>downArrow</string>
@@ -2333,31 +2187,18 @@
       <string>verticallinelowmod</string>
       <string>verticallinemod</string>
       <string>dieresiscomb</string>
-      <string>dieresiscomb_gravecomb</string>
-      <string>dieresiscomb_acutecomb</string>
-      <string>dieresiscomb_caroncomb</string>
-      <string>dieresiscomb_macroncomb</string>
       <string>dotaccentcomb</string>
-      <string>dotaccentcomb_macroncomb</string>
       <string>gravecomb</string>
       <string>acutecomb</string>
-      <string>acutecomb_dotaccentcomb</string>
       <string>hungarumlautcomb</string>
       <string>caroncomb.alt</string>
       <string>circumflexcomb</string>
       <string>caroncomb</string>
-      <string>caroncomb_dotaccentcomb</string>
       <string>brevecomb</string>
       <string>ringcomb</string>
       <string>ringcomb_acutecomb</string>
       <string>tildecomb</string>
-      <string>tildecomb_dieresiscomb</string>
-      <string>tildecomb_acutecomb</string>
-      <string>tildecomb_macroncomb</string>
       <string>macroncomb</string>
-      <string>macroncomb_dieresiscomb</string>
-      <string>macroncomb_gravecomb</string>
-      <string>macroncomb_acutecomb</string>
       <string>hookabovecomb</string>
       <string>verticallineabovecomb</string>
       <string>dblgravecomb</string>
@@ -2376,19 +2217,19 @@
       <string>strokelongcomb</string>
       <string>slashshortcomb</string>
       <string>slashlongcomb</string>
-      <string>acute</string>
-      <string>breve</string>
-      <string>caron</string>
-      <string>cedilla</string>
-      <string>circumflex</string>
       <string>dieresis</string>
       <string>dotaccent</string>
       <string>grave</string>
+      <string>acute</string>
       <string>hungarumlaut</string>
-      <string>macron</string>
-      <string>ogonek</string>
+      <string>circumflex</string>
+      <string>caron</string>
+      <string>breve</string>
       <string>ring</string>
       <string>tilde</string>
+      <string>macron</string>
+      <string>cedilla</string>
+      <string>ogonek</string>
       <string>dieresiscomb.case</string>
       <string>dotaccentcomb.case</string>
       <string>gravecomb.case</string>
@@ -2428,28 +2269,11 @@
       <string>brevecomb-cy.case</string>
       <string>descender-cy.case</string>
       <string>descender-cy.strait</string>
-      <string>brevecomb_acutecomb</string>
-      <string>brevecomb_gravecomb</string>
-      <string>brevecomb_hookabovecomb</string>
-      <string>brevecomb_tildecomb</string>
-      <string>circumflexcomb_acutecomb</string>
-      <string>circumflexcomb_gravecomb</string>
-      <string>circumflexcomb_hookabovecomb</string>
-      <string>circumflexcomb_tildecomb</string>
-      <string>brevecomb_acutecomb.case</string>
-      <string>brevecomb_gravecomb.case</string>
-      <string>brevecomb_hookabovecomb.case</string>
-      <string>brevecomb_tildecomb.case</string>
-      <string>circumflexcomb_acutecomb.case</string>
-      <string>circumflexcomb_gravecomb.case</string>
-      <string>circumflexcomb_hookabovecomb.case</string>
-      <string>circumflexcomb_tildecomb.case</string>
       <string>_descenderreversed-cy</string>
       <string>_bar-cy</string>
       <string>_descender-cy.case.straight</string>
       <string>_descenderreverse-cy.case</string>
       <string>_bottomhook</string>
-      <string>_o.numero</string>
       <string>_slash.zero</string>
       <string>_typoquote</string>
       <string>_commaaccent</string>
@@ -2918,8 +2742,6 @@
       <string>uni1EA9</string>
       <key>acircumflextilde</key>
       <string>uni1EAB</string>
-      <key>acutecomb_dotaccentcomb</key>
-      <string>uni03010307</string>
       <key>adblgrave</key>
       <string>uni0201</string>
       <key>adieresis-cy</key>
@@ -2952,29 +2774,11 @@
       <string>uni0306.case</string>
       <key>brevecomb.loclVIET</key>
       <string>uni0306.loclVIET</string>
-      <key>brevecomb_acutecomb</key>
-      <string>uni03060301</string>
-      <key>brevecomb_acutecomb.case</key>
-      <string>uni03060301.case</string>
-      <key>brevecomb_gravecomb</key>
-      <string>uni03060300</string>
-      <key>brevecomb_gravecomb.case</key>
-      <string>uni03060300.case</string>
-      <key>brevecomb_hookabovecomb</key>
-      <string>uni03060309</string>
-      <key>brevecomb_hookabovecomb.case</key>
-      <string>uni03060309.case</string>
-      <key>brevecomb_tildecomb</key>
-      <string>uni03060303</string>
-      <key>brevecomb_tildecomb.case</key>
-      <string>uni03060303.case</string>
       <key>breveinvertedcomb</key>
       <string>uni0311</string>
       <key>breveinvertedcomb.case</key>
       <string>uni0311.case</string>
       <key>bulletoperator</key>
-      <string>uni2219</string>
-      <key>bulletoperator.tf</key>
       <string>uni2219.tf</string>
       <key>caroncomb</key>
       <string>uni030C</string>
@@ -2984,8 +2788,6 @@
       <string>uni030C.case</string>
       <key>caroncomb.loclVIET</key>
       <string>uni030C.loclVIET</string>
-      <key>caroncomb_dotaccentcomb</key>
-      <string>uni030C0307</string>
       <key>ccedillaacute</key>
       <string>uni1E09</string>
       <key>cedi</key>
@@ -3008,22 +2810,6 @@
       <string>uni0302.case</string>
       <key>circumflexcomb.loclVIET</key>
       <string>uni0302.loclVIET</string>
-      <key>circumflexcomb_acutecomb</key>
-      <string>uni03020301</string>
-      <key>circumflexcomb_acutecomb.case</key>
-      <string>uni03020301.case</string>
-      <key>circumflexcomb_gravecomb</key>
-      <string>uni03020300</string>
-      <key>circumflexcomb_gravecomb.case</key>
-      <string>uni03020300.case</string>
-      <key>circumflexcomb_hookabovecomb</key>
-      <string>uni03020309</string>
-      <key>circumflexcomb_hookabovecomb.case</key>
-      <string>uni03020309.case</string>
-      <key>circumflexcomb_tildecomb</key>
-      <string>uni03020303</string>
-      <key>circumflexcomb_tildecomb.case</key>
-      <string>uni03020303.case</string>
       <key>colonsign</key>
       <string>colonmonetary</string>
       <key>commaaccentcomb</key>
@@ -3033,8 +2819,6 @@
       <key>commaturnedmod</key>
       <string>uni02BB</string>
       <key>commercialMinusSign</key>
-      <string>uni2052</string>
-      <key>commercialMinusSign.tf</key>
       <string>uni2052.tf</string>
       <key>dblgravecomb</key>
       <string>uni030F</string>
@@ -3058,17 +2842,7 @@
       <string>uni0308.case</string>
       <key>dieresiscomb.loclVIET</key>
       <string>uni0308.loclVIET</string>
-      <key>dieresiscomb_acutecomb</key>
-      <string>uni03080301</string>
-      <key>dieresiscomb_caroncomb</key>
-      <string>uni0308030C</string>
-      <key>dieresiscomb_gravecomb</key>
-      <string>uni03080300</string>
-      <key>dieresiscomb_macroncomb</key>
-      <string>uni03080304</string>
       <key>divisionslash</key>
-      <string>uni2215</string>
-      <key>divisionslash.tf</key>
       <string>uni2215.tf</string>
       <key>dje-cy</key>
       <string>uni0452</string>
@@ -3080,8 +2854,6 @@
       <string>uni0307.case</string>
       <key>dotaccentcomb.loclVIET</key>
       <string>uni0307.loclVIET</string>
-      <key>dotaccentcomb_macroncomb</key>
-      <string>uni03070304</string>
       <key>doubleprimemod</key>
       <string>uni02BA</string>
       <key>downArrow</key>
@@ -3128,8 +2900,6 @@
       <string>uni1E17</string>
       <key>emacrongrave</key>
       <string>uni1E15</string>
-      <key>emquad</key>
-      <string>uni2001</string>
       <key>emspace</key>
       <string>uni2003</string>
       <key>en-cy</key>
@@ -3138,8 +2908,6 @@
       <string>uni04A3</string>
       <key>enghe-cy</key>
       <string>uni04A5</string>
-      <key>enquad</key>
-      <string>uni2000</string>
       <key>enspace</key>
       <string>uni2002</string>
       <key>er-cy</key>
@@ -3210,8 +2978,6 @@
       <string>uni1E2B</string>
       <key>hdotbelow</key>
       <string>uni1E25</string>
-      <key>horizontalbar</key>
-      <string>uni2015</string>
       <key>horncomb</key>
       <string>uni031B</string>
       <key>hryvnia</key>
@@ -3220,8 +2986,6 @@
       <string>uni030B</string>
       <key>hungarumlautcomb.case</key>
       <string>uni030B.case</string>
-      <key>hyphentwo</key>
-      <string>uni2010</string>
       <key>i-cy</key>
       <string>uni0456</string>
       <key>ia-cy</key>
@@ -3320,12 +3084,6 @@
       <string>uni0304.narrow</string>
       <key>macroncomb.narrow.case</key>
       <string>uni0304.narrow.case</string>
-      <key>macroncomb_acutecomb</key>
-      <string>uni03040301</string>
-      <key>macroncomb_dieresiscomb</key>
-      <string>uni03040308</string>
-      <key>macroncomb_gravecomb</key>
-      <string>uni03040300</string>
       <key>manat</key>
       <string>uni20BC</string>
       <key>mdotbelow</key>
@@ -3334,8 +3092,6 @@
       <string>uni00B5</string>
       <key>naira</key>
       <string>uni20A6</string>
-      <key>nbspace</key>
-      <string>uni00A0</string>
       <key>ncommaaccent</key>
       <string>uni0146</string>
       <key>ndotaccent</key>
@@ -3352,11 +3108,7 @@
       <string>uni045A</string>
       <key>nlinebelow</key>
       <string>uni1E49</string>
-      <key>nonbreakinghyphen</key>
-      <string>uni2011</string>
       <key>notidentical</key>
-      <string>uni2262</string>
-      <key>notidentical.tf</key>
       <string>uni2262.tf</string>
       <key>numero</key>
       <string>uni2116</string>
@@ -3528,8 +3280,6 @@
       <string>uni0337</string>
       <key>slashshortcomb.case</key>
       <string>uni0337.case</string>
-      <key>softhyphen</key>
-      <string>uni00AD</string>
       <key>softsign-cy</key>
       <string>uni044C</string>
       <key>strokelongcomb</key>
@@ -3560,10 +3310,6 @@
       <string>uni2004</string>
       <key>threesuperior</key>
       <string>uni00B3</string>
-      <key>tildecomb_dieresiscomb</key>
-      <string>uni03030308</string>
-      <key>tildecomb_macroncomb</key>
-      <string>uni03030304</string>
       <key>tlinebelow</key>
       <string>uni1E6F</string>
       <key>tripleprime</key>
@@ -3700,13 +3446,9 @@
       <string>_descender-cy.case.straight</string>
       <string>_descenderreverse-cy.case</string>
       <string>_descenderreversed-cy</string>
-      <string>_o.numero</string>
       <string>_slash.zero</string>
       <string>_slash.zero.osf</string>
       <string>_typoquote</string>
-      <string>hryvnia</string>
-      <string>tenge</string>
-      <string>tugrik</string>
     </array>
   </dict>
 </plist>

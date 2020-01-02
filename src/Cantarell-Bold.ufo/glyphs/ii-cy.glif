@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ii-cy" format="2">
-  <advance width="590"/>
+  <advance width="606"/>
   <unicode hex="0438"/>
-  <anchor x="565" y="0" name="bottomright"/>
-  <anchor x="295" y="490" name="top"/>
+  <anchor x="573" y="0" name="bottomright"/>
+  <anchor x="303" y="490" name="top"/>
   <outline>
     <contour>
-      <point x="54" y="0" type="line"/>
-      <point x="202" y="0" type="line"/>
-      <point x="407" y="301" type="line"/>
-      <point x="382" y="309" type="line"/>
-      <point x="382" y="0" type="line"/>
-      <point x="536" y="0" type="line"/>
-      <point x="536" y="490" type="line"/>
-      <point x="385" y="490" type="line"/>
-      <point x="180" y="181" type="line"/>
-      <point x="210" y="173" type="line"/>
-      <point x="210" y="490" type="line"/>
-      <point x="54" y="490" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="210" y="0" type="line"/>
+      <point x="415" y="301" type="line"/>
+      <point x="390" y="309" type="line"/>
+      <point x="390" y="0" type="line"/>
+      <point x="544" y="0" type="line"/>
+      <point x="544" y="490" type="line"/>
+      <point x="393" y="490" type="line"/>
+      <point x="188" y="181" type="line"/>
+      <point x="218" y="173" type="line"/>
+      <point x="218" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,6 +31,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|en-cy</string>
     </dict>
   </lib>
 </glyph>

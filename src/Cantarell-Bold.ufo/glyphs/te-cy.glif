@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="te-cy" format="2">
-  <advance width="494"/>
+  <advance width="514"/>
   <unicode hex="0442"/>
-  <anchor x="477" y="0" name="bottomright"/>
   <outline>
     <contour>
-      <point x="166" y="0" type="line"/>
-      <point x="326" y="0" type="line"/>
-      <point x="326" y="460" type="line"/>
-      <point x="166" y="460" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="355" type="line"/>
-      <point x="494" y="355" type="line"/>
-      <point x="494" y="490" type="line"/>
-      <point x="0" y="490" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="336" y="0" type="line"/>
+      <point x="336" y="355" type="line"/>
+      <point x="504" y="355" type="line"/>
+      <point x="504" y="490" type="line"/>
+      <point x="10" y="490" type="line"/>
+      <point x="10" y="355" type="line"/>
+      <point x="176" y="355" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,6 +25,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|ge-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
     </dict>
   </lib>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhorn" format="2">
-  <advance width="826"/>
+  <advance width="671"/>
   <unicode hex="01AF"/>
   <outline>
     <component base="U"/>
-    <component base="horncomb" xOffset="548" yOffset="212"/>
+    <component base="horncomb" xOffset="528" yOffset="212"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=+115</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
     </dict>
   </lib>
 </glyph>

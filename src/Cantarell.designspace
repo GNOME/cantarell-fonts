@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="800" default="400">
       <map input="100" output="20"/>
@@ -16,6 +16,10 @@
       </location>
     </source>
     <source filename="Cantarell-Regular.ufo">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="80"/>
       </location>
@@ -41,6 +45,17 @@
       <location>
         <dimension name="Weight" xvalue="80"/>
       </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>ShowInterpolation</string>
+              <string>-</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
     <instance stylename="Regular Interpolated For Testing">
       <location>
@@ -55,6 +70,10 @@
               <array>
                 <string>Regular</string>
               </array>
+            </array>
+            <array>
+              <string>ShowInterpolation</string>
+              <string>-</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -105,9 +124,9 @@
           <key>HV</key>
           <string>176</string>
           <key>OH</key>
-          <string>150</string>
+          <string>152</string>
           <key>OV</key>
-          <string>180</string>
+          <string>182</string>
           <key>nV</key>
           <string>173</string>
           <key>nd</key>
@@ -150,13 +169,9 @@
         <string>_descender-cy.case.straight</string>
         <string>_descenderreverse-cy.case</string>
         <string>_descenderreversed-cy</string>
-        <string>_o.numero</string>
         <string>_slash.zero</string>
         <string>_slash.zero.osf</string>
         <string>_typoquote</string>
-        <string>hryvnia</string>
-        <string>tenge</string>
-        <string>tugrik</string>
       </array>
     </dict>
   </lib>

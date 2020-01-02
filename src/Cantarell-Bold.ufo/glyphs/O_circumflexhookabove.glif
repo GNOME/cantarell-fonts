@@ -1,9 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocircumflexhookabove" format="2">
-  <advance width="760"/>
+  <advance width="782"/>
   <unicode hex="1ED4"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb_hookabovecomb.case" xOffset="193" yOffset="4"/>
+    <component base="circumflexcomb.loclVIET" xOffset="187" yOffset="204"/>
+    <component base="hookabovecomb.loclVIET" xOffset="415" yOffset="326"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>hookabovecomb.loclVIET</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

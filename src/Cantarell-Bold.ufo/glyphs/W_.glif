@@ -1,30 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="W" format="2">
-  <advance width="1026"/>
+  <advance width="1020"/>
   <unicode hex="0057"/>
-  <note>
-W
-</note>
-  <anchor x="510" y="0" name="bottom"/>
-  <anchor x="510" y="694" name="top"/>
+  <anchor x="507" y="0" name="bottom"/>
+  <anchor x="507" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="212" y="0" type="line"/>
-      <point x="402" y="0" type="line"/>
-      <point x="543" y="602" type="line"/>
-      <point x="463" y="602" type="line"/>
-      <point x="627" y="0" type="line"/>
-      <point x="812" y="0" type="line"/>
-      <point x="1026" y="694" type="line"/>
-      <point x="851" y="694" type="line"/>
-      <point x="690" y="85" type="line"/>
-      <point x="757" y="109" type="line"/>
-      <point x="608" y="690" type="line"/>
-      <point x="419" y="690" type="line"/>
-      <point x="287" y="105" type="line"/>
-      <point x="339" y="105" type="line"/>
-      <point x="195" y="694" type="line"/>
-      <point x="0" y="694" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="387" y="0" type="line"/>
+      <point x="545" y="602" type="line"/>
+      <point x="465" y="602" type="line"/>
+      <point x="639" y="0" type="line"/>
+      <point x="824" y="0" type="line"/>
+      <point x="1023" y="694" type="line"/>
+      <point x="848" y="694" type="line"/>
+      <point x="702" y="85" type="line"/>
+      <point x="769" y="109" type="line"/>
+      <point x="610" y="690" type="line"/>
+      <point x="421" y="690" type="line"/>
+      <point x="272" y="105" type="line"/>
+      <point x="324" y="105" type="line"/>
+      <point x="192" y="694" type="line"/>
+      <point x="-3" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,25 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y" format="2">
-  <advance width="528"/>
+  <advance width="556"/>
   <unicode hex="0059"/>
-  <note>
-Y
-</note>
-  <anchor x="269" y="0" name="bottom"/>
-  <anchor x="269" y="694" name="top"/>
-  <anchor x="3" y="694" name="topleft"/>
+  <anchor x="283" y="0" name="bottom"/>
+  <anchor x="283" y="694" name="top"/>
+  <anchor x="11" y="694" name="topleft"/>
   <outline>
     <contour>
-      <point x="254" y="0" type="line"/>
-      <point x="275" y="0" type="line"/>
-      <point x="275" y="333" type="line"/>
-      <point x="507" y="694" type="line"/>
-      <point x="484" y="694" type="line"/>
-      <point x="262" y="344" type="line"/>
-      <point x="270" y="344" type="line"/>
-      <point x="47" y="694" type="line"/>
-      <point x="21" y="694" type="line"/>
-      <point x="254" y="333" type="line"/>
+      <point x="268" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="289" y="333" type="line"/>
+      <point x="526" y="694" type="line"/>
+      <point x="503" y="694" type="line"/>
+      <point x="276" y="344" type="line"/>
+      <point x="284" y="344" type="line"/>
+      <point x="56" y="694" type="line"/>
+      <point x="30" y="694" type="line"/>
+      <point x="268" y="333" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

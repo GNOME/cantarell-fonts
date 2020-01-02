@@ -1,23 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tse-cy" format="2">
-  <advance width="687"/>
+  <advance width="702"/>
   <unicode hex="0426"/>
   <outline>
     <contour>
-      <point x="627" y="-175" type="line"/>
-      <point x="648" y="-175" type="line"/>
-      <point x="648" y="19" type="line"/>
-      <point x="132" y="19" type="line"/>
-      <point x="132" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
-      <point x="110" y="0" type="line"/>
-      <point x="627" y="0" type="line"/>
+      <point x="628" y="-175" type="line"/>
+      <point x="649" y="-175" type="line"/>
+      <point x="649" y="19" type="line"/>
+      <point x="145" y="19" type="line"/>
+      <point x="145" y="694" type="line"/>
+      <point x="123" y="694" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="628" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="539" y="10" type="line"/>
-      <point x="560" y="10" type="line"/>
-      <point x="560" y="694" type="line"/>
-      <point x="539" y="694" type="line"/>
+      <point x="552" y="10" type="line"/>
+      <point x="573" y="10" type="line"/>
+      <point x="573" y="694" type="line"/>
+      <point x="552" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+    </dict>
+  </lib>
 </glyph>
