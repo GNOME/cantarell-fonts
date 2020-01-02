@@ -1,6 +1,9 @@
+image: registry.gitlab.gnome.org/gnome/gnome-runtime-images/base:latest
+
 build:
   script:
-    - pip3 install -r requirements.txt
+    - dnf install -y libappstream-glib-devel gettext
+    - pip3 install meson ninja -r requirements.txt
     - meson build
     - ninja -C build install
 
