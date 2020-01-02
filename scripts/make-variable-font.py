@@ -23,9 +23,7 @@ parser.add_argument(
 parser.add_argument(
     "stylespace_path", type=Path, help="The path to the Stylespace file."
 )
-parser.add_argument(
-    "psautohint_path", type=Path, help="The path to psautohint."
-)
+parser.add_argument("psautohint_path", type=Path, help="The path to psautohint.")
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
 
@@ -44,7 +42,7 @@ designspace.instances = [
 ]
 
 # 2. Compile variable OTF from the masters.
-varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True)
+varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True, useProductionNames=True)
 
 # 3. Generate STAT table.
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)

@@ -1,24 +1,45 @@
 0.200:
+- (The design points below are mostly the result of design reviews by Alexei
+  Vanyashin, Jacques Le Bailly and Stephen Nixon, in no particular order).
 - Respacing of uppercase letters in the regular master and complete thin and
   extra bold masters. Uppercase letters space better next to lowercase letters
   now. Cyrillics are more consistently spaced.
-- Tweak numerals some. Especially the "one".
-- Various tweaks to various shapes, especially symbols.
-- Added variable font, CFF2 flavor.
+- Tweak numerals some. Especially the "one" and fractions.
+- Various tweaks to various shapes across the board, especially symbols. Braces
+  are curlier now. Detail tweaks to Cyrillics.
+- Basic mathy symbols and currency symbols now have tabular number width. I found
+  no advantage to having proportional variants.
+- Removed .tosf numerals. Fiddly work without clear purpose.
+- Experimental alternative form of "l" without the tail, contributed by Jacques
+  Le Bailly. Accessible via the ss01 feature.
+- Added variable font, CFF2 flavor. postscriptBlueFuzz is set to 1 explicitly
+  to avoid rounding issues with blue zone coverage in FreeType.
+- Removed f-ligatures without their own Unicode code points, as the design doesn't
+  currently need them. They were mainly added to fill up the Google glyph set.
+- The following glyphs now represent more than one Unicode code point to keep the
+  glyph view tidier:
+    emdash: U+2014, U+2015
+    emspace: U+2001, U+2003
+    enspace: U+2000, U+2002
+    hyphen: U+002D, U+00AD, U+2010, U+2011
+    space: U+0020, U+00A0
+  In PDFs where the generator removed the text stream, copy-paste may lead to the
+  others turning into the first. Meh.
+- Filled in hryvnia (U+20B4), tugrik (U+20AE) and tenge (U+20B8).
 - Static fonts use same rounding method as varLib uses for the variable font.
 - Fixed Ustraight-cy (U+04AE), ustraight-cy (U+04AF), Ustraightstroke-cy
   (U+04B0), ustraightstroke-cy (U+04B1), they didn't have a proper production
   name before and may not have been properly accessible.
 - Removed some building components that made it into the final font.
-- Fixed various production names of combined diacritics.
 - Limited anchor propagation to letters, excluding ligatures. Generate GDEF
   table properly.
 - Set one simple `gasp` table for hinted display for e.g. Windows.
 - Removed `ccmp` from the `aalt` lookup.
 - The OS/2 table fsType now says that no Digital Rights Management is applied
   to the fonts, the name table now says the fonts are OFL 1.1 licensed.
-- Internal housekeeping: Sources are in UFO and Designspace format now, with
-  various cleanups like removed unused layers.
+- Internal housekeeping: Sources are stored in the open UFO and Designspace format
+  now, with various cleanups like removed unused layers.
+- Internal housekeeping: Removed composite diacritics that served no design purpose.
 
 0.111
 - Fix the wrongly assigned OS/2 weight class values that e.g. led to Extra Bold
