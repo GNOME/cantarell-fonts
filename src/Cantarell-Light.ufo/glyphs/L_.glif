@@ -1,23 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="495"/>
+  <advance width="513"/>
   <unicode hex="004C"/>
-  <note>
-L
-</note>
-  <anchor x="286" y="0" name="bottom"/>
-  <anchor x="162" y="367" name="center"/>
-  <anchor x="502" y="352" name="periodcentered"/>
-  <anchor x="122" y="694" name="top"/>
-  <anchor x="251" y="480" name="topright"/>
+  <anchor x="299" y="0" name="bottom"/>
+  <anchor x="175" y="367" name="center"/>
+  <anchor x="515" y="352" name="periodcentered"/>
+  <anchor x="135" y="694" name="top"/>
+  <anchor x="264" y="480" name="topright"/>
   <outline>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="456" y="0" type="line"/>
-      <point x="456" y="19" type="line"/>
-      <point x="131" y="19" type="line"/>
-      <point x="131" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="469" y="0" type="line"/>
+      <point x="469" y="19" type="line"/>
+      <point x="144" y="19" type="line"/>
+      <point x="144" y="694" type="line"/>
+      <point x="123" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

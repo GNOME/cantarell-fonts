@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cent" format="2">
-  <advance width="549"/>
+  <advance width="580"/>
   <unicode hex="00A2"/>
   <outline>
-    <component base="c" xOffset="35"/>
-    <component base="_currencyvstem" xOffset="-105" yOffset="-209"/>
-    <component base="_currencyvstem" xOffset="-102" yOffset="-800"/>
+    <component base="c" xOffset="52"/>
+    <component base="_currencyvstem" xOffset="-88" yOffset="-211"/>
+    <component base="_currencyvstem" xOffset="-85" yOffset="-778"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

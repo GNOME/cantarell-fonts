@@ -3,5 +3,27 @@
   <advance width="600"/>
   <unicode hex="20B8"/>
   <outline>
+    <contour>
+      <point x="208" y="0" type="line"/>
+      <point x="378" y="0" type="line"/>
+      <point x="378" y="424" type="line"/>
+      <point x="566" y="424" type="line"/>
+      <point x="566" y="524" type="line"/>
+      <point x="34" y="524" type="line"/>
+      <point x="34" y="424" type="line"/>
+      <point x="208" y="424" type="line"/>
+    </contour>
+    <contour>
+      <point x="34" y="594" type="line"/>
+      <point x="566" y="594" type="line"/>
+      <point x="566" y="694" type="line"/>
+      <point x="34" y="694" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

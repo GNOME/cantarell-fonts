@@ -2,9 +2,6 @@
 <glyph name="r" format="2">
   <advance width="377"/>
   <unicode hex="0072"/>
-  <note>
-r
-</note>
   <anchor x="122" y="0" name="bottom"/>
   <anchor x="227" y="482" name="top"/>
   <outline>
@@ -32,4 +29,10 @@ r
       <point x="145" y="394" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve" format="2">
-  <advance width="410"/>
+  <advance width="500"/>
   <unicode hex="02D8"/>
   <outline>
-    <component base="brevecomb" xOffset="-2"/>
+    <component base="brevecomb" xOffset="45"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>enspace</string>
+    </dict>
+  </lib>
 </glyph>

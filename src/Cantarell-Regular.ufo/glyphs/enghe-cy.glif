@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="enghe-cy" format="2">
-  <advance width="688"/>
+  <advance width="699"/>
   <unicode hex="04A5"/>
   <outline>
     <contour>
       <point x="411" y="0" type="line"/>
       <point x="491" y="0" type="line"/>
-      <point x="491" y="482" type="line"/>
+      <point x="491" y="415" type="line"/>
+      <point x="678" y="415" type="line"/>
+      <point x="678" y="482" type="line"/>
       <point x="411" y="482" type="line"/>
     </contour>
     <contour>
@@ -21,11 +23,13 @@
       <point x="438" y="281" type="line"/>
       <point x="136" y="281" type="line"/>
     </contour>
-    <contour>
-      <point x="476" y="415" type="line"/>
-      <point x="678" y="415" type="line"/>
-      <point x="678" y="482" type="line"/>
-      <point x="476" y="482" type="line"/>
-    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
+    </dict>
+  </lib>
 </glyph>

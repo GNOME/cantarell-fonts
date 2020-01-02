@@ -1,23 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sha-cy" format="2">
-  <advance width="738"/>
+  <advance width="776"/>
   <unicode hex="0448"/>
+  <anchor x="700" y="0" name="bottomright"/>
   <outline>
     <contour>
-      <point x="88" y="0" type="line"/>
-      <point x="650" y="0" type="line"/>
-      <point x="650" y="480" type="line"/>
-      <point x="629" y="480" type="line"/>
-      <point x="629" y="17" type="line"/>
-      <point x="109" y="17" type="line"/>
-      <point x="109" y="480" type="line"/>
-      <point x="88" y="480" type="line"/>
+      <point x="107" y="0" type="line"/>
+      <point x="669" y="0" type="line"/>
+      <point x="669" y="480" type="line"/>
+      <point x="648" y="480" type="line"/>
+      <point x="648" y="17" type="line"/>
+      <point x="128" y="17" type="line"/>
+      <point x="128" y="480" type="line"/>
+      <point x="107" y="480" type="line"/>
     </contour>
     <contour>
-      <point x="364" y="9" type="line"/>
-      <point x="385" y="9" type="line"/>
-      <point x="385" y="480" type="line"/>
-      <point x="364" y="480" type="line"/>
+      <point x="383" y="9" type="line"/>
+      <point x="404" y="9" type="line"/>
+      <point x="404" y="480" type="line"/>
+      <point x="383" y="480" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -29,6 +30,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|en-cy</string>
     </dict>
   </lib>
 </glyph>

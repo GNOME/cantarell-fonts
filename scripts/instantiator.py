@@ -1,7 +1,24 @@
-#!/bin/env python3
+# This code is based on ufoProcessor code, which is licensed as follows:
+# Copyright (c) 2017-2018 LettError and Erik van Blokland
+# All rights reserved.
 #
-# This code is based on ufoProcessor code, see LICENSE_ufoProcessor, and is itself
-# MIT-licensed.
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
 
 """Module for generating static font instances.
 
@@ -12,27 +29,38 @@ instance computation directly and exclusively.
 
 At the time of this writing, varLib lacks support for anisotropic (x, y) locations and
 extrapolation.
-
-See the `scripts/make-static-fonts.py` script for how to use it.
 """
 
-from pathlib import Path
+import copy
+import logging
+import typing
 from typing import Any, Dict, List, Mapping, Set, Tuple, Union
 
 import attr
 import fontMath
 import fontTools.designspaceLib as designspaceLib
 import fontTools.misc.fixedTools
-import fontTools.ufoLib as ufoLib
 import fontTools.varLib as varLib
 import ufoLib2
 
-FontMathObject = Union[fontMath.MathGlyph, fontMath.MathInfo, fontMath.MathKerning]
-Location = Mapping[str, float]
+logger = logging.getLogger(__name__)
 
 # Use the same rounding function used by varLib to round things for the variable font
 # to reduce differences between the variable and static instances.
 fontMath.mathFunctions.setRoundIntegerFunction(fontTools.misc.fixedTools.otRound)
+
+# Stand-in type for any of the fontMath classes we use.
+FontMathObject = Union[fontMath.MathGlyph, fontMath.MathInfo, fontMath.MathKerning]
+
+# MutatorMath-style location mapping type, i.e.
+# `{"wght": 1.0, "wdth": 0.0, "bleep": 0.5}`.
+# LocationKey is a Location turned into a tuple so we can use it as a dict key.
+Location = Mapping[str, float]
+LocationKey = Tuple[Tuple[str, float], ...]
+
+# Type of mapping of axes to their minimum, default and maximum values, i.e.
+# `{"wght": (100.0, 400.0, 900.0), "wdth": (75.0, 100.0, 100.0)}`.
+AxisBounds = Dict[str, Tuple[float, float, float]]
 
 # For mapping `wdth` axis user values to the OS2 table's width class field.
 WDTH_VALUE_TO_OS2_WIDTH_CLASS = {
@@ -47,17 +75,95 @@ WDTH_VALUE_TO_OS2_WIDTH_CLASS = {
     200: 9,
 }
 
+# Font info fields that are not interpolated and should be copied from the
+# default font to the instance.
+#
+# fontMath at the time of this writing handles the following attributes:
+# https://github.com/robotools/fontMath/blob/0.5.0/Lib/fontMath/mathInfo.py#L360-L422
+#
+# From the attributes that are left, we skip instance-specific ones on purpose:
+# - guidelines
+# - postscriptFontName
+# - styleMapFamilyName
+# - styleMapStyleName
+# - styleName
+# - openTypeNameCompatibleFullName
+# - openTypeNamePreferredFamilyName
+# - openTypeNamePreferredSubfamilyName
+# - openTypeNameUniqueID
+# - openTypeNameWWSFamilyName
+# - openTypeNameWWSSubfamilyName
+# - openTypeOS2Panose
+# - postscriptFullName
+# - postscriptUniqueID
+# - woffMetadataUniqueID
+#
+# Some, we skip because they are deprecated:
+# - macintoshFONDFamilyID
+# - macintoshFONDName
+# - year
+#
+# This means we implicitly require the `stylename` attribute in the Designspace
+# `<instance>` element.
+UFO_INFO_ATTRIBUTES_TO_COPY_TO_INSTANCES = {
+    "copyright",
+    "familyName",
+    "note",
+    "openTypeGaspRangeRecords",
+    "openTypeHeadCreated",
+    "openTypeHeadFlags",
+    "openTypeNameDescription",
+    "openTypeNameDesigner",
+    "openTypeNameDesignerURL",
+    "openTypeNameLicense",
+    "openTypeNameLicenseURL",
+    "openTypeNameManufacturer",
+    "openTypeNameManufacturerURL",
+    "openTypeNameRecords",
+    "openTypeNameSampleText",
+    "openTypeNameVersion",
+    "openTypeOS2CodePageRanges",
+    "openTypeOS2FamilyClass",
+    "openTypeOS2Selection",
+    "openTypeOS2Type",
+    "openTypeOS2UnicodeRanges",
+    "openTypeOS2VendorID",
+    "postscriptDefaultCharacter",
+    "postscriptForceBold",
+    "postscriptIsFixedPitch",
+    "postscriptWindowsCharacterSet",
+    "trademark",
+    "versionMajor",
+    "versionMinor",
+    "woffMajorVersion",
+    "woffMetadataCopyright",
+    "woffMetadataCredits",
+    "woffMetadataDescription",
+    "woffMetadataExtensions",
+    "woffMetadataLicense",
+    "woffMetadataLicensee",
+    "woffMetadataTrademark",
+    "woffMetadataVendor",
+    "woffMinorVersion",
+}
+
+
+# Custom exception for this module
+class InstantiatorError(Exception):
+    pass
+
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
 class Instantiator:
     """Data class that holds all necessary information to generate a static
     font instance object at an arbitary location within the design space."""
 
-    axis_bounds: Dict[str, Tuple[float, float, float]]  # Design space!
+    axis_bounds: AxisBounds  # Design space!
     copy_feature_text: str
-    copy_groups: Mapping[str, List[str]]
+    copy_nonkerning_groups: Mapping[str, List[str]]
     copy_info: ufoLib2.objects.Info
     copy_lib: Mapping[str, Any]
+    default_design_location: Location
     designspace_rules: List[designspaceLib.RuleDescriptor]
     glyph_mutators: Mapping[str, "Variator"]
     glyph_name_to_unicodes: Dict[str, List[int]]
@@ -65,7 +171,7 @@ class Instantiator:
     kerning_mutator: "Variator"
     round_geometry: bool
     skip_export_glyphs: List[str]
-    weight_width_axes: Mapping[str, designspaceLib.AxisDescriptor]
+    special_axes: Mapping[str, designspaceLib.AxisDescriptor]
 
     @classmethod
     def from_designspace(
@@ -75,8 +181,14 @@ class Instantiator:
     ):
         """Instantiates a new data class from a Designspace object."""
         if designspace.default is None:
-            raise ValueError(
+            raise InstantiatorError(
                 "Can't generate UFOs from this designspace: no default font."
+            )
+
+        if any(anisotropic(instance.location) for instance in designspace.instances):
+            raise InstantiatorError(
+                "The Designspace contains anisotropic instance locations, which are "
+                "not supported by varLib."
             )
 
         designspace.loadSourceFonts(ufoLib2.Font.open)
@@ -86,9 +198,9 @@ class Instantiator:
             glyph_names.update(source.font.keys())
 
         # Construct Variators
-        axis_bounds: Dict[str, Tuple[float, float, float]] = {}  # Design space!
+        axis_bounds: AxisBounds = {}  # Design space!
         axis_order: List[str] = []
-        weight_width_axes = {}
+        special_axes = {}
         for axis in designspace.axes:
             axis_order.append(axis.name)
             axis_bounds[axis.name] = (
@@ -96,8 +208,9 @@ class Instantiator:
                 axis.map_forward(axis.default),
                 axis.map_forward(axis.maximum),
             )
-            if axis.tag in ("wght", "wdth"):
-                weight_width_axes[axis.tag] = axis
+            # Some axes relate to existing OpenType fields and get special attention.
+            if axis.tag in {"wght", "wdth", "slnt"}:
+                special_axes[axis.tag] = axis
 
         masters_info = collect_info_masters(designspace, axis_bounds)
         info_mutator = Variator.from_masters(masters_info, axis_order)
@@ -115,11 +228,15 @@ class Instantiator:
 
         # Construct defaults to copy over
         copy_feature_text: str = default_font.features.text
-        copy_groups: Mapping[str, List[str]] = default_font.groups
+        copy_nonkerning_groups: Mapping[str, List[str]] = {
+            key: glyph_names
+            for key, glyph_names in default_font.groups.items()
+            if not key.startswith(("public.kern1.", "public.kern2."))
+        }  # Kerning groups are taken care of by the kerning Variator.
         copy_info: ufoLib2.objects.Info = default_font.info
         copy_lib: Mapping[str, Any] = default_font.lib
 
-        # The list of glyphs not to export and decompose where used as a component is
+        # The list of glyphs-not-to-export-and-decompose-where-used-as-a-component is
         # supposed to be taken from the Designspace when a Designspace is used as the
         # starting point of the compilation process. It should be exported to all
         # instance libs, where the ufo2ft compilation functions will pick it up.
@@ -128,9 +245,10 @@ class Instantiator:
         return cls(
             axis_bounds,
             copy_feature_text,
-            copy_groups,
+            copy_nonkerning_groups,
             copy_info,
             copy_lib,
+            designspace.default.location,
             designspace.rules,
             glyph_mutators,
             glyph_name_to_unicodes,
@@ -138,52 +256,138 @@ class Instantiator:
             kerning_mutator,
             round_geometry,
             skip_export_glyphs,
-            weight_width_axes,
+            special_axes,
         )
 
     def generate_instance(
         self, instance: designspaceLib.InstanceDescriptor
     ) -> ufoLib2.Font:
-        """Generate a font object for an InstanceDescriptor."""
-        font = ufoLib2.Font()
-
-        location = instance.location
-        if anisotropic(location):
-            raise ValueError(
+        """Generate an interpolated instance font object for an
+        InstanceDescriptor."""
+        if anisotropic(instance.location):
+            raise InstantiatorError(
                 f"Instance {instance.familyName}-"
                 f"{instance.styleName}: Anisotropic location "
                 f"{instance.location} not supported by varLib."
             )
-        location_normalized = normalize_design_location(location, self.axis_bounds)
+
+        font = ufoLib2.Font()
+
+        # Instances may leave out locations that match the default source, so merge
+        # default location with the instance's location.
+        location = {**self.default_design_location, **instance.location}
+        location_normalized = varLib.models.normalizeLocation(
+            location, self.axis_bounds
+        )
 
         # Kerning
-        if instance.kerning:
-            kerning_instance = self.kerning_mutator.instance_at(location_normalized)
-            kerning_instance.extractKerning(font)
+        kerning_instance = self.kerning_mutator.instance_at(location_normalized)
+        if self.round_geometry:
+            kerning_instance.round()
+        kerning_instance.extractKerning(font)
 
         # Info
+        self._generate_instance_info(instance, location_normalized, location, font)
+
+        # Non-kerning groups. Kerning groups have been taken care of by the kerning
+        # instance.
+        for key, glyph_names in self.copy_nonkerning_groups.items():
+            font.groups[key] = [name for name in glyph_names]
+
+        # Features
+        font.features.text = self.copy_feature_text
+
+        # Lib
+        #  1. Copy the default lib to the instance.
+        font.lib = typing.cast(dict, copy.deepcopy(self.copy_lib))
+        #  2. Copy the Designspace's skipExportGlyphs list over to the UFO to
+        #     make sure it wins over the default UFO one.
+        font.lib["public.skipExportGlyphs"] = [name for name in self.skip_export_glyphs]
+        #  3. Write _design_ location to instance's lib.
+        font.lib["designspace.location"] = [loc for loc in location.items()]
+
+        # Glyphs
+        for glyph_name, glyph_mutator in self.glyph_mutators.items():
+            glyph = font.newGlyph(glyph_name)
+
+            try:
+                glyph_instance = glyph_mutator.instance_at(location_normalized)
+
+                if self.round_geometry:
+                    glyph_instance = glyph_instance.round()
+
+                # onlyGeometry=True does not set name and unicodes, in ufoLib2 we can't
+                # modify a glyph's name. Copy unicodes from default font.
+                glyph_instance.extractGlyph(glyph, onlyGeometry=True)
+            except Exception as e:
+                # TODO: Figure out what exceptions fontMath/varLib can throw.
+                # By default, explode if we cannot generate a glyph instance for
+                # whatever reason (usually outline incompatibility)...
+                if glyph_name not in self.skip_export_glyphs:
+                    raise InstantiatorError(
+                        f"Failed to generate instance of glyph '{glyph_name}'."
+                    ) from e
+
+                # ...except if the glyph is in public.skipExportGlyphs and would
+                # therefore be removed from the compiled font anyway. There's not much
+                # we can do except leave it empty in the instance and tell the user.
+                logger.warning(
+                    "Failed to generate instance of glyph '%s', which is marked as "
+                    "non-exportable. Glyph will be left empty. Failure reason: %s",
+                    glyph_name,
+                    e,
+                )
+
+            glyph.unicodes = [uv for uv in self.glyph_name_to_unicodes[glyph_name]]
+
+        # Process rules
+        glyph_names_list = self.glyph_mutators.keys()
+        glyph_names_list_renamed = designspaceLib.processRules(
+            self.designspace_rules, location, glyph_names_list
+        )
+        for name_old, name_new in zip(glyph_names_list, glyph_names_list_renamed):
+            if name_old != name_new:
+                swap_glyph_names(font, name_old, name_new)
+
+        return font
+
+    def _generate_instance_info(
+        self,
+        instance: designspaceLib.InstanceDescriptor,
+        location_normalized: Location,
+        location: Location,
+        font: ufoLib2.Font,
+    ) -> None:
+        """Generate fontinfo related attributes.
+
+        Separate, as fontinfo treatment is more extensive than the rest.
+        """
         info_instance = self.info_mutator.instance_at(location_normalized)
         if self.round_geometry:
             info_instance = info_instance.round()
         info_instance.extractInfo(font.info)
 
-        # Copy metadata from sources marked with `<copy info="1">` etc.
-        for attribute in ufoLib.fontInfoAttributesVersion3:
-            if hasattr(info_instance, attribute):
-                continue  # Skip mutated attributes.
+        # Copy non-interpolating metadata from the default font.
+        for attribute in UFO_INFO_ATTRIBUTES_TO_COPY_TO_INSTANCES:
             if hasattr(self.copy_info, attribute):
-                setattr(font.info, attribute, getattr(self.copy_info, attribute))
-        for key, value in self.copy_lib.items():
-            font.lib[key] = value
-        font.lib["public.skipExportGlyphs"] = self.skip_export_glyphs
-        for key, value in self.copy_groups.items():
-            font.groups[key] = value
-        font.features.text = self.copy_feature_text
+                setattr(
+                    font.info,
+                    attribute,
+                    copy.deepcopy(getattr(self.copy_info, attribute)),
+                )
 
         # TODO: multilingual names to replace possibly existing name records.
         if instance.familyName:
             font.info.familyName = instance.familyName
-        if instance.styleName:
+        if instance.styleName is None:
+            logger.warning(
+                "The given instance or instance at location %s is missing the "
+                "stylename attribute, which is required. Copying over the styleName "
+                "from the default font, which is probably wrong.",
+                location,
+            )
+            font.info.styleName = self.copy_info.styleName
+        else:
             font.info.styleName = instance.styleName
         if instance.postScriptFontName:
             font.info.postscriptFontName = instance.postScriptFontName
@@ -194,78 +398,49 @@ class Instantiator:
 
         # If the masters haven't set the OS/2 weight and width class, use the
         # user-space values ("input") of the axis mapping in the Designspace file for
-        # weight and width axes, if they exist.
-        if info_instance.openTypeOS2WeightClass is None:
-            if "wght" in self.weight_width_axes:
-                weight_axis = self.weight_width_axes["wght"]
-                weight_axis_instance_location = instance.location[weight_axis.name]
-                font.info.openTypeOS2WeightClass = fontTools.misc.fixedTools.otRound(
-                    weight_axis.map_backward(weight_axis_instance_location)
-                )
-        if info_instance.openTypeOS2WidthClass is None:
-            if "wdth" in self.weight_width_axes:
-                width_axis = self.weight_width_axes["wdth"]
-                width_axis_instance_location = instance.location[width_axis.name]
-                width_value = width_axis.map_backward(width_axis_instance_location)
-                width_class = int(
-                    varLib.models.piecewiseLinearMap(
-                        width_value, WDTH_VALUE_TO_OS2_WIDTH_CLASS
-                    )
-                )
-                font.info.openTypeOS2WidthClass = width_class
+        # weight and width axes, if they exist. The slnt axis' value maps 1:1 to
+        # italicAngle. Clamp the values to the valid ranges.
+        if info_instance.openTypeOS2WeightClass is None and "wght" in self.special_axes:
+            weight_axis = self.special_axes["wght"]
+            font.info.openTypeOS2WeightClass = weight_class_from_wght_value(
+                weight_axis.map_backward(location[weight_axis.name])
+            )
+        if info_instance.openTypeOS2WidthClass is None and "wdth" in self.special_axes:
+            width_axis = self.special_axes["wdth"]
+            font.info.openTypeOS2WidthClass = width_class_from_wdth_value(
+                width_axis.map_backward(location[width_axis.name])
+            )
+        if info_instance.italicAngle is None and "slnt" in self.special_axes:
+            slant_axis = self.special_axes["slnt"]
+            font.info.italicAngle = italic_angle_from_slnt_value(
+                slant_axis.map_backward(location[slant_axis.name])
+            )
 
-        # Glyphs
-        for glyph_name, glyph_mutator in self.glyph_mutators.items():
-            glyph = font.newGlyph(glyph_name)
 
-            glyph_instance = glyph_mutator.instance_at(location_normalized)
-            if self.round_geometry:
-                glyph_instance = glyph_instance.round()
-
-            # onlyGeometry=True does not set name and unicodes, in ufoLib2 we can't
-            # modify a glyph's name. Copy unicodes from default font.
-            glyph_instance.extractGlyph(glyph, onlyGeometry=True)
-            glyph.unicodes = self.glyph_name_to_unicodes[glyph_name]
-
-        # Process rules
-        glyph_names_list = self.glyph_mutators.keys()
-        resultNames = designspaceLib.processRules(
-            self.designspace_rules, location, glyph_names_list
-        )
-        for oldName, newName in zip(glyph_names_list, resultNames):
-            if oldName != newName:
-                swapGlyphNames(font, oldName, newName)
-
-        font.lib["designspace.location"] = list(instance.location.items())
-
-        return font
+def location_to_key(location: Location) -> LocationKey:
+    """Converts a Location into a sorted tuple so it can be used as a dict
+    key."""
+    return tuple(sorted(location.items()))
 
 
 def anisotropic(location: Location) -> bool:
-    for v in location.values():
-        if isinstance(v, tuple):
-            return True
-    return False
-
-
-def normalize_design_location(
-    design_space_location: Location,
-    design_space_axis_bounds: Dict[str, Tuple[float, float, float]],
-) -> Location:
-    return varLib.models.normalizeLocation(
-        design_space_location, design_space_axis_bounds
-    )
+    """Tests if any single location value is a MutatorMath-style anisotropic
+    value, i.e. is a tuple of (x, y)."""
+    return any(isinstance(v, tuple) for v in location.values())
 
 
 def collect_info_masters(
-    designspace, axis_bounds
+    designspace: designspaceLib.DesignSpaceDocument, axis_bounds: AxisBounds
 ) -> List[Tuple[Location, FontMathObject]]:
     """Return master Info objects wrapped by MathInfo."""
     locations_and_masters = []
     for source in designspace.sources:
         if source.layerName is not None:
-            continue
-        normalized_location = normalize_design_location(source.location, axis_bounds)
+            continue  # No font info in source layers.
+
+        normalized_location = varLib.models.normalizeLocation(
+            source.location, axis_bounds
+        )
         locations_and_masters.append(
             (normalized_location, fontMath.MathInfo(source.font.info))
         )
@@ -274,142 +449,183 @@ def collect_info_masters(
 
 
 def collect_kerning_masters(
-    designspace, axis_bounds
+    designspace: designspaceLib.DesignSpaceDocument, axis_bounds: AxisBounds
 ) -> List[Tuple[Location, FontMathObject]]:
     """Return master kerning objects wrapped by MathKerning."""
     locations_and_masters = []
     for source in designspace.sources:
         if source.layerName is not None:
             continue  # No kerning in source layers.
-        if not source.muteKerning:
-            # This assumes that groups of all sources are the same.
-            normalized_location = normalize_design_location(
-                source.location, axis_bounds
-            )
-            locations_and_masters.append(
-                (
-                    normalized_location,
-                    fontMath.MathKerning(source.font.kerning, source.font.groups),
-                )
-            )
 
-    return locations_and_masters
-
-
-def collect_glyph_masters(
-    designspace, glyph_name, axis_bounds
-) -> List[Tuple[Location, FontMathObject]]:
-    """Return master glyph objects for glyph_name wrapped by MathGlyph."""
-    locations_and_masters = []
-    for source in designspace.sources:
-        if glyph_name in source.mutedGlyphNames:
-            continue
-
-        if source.layerName is None:
-            # Source font.
-            source_layer = source.font.layers.defaultLayer
-        else:
-            # Source layer.
-            source_layer = source.font.layers[source.layerName]
-            if glyph_name not in source_layer:
-                # Sparse source layer, skip for this glyph.
-                continue
-
-        if glyph_name not in source_layer:
-            continue
-
-        source_glyph = source_layer[glyph_name]
-
-        # XXX: What to do about a glyphs lib key? Any useful data that should be
-        # copied from master to all instances? `public.verticalOrigin`, does it
-        # interpolate? `public.postscript.hints`?
-        source_glyph.lib.clear()
-
-        normalized_location = normalize_design_location(source.location, axis_bounds)
+        # This assumes that groups of all sources are the same.
+        normalized_location = varLib.models.normalizeLocation(
+            source.location, axis_bounds
+        )
         locations_and_masters.append(
-            (normalized_location, fontMath.MathGlyph(source_glyph))
+            (
+                normalized_location,
+                fontMath.MathKerning(source.font.kerning, source.font.groups),
+            )
         )
 
     return locations_and_masters
 
 
-def swapGlyphNames(font, oldName, newName, swapNameExtension="_______________swap"):
-    # In font swap the glyphs oldName and newName.
-    # Also swap the names in components in order to preserve appearance.
-    # Also swap the names in font groups.
-    if oldName not in font or newName not in font:
-        return
-    swapName = oldName + swapNameExtension
-    # park the old glyph
-    if not swapName in font:
-        font.newGlyph(swapName)
-    # swap the outlines
-    font[swapName].clear()
-    p = font[swapName].getPointPen()
-    font[oldName].drawPoints(p)
-    font[swapName].width = font[oldName].width
-    # lib?
-    font[oldName].clear()
-    p = font[oldName].getPointPen()
-    font[newName].drawPoints(p)
-    font[oldName].width = font[newName].width
+def collect_glyph_masters(
+    designspace: designspaceLib.DesignSpaceDocument,
+    glyph_name: str,
+    axis_bounds: AxisBounds,
+) -> List[Tuple[Location, FontMathObject]]:
+    """Return master glyph objects for glyph_name wrapped by MathGlyph.
 
-    font[newName].clear()
-    p = font[newName].getPointPen()
-    font[swapName].drawPoints(p)
-    font[newName].width = font[swapName].width
+    Note: skips empty source glyphs if the default glyph is not empty to almost match
+    what ufoProcessor is doing. In e.g. Mutator Sans, the 'S.closed' glyph is left
+    empty in one source layer. One could treat this as a source error, but ufoProcessor
+    specifically has code to skip that empty glyph and carry on.
+    """
+    locations_and_masters = []
+    default_glyph_empty = False
+    other_glyph_empty = False
 
-    # remap the components
-    for g in font:
-        for c in g.components:
-            if c.baseGlyph == oldName:
-                c.baseGlyph = swapName
+    for source in designspace.sources:
+        if source.layerName is None:  # Source font.
+            source_layer = source.font.layers.defaultLayer
+        else:  # Source layer.
+            source_layer = source.font.layers[source.layerName]
+
+        # Sparse fonts do not and layers may not contain every glyph.
+        if glyph_name not in source_layer:
             continue
-    for g in font:
-        for c in g.components:
-            if c.baseGlyph == newName:
-                c.baseGlyph = oldName
-            continue
-    for g in font:
-        for c in g.components:
-            if c.baseGlyph == swapName:
-                c.baseGlyph = newName
 
-    # change the names in groups
-    # the shapes will swap, that will invalidate the kerning
-    # so the names need to swap in the kerning as well.
-    newKerning = {}
+        source_glyph = source_layer[glyph_name]
+
+        if not (source_glyph.contours or source_glyph.components):
+            if source is designspace.findDefault():
+                default_glyph_empty = True
+            else:
+                other_glyph_empty = True
+
+        normalized_location = varLib.models.normalizeLocation(
+            source.location, axis_bounds
+        )
+        locations_and_masters.append(
+            (normalized_location, fontMath.MathGlyph(source_glyph))
+        )
+
+    # Filter out empty glyphs if the default glyph is not empty.
+    if not default_glyph_empty and other_glyph_empty:
+        locations_and_masters = [
+            (l, m) for l, m in locations_and_masters if m.contours or m.components
+        ]
+
+    return locations_and_masters
+
+
+def width_class_from_wdth_value(wdth_user_value) -> int:
+    """Return the OS/2 width class from the wdth axis user value.
+
+    The OpenType 1.8.3 specification states:
+
+        When mapping from 'wdth' values to usWidthClass, interpolate fractional
+        values between the mapped values and then round, and clamp to the range
+        1 to 9.
+
+    "Mapped values" probably means the in-percent numbers layed out for the OS/2
+    width class, so we are forcing these numerical semantics on the user values
+    of the wdth axis.
+    """
+    width_user_value = min(max(wdth_user_value, 50), 200)
+    width_user_value_mapped = varLib.models.piecewiseLinearMap(
+        width_user_value, WDTH_VALUE_TO_OS2_WIDTH_CLASS
+    )
+    return fontTools.misc.fixedTools.otRound(width_user_value_mapped)
+
+
+def weight_class_from_wght_value(wght_user_value) -> int:
+    """Return the OS/2 weight class from the wght axis user value."""
+    weight_user_value = min(max(wght_user_value, 1), 1000)
+    return fontTools.misc.fixedTools.otRound(weight_user_value)
+
+
+def italic_angle_from_slnt_value(slnt_user_value) -> Union[int, float]:
+    """Return the italic angle from the slnt axis user value."""
+    slant_user_value = min(max(slnt_user_value, -90), 90)
+    return slant_user_value
+
+
+def swap_glyph_names(font: ufoLib2.Font, name_old: str, name_new: str):
+    """Swap two existing glyphs in the default layer of a font (outlines,
+    width, component references, kerning references, group membership).
+
+    The idea behind swapping instead of overwriting is explained in
+    https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib#ufo-instances.
+    We need to keep the old glyph around in case any other glyph references
+    it; glyphs that are not explicitly substituted by rules should not be
+    affected by the rule application.
+
+    The .unicodes are not swapped. The rules mechanism is supposed to swap
+    glyphs, not characters.
+    """
+
+    if name_old not in font or name_new not in font:
+        raise InstantiatorError(
+            f"Cannot swap glyphs '{name_old}' and '{name_new}', as either or both are "
+            "missing."
+        )
+
+    # 1. Swap outlines and glyph width. Ignore lib content and other properties.
+    glyph_swap = ufoLib2.objects.Glyph(name="temporary_swap_glyph")
+    glyph_old = font[name_old]
+    glyph_new = font[name_new]
+
+    p = glyph_swap.getPointPen()
+    glyph_old.drawPoints(p)
+    glyph_swap.width = glyph_old.width
+
+    glyph_old.clear()
+    p = glyph_old.getPointPen()
+    glyph_new.drawPoints(p)
+    glyph_old.width = glyph_new.width
+
+    glyph_new.clear()
+    p = glyph_new.getPointPen()
+    glyph_swap.drawPoints(p)
+    glyph_new.width = glyph_swap.width
+
+    # 2. Remap components.
+    for g in font:
+        for c in g.components:
+            if c.baseGlyph == name_old:
+                c.baseGlyph = name_new
+            elif c.baseGlyph == name_new:
+                c.baseGlyph = name_old
+
+    # 3. Swap literal names in kerning.
+    kerning_new = {}
     for first, second in font.kerning.keys():
         value = font.kerning[(first, second)]
-        if first == oldName:
-            first = newName
-        elif first == newName:
-            first = oldName
-        if second == oldName:
-            second = newName
-        elif second == newName:
-            second = oldName
-        newKerning[(first, second)] = value
-    font.kerning.clear()
-    font.kerning.update(newKerning)
+        if first == name_old:
+            first = name_new
+        elif first == name_new:
+            first = name_old
+        if second == name_old:
+            second = name_new
+        elif second == name_new:
+            second = name_old
+        kerning_new[(first, second)] = value
+    font.kerning = kerning_new
 
-    for groupName, members in font.groups.items():
-        newMembers = []
-        for name in members:
-            if name == oldName:
-                newMembers.append(newName)
-            elif name == newName:
-                newMembers.append(oldName)
+    # 4. Swap names in groups.
+    for group_name, group_members in font.groups.items():
+        group_members_new = []
+        for name in group_members:
+            if name == name_old:
+                group_members_new.append(name_new)
+            elif name == name_new:
+                group_members_new.append(name_old)
             else:
-                newMembers.append(name)
-        font.groups[groupName] = newMembers
-
-    remove = []
-    for g in font:
-        if g.name.find(swapNameExtension) != -1:
-            remove.append(g.name)
-    for r in remove:
-        del font[r]
+                group_members_new.append(name)
+        font.groups[group_name] = group_members_new
 
 
 @attr.s(auto_attribs=True, frozen=True, slots=True)
@@ -424,6 +640,7 @@ class Variator:
     """
 
     masters: List[FontMathObject]
+    location_to_master: Mapping[LocationKey, FontMathObject]
     model: varLib.models.VariationModel
 
     @classmethod
@@ -432,12 +649,31 @@ class Variator:
     ):
         masters = []
         master_locations = []
+        location_to_master = {}
         for normalized_location, master in items:
             master_locations.append(normalized_location)
             masters.append(master)
+            location_to_master[location_to_key(normalized_location)] = master
         model = varLib.models.VariationModel(master_locations, axis_order)
 
-        return cls(masters, model)
+        return cls(masters, location_to_master, model)
 
     def instance_at(self, normalized_location: Location) -> FontMathObject:
+        """Return a FontMathObject for the specified location ready to be
+        inflated.
+
+        If an instance location matches a master location, this method
+        returns the master data instead of running through varLib. This
+        is both an optimization _and_ it enables having a Designspace
+        with instances matching their masters without requiring them to
+        be compatible. Glyphs.app works this way; it will only generate
+        a font from an instance, but compatibility is only required if
+        there is actual interpolation to be done. This enables us to
+        store incompatible bare masters in one Designspace and having
+        arbitrary instance data applied to them.
+        """
+        normalized_location_key = location_to_key(normalized_location)
+        if normalized_location_key in self.location_to_master:
+            return copy.deepcopy(self.location_to_master[normalized_location_key])
+
         return self.model.interpolateFromMasters(normalized_location, self.masters)

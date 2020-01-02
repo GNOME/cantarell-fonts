@@ -1,23 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ii-cy" format="2">
-  <advance width="722"/>
+  <advance width="748"/>
   <unicode hex="0418"/>
-  <anchor x="702" y="0" name="bottomright"/>
-  <anchor x="361" y="694" name="top"/>
+  <anchor x="715" y="0" name="bottomright"/>
+  <anchor x="374" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="137" y="0" type="line"/>
-      <point x="593" y="674" type="line"/>
-      <point x="592" y="674" type="line"/>
-      <point x="592" y="0" type="line"/>
-      <point x="612" y="0" type="line"/>
-      <point x="612" y="694" type="line"/>
-      <point x="585" y="694" type="line"/>
-      <point x="128" y="20" type="line"/>
-      <point x="130" y="20" type="line"/>
-      <point x="130" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="606" y="674" type="line"/>
+      <point x="605" y="674" type="line"/>
+      <point x="605" y="0" type="line"/>
+      <point x="625" y="0" type="line"/>
+      <point x="625" y="694" type="line"/>
+      <point x="598" y="694" type="line"/>
+      <point x="141" y="20" type="line"/>
+      <point x="143" y="20" type="line"/>
+      <point x="143" y="694" type="line"/>
+      <point x="123" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

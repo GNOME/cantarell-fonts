@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omacrongrave" format="2">
-  <advance width="535"/>
+  <advance width="557"/>
   <unicode hex="1E51"/>
   <outline>
     <component base="o"/>
-    <component base="macroncomb_gravecomb" xOffset="21"/>
+    <component base="macroncomb.loclVIET" xOffset="32"/>
+    <component base="gravecomb" xOffset="86" yOffset="69"/>
   </outline>
 </glyph>

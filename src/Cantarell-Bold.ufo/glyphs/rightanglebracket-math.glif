@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightanglebracket-math" format="2">
-  <advance width="320"/>
+  <advance width="368"/>
   <unicode hex="27E9"/>
   <outline>
     <contour>
-      <point x="14" y="-10" type="line"/>
-      <point x="182" y="-10" type="line"/>
-      <point x="310" y="362" type="line"/>
-      <point x="175" y="739" type="line"/>
-      <point x="6" y="739" type="line"/>
-      <point x="164" y="334" type="line"/>
-      <point x="164" y="381" type="line"/>
+      <point x="20" y="-10" type="line"/>
+      <point x="208" y="-10" type="line"/>
+      <point x="352" y="360" type="line"/>
+      <point x="199" y="739" type="line"/>
+      <point x="15" y="739" type="line"/>
+      <point x="188" y="330" type="line"/>
+      <point x="189" y="380" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|leftanglebracket-math</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|leftanglebracket-math</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ring" format="2">
-  <advance width="332"/>
+  <advance width="500"/>
   <unicode hex="02DA"/>
   <outline>
-    <component base="ringcomb"/>
+    <component base="ringcomb" xOffset="83"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>enspace</string>
+    </dict>
+  </lib>
 </glyph>

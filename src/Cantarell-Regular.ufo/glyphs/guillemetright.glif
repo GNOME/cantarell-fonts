@@ -1,25 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemetright" format="2">
-  <advance width="520"/>
+  <advance width="545"/>
   <unicode hex="00BB"/>
   <outline>
     <contour>
-      <point x="253" y="30" type="line"/>
-      <point x="334" y="30" type="line"/>
-      <point x="475" y="241" type="line"/>
-      <point x="333" y="452" type="line"/>
-      <point x="245" y="452" type="line"/>
-      <point x="403" y="215" type="line"/>
-      <point x="403" y="262" type="line"/>
+      <point x="265" y="30" type="line"/>
+      <point x="350" y="30" type="line"/>
+      <point x="501" y="241" type="line"/>
+      <point x="349" y="452" type="line"/>
+      <point x="257" y="452" type="line"/>
+      <point x="425" y="215" type="line"/>
+      <point x="425" y="262" type="line"/>
     </contour>
     <contour>
-      <point x="51" y="30" type="line"/>
-      <point x="132" y="30" type="line"/>
-      <point x="273" y="241" type="line"/>
-      <point x="131" y="452" type="line"/>
-      <point x="43" y="452" type="line"/>
-      <point x="201" y="215" type="line"/>
-      <point x="201" y="262" type="line"/>
+      <point x="50" y="30" type="line"/>
+      <point x="135" y="30" type="line"/>
+      <point x="287" y="241" type="line"/>
+      <point x="135" y="452" type="line"/>
+      <point x="42" y="452" type="line"/>
+      <point x="210" y="215" type="line"/>
+      <point x="210" y="262" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|guillemetleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>guillemetleft</string>
+    </dict>
+  </lib>
 </glyph>

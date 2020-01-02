@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tse-cy" format="2">
-  <advance width="582"/>
+  <advance width="556"/>
   <unicode hex="0446"/>
   <outline>
     <contour>
-      <point x="479" y="-126" type="line"/>
-      <point x="551" y="-126" type="line"/>
-      <point x="551" y="66" type="line"/>
+      <point x="456" y="-126" type="line"/>
+      <point x="528" y="-126" type="line"/>
+      <point x="528" y="66" type="line"/>
       <point x="162" y="66" type="line"/>
       <point x="162" y="482" type="line"/>
       <point x="83" y="482" type="line"/>
       <point x="83" y="0" type="line"/>
-      <point x="479" y="0" type="line"/>
+      <point x="456" y="0" type="line"/>
     </contour>
     <contour>
       <point x="383" y="32" type="line"/>
@@ -31,6 +31,10 @@
         <key>width</key>
         <integer>80</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
     </dict>
   </lib>
 </glyph>

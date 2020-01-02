@@ -1,28 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y" format="2">
-  <advance width="532"/>
+  <advance width="538"/>
   <unicode hex="0079"/>
-  <note>
-y
-</note>
-  <anchor x="444" y="0" name="bottom"/>
-  <anchor x="262" y="490" name="top"/>
+  <anchor x="447" y="0" name="bottom"/>
+  <anchor x="265" y="490" name="top"/>
   <outline>
     <contour>
-      <point x="180" y="0" type="line"/>
-      <point x="355" y="0" type="line"/>
-      <point x="540" y="490" type="line"/>
-      <point x="368" y="490" type="line"/>
-      <point x="259" y="124" type="line"/>
-      <point x="281" y="124" type="line"/>
-      <point x="183" y="490" type="line"/>
-      <point x="-8" y="490" type="line"/>
-    </contour>
-    <contour>
-      <point x="91" y="-217" type="line"/>
-      <point x="279" y="-217" type="line"/>
-      <point x="355" y="0" type="line"/>
-      <point x="180" y="0" type="line"/>
+      <point x="94" y="-217" type="line"/>
+      <point x="282" y="-217" type="line"/>
+      <point x="358" y="0" type="line"/>
+      <point x="543" y="490" type="line"/>
+      <point x="371" y="490" type="line"/>
+      <point x="252" y="88" type="line"/>
+      <point x="294" y="87" type="line"/>
+      <point x="186" y="490" type="line"/>
+      <point x="-5" y="490" type="line"/>
+      <point x="183" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
 </glyph>

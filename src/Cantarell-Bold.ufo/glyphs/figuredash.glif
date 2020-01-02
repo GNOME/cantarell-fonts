@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="figuredash" format="2">
-  <advance width="712"/>
+  <advance width="600"/>
   <unicode hex="2012"/>
   <outline>
     <contour>
-      <point x="54" y="189" type="line"/>
-      <point x="658" y="189" type="line"/>
-      <point x="658" y="329" type="line"/>
-      <point x="54" y="329" type="line"/>
+      <point x="50" y="189" type="line"/>
+      <point x="550" y="189" type="line"/>
+      <point x="550" y="329" type="line"/>
+      <point x="50" y="329" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
+    </dict>
+  </lib>
 </glyph>

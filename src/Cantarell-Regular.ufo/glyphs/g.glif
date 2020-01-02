@@ -2,9 +2,6 @@
 <glyph name="g" format="2">
   <advance width="570"/>
   <unicode hex="0067"/>
-  <note>
-g
-</note>
   <anchor x="287" y="0" name="bottom"/>
   <anchor x="277" y="482" name="top"/>
   <outline>
@@ -56,4 +53,12 @@ g
       <point x="138" y="-10"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|n</string>
+    </dict>
+  </lib>
 </glyph>

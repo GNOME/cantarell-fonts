@@ -1,8 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="questiondown" format="2">
-  <advance width="367"/>
+  <advance width="418"/>
   <unicode hex="00BF"/>
   <outline>
-    <component base="question" xScale="-1" yScale="-1" xOffset="394" yOffset="479"/>
+    <component base="question" xScale="-1" yScale="-1" xOffset="418" yOffset="479"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|question</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|question</string>
+    </dict>
+  </lib>
 </glyph>

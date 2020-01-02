@@ -1,23 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sha-cy" format="2">
-  <advance width="954"/>
+  <advance width="980"/>
   <unicode hex="0428"/>
+  <anchor x="877" y="0" name="bottomright"/>
   <outline>
     <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="844" y="0" type="line"/>
-      <point x="844" y="694" type="line"/>
-      <point x="822" y="694" type="line"/>
-      <point x="822" y="19" type="line"/>
-      <point x="132" y="19" type="line"/>
-      <point x="132" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="857" y="0" type="line"/>
+      <point x="857" y="694" type="line"/>
+      <point x="835" y="694" type="line"/>
+      <point x="835" y="19" type="line"/>
+      <point x="145" y="19" type="line"/>
+      <point x="145" y="694" type="line"/>
+      <point x="123" y="694" type="line"/>
     </contour>
     <contour>
-      <point x="474" y="10" type="line"/>
-      <point x="496" y="10" type="line"/>
-      <point x="496" y="694" type="line"/>
-      <point x="474" y="694" type="line"/>
+      <point x="487" y="10" type="line"/>
+      <point x="509" y="10" type="line"/>
+      <point x="509" y="694" type="line"/>
+      <point x="487" y="694" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
 </glyph>

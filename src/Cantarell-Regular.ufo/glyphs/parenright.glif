@@ -3,6 +3,14 @@
   <advance width="301"/>
   <unicode hex="0029"/>
   <outline>
-    <component base="parenleft" xScale="-1" xOffset="304"/>
+    <component base="parenleft" xScale="-1" xOffset="301"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|parenleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>parenleft</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,9 +2,6 @@
 <glyph name="v" format="2">
   <advance width="480"/>
   <unicode hex="0076"/>
-  <note>
-v
-</note>
   <anchor x="240" y="0" name="bottom"/>
   <anchor x="240" y="482" name="top"/>
   <outline>
@@ -19,4 +16,10 @@ v
       <point x="12" y="482" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

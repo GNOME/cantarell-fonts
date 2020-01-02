@@ -4,40 +4,46 @@
   <unicode hex="002A"/>
   <outline>
     <contour>
-      <point x="242" y="475" type="line"/>
-      <point x="427" y="566" type="line"/>
-      <point x="390" y="627" type="line"/>
-      <point x="226" y="502" type="line"/>
+      <point x="390" y="343" type="line"/>
+      <point x="430" y="409" type="line"/>
+      <point x="243" y="500" type="line"/>
+      <point x="226" y="472" type="line"/>
     </contour>
     <contour>
-      <point x="78" y="348" type="line"/>
+      <point x="79" y="345" type="line"/>
       <point x="243" y="473" type="line"/>
-      <point x="227" y="499" type="line"/>
-      <point x="41" y="408" type="line"/>
+      <point x="227" y="500" type="line"/>
+      <point x="38" y="411" type="line"/>
     </contour>
     <contour>
-      <point x="198" y="282" type="line"/>
-      <point x="269" y="282" type="line"/>
+      <point x="194" y="281" type="line"/>
+      <point x="274" y="281" type="line"/>
       <point x="251" y="488" type="line"/>
       <point x="219" y="488" type="line"/>
     </contour>
     <contour>
       <point x="227" y="475" type="line"/>
       <point x="244" y="501" type="line"/>
-      <point x="80" y="628" type="line"/>
-      <point x="43" y="568" type="line"/>
-    </contour>
-    <contour>
-      <point x="390" y="346" type="line"/>
-      <point x="427" y="406" type="line"/>
-      <point x="243" y="499" type="line"/>
-      <point x="226" y="472" type="line"/>
+      <point x="81" y="630" type="line"/>
+      <point x="40" y="565" type="line"/>
     </contour>
     <contour>
       <point x="219" y="488" type="line"/>
       <point x="251" y="488" type="line"/>
-      <point x="269" y="694" type="line"/>
-      <point x="198" y="694" type="line"/>
+      <point x="274" y="695" type="line"/>
+      <point x="194" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="475" type="line"/>
+      <point x="431" y="561" type="line"/>
+      <point x="390" y="629" type="line"/>
+      <point x="226" y="503" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

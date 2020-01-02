@@ -3,7 +3,6 @@ image: registry.gitlab.gnome.org/gnome/gnome-runtime-images/base:latest
 build:
   script:
     - dnf install -y libappstream-glib-devel gettext
-    - pip3 install --upgrade pip
     - pip3 install meson ninja -r requirements.txt
     - meson build
     - ninja -C build install
@@ -12,8 +11,7 @@ build:
     - python3 scripts/flip-prebuilt-on.py meson_options.txt
     - git add meson_options.txt
     - cp /usr/local/share/fonts/cantarell/*.otf prebuilt
-    - cp /usr/local/share/fonts/cantarell/*.ttf prebuilt
-    - git add prebuilt/*.otf prebuilt/*.ttf
+    - git add prebuilt/*.otf
     - git config --global user.email "you@example.com"
     - git config --global user.name "Your Name"
     - git commit -m "Make package with prebuilt binaries, ninja will dist them."
@@ -22,5 +20,4 @@ build:
     paths:
       - build/meson-dist
       - prebuilt/*.otf
-      - prebuilt/*.ttf
     expire_in: 7 days
