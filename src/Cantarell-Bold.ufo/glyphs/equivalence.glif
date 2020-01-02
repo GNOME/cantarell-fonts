@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equivalence" format="2">
-  <advance width="590"/>
+  <advance width="600"/>
   <unicode hex="2261"/>
   <outline>
     <contour>
@@ -26,6 +26,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>figurespace</string>
     </dict>
   </lib>
 </glyph>
