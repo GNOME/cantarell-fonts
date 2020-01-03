@@ -7,7 +7,7 @@
 appdirs==1.4.3            # via fs
 attrs==19.3.0
 booleanoperations==0.9.0  # via ufo2ft
-cattrs==0.9.0             # via statmake
+cattrs==1.0.0             # via statmake
 compreffor==0.5.0         # via ufo2ft
 cu2qu==1.6.6              # via ufo2ft
 fontmath==0.5.2
@@ -18,7 +18,7 @@ pyclipper==1.1.0.post3    # via booleanoperations
 pytz==2019.3              # via fs
 six==1.13.0               # via fs
 skia-pathops==0.2.1
-statmake==0.2.0
+statmake==0.2.2
 ufo2ft==2.11.1
 ufolib2==0.5.1
 
