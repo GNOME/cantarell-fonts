@@ -6,7 +6,9 @@
 # sequentially.
 
 import argparse
+import tempfile
 import subprocess
+import os
 from pathlib import Path
 
 import fontTools.designspaceLib
@@ -23,7 +25,13 @@ parser.add_argument(
 parser.add_argument(
     "stylespace_path", type=Path, help="The path to the Stylespace file."
 )
-parser.add_argument("psautohint_path", type=Path, help="The path to psautohint.")
+parser.add_argument(
+    "psautohint_path", type=Path, help="The path to the psautohint executable."
+)
+parser.add_argument("tx_path", type=Path, help="The path to the AFDKO's tx executable.")
+parser.add_argument(
+    "sfntedit_path", type=Path, help="The path to the AFDKO's sfntedit executable."
+)
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
 
@@ -48,8 +56,30 @@ varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True, useProductionNam
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
 statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
 
-# External tools after this point.
+# 4. Save. External tools after this point.
 varfont.save(output_path)
 
-# 4. Autohint
-subprocess.run([psautohint_path, str(output_path)])
+# 5. Autohint
+subprocess.check_call([os.fspath(args.psautohint_path), os.fspath(output_path)])
+
+# 6. Subroutinize (compress)
+tmp_cff2_table = os.fspath(Path(tempfile.mkdtemp()) / "cff2_table")
+subprocess.check_call(
+    [
+        os.fspath(args.tx_path),
+        "-cff2",
+        "+S",  # Subroutinize.
+        "+b",  # Preserve glyph order.
+        os.fspath(output_path),
+        tmp_cff2_table,
+    ]
+)
+os.chdir(output_path.parent)  # Avoid weird "Invalid cross-device link" error.
+subprocess.check_call(
+    [
+        os.fspath(args.sfntedit_path),
+        "-a",
+        f"CFF2={tmp_cff2_table}",  # Reinsert compressed CFF2 table in-place.
+        os.fspath(output_path),
+    ]
+)
