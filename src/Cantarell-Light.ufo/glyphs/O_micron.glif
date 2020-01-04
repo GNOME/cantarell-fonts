@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicron" format="2">
+  <advance width="755"/>
+  <unicode hex="039F"/>
+  <anchor x="378" y="0" name="bottom"/>
+  <anchor x="378" y="694" name="top"/>
+  <anchor x="43" y="694" name="topleft"/>
+  <outline>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

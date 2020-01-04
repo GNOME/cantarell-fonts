@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotavrachy" format="2">
+  <advance width="272"/>
+  <unicode hex="1FD0"/>
+  <outline>
+    <component base="iota"/>
+    <component base="vrachy" xOffset="-88"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

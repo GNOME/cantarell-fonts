@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilondasiavaria" format="2">
+  <advance width="580"/>
+  <unicode hex="1F5B"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="dasiavaria.case" xOffset="-323"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>
