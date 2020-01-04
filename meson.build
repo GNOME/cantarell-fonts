@@ -14,6 +14,8 @@ if useprebuilt == false
     make_static_fonts = join_paths(meson.current_source_dir(), 'scripts', 'make-static-fonts.py')
     make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
     psautohint = find_program('psautohint')
+    tx = find_program('tx')
+    sfntedit = find_program('sfntedit')
     subdir('src')
 else
     subdir('prebuilt')

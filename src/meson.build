@@ -23,6 +23,8 @@ custom_target(
         '@INPUT@',
         join_paths(meson.current_source_dir(), 'Cantarell.stylespace'),
         psautohint,
+        tx,
+        sfntedit,
         '@OUTPUT@'
     ],
     install: true,
