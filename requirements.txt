@@ -16,7 +16,7 @@ defcon[lxml,pens]==0.6.0  # via afdko, cu2qu, fontparts, mutatormath, ufoprocess
 fontmath==0.5.2
 fontparts==0.9.2          # via ufoprocessor
 fontpens==0.2.4           # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.2.2
+fonttools[lxml,ufo,unicode,woff]==4.2.4
 fs==2.4.11                # via fonttools
 lxml==4.4.2               # via afdko, fonttools
 mutatormath==2.1.2        # via afdko, ufoprocessor

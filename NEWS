@@ -1,3 +1,24 @@
+0.201:
+- Oopsie-release: The last one was missing pre-built binaries in the release
+  tarball.
+- Use AFDKO's `tx` to compress the variable font in roughly half.
+- Addendum: For 0.200 and 0.201, the following appstream translations were added
+  or updated:
+  - Basque by Asier Sarasua Garmendia
+  - Brazilian Portuguese by Rafael Fontenelle
+  - British English by Zander Brown
+  - Esperanto by Carmen Bianca Bakker
+  - French by Charles Monzat
+  - Karbi by Jor Teron
+  - Kazakh by Baurzhan Muftakhidinov
+  - Lao by Saikeo Kavhanxay
+  - Malay by Umarzuki Bin Mochlis Moktar
+  - Malayalam by Anish Sheela
+  - Nepali by Pawan Chitrakar
+  - Persian by Danial Behzadi
+  - Scottish Gaelic by Gun Chleoc
+  - Ukrainian by Daniel Korostil
+
 0.200:
 - (The design points below are mostly the result of design reviews by Alexei
   Vanyashin, Jacques Le Bailly and Stephen Nixon, in no particular order).
