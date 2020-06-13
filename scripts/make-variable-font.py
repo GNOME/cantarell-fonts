@@ -11,8 +11,10 @@ import subprocess
 import os
 from pathlib import Path
 
+import cffsubr
 import fontTools.designspaceLib
 import fontTools.varLib
+import fontTools.ttLib
 import statmake.classes
 import statmake.lib
 import ufo2ft
@@ -27,10 +29,6 @@ parser.add_argument(
 )
 parser.add_argument(
     "psautohint_path", type=Path, help="The path to the psautohint executable."
-)
-parser.add_argument("tx_path", type=Path, help="The path to the AFDKO's tx executable.")
-parser.add_argument(
-    "sfntedit_path", type=Path, help="The path to the AFDKO's sfntedit executable."
 )
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
@@ -49,8 +47,14 @@ designspace.instances = [
     s for s in designspace.instances if s.lib.get("com.schriftgestaltung.export", True)
 ]
 
-# 2. Compile variable OTF from the masters.
-varfont = ufo2ft.compileVariableCFF2(designspace, inplace=True, useProductionNames=True)
+# 2. Compile variable OTF from the masters. Do not optimize, because we have to do
+# it again after autohinting.
+varfont = ufo2ft.compileVariableCFF2(
+    designspace,
+    inplace=True,
+    useProductionNames=True,
+    optimizeCFF=ufo2ft.CFFOptimization.NONE,
+)
 
 # 3. Generate STAT table.
 stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
@@ -63,23 +67,5 @@ varfont.save(output_path)
 subprocess.check_call([os.fspath(args.psautohint_path), os.fspath(output_path)])
 
 # 6. Subroutinize (compress)
-tmp_cff2_table = os.fspath(Path(tempfile.mkdtemp()) / "cff2_table")
-subprocess.check_call(
-    [
-        os.fspath(args.tx_path),
-        "-cff2",
-        "+S",  # Subroutinize.
-        "+b",  # Preserve glyph order.
-        os.fspath(output_path),
-        tmp_cff2_table,
-    ]
-)
-os.chdir(output_path.parent)  # Avoid weird "Invalid cross-device link" error.
-subprocess.check_call(
-    [
-        os.fspath(args.sfntedit_path),
-        "-a",
-        f"CFF2={tmp_cff2_table}",  # Reinsert compressed CFF2 table in-place.
-        os.fspath(output_path),
-    ]
-)
+varfont = fontTools.ttLib.TTFont(output_path)
+cffsubr.subroutinize(varfont).save(output_path)
