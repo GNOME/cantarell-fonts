@@ -181,21 +181,36 @@ class Instantiator:
     ):
         """Instantiates a new data class from a Designspace object."""
         if designspace.default is None:
-            raise InstantiatorError(
-                "Can't generate UFOs from this designspace: no default font."
-            )
+            raise InstantiatorError(_error_msg_no_default(designspace))
 
         if any(anisotropic(instance.location) for instance in designspace.instances):
             raise InstantiatorError(
                 "The Designspace contains anisotropic instance locations, which are "
-                "not supported by varLib."
+                "not supported by varLib. Look for and remove all 'yvalue=\"...\"' or "
+                "use MutatorMath instead."
             )
 
         designspace.loadSourceFonts(ufoLib2.Font.open)
 
-        glyph_names: Set[str] = set()
+        # The default font (default layer) determines which glyphs are interpolated,
+        # because the math behind varLib and MutatorMath uses the default font as the
+        # point of reference for all data.
+        default_font = designspace.default.font
+        glyph_names: Set[str] = set(default_font.keys())
+
         for source in designspace.sources:
-            glyph_names.update(source.font.keys())
+            other_names = set(source.font.keys())
+            diff_names = other_names - glyph_names
+            if diff_names:
+                logger.warning(
+                    "The source %s (%s) contains glyphs that are missing from the "
+                    "default source, which will be ignored: %s. If this is unintended, "
+                    "check that these glyphs have the exact same name as the "
+                    "corresponding glyphs in the default source.",
+                    source.name,
+                    source.filename,
+                    ", ".join(sorted(diff_names)),
+                )
 
         # Construct Variators
         axis_bounds: AxisBounds = {}  # Design space!
@@ -213,17 +228,31 @@ class Instantiator:
                 special_axes[axis.tag] = axis
 
         masters_info = collect_info_masters(designspace, axis_bounds)
-        info_mutator = Variator.from_masters(masters_info, axis_order)
+        try:
+            info_mutator = Variator.from_masters(masters_info, axis_order)
+        except varLib.errors.VarLibError as e:
+            raise InstantiatorError(
+                f"Cannot set up fontinfo for interpolation: {e}'"
+            ) from e
 
         masters_kerning = collect_kerning_masters(designspace, axis_bounds)
-        kerning_mutator = Variator.from_masters(masters_kerning, axis_order)
+        try:
+            kerning_mutator = Variator.from_masters(masters_kerning, axis_order)
+        except varLib.errors.VarLibError as e:
+            raise InstantiatorError(
+                f"Cannot set up kerning for interpolation: {e}'"
+            ) from e
 
-        default_font = designspace.findDefault().font
         glyph_mutators: Dict[str, Variator] = {}
         glyph_name_to_unicodes: Dict[str, List[int]] = {}
         for glyph_name in glyph_names:
             items = collect_glyph_masters(designspace, glyph_name, axis_bounds)
-            glyph_mutators[glyph_name] = Variator.from_masters(items, axis_order)
+            try:
+                glyph_mutators[glyph_name] = Variator.from_masters(items, axis_order)
+            except varLib.errors.VarLibError as e:
+                raise InstantiatorError(
+                    f"Cannot set up glyph '{glyph_name}' for interpolation: {e}'"
+                ) from e
             glyph_name_to_unicodes[glyph_name] = default_font[glyph_name].unicodes
 
         # Construct defaults to copy over
@@ -325,7 +354,11 @@ class Instantiator:
                 # whatever reason (usually outline incompatibility)...
                 if glyph_name not in self.skip_export_glyphs:
                     raise InstantiatorError(
-                        f"Failed to generate instance of glyph '{glyph_name}'."
+                        f"Failed to generate instance of glyph '{glyph_name}': "
+                        f"{str(e)}. (Note: the most common cause for an error here is "
+                        "that the glyph outlines are not point-for-point compatible or "
+                        "have the same starting point or are in the same order in all "
+                        "masters.)"
                     ) from e
 
                 # ...except if the glyph is in public.skipExportGlyphs and would
@@ -417,6 +450,28 @@ class Instantiator:
             )
 
 
+def _error_msg_no_default(designspace: designspaceLib.DesignSpaceDocument) -> str:
+    if any(axis.map for axis in designspace.axes):
+        bonus_msg = (
+            "For axes with a mapping, the 'default' values should have an "
+            "'input=\"...\"' map value, where the corresponding 'output=\"...\"' "
+            "value then points to the master source."
+        )
+    else:
+        bonus_msg = ""
+
+    default_location = ", ".join(
+        f"{k}: {v}" for k, v in designspace.newDefaultLocation().items()
+    )
+
+    return (
+        "Can't generate UFOs from this Designspace because there is no default "
+        f"master source at location '{default_location}'. Check that all 'default' "
+        "values of all axes together point to a single actual master source. "
+        f"{bonus_msg}"
+    )
+
+
 def location_to_key(location: Location) -> LocationKey:
     """Converts a Location into a sorted tuple so it can be used as a dict
     key."""
@@ -452,20 +507,31 @@ def collect_kerning_masters(
     designspace: designspaceLib.DesignSpaceDocument, axis_bounds: AxisBounds
 ) -> List[Tuple[Location, FontMathObject]]:
     """Return master kerning objects wrapped by MathKerning."""
+
+    # Always take the groups from the default source. This also avoids fontMath
+    # making a union of all groups it is given.
+    groups = designspace.default.font.groups
+
     locations_and_masters = []
     for source in designspace.sources:
         if source.layerName is not None:
             continue  # No kerning in source layers.
+
+        # If a source has groups, they should match the default's.
+        if source.font.groups and source.font.groups != groups:
+            logger.warning(
+                "The source %s (%s) contains different groups than the default source. "
+                "The default source's groups will be used for the instances.",
+                source.name,
+                source.filename,
+            )
 
         # This assumes that groups of all sources are the same.
         normalized_location = varLib.models.normalizeLocation(
             source.location, axis_bounds
         )
         locations_and_masters.append(
-            (
-                normalized_location,
-                fontMath.MathKerning(source.font.kerning, source.font.groups),
-            )
+            (normalized_location, fontMath.MathKerning(source.font.kerning, groups))
         )
 
     return locations_and_masters
@@ -582,17 +648,24 @@ def swap_glyph_names(font: ufoLib2.Font, name_old: str, name_new: str):
     glyph_old.drawPoints(p)
     glyph_swap.width = glyph_old.width
 
-    glyph_old.clear()
+    glyph_old.clearContours()
+    glyph_old.clearComponents()
     p = glyph_old.getPointPen()
     glyph_new.drawPoints(p)
     glyph_old.width = glyph_new.width
 
-    glyph_new.clear()
+    glyph_new.clearContours()
+    glyph_new.clearComponents()
     p = glyph_new.getPointPen()
     glyph_swap.drawPoints(p)
     glyph_new.width = glyph_swap.width
 
-    # 2. Remap components.
+    # 2. Swap anchors.
+    glyph_swap.anchors = glyph_old.anchors
+    glyph_old.anchors = glyph_new.anchors
+    glyph_new.anchors = glyph_swap.anchors
+
+    # 3. Remap components.
     for g in font:
         for c in g.components:
             if c.baseGlyph == name_old:
@@ -600,7 +673,7 @@ def swap_glyph_names(font: ufoLib2.Font, name_old: str, name_new: str):
             elif c.baseGlyph == name_new:
                 c.baseGlyph = name_old
 
-    # 3. Swap literal names in kerning.
+    # 4. Swap literal names in kerning.
     kerning_new = {}
     for first, second in font.kerning.keys():
         value = font.kerning[(first, second)]
@@ -615,7 +688,7 @@ def swap_glyph_names(font: ufoLib2.Font, name_old: str, name_new: str):
         kerning_new[(first, second)] = value
     font.kerning = kerning_new
 
-    # 4. Swap names in groups.
+    # 5. Swap names in groups.
     for group_name, group_members in font.groups.items():
         group_members_new = []
         for name in group_members:
