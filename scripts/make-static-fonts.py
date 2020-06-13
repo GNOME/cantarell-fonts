@@ -26,7 +26,8 @@ def generate_and_write_autohinted_instance(
     # 3.5. Optionally write instance UFO to disk, for debugging.
     # instance.save(output_dir / f"{file_stem}.ufo", overwrite=True)
 
-    # 4. Compile and write instance OTF to disk.
+    # 4. Compile and write instance OTF to disk. Do not optimize, because we have to
+    # do it again after autohinting.
     instance_font = ufo2ft.compileOTF(
         instance,
         removeOverlaps=True,

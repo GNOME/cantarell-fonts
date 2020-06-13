@@ -30,10 +30,6 @@ parser.add_argument(
 parser.add_argument(
     "psautohint_path", type=Path, help="The path to the psautohint executable."
 )
-parser.add_argument("tx_path", type=Path, help="The path to the AFDKO's tx executable.")
-parser.add_argument(
-    "sfntedit_path", type=Path, help="The path to the AFDKO's sfntedit executable."
-)
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
 
@@ -51,7 +47,8 @@ designspace.instances = [
     s for s in designspace.instances if s.lib.get("com.schriftgestaltung.export", True)
 ]
 
-# 2. Compile variable OTF from the masters.
+# 2. Compile variable OTF from the masters. Do not optimize, because we have to do
+# it again after autohinting.
 varfont = ufo2ft.compileVariableCFF2(
     designspace,
     inplace=True,
