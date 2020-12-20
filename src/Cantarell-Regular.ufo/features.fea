@@ -6,15 +6,15 @@
 languagesystem DFLT dflt;
 
 languagesystem latn dflt;
-languagesystem latn ROM;
-languagesystem latn MOL;
+languagesystem latn AZE;
+languagesystem latn CRT;
 languagesystem latn KAZ;
 languagesystem latn TAT;
 languagesystem latn TRK;
-languagesystem latn CRT;
-languagesystem latn AZE;
-languagesystem latn NLD;
+languagesystem latn ROM;
+languagesystem latn MOL;
 languagesystem latn CAT;
+languagesystem latn NLD;
 
 
 # Prefix: GDEF
@@ -78,37 +78,37 @@ feature locl {
 # automatic
 lookup locl_latn_0 {
 	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
 	language AZE;
+	language CRT;
+	language KAZ;
+	language TAT;
+	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
 
 lookup locl_latn_1 {
 	script latn;
-	language NLD;
-	sub iacute j' by jacute;
-	sub Iacute J' by Jacute;
+	language ROM;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
 	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_1;
+} locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
 
 } locl;
 
