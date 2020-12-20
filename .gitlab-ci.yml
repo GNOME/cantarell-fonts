@@ -1,7 +1,10 @@
 build:
   image: 'registry.fedoraproject.org/fedora:latest'
   script:
-    - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext
+    - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext python3.8
+    - python3.8 -m ensurepip
+    - python3.8 -m venv venv
+    - . venv/bin/activate
     - pip3 install meson ninja -r requirements.txt
     - meson build
     - ninja -C build install
