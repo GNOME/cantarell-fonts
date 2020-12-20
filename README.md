@@ -63,6 +63,7 @@ Here is a list of major contributors; all contributors are listed in the GNOME G
 | Name               | Email                         | Web Address                                         | Description                                                                             |
 | ------------------ | ----------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Dave Crossland     | dave@understandinglimited.com | http://understandingfonts.com/who/dave-crossland/   | Designer, original Latin glyphs.                                                        |
+| Florian Fecher     | florian.fecher@grautesk.de    | http://www.twitter.com/grautesk                     | Designer, original Greek glyphs.                                                        |
 | Valek Filippov     | frob@gnome.org                | https://plus.google.com/108983215764171548842/about | Designer, original Cyrillic glyphs.                                                     |
 | Erik Hartenian     | infinality@infinality.net     | \-                                                  | Connoisseur of fine font renderding.                                                    |
 | Pooja Saxena       | anexasajoop@gmail.com         | http://www.poojasaxena.in                           | Designer, new glyphs and many improvements to weight and metric balance.                |
