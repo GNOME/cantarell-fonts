@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <advance width="379"/>
+  <unicode hex="03B6"/>
+  <outline>
+    <contour>
+      <point x="82" y="221" type="curve" smooth="yes"/>
+      <point x="82" y="319"/>
+      <point x="162" y="416"/>
+      <point x="266" y="546" type="curve" smooth="yes"/>
+      <point x="409" y="724" type="line"/>
+      <point x="409" y="739" type="line"/>
+      <point x="52" y="739" type="line"/>
+      <point x="52" y="722" type="line"/>
+      <point x="398" y="722" type="line"/>
+      <point x="391" y="731" type="line"/>
+      <point x="250" y="556" type="line" smooth="yes"/>
+      <point x="138" y="417"/>
+      <point x="61" y="321"/>
+      <point x="61" y="217" type="curve" smooth="yes"/>
+      <point x="61" y="126"/>
+      <point x="125" y="82"/>
+      <point x="230" y="36" type="curve" smooth="yes"/>
+      <point x="317" y="-2"/>
+      <point x="375" y="-30"/>
+      <point x="375" y="-83" type="curve" smooth="yes"/>
+      <point x="375" y="-122"/>
+      <point x="338" y="-169"/>
+      <point x="306" y="-207" type="curve"/>
+      <point x="319" y="-219" type="line"/>
+      <point x="357" y="-175"/>
+      <point x="396" y="-127"/>
+      <point x="396" y="-79" type="curve" smooth="yes"/>
+      <point x="396" y="-21"/>
+      <point x="337" y="11"/>
+      <point x="239" y="53" type="curve" smooth="yes"/>
+      <point x="142" y="95"/>
+      <point x="82" y="137"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o-5</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

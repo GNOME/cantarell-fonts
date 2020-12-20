@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etatonos" format="2">
+  <advance width="579"/>
+  <unicode hex="03AE"/>
+  <anchor x="140" y="0" name="bottom"/>
+  <anchor x="296" y="490" name="top"/>
+  <outline>
+    <component base="eta"/>
+    <component base="tonos" xOffset="155"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

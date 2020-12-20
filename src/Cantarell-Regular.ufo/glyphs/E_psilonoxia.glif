@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonoxia" format="2">
+  <advance width="605"/>
+  <unicode hex="1FC9"/>
+  <anchor x="315" y="0" name="bottom"/>
+  <anchor x="520" y="10" name="ogonek"/>
+  <anchor x="335" y="694" name="top"/>
+  <anchor x="-4" y="694" name="topleft"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="oxia.case" xOffset="-153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

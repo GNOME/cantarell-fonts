@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasia" format="2">
+  <advance width="754"/>
+  <unicode hex="1F49"/>
+  <anchor x="598" y="94" name="Qtail"/>
+  <anchor x="378" y="0" name="bottom"/>
+  <anchor x="379" y="345" name="center"/>
+  <anchor x="459" y="10" name="ogonek"/>
+  <anchor x="378" y="694" name="top"/>
+  <anchor x="43" y="694" name="topleft"/>
+  <anchor x="653" y="694" name="topright"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="dasia.case" xOffset="-70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

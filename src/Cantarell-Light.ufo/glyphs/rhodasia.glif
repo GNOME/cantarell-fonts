@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rhodasia" format="2">
+  <advance width="518"/>
+  <unicode hex="1FE5"/>
+  <anchor x="253" y="0" name="bottom"/>
+  <anchor x="253" y="684" name="top"/>
+  <outline>
+    <component base="rho"/>
+    <component base="dasia" xOffset="145"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

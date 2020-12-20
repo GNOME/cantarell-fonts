@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiaoxia" format="2">
+  <advance width="579"/>
+  <unicode hex="1F25"/>
+  <anchor x="140" y="0" name="bottom"/>
+  <anchor x="296" y="490" name="top"/>
+  <outline>
+    <component base="eta"/>
+    <component base="dasiaoxia" xOffset="14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

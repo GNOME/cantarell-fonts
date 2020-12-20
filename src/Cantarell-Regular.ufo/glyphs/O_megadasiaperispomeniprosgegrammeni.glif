@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegadasiaperispomeniprosgegrammeni" format="2">
+  <advance width="796"/>
+  <unicode hex="1FAF"/>
+  <anchor x="396" y="0" name="bottom"/>
+  <anchor x="391" y="694" name="top"/>
+  <anchor x="20" y="694" name="topleft"/>
+  <outline>
+    <component base="Omega"/>
+    <component base="dasiaperispomeni.case" xOffset="-334" yOffset="-156"/>
+    <component base="prosgegrammeni" xOffset="162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

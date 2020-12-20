@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsilivaria" format="2">
+  <advance width="634"/>
+  <unicode hex="1F0A"/>
+  <anchor x="323" y="0" name="bottom"/>
+  <anchor x="583" y="10" name="ogonek"/>
+  <anchor x="326" y="694" name="top"/>
+  <anchor x="160" y="694" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="psilivaria.case" xOffset="-80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

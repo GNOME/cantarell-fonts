@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronoxia" format="2">
+  <advance width="561"/>
+  <unicode hex="1F79"/>
+  <anchor x="281" y="0" name="bottom"/>
+  <anchor x="281" y="482" name="top"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="oxia" xOffset="176"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

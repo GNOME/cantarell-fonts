@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nu" format="2">
+  <advance width="516"/>
+  <unicode hex="03BD"/>
+  <anchor x="259" y="0" name="bottom"/>
+  <anchor x="254" y="482" name="top"/>
+  <outline>
+    <contour>
+      <point x="237" y="17" type="line"/>
+      <point x="286" y="17" type="line"/>
+      <point x="115" y="482" type="line"/>
+      <point x="26" y="482" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+      <point x="361" y="124" type="line" smooth="yes"/>
+      <point x="422" y="244"/>
+      <point x="475" y="380"/>
+      <point x="475" y="482" type="curve"/>
+      <point x="392" y="482" type="line"/>
+      <point x="392" y="385"/>
+      <point x="355" y="264"/>
+      <point x="303" y="155" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=v+15</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

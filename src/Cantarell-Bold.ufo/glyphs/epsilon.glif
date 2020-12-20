@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon" format="2">
+  <advance width="472"/>
+  <unicode hex="03B5"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="245" y="490" name="top"/>
+  <outline>
+    <contour>
+      <point x="256" y="-10" type="curve" smooth="yes"/>
+      <point x="344" y="-10"/>
+      <point x="411" y="7"/>
+      <point x="469" y="26" type="curve"/>
+      <point x="435" y="144" type="line"/>
+      <point x="391" y="129"/>
+      <point x="330" y="118"/>
+      <point x="277" y="118" type="curve" smooth="yes"/>
+      <point x="216" y="118"/>
+      <point x="189" y="131"/>
+      <point x="189" y="157" type="curve" smooth="yes"/>
+      <point x="189" y="179"/>
+      <point x="209" y="193"/>
+      <point x="257" y="193" type="curve" smooth="yes"/>
+      <point x="354" y="193" type="line"/>
+      <point x="354" y="302" type="line"/>
+      <point x="265" y="302" type="line" smooth="yes"/>
+      <point x="215" y="302"/>
+      <point x="193" y="316"/>
+      <point x="193" y="337" type="curve" smooth="yes"/>
+      <point x="193" y="358"/>
+      <point x="216" y="372"/>
+      <point x="272" y="372" type="curve" smooth="yes"/>
+      <point x="314" y="372"/>
+      <point x="370" y="365"/>
+      <point x="419" y="351" type="curve"/>
+      <point x="440" y="472" type="line"/>
+      <point x="381" y="490"/>
+      <point x="307" y="500"/>
+      <point x="245" y="500" type="curve" smooth="yes"/>
+      <point x="114" y="500"/>
+      <point x="25" y="451"/>
+      <point x="25" y="363" type="curve" smooth="yes"/>
+      <point x="25" y="294"/>
+      <point x="93" y="251"/>
+      <point x="156" y="243" type="curve"/>
+      <point x="158" y="248" type="line"/>
+      <point x="85" y="244"/>
+      <point x="13" y="201"/>
+      <point x="13" y="123" type="curve" smooth="yes"/>
+      <point x="13" y="30"/>
+      <point x="124" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o-5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=e-25</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

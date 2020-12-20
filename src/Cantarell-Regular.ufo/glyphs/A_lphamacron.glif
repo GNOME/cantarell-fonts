@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphamacron" format="2">
+  <advance width="699"/>
+  <unicode hex="1FB9"/>
+  <anchor x="350" y="0" name="bottom"/>
+  <anchor x="633" y="10" name="ogonek"/>
+  <anchor x="350" y="694" name="top"/>
+  <anchor x="140" y="694" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="macron" xOffset="108" yOffset="212"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

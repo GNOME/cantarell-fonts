@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perispomeni" format="2">
+  <advance width="458"/>
+  <unicode hex="1FC0"/>
+  <anchor x="233" y="490" name="_top"/>
+  <anchor x="233" y="701" name="top"/>
+  <outline>
+    <component base="tildecomb" xOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tilde</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tilde</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

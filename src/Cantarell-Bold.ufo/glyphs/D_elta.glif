@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="690"/>
+  <unicode hex="0394"/>
+  <anchor x="343" y="0" name="bottom"/>
+  <anchor x="343" y="694" name="top"/>
+  <outline>
+    <contour>
+      <point x="31" y="0" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="360" y="620" type="line"/>
+      <point x="312" y="620" type="line"/>
+      <point x="505" y="0" type="line"/>
+      <point x="658" y="0" type="line"/>
+      <point x="658" y="111" type="line"/>
+      <point x="459" y="694" type="line"/>
+      <point x="238" y="694" type="line"/>
+      <point x="31" y="111" type="line"/>
+    </contour>
+    <contour>
+      <point x="146" y="0" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="535" y="152" type="line"/>
+      <point x="146" y="152" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=A+30</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=A+30</string>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
+      <string>=A+30</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=A+30</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

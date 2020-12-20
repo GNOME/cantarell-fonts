@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaoxia" format="2">
+  <advance width="699"/>
+  <unicode hex="1F0D"/>
+  <anchor x="350" y="0" name="bottom"/>
+  <anchor x="633" y="10" name="ogonek"/>
+  <anchor x="350" y="694" name="top"/>
+  <anchor x="140" y="694" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="dasiaoxia.case" xOffset="-151"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

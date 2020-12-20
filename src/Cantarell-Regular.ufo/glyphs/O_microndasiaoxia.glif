@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasiaoxia" format="2">
+  <advance width="788"/>
+  <unicode hex="1F4D"/>
+  <anchor x="592" y="107" name="Qtail"/>
+  <anchor x="394" y="0" name="bottom"/>
+  <anchor x="394" y="347" name="center"/>
+  <anchor x="475" y="10" name="ogonek"/>
+  <anchor x="394" y="694" name="top"/>
+  <anchor x="23" y="694" name="topleft"/>
+  <anchor x="709" y="694" name="topright"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="dasiaoxia.case" xOffset="-268"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

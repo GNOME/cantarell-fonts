@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicronpsilivaria" format="2">
+  <advance width="760"/>
+  <unicode hex="1F4A"/>
+  <anchor x="564" y="141" name="Qtail"/>
+  <anchor x="380" y="0" name="bottom"/>
+  <anchor x="403" y="347" name="center"/>
+  <anchor x="465" y="10" name="ogonek"/>
+  <anchor x="380" y="694" name="top"/>
+  <anchor x="-25" y="694" name="topleft"/>
+  <anchor x="626" y="694" name="topright"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="psilivaria.case" xOffset="-441"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>
