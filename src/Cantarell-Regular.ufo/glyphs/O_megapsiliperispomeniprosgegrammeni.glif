@@ -1,19 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omegapsiliperispomeniprosgegrammeni" format="2">
-  <advance width="796"/>
+  <advance width="768"/>
   <unicode hex="1FAE"/>
-  <anchor x="396" y="0" name="bottom"/>
-  <anchor x="391" y="694" name="top"/>
-  <anchor x="20" y="694" name="topleft"/>
   <outline>
     <component base="Omega"/>
-    <component base="psiliperispomeni.case" xOffset="-319" yOffset="-156"/>
-    <component base="prosgegrammeni" xOffset="162"/>
+    <component base="psiliperispomeni.case" xOffset="-333" yOffset="-156"/>
+    <component base="prosgegrammeni" xOffset="148"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

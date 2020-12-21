@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Alphaprosgegrammeni" format="2">
-  <advance width="708"/>
+  <advance width="691"/>
   <unicode hex="1FBC"/>
-  <anchor x="353" y="0" name="bottom"/>
-  <anchor x="659" y="10" name="ogonek"/>
-  <anchor x="353" y="694" name="top"/>
-  <anchor x="100" y="694" name="topleft"/>
   <outline>
     <component base="Alpha"/>
     <component base="prosgegrammeni" xOffset="91"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

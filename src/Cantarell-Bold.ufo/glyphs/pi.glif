@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pi" format="2">
-  <advance width="664"/>
+  <advance width="672"/>
   <unicode hex="03C0"/>
   <outline>
     <contour>
-      <point x="536" y="-8" type="curve" smooth="yes"/>
-      <point x="578" y="-8"/>
-      <point x="607" y="-2"/>
-      <point x="647" y="11" type="curve"/>
-      <point x="616" y="127" type="line"/>
-      <point x="606" y="124"/>
-      <point x="598" y="123"/>
-      <point x="587" y="123" type="curve" smooth="yes"/>
-      <point x="558" y="123"/>
-      <point x="538" y="141"/>
-      <point x="538" y="186" type="curve" smooth="yes"/>
-      <point x="538" y="425" type="line"/>
-      <point x="365" y="425" type="line"/>
-      <point x="365" y="173" type="line" smooth="yes"/>
-      <point x="365" y="54"/>
-      <point x="430" y="-8"/>
+      <point x="543" y="-8" type="curve" smooth="yes"/>
+      <point x="585" y="-8"/>
+      <point x="614" y="-2"/>
+      <point x="654" y="11" type="curve"/>
+      <point x="623" y="127" type="line"/>
+      <point x="613" y="124"/>
+      <point x="605" y="123"/>
+      <point x="594" y="123" type="curve" smooth="yes"/>
+      <point x="565" y="123"/>
+      <point x="545" y="141"/>
+      <point x="545" y="186" type="curve" smooth="yes"/>
+      <point x="545" y="425" type="line"/>
+      <point x="372" y="425" type="line"/>
+      <point x="372" y="173" type="line" smooth="yes"/>
+      <point x="372" y="54"/>
+      <point x="437" y="-8"/>
     </contour>
     <contour>
-      <point x="94" y="0" type="line"/>
-      <point x="267" y="0" type="line"/>
-      <point x="267" y="425" type="line"/>
-      <point x="94" y="425" type="line"/>
+      <point x="101" y="0" type="line"/>
+      <point x="274" y="0" type="line"/>
+      <point x="274" y="425" type="line"/>
+      <point x="101" y="425" type="line"/>
     </contour>
     <contour>
-      <point x="5" y="355" type="line"/>
-      <point x="640" y="355" type="line"/>
-      <point x="640" y="490" type="line"/>
-      <point x="5" y="490" type="line"/>
+      <point x="12" y="355" type="line"/>
+      <point x="647" y="355" type="line"/>
+      <point x="647" y="490" type="line"/>
+      <point x="12" y="490" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -40,8 +40,6 @@
       <string>t</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=t+5</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

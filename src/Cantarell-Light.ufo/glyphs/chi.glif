@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chi" format="2">
-  <advance width="479"/>
+  <advance width="488"/>
   <unicode hex="03C7"/>
   <outline>
     <contour>
-      <point x="436" y="-217" type="line"/>
-      <point x="459" y="-217" type="line"/>
-      <point x="246" y="145" type="line"/>
-      <point x="50" y="480" type="line"/>
-      <point x="27" y="480" type="line"/>
-      <point x="236" y="126" type="line"/>
+      <point x="441" y="-217" type="line"/>
+      <point x="464" y="-217" type="line"/>
+      <point x="251" y="145" type="line"/>
+      <point x="55" y="480" type="line"/>
+      <point x="32" y="480" type="line"/>
+      <point x="241" y="126" type="line"/>
     </contour>
     <contour>
-      <point x="27" y="-217" type="line"/>
-      <point x="50" y="-217" type="line"/>
-      <point x="244" y="121" type="line"/>
-      <point x="233" y="139" type="line"/>
+      <point x="32" y="-217" type="line"/>
+      <point x="55" y="-217" type="line"/>
+      <point x="249" y="121" type="line"/>
+      <point x="238" y="139" type="line"/>
     </contour>
     <contour>
-      <point x="251" y="131" type="line"/>
-      <point x="453" y="480" type="line"/>
-      <point x="430" y="480" type="line"/>
-      <point x="239" y="147" type="line"/>
+      <point x="256" y="131" type="line"/>
+      <point x="458" y="480" type="line"/>
+      <point x="435" y="480" type="line"/>
+      <point x="244" y="147" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -32,8 +32,6 @@
       <string>=x-5</string>
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=x</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

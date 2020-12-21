@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilondasiaoxia" format="2">
-  <advance width="472"/>
+  <advance width="492"/>
   <unicode hex="1F15"/>
-  <anchor x="255" y="0" name="bottom"/>
-  <anchor x="245" y="490" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="dasiaoxia" xOffset="-37"/>
+    <component base="dasiaoxia" xOffset="-22"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

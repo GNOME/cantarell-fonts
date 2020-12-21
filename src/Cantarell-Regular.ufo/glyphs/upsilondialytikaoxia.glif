@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondialytikaoxia" format="2">
-  <advance width="547"/>
+  <advance width="545"/>
   <unicode hex="1FE3"/>
-  <anchor x="251" y="0" name="bottom"/>
-  <anchor x="251" y="482" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dialytikaoxia" xOffset="21"/>
+    <component base="dialytikaoxia"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

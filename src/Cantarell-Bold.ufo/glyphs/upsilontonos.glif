@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilontonos" format="2">
-  <advance width="564"/>
+  <advance width="586"/>
   <unicode hex="03CD"/>
-  <anchor x="275" y="0" name="bottom"/>
-  <anchor x="263" y="490" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="tonos" xOffset="122"/>
+    <component base="tonos" xOffset="129"/>
   </outline>
   <lib>
     <dict>
@@ -14,8 +12,6 @@
       <string>upsilon</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>upsilon</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omegapsilivaria" format="2">
-  <advance width="712"/>
+  <advance width="734"/>
   <unicode hex="1F62"/>
-  <anchor x="356" y="0" name="bottom"/>
-  <anchor x="356" y="480" name="top"/>
   <outline>
     <component base="omega"/>
-    <component base="psilivaria" xOffset="187"/>
+    <component base="psilivaria" xOffset="198"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

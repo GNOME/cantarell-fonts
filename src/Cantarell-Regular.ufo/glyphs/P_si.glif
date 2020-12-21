@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Psi" format="2">
-  <advance width="788"/>
+  <advance width="745"/>
   <unicode hex="03A8"/>
-  <anchor x="395" y="0" name="bottom"/>
-  <anchor x="395" y="694" name="top"/>
+  <anchor x="373" y="0" name="bottom"/>
+  <anchor x="373" y="694" name="top"/>
   <outline>
     <contour>
-      <point x="366" y="210" type="curve"/>
-      <point x="370" y="282" type="line"/>
-      <point x="242" y="282"/>
-      <point x="152" y="344"/>
-      <point x="152" y="471" type="curve" smooth="yes"/>
-      <point x="152" y="694" type="line"/>
-      <point x="69" y="694" type="line"/>
-      <point x="69" y="461" type="line" smooth="yes"/>
-      <point x="69" y="301"/>
-      <point x="200" y="210"/>
+      <point x="344" y="210" type="curve"/>
+      <point x="348" y="282" type="line"/>
+      <point x="220" y="282"/>
+      <point x="130" y="344"/>
+      <point x="130" y="471" type="curve" smooth="yes"/>
+      <point x="130" y="694" type="line"/>
+      <point x="47" y="694" type="line"/>
+      <point x="47" y="461" type="line" smooth="yes"/>
+      <point x="47" y="301"/>
+      <point x="178" y="210"/>
     </contour>
     <contour>
-      <point x="419" y="210" type="line"/>
-      <point x="592" y="210"/>
-      <point x="720" y="301"/>
-      <point x="720" y="462" type="curve" smooth="yes"/>
-      <point x="720" y="694" type="line"/>
-      <point x="637" y="694" type="line"/>
-      <point x="637" y="453" type="line" smooth="yes"/>
-      <point x="637" y="337"/>
-      <point x="549" y="282"/>
-      <point x="425" y="282" type="curve"/>
+      <point x="397" y="210" type="line"/>
+      <point x="570" y="210"/>
+      <point x="698" y="301"/>
+      <point x="698" y="462" type="curve" smooth="yes"/>
+      <point x="698" y="694" type="line"/>
+      <point x="615" y="694" type="line"/>
+      <point x="615" y="453" type="line" smooth="yes"/>
+      <point x="615" y="337"/>
+      <point x="527" y="282"/>
+      <point x="403" y="282" type="curve"/>
     </contour>
     <contour>
-      <point x="353" y="0" type="line"/>
-      <point x="436" y="0" type="line"/>
-      <point x="436" y="694" type="line"/>
-      <point x="353" y="694" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="414" y="0" type="line"/>
+      <point x="414" y="694" type="line"/>
+      <point x="331" y="694" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -42,8 +42,6 @@
       <string>=U-25</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=U-25</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

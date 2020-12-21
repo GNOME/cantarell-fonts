@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alphadasiavariaypogegrammeni" format="2">
-  <advance width="597"/>
+  <advance width="618"/>
   <unicode hex="1F83"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="260" y="490" name="top"/>
   <outline>
     <component base="alpha"/>
-    <component base="dasiavaria" xOffset="-40"/>
-    <component base="ypogegrammeni" xOffset="-28"/>
+    <component base="dasiavaria" xOffset="-28"/>
+    <component base="ypogegrammeni" xOffset="-16"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

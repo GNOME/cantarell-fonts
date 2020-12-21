@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Etapsiliprosgegrammeni" format="2">
-  <advance width="755"/>
+  <advance width="763"/>
   <unicode hex="1F98"/>
-  <anchor x="377" y="0" name="bottom"/>
-  <anchor x="377" y="566" name="center"/>
-  <anchor x="377" y="694" name="top"/>
-  <anchor x="-33" y="694" name="topleft"/>
   <outline>
     <component base="Eta"/>
     <component base="psili.case" xOffset="-242"/>
     <component base="prosgegrammeni" xOffset="115"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

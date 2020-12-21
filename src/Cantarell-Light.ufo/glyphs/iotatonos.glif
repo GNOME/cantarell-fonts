@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iotatonos" format="2">
-  <advance width="233"/>
+  <advance width="270"/>
   <unicode hex="03AF"/>
-  <anchor x="137" y="0" name="bottom"/>
-  <anchor x="97" y="480" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="tonos" xOffset="4"/>
+    <component base="tonos" xOffset="25"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iotadieresistonos" format="2">
-  <advance width="313"/>
+  <advance width="334"/>
   <unicode hex="0390"/>
-  <anchor x="171" y="0" name="bottom"/>
-  <anchor x="130" y="490" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="dieresistonos" xOffset="-165"/>
+    <component base="dieresistonos" xOffset="-149"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

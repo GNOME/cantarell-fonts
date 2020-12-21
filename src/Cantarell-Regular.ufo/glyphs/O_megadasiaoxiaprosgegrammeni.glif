@@ -1,19 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omegadasiaoxiaprosgegrammeni" format="2">
-  <advance width="796"/>
+  <advance width="768"/>
   <unicode hex="1FAD"/>
-  <anchor x="396" y="0" name="bottom"/>
-  <anchor x="391" y="694" name="top"/>
-  <anchor x="20" y="694" name="topleft"/>
   <outline>
     <component base="Omega"/>
-    <component base="dasiaoxia.case" xOffset="-271"/>
-    <component base="prosgegrammeni" xOffset="162"/>
+    <component base="dasiaoxia.case" xOffset="-285"/>
+    <component base="prosgegrammeni" xOffset="148"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

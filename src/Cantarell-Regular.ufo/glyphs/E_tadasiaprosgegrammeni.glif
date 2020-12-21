@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Etadasiaprosgegrammeni" format="2">
-  <advance width="749"/>
+  <advance width="721"/>
   <unicode hex="1F99"/>
-  <anchor x="375" y="0" name="bottom"/>
-  <anchor x="375" y="539" name="center"/>
-  <anchor x="375" y="694" name="top"/>
-  <anchor x="-4" y="694" name="topleft"/>
   <outline>
     <component base="Eta"/>
     <component base="dasia.case" xOffset="-129"/>
     <component base="prosgegrammeni" xOffset="141"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

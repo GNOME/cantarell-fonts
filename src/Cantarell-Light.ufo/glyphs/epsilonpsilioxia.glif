@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilonpsilioxia" format="2">
-  <advance width="447"/>
+  <advance width="474"/>
   <unicode hex="1F14"/>
-  <anchor x="237" y="0" name="bottom"/>
-  <anchor x="222" y="480" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="psilioxia" xOffset="71"/>
+    <component base="psilioxia" xOffset="82"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

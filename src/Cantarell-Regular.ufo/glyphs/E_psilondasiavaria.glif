@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Epsilondasiavaria" format="2">
-  <advance width="605"/>
+  <advance width="584"/>
   <unicode hex="1F1B"/>
-  <anchor x="315" y="0" name="bottom"/>
-  <anchor x="520" y="10" name="ogonek"/>
-  <anchor x="335" y="694" name="top"/>
-  <anchor x="-4" y="694" name="topleft"/>
   <outline>
     <component base="Epsilon"/>
     <component base="dasiavaria.case" xOffset="-276"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

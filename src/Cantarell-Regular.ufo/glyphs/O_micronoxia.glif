@@ -1,22 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omicronoxia" format="2">
-  <advance width="788"/>
+  <advance width="760"/>
   <unicode hex="1FF9"/>
-  <anchor x="592" y="107" name="Qtail"/>
-  <anchor x="394" y="0" name="bottom"/>
-  <anchor x="394" y="347" name="center"/>
-  <anchor x="475" y="10" name="ogonek"/>
-  <anchor x="394" y="694" name="top"/>
-  <anchor x="23" y="694" name="topleft"/>
-  <anchor x="709" y="694" name="topright"/>
   <outline>
     <component base="Omicron"/>
     <component base="oxia.case" xOffset="-126"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

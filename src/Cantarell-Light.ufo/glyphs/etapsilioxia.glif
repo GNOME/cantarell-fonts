@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="etapsilioxia" format="2">
-  <advance width="523"/>
+  <advance width="561"/>
   <unicode hex="1F24"/>
-  <anchor x="98" y="0" name="bottom"/>
-  <anchor x="262" y="480" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="psilioxia" xOffset="111"/>
+    <component base="psilioxia" xOffset="130"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

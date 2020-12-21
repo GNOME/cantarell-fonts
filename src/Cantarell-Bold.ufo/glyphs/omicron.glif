@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omicron" format="2">
-  <advance width="559"/>
+  <advance width="589"/>
   <unicode hex="03BF"/>
-  <anchor x="278" y="0" name="bottom"/>
-  <anchor x="278" y="490" name="top"/>
+  <anchor x="293" y="0" name="bottom"/>
+  <anchor x="293" y="490" name="top"/>
   <outline>
     <contour>
-      <point x="271" y="-10" type="curve" smooth="yes"/>
-      <point x="434" y="-10"/>
-      <point x="541" y="97"/>
-      <point x="541" y="254" type="curve" smooth="yes"/>
-      <point x="541" y="402"/>
-      <point x="444" y="500"/>
-      <point x="289" y="500" type="curve" smooth="yes"/>
-      <point x="125" y="500"/>
-      <point x="18" y="393"/>
-      <point x="18" y="235" type="curve" smooth="yes"/>
-      <point x="18" y="88"/>
-      <point x="115" y="-10"/>
+      <point x="286" y="-10" type="curve" smooth="yes"/>
+      <point x="449" y="-10"/>
+      <point x="556" y="97"/>
+      <point x="556" y="254" type="curve" smooth="yes"/>
+      <point x="556" y="402"/>
+      <point x="459" y="500"/>
+      <point x="304" y="500" type="curve" smooth="yes"/>
+      <point x="140" y="500"/>
+      <point x="33" y="393"/>
+      <point x="33" y="235" type="curve" smooth="yes"/>
+      <point x="33" y="88"/>
+      <point x="130" y="-10"/>
     </contour>
     <contour>
-      <point x="282" y="134" type="curve" smooth="yes"/>
-      <point x="224" y="134"/>
-      <point x="194" y="177"/>
-      <point x="194" y="246" type="curve" smooth="yes"/>
-      <point x="194" y="314"/>
-      <point x="222" y="356"/>
-      <point x="277" y="356" type="curve" smooth="yes"/>
-      <point x="335" y="356"/>
-      <point x="365" y="312"/>
-      <point x="365" y="240" type="curve" smooth="yes"/>
-      <point x="365" y="174"/>
-      <point x="337" y="134"/>
+      <point x="297" y="134" type="curve" smooth="yes"/>
+      <point x="239" y="134"/>
+      <point x="209" y="177"/>
+      <point x="209" y="246" type="curve" smooth="yes"/>
+      <point x="209" y="314"/>
+      <point x="237" y="356"/>
+      <point x="292" y="356" type="curve" smooth="yes"/>
+      <point x="350" y="356"/>
+      <point x="380" y="312"/>
+      <point x="380" y="240" type="curve" smooth="yes"/>
+      <point x="380" y="174"/>
+      <point x="352" y="134"/>
     </contour>
   </outline>
   <lib>
@@ -40,8 +40,6 @@
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

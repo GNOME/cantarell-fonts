@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omegapsili" format="2">
-  <advance width="796"/>
+  <advance width="768"/>
   <unicode hex="1F68"/>
-  <anchor x="396" y="0" name="bottom"/>
-  <anchor x="391" y="694" name="top"/>
-  <anchor x="20" y="694" name="topleft"/>
   <outline>
     <component base="Omega"/>
-    <component base="psili.case" xOffset="-128"/>
+    <component base="psili.case" xOffset="-142"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

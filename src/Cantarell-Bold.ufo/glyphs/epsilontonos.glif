@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilontonos" format="2">
-  <advance width="472"/>
+  <advance width="492"/>
   <unicode hex="03AD"/>
-  <anchor x="255" y="0" name="bottom"/>
-  <anchor x="245" y="490" name="top"/>
   <outline>
     <component base="epsilon"/>
-    <component base="tonos" xOffset="104"/>
+    <component base="tonos" xOffset="119"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

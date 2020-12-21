@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilondasiaperispomeni" format="2">
-  <advance width="610"/>
+  <advance width="580"/>
   <unicode hex="1F5F"/>
-  <anchor x="311" y="0" name="bottom"/>
-  <anchor x="311" y="694" name="top"/>
-  <anchor x="-51" y="694" name="topleft"/>
   <outline>
     <component base="Upsilon"/>
     <component base="dasiaperispomeni.case" xOffset="-405" yOffset="-156"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

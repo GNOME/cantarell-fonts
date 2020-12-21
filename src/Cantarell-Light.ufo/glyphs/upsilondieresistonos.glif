@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondieresistonos" format="2">
-  <advance width="505"/>
+  <advance width="534"/>
   <unicode hex="03B0"/>
-  <anchor x="226" y="0" name="bottom"/>
-  <anchor x="226" y="480" name="top"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dieresistonos" xOffset="24"/>
+    <component base="dieresistonos" xOffset="42"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="perispomeni" format="2">
-  <advance width="482"/>
+  <advance width="500"/>
   <unicode hex="1FC0"/>
-  <anchor x="217" y="480" name="_top"/>
-  <anchor x="217" y="612" name="top"/>
+  <anchor x="247" y="480" name="_top"/>
+  <anchor x="247" y="612" name="top"/>
   <outline>
-    <component base="tildecomb" xOffset="-18"/>
+    <component base="tildecomb" xOffset="12"/>
   </outline>
   <lib>
     <dict>
@@ -13,8 +13,6 @@
       <string>tilde</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>tilde</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

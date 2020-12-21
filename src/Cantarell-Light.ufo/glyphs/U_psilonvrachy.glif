@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilonvrachy" format="2">
-  <advance width="528"/>
+  <advance width="556"/>
   <unicode hex="1FE8"/>
-  <anchor x="265" y="0" name="bottom"/>
-  <anchor x="265" y="694" name="top"/>
-  <anchor x="-39" y="694" name="topleft"/>
   <outline>
     <component base="Upsilon"/>
-    <component base="vrachy.case" xOffset="75"/>
+    <component base="vrachy.case" xOffset="62"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

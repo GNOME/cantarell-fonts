@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iotavrachy" format="2">
-  <advance width="310"/>
+  <advance width="318"/>
   <unicode hex="1FD8"/>
-  <anchor x="155" y="0" name="bottom"/>
-  <anchor x="196" y="10" name="ogonek"/>
-  <anchor x="155" y="694" name="top"/>
-  <anchor x="-33" y="694" name="topleft"/>
   <outline>
     <component base="Iota"/>
     <component base="vrachy.case" xOffset="-78"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="psiliperispomeni" format="2">
-  <advance width="482"/>
+  <advance width="500"/>
   <unicode hex="1FCF"/>
-  <anchor x="217" y="480" name="_top"/>
+  <anchor x="247" y="480" name="_top"/>
   <outline>
-    <component base="psili" xOffset="119"/>
+    <component base="psili" xOffset="149"/>
     <component base="perispomeni" yOffset="204"/>
   </outline>
   <lib>
@@ -13,8 +13,6 @@
       <string>perispomeni</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>perispomeni</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

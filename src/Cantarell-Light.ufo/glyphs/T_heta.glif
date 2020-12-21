@@ -1,14 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Theta" format="2">
-  <advance width="754"/>
+  <advance width="755"/>
   <unicode hex="0398"/>
   <anchor x="378" y="0" name="bottom"/>
   <anchor x="378" y="694" name="top"/>
-  <anchor x="598" y="94" name="Qtail"/>
-  <anchor x="379" y="345" name="center"/>
-  <anchor x="459" y="10" name="ogonek"/>
-  <anchor x="-3" y="694" name="topleft"/>
-  <anchor x="653" y="694" name="topright"/>
   <outline>
     <contour>
       <point x="193" y="342" type="line"/>
@@ -24,8 +19,6 @@
       <string>=O</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=O</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

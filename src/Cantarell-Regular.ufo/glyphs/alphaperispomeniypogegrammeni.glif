@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alphaperispomeniypogegrammeni" format="2">
-  <advance width="575"/>
+  <advance width="586"/>
   <unicode hex="1FB7"/>
-  <anchor x="253" y="0" name="bottom"/>
-  <anchor x="266" y="641" name="top"/>
   <outline>
     <component base="alpha"/>
-    <component base="perispomeni" xOffset="40"/>
-    <component base="ypogegrammeni" xOffset="19"/>
+    <component base="perispomeni" xOffset="22"/>
+    <component base="ypogegrammeni" xOffset="17"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilonoxia" format="2">
-  <advance width="610"/>
+  <advance width="580"/>
   <unicode hex="1FEB"/>
-  <anchor x="311" y="0" name="bottom"/>
-  <anchor x="311" y="694" name="top"/>
-  <anchor x="-51" y="694" name="topleft"/>
   <outline>
     <component base="Upsilon"/>
     <component base="oxia.case" xOffset="-200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
