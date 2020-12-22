@@ -16,11 +16,17 @@ target_ufo_glyph_order = target_ufo.lib["public.glyphOrder"]
 target_ufo_glyph_order_set = set(target_ufo_glyph_order)
 
 for source_glyph in source_ufo:
-    if source_glyph.name not in glyph_list:
+    name = source_glyph.name
+    if name not in glyph_list:
         continue
 
-    target_ufo[source_glyph.name] = source_glyph
-    if source_glyph.name not in target_ufo_glyph_order_set:
-        target_ufo_glyph_order.append(source_glyph.name)
+    target_ufo[name] = source_glyph
+    if name not in target_ufo_glyph_order_set:
+        target_ufo_glyph_order.append(name)
+
+    source_ps_names = source_ufo.lib["public.postscriptNames"]
+    target_ps_names = target_ufo.lib["public.postscriptNames"]
+    if name in source_ps_names:
+        target_ps_names[name] = source_ps_names[name]
 
 target_ufo.save()
