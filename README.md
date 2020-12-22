@@ -66,6 +66,12 @@ Here is a list of major contributors; all contributors are listed in the GNOME G
 | Florian Fecher     | florian.fecher@grautesk.de    | http://www.twitter.com/grautesk                     | Designer, original Greek glyphs.                                                        |
 | Valek Filippov     | frob@gnome.org                | https://plus.google.com/108983215764171548842/about | Designer, original Cyrillic glyphs.                                                     |
 | Erik Hartenian     | infinality@infinality.net     | \-                                                  | Connoisseur of fine font renderding.                                                    |
+| Jacques Le Bailly  | fonthausen@baronvonfonthausen.com  | http://baronvonfonthausen.com                  | Mentor for the Latin set                                                                |
 | Pooja Saxena       | anexasajoop@gmail.com         | http://www.poojasaxena.in                           | Designer, new glyphs and many improvements to weight and metric balance.                |
+| Eben Sorkin        | http://sorkintype.com/contact.html | http://sorkintype.com/                         | Mentor for the Latin set                                                                |
 | Jakub Steiner      | jimmac@gmail.com              | http://jimmac.musichall.cz                          | Designer, many improvements and GNOME standards engineering.                            |
+| Emilios Theofanous | \-                            | https://twitter.com/emilios__                       | GSoC 2018 mentor for the Greek set                                                      |
+| Alexei Vanyashin   | hello@110design.ru            | http://www.110design.ru/                            | Mentor for the Cyrillic set                                                             |
+| Irene Vlachou      | \-                            | https://twitter.com/irene_vlachou                   | GSoC 2018 mentor for the Greek set                                                      |
 | Nikolaus Waxweiler | madigens@gmail.com            | \-                                                  | Designer, general clean up and increased language coverage, later on complete redesign. |
+| Alexios Zavras     | \-                            | \-                                                  | GSoC 2018 mentor for the Greek set                                                      |
