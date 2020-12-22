@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="334"/>
+  <unicode hex="03B9"/>
+  <anchor x="187" y="0" name="bottom"/>
+  <anchor x="146" y="490" name="top"/>
+  <outline>
+    <contour>
+      <point x="226" y="-8" type="curve" smooth="yes"/>
+      <point x="264" y="-8"/>
+      <point x="303" y="-1"/>
+      <point x="336" y="11" type="curve"/>
+      <point x="302" y="125" type="line"/>
+      <point x="292" y="122"/>
+      <point x="281" y="121"/>
+      <point x="275" y="121" type="curve" smooth="yes"/>
+      <point x="249" y="121"/>
+      <point x="235" y="137"/>
+      <point x="235" y="168" type="curve" smooth="yes"/>
+      <point x="235" y="490" type="line"/>
+      <point x="62" y="490" type="line"/>
+      <point x="62" y="147" type="line" smooth="yes"/>
+      <point x="62" y="48"/>
+      <point x="122" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l</string>
+    </dict>
+  </lib>
+</glyph>

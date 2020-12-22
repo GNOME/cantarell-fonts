@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psiliperispomeni" format="2">
+  <advance width="500"/>
+  <unicode hex="1FCF"/>
+  <anchor x="249" y="490" name="_top"/>
+  <outline>
+    <component base="psili" xOffset="75"/>
+    <component base="perispomeni" yOffset="239"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>perispomeni</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>perispomeni</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaperispomeni" format="2">
+  <advance width="500"/>
+  <unicode hex="1FC1"/>
+  <anchor x="247" y="480" name="_top"/>
+  <outline>
+    <component base="dieresiscomb" xOffset="28"/>
+    <component base="perispomeni" yOffset="159"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=perispomeni</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=perispomeni</string>
+    </dict>
+  </lib>
+</glyph>

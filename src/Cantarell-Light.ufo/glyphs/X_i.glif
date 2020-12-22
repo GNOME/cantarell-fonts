@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
+  <advance width="551"/>
+  <unicode hex="039E"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="489" y="18" type="line"/>
+      <point x="50" y="18" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="355" type="line"/>
+      <point x="443" y="355" type="line"/>
+      <point x="443" y="373" type="line"/>
+      <point x="90" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="676" type="line"/>
+      <point x="489" y="676" type="line"/>
+      <point x="489" y="694" type="line"/>
+      <point x="50" y="694" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=E</string>
+    </dict>
+  </lib>
+</glyph>
