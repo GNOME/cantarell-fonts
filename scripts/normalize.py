@@ -36,6 +36,7 @@ for ufo_path in source_directory.glob("*.ufo"):
         or (
             k
             in {
+                "com.schriftgestaltung.appVersion",
                 "com.schriftgestaltung.fontMasterID",
                 "com.schriftgestaltung.customParameter.GSFont.disablesLastChange",
                 "com.schriftgestaltung.customParameter.GSFontMaster.paramArea",
