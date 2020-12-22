@@ -1,3 +1,21 @@
+0.300:
+- Import Greek glyph set designed by Florian Fecher for GSoC 2018. No kerning,
+  might need a slight respacing. Imported anyway because someting is better than
+  nothing.
+- Correct positioning of dotaccentcomb.case.
+- Correct mark positioning in caroncomb.case.
+- Correct appearance of ustraightstroke in variable font, the overlap became
+  visible at smaller, autohinted sizes.
+- Correct bar positioning in Ustraightstroke and ustraightstroke
+- Correct anchor positioning in Y
+- Internal: Consolidate various anchors in composites into the base outline
+  glyphs, to reduce the chance they get out sync.
+- New appstream translations:
+  - Norwegian Bokmål by Kjartan Maraas
+  - Bengali (India) by Akarshan Biswas
+  - Portuguese by João Nuno Matos
+  - Japanese by Shinichirou Yamada and sicklylife
+
 0.201:
 - Oopsie-release: The last one was missing pre-built binaries in the release
   tarball.
