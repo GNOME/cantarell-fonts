@@ -14,7 +14,9 @@ if useprebuilt == false
     if get_option('buildstatics') == true
         make_static_fonts = join_paths(meson.current_source_dir(), 'scripts', 'make-static-fonts.py')
     endif
-    make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
+    if get_option('buildvf') == true
+        make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
+    endif
     psautohint = find_program('psautohint')
     subdir('src')
 else
