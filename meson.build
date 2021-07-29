@@ -11,8 +11,12 @@ endif
 useprebuilt = get_option('useprebuilt')
 if useprebuilt == false
     python3 = import('python').find_installation('python3')
-    make_static_fonts = join_paths(meson.current_source_dir(), 'scripts', 'make-static-fonts.py')
-    make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
+    if get_option('buildstatics') == true
+        make_static_fonts = join_paths(meson.current_source_dir(), 'scripts', 'make-static-fonts.py')
+    endif
+    if get_option('buildvf') == true
+        make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
+    endif
     psautohint = find_program('psautohint')
     subdir('src')
 else

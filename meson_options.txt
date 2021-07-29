@@ -6,3 +6,9 @@ option('useprebuilt', type : 'boolean', value : false,
 
 option('buildappstream', type : 'boolean', value : true,
        description : 'Build Appstream metadata file')
+
+option('buildstatics', type : 'boolean', value : false,
+       description : 'Build static fonts')
+
+option('buildvf', type : 'boolean', value : true,
+       description : 'Build variable fonts')
