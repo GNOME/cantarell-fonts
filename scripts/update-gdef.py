@@ -6,88 +6,70 @@ glyphs with anchors.
 """
 
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Dict, Optional
 
-import ufoLib2
 import glyphsLib.builder.constants
 import glyphsLib.glyphdata
 import ufo2ft.filters
+import ufoLib2
 
 
-# Lifted from glyphsLib and adapted to only recognize Letters as bases and not
-# insert a "# automatic".
-def _build_gdef(ufo) -> List[str]:
-    """Build a GDEF table statement (GlyphClassDef and LigatureCaretByPos).
+def opentype_categories(ufo: ufoLib2.Font) -> Dict[str, str]:
+    """Returns a public.openTypeCategories dictionary.
 
-    Building GlyphClassDef requires anchor propagation or user care to work as
+    Building it requires anchor propagation or user care to work as
     expected, as Glyphs.app also looks at anchors for classification:
 
-    * Base: any glyph that has an attaching anchor (such as "top"; "_top" does
+    * base: any glyph that has an attaching anchor (such as "top"; "_top" does
       not count) and is neither classified as Ligature nor Mark using the
       definitions below;
-    * Ligature: if subCategory is "Ligature" and the glyph has at least one
+    * ligature: if subCategory is "Ligature" and the glyph has at least one
       attaching anchor;
-    * Mark: if category is "Mark" and subCategory is either "Nonspacing" or
+    * mark: if category is "Mark" and subCategory is either "Nonspacing" or
       "Spacing Combining";
-    * Compound: never assigned by Glyphs.app.
+    * composite: never assigned by Glyphs.app.
 
     See:
 
     * https://github.com/googlefonts/glyphsLib/issues/85
     * https://github.com/googlefonts/glyphsLib/pull/100#issuecomment-275430289
     """
-    bases, ligatures, marks = set(), set(), set()
-    carets: Dict[str, Any] = {}  # glyph names to anchor objects
+
+    # Drop glyphs that don't exist in font anymore.
+    existing: Dict[str, str] = ufo.lib.get("public.openTypeCategories", {})
+    categories: Dict[str, str] = {k: v for k, v in existing.items() if k in ufo}
+
     category_key = glyphsLib.builder.constants.GLYPHLIB_PREFIX + "category"
-    subCategory_key = glyphsLib.builder.constants.GLYPHLIB_PREFIX + "subCategory"
+    subcategory_key = glyphsLib.builder.constants.GLYPHLIB_PREFIX + "subCategory"
 
     for glyph in ufo:
+        assert glyph.name is not None
         has_attaching_anchor = False
         for anchor in glyph.anchors:
             name = anchor.name
-            if name and not name.startswith("_"):
+            if not name:
+                continue
+            if not name.startswith("_"):
                 has_attaching_anchor = True
-            if name and name.startswith("caret_") and "x" in anchor:
-                carets.setdefault(glyph.name, []).append(round(anchor["x"]))
 
         # First check glyph.lib for category/subCategory overrides. Otherwise,
         # use global values from GlyphData.
         glyphinfo = glyphsLib.glyphdata.get_glyph(glyph.name)
-        category = glyph.lib.get(category_key) or glyphinfo.category
-        subCategory = glyph.lib.get(subCategory_key) or glyphinfo.subCategory
+        category: Optional[str] = glyph.lib.get(category_key, glyphinfo.category)
+        subcategory: Optional[str] = glyph.lib.get(
+            subcategory_key, glyphinfo.subCategory
+        )
 
-        if subCategory == "Ligature" and has_attaching_anchor:
-            ligatures.add(glyph.name)
+        if subcategory == "Ligature" and has_attaching_anchor:
+            categories[glyph.name] = "ligature"
         elif category == "Mark" and (
-            subCategory == "Nonspacing" or subCategory == "Spacing Combining"
+            subcategory == "Nonspacing" or subcategory == "Spacing Combining"
         ):
-            marks.add(glyph.name)
+            categories[glyph.name] = "mark"
         elif category == "Letter" and has_attaching_anchor:
-            bases.add(glyph.name)
+            categories[glyph.name] = "base"
 
-    if not any((bases, ligatures, marks, carets)):
-        return []
-
-    def fmt(g):
-        if g:
-            glyph_names = " ".join(sorted(g, key=ufo.glyphOrder.index))
-            return f"[{glyph_names}]"
-        return ""
-
-    lines = [
-        "table GDEF {",
-        "  GlyphClassDef",
-        f"    {fmt(bases)}, # Base",
-        f"    {fmt(ligatures)}, # Liga",
-        f"    {fmt(marks)}, # Mark",
-        "    ;",
-    ]
-    for glyph, caretPos in sorted(carets.items()):
-        caretPos_joined = " ".join(sorted(caretPos))
-        lines.append(f"  LigatureCaretByPos {glyph} {caretPos_joined};")
-    lines.append("} GDEF;")
-
-    return lines
+    return categories
 
 
 # Anchors have to be propagated before we can construct the GDEF table.
@@ -102,15 +84,12 @@ if __name__ == "__main__":
     for pf in pre_filter:
         pf(font=main_source)  # Run propagation filters on main UFO
 
-    # Generate GDEF definition string from processed, in-memory UFO
-    gdef_table_lines = [f"{l}\n" for l in _build_gdef(main_source)]
+    ot_categories = opentype_categories(main_source)
 
-    # Update features.fea in all UFOs.
-    for feature_file in source_directory.glob("*.ufo/features.fea"):
-        with open(feature_file) as fp:
-            file_contents = fp.readlines()
-        gdef_start = file_contents.index("table GDEF {\n")
-        gdef_end = file_contents.index("} GDEF;\n") + 1
-        file_contents[gdef_start:gdef_end] = gdef_table_lines
-        with open(feature_file, "w+") as fp:
-            fp.write("".join(file_contents))
+    for ufo_path in source_directory.glob("*.ufo"):
+        ufo = ufoLib2.Font.open(ufo_path)
+        if ot_categories:
+            ufo.lib["public.openTypeCategories"] = ot_categories
+        else:
+            ufo.lib.pop("public.openTypeCategories", None)
+        ufo.save()
