@@ -1,3 +1,11 @@
+0.302:
+- Maintenance release: Make the variable font the default, only build statics
+  on demand. Also build two packages with variable and static fonts.
+- New appstream translations:
+  - Belarusian by Alexey Razumov
+  - Updated Portuguese by Hugo Carvalho
+  - Bulgarian by Alexander Shopov
+
 0.301:
 - Oopsie-release: The last one was missing PostScript names for the new glyphs.
   Only relevant for when extracting text from PDFs where the generator omitted
