@@ -18,6 +18,8 @@ meson build
 ninja -C build install
 ```
 
+By default, only the variable font is built. You can toggle either with the `buildstatics` and `buildvf` Meson option.
+
 Contributing
 ------------
 
