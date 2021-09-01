@@ -1,4 +1,4 @@
-build-default:
+build-variable:
   image: 'registry.fedoraproject.org/fedora:latest'
   script:
     - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext python3.8
@@ -25,7 +25,7 @@ build-default:
       - prebuilt/*.otf
     expire_in: 7 days
 
-build-just-statics:
+build-statics:
   image: 'registry.fedoraproject.org/fedora:latest'
   script:
     - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext python3.8
@@ -33,12 +33,12 @@ build-just-statics:
     - python3.8 -m venv venv
     - . venv/bin/activate
     - pip3 install meson ninja -r requirements.txt
-    - meson build -D buildstatics=true -D buildvf=false
+    - meson rewrite default-options set buildstatics true
+    - meson rewrite default-options set buildvf false
+    - meson build
     - ninja -C build install
 
     # Make a dist package with prebuilt binaries.
-    - meson rewrite default-options set buildstatics true
-    - meson rewrite default-options set buildvf false
     - meson rewrite default-options set useprebuilt true
     - git add meson.build
     - cp /usr/local/share/fonts/cantarell/*.otf prebuilt
