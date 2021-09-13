@@ -3,6 +3,7 @@
   on demand. Also build two packages with variable and static fonts. Packagers
   can chose the statics package if they run into problems with the variable font,
   but you should probably not install both at the same time.
+- Amended OS/2 super- and subscript values so that new Pango can use them properly.
 - Update production names for Jacute, bulletoperator, commercialMinusSign,
   divisionslash, notidentical, ringcomb_acutecomb and ringcomb_acutecomb.case.
 - New appstream translations:
