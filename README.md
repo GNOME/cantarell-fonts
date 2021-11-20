@@ -49,7 +49,7 @@ History
 
 The Cantarell typeface family is a contemporary Humanist sans serif, and is used by the GNOME project for its user interface.
 
-Cantarell was originally designed by Dave Crossland as part of his coursework for the MA Typeface Design program at the [Department of Typography in the University of Reading, England](http://www.typedesign.reading.ac.uk).
+Cantarell was originally designed by Dave Crossland as part of his coursework for the MA Typeface Design program at the [Department of Typography in the University of Reading, England](https://www.reading.ac.uk/typography/).
 
 After the GNOME project adopted the typeface in November 2010, minor modifications and slight expansions were made to it over the years. Pooja Saxena initially worked on the typeface as a participant of the GNOME outreach program and later developed her own Devanagari typeface Cambay, which included a redesigned latin version of Cantarell. It was backported to the GNOME branch of Cantarell by Nikolaus Waxweiler, who also performed other janitorial tasks on it.
 
@@ -65,10 +65,10 @@ Here is a list of major contributors; all contributors are listed in the GNOME G
 | Name               | Email                         | Web Address                                         | Description                                                                             |
 | ------------------ | ----------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Dave Crossland     | dave@understandinglimited.com | http://understandingfonts.com/who/dave-crossland/   | Designer, original Latin glyphs.                                                        |
-| Florian Fecher     | florian.fecher@grautesk.de    | http://www.twitter.com/grautesk                     | Designer, original Greek glyphs.                                                        |
+| Florian Fecher     | florian.fecher@grautesk.de    | https://www.twitter.com/grautesk                    | Designer, original Greek glyphs.                                                        |
 | Valek Filippov     | frob@gnome.org                | https://plus.google.com/108983215764171548842/about | Designer, original Cyrillic glyphs.                                                     |
 | Erik Hartenian     | infinality@infinality.net     | \-                                                  | Connoisseur of fine font renderding.                                                    |
-| Jacques Le Bailly  | fonthausen@baronvonfonthausen.com  | http://baronvonfonthausen.com                  | Mentor for the Latin set                                                                |
+| Jacques Le Bailly  | fonthausen@baronvonfonthausen.com  | https://baronvonfonthausen.com                 | Mentor for the Latin set                                                                |
 | Pooja Saxena       | anexasajoop@gmail.com         | http://www.poojasaxena.in                           | Designer, new glyphs and many improvements to weight and metric balance.                |
 | Eben Sorkin        | http://sorkintype.com/contact.html | http://sorkintype.com/                         | Mentor for the Latin set                                                                |
 | Jakub Steiner      | jimmac@gmail.com              | http://jimmac.musichall.cz                          | Designer, many improvements and GNOME standards engineering.                            |
