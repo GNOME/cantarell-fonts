@@ -12,6 +12,11 @@ import ufo2ft
 
 import instantiator
 
+try:
+    import pathops
+    have_pathops = True
+except ImportError:
+    have_pathops = False
 
 def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
@@ -31,7 +36,7 @@ def generate_and_write_autohinted_instance(
     instance_font = ufo2ft.compileOTF(
         instance,
         removeOverlaps=True,
-        overlapsBackend="pathops",
+        overlapsBackend="pathops" if have_pathops else "booleanOperations",
         inplace=True,
         useProductionNames=True,
         optimizeCFF=ufo2ft.CFFOptimization.NONE,
