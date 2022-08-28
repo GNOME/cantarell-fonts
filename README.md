@@ -1,7 +1,7 @@
 Cantarell
 =========
 
-This file provides detailed information on the Cantarell font software. This information should be distributed along with the Cantarell fonts and any derivative works.
+This file provides detailed information on the Cantarell font software. This information should be distributed along with the Cantarell fonts and any derivative works. The latest release is available at the [Cantarell website](https://cantarell.gnome.org).
 
 Build instructions
 ------------------
