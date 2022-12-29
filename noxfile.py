@@ -27,7 +27,10 @@ def build_fonts(session: nox.Session, build_statics: bool) -> None:
         rewrite_default_options = ("meson", "rewrite", "default-options", "set")
         session.run(*rewrite_default_options, "buildstatics", "true")
         session.run(*rewrite_default_options, "buildvf", "false")
-    session.run("meson", "setup", "build")
+    if Path("build").exists():
+        session.run("meson", "setup", "--reconfigure", "build")
+    else:
+        session.run("meson", "setup", "build")
     session.run("ninja", "-C", "build")
 
 
