@@ -6,15 +6,15 @@
 # sequentially.
 
 import argparse
-import tempfile
-import subprocess
 import os
+import subprocess
+import tempfile
 from pathlib import Path
 
 import cffsubr
 import fontTools.designspaceLib
-import fontTools.varLib
 import fontTools.ttLib
+import fontTools.varLib
 import statmake.classes
 import statmake.lib
 import ufo2ft
@@ -57,8 +57,8 @@ varfont = ufo2ft.compileVariableCFF2(
 )
 
 # 3. Generate STAT table.
-stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
-statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
+# stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
+# statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
 
 # 4. Save. External tools after this point.
 varfont.save(output_path)
