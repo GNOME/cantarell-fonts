@@ -41,7 +41,7 @@ def dist(session: nox.Session) -> None:
     session.run("meson", "rewrite", "default-options", "set", "useprebuilt", "true")
     session.run("git", "add", "meson.build")
     for font in (destdir_path / "usr/local/share/fonts/cantarell").glob("*.otf"):
-        shutil.copyfile(font, "prebuilt")
+        shutil.copy(font, "prebuilt")
     session.run("git", "add", "prebuilt/*.otf")
     session.run("git", "config", "--global", "user.email", "you@example.com")
     session.run("git", "config", "--global", "user.name", "Your Name")
