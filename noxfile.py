@@ -39,13 +39,17 @@ def dist(session: nox.Session) -> None:
     session.install("meson", "ninja", "-r", "requirements.txt")
     session.run("ninja", "-C", "build", "install", env={"DESTDIR": destdir.name})
     session.run("meson", "rewrite", "default-options", "set", "useprebuilt", "true")
-    session.run("git", "add", "meson.build")
+    session.run("git", "add", "meson.build", external=True)
     for font in (destdir_path / "usr/local/share/fonts/cantarell").glob("*.otf"):
         shutil.copy(font, "prebuilt")
-    session.run("git", "add", "prebuilt/*.otf")
-    session.run("git", "config", "--global", "user.email", "you@example.com")
-    session.run("git", "config", "--global", "user.name", "Your Name")
-    session.run("git", "commit", "-m", "Meson packages commits, not file trees.")
+    session.run("git", "add", "prebuilt/*.otf", external=True)
+    session.run(
+        "git", "config", "--global", "user.email", "you@example.com", external=True
+    )
+    session.run("git", "config", "--global", "user.name", "Your Name", external=True)
+    session.run(
+        "git", "commit", "-m", "Meson packages commits, not file trees.", external=True
+    )
     session.run("ninja", "-C", "build", "dist")
 
 
