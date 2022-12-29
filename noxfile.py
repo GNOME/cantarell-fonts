@@ -36,7 +36,7 @@ def dist(session: nox.Session) -> None:
     destdir = tempfile.TemporaryDirectory()
     destdir_path = Path(destdir.name)
 
-    session.install("meson", "ninja")
+    session.install("meson", "ninja", "-r", "requirements.txt")
     session.run("ninja", "-C", "build", "install", env={"DESTDIR": destdir.name})
     session.run("meson", "rewrite", "default-options", "set", "useprebuilt", "true")
     session.run("git", "add", "meson.build")
