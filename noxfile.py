@@ -33,6 +33,11 @@ def build_fonts(session: nox.Session, build_statics: bool) -> None:
 
 @nox.session
 def dist(session: nox.Session) -> None:
+    """Create a distribution package on the CI.
+
+    NOTE: Don't run it locally, it creates a commit.
+    """
+
     destdir = tempfile.TemporaryDirectory()
     destdir_path = Path(destdir.name)
 
