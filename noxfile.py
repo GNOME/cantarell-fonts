@@ -23,15 +23,17 @@ def build_static(session: nox.Session) -> None:
 
 def build_fonts(session: nox.Session, build_statics: bool) -> None:
     session.install("meson", "ninja", "-r", "requirements.txt")
-    if build_statics:
-        rewrite_default_options = ("meson", "rewrite", "default-options", "set")
-        session.run(*rewrite_default_options, "buildstatics", "true")
-        session.run(*rewrite_default_options, "buildvf", "false")
-    if Path("build").exists():
-        session.run("meson", "setup", "--reconfigure", "build")
-    else:
+    if not Path("build").exists():
         session.run("meson", "setup", "build")
-    session.run("ninja", "-C", "build")
+    session.run(
+        "meson",
+        "configure",
+        "--no-pager",
+        f"-Dbuildstatics={str(build_statics)}",
+        f"-Dbuildvf={str(not build_statics)}",
+        "build",
+    )
+    session.run("meson", "compile", "-C", "build")
 
 
 @nox.session
