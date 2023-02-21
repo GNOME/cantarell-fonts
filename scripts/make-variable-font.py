@@ -56,16 +56,12 @@ varfont = ufo2ft.compileVariableCFF2(
     optimizeCFF=ufo2ft.CFFOptimization.NONE,
 )
 
-# 3. Generate STAT table.
-# stylespace = statmake.classes.Stylespace.from_file(stylespace_path)
-# statmake.lib.apply_stylespace_to_variable_font(stylespace, varfont, {})
-
-# 4. Save. External tools after this point.
+# 3. Save. External tools after this point.
 varfont.save(output_path)
 
-# 5. Autohint
+# 4. Autohint
 subprocess.check_call([os.fspath(args.psautohint_path), os.fspath(output_path)])
 
-# 6. Subroutinize (compress)
+# 5. Subroutinize (compress)
 varfont = fontTools.ttLib.TTFont(output_path)
 cffsubr.subroutinize(varfont).save(output_path)
