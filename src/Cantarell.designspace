@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
-  <axes>
+<designspace format="5.0">
+  <axes elidedfallbackname="Regular">
     <axis tag="wght" name="Weight" minimum="100" maximum="800" default="400">
       <map input="100" output="20"/>
       <map input="300" output="40"/>
       <map input="400" output="80"/>
       <map input="700" output="126"/>
       <map input="800" output="170"/>
+      <labels>
+        <label uservalue="100" name="Thin"/>
+        <label uservalue="300" name="Light"/>
+        <label uservalue="400" name="Regular" elidable="true" linkeduservalue="700"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="Extra Bold"/>
+      </labels>
     </axis>
   </axes>
   <sources>
@@ -15,11 +22,7 @@
         <dimension name="Weight" xvalue="20"/>
       </location>
     </source>
-    <source filename="Cantarell-Regular.ufo">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source familyname="Cantarell" filename="Cantarell-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="80"/>
       </location>
@@ -31,17 +34,17 @@
     </source>
   </sources>
   <instances>
-    <instance stylename="Thin">
+    <instance>
       <location>
         <dimension name="Weight" xvalue="20"/>
       </location>
     </instance>
-    <instance stylename="Light">
+    <instance>
       <location>
         <dimension name="Weight" xvalue="40"/>
       </location>
     </instance>
-    <instance stylename="Regular">
+    <instance>
       <location>
         <dimension name="Weight" xvalue="80"/>
       </location>
@@ -57,36 +60,12 @@
         </dict>
       </lib>
     </instance>
-    <instance stylename="Regular Interpolated For Testing">
-      <location>
-        <dimension name="Weight" xvalue="80"/>
-      </location>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.customParameters</key>
-          <array>
-            <array>
-              <string>Disable Masters</string>
-              <array>
-                <string>Regular</string>
-              </array>
-            </array>
-            <array>
-              <string>ShowInterpolation</string>
-              <string>-</string>
-            </array>
-          </array>
-          <key>com.schriftgestaltung.export</key>
-          <false/>
-        </dict>
-      </lib>
-    </instance>
-    <instance stylename="Bold">
+    <instance>
       <location>
         <dimension name="Weight" xvalue="126"/>
       </location>
     </instance>
-    <instance stylename="Extra Bold">
+    <instance>
       <location>
         <dimension name="Weight" xvalue="170"/>
       </location>

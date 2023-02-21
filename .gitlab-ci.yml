@@ -1,55 +1,23 @@
-build-variable:
+default:
   image: 'registry.fedoraproject.org/fedora:latest'
-  script:
-    - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext python3.8
-    - python3.8 -m ensurepip
-    - python3.8 -m venv venv
-    - . venv/bin/activate
-    - pip3 install meson ninja -r requirements.txt
-    - meson build
-    - ninja -C build install
-
-    # Make a dist package with prebuilt binaries.
-    - meson rewrite default-options set useprebuilt true
-    - git add meson.build
-    - cp /usr/local/share/fonts/cantarell/*.otf prebuilt
-    - git add prebuilt/*.otf
-    - git config --global user.email "you@example.com"
-    - git config --global user.name "Your Name"
-    - git commit -m "Make package with prebuilt binaries, ninja will dist them."
-
-    - ninja -C build dist
   artifacts:
     paths:
       - build/meson-dist
       - prebuilt/*.otf
     expire_in: 7 days
+  before_script:
+    - dnf install -y git-core libappstream-glib-devel gettext python3.11 python3.11-devel virtualenv gcc
+    - virtualenv --python python3.11 venv
+    - . venv/bin/activate
+
+build-variable:
+  script:
+    - pip install nox
+    - nox -s build_variable
+    - nox -s dist
 
 build-statics:
-  image: 'registry.fedoraproject.org/fedora:latest'
   script:
-    - dnf install -y git-core python3-pip meson ninja-build libappstream-glib-devel gettext python3.8
-    - python3.8 -m ensurepip
-    - python3.8 -m venv venv
-    - . venv/bin/activate
-    - pip3 install meson ninja -r requirements.txt
-    - meson rewrite default-options set buildstatics true
-    - meson rewrite default-options set buildvf false
-    - meson build
-    - ninja -C build install
-
-    # Make a dist package with prebuilt binaries.
-    - meson rewrite default-options set useprebuilt true
-    - git add meson.build
-    - cp /usr/local/share/fonts/cantarell/*.otf prebuilt
-    - git add prebuilt/*.otf
-    - git config --global user.email "you@example.com"
-    - git config --global user.name "Your Name"
-    - git commit -m "Make package with prebuilt binaries, ninja will dist them."
-
-    - ninja -C build dist
-  artifacts:
-    paths:
-      - build/meson-dist
-      - prebuilt/*.otf
-    expire_in: 7 days
+    - pip install nox
+    - nox -s build_static
+    - nox -s dist

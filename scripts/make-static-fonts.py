@@ -6,17 +6,19 @@ import subprocess
 from pathlib import Path
 
 import cffsubr
-import fontTools.ttLib
 import fontTools.designspaceLib
-import ufo2ft
-
+import fontTools.designspaceLib.split
+import fontTools.ttLib
 import instantiator
+import ufo2ft
 
 try:
     import pathops
+
     have_pathops = True
 except ImportError:
     have_pathops = False
+
 
 def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
@@ -70,6 +72,10 @@ if __name__ == "__main__":
         for s in designspace.instances
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
+
+    # 1.5. Fill in style names, etc.
+    converted_designspaces = fontTools.designspaceLib.split.convert5to4(designspace)
+    designspace = converted_designspaces["Cantarell-VF"]
 
     # 2. Prepare masters.
     generator = instantiator.Instantiator.from_designspace(
