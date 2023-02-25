@@ -8,15 +8,12 @@
 import argparse
 import os
 import subprocess
-import tempfile
 from pathlib import Path
 
 import cffsubr
 import fontTools.designspaceLib
 import fontTools.ttLib
 import fontTools.varLib
-import statmake.classes
-import statmake.lib
 import ufo2ft
 import ufoLib2
 
