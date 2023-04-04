@@ -53,7 +53,7 @@ Cantarell was originally designed by Dave Crossland as part of his coursework fo
 
 After the GNOME project adopted the typeface in November 2010, minor modifications and slight expansions were made to it over the years. Pooja Saxena initially worked on the typeface as a participant of the GNOME outreach program and later developed her own Devanagari typeface Cambay, which included a redesigned latin version of Cantarell. It was backported to the GNOME branch of Cantarell by Nikolaus Waxweiler, who also performed other janitorial tasks on it.
 
-The overall quality of the design was however far from good, given that the regular and bold face were worked on seperately and without consistency and had low quality outlines, and the oblique variants were simply slanted uprights without much correction. The GNOME design team also requested lighter weights. Up to this point, the work on Cantarell was mainly done with libre tools such as FontForge.
+The overall quality of the design was however far from good, given that the regular and bold face were worked on separately and without consistency and had low quality outlines, and the oblique variants were simply slanted uprights without much correction. The GNOME design team also requested lighter weights. Up to this point, the work on Cantarell was mainly done with libre tools such as FontForge.
 
 Given the decaying state of FontForge (arcane user interface, heaps of quirky and buggy behavior) and the very early development status of alternatives such as TruFont, Nikolaus Waxweiler started redrawing Cantarell in the proprietary and Mac-only Glyphs.app under mentorship from Jacques Le Bailly ("Baron von Fonthausen"). Later, Alexei Vanyashin and Eben Sorkin reviewed the design.
 
