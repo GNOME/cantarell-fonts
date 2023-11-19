@@ -17,7 +17,7 @@ if useprebuilt == false
     if get_option('buildvf') == true
         make_variable_font = join_paths(meson.current_source_dir(), 'scripts', 'make-variable-font.py')
     endif
-    psautohint = find_program('psautohint')
+    otfautohint = find_program('otfautohint')
     subdir('src')
 else
     subdir('prebuilt')

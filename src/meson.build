@@ -9,7 +9,7 @@ if get_option('buildstatics') == true
             'Cantarell-Bold.otf',
             'Cantarell-ExtraBold.otf',
         ],
-        command: [python3, make_static_fonts, '@INPUT@', psautohint, '@OUTDIR@'],
+        command: [python3, make_static_fonts, '@INPUT@', otfautohint, '@OUTDIR@'],
         install: true,
         install_dir: fontsdir,
     )
@@ -25,7 +25,7 @@ if get_option('buildvf') == true
             make_variable_font,
             '@INPUT@',
             join_paths(meson.current_source_dir(), 'Cantarell.stylespace'),
-            psautohint,
+            otfautohint,
             '@OUTPUT@'
         ],
         install: true,
