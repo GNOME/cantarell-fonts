@@ -6,8 +6,8 @@ default:
       - prebuilt/*.otf
     expire_in: 7 days
   before_script:
-    - dnf install -y git-core libappstream-glib-devel gettext python3.11 python3.11-devel virtualenv gcc
-    - virtualenv --python python3.11 venv
+    - dnf install -y git-core libappstream-glib-devel gettext python3.12 python3.12-devel virtualenv gcc
+    - virtualenv --python python3.12 venv
     - . venv/bin/activate
 
 build-variable:

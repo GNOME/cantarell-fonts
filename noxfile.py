@@ -6,7 +6,7 @@ from pathlib import Path
 
 import nox
 
-REQUIRED_PYTHON = "3.11"
+REQUIRED_PYTHON = "3.12"
 
 nox.options.sessions = ["build_variable"]
 
