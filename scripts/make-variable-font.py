@@ -53,7 +53,11 @@ varfont = ufo2ft.compileVariableCFF2(
 varfont.save(output_path)
 
 # 4. Autohint
-subprocess.check_call([os.fspath(args.otfautohint_path), os.fspath(output_path)])
+#
+# Skip hinting Ef-cy: https://github.com/adobe-type-tools/afdko/issues/1728
+subprocess.check_call(
+    [os.fspath(args.otfautohint_path), "-x", "uni0424", os.fspath(output_path)]
+)
 
 # 5. Subroutinize (compress)
 varfont = fontTools.ttLib.TTFont(output_path)
