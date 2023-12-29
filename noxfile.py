@@ -66,5 +66,17 @@ def dist(session: nox.Session) -> None:
 @nox.session(python=REQUIRED_PYTHON)
 def update_dependencies(session: nox.Session) -> None:
     session.install("pip-tools")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements.in")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements-dev.in")
+    session.run(
+        "pip-compile",
+        "--strip-extras",
+        "--resolver=backtracking",
+        "-U",
+        "requirements.in",
+    )
+    session.run(
+        "pip-compile",
+        "--strip-extras",
+        "--resolver=backtracking",
+        "-U",
+        "requirements-dev.in",
+    )
