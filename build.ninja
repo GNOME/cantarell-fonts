@@ -1,0 +1,18 @@
+fontc = uvx fontc
+designspace = src/Cantarell.designspace
+build_dir = /tmp
+out_ttf = /tmp/MyFont.ttf
+sources_list = /tmp/MyFont.ttf.dd
+
+rule fontc_build
+  command = $fontc $designspace -b $build_dir -o $out_ttf
+  description = FONTC $out_ttf
+
+rule gensources
+  command = uv run scan-ds.py $designspace $out_ttf $sources_list
+  description = SCAN UFO $designspace
+
+build $sources_list: gensources | $designspace
+
+build $out_ttf: fontc_build $designspace || $sources_list
+  dyndep = $sources_list
