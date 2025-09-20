@@ -6,7 +6,7 @@ from pathlib import Path
 
 import nox
 
-REQUIRED_PYTHON = "3.11"
+REQUIRED_PYTHON = "3.13"
 
 nox.options.sessions = ["build_variable"]
 
@@ -65,6 +65,6 @@ def dist(session: nox.Session) -> None:
 
 @nox.session(python=REQUIRED_PYTHON)
 def update_dependencies(session: nox.Session) -> None:
-    session.install("pip-tools")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements.in")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements-dev.in")
+    session.install("uv")
+    session.run("uv", "pip", "compile", "--universal", "-U", "requirements.in")
+    session.run("uv", "pip", "compile", "--universal", "-U", "requirements-dev.in")
