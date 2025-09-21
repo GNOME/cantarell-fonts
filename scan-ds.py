@@ -1,9 +1,55 @@
-import os
 import subprocess
 import sys
 from pathlib import Path
 
 from fontTools.designspaceLib import DesignSpaceDocument
+
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: gensources.py <designspace> <dd_out>", file=sys.stderr)
+        sys.exit(2)
+    src_dir, dd_out = Path(sys.argv[1]), Path(sys.argv[2])
+
+    if not src_dir.exists():
+        print(f"Error: source not found: {src_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    ds_files: dict[Path, list[str]] = {}
+    for ds_path in src_dir.glob("*.designspace"):
+        ds = DesignSpaceDocument.fromfile(ds_path)
+        source_ufos: list[Path] = sorted({src_dir / s.filename for s in ds.sources})
+        ds_files[ds_path] = [
+            ninja_escape(p)
+            for p in sorted(
+                subprocess.check_output(["fd", ".", *source_ufos])
+                .decode("utf-8")
+                .splitlines()
+            )
+        ]
+
+    dd_out.parent.mkdir(exist_ok=True)
+    with open(dd_out, "w", encoding="utf-8") as f:
+        print("ninja_dyndep_version = 1", file=f)
+        for ds_path, files in ds_files.items():
+            assert files
+            print(
+                f"build /tmp/{ds_path.stem}.ttf: dyndep | {ds_path} {' '.join(files)}",
+                file=f,
+            )
+
+    # TODO: Try stamp files per UFO. The stamp files will need to be listed in build.ninja as phony rules.
+    # dd_out.parent.mkdir(exist_ok=True)
+    # with open(dd_out, "w", encoding="utf-8") as f:
+    #     print("ninja_dyndep_version = 1", file=f)
+    #     for ufo_path, files in ufo_files.items():
+    #         assert files
+    #         print(f"build /tmp/{ufo_path.name}.d: dyndep | {' '.join(files)}", file=f)
+    #     for ds_path, source_ufos in ds2ufo.items():
+    #         print(
+    #             f"build /tmp/{ds_path.with_suffix('.ttf').name}: dyndep | {ds_path} {' '.join(f'/tmp/{u.name}.d' for u in source_ufos)}",
+    #             file=f,
+    #         )
 
 
 def ninja_escape(p: str) -> str:
@@ -12,43 +58,6 @@ def ninja_escape(p: str) -> str:
     p = p.replace(" ", "\\ ")
     p = p.replace("$", "$$")
     return p
-
-
-def main():
-    if len(sys.argv) != 4:
-        print("Usage: gensources.py <designspace> <font_out> <dd_out>", file=sys.stderr)
-        sys.exit(2)
-    ds_path, font_out, dd_out = sys.argv[1], sys.argv[2], sys.argv[3]
-
-    if not os.path.exists(ds_path):
-        print(f"Error: designspace not found: {ds_path}", file=sys.stderr)
-        sys.exit(1)
-
-    ds_dir = Path(ds_path).parent
-    ds = DesignSpaceDocument.fromfile(ds_path)
-    source_ufos = sorted({ds_dir / s.filename for s in ds.sources})
-
-    all_files = (
-        # List files and dirs so that when files are added or deleted (folder mtime will be updated), ninja registers it.
-        subprocess.check_output(["fd", ".", *(str(path) for path in source_ufos)])
-        .decode("utf-8")
-        .splitlines()
-    )
-
-    # Deduplicate and escape for ninja
-    all_files = sorted(all_files)
-    escaped = [ninja_escape(p) for p in all_files]
-
-    # Write the dyndep file per ninja manual format
-    os.makedirs(os.path.dirname(dd_out) or ".", exist_ok=True)
-    with open(dd_out, "w", encoding="utf-8") as f:
-        f.write("ninja_dyndep_version = 1\n")
-        # If there are no implicit inputs, emit an empty list after the | (it's allowed).
-        if escaped:
-            f.write(f"build {font_out}: dyndep | {' '.join(escaped)}\n")
-        else:
-            # No UFO files found — still emit a valid dyndep for the explicit output
-            f.write(f"build {font_out}: dyndep\n")
 
 
 if __name__ == "__main__":
