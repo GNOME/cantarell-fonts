@@ -6,17 +6,16 @@ from pathlib import Path
 
 import nox
 
-REQUIRED_PYTHON = "3.11"
-
+nox.options.default_venv_backend = "uv"
 nox.options.sessions = ["build_variable"]
 
 
-@nox.session(python=REQUIRED_PYTHON)
+@nox.session
 def build_variable(session: nox.Session) -> None:
     build_fonts(session, build_statics=False)
 
 
-@nox.session(python=REQUIRED_PYTHON)
+@nox.session
 def build_static(session: nox.Session) -> None:
     build_fonts(session, build_statics=True)
 
@@ -63,8 +62,25 @@ def dist(session: nox.Session) -> None:
     session.run("ninja", "-C", "build", "dist")
 
 
-@nox.session(python=REQUIRED_PYTHON)
+@nox.session
 def update_dependencies(session: nox.Session) -> None:
-    session.install("pip-tools")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements.in")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements-dev.in")
+    session.run(
+        "uv",
+        "pip",
+        "compile",
+        "--universal",
+        "-U",
+        "requirements.in",
+        "-o",
+        "requirements.txt",
+    )
+    session.run(
+        "uv",
+        "pip",
+        "compile",
+        "--universal",
+        "-U",
+        "requirements-dev.in",
+        "-o",
+        "requirements-dev.txt",
+    )

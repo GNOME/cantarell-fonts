@@ -1,23 +1,29 @@
+variables:
+  UV_CACHE_DIR: .uv-cache
+
 default:
   image: 'registry.fedoraproject.org/fedora:latest'
+  cache:
+    - key:
+        files:
+          - requirements.txt
+          - requirements-dev.txt
+      paths:
+        - $UV_CACHE_DIR
   artifacts:
     paths:
       - build/meson-dist
       - prebuilt/*.otf
     expire_in: 7 days
   before_script:
-    - dnf install -y git-core libappstream-glib-devel gettext python3.11 python3.11-devel virtualenv gcc
-    - virtualenv --python python3.11 venv
-    - . venv/bin/activate
+    - dnf install -y git-core libappstream-glib-devel gettext gcc uv
 
 build-variable:
   script:
-    - pip install nox
-    - nox -s build_variable
-    - nox -s dist
+    - uvx nox -s build_variable
+    - uvx nox -s dist
 
 build-statics:
   script:
-    - pip install nox
-    - nox -s build_static
-    - nox -s dist
+    - uvx nox -s build_static
+    - uvx nox -s dist
