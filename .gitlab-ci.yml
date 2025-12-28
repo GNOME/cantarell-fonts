@@ -14,17 +14,12 @@ default:
       - build/meson-dist
       - prebuilt/*.otf
     expire_in: 7 days
+
+build-fonts:
   before_script:
     - dnf install -y git-core libappstream-glib-devel gettext uv
+  script:
+    - uv run nox -s build_both
+    - uv run nox -s dist
   after_script:
     - uv cache prune --ci
-
-build-variable:
-  script:
-    - uv run nox -s build_variable
-    - uv run nox -s dist
-
-build-statics:
-  script:
-    - uv run nox -s build_static
-    - uv run nox -s dist

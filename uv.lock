@@ -119,6 +119,7 @@ dev = [
     { name = "glyphslib" },
     { name = "mypy" },
     { name = "nox" },
+    { name = "nox-uv" },
     { name = "pylint" },
 ]
 
@@ -140,6 +141,7 @@ dev = [
     { name = "glyphslib" },
     { name = "mypy" },
     { name = "nox" },
+    { name = "nox-uv" },
     { name = "pylint" },
 ]
 
@@ -559,6 +561,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b4/a8/e169497599266d176832e2232c08557ffba97eef87bf8a18f9f918e0c6aa/nox-2025.11.12.tar.gz", hash = "sha256:3d317f9e61f49d6bde39cf2f59695bb4e1722960457eee3ae19dacfe03c07259", size = 4030561, upload-time = "2025-11-12T18:39:03.319Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b9/34/434c594e0125a16b05a7bedaea33e63c90abbfbe47e5729a735a8a8a90ea/nox-2025.11.12-py3-none-any.whl", hash = "sha256:707171f9f63bc685da9d00edd8c2ceec8405b8e38b5fb4e46114a860070ef0ff", size = 74447, upload-time = "2025-11-12T18:39:01.575Z" },
+]
+
+[[package]]
+name = "nox-uv"
+version = "0.6.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "nox" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/70/af/ebc522c51facc3b7d26df1c5bc0b72baadb33ce4d539cf66758f22008f6c/nox_uv-0.6.3.tar.gz", hash = "sha256:7940dc4fed7326d00c9687d6dac65d625db21064dd02631af64cfdfa738e817b", size = 4992, upload-time = "2025-10-23T01:32:53.774Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/98/cc/32317fd187febd9b2c5dc6cad4d25b358bd3c289958a00b78d94dbddf481/nox_uv-0.6.3-py3-none-any.whl", hash = "sha256:650cc4dafcde281a77d0526ac9ff9c92de5cd7759ecc9fdbf98393e4ab24490f", size = 5315, upload-time = "2025-10-23T01:32:52.977Z" },
 ]
 
 [[package]]

@@ -9,9 +9,9 @@ ADD appstream /src/appstream
 ADD prebuilt /src/prebuilt
 ADD scripts /src/scripts
 ADD src /src/src
-ADD meson.build meson_options.txt noxfile.py /src
+ADD meson.build meson_options.txt noxfile.py .gitignore /src
+RUN git config --global user.email "you@example.com" && git config --global user.name "Your Name" && git init && git add . && git commit -m "..."
 
-RUN uv run nox -s build_variable
-RUN git init
+RUN uv run nox -s build_both
 RUN uv run nox -s dist
 #RUN uv cache prune --ci

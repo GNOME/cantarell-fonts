@@ -5,23 +5,28 @@ import tempfile
 from pathlib import Path
 
 import nox
+import nox_uv
 
 nox.options.default_venv_backend = "uv"
 nox.options.sessions = ["build_variable"]
 
 
-@nox.session
+@nox_uv.session
 def build_variable(session: nox.Session) -> None:
-    build_fonts(session, build_statics=False)
+    build_fonts(session, build_vf=True, build_statics=False)
 
 
-@nox.session
+@nox_uv.session
 def build_static(session: nox.Session) -> None:
-    build_fonts(session, build_statics=True)
+    build_fonts(session, build_vf=False, build_statics=True)
 
 
-def build_fonts(session: nox.Session, build_statics: bool) -> None:
-    session.install(".")
+@nox_uv.session
+def build_both(session: nox.Session) -> None:
+    build_fonts(session, build_vf=True, build_statics=True)
+
+
+def build_fonts(session: nox.Session, build_vf: bool, build_statics: bool) -> None:
     if not Path("build_fonts").exists():
         session.run("meson", "setup", "build_fonts", external=True)
     session.run(
@@ -29,14 +34,14 @@ def build_fonts(session: nox.Session, build_statics: bool) -> None:
         "configure",
         "--no-pager",
         f"-Dbuildstatics={str(build_statics)}",
-        f"-Dbuildvf={str(not build_statics)}",
+        f"-Dbuildvf={str(build_vf)}",
         "build_fonts",
         external=True,
     )
     session.run("meson", "compile", "-C", "build_fonts", external=True)
 
 
-@nox.session
+@nox_uv.session
 def dist(session: nox.Session) -> None:
     """Create a distribution package on the CI.
 
@@ -57,8 +62,7 @@ def dist(session: nox.Session) -> None:
 
     # Flip the default mode in the tarball to use the prebuilt fonts.
     option_file = Path("meson_options.txt")
-    option_file_text = option_file.read_text()
-    option_file_text.replace(
+    option_file_text = option_file.read_text().replace(
         "useprebuilt', type : 'boolean', value : false",
         "useprebuilt', type : 'boolean', value : true",
     )
