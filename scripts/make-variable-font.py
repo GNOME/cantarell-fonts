@@ -15,6 +15,7 @@ import fontTools.designspaceLib
 import fontTools.ttLib
 import ufo2ft
 import ufoLib2
+from clean_font import clean_font
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -54,6 +55,9 @@ varfont = ufo2ft.compileVariableCFF2(
 
 # 3. Save. External tools after this point.
 varfont.save(output_path)
+
+# 3.5. Drop unreachable glyphs
+clean_font(output_path)
 
 # 4. Autohint
 subprocess.check_call([os.fspath(args.otfautohint_path), os.fspath(output_path)])

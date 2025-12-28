@@ -11,6 +11,7 @@ import fontTools.designspaceLib.split
 import fontTools.ttLib
 import instantiator
 import ufo2ft
+from clean_font import clean_font
 
 try:
     import pathops
@@ -45,6 +46,9 @@ def generate_and_write_autohinted_instance(
     )
     output_path = output_dir / f"{file_stem}.otf"
     instance_font.save(output_path)
+
+    # 4.5. Drop unreachable glyphs
+    clean_font(output_path)
 
     # 5. Run otfautohint on it.
     subprocess.run([otfautohint, str(output_path)])
