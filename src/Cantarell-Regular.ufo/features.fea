@@ -317,7 +317,7 @@ sub zero.tf by zero.tf.zero;
 } zero;
 
 feature salt {
-
+# automatic
 sub l by l.ss01;
 sub lacute by lacute.ss01;
 sub lcaron by lcaron.ss01;
@@ -331,7 +331,7 @@ sub lslash by lslash.ss01;
 } salt;
 
 feature ss01 {
-
+# automatic
 featureNames {
 	name "Lowercase l without tail";
 };
