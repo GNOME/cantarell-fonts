@@ -18,6 +18,32 @@ Tag a release and grab the tarball from CI.
 
 Doing this locally is not recommended, except for in a throw-away checkout. To avoid checking in font binaries into the repository, the scripting fiddles with some Meson files and makes a commit to the current branch.
 
+## Installing from the distribution tarball
+
+The tarball contains prebuilt font binaries, so you don't have to compile stuff yourself.
+
+Install just the variable font:
+
+```sh
+cd extracted-tarball-dir
+meson setup build
+meson install -C build  # Use DESTDIR to control destination.
+```
+
+Install variable font and static fonts:
+
+```sh
+meson setup build -D buildstatics=true
+meson install -C build  # Use DESTDIR to control destination.
+```
+
+If you want to compile things, actually:
+
+```sh
+uv run meson setup build -D useprebuilt=false
+meson install -C build  # Use DESTDIR to control destination.
+```
+
 ## Contributing
 
 Cantarell consists of three masters: Thin (Cantarell-Light.ufo), Regular (Cantarell-Regular.ufo) and Extra Bold (Cantarell-Bold.ufo). The file that ties them together and defines where the masters and instances stand is Cantarell.designspace.

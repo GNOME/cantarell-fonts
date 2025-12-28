@@ -33,6 +33,7 @@ def build_fonts(session: nox.Session, build_vf: bool, build_statics: bool) -> No
         "meson",
         "configure",
         "--no-pager",
+        "-Duseprebuilt=false",
         f"-Dbuildstatics={str(build_statics)}",
         f"-Dbuildvf={str(build_vf)}",
         "build_fonts",
