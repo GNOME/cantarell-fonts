@@ -610,11 +610,19 @@
           <string>kje-cy</string>
           <string>koronis.case</string>
           <string>lacute</string>
+          <string>lacute.ss01</string>
           <string>lcaron</string>
+          <string>lcaron.ss01</string>
           <string>lcommaaccent</string>
+          <string>lcommaaccent.ss01</string>
+          <string>ldot.ss01</string>
           <string>ldotbelow</string>
+          <string>ldotbelow.ss01</string>
+          <string>lj.ss01</string>
           <string>llinebelow</string>
+          <string>llinebelow.ss01</string>
           <string>lslash</string>
+          <string>lslash.ss01</string>
           <string>macroncomb.case</string>
           <string>mdotbelow</string>
           <string>nacute</string>
@@ -1204,6 +1212,14 @@
       <string>lj</string>
       <string>llinebelow</string>
       <string>lslash</string>
+      <string>lacute.ss01</string>
+      <string>lcaron.ss01</string>
+      <string>lcommaaccent.ss01</string>
+      <string>ldot.ss01</string>
+      <string>ldotbelow.ss01</string>
+      <string>lj.ss01</string>
+      <string>llinebelow.ss01</string>
+      <string>lslash.ss01</string>
       <string>m</string>
       <string>mdotbelow</string>
       <string>n</string>
@@ -3569,15 +3585,31 @@
       <string>base</string>
       <key>lacute</key>
       <string>base</string>
+      <key>lacute.ss01</key>
+      <string>base</string>
       <key>lcaron</key>
+      <string>base</string>
+      <key>lcaron.ss01</key>
       <string>base</string>
       <key>lcommaaccent</key>
       <string>base</string>
+      <key>lcommaaccent.ss01</key>
+      <string>base</string>
+      <key>ldot.ss01</key>
+      <string>base</string>
       <key>ldotbelow</key>
+      <string>base</string>
+      <key>ldotbelow.ss01</key>
+      <string>base</string>
+      <key>lj.ss01</key>
       <string>base</string>
       <key>llinebelow</key>
       <string>base</string>
+      <key>llinebelow.ss01</key>
+      <string>base</string>
       <key>lslash</key>
+      <string>base</string>
+      <key>lslash.ss01</key>
       <string>base</string>
       <key>m</key>
       <string>base</string>

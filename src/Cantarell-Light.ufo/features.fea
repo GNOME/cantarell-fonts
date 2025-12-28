@@ -319,11 +319,30 @@ sub zero.tf by zero.tf.zero;
 feature salt {
 # automatic
 sub l by l.ss01;
+sub lacute by lacute.ss01;
+sub lcaron by lcaron.ss01;
+sub lcommaaccent by lcommaaccent.ss01;
+sub ldot by ldot.ss01;
+sub ldotbelow by ldotbelow.ss01;
+sub lj by lj.ss01;
+sub llinebelow by llinebelow.ss01;
+sub lslash by lslash.ss01;
 
 } salt;
 
 feature ss01 {
 # automatic
+featureNames {
+	name "Lowercase l without tail";
+};
 sub l by l.ss01;
+sub lacute by lacute.ss01;
+sub lcaron by lcaron.ss01;
+sub lcommaaccent by lcommaaccent.ss01;
+sub ldot by ldot.ss01;
+sub ldotbelow by ldotbelow.ss01;
+sub lj by lj.ss01;
+sub llinebelow by llinebelow.ss01;
+sub lslash by lslash.ss01;
 
 } ss01;
