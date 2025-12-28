@@ -55,6 +55,7 @@ def dist(session: nox.Session) -> None:
         external=True,
     )
 
+    # Flip the default mode in the tarball to use the prebuilt fonts.
     option_file = Path("meson_options.txt")
     option_file_text = option_file.read_text()
     option_file_text.replace(
@@ -62,11 +63,12 @@ def dist(session: nox.Session) -> None:
         "useprebuilt', type : 'boolean', value : true",
     )
     option_file.write_text(option_file_text)
+    session.run("git", "add", "meson_options.txt", external=True)
 
-    session.run("git", "add", "meson.build", external=True)
     for font in (destdir_path / "usr/local/share/fonts/cantarell").glob("*.otf"):
         shutil.copy(font, "prebuilt")
     session.run("git", "add", "prebuilt/*.otf", external=True)
+
     session.run(
         "git", "config", "--global", "user.email", "you@example.com", external=True
     )
@@ -74,4 +76,5 @@ def dist(session: nox.Session) -> None:
     session.run(
         "git", "commit", "-m", "Meson packages commits, not file trees.", external=True
     )
+
     session.run("meson", "dist", "-C", "build_fonts", external=True)
