@@ -27,21 +27,21 @@ Install just the variable font:
 ```sh
 cd extracted-tarball-dir
 meson setup build
-meson install -C build  # Use DESTDIR to control destination.
+meson install -C build  # Use the DESTDIR env var to control destination.
 ```
 
 Install variable font and static fonts:
 
 ```sh
 meson setup build -D buildstatics=true
-meson install -C build  # Use DESTDIR to control destination.
+meson install -C build  # Use the DESTDIR env var to control destination.
 ```
 
-If you want to compile things, actually:
+If you actually want to recompile things, use the `uv run nox` commands above or:
 
 ```sh
-uv run meson setup build -D useprebuilt=false
-meson install -C build  # Use DESTDIR to control destination.
+uv run meson setup build -D useprebuilt=false  # -D buildstatics=true -D buildvf=true
+uv run meson install -C build  # Use the DESTDIR env var to control destination.
 ```
 
 ## Contributing
