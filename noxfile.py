@@ -21,18 +21,19 @@ def build_static(session: nox.Session) -> None:
 
 
 def build_fonts(session: nox.Session, build_statics: bool) -> None:
-    session.install("meson", "ninja", "-r", "requirements.txt")
-    if not Path("build").exists():
-        session.run("meson", "setup", "build")
+    session.install(".")
+    if not Path("build_fonts").exists():
+        session.run("meson", "setup", "build_fonts", external=True)
     session.run(
         "meson",
         "configure",
         "--no-pager",
         f"-Dbuildstatics={str(build_statics)}",
         f"-Dbuildvf={str(not build_statics)}",
-        "build",
+        "build_fonts",
+        external=True,
     )
-    session.run("meson", "compile", "-C", "build")
+    session.run("meson", "compile", "-C", "build_fonts", external=True)
 
 
 @nox.session
@@ -45,9 +46,23 @@ def dist(session: nox.Session) -> None:
     destdir = tempfile.TemporaryDirectory()
     destdir_path = Path(destdir.name)
 
-    session.install("meson", "ninja", "-r", "requirements.txt")
-    session.run("ninja", "-C", "build", "install", env={"DESTDIR": destdir.name})
-    session.run("meson", "rewrite", "default-options", "set", "useprebuilt", "true")
+    session.run(
+        "meson",
+        "install",
+        "-C",
+        "build_fonts",
+        env={"DESTDIR": destdir.name},
+        external=True,
+    )
+
+    option_file = Path("meson_options.txt")
+    option_file_text = option_file.read_text()
+    option_file_text.replace(
+        "useprebuilt', type : 'boolean', value : false",
+        "useprebuilt', type : 'boolean', value : true",
+    )
+    option_file.write_text(option_file_text)
+
     session.run("git", "add", "meson.build", external=True)
     for font in (destdir_path / "usr/local/share/fonts/cantarell").glob("*.otf"):
         shutil.copy(font, "prebuilt")
@@ -59,28 +74,4 @@ def dist(session: nox.Session) -> None:
     session.run(
         "git", "commit", "-m", "Meson packages commits, not file trees.", external=True
     )
-    session.run("ninja", "-C", "build", "dist")
-
-
-@nox.session
-def update_dependencies(session: nox.Session) -> None:
-    session.run(
-        "uv",
-        "pip",
-        "compile",
-        "--universal",
-        "-U",
-        "requirements.in",
-        "-o",
-        "requirements.txt",
-    )
-    session.run(
-        "uv",
-        "pip",
-        "compile",
-        "--universal",
-        "-U",
-        "requirements-dev.in",
-        "-o",
-        "requirements-dev.txt",
-    )
+    session.run("meson", "dist", "-C", "build_fonts", external=True)

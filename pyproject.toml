@@ -1,0 +1,25 @@
+[project]
+name = "cantarell-fonts"
+version = "0.303"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "afdko>=4.0.3",
+    "attrs>=18.2",
+    "fontMath>=0.5.0",
+    "fontTools[ufo,lxml,unicode]>=4.0.0",
+    "meson",
+    "ninja",
+    "skia-pathops",
+    "ufo2ft>=2.15.0",
+    "ufoLib2>=0.4.0",
+]
+
+[dependency-groups]
+dev = [
+    "glyphsLib",
+    "mypy",
+    "nox",
+    "pylint",
+]

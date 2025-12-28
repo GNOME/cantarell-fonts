@@ -24,7 +24,7 @@ def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
     instance_descriptor: fontTools.designspaceLib.InstanceDescriptor,
     output_dir: Path,
-    psautohint: str,
+    otfautohint: str,
 ):
     # 3. Generate instance UFO.
     instance = instantiator.generate_instance(instance_descriptor)
@@ -46,8 +46,8 @@ def generate_and_write_autohinted_instance(
     output_path = output_dir / f"{file_stem}.otf"
     instance_font.save(output_path)
 
-    # 5. Run psautohint on it.
-    subprocess.run([psautohint, str(output_path)])
+    # 5. Run otfautohint on it.
+    subprocess.run([otfautohint, str(output_path)])
 
     # 6. Subroutinize (compress) it
     instance_font = fontTools.ttLib.TTFont(output_path)
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "designspace_path", type=Path, help="The path to the Designspace file."
     )
-    parser.add_argument("psautohint", type=str, help="The path to psautohint.")
+    parser.add_argument("otfautohint", type=str, help="The path to otfautohint.")
     parser.add_argument("output_dir", type=Path, help="The output directory.")
     args = parser.parse_args()
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         processes.append(
             pool.apply_async(
                 generate_and_write_autohinted_instance,
-                args=(generator, instance, args.output_dir, args.psautohint),
+                args=(generator, instance, args.output_dir, args.otfautohint),
             )
         )
     pool.close()

@@ -2,12 +2,11 @@ variables:
   UV_CACHE_DIR: .uv-cache
 
 default:
-  image: 'registry.fedoraproject.org/fedora:latest'
+  image: "registry.fedoraproject.org/fedora:latest"
   cache:
     - key:
         files:
-          - requirements.txt
-          - requirements-dev.txt
+          - uv.lock
       paths:
         - $UV_CACHE_DIR
   artifacts:
@@ -16,14 +15,16 @@ default:
       - prebuilt/*.otf
     expire_in: 7 days
   before_script:
-    - dnf install -y git-core libappstream-glib-devel gettext gcc uv
+    - dnf install -y git-core libappstream-glib-devel gettext uv
+  after_script:
+    - uv cache prune --ci
 
 build-variable:
   script:
-    - uvx nox -s build_variable
-    - uvx nox -s dist
+    - uv run nox -s build_variable
+    - uv run nox -s dist
 
 build-statics:
   script:
-    - uvx nox -s build_static
-    - uvx nox -s dist
+    - uv run nox -s build_static
+    - uv run nox -s dist
