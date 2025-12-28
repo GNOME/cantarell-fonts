@@ -112,6 +112,7 @@ dependencies = [
     { name = "skia-pathops" },
     { name = "ufo2ft" },
     { name = "ufolib2" },
+    { name = "uharfbuzz" },
 ]
 
 [package.dev-dependencies]
@@ -134,6 +135,7 @@ requires-dist = [
     { name = "skia-pathops" },
     { name = "ufo2ft", specifier = ">=2.15.0" },
     { name = "ufolib2", specifier = ">=0.4.0" },
+    { name = "uharfbuzz", specifier = ">=0.53.2" },
 ]
 
 [package.metadata.requires-dev]
@@ -765,6 +767,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/73/86/7564e3b6ff396372c4eb444181c5446f19a8bfa83cdb9f8ee1c8f1fa0de0/ufoprocessor-1.14.1.tar.gz", hash = "sha256:fd38d3cc359b94171ba8d3fdc1e4defde2206acef4f97d75b48503bb8ac03b01", size = 122945, upload-time = "2025-10-31T16:23:40.695Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/45/15/60f9933bcaa1c525d130fd4675053ab471274822913f9c57a324c519f3ae/ufoprocessor-1.14.1-py2.py3-none-any.whl", hash = "sha256:bfb5521dae1d25181d0514d786d5a515d1f17bb3f097e253c9c53b3187cb21f7", size = 38004, upload-time = "2025-10-31T16:23:39.355Z" },
+]
+
+[[package]]
+name = "uharfbuzz"
+version = "0.53.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/64/25/0323ac6cc4dc20c93d294d6deda891cd3b5d069309ed4256784a616c45bd/uharfbuzz-0.53.2.tar.gz", hash = "sha256:5151cbd986f080bbd2f4d531dbe9a03fb179cefb0fd864ba351aa522e58c9e23", size = 1712956, upload-time = "2025-12-28T01:03:24.303Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/41/72/1e19d87f3ba246cbc88dbd60d03e4cbac8df3aad5d84d22cf32fc2a50e79/uharfbuzz-0.53.2-cp310-abi3-macosx_10_9_universal2.whl", hash = "sha256:56d0ceb8af633035b37e9bb8bd642a657eba64cb99636058075d40ad8188758f", size = 2720623, upload-time = "2025-12-28T01:03:04.215Z" },
+    { url = "https://files.pythonhosted.org/packages/81/d1/999fde3cced5abdb21a99bdc66e9a430957d7b86aaf06acaf7f76f530a22/uharfbuzz-0.53.2-cp310-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:7f5c65204de46425f58e5b5a6892e7eba3cbcc7dba2c55d95760ba3356a1a546", size = 1646498, upload-time = "2025-12-28T01:03:06.18Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/ba/58551ae2ff695360b8e7922f82fa4ce3951cf31e6172039cccc37f87436f/uharfbuzz-0.53.2-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:e9c211a0f576b145abdea67391847cc8e490ed7cfbd2b26e85d3d8035b1e3f60", size = 1704735, upload-time = "2025-12-28T01:03:07.952Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/26/3cbab4c18419103398904317c1e80115cfc28a82a0c1e5e05593a39de3c9/uharfbuzz-0.53.2-cp310-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:e58af854612a9536cff7f440a520873e44cafba501245f473f90d4fb8a7da31d", size = 2663678, upload-time = "2025-12-28T01:03:09.792Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/3d/104d1ba2c0e535a0d9744e0a68f711d022c46ec7c7000f35eefd574ba197/uharfbuzz-0.53.2-cp310-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:b1b0dee5060df82e2c09130bbef1e80979ce6b26dcfe6f5d9b9a77bc0ed4d8da", size = 2755854, upload-time = "2025-12-28T01:03:11.424Z" },
+    { url = "https://files.pythonhosted.org/packages/37/0b/903fc46bd2407baf1cf4c922450f843c293c7b0dab90e7e190be502837e2/uharfbuzz-0.53.2-cp310-abi3-win32.whl", hash = "sha256:8b6a12c50bd94e1a2e9bbf04a737299a76b5ebedcba4c2bf4494233d5b298748", size = 996506, upload-time = "2025-12-28T01:03:13.433Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/a4/eb61d2007531634589cce9ee9928c6b6514b8aba01c79cd9b9cbbeff42a7/uharfbuzz-0.53.2-cp310-abi3-win_amd64.whl", hash = "sha256:741134803e14cbece5fde6189fcd4d97ba817fd572b604a3b7f29eb2343e3d11", size = 1244515, upload-time = "2025-12-28T01:03:15.143Z" },
 ]
 
 [[package]]
