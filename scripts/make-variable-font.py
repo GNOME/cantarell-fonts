@@ -13,7 +13,6 @@ from pathlib import Path
 import cffsubr
 import fontTools.designspaceLib
 import fontTools.ttLib
-import fontTools.varLib
 import ufo2ft
 import ufoLib2
 
@@ -25,7 +24,7 @@ parser.add_argument(
     "stylespace_path", type=Path, help="The path to the Stylespace file."
 )
 parser.add_argument(
-    "psautohint_path", type=Path, help="The path to the psautohint executable."
+    "otfautohint_path", type=Path, help="The path to the otfautohint executable."
 )
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
@@ -33,7 +32,7 @@ args = parser.parse_args()
 designspace_path = args.designspace_path.resolve()
 stylespace_path = args.stylespace_path.resolve()
 output_path = args.output_path.resolve()
-psautohint_path = args.psautohint_path.resolve()
+otfautohint_path = args.otfautohint_path.resolve()
 
 
 # 1. Load Designspace and filter out instances that are marked as non-exportable.
@@ -57,7 +56,7 @@ varfont = ufo2ft.compileVariableCFF2(
 varfont.save(output_path)
 
 # 4. Autohint
-subprocess.check_call([os.fspath(args.psautohint_path), os.fspath(output_path)])
+subprocess.check_call([os.fspath(args.otfautohint_path), os.fspath(output_path)])
 
 # 5. Subroutinize (compress)
 varfont = fontTools.ttLib.TTFont(output_path)

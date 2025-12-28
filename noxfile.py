@@ -5,38 +5,44 @@ import tempfile
 from pathlib import Path
 
 import nox
+import nox_uv
 
-REQUIRED_PYTHON = "3.11"
-
+nox.options.default_venv_backend = "uv"
 nox.options.sessions = ["build_variable"]
 
 
-@nox.session(python=REQUIRED_PYTHON)
+@nox_uv.session
 def build_variable(session: nox.Session) -> None:
-    build_fonts(session, build_statics=False)
+    build_fonts(session, build_vf=True, build_statics=False)
 
 
-@nox.session(python=REQUIRED_PYTHON)
+@nox_uv.session
 def build_static(session: nox.Session) -> None:
-    build_fonts(session, build_statics=True)
+    build_fonts(session, build_vf=False, build_statics=True)
 
 
-def build_fonts(session: nox.Session, build_statics: bool) -> None:
-    session.install("meson", "ninja", "-r", "requirements.txt")
-    if not Path("build").exists():
-        session.run("meson", "setup", "build")
+@nox_uv.session
+def build_both(session: nox.Session) -> None:
+    build_fonts(session, build_vf=True, build_statics=True)
+
+
+def build_fonts(session: nox.Session, build_vf: bool, build_statics: bool) -> None:
+    if not Path("build_fonts").exists():
+        session.run("meson", "setup", "build_fonts", external=True)
     session.run(
         "meson",
         "configure",
         "--no-pager",
+        "-Duseprebuilt=false",
         f"-Dbuildstatics={str(build_statics)}",
-        f"-Dbuildvf={str(not build_statics)}",
-        "build",
+        f"-Dbuildvf={str(build_vf)}",
+        "build_fonts",
+        external=True,
     )
-    session.run("meson", "compile", "-C", "build")
+    session.run("meson", "compile", "-C", "build_fonts", external=True)
 
 
-@nox.session
+@nox_uv.session
 def dist(session: nox.Session) -> None:
     """Create a distribution package on the CI.
 
@@ -46,13 +52,28 @@ def dist(session: nox.Session) -> None:
     destdir = tempfile.TemporaryDirectory()
     destdir_path = Path(destdir.name)
 
-    session.install("meson", "ninja", "-r", "requirements.txt")
-    session.run("ninja", "-C", "build", "install", env={"DESTDIR": destdir.name})
-    session.run("meson", "rewrite", "default-options", "set", "useprebuilt", "true")
-    session.run("git", "add", "meson.build", external=True)
+    session.run(
+        "meson",
+        "install",
+        "-C",
+        "build_fonts",
+        env={"DESTDIR": destdir.name},
+        external=True,
+    )
+
+    # Flip the default mode in the tarball to use the prebuilt fonts.
+    option_file = Path("meson_options.txt")
+    option_file_text = option_file.read_text().replace(
+        "useprebuilt', type : 'boolean', value : false",
+        "useprebuilt', type : 'boolean', value : true",
+    )
+    option_file.write_text(option_file_text)
+    session.run("git", "add", "meson_options.txt", external=True)
+
     for font in (destdir_path / "usr/local/share/fonts/cantarell").glob("*.otf"):
         shutil.copy(font, "prebuilt")
     session.run("git", "add", "prebuilt/*.otf", external=True)
+
     session.run(
         "git", "config", "--global", "user.email", "you@example.com", external=True
     )
@@ -60,11 +81,5 @@ def dist(session: nox.Session) -> None:
     session.run(
         "git", "commit", "-m", "Meson packages commits, not file trees.", external=True
     )
-    session.run("ninja", "-C", "build", "dist")
 
-
-@nox.session(python=REQUIRED_PYTHON)
-def update_dependencies(session: nox.Session) -> None:
-    session.install("pip-tools")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements.in")
-    session.run("pip-compile", "--resolver=backtracking", "-U", "requirements-dev.in")
+    session.run("meson", "dist", "-C", "build_fonts", external=True)
