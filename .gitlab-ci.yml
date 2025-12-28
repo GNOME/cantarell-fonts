@@ -11,7 +11,7 @@ default:
         - $UV_CACHE_DIR
   artifacts:
     paths:
-      - build/meson-dist
+      - build_fonts/meson-dist
       - prebuilt/*.otf
     expire_in: 7 days
 

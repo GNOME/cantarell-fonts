@@ -6,13 +6,17 @@ This file provides detailed information on the Cantarell font software. This inf
 
 Install [uv](https://docs.astral.sh/uv/) to interact with this project.
 
-```sh
-uv run nox
-```
+* Build the variable font: `uv run nox -s build_variable`
+* Build the static fonts: `uv run nox -s build_static`
+* Build all fonts: `uv run nox -s build_both`
 
-By default, only the variable font is built. See [noxfile.py](noxfile.py).
+You can use `uv run meson` directly and toggle what to build with the `buildstatics` and `buildvf` Meson option. See the [noxfile.py](noxfile.py).
 
-You can use `uv run meson` directly and toggle what to build with the `buildstatics` and `buildvf` Meson option.
+## Making a distribution tarball
+
+Tag a release and grab the tarball from CI.
+
+Doing this locally is not recommended, except for in a throw-away checkout. To avoid checking in font binaries into the repository, the scripting fiddles with some Meson files and makes a commit to the current branch.
 
 ## Contributing
 
