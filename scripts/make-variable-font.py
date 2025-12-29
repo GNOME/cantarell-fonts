@@ -22,16 +22,12 @@ parser.add_argument(
     "designspace_path", type=Path, help="The path to the Designspace file."
 )
 parser.add_argument(
-    "stylespace_path", type=Path, help="The path to the Stylespace file."
-)
-parser.add_argument(
     "otfautohint_path", type=Path, help="The path to the otfautohint executable."
 )
 parser.add_argument("output_path", type=Path, help="The variable TTF output path.")
 args = parser.parse_args()
 
 designspace_path = args.designspace_path.resolve()
-stylespace_path = args.stylespace_path.resolve()
 output_path = args.output_path.resolve()
 otfautohint_path = args.otfautohint_path.resolve()
 

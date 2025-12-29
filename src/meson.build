@@ -24,7 +24,6 @@ if get_option('buildvf') == true
             python3,
             make_variable_font,
             '@INPUT@',
-            join_paths(meson.current_source_dir(), 'Cantarell.stylespace'),
             otfautohint,
             '@OUTPUT@'
         ],
