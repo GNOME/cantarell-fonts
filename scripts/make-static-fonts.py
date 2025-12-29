@@ -13,23 +13,22 @@ import instantiator
 import ufo2ft
 from clean_font import clean_font
 
-try:
-    import pathops
-
-    have_pathops = True
-except ImportError:
-    have_pathops = False
-
 
 def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
     instance_descriptor: fontTools.designspaceLib.InstanceDescriptor,
+    source_dir: Path,
     output_dir: Path,
     otfautohint: str,
 ):
     # 3. Generate instance UFO.
     instance = instantiator.generate_instance(instance_descriptor)
     file_stem = f"{instance.info.familyName}-{instance.info.styleName}".replace(" ", "")
+    output_path = output_dir / f"{file_stem}.otf"
+
+    # Work around https://github.com/googlefonts/ufo2ft/issues/966. When fixed, use
+    # feaIncludeDir arg to compile below.
+    instance._path = source_dir / output_path.name
 
     # 3.5. Optionally write instance UFO to disk, for debugging.
     # instance.save(output_dir / f"{file_stem}.ufo", overwrite=True)
@@ -39,12 +38,12 @@ def generate_and_write_autohinted_instance(
     instance_font = ufo2ft.compileOTF(
         instance,
         removeOverlaps=True,
-        overlapsBackend="pathops" if have_pathops else "booleanOperations",
+        overlapsBackend="pathops",
         inplace=True,
         useProductionNames=True,
         optimizeCFF=ufo2ft.CFFOptimization.NONE,
+        # feaIncludeDir=source_dir, # See above.
     )
-    output_path = output_dir / f"{file_stem}.otf"
     instance_font.save(output_path)
 
     # 4.5. Drop unreachable glyphs
@@ -87,13 +86,20 @@ if __name__ == "__main__":
     )
 
     # (Fork one process per instance)
+    source_dir = args.designspace_path.parent.resolve()
     processes = []
     pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
     for instance in designspace.instances:
         processes.append(
             pool.apply_async(
                 generate_and_write_autohinted_instance,
-                args=(generator, instance, args.output_dir, args.otfautohint),
+                args=(
+                    generator,
+                    instance,
+                    source_dir,
+                    args.output_dir,
+                    args.otfautohint,
+                ),
             )
         )
     pool.close()
