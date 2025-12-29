@@ -9,9 +9,9 @@ import cffsubr
 import fontTools.designspaceLib
 import fontTools.designspaceLib.split
 import fontTools.ttLib
-import instantiator
 import ufo2ft
 from clean_font import clean_font
+from ufo2ft import instantiator
 
 
 def generate_and_write_autohinted_instance(

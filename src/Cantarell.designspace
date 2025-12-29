@@ -38,11 +38,51 @@
       <location>
         <dimension name="Weight" xvalue="20"/>
       </location>
+      <lib>
+        <dict>
+          <key>public.fontInfo</key>
+          <dict>
+            <key>openTypeOS2Panose</key>
+            <array>
+              <integer>2</integer>
+              <integer>0</integer>
+              <integer>2</integer>
+              <integer>3</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </dict>
+      </lib>
     </instance>
     <instance>
       <location>
         <dimension name="Weight" xvalue="40"/>
       </location>
+      <lib>
+        <dict>
+          <key>public.fontInfo</key>
+          <dict>
+            <key>openTypeOS2Panose</key>
+            <array>
+              <integer>2</integer>
+              <integer>0</integer>
+              <integer>4</integer>
+              <integer>3</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </dict>
+      </lib>
     </instance>
     <instance>
       <location>
@@ -57,6 +97,22 @@
               <string>-</string>
             </array>
           </array>
+          <key>public.fontInfo</key>
+          <dict>
+            <key>openTypeOS2Panose</key>
+            <array>
+              <integer>2</integer>
+              <integer>0</integer>
+              <integer>5</integer>
+              <integer>3</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
         </dict>
       </lib>
     </instance>
@@ -64,11 +120,51 @@
       <location>
         <dimension name="Weight" xvalue="126"/>
       </location>
+      <lib>
+        <dict>
+          <key>public.fontInfo</key>
+          <dict>
+            <key>openTypeOS2Panose</key>
+            <array>
+              <integer>2</integer>
+              <integer>0</integer>
+              <integer>8</integer>
+              <integer>3</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </dict>
+      </lib>
     </instance>
     <instance>
       <location>
         <dimension name="Weight" xvalue="170"/>
       </location>
+      <lib>
+        <dict>
+          <key>public.fontInfo</key>
+          <dict>
+            <key>openTypeOS2Panose</key>
+            <array>
+              <integer>2</integer>
+              <integer>0</integer>
+              <integer>9</integer>
+              <integer>3</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </dict>
+      </lib>
     </instance>
   </instances>
   <lib>
