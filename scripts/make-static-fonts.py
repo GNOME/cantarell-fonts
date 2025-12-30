@@ -11,6 +11,7 @@ import fontTools.designspaceLib.split
 import fontTools.ttLib
 import ufo2ft
 from clean_font import clean_font
+from skip_autohinting import SKIP_AUTOHINTING
 from ufo2ft import instantiator
 
 
@@ -50,7 +51,9 @@ def generate_and_write_autohinted_instance(
     clean_font(output_path)
 
     # 5. Run otfautohint on it.
-    subprocess.run([otfautohint, str(output_path)])
+    subprocess.run(
+        [otfautohint, "--exclude-glyphs", ",".join(SKIP_AUTOHINTING), str(output_path)]
+    )
 
     # 6. Subroutinize (compress) it
     instance_font = fontTools.ttLib.TTFont(output_path)

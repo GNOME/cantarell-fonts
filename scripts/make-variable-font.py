@@ -16,6 +16,7 @@ import fontTools.ttLib
 import ufo2ft
 import ufoLib2
 from clean_font import clean_font
+from skip_autohinting import SKIP_AUTOHINTING
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -56,7 +57,14 @@ varfont.save(output_path)
 clean_font(output_path)
 
 # 4. Autohint
-subprocess.check_call([os.fspath(args.otfautohint_path), os.fspath(output_path)])
+subprocess.check_call(
+    [
+        os.fspath(args.otfautohint_path),
+        "--exclude-glyphs",
+        ",".join(SKIP_AUTOHINTING),
+        os.fspath(output_path),
+    ]
+)
 
 # 5. Subroutinize (compress)
 varfont = fontTools.ttLib.TTFont(output_path)
