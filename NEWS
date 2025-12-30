@@ -1,3 +1,19 @@
+0.310
+- Extend ss01 to all lowercase 'l' characters and add a feature name (contributed by Jake Maddox).
+- Improve autohinting of 'я' and disable autohinting for 'Ф' because it rendered badly.
+- Static fonts will now have PANOSE values. They're incomplete, but better than nothing.
+- Implement soft-dotting for more glyphs (see https://googlefonts.github.io/gf-guide/diacritics.html#soft-dotted-glyphs for more info).
+- Remove unreachable glyphs from font, lightening them by a few bytes.
+- New, updated and fixed appstream translations:
+  - Abkhazian translation (Нарт Лӏыша)
+  - Georgian translation (Zurab Kargareteli)
+  - Hebrew translation (Yaron Shahrabani)
+  - Kabyle translation (Selyan Slimane AMIRI)
+  - Tamil translation (K.B.Dharun Krishna)
+  - Turkish translation (Sabri Ünal)
+  - Update Persian translation (Danial Behzadi)
+  - Vietnamese translation (Phước Thịnh Nguyễn)
+
 0.303:
 - Actually update the version number in the fonts. D'oh.
 
