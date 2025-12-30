@@ -21,7 +21,7 @@ import ufoLib2
 main_source_path = Path(__file__).parent.parent / "src" / "Cantarell-Regular.ufo"
 main_source = ufoLib2.Font.open(main_source_path)
 letters_and_marks = []
-for glyph_name in main_source.glyphOrder:
+for glyph_name in main_source.keys():
     if not main_source[glyph_name].components:
         continue  # We only care about composites.
 

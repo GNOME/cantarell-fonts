@@ -568,6 +568,7 @@
           <string>idieresisacute</string>
           <string>idotaccent</string>
           <string>idotbelow</string>
+          <string>idotbelow.dotless</string>
           <string>ie-cy</string>
           <string>iebreve-cy</string>
           <string>iegrave-cy</string>
@@ -580,6 +581,7 @@
           <string>imacron-cy</string>
           <string>io-cy</string>
           <string>iogonek</string>
+          <string>iogonek.dotless</string>
           <string>iotadasia</string>
           <string>iotadasiaoxia</string>
           <string>iotadasiaperispomeni</string>
@@ -1189,11 +1191,13 @@
       <string>idieresisacute</string>
       <string>idotaccent</string>
       <string>idotbelow</string>
+      <string>idotbelow.dotless</string>
       <string>igrave</string>
       <string>ihookabove</string>
       <string>iinvertedbreve</string>
       <string>imacron</string>
       <string>iogonek</string>
+      <string>iogonek.dotless</string>
       <string>itilde</string>
       <string>j</string>
       <string>jdotless</string>
@@ -3485,6 +3489,8 @@
       <string>base</string>
       <key>idotbelow</key>
       <string>base</string>
+      <key>idotbelow.dotless</key>
+      <string>base</string>
       <key>idotless</key>
       <string>base</string>
       <key>ie-cy</key>
@@ -3512,6 +3518,8 @@
       <key>io-cy</key>
       <string>base</string>
       <key>iogonek</key>
+      <string>base</string>
+      <key>iogonek.dotless</key>
       <string>base</string>
       <key>iota</key>
       <string>base</string>

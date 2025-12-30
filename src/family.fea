@@ -43,8 +43,8 @@ feature ccmp {
 lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb verticallinebelowcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	sub [i i-cy j je-cy iogonek idotbelow]' @CombiningTopAccents by [idotless idotless jdotless jdotless iogonek.dotless idotbelow.dotless];
+	sub [i i-cy j je-cy iogonek idotbelow]' @CombiningNonTopAccents @CombiningTopAccents by [idotless idotless jdotless jdotless iogonek.dotless idotbelow.dotless];
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb ringcomb_acutecomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb strokeshortcomb slashshortcomb slashlongcomb macroncomb.narrow ogonekcomb.tall brevecomb-cy descender-cy dasia dasiaoxia dasiavaria koronis oxia psili psilioxia psiliperispomeni psilivaria tonos varia vrachy];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case macroncomb.narrow.case ogonekcomb.tall.case brevecomb-cy.case descender-cy.case dasia.case dasiaoxia.case dasiavaria.case koronis.case oxia.case psili.case psilioxia.case psiliperispomeni.case psilivaria.case tonos.case varia.case vrachy.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;

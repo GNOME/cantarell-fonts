@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import ufoLib2
+from ufo2ft.util import makeOfficialGlyphOrder
 
 
 source_directory = Path(__file__).parent.parent / "src"
@@ -45,5 +46,7 @@ for ufo_path in source_directory.glob("*.ufo"):
             }
         )
     }
+
+    ufo.lib["public.glyphOrder"] = makeOfficialGlyphOrder(ufo)
 
     ufo.save()
