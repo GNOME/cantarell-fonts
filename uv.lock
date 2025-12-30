@@ -100,7 +100,7 @@ wheels = [
 
 [[package]]
 name = "cantarell-fonts"
-version = "0.303"
+version = "0.310"
 source = { virtual = "." }
 dependencies = [
     { name = "afdko" },

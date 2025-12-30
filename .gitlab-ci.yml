@@ -1,21 +1,13 @@
-variables:
-  UV_CACHE_DIR: .uv-cache
-
-default:
+build-fonts:
   image: "registry.fedoraproject.org/fedora:latest"
+  variables:
+    UV_CACHE_DIR: .uv-cache
   cache:
     - key:
         files:
           - uv.lock
       paths:
         - $UV_CACHE_DIR
-  artifacts:
-    paths:
-      - build_fonts/meson-dist
-      - prebuilt/*.otf
-    expire_in: 7 days
-
-build-fonts:
   before_script:
     - dnf install -y git-core libappstream-glib-devel gettext uv
   script:
@@ -23,3 +15,8 @@ build-fonts:
     - uv run nox -s dist
   after_script:
     - uv cache prune --ci
+  artifacts:
+    paths:
+      - build_fonts/meson-dist/*
+      - prebuilt/*.otf
+    expire_in: 7 days
