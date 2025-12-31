@@ -3,6 +3,7 @@
 - Extend ss01 to all lowercase 'l' characters and add a feature name (contributed by Jake Maddox).
 - Improve autohinting of 'я' and disable autohinting for 'Ф' because it rendered badly.
 - Static fonts will now have PANOSE values. They're incomplete, but better than nothing.
+- The VF will carry a name ID 25 to help e.g. Adobe apps tell it apart from the statics. Maybe it also helps other apps.
 - Implement soft-dotting for more glyphs (see https://googlefonts.github.io/gf-guide/diacritics.html#soft-dotted-glyphs for more info).
 - Remove unreachable glyphs from font, lightening them by a few bytes.
 - New, updated and fixed appstream translations:

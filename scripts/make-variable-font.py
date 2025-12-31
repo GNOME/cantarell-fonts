@@ -50,6 +50,10 @@ varfont = ufo2ft.compileVariableCFF2(
     optimizeCFF=ufo2ft.CFFOptimization.NONE,
 )
 
+# 2.5. Add an identifier that some apps like Adobe's need to correctly handle the font.
+names = varfont["name"]
+names.setName("CantarellVF", nameID=25, platformID=3, platEncID=1, langID=0x409)
+
 # 3. Save. External tools after this point.
 varfont.save(output_path)
 
