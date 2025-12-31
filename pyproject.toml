@@ -1,27 +1,23 @@
 [project]
 name = "cantarell-fonts"
 version = "0.310"
-description = "Add your description here"
+description = "The Cantarell typeface family is a contemporary Humanist sans serif."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "afdko>=4.0.3",
-    "attrs>=18.2",
-    "fontMath>=0.5.0",
-    "fontTools[ufo,lxml,unicode]>=4.0.0",
+    "fontTools[ufo,lxml,unicode]>=4.61.1",
     "meson",
     "ninja",
-    "skia-pathops",
-    "ufo2ft>=2.15.0",
-    "ufoLib2>=0.4.0",
+    "skia-pathops>=0.9.1",
+    "ufo2ft>=3.7.0",
+    "ufoLib2>=0.18.1",
     "uharfbuzz>=0.53.2",
 ]
 
 [dependency-groups]
 dev = [
     "glyphsLib",
-    "mypy",
     "nox",
     "nox_uv",
-    "pylint",
 ]
