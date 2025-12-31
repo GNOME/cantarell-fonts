@@ -14,6 +14,14 @@ from clean_font import clean_font
 from skip_autohinting import SKIP_AUTOHINTING
 from ufo2ft import instantiator
 
+# https://gitlab.gnome.org/GNOME/cantarell-fonts/-/issues/55
+try:
+    import pathops  # noqa
+
+    have_pathops = True
+except ImportError:
+    have_pathops = False
+
 
 def generate_and_write_autohinted_instance(
     instantiator: instantiator.Instantiator,
@@ -39,7 +47,7 @@ def generate_and_write_autohinted_instance(
     instance_font = ufo2ft.compileOTF(
         instance,
         removeOverlaps=True,
-        overlapsBackend="pathops",
+        overlapsBackend="pathops" if have_pathops else "booleanOperations",
         inplace=True,
         useProductionNames=True,
         optimizeCFF=ufo2ft.CFFOptimization.NONE,
