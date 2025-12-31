@@ -1,4 +1,5 @@
 0.310
+- Aside, packagers please note: I recommend installing only the VF by default to avoid duplicate font entries (VF and statics have the same family name). When apps have issues with just the VF, please report them upstream.
 - Extend ss01 to all lowercase 'l' characters and add a feature name (contributed by Jake Maddox).
 - Improve autohinting of 'я' and disable autohinting for 'Ф' because it rendered badly.
 - Static fonts will now have PANOSE values. They're incomplete, but better than nothing.
