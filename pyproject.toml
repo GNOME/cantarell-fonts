@@ -3,7 +3,7 @@ name = "cantarell-fonts"
 version = "0.310"
 description = "The Cantarell typeface family is a contemporary Humanist sans serif."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "afdko>=4.0.3",
     "fontTools[ufo,lxml,unicode]>=4.61.1",
