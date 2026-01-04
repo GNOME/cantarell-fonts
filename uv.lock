@@ -139,7 +139,7 @@ wheels = [
 
 [[package]]
 name = "cantarell-fonts"
-version = "0.310"
+version = "0.311"
 source = { virtual = "." }
 dependencies = [
     { name = "afdko" },
@@ -154,6 +154,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "glyphconstruction" },
     { name = "glyphslib" },
     { name = "nox" },
     { name = "nox-uv" },
@@ -173,6 +174,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "glyphconstruction", git = "https://github.com/typemytype/GlyphConstruction.git" },
     { name = "glyphslib" },
     { name = "nox" },
     { name = "nox-uv" },
@@ -458,6 +460,11 @@ woff = [
 ]
 
 [[package]]
+name = "glyphconstruction"
+version = "0.0.5"
+source = { git = "https://github.com/typemytype/GlyphConstruction.git#32b1c14a748ca5e56c1beb5f9d571febd895e062" }
+
+[[package]]
 name = "glyphslib"
 version = "6.12.6"
 source = { registry = "https://pypi.org/simple" }
@@ -674,14 +681,14 @@ wheels = [
 
 [[package]]
 name = "nox-uv"
-version = "0.6.3"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "nox" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/70/af/ebc522c51facc3b7d26df1c5bc0b72baadb33ce4d539cf66758f22008f6c/nox_uv-0.6.3.tar.gz", hash = "sha256:7940dc4fed7326d00c9687d6dac65d625db21064dd02631af64cfdfa738e817b", size = 4992, upload-time = "2025-10-23T01:32:53.774Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9f/a2/be2f4d0fd1632213eb5962c8e5ee27def06305403786e21fc3179c7e26e6/nox_uv-0.7.0.tar.gz", hash = "sha256:60ac21c16650f05ebb520d737cc2e838c7a49be2ad1dbcd7165ffd3675560991", size = 5077, upload-time = "2026-01-03T19:54:59.283Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/98/cc/32317fd187febd9b2c5dc6cad4d25b358bd3c289958a00b78d94dbddf481/nox_uv-0.6.3-py3-none-any.whl", hash = "sha256:650cc4dafcde281a77d0526ac9ff9c92de5cd7759ecc9fdbf98393e4ab24490f", size = 5315, upload-time = "2025-10-23T01:32:52.977Z" },
+    { url = "https://files.pythonhosted.org/packages/86/94/afa119b031c08e74a2e078260c5cdbb56b53949e5d2a0158215e8c265e12/nox_uv-0.7.0-py3-none-any.whl", hash = "sha256:51f9bb68ca6d721706f6372f0dec8ebfcc00408c2172b2bfeb6a6c06d9e3ab38", size = 5408, upload-time = "2026-01-03T19:54:57.798Z" },
 ]
 
 [[package]]

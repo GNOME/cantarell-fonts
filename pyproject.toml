@@ -1,6 +1,6 @@
 [project]
 name = "cantarell-fonts"
-version = "0.310"
+version = "0.311"
 description = "The Cantarell typeface family is a contemporary Humanist sans serif."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,7 +17,11 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "glyphconstruction",
     "glyphsLib",
     "nox",
     "nox_uv",
 ]
+
+[tool.uv.sources]
+glyphconstruction = { git = "https://github.com/typemytype/GlyphConstruction.git" }
